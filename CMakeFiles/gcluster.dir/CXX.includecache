@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/csv-reader/csv-reader.cpp
+csv-reader.h
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/csv-reader/csv-reader.h
+
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/csv-reader/csv-reader.h
+iostream
+-
+fstream
+-
+vector
+-
+
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/src/gluster.cpp
+csv-reader.h
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/src/csv-reader.h
+
+csv-reader/csv-reader.h
+iostream
+-
+fstream
+-
+vector
+-
+

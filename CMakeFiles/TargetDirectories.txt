@@ -1,0 +1,3 @@
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/CMakeFiles/rebuild_cache.dir
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/CMakeFiles/edit_cache.dir
+/Users/rbrandao/Dropbox/Mestrado/repos/grid-clustering/CMakeFiles/gcluster.dir
