@@ -1,3 +1,6 @@
 [submodule "csv-reader"]
 	path = csv-reader
 	url = ../csv-reader/
+[submodule "point"]
+	path = point
+	url = ../point/

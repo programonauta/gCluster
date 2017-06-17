@@ -13,6 +13,9 @@ build
 # build directory
 build
 
+#CMakeFiles directory
+CMakeFiles
+
 # Compiled Object files
 *.slo
 *.lo
