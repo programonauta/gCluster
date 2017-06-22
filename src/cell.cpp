@@ -64,3 +64,17 @@ bool Cell::insertPoint(Point coordPoint)
 
   return true;
 }
+
+bool areAdjacents(Cell *cell1, Cell *cell2)
+{
+
+  if (cell1->coord == cell2->coord) // The two cells are the same
+    return false;
+  for (int i=0; i<cell1->coord.size(); i++)
+    if (abs(cell1->coord[i]-cell2->coord[i])>1)
+      return false;
+
+  return true;
+
+}
+

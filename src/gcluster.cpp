@@ -14,10 +14,27 @@ bool isDouble(const char *str)
   return !((endptr == str));
 }
 
+char* getCmdOption(char ** begin, char ** end, const std::string & option) 
+{
+  char ** itr = std::find(begin, end, option);
+  if (itr != end && ++itr != end)
+  {
+    return *itr;
+  }
+  return 0;
+}
+
+bool cmdOptionExists(char** begin, char** end, const std::string& option)
+{
+  return std::find(begin, end, option) != end;
+}
+
 int main(int argc, char* argv[]) 
 {
   ifstream infile;
-  string input = "../data/input.csv";
+  string input = "../data/input.csv"; 
+  string outputNodes = "nodes.txt";
+  string outputEdges = "edges.txt";
   string value;
   int lineNo = 0;
   int fieldCount = 0;
@@ -26,6 +43,8 @@ int main(int argc, char* argv[])
   double dataVar = 0.;
   vector<string> lineCSV, headerCSV;
   vector<Cell*> listCells; // Vector of Cells
+  vector<Edge> listEdges; // Vector of Edges
+  vector<Cell*> roots;    // Vector of cluster's roots
   vector<double> maxValue, minValue;
 
   int epsilon = 10; // Epsilon: number of divisions
@@ -33,6 +52,69 @@ int main(int argc, char* argv[])
   cout << "Grid Clustering algorithm" << endl;
   cout << "developed by ricardo brandao - https://github.com/programonauta/grid-clustering" << endl;
   cout << "===============================================================================\n" << endl;
+
+// Verify command line options
+//   
+// Show help message if -h or there is no command options
+  if (argc <= 1 || cmdOptionExists(argv, argv+argc, "-h")) {
+    cout << "OVERVIEW: Clustering data using grid-based algorithm" << endl;
+    cout << "          The program output node and edges file in a format " << 
+      "to be imported by Gephi software" << endl;
+    cout << endl;
+    cout << "USAGE: gcluster <options>" << endl;
+    cout << endl;
+    cout << "OPTIONS: " << endl;
+    cout << "-e <value>\tvalue of epsilon (default: 10)" << endl;
+    cout << "-if <file>\tinput file (default: ../data/input.csv)" << endl;
+    cout << "-nf <file>\tnodes output file (default: nodes.txt)" << endl;
+    cout << "-ef <file>\tedge output file (default: output.txt)" << endl;
+    return 0;
+  }
+
+  // Verify epsilon option
+  if (cmdOptionExists(argv, argv+argc, "-e"))
+    epsilon = atoi(getCmdOption(argv, argv+argc, "-e"));
+
+  if (epsilon < 1)
+    epsilon = 10;
+
+  cout << "Parameters" << endl;
+  cout << "----------" << endl;
+
+  cout << "epsilon: " << epsilon << endl;
+
+  if (cmdOptionExists(argv, argv+argc, "-if")) 
+  {
+    input = string(getCmdOption(argv, argv+argc, "-if"));
+
+    if (input == "")
+      input = "../data/input.txt";
+  }
+
+  cout << "Input file: " << input << endl;
+
+  if (cmdOptionExists(argv, argv+argc, "-nf")) 
+  {
+    outputNodes = string(getCmdOption(argv, argv+argc, "-nf"));
+
+    if (input == "")
+      outputNodes = "nodes.txt";
+  }
+
+  cout << "Nodes file: " << outputNodes << endl;
+
+  if (cmdOptionExists(argv, argv+argc, "-ef")) 
+  {
+    outputEdges = string(getCmdOption(argv, argv+argc, "-ef"));
+
+    if (input == "")
+      outputEdges = "edges.txt";
+  }
+
+  cout << "Edges file: " << outputEdges << endl;
+
+  cout << endl <<"Running" << endl;
+  cout << "-------" << endl;
 
   infile.open(input.c_str());
   if (!infile)
@@ -174,17 +256,8 @@ int main(int argc, char* argv[])
 
     for (int i=0; i<listCells.size(); i++) // Search cells
     {
-      bool foundCell = true;
-      // Start the comparison btw listCells and current cell
-      for (int j=0; j<dimension; j++)
-      {
-        if (listCells[i]->coord[j] != coordCell[j]) // At least one dimension is different
-        {
-          foundCell = false;
-          break;
-        }
-      }
-      if (foundCell) // all coordinates are equal
+      // Compare listCells and current cell
+      if (coordCell == listCells[i]->coord) // all coordinates are equal
       {
         pNewCell = listCells[i];
         break;
@@ -206,12 +279,43 @@ int main(int argc, char* argv[])
       return 1;
     }
 
-
     lineCSV.resize(0);
   }
 
+  Point a(dimension);
+
   cout << "CSV File - Total of " << lineNo << " lines of data read" << endl;
   cout << "Number of Cells: " << listCells.size() << endl;
-  cout << "Size of Cells: " << sizeof(listCells) << endl;
+  cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() <<
+    " Size of Points: " << sizeof(a) * lineNo << endl;
+
+  if (listCells.size() == 0) 
+  {
+    cout << "Error on algorithm: There is no cells" << endl;
+    return 1;
+  }
+
+  cout << "-------------------" << endl;
+  cout << "Starting clustering" << endl;
+  cout << "-------------------" << endl ;
+
+  // Put the first cell as root;
+
+  roots.push_back(listCells[0]);
+
+  // iterate all cells until penultimate cell
+  for (int i = 0; i<listCells.size() - 1; i++)
+  {
+    // test next cell until end
+    bool hasAdjacent = false;
+    for (int j = i+1; j<listCells.size(); j++)
+    {
+      if (areAdjacents(listCells[i], listCells[j]))
+      {
+        cout << "Cells " << i << " and " << j << " are adjacents\n";
+        hasAdjacent = true;
+      }
+    }
+  }
 
 }

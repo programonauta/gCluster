@@ -13,14 +13,12 @@ class Cell
 
     // Coordinates of cel
     vector<int> coord;       // Cell coordinates
-    vector<Cell*> adjCells;  // Adjacents cells
-
     // Methods
     
     // Constructor
     Cell(int dimen = 2);
 
-    // Method to get dimension of cell
+    // Methods to get private variables 
     int getDimension();
 
     Point getCenterMass();
@@ -39,5 +37,17 @@ class Cell
     long qtyPoints;
 
 };
+
+// Define de Edges of a graph of cells
+class Edge
+{
+  public:
+
+    Cell from, to;
+    
+    double attractionForce;
+};
+
+bool areAdjacents(Cell *cell1, Cell *cell2);
 
 #endif
