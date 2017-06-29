@@ -2,9 +2,9 @@
 // Read file csv
 //
 
+#include <math.h>
 #include "cell.h"
 #include "csv-reader.h"
-
 
 bool isDouble(const char *str)
 {
@@ -39,15 +39,21 @@ int main(int argc, char* argv[])
   int lineNo = 0;
   int fieldCount = 0;
   int dimension;
+  int noFields;  // number of fields
   size_t lfFound;
   double dataVar = 0.;
-  vector<string> lineCSV, headerCSV;
+  vector<string> lineCSV, headerCSV, clusterFields;
   vector<Cell*> listCells; // Vector of Cells
   vector<Edge> listEdges; // Vector of Edges
   vector<Cell*> roots;    // Vector of cluster's roots
   vector<double> maxValue, minValue;
 
+  FILE* pFileNodes;
+  FILE* pFileEdges;
+
+
   int epsilon = 10; // Epsilon: number of divisions
+  int minPoints = 3; // Minimum number of points
 
   cout << "Grid Clustering algorithm" << endl;
   cout << "developed by ricardo brandao - https://github.com/programonauta/grid-clustering" << endl;
@@ -65,11 +71,15 @@ int main(int argc, char* argv[])
     cout << endl;
     cout << "OPTIONS: " << endl;
     cout << "-e <value>\tvalue of epsilon (default: 10)" << endl;
+    cout << "-mp <value>\tMinimum Points (default: 3)" << endl;
     cout << "-if <file>\tinput file (default: ../data/input.csv)" << endl;
     cout << "-nf <file>\tnodes output file (default: nodes.txt)" << endl;
     cout << "-ef <file>\tedge output file (default: output.txt)" << endl;
     return 0;
   }
+
+  cout << "Parameters" << endl;
+  cout << "----------" << endl;
 
   // Verify epsilon option
   if (cmdOptionExists(argv, argv+argc, "-e"))
@@ -78,10 +88,15 @@ int main(int argc, char* argv[])
   if (epsilon < 1)
     epsilon = 10;
 
-  cout << "Parameters" << endl;
-  cout << "----------" << endl;
-
   cout << "epsilon: " << epsilon << endl;
+
+  if (cmdOptionExists(argv, argv+argc, "-mp"))
+    minPoints = atoi(getCmdOption(argv, argv+argc, "-mp"));
+
+  if (minPoints < 1)
+    minPoints = 3;
+
+  cout << "Min Points: " << minPoints << endl;
 
   if (cmdOptionExists(argv, argv+argc, "-if")) 
   {
@@ -123,6 +138,25 @@ int main(int argc, char* argv[])
     return 1;
   }
 
+  pFileNodes = fopen(outputNodes.c_str(), "w");
+
+  if (pFileNodes == NULL)
+  {
+    cout << "Error: Unable do open nodes output file." << endl;
+    infile.close();
+    return 1;
+  }
+
+  pFileEdges = fopen(outputEdges.c_str(), "w");
+
+  if (pFileEdges == NULL)
+  {
+    cout << "Error: Unable do open edges output file." << endl;
+    infile.close();
+    fclose(pFileNodes);
+    return 1;
+  }
+
   int r = 0;
 
   if (!getCSVLine(infile, headerCSV))
@@ -131,36 +165,90 @@ int main(int argc, char* argv[])
     return 1;
   }
 
-  dimension = headerCSV.size();
+  noFields = headerCSV.size(); // Define number of fields
 
-  cout << "Reading CSV File header. Dimensions:" << dimension << endl;
+  cout << "Reading CSV File header. Number of Fields:" << noFields << endl;
 
   for (int i = 0; i < headerCSV.size(); i++)
     cout << (i?",": "") << headerCSV[i];
 
   cout << endl;
 
+  if (!getCSVLine(infile, clusterFields))
+  {
+    cout << "Error reading CSV File (Header) on Clusters Line" << endl;
+    return 1;
+  }
+  
+  if (clusterFields.size() != noFields) 
+  {
+    cout << "Error reading CSV File (Header): Clusters Line (line 2)- "
+      << "number of fields doesn't "
+      << "match. Read " << clusterFields.size() << " Expected: " << noFields 
+      << " fields " << endl;
+    return 1;
+  }
+
+  dimension = 0;
+  for (int i = 0; i < clusterFields.size(); i++)
+  {
+    if (clusterFields[i] != "C" && clusterFields[i] != "N")
+    {
+      cout << "Error reading CSV File (Header): Clusters Line (line 2)" 
+        << "- Invalid Parameter" 
+        << " on field " << i+1 << " \"" << clusterFields[i] << "\"" 
+        << " Must be \"C\" (C)luster Field " <<
+        " or \"N\" (N)ot a Cluster Field " << endl;
+      return 1;
+    }
+    if (clusterFields[i] == "C")
+      dimension++;
+  }
+
+  if (dimension == 0)
+  {
+    cout << "Error reading CSV File (Header): Cluster Line (line 2) " 
+      << "- There is not clusters fields "
+      << endl;
+    return 1;
+  }
+
+  cout << "CSV File - Dimension: " << dimension << endl; 
+
+  cout << "Fields used on clustering: ";
+
+  for (int i = 0; i < clusterFields.size(); i++)
+  {
+    if (clusterFields[i] == "C")
+      cout << headerCSV[i] << " ";
+  }
+
+  cout << endl;
+    
+
   if (!getCSVLine(infile, lineCSV))
   {
-    cout << "Error reading CSV File (Header) on Max line" << endl;
+    cout << "Error reading CSV File (Header) on Max line (line 3)" << endl;
     return 1;
   }
 
-  if (lineCSV.size() != dimension)  // Test if line of max values has the same dimension than header
+  if (lineCSV.size() != noFields)  // Test if line of max values has the same number of fields than header
   {
-    cout << "Error reading CSV File (Header): Max line - dimension doesn't match. Read "  
-      << lineCSV.size() << " Expected: " << dimension << " dimensions"  << endl ; 
+    cout << "Error reading CSV File (Header): Max line (line 3)" 
+      << "- number of fields doesn't match. " 
+      << " Read " << lineCSV.size() << " Expected: " << noFields <<  endl ; 
     return 1;
   }
 
-  maxValue.resize(dimension);
-  minValue.resize(dimension);
+  maxValue.resize(noFields);
+  minValue.resize(noFields);
 
-  for (int i = 0; i < dimension; i++)
+  for (int i = 0; i < noFields; i++)
   {
     if (!isDouble(lineCSV[i].c_str()))
     { 
-      cout << "Error reading CSV File (Header): Max line Field number " << i+1 << ", " 
+      cout << "Error reading CSV File (Header): Max line (line 3)" 
+        << " Field number " << i+1 << ", " 
         << lineCSV[i] << " is not double" << endl;
       return 1;
     }
@@ -173,22 +261,23 @@ int main(int argc, char* argv[])
 
   if (!getCSVLine(infile, lineCSV))
   {
-    cout << "Error reading CSV File (Header) on Min line" << endl;
+    cout << "Error reading CSV File (Header) on Min line (line 4)" << endl;
     return 1;
   }
 
-  if (lineCSV.size() != dimension)  // Test if line of min values has the same dimension than header
+  if (lineCSV.size() != noFields) // Test if line of min values has the same dimension than header
   {
-    cout << "Error reading CSV File (Header): Min line - dimension doesn't match. Read " << lineCSV.size() 
-      << " Expected: " << dimension << " dimensions"  << endl ; 
+    cout << "Error reading CSV File (Header): Min line (line 4) - number of fields " 
+      << "doesn't match. Read " << lineCSV.size() << " Expected: " << noFields << endl ; 
     return 1;
   }
 
-  for (int i = 0; i < dimension; i++)
+  for (int i = 0; i < noFields; i++)
   {
     if (!isDouble(lineCSV[i].c_str()))
     { 
-      cout << "Error reading CSV File (Header): Min line Field number " << i+1 << ", " 
+      cout << "Error reading CSV File (Header): Min line (line 4)" 
+        << " Field number " << i+1 << ", " 
         << lineCSV[i] << " is not double" << endl;
       return 1;
     }
@@ -196,7 +285,8 @@ int main(int argc, char* argv[])
 
     if (minValue[i] >= maxValue[i]) // Test if min value is greater or equal than max value
     {
-      cout << "Error reading CSV File (Header): Min value gretaer or equal than Max value for dimension " 
+      cout << "Error reading CSV File (Header) - line 4: Min value gretaer or equal"
+        << "than Max value for dimension " 
         << i+1 << ": " << minValue[i] << " isn't less than " << maxValue[i] << endl;
       return 1;
     }
@@ -208,7 +298,7 @@ int main(int argc, char* argv[])
 
   cout << "CSV File - Reading Data" << endl;
 
-  // Start read data (3rd line)
+  // Start read data (5th line)
 
   while (infile)
   {
@@ -216,27 +306,33 @@ int main(int argc, char* argv[])
     ++lineNo;
     if (!r)
     {
-      cout << "Error reading CSV File (Data) on Line " << lineNo << "\n";
+      cout << "Error reading CSV File (Data) on Line " << lineNo + 4  << "\n";
       return 1;
     }
-    if (lineCSV.size() != dimension)
+    if (lineCSV.size() != noFields)
     {
-      cout << "Error reading CSV File (Data) on Line " << lineNo << ": dimension doesn't match" << endl;
+      cout << "Error reading CSV File (Data) on Line " << lineNo + 4 << ": number of "
+        << "fields doesn't match" << endl;
       return 1;
     }
 
     Point sample(dimension);
 
+    int posSample = 0;
+
     for (int i = 0; i < lineCSV.size(); i++)
     {
+      if (clusterFields[i] != "C")
+        continue;
       if (!isDouble(lineCSV[i].c_str()))
       {
-        cout << "Error reading CSV File (Data) on Line: " << lineNo << ", Field: " << i+1 << " (" 
-          << lineCSV[i] << ") is not double" << endl;
+        cout << "Error reading CSV File (Data) on Line: " << lineNo + 4 << ", Field: "
+          << i+1 << " \"" 
+          << lineCSV[i] << "\" is not double" << endl;
         return 1;
       }
       // Update the coordinates with normalized values
-      sample.coord[i] = ((stod(lineCSV[i])-minValue[i])/(maxValue[i]-minValue[i]));
+      sample.coord[posSample++] = ((stod(lineCSV[i])-minValue[i])/(maxValue[i]-minValue[i]));
     }
 
     // Here we know the CSV line is correct, so let's create a sample normalized
@@ -272,12 +368,13 @@ int main(int argc, char* argv[])
       listCells.push_back(pNewCell);
     }
 
-
     if (!pNewCell->insertPoint(sample))
     {
       cout << "Error on insert Point on Cell - Line " << lineNo << endl;
       return 1;
     }
+
+    cout << flush <<  "Number of Lines: " << lineNo << " Number of Cells: " << listCells.size() << "\r";
 
     lineCSV.resize(0);
   }
@@ -295,27 +392,99 @@ int main(int argc, char* argv[])
     return 1;
   }
 
-  cout << "-------------------" << endl;
-  cout << "Starting clustering" << endl;
-  cout << "-------------------" << endl ;
-
-  // Put the first cell as root;
+  cout << "------------------------------" << endl;
+  cout << "Creating Nodes and Edges files" << endl;
+  cout << "------------------------------" << endl ;
 
   roots.push_back(listCells[0]);
 
-  // iterate all cells until penultimate cell
-  for (int i = 0; i<listCells.size() - 1; i++)
+  // -----------------------
+  // nodes.txt file
+  // -----------------------
+  
+  // Create header of nodes.txt file
+
+  fprintf(pFileNodes, "id,Label,Number_Points");
+
+  // Labels from coordinates
+  for (int i=0; i < dimension; i++)
+    fprintf(pFileNodes, ",Coord-%d", i); 
+
+  // Labels of dimensions
+  for (int i=0; i < headerCSV.size(); i++)
   {
+    if (clusterFields[i]=="C")
+      fprintf(pFileNodes, ",%s", headerCSV[i].c_str());
+  }
+
+  fprintf(pFileNodes, "\n");
+
+  // -------------------------
+  // edges.txt file
+  // -------------------------
+
+  // Create edge header
+  
+  fprintf(pFileEdges, "Source,Target,Type,Id,Label,Weight\n");
+
+  int labelEdge = 0;
+
+  // iterate all cells until penultimate cell
+  for (int i = 0; i<listCells.size(); i++)
+  {
+    fprintf(pFileNodes, "%d,%d", i, i);
+
+    // Number of points
+    fprintf(pFileNodes, ",%ld", listCells[i]->getQtyPoints());
+
+    // Cell's coordinates
+    for (int j = 0; j < listCells[i]->coord.size(); j++)
+      fprintf(pFileNodes, ",%d", listCells[i]->coord[j]);
+
+    Point CM = listCells[i]->getCenterMass(); // Center of mass
+    // Center of mass coordinates
+    for (int j = 0; j < listCells[i]->coord.size(); j++)
+      fprintf(pFileNodes, ",%f", CM.coord[j]);
+
+    fprintf(pFileNodes, "\n");
+
+    // if we are at last cell, there is not a next cell, so we can exit the loop
+
+    if (i==listCells.size()-1)
+      break;
+
+    // Verify the quantity of points
+    if (listCells[i]->getQtyPoints() < minPoints)
+      continue;
+
     // test next cell until end
     bool hasAdjacent = false;
     for (int j = i+1; j<listCells.size(); j++)
     {
+      // Verify the quantity of points
+      if (listCells[j]->getQtyPoints() < minPoints)
+        continue;
+
       if (areAdjacents(listCells[i], listCells[j]))
       {
-        cout << "Cells " << i << " and " << j << " are adjacents\n";
+        long qtdPointsI = listCells[i]->getQtyPoints();
+        long qtdPointsJ = listCells[j]->getQtyPoints();
+        fprintf(pFileEdges, "%d,%d,Directed,%d,%d,%f\n", 
+            (qtdPointsI>qtdPointsJ?j:i),
+            (qtdPointsI>qtdPointsJ?i:j),
+            labelEdge,labelEdge,
+            (qtdPointsI * qtdPointsJ * 6.67e-11) /
+            pow(listCells[i]->getCenterMass().dist(listCells[j]->getCenterMass()),2)
+            ); 
         hasAdjacent = true;
+        labelEdge++;
       }
     }
+
   }
+
+  infile.close();
+  fclose(pFileNodes);
+  fclose(pFileEdges);
 
 }

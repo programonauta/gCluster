@@ -60,7 +60,9 @@ bool Cell::insertPoint(Point coordPoint)
 
   // Calculate the new center of mass
   for (int i=0; i<this->dimen; i++)
-    this->centerMass.coord[i] = (this->centerMass.coord[i] + coordPoint.coord[i]) / this->qtyPoints;
+    this->centerMass.coord[i] = 
+      ((this->centerMass.coord[i] * (this->qtyPoints-1))+ coordPoint.coord[i]) / 
+      this->qtyPoints;
 
   return true;
 }
