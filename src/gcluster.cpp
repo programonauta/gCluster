@@ -32,9 +32,11 @@ bool cmdOptionExists(char** begin, char** end, const std::string& option)
 int main(int argc, char* argv[]) 
 {
   ifstream infile;
+  ofstream svgFile;
   string input = "../data/input.csv"; 
   string outputNodes = "nodes.txt";
   string outputEdges = "edges.txt";
+  string outputSVG = "graph.svg";
   string value;
   int lineNo = 0;
   int fieldCount = 0;
@@ -213,6 +215,39 @@ int main(int argc, char* argv[])
     return 1;
   }
 
+  float graphMult = 50.0;
+
+  if (dimension == 2) // Create graph only if dimension = 2
+  {
+    svgFile.open(outputSVG, std::ifstream::out);
+    svgFile << "<?xml version=\"1.0\" standalone=\"no\"?>" << endl
+      << "<svg width=\"" << graphMult*1.2 << "cm\" height=\"" << graphMult * 1.2 << "cm\" version=\"1.1\"" << endl
+      << "xmlns=\"http://www.w3.org/2000/svg\">" << endl
+      << "<desc>Graph bi-dimensional </desc>" << endl
+      // Display External Rectangle 
+      << "<rect x=\"" << graphMult * 0.1 << "cm\" "
+      << "y=\"" << graphMult * 0.1 << "cm\" "
+      << "width=\"" << graphMult << "cm\" "
+      << "height=\"" << graphMult << "cm\" "
+      << "fill=\"none\" stroke=\"black\" stroke-width=\"" << graphMult * 0.002 << "cm\" />" << endl;
+    // Display Horizontal and Vertical Grids
+    svgFile << "<g stroke=\"gray\" stroke-width=\"" << graphMult * 0.025 / epsilon << "cm\">" << endl;
+    for (int i = 1; i < epsilon; i++)
+    {
+      // Vertical Grids
+      svgFile << "<line x1=\"" << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
+        << "y1=\"" << graphMult * .1 << "cm\" " 
+        << "x2=\"" << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
+        << "y2=\"" << graphMult * 1.1 << "cm\" />" << endl;
+      // Horizontal Grids
+      svgFile << "<line y1=\"" << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
+        << "x1=\"" << graphMult * .1 << "cm\" " 
+        << "y2=\"" << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
+        << "x2=\"" << graphMult * 1.1 << "cm\" />" << endl;
+    }
+    svgFile <<"</g>" << endl;
+  }
+
   cout << "CSV File - Dimension: " << dimension << endl; 
 
   cout << "Fields used on clustering: ";
@@ -224,7 +259,6 @@ int main(int argc, char* argv[])
   }
 
   cout << endl;
-    
 
   if (!getCSVLine(infile, lineCSV))
   {
@@ -335,6 +369,15 @@ int main(int argc, char* argv[])
       sample.coord[posSample++] = ((stod(lineCSV[i])-minValue[i])/(maxValue[i]-minValue[i]));
     }
 
+
+    if (dimension == 2) // Plot Points on SVG file
+    {
+      svgFile << "<circle cx=\"" << (float)(sample.coord[0]*graphMult)+graphMult*.1 << "cm\" " 
+        << "cy=\"" << (float) graphMult*1.1-(float)(sample.coord[1]*graphMult) 
+        << "cm\" r=\"" << graphMult * 0.002 << "cm\" fill=\"red\"" 
+        << " />" << endl;
+    }
+
     // Here we know the CSV line is correct, so let's create a sample normalized
 
     Cell* pNewCell;
@@ -401,7 +444,7 @@ int main(int argc, char* argv[])
   // -----------------------
   // nodes.txt file
   // -----------------------
-  
+
   // Create header of nodes.txt file
 
   fprintf(pFileNodes, "id,Label,Number_Points");
@@ -424,7 +467,7 @@ int main(int argc, char* argv[])
   // -------------------------
 
   // Create edge header
-  
+
   fprintf(pFileEdges, "Source,Target,Type,Id,Label,Weight\n");
 
   int labelEdge = 0;
@@ -459,6 +502,9 @@ int main(int argc, char* argv[])
 
     // test next cell until end
     bool hasAdjacent = false;
+
+    svgFile << "<g stroke=\"blue\" stroke-width=\"" << graphMult * 0.05 / epsilon << "cm\">" << endl;
+
     for (int j = i+1; j<listCells.size(); j++)
     {
       // Verify the quantity of points
@@ -467,20 +513,37 @@ int main(int argc, char* argv[])
 
       if (areAdjacents(listCells[i], listCells[j]))
       {
+        bool gravitational = false;
         long qtdPointsI = listCells[i]->getQtyPoints();
         long qtdPointsJ = listCells[j]->getQtyPoints();
         fprintf(pFileEdges, "%d,%d,Directed,%d,%d,%f\n", 
             (qtdPointsI>qtdPointsJ?j:i),
             (qtdPointsI>qtdPointsJ?i:j),
             labelEdge,labelEdge,
-            (qtdPointsI * qtdPointsJ * 6.67e-11) /
-            pow(listCells[i]->getCenterMass().dist(listCells[j]->getCenterMass()),2)
+            (gravitational?
+             (qtdPointsI * qtdPointsJ * 6.67e-11) /
+             pow(listCells[i]->getCenterMass().dist(listCells[j]->getCenterMass()),2):
+             listCells[i]->getCenterMass().dist(listCells[j]->getCenterMass()))
             ); 
         hasAdjacent = true;
+
         labelEdge++;
+
+        svgFile << "<line x1=\"" << (float)(listCells[i]->getCenterMass().coord[0]*graphMult)+graphMult*.1 << "cm\" "
+          << "y1=\"" << graphMult*1.1 - (float)(listCells[i]->getCenterMass().coord[1]*graphMult) << "cm\" " 
+          << "x2=\"" << (float)(listCells[j]->getCenterMass().coord[0]*graphMult)+graphMult*.1 << "cm\" "
+          << "y2=\"" << graphMult*1.1 - (float)(listCells[j]->getCenterMass().coord[1]*graphMult) << "cm\" />" << endl;
       }
     }
 
+    svgFile << "</g>" << endl;
+
+  }
+
+  if (dimension == 2)
+  {
+    svgFile << "</svg>";
+    svgFile.close();
   }
 
   infile.close();
