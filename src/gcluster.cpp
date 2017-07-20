@@ -49,6 +49,7 @@ int main(int argc, char* argv[])
   vector<Edge> listEdges; // Vector of Edges
   vector<Cell*> roots;    // Vector of cluster's roots
   vector<double> maxValue, minValue;
+  long qtyCellsVal = 0;
 
   FILE* pFileNodes;
   FILE* pFileEdges;
@@ -230,6 +231,12 @@ int main(int argc, char* argv[])
       << "width=\"" << graphMult << "cm\" "
       << "height=\"" << graphMult << "cm\" "
       << "fill=\"none\" stroke=\"black\" stroke-width=\"" << graphMult * 0.002 << "cm\" />" << endl;
+    // Display Text with parameters
+    svgFile << "<text x=\"" << graphMult * 0.1 << "cm\" "
+      << "y=\"" << graphMult * 0.07 << "cm\" "
+      << "font-family=\"Times New Roman\" font-size=\"" << graphMult * 0.03 << "cm\" fill=\"black\">"
+      << "File Name: " << input << ", Epsilon: " << epsilon << ", Min Points: " << minPoints  
+      << "</text>" << endl;
     // Display Horizontal and Vertical Grids
     svgFile << "<g stroke=\"gray\" stroke-width=\"" << graphMult * 0.025 / epsilon << "cm\">" << endl;
     for (int i = 1; i < epsilon; i++)
@@ -425,9 +432,13 @@ int main(int argc, char* argv[])
   Point a(dimension);
 
   cout << "CSV File - Total of " << lineNo << " lines of data read" << endl;
+  cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
+  cout << "Size of vector: " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
   cout << "Number of Cells: " << listCells.size() << endl;
+  cout << "Size of each cell: " << sizeof(*listCells[0]);
   cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() <<
     " Size of Points: " << sizeof(a) * lineNo << endl;
+
 
   if (listCells.size() == 0) 
   {
@@ -500,6 +511,7 @@ int main(int argc, char* argv[])
     if (listCells[i]->getQtyPoints() < minPoints)
       continue;
 
+    qtyCellsVal++;
     // test next cell until end
     bool hasAdjacent = false;
 
@@ -545,6 +557,9 @@ int main(int argc, char* argv[])
     svgFile << "</svg>";
     svgFile.close();
   }
+
+  cout << "------------------" << endl;
+  cout << "Qty Cells with more then " << minPoints << " points: " << qtyCellsVal << endl;
 
   infile.close();
   fclose(pFileNodes);
