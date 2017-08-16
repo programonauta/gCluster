@@ -4,3 +4,6 @@
 [submodule "point"]
 	path = point
 	url = ../point/
+[submodule "graphs"]
+	path = graphs
+	url = https://github.com/programonauta/graphs.git

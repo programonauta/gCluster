@@ -80,3 +80,34 @@ bool areAdjacents(Cell *cell1, Cell *cell2)
 
 }
 
+// Method to calculate the coordinates of hypercube (or cell)
+// 
+void Cell::calcCubeCoord(vector<vector <double>> &g, vector<double> v, int len, int start, int epsilon)
+{
+  if (len == 0)
+  {
+    g.push_back(v);
+    return;
+  }
+
+  for (int i = 0; i<2; i++)
+  {
+    int d = v.size() - len; // d = dimension 
+    v[d] = (double)this->coord[d]/epsilon + i * (1./epsilon);
+    this->calcCubeCoord(g, v, len-1, i, epsilon);
+  }
+
+  return;
+}
+
+
+vector<vector <double> > Cell::cubeCoord(int epsilon)
+{
+  vector <double> v(this->dimen);
+  vector <vector <double> > g;
+
+  calcCubeCoord(g, v, this->dimen, 0, epsilon);
+
+  return g;
+}
+

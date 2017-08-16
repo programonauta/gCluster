@@ -28,14 +28,18 @@ class Cell
     // Method to insert a new point in the cell
     bool insertPoint(Point coordPoint);
 
-  private:
-    // Dimension
-    int dimen;
-    // Coordinates cell's center of mass 
-    Point centerMass;
-    // Quantity of points
-    long qtyPoints;
+    // Method to return a vector with coordinates of the Cell 
+    vector<vector <double> > cubeCoord(int epslon);
 
+  private:
+      // Dimension
+      int dimen;
+      // Coordinates cell's center of mass 
+      Point centerMass;
+      // Quantity of points
+      long qtyPoints;
+      // recursive method to calculate cube Coordinates
+      void calcCubeCoord(vector<vector <double> > &g, vector<double> v, int len, int start, int epsilon);
 };
 
 // Define de Edges of a graph of cells
@@ -44,7 +48,7 @@ class Edge
   public:
 
     Cell from, to;
-    
+
     double attractionForce;
 };
 

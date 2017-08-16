@@ -6,12 +6,12 @@ build
 *.exe
 *.out
 *.app
-*
+
 !/**/
 !*.*
 
 # build directory
-build
+build/
 
 #CMakeFiles directory
 CMakeFiles

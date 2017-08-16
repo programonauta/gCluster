@@ -6,9 +6,9 @@ set(CMAKE_CXX_COMPILER "g++")
 set(CMAKE_CXX_FLAGS "-std=c++11 -g")
 
 #Bring headers
-include_directories(include csv-reader point)
+include_directories(include csv-reader point graphs)
 
 #Define sources
-file(GLOB SOURCES "src/*.cpp" "csv-reader/*.cpp" "point/*.cpp")
+file(GLOB SOURCES "src/*.cpp" "csv-reader/*.cpp" "point/*.cpp" "graphs/*.cpp")
 
 add_executable(gcluster ${SOURCES})
