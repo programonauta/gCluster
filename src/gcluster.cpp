@@ -80,11 +80,20 @@ int main(int argc, char* argv[])
     cout << "-if <file>\tinput file (default: ../data/input.csv)" << endl;
     cout << "-nf <file>\tnodes output file (default: nodes.txt)" << endl;
     cout << "-ef <file>\tedge output file (default: output.txt)" << endl;
+    cout << "-ndp don't draw points" << endl;
+    cout << "-ndr don't draw rectangles" << endl;
+    cout << "-nde don't draw edges" << endl;
     return 0;
   }
 
   cout << "Parameters" << endl;
   cout << "----------" << endl;
+
+  // Verify draw options 
+
+  bool drawPoints = !(cmdOptionExists(argv, argv+argc, "-ndp"));
+  bool drawRects = !(cmdOptionExists(argv, argv+argc, "-ndr"));
+  bool drawEdges = !(cmdOptionExists(argv, argv+argc, "-nde"));
 
   // Verify epsilon option
   if (cmdOptionExists(argv, argv+argc, "-e"))
@@ -184,7 +193,7 @@ int main(int argc, char* argv[])
     cout << "Error reading CSV File (Header) on Clusters Line" << endl;
     return 1;
   }
-  
+
   if (clusterFields.size() != noFields) 
   {
     cout << "Error reading CSV File (Header): Clusters Line (line 2)- "
@@ -443,7 +452,7 @@ int main(int argc, char* argv[])
   int labelEdge = 0;
 
   // Create a graph: one node for each cell
-  
+
   Graph g(listCells.size());
 
   // iterate all cells 
@@ -489,7 +498,7 @@ int main(int argc, char* argv[])
         // Create an edge on Graph
 
         g.addEdge(i, j);
-        
+
         bool gravitational = false;
         long qtdPointsI = listCells[i]->getQtyPoints();
         long qtdPointsJ = listCells[j]->getQtyPoints();
@@ -593,25 +602,21 @@ int main(int argc, char* argv[])
     svgFile <<"</g>" << endl;
 
     // Draw points
-    //svgFile << "<g fill=\"red\">" << endl;
 
-    for (int i = 0; i < pointsSample.size(); i++)
+    if (drawPoints) 
     {
-      Point sample = pointsSample[i];
-      svgFile << "<circle fill=\"red\" cx=\"" 
-        << (float)(sample.coord[0]*graphMult)+graphMult*.1 << "cm\" " 
-        << "cy=\"" << (float) graphMult*1.1-(float)(sample.coord[1]*graphMult) 
-        << "cm\" r=\"" << graphMult * 0.002 << "cm\"" 
-        << " />" << endl;
+      for (int i = 0; i < pointsSample.size(); i++)
+      {
+        Point sample = pointsSample[i];
+        svgFile << "<circle fill=\"red\" cx=\"" 
+          << (float)(sample.coord[0]*graphMult)+graphMult*.1 << "cm\" " 
+          << "cy=\"" << (float) graphMult*1.1-(float)(sample.coord[1]*graphMult) 
+          << "cm\" r=\"" << graphMult * 0.002 << "cm\"" 
+          << " />" << endl;
+      }
     }
 
-    //svgFile <<"</g>" << endl;
-
     // Draw Edges
-    svgFile << "<g stroke=\"blue\" stroke-width=\"" <<
-      graphMult * 0.05 / epsilon <<
-      "cm\">" << endl;
-
     vector<string> colors;
     colors.push_back("#007F7F");
     colors.push_back("#7F7F00");
@@ -623,12 +628,34 @@ int main(int argc, char* argv[])
     colors.push_back("#7F0000");
     colors.push_back("#007F00");
 
+    svgFile << "<g stroke=\"blue\" stroke-width=\"" <<
+      graphMult * 0.05 / epsilon <<
+      "cm\">" << endl;
+
     for (int i = 0; i<listCells.size(); i++)
     {
       if (listCells[i]->getQtyPoints() < minPoints)
         continue;
 
-      for (int j = i+1; j<listCells.size(); j++)
+      // Draw transparent rect
+
+      if (drawRects)
+      {
+        string opacity;
+        opacity = (!drawPoints||!drawEdges?"0.4":"0.2");
+        svgFile << "<rect style=\"opacity:"<<opacity<<";fill:" 
+          << colors[g.getClassLabel(i)%colors.size()]
+          << ";stroke:none\" "
+          << "width=\"" << graphMult * 1/(float)epsilon << "cm\" "
+          << "height=\"" << graphMult * 1/(float)epsilon << "cm\" "
+          << "x=\"" << graphMult * (double)listCells[i]->coord[0]/epsilon + graphMult*.1
+          << "cm\" "
+          << "y=\"" << graphMult*1.1 - graphMult * 
+          ((double)listCells[i]->coord[1]/epsilon + (1./epsilon)) << "cm\" />"
+          << endl;;
+      }
+
+      for (int j = i+1; j<listCells.size() && drawEdges; j++)
       {
         // Verify the quantity of points
         if (listCells[j]->getQtyPoints() < minPoints)
