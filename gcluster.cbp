@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="gcluster" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/gcluster" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters=" -i c:\mestrado\Dissertacao\DataSet\ClusteringBenchmarks\Chameleon\chameleon.csv" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="csv-reader" />
+					<Add directory="point" />
+					<Add directory="graphs" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/gcluster" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="csv-reader" />
+					<Add directory="point" />
+					<Add directory="graphs" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="README.md" />
+		<Unit filename="csv-reader/csv-reader.cpp" />
+		<Unit filename="csv-reader/csv-reader.h" />
+		<Unit filename="graphs/graphs.cpp" />
+		<Unit filename="graphs/graphs.h" />
+		<Unit filename="include/cell.h" />
+		<Unit filename="point/point.cpp" />
+		<Unit filename="point/point.h" />
+		<Unit filename="src/cell.cpp" />
+		<Unit filename="src/gcluster.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

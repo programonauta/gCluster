@@ -1,8 +1,6 @@
-// 
-// Read file csv
-//
-
+#include <iostream>
 #include <math.h>
+#include <unistd.h>
 #include "cell.h"
 #include "csv-reader.h"
 #include "graphs.h"
@@ -15,135 +13,115 @@ bool isDouble(const char *str)
   return !((endptr == str));
 }
 
-char* getCmdOption(char ** begin, char ** end, const std::string & option) 
+int main(int argc, char* argv[])
 {
-  char ** itr = std::find(begin, end, option);
-  if (itr != end && ++itr != end)
-  {
-    return *itr;
-  }
-  return 0;
-}
+    ifstream infile;
+    ofstream svgFile;
+    int opt;
+    string input = "../data/input.csv";
+    string outputNodes = "nodes.txt";
+    string outputEdges = "edges.txt";
+    string outputSVG = "graph.svg";
+    string outputDT = "decision.txt";
+    string value;
+    int lineNo = 0;
+    int dimension;
+    int noFields;  // number of fields
+    vector<string> lineCSV, headerCSV, clusterFields;
+    vector<Cell*> listCells; // Vector of Cells
+    vector<Edge> listEdges; // Vector of Edges
+    vector<Cell*> roots;    // Vector of cluster's roots
+    vector<double> maxValue, minValue;
+    long qtyCellsVal = 0;
 
-bool cmdOptionExists(char** begin, char** end, const std::string& option)
-{
-  return std::find(begin, end, option) != end;
-}
+    FILE* pFileNodes;
+    FILE* pFileEdges;
+    FILE* pFileDT;
 
-int main(int argc, char* argv[]) 
-{
-  ifstream infile;
-  ofstream svgFile;
-  string input = "../data/input.csv"; 
-  string outputNodes = "nodes.txt";
-  string outputEdges = "edges.txt";
-  string outputSVG = "graph.svg";
-  string outputDT = "decision.txt";
-  string value;
-  int lineNo = 0;
-  int fieldCount = 0;
-  int dimension;
-  int noFields;  // number of fields
-  size_t lfFound;
-  double dataVar = 0.;
-  vector<string> lineCSV, headerCSV, clusterFields;
-  vector<Cell*> listCells; // Vector of Cells
-  vector<Edge> listEdges; // Vector of Edges
-  vector<Cell*> roots;    // Vector of cluster's roots
-  vector<double> maxValue, minValue;
-  long qtyCellsVal = 0;
+    int epsilon = 10; // Epsilon: number of divisions
+    int minPoints = 3; // Minimum number of points
 
-  FILE* pFileNodes;
-  FILE* pFileEdges;
-  FILE* pFileDT;
+    cout << "Grid Clustering algorithm" << endl;
+    cout << "developed by ricardo brandao - https://github.com/programonauta/grid-clustering" << endl;
+    cout << "===============================================================================\n" << endl;
 
-  int epsilon = 10; // Epsilon: number of divisions
-  int minPoints = 3; // Minimum number of points
+    // Initialize draw options
+    bool drawPoints = true;
+    bool drawRects = true;
+    bool drawEdges = true;
 
-  cout << "Grid Clustering algorithm" << endl;
-  cout << "developed by ricardo brandao - https://github.com/programonauta/grid-clustering" << endl;
-  cout << "===============================================================================\n" << endl;
-
-// Verify command line options
-//   
-// Show help message if -h or there is no command options
-  if (argc <= 1 || cmdOptionExists(argv, argv+argc, "-h")) {
-    cout << "OVERVIEW: Clustering data using grid-based algorithm" << endl;
-    cout << "          The program output node and edges file in a format " << 
-      "to be imported by Gephi software" << endl;
-    cout << endl;
-    cout << "USAGE: gcluster <options>" << endl;
-    cout << endl;
-    cout << "OPTIONS: " << endl;
-    cout << "-e <value>\tvalue of epsilon (default: 10)" << endl;
-    cout << "-mp <value>\tMinimum Points (default: 3)" << endl;
-    cout << "-if <file>\tinput file (default: ../data/input.csv)" << endl;
-    cout << "-nf <file>\tnodes output file (default: nodes.txt)" << endl;
-    cout << "-ef <file>\tedge output file (default: output.txt)" << endl;
-    cout << "-ndp don't draw points" << endl;
-    cout << "-ndr don't draw rectangles" << endl;
-    cout << "-nde don't draw edges" << endl;
-    return 0;
-  }
-
-  cout << "Parameters" << endl;
-  cout << "----------" << endl;
-
-  // Verify draw options 
-
-  bool drawPoints = !(cmdOptionExists(argv, argv+argc, "-ndp"));
-  bool drawRects = !(cmdOptionExists(argv, argv+argc, "-ndr"));
-  bool drawEdges = !(cmdOptionExists(argv, argv+argc, "-nde"));
-
-  // Verify epsilon option
-  if (cmdOptionExists(argv, argv+argc, "-e"))
-    epsilon = atoi(getCmdOption(argv, argv+argc, "-e"));
-
-  if (epsilon < 1)
+    // Default values of arguments
     epsilon = 10;
+    input = "../data/input.txt";
+    outputNodes = "nodes.txt";
+    outputEdges = "edges.txt";
 
-  cout << "epsilon: " << epsilon << endl;
+    // Verify command line options
+    //
+    // Show help message if -h or there is no command options
 
-  if (cmdOptionExists(argv, argv+argc, "-mp"))
-    minPoints = atoi(getCmdOption(argv, argv+argc, "-mp"));
+    while ((opt = getopt(argc, argv, "e:m:i:n:g:prah")) != -1)
+    {
+        switch (opt)
+        {
+        case 'e':
+            epsilon = atoi(optarg);
+            if (epsilon < 1)
+                epsilon = 10;
+            break;
+        case 'm':
+            minPoints = atoi(optarg);
+            if (minPoints < 1)
+                minPoints = 3;
+            break;
+        case 'i':
+            input = optarg;
+            break;
+        case 'n':
+            outputNodes = optarg;
+            break;
+        case 'g':
+            outputEdges = optarg;
+            break;
+        case 'p':
+            drawPoints = false;
+            break;
+        case 'r':
+            drawRects = false;
+            break;
+        case 'a':
+            drawEdges = false;
+            break;
+        case 'h':
+        default: /* '?' */
+            cout << "OVERVIEW: Clustering data using grid-based algorithm" << endl;
+            cout << "          The program output node and edges file in a format " <<
+              "to be imported by Gephi software" << endl;
+            cout << endl;
+            cout << "USAGE: gcluster <options>" << endl;
+            cout << endl;
+            cout << "OPTIONS: " << endl;
+            cout << "-e <value>\tvalue of epsilon (default: 10)" << endl;
+            cout << "-m <value>\tMinimum Points (default: 3)" << endl;
+            cout << "-i <file>\tinput file (default: ../data/input.csv)" << endl;
+            cout << "-n <file>\tnodes output file (default: nodes.txt)" << endl;
+            cout << "-g <file>\tedge output file (default: output.txt)" << endl;
+            cout << "-p don't draw points" << endl;
+            cout << "-r don't draw rectangles" << endl;
+            cout << "-a don't draw edges" << endl;
+            exit(EXIT_FAILURE);
+        }
+    }
 
-  if (minPoints < 1)
-    minPoints = 3;
-
-  cout << "Min Points: " << minPoints << endl;
-
-  if (cmdOptionExists(argv, argv+argc, "-if")) 
-  {
-    input = string(getCmdOption(argv, argv+argc, "-if"));
-
-    if (input == "")
-      input = "../data/input.txt";
-  }
-
-  cout << "Input file: " << input << endl;
-
-  if (cmdOptionExists(argv, argv+argc, "-nf")) 
-  {
-    outputNodes = string(getCmdOption(argv, argv+argc, "-nf"));
-
-    if (input == "")
-      outputNodes = "nodes.txt";
-  }
-
-  cout << "Nodes file: " << outputNodes << endl;
-
-  if (cmdOptionExists(argv, argv+argc, "-ef")) 
-  {
-    outputEdges = string(getCmdOption(argv, argv+argc, "-ef"));
-
-    if (input == "")
-      outputEdges = "edges.txt";
-  }
-
-  cout << "Edges file: " << outputEdges << endl;
-
-  cout << endl <<"Running" << endl;
-  cout << "-------" << endl;
+    cout << "Parameters" << endl;
+    cout << "----------" << endl;
+    cout << "epsilon: " << epsilon << endl;
+    cout << "Min Points: " << minPoints << endl;
+    cout << "Input file: " << input << endl;
+    cout << "Nodes file: " << outputNodes << endl;
+    cout << "Edges file: " << outputEdges << endl;
+    cout << endl <<"Running" << endl;
+    cout << "-------" << endl;
 
   infile.open(input.c_str());
   if (!infile)
@@ -194,11 +172,11 @@ int main(int argc, char* argv[])
     return 1;
   }
 
-  if (clusterFields.size() != noFields) 
+  if (clusterFields.size() != noFields)
   {
     cout << "Error reading CSV File (Header): Clusters Line (line 2)- "
       << "number of fields doesn't "
-      << "match. Read " << clusterFields.size() << " Expected: " << noFields 
+      << "match. Read " << clusterFields.size() << " Expected: " << noFields
       << " fields " << endl;
     return 1;
   }
@@ -208,9 +186,9 @@ int main(int argc, char* argv[])
   {
     if (clusterFields[i] != "C" && clusterFields[i] != "N")
     {
-      cout << "Error reading CSV File (Header): Clusters Line (line 2)" 
-        << "- Invalid Parameter" 
-        << " on field " << i+1 << " \"" << clusterFields[i] << "\"" 
+      cout << "Error reading CSV File (Header): Clusters Line (line 2)"
+        << "- Invalid Parameter"
+        << " on field " << i+1 << " \"" << clusterFields[i] << "\""
         << " Must be \"C\" (C)luster Field " <<
         " or \"N\" (N)ot a Cluster Field " << endl;
       return 1;
@@ -221,13 +199,13 @@ int main(int argc, char* argv[])
 
   if (dimension == 0)
   {
-    cout << "Error reading CSV File (Header): Cluster Line (line 2) " 
+    cout << "Error reading CSV File (Header): Cluster Line (line 2) "
       << "- There is not clusters fields "
       << endl;
     return 1;
   }
 
-  cout << "CSV File - Dimension: " << dimension << endl; 
+  cout << "CSV File - Dimension: " << dimension << endl;
 
   cout << "Fields used on clustering: ";
 
@@ -247,9 +225,9 @@ int main(int argc, char* argv[])
 
   if (lineCSV.size() != noFields)  // Test if line of max values has the same number of fields than header
   {
-    cout << "Error reading CSV File (Header): Max line (line 3)" 
-      << "- number of fields doesn't match. " 
-      << " Read " << lineCSV.size() << " Expected: " << noFields <<  endl ; 
+    cout << "Error reading CSV File (Header): Max line (line 3)"
+      << "- number of fields doesn't match. "
+      << " Read " << lineCSV.size() << " Expected: " << noFields <<  endl ;
     return 1;
   }
 
@@ -259,9 +237,9 @@ int main(int argc, char* argv[])
   for (int i = 0; i < noFields; i++)
   {
     if (!isDouble(lineCSV[i].c_str()))
-    { 
-      cout << "Error reading CSV File (Header): Max line (line 3)" 
-        << " Field number " << i+1 << ", " 
+    {
+      cout << "Error reading CSV File (Header): Max line (line 3)"
+        << " Field number " << i+1 << ", "
         << lineCSV[i] << " is not double" << endl;
       return 1;
     }
@@ -280,17 +258,17 @@ int main(int argc, char* argv[])
 
   if (lineCSV.size() != noFields) // Test if line of min values has the same dimension than header
   {
-    cout << "Error reading CSV File (Header): Min line (line 4) - number of fields " 
-      << "doesn't match. Read " << lineCSV.size() << " Expected: " << noFields << endl ; 
+    cout << "Error reading CSV File (Header): Min line (line 4) - number of fields "
+      << "doesn't match. Read " << lineCSV.size() << " Expected: " << noFields << endl ;
     return 1;
   }
 
   for (int i = 0; i < noFields; i++)
   {
     if (!isDouble(lineCSV[i].c_str()))
-    { 
-      cout << "Error reading CSV File (Header): Min line (line 4)" 
-        << " Field number " << i+1 << ", " 
+    {
+      cout << "Error reading CSV File (Header): Min line (line 4)"
+        << " Field number " << i+1 << ", "
         << lineCSV[i] << " is not double" << endl;
       return 1;
     }
@@ -299,7 +277,7 @@ int main(int argc, char* argv[])
     if (minValue[i] >= maxValue[i]) // Test if min value is greater or equal than max value
     {
       cout << "Error reading CSV File (Header) - line 4: Min value gretaer or equal"
-        << "than Max value for dimension " 
+        << "than Max value for dimension "
         << i+1 << ": " << minValue[i] << " isn't less than " << maxValue[i] << endl;
       return 1;
     }
@@ -342,12 +320,12 @@ int main(int argc, char* argv[])
       if (!isDouble(lineCSV[i].c_str()))
       {
         cout << "Error reading CSV File (Data) on Line: " << lineNo + 4 << ", Field: "
-          << i+1 << " \"" 
+          << i+1 << " \""
           << lineCSV[i] << "\" is not double" << endl;
         return 1;
       }
       // Update the coordinates with normalized values
-      sample.coord[posSample++] = 
+      sample.coord[posSample++] =
         ((stod(lineCSV[i])-minValue[i])/(maxValue[i]-minValue[i]));
     }
 
@@ -366,7 +344,7 @@ int main(int argc, char* argv[])
     // Determine the cell's coordinates
 
     for (int i = 0; i < dimension; i++)
-      coordCell[i] = (int)(sample.coord[i] * epsilon); 
+      coordCell[i] = (int)(sample.coord[i] * epsilon);
 
     for (int i=0; i<listCells.size(); i++) // Search cells
     {
@@ -380,7 +358,7 @@ int main(int argc, char* argv[])
 
     if (pNewCell == NULL) // Create a New Cell
     {
-      pNewCell = new Cell(dimension); 
+      pNewCell = new Cell(dimension);
       for (int i=0; i < dimension; i++)
         pNewCell->coord[i] = coordCell[i];
       listCells.push_back(pNewCell);
@@ -408,7 +386,7 @@ int main(int argc, char* argv[])
     " Size of Points: " << sizeof(a) * lineNo << endl;
 
 
-  if (listCells.size() == 0) 
+  if (listCells.size() == 0)
   {
     cout << "Error on algorithm: There is no cells" << endl;
     return 1;
@@ -430,7 +408,7 @@ int main(int argc, char* argv[])
 
   // Labels from coordinates
   for (int i=0; i < dimension; i++)
-    fprintf(pFileNodes, ",Coord-%d", i); 
+    fprintf(pFileNodes, ",Coord-%d", i);
 
   // Labels of dimensions
   for (int i=0; i < headerCSV.size(); i++)
@@ -455,7 +433,7 @@ int main(int argc, char* argv[])
 
   Graph g(listCells.size());
 
-  // iterate all cells 
+  // iterate all cells
   for (int i = 0; i<listCells.size(); i++)
   {
     fprintf(pFileNodes, "%d,%d", i, i);
@@ -485,7 +463,6 @@ int main(int argc, char* argv[])
 
     qtyCellsVal++;
     // test next cell until end
-    bool hasAdjacent = false;
 
     for (int j = i+1; j<listCells.size(); j++)
     {
@@ -502,7 +479,7 @@ int main(int argc, char* argv[])
         bool gravitational = false;
         long qtdPointsI = listCells[i]->getQtyPoints();
         long qtdPointsJ = listCells[j]->getQtyPoints();
-        fprintf(pFileEdges, "%d,%d,Directed,%d,%d,%f\n", 
+        fprintf(pFileEdges, "%d,%d,Directed,%d,%d,%f\n",
             (qtdPointsI>qtdPointsJ?j:i),
             (qtdPointsI>qtdPointsJ?i:j),
             labelEdge,labelEdge,
@@ -510,8 +487,7 @@ int main(int argc, char* argv[])
              (qtdPointsI * qtdPointsJ * 6.67e-11) /
              pow(listCells[i]->getCenterMass().dist(listCells[j]->getCenterMass()),2):
              listCells[i]->getCenterMass().dist(listCells[j]->getCenterMass()))
-            ); 
-        hasAdjacent = true;
+            );
 
         labelEdge++;
 
@@ -530,11 +506,11 @@ int main(int argc, char* argv[])
   }
   else
   {
-    // Create header 
+    // Create header
 
     // Labels from coordinates
     for (int i=0; i < dimension; i++)
-      fprintf(pFileDT, "Coord-%d,", i); 
+      fprintf(pFileDT, "Coord-%d,", i);
 
     fprintf(pFileDT, "class\n");
 
@@ -554,48 +530,48 @@ int main(int argc, char* argv[])
   }
 
 
-  // If dimension == 2, create a svg file 
+  // If dimension == 2, create a svg file
   if (dimension == 2)
   {
     float graphMult = 50.0;
 
     svgFile.open(outputSVG, std::ifstream::out);
     svgFile << "<?xml version=\"1.0\" standalone=\"no\"?>" << endl
-      << "<svg width=\"" << graphMult*1.2 << "cm\" height=\"" 
+      << "<svg width=\"" << graphMult*1.2 << "cm\" height=\""
       << graphMult * 1.2 << "cm\" version=\"1.1\"" << endl
       << "xmlns=\"http://www.w3.org/2000/svg\">" << endl
       << "<desc>Graph bi-dimensional </desc>" << endl
-      // Display External Rectangle 
+      // Display External Rectangle
       << "<rect x=\"" << graphMult * 0.1 << "cm\" "
       << "y=\"" << graphMult * 0.1 << "cm\" "
       << "width=\"" << graphMult << "cm\" "
       << "height=\"" << graphMult << "cm\" "
-      << "fill=\"none\" stroke=\"black\" stroke-width=\"" 
+      << "fill=\"none\" stroke=\"black\" stroke-width=\""
       << graphMult * 0.002 << "cm\" />" << endl;
     // Display Text with parameters
     svgFile << "<text x=\"" << graphMult * 0.1 << "cm\" "
       << "y=\"" << graphMult * 0.07 << "cm\" "
-      << "font-family=\"Times New Roman\" font-size=\"" 
+      << "font-family=\"Times New Roman\" font-size=\""
       << graphMult * 0.03 << "cm\" fill=\"black\">"
-      << "File Name: " << input << ", Epsilon: " << epsilon 
-      << ", Min Points: " << minPoints  
+      << "File Name: " << input << ", Epsilon: " << epsilon
+      << ", Min Points: " << minPoints
       << "</text>" << endl;
 
     // Draw Horizontal and Vertical Grids
-    svgFile << "<g stroke=\"gray\" stroke-width=\"" 
+    svgFile << "<g stroke=\"gray\" stroke-width=\""
       << graphMult * 0.025 / epsilon << "cm\">" << endl;
     for (int i = 1; i < epsilon; i++)
     {
       // Vertical Grids
-      svgFile << "<line x1=\"" 
+      svgFile << "<line x1=\""
         << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
-        << "y1=\"" << graphMult * .1 << "cm\" " 
+        << "y1=\"" << graphMult * .1 << "cm\" "
         << "x2=\"" << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
         << "y2=\"" << graphMult * 1.1 << "cm\" />" << endl;
       // Horizontal Grids
-      svgFile << "<line y1=\"" 
+      svgFile << "<line y1=\""
         << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
-        << "x1=\"" << graphMult * .1 << "cm\" " 
+        << "x1=\"" << graphMult * .1 << "cm\" "
         << "y2=\"" << (graphMult * 1/(float)epsilon * i) + graphMult*0.1<< "cm\" "
         << "x2=\"" << graphMult * 1.1 << "cm\" />" << endl;
     }
@@ -603,15 +579,15 @@ int main(int argc, char* argv[])
 
     // Draw points
 
-    if (drawPoints) 
+    if (drawPoints)
     {
       for (int i = 0; i < pointsSample.size(); i++)
       {
         Point sample = pointsSample[i];
-        svgFile << "<circle fill=\"red\" cx=\"" 
-          << (float)(sample.coord[0]*graphMult)+graphMult*.1 << "cm\" " 
-          << "cy=\"" << (float) graphMult*1.1-(float)(sample.coord[1]*graphMult) 
-          << "cm\" r=\"" << graphMult * 0.002 << "cm\"" 
+        svgFile << "<circle fill=\"red\" cx=\""
+          << (float)(sample.coord[0]*graphMult)+graphMult*.1 << "cm\" "
+          << "cy=\"" << (float) graphMult*1.1-(float)(sample.coord[1]*graphMult)
+          << "cm\" r=\"" << graphMult * 0.002 << "cm\""
           << " />" << endl;
       }
     }
@@ -643,14 +619,14 @@ int main(int argc, char* argv[])
       {
         string opacity;
         opacity = (!drawPoints||!drawEdges?"0.4":"0.2");
-        svgFile << "<rect style=\"opacity:"<<opacity<<";fill:" 
+        svgFile << "<rect style=\"opacity:"<<opacity<<";fill:"
           << colors[g.getClassLabel(i)%colors.size()]
           << ";stroke:none\" "
           << "width=\"" << graphMult * 1/(float)epsilon << "cm\" "
           << "height=\"" << graphMult * 1/(float)epsilon << "cm\" "
           << "x=\"" << graphMult * (double)listCells[i]->coord[0]/epsilon + graphMult*.1
           << "cm\" "
-          << "y=\"" << graphMult*1.1 - graphMult * 
+          << "y=\"" << graphMult*1.1 - graphMult *
           ((double)listCells[i]->coord[1]/epsilon + (1./epsilon)) << "cm\" />"
           << endl;;
       }
@@ -663,33 +639,33 @@ int main(int argc, char* argv[])
 
         if (areAdjacents(listCells[i], listCells[j]))
         {
-          /* 
-             svgFile << "<text x=\"" 
-             << (float)(listCells[i]->getCenterMass().coord[0]*graphMult)+graphMult*.1 
-             <<"cm\" " << "y=\"" 
-             << graphMult*1.1 - 
-             (float)(listCells[i]->getCenterMass().coord[1]*graphMult) 
-             << "cm\" " 
-             << "font-family=\"Times New Roman\" font-size=\"" 
+          /*
+             svgFile << "<text x=\""
+             << (float)(listCells[i]->getCenterMass().coord[0]*graphMult)+graphMult*.1
+             <<"cm\" " << "y=\""
+             << graphMult*1.1 -
+             (float)(listCells[i]->getCenterMass().coord[1]*graphMult)
+             << "cm\" "
+             << "font-family=\"Times New Roman\" font-size=\""
              << graphMult * 0.03 << "cm\" fill=\"black\"> "
-             << g.getClassLabel(i) << " " 
+             << g.getClassLabel(i) << " "
              << "</text>" << endl;
              */
 
           svgFile << "<line stroke=\"";
           svgFile << colors[g.getClassLabel(i)%colors.size()] << "\" ";
-          svgFile << "x1=\"" 
-            << (float)(listCells[i]->getCenterMass().coord[0]*graphMult)+graphMult*.1 
-            <<"cm\" " << "y1=\"" 
-            << graphMult*1.1 - 
-            (float)(listCells[i]->getCenterMass().coord[1]*graphMult) 
-            << "cm\" " << "x2=\"" 
-            << (float)(listCells[j]->getCenterMass().coord[0]*graphMult)+graphMult*.1 
-            << "cm\" " << "y2=\"" 
-            << graphMult*1.1 - 
-            (float)(listCells[j]->getCenterMass().coord[1]*graphMult) 
+          svgFile << "x1=\""
+            << (float)(listCells[i]->getCenterMass().coord[0]*graphMult)+graphMult*.1
+            <<"cm\" " << "y1=\""
+            << graphMult*1.1 -
+            (float)(listCells[i]->getCenterMass().coord[1]*graphMult)
+            << "cm\" " << "x2=\""
+            << (float)(listCells[j]->getCenterMass().coord[0]*graphMult)+graphMult*.1
+            << "cm\" " << "y2=\""
+            << graphMult*1.1 -
+            (float)(listCells[j]->getCenterMass().coord[1]*graphMult)
             << "cm\" />" << endl;
-        }   
+        }
 
       }
     }

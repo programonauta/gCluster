@@ -1,15 +1,13 @@
 //
 // Cell Class
 //
-
-
 #include "cell.h"
 
 // Constructor
-Cell::Cell(int dimen) 
+Cell::Cell(int dimen)
 {
   // Dimension must be greater then 2
-  if (dimen < 2) 
+  if (dimen < 2)
     dimen = 2;
 
   this->dimen = dimen;
@@ -17,7 +15,7 @@ Cell::Cell(int dimen)
 
   coord.resize(dimen);
   Cell::centerMass.coord.resize(dimen);
-  
+
   for (int i=0; i < dimen; i++)
   {
     coord[i] = 0;
@@ -60,8 +58,8 @@ bool Cell::insertPoint(Point coordPoint)
 
   // Calculate the new center of mass
   for (int i=0; i<this->dimen; i++)
-    this->centerMass.coord[i] = 
-      ((this->centerMass.coord[i] * (this->qtyPoints-1))+ coordPoint.coord[i]) / 
+    this->centerMass.coord[i] =
+      ((this->centerMass.coord[i] * (this->qtyPoints-1))+ coordPoint.coord[i]) /
       this->qtyPoints;
 
   return true;
@@ -81,7 +79,7 @@ bool areAdjacents(Cell *cell1, Cell *cell2)
 }
 
 // Method to calculate the coordinates of hypercube (or cell)
-// 
+//
 void Cell::calcCubeCoord(vector<vector <double>> &g, vector<double> v, int len, int start, int epsilon)
 {
   if (len == 0)
@@ -92,7 +90,7 @@ void Cell::calcCubeCoord(vector<vector <double>> &g, vector<double> v, int len, 
 
   for (int i = 0; i<2; i++)
   {
-    int d = v.size() - len; // d = dimension 
+    int d = v.size() - len; // d = dimension
     v[d] = (double)this->coord[d]/epsilon + i * (1./epsilon);
     this->calcCubeCoord(g, v, len-1, i, epsilon);
   }

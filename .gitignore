@@ -1,6 +1,8 @@
 # Project specific files
 output.txt
-build
+nodes.txt
+edges.txt
+*.svg
 
 # Executables
 *.exe
@@ -12,6 +14,7 @@ build
 
 # build directory
 build/
+bin/
 
 #CMakeFiles directory
 CMakeFiles
@@ -50,4 +53,4 @@ CMakeFiles
 *.swp
 
 # Mac
-.DS_Store:
+.DS_Store

@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1508372243 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.cpp
+	"csv-reader.h"
+
+1508372243 r.h"
+
+1508372479 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1508586173 
+
+1502819293 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\graphs\graphs.cpp
+	"graphs.h"
+
+1502468975 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\graphs\graphs.h
+	<vector>
+
+1497457953 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\point\point.cpp
+	"point.h"
+	<iostream>
+
+1497457953 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\point\point.h
+	<math.h>
+	<vector>
+	<iostream>
+
+1508372714 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
+	"cell.h"
+
+1502910156 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
+	<vector>
+	"point.h"
+
+1508586173 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\gcluster.cpp
+	<iostream>
+	<math.h>
+	<unistd.h>
+	"cell.h"
+	"csv-reader.h"
+	"graphs.h"
+
+1508368643 source:/Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/csv-reader/csv-reader.cpp
+	"csv-reader.h"
+
+1508368879 /Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/csv-reader/csv-reader.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1502815693 source:/Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/graphs/graphs.cpp
+	"graphs.h"
+
+1502465375 /Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/graphs/graphs.h
+	<vector>
+
+1497454353 source:/Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/point/point.cpp
+	"point.h"
+	<iostream>
+
+1497454353 /Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/point/point.h
+	<math.h>
+	<vector>
+	<iostream>
+
+1508369114 source:/Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/src/cell.cpp
+	"cell.h"
+
+1502906556 /Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/include/cell.h
+	<vector>
+	"point.h"
+
+1508680252 source:/Users/ricardo/Dropbox/Mestrado/repos/grid-clustering/src/gcluster.cpp
+	<iostream>
+	<math.h>
+	<unistd.h>
+	"cell.h"
+	"csv-reader.h"
+	"graphs.h"
+
