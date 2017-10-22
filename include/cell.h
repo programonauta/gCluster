@@ -1,24 +1,24 @@
 //
 // Header of Cell class
-// 
+//
 #ifndef CELL_H
 #define CELL_H
 
 #include <vector>
 #include "point.h"
 
-class Cell 
+class Cell
 {
-  public: 
+  public:
 
     // Coordinates of cel
     vector<int> coord;       // Cell coordinates
     // Methods
-    
+
     // Constructor
     Cell(int dimen = 2);
 
-    // Methods to get private variables 
+    // Methods to get private variables
     int getDimension();
 
     Point getCenterMass();
@@ -28,13 +28,13 @@ class Cell
     // Method to insert a new point in the cell
     bool insertPoint(Point coordPoint);
 
-    // Method to return a vector with coordinates of the Cell 
+    // Method to return a vector with coordinates of the Cell
     vector<vector <double> > cubeCoord(int epslon);
 
   private:
       // Dimension
-      int dimen;
-      // Coordinates cell's center of mass 
+      unsigned dimen;
+      // Coordinates cell's center of mass
       Point centerMass;
       // Quantity of points
       long qtyPoints;

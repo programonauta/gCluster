@@ -16,6 +16,9 @@ edges.txt
 build/
 bin/
 
+#object directory
+obj/
+
 #CMakeFiles directory
 CMakeFiles
 

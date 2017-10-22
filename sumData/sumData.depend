@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1508372243 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.cpp
+	"csv-reader.h"
+
+1508372479 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1508696295 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\sumdata\main.cpp
+	<iostream>
+	<math.h>
+	<unistd.h>
+	"cell.h"
+	"csv-reader.h"
+
+1508696756 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
+	<vector>
+	"point.h"
+
+1497457953 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\point\point.h
+	<math.h>
+	<vector>
+	<iostream>
+
+1508696915 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\point\point.cpp
+	"point.h"
+	<iostream>
+
+1508696789 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
+	"cell.h"
+

@@ -57,7 +57,7 @@ bool Cell::insertPoint(Point coordPoint)
     return false;
 
   // Calculate the new center of mass
-  for (int i=0; i<this->dimen; i++)
+  for (unsigned i=0; i<this->dimen; i++)
     this->centerMass.coord[i] =
       ((this->centerMass.coord[i] * (this->qtyPoints-1))+ coordPoint.coord[i]) /
       this->qtyPoints;
@@ -70,7 +70,7 @@ bool areAdjacents(Cell *cell1, Cell *cell2)
 
   if (cell1->coord == cell2->coord) // The two cells are the same
     return false;
-  for (int i=0; i<cell1->coord.size(); i++)
+  for (unsigned i=0; i<cell1->coord.size(); i++)
     if (abs(cell1->coord[i]-cell2->coord[i])>1)
       return false;
 
