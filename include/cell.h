@@ -19,14 +19,17 @@ class Cell
     Cell(int dimen = 2);
 
     // Methods to get private variables
-    int getDimension();
+    unsigned getDimension();
 
     Point getCenterMass();
 
-    long getQtyPoints();
+    unsigned long getQtyPoints();
 
     // Method to insert a new point in the cell
     bool insertPoint(Point coordPoint);
+
+    // Method to merge points in the cell
+    bool mergePoints(Point cM, unsigned qP);
 
     // Method to return a vector with coordinates of the Cell
     vector<vector <double> > cubeCoord(int epslon);

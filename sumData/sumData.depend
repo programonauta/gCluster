@@ -15,7 +15,7 @@
 	"cell.h"
 	"csv-reader.h"
 
-1508696756 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
+1508762863 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
 	<vector>
 	"point.h"
 
@@ -28,6 +28,13 @@
 	"point.h"
 	<iostream>
 
-1508696789 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
+1508762873 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
 	"cell.h"
+
+1508884085 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\sumdata\sumdata.cpp
+	<iostream>
+	<math.h>
+	<unistd.h>
+	"cell.h"
+	"csv-reader.h"
 

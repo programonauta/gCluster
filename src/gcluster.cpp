@@ -474,7 +474,7 @@ int main(int argc, char* argv[])
       {
         // Create an edge on Graph
 
-        g.addEdge(i, j);
+        g.addEdge(i, j, 1.0);
 
         bool gravitational = false;
         long qtdPointsI = listCells[i]->getQtyPoints();

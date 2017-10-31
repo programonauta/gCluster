@@ -12,13 +12,13 @@
 
 1508586173 
 
-1502819293 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\graphs\graphs.cpp
+1508866445 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\graphs\graphs.cpp
 	"graphs.h"
 
-1502468975 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\graphs\graphs.h
+1508866346 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\graphs\graphs.h
 	<vector>
 
-1497457953 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\point\point.cpp
+1508696915 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\point\point.cpp
 	"point.h"
 	<iostream>
 
@@ -27,14 +27,14 @@
 	<vector>
 	<iostream>
 
-1508372714 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
+1508762873 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
 	"cell.h"
 
-1502910156 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
+1508762863 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
 	<vector>
 	"point.h"
 
-1508586173 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\gcluster.cpp
+1508618125 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\gcluster.cpp
 	<iostream>
 	<math.h>
 	<unistd.h>

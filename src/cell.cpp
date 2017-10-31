@@ -6,36 +6,36 @@
 // Constructor
 Cell::Cell(int dimen)
 {
-  // Dimension must be greater then 2
-  if (dimen < 2)
-    dimen = 2;
+    // Dimension must be greater then 2
+    if (dimen < 2)
+        dimen = 2;
 
-  this->dimen = dimen;
-  this->qtyPoints = 0;
+    this->dimen = dimen;
+    this->qtyPoints = 0;
 
-  coord.resize(dimen);
-  Cell::centerMass.coord.resize(dimen);
+    coord.resize(dimen);
+    Cell::centerMass.coord.resize(dimen);
 
-  for (int i=0; i < dimen; i++)
-  {
-    coord[i] = 0;
-    Cell::centerMass.coord[i] = 0;
-  }
+    for (int i=0; i < dimen; i++)
+    {
+        coord[i] = 0;
+        Cell::centerMass.coord[i] = 0;
+    }
 }
 
-int Cell::getDimension()
+unsigned Cell::getDimension()
 {
-  return this->dimen;
+    return this->dimen;
 }
 
 Point Cell::getCenterMass()
 {
-  return this->centerMass;
+    return this->centerMass;
 }
 
-long Cell::getQtyPoints()
+unsigned long Cell::getQtyPoints()
 {
-  return this->qtyPoints;
+    return this->qtyPoints;
 }
 //
 // Include a new point in the cell
@@ -49,32 +49,54 @@ long Cell::getQtyPoints()
 //
 bool Cell::insertPoint(Point coordPoint)
 {
-  this->qtyPoints++;
+    this->qtyPoints++;
 
-  // The dimension must match
+    // The dimension must match
 
-  if (coordPoint.coord.size() != this->dimen)
-    return false;
+    if (coordPoint.coord.size() != this->dimen)
+        return false;
 
-  // Calculate the new center of mass
-  for (unsigned i=0; i<this->dimen; i++)
-    this->centerMass.coord[i] =
-      ((this->centerMass.coord[i] * (this->qtyPoints-1))+ coordPoint.coord[i]) /
-      this->qtyPoints;
+    // Calculate the new center of mass
+    for (unsigned i=0; i<this->dimen; i++)
+        this->centerMass.coord[i] =
+            ((this->centerMass.coord[i] * (this->qtyPoints-1))+ coordPoint.coord[i]) /
+            this->qtyPoints;
 
-  return true;
+    return true;
+}
+
+bool Cell::mergePoints(Point cM, unsigned qP)
+{
+    // The dimension must match
+
+    if (cM.coord.size() != this->dimen)
+        return false;
+
+    // if Quantity of Points is zero do nothing
+    if (qP == 0)
+        return true;
+
+    // Calculate the new center of mass
+    for (unsigned i=0; i<this->dimen; i++)
+        this->centerMass.coord[i] =
+            ((this->centerMass.coord[i] * (this->qtyPoints))+ (cM.coord[i]) * qP) /
+            (this->qtyPoints + qP);
+
+    this->qtyPoints += qP;
+
+    return true;
 }
 
 bool areAdjacents(Cell *cell1, Cell *cell2)
 {
 
-  if (cell1->coord == cell2->coord) // The two cells are the same
-    return false;
-  for (unsigned i=0; i<cell1->coord.size(); i++)
-    if (abs(cell1->coord[i]-cell2->coord[i])>1)
-      return false;
+    if (cell1->coord == cell2->coord) // The two cells are the same
+        return false;
+    for (unsigned i=0; i<cell1->coord.size(); i++)
+        if (abs(cell1->coord[i]-cell2->coord[i])>1)
+            return false;
 
-  return true;
+    return true;
 
 }
 
@@ -82,30 +104,30 @@ bool areAdjacents(Cell *cell1, Cell *cell2)
 //
 void Cell::calcCubeCoord(vector<vector <double>> &g, vector<double> v, int len, int start, int epsilon)
 {
-  if (len == 0)
-  {
-    g.push_back(v);
+    if (len == 0)
+    {
+        g.push_back(v);
+        return;
+    }
+
+    for (int i = 0; i<2; i++)
+    {
+        int d = v.size() - len; // d = dimension
+        v[d] = (double)this->coord[d]/epsilon + i * (1./epsilon);
+        this->calcCubeCoord(g, v, len-1, i, epsilon);
+    }
+
     return;
-  }
-
-  for (int i = 0; i<2; i++)
-  {
-    int d = v.size() - len; // d = dimension
-    v[d] = (double)this->coord[d]/epsilon + i * (1./epsilon);
-    this->calcCubeCoord(g, v, len-1, i, epsilon);
-  }
-
-  return;
 }
 
 
 vector<vector <double> > Cell::cubeCoord(int epsilon)
 {
-  vector <double> v(this->dimen);
-  vector <vector <double> > g;
+    vector <double> v(this->dimen);
+    vector <vector <double> > g;
 
-  calcCubeCoord(g, v, this->dimen, 0, epsilon);
+    calcCubeCoord(g, v, this->dimen, 0, epsilon);
 
-  return g;
+    return g;
 }
 
