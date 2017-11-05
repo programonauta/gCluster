@@ -1,0 +1,957 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="60cm" height="85cm" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+<desc>Graph bi-dimensional </desc>
+<rect x="5cm" y="5cm" width="50cm" height="50cm" fill="none" stroke="black" stroke-width="0.1cm" />
+<text x="5cm" y="57cm" font-family="Times New Roman" font-size="1.5cm" fill="black">File Name: ../data/Jain/central/consolidate/cells-Jain.csv</text>
+<text x="5cm" y="59cm" font-family="Times New Roman" font-size="1.5cm" fill="black">Epsilon: 10, Min Force: 0.02, Number Clusters: 3</text>
+<g stroke="gray" stroke-width="0.125cm">
+<line x1="10cm" y1="5cm" x2="10cm" y2="55cm" />
+<line y1="10cm" x1="5cm" y2="10cm" x2="55cm" />
+<line x1="15cm" y1="5cm" x2="15cm" y2="55cm" />
+<line y1="15cm" x1="5cm" y2="15cm" x2="55cm" />
+<line x1="20cm" y1="5cm" x2="20cm" y2="55cm" />
+<line y1="20cm" x1="5cm" y2="20cm" x2="55cm" />
+<line x1="25cm" y1="5cm" x2="25cm" y2="55cm" />
+<line y1="25cm" x1="5cm" y2="25cm" x2="55cm" />
+<line x1="30cm" y1="5cm" x2="30cm" y2="55cm" />
+<line y1="30cm" x1="5cm" y2="30cm" x2="55cm" />
+<line x1="35cm" y1="5cm" x2="35cm" y2="55cm" />
+<line y1="35cm" x1="5cm" y2="35cm" x2="55cm" />
+<line x1="40cm" y1="5cm" x2="40cm" y2="55cm" />
+<line y1="40cm" x1="5cm" y2="40cm" x2="55cm" />
+<line x1="45cm" y1="5cm" x2="45cm" y2="55cm" />
+<line y1="45cm" x1="5cm" y2="45cm" x2="55cm" />
+<line x1="50cm" y1="5cm" x2="50cm" y2="55cm" />
+<line y1="50cm" x1="5cm" y2="50cm" x2="55cm" />
+</g>
+<g stroke="black" stroke-width="0.45cm">
+<rect style="opacity:0.6;fill:#0000FF;stroke:none" width="5cm" height="5cm" x="10cm" y="20cm" />
+<text x="10cm" y="25cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 4</text>
+<line stroke="#0000FF" x1="9.13135cm" y1="22.5548cm" x2="12.7179cm" y2="22.3805cm" />
+<rect style="opacity:0.6;fill:#0000FF;stroke:none" width="5cm" height="5cm" x="10cm" y="15cm" />
+<text x="10cm" y="20cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 4</text>
+<line stroke="#0000FF" x1="9.13135cm" y1="22.5548cm" x2="11.4014cm" y2="17.7241cm" />
+<line stroke="#0000FF" x1="8.1477cm" y1="17.7158cm" x2="11.4014cm" y2="17.7241cm" />
+<rect style="opacity:0.6;fill:#0000FF;stroke:none" width="5cm" height="5cm" x="5cm" y="20cm" />
+<text x="5cm" y="25cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 4</text>
+<rect style="opacity:0.6;fill:#0000FF;stroke:none" width="5cm" height="5cm" x="5cm" y="15cm" />
+<text x="5cm" y="20cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 4</text>
+<rect style="opacity:0.6;fill:#FF0000;stroke:none" width="5cm" height="5cm" x="5cm" y="10cm" />
+<text x="5cm" y="15cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 5</text>
+<line stroke="#FF0000" x1="10.3874cm" y1="13.1674cm" x2="9.661cm" y2="13.1674cm" />
+<rect style="opacity:0.6;fill:#FF0000;stroke:none" width="5cm" height="5cm" x="10cm" y="10cm" />
+<text x="10cm" y="15cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 5</text>
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="5cm" />
+<text x="20cm" y="10cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="17.4698cm" y1="7.19125cm" x2="22.0602cm" y2="6.66005cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="15cm" />
+<text x="20cm" y="20cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="18.0751cm" y1="17.6295cm" x2="21.6397cm" y2="17.1735cm" />
+<line stroke="#5dff00" x1="19.4068cm" y1="14.7609cm" x2="21.6397cm" y2="17.1735cm" />
+<line stroke="#5dff00" x1="22.5545cm" y1="12.3456cm" x2="22.0602cm" y2="6.66005cm" />
+<line stroke="#5dff00" x1="22.5545cm" y1="12.3456cm" x2="21.6397cm" y2="17.1735cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="10cm" />
+<text x="25cm" y="15cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="22.5545cm" y1="12.3456cm" x2="26.3075cm" y2="10.9263cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="15cm" />
+<text x="25cm" y="20cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="22.5545cm" y1="12.3456cm" x2="27.3164cm" y2="17.5941cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="15cm" y="5cm" />
+<text x="15cm" y="10cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="10cm" />
+<text x="20cm" y="15cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="22.0602cm" y1="6.66005cm" x2="26.3075cm" y2="10.9263cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="15cm" y="15cm" />
+<text x="15cm" y="20cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="15cm" y="10cm" />
+<text x="15cm" y="15cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="21.6397cm" y1="17.1735cm" x2="26.3075cm" y2="10.9263cm" />
+<line stroke="#5dff00" x1="21.6397cm" y1="17.1735cm" x2="27.3164cm" y2="17.5941cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="20cm" />
+<text x="25cm" y="25cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="21.6397cm" y1="17.1735cm" x2="27.833cm" y2="22.3107cm" />
+<line stroke="#5dff00" x1="26.3075cm" y1="10.9263cm" x2="27.3164cm" y2="17.5941cm" />
+<line stroke="#5dff00" x1="27.3164cm" y1="17.5941cm" x2="27.833cm" y2="22.3107cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="30cm" y="20cm" />
+<text x="30cm" y="25cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.3164cm" y1="17.5941cm" x2="32.3176cm" y2="22.3022cm" />
+<line stroke="#5dff00" x1="27.833cm" y1="22.3107cm" x2="32.3176cm" y2="22.3022cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="30cm" y="25cm" />
+<text x="30cm" y="30cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.833cm" y1="22.3107cm" x2="30.9181cm" y2="27.5763cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="25cm" />
+<text x="20cm" y="30cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.833cm" y1="22.3107cm" x2="23.1665cm" y2="28.2514cm" />
+<line stroke="#5dff00" x1="32.3176cm" y1="22.3022cm" x2="30.9181cm" y2="27.5763cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="35cm" y="20cm" />
+<text x="35cm" y="25cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="32.3176cm" y1="22.3022cm" x2="35.0242cm" y2="22.0318cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="30cm" y="30cm" />
+<text x="30cm" y="35cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="30.9181cm" y1="27.5763cm" x2="32.951cm" y2="31.1952cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="30cm" />
+<text x="25cm" y="35cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="30.9181cm" y1="27.5763cm" x2="25.3304cm" y2="32.1201cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="30cm" />
+<text x="20cm" y="35cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="23.1665cm" y1="28.2514cm" x2="24.1485cm" y2="31.9671cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="25cm" />
+<text x="25cm" y="30cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="23.1665cm" y1="28.2514cm" x2="25.1574cm" y2="26.8127cm" />
+<line stroke="#5dff00" x1="23.1665cm" y1="28.2514cm" x2="25.3304cm" y2="32.1201cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="35cm" />
+<text x="20cm" y="40cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="24.1485cm" y1="31.9671cm" x2="23.9468cm" y2="37.0717cm" />
+<line stroke="#5dff00" x1="24.1485cm" y1="31.9671cm" x2="25.3304cm" y2="32.1201cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="35cm" />
+<text x="25cm" y="40cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="24.1485cm" y1="31.9671cm" x2="26.247cm" y2="37.6029cm" />
+<line stroke="#5dff00" x1="23.9468cm" y1="37.0717cm" x2="25.3304cm" y2="32.1201cm" />
+<line stroke="#5dff00" x1="23.9468cm" y1="37.0717cm" x2="26.247cm" y2="37.6029cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="40cm" />
+<text x="25cm" y="45cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="23.9468cm" y1="37.0717cm" x2="27.1953cm" y2="42.7917cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="20cm" y="40cm" />
+<text x="20cm" y="45cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="23.9468cm" y1="37.0717cm" x2="24.552cm" y2="41.504cm" />
+<line stroke="#5dff00" x1="25.3304cm" y1="32.1201cm" x2="26.247cm" y2="37.6029cm" />
+<line stroke="#5dff00" x1="26.247cm" y1="37.6029cm" x2="27.1953cm" y2="42.7917cm" />
+<line stroke="#5dff00" x1="26.247cm" y1="37.6029cm" x2="24.552cm" y2="41.504cm" />
+<line stroke="#5dff00" x1="27.1953cm" y1="42.7917cm" x2="24.552cm" y2="41.504cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="45cm" />
+<text x="25cm" y="50cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.1953cm" y1="42.7917cm" x2="27.9258cm" y2="47.2112cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="30cm" y="40cm" />
+<text x="30cm" y="45cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.1953cm" y1="42.7917cm" x2="30.4439cm" y2="43.8446cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="30cm" y="45cm" />
+<text x="30cm" y="50cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.1953cm" y1="42.7917cm" x2="32.6418cm" y2="48.0705cm" />
+<line stroke="#5dff00" x1="24.552cm" y1="41.504cm" x2="27.9258cm" y2="47.2112cm" />
+<line stroke="#5dff00" x1="27.9258cm" y1="47.2112cm" x2="30.4439cm" y2="43.8446cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="25cm" y="50cm" />
+<text x="25cm" y="55cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.9258cm" y1="47.2112cm" x2="29.4249cm" y2="50.6175cm" />
+<line stroke="#5dff00" x1="27.9258cm" y1="47.2112cm" x2="32.6418cm" y2="48.0705cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="30cm" y="50cm" />
+<text x="30cm" y="55cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="27.9258cm" y1="47.2112cm" x2="32.8426cm" y2="52.1872cm" />
+<line stroke="#5dff00" x1="30.4439cm" y1="43.8446cm" x2="32.6418cm" y2="48.0705cm" />
+<line stroke="#5dff00" x1="29.4249cm" y1="50.6175cm" x2="32.6418cm" y2="48.0705cm" />
+<line stroke="#5dff00" x1="29.4249cm" y1="50.6175cm" x2="32.8426cm" y2="52.1872cm" />
+<line stroke="#5dff00" x1="32.6418cm" y1="48.0705cm" x2="32.8426cm" y2="52.1872cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="35cm" y="45cm" />
+<text x="35cm" y="50cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="32.6418cm" y1="48.0705cm" x2="37.5969cm" y2="49.2106cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="35cm" y="50cm" />
+<text x="35cm" y="55cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="32.6418cm" y1="48.0705cm" x2="37.702cm" y2="52.5574cm" />
+<line stroke="#5dff00" x1="32.8426cm" y1="52.1872cm" x2="37.5969cm" y2="49.2106cm" />
+<line stroke="#5dff00" x1="32.8426cm" y1="52.1872cm" x2="37.702cm" y2="52.5574cm" />
+<line stroke="#5dff00" x1="37.5969cm" y1="49.2106cm" x2="37.702cm" y2="52.5574cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="40cm" y="45cm" />
+<text x="40cm" y="50cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="37.5969cm" y1="49.2106cm" x2="43.0059cm" y2="48.0493cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="40cm" y="50cm" />
+<text x="40cm" y="55cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="37.5969cm" y1="49.2106cm" x2="42.1428cm" y2="52.2111cm" />
+<line stroke="#5dff00" x1="37.702cm" y1="52.5574cm" x2="43.0059cm" y2="48.0493cm" />
+<line stroke="#5dff00" x1="37.702cm" y1="52.5574cm" x2="42.1428cm" y2="52.2111cm" />
+<line stroke="#5dff00" x1="43.0059cm" y1="48.0493cm" x2="42.1428cm" y2="52.2111cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="40cm" y="40cm" />
+<text x="40cm" y="45cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="43.0059cm" y1="48.0493cm" x2="43.4988cm" y2="44.9403cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="45cm" y="50cm" />
+<text x="45cm" y="55cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="43.0059cm" y1="48.0493cm" x2="45.4358cm" y2="51.2152cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="45cm" y="45cm" />
+<text x="45cm" y="50cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="43.0059cm" y1="48.0493cm" x2="46.7474cm" y2="46.982cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="45cm" y="40cm" />
+<text x="45cm" y="45cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="43.0059cm" y1="48.0493cm" x2="47.7793cm" y2="42.4289cm" />
+<line stroke="#5dff00" x1="42.1428cm" y1="52.2111cm" x2="45.4358cm" y2="51.2152cm" />
+<line stroke="#5dff00" x1="42.1428cm" y1="52.2111cm" x2="46.7474cm" y2="46.982cm" />
+<line stroke="#5dff00" x1="43.4988cm" y1="44.9403cm" x2="46.7474cm" y2="46.982cm" />
+<line stroke="#5dff00" x1="43.4988cm" y1="44.9403cm" x2="47.7793cm" y2="42.4289cm" />
+<line stroke="#5dff00" x1="45.4358cm" y1="51.2152cm" x2="46.7474cm" y2="46.982cm" />
+<line stroke="#5dff00" x1="46.7474cm" y1="46.982cm" x2="47.7793cm" y2="42.4289cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="50cm" y="45cm" />
+<text x="50cm" y="50cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="46.7474cm" y1="46.982cm" x2="50.0363cm" y2="45.5379cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="50cm" y="40cm" />
+<text x="50cm" y="45cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="46.7474cm" y1="46.982cm" x2="50.4903cm" y2="41.7032cm" />
+<line stroke="#5dff00" x1="47.7793cm" y1="42.4289cm" x2="50.0363cm" y2="45.5379cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="45cm" y="35cm" />
+<text x="45cm" y="40cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="47.7793cm" y1="42.4289cm" x2="49.1162cm" y2="37.7689cm" />
+<line stroke="#5dff00" x1="47.7793cm" y1="42.4289cm" x2="50.4903cm" y2="41.7032cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="50cm" y="35cm" />
+<text x="50cm" y="40cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="47.7793cm" y1="42.4289cm" x2="51.711cm" y2="36.582cm" />
+<line stroke="#5dff00" x1="49.1162cm" y1="37.7689cm" x2="50.4903cm" y2="41.7032cm" />
+<line stroke="#5dff00" x1="49.1162cm" y1="37.7689cm" x2="51.711cm" y2="36.582cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="50cm" y="30cm" />
+<text x="50cm" y="35cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="49.1162cm" y1="37.7689cm" x2="51.9501cm" y2="32.2908cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="45cm" y="30cm" />
+<text x="45cm" y="35cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="49.1162cm" y1="37.7689cm" x2="49.6126cm" y2="33.6189cm" />
+<line stroke="#5dff00" x1="50.4903cm" y1="41.7032cm" x2="51.711cm" y2="36.582cm" />
+<line stroke="#5dff00" x1="51.711cm" y1="36.582cm" x2="51.9501cm" y2="32.2908cm" />
+<line stroke="#5dff00" x1="51.711cm" y1="36.582cm" x2="49.6126cm" y2="33.6189cm" />
+<line stroke="#5dff00" x1="51.9501cm" y1="32.2908cm" x2="49.6126cm" y2="33.6189cm" />
+<rect style="opacity:0.6;fill:#5dff00;stroke:none" width="5cm" height="5cm" x="50cm" y="25cm" />
+<text x="50cm" y="30cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="black" > 7</text>
+<line stroke="#5dff00" x1="51.9501cm" y1="32.2908cm" x2="52.2276cm" y2="27.9748cm" />
+<line stroke="#5dff00" x1="49.6126cm" y1="33.6189cm" x2="52.2276cm" y2="27.9748cm" />
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="5.1816cm" cy="26.0159cm" r="0.5cm" />
+<text x="5.1816cm" y="26.0159cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="5.06055cm" cy="29.7012cm" r="0.5cm" />
+<text x="5.06055cm" y="29.7012cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="8.1477cm" cy="30cm" r="0.5cm" />
+<text x="8.1477cm" y="30cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.5084cm" cy="32.49cm" r="0.5cm" />
+<text x="10.5084cm" y="32.49cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.0847cm" cy="29.6016cm" r="0.5cm" />
+<text x="10.0847cm" y="29.6016cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.6296cm" cy="29.2032cm" r="0.5cm" />
+<text x="10.6296cm" y="29.2032cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.3269cm" cy="25.1195cm" r="0.5cm" />
+<text x="10.3269cm" y="25.1195cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="9.72155cm" cy="24.4223cm" r="0.5cm" />
+<text x="9.72155cm" y="24.4223cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="9.0557cm" cy="23.4263cm" r="0.5cm" />
+<text x="9.0557cm" y="23.4263cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="8.26875cm" cy="21.5339cm" r="0.5cm" />
+<text x="8.26875cm" y="21.5339cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="7.66345cm" cy="18.6454cm" r="0.5cm" />
+<text x="7.66345cm" y="18.6454cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="7.90555cm" cy="17.251cm" r="0.5cm" />
+<text x="7.90555cm" y="17.251cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="8.8741cm" cy="17.251cm" r="0.5cm" />
+<text x="8.8741cm" y="17.251cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="9.4794cm" cy="20.8367cm" r="0.5cm" />
+<text x="9.4794cm" y="20.8367cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="12.8693cm" cy="31.8925cm" r="0.5cm" />
+<text x="12.8693cm" y="31.8925cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="13.414cm" cy="27.9083cm" r="0.5cm" />
+<text x="13.414cm" y="27.9083cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="12.7482cm" cy="23.6255cm" r="0.5cm" />
+<text x="12.7482cm" y="23.6255cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="12.6876cm" cy="21.1354cm" r="0.5cm" />
+<text x="12.6876cm" y="21.1354cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="11.2348cm" cy="19.8406cm" r="0.5cm" />
+<text x="11.2348cm" y="19.8406cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.8112cm" cy="17.3506cm" r="0.5cm" />
+<text x="10.8112cm" y="17.3506cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="12.0823cm" cy="17.3506cm" r="0.5cm" />
+<text x="12.0823cm" y="17.3506cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="11.477cm" cy="16.3546cm" r="0.5cm" />
+<text x="11.477cm" y="16.3546cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.448cm" cy="14.1633cm" r="0.5cm" />
+<text x="10.448cm" y="14.1633cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="9.661cm" cy="13.1674cm" r="0.5cm" />
+<text x="9.661cm" y="13.1674cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="10.3269cm" cy="12.1713cm" r="0.5cm" />
+<text x="10.3269cm" y="12.1713cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="13.9588cm" cy="8.28685cm" r="0.5cm" />
+<text x="13.9588cm" y="8.28685cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="16.4407cm" cy="5.5976cm" r="0.5cm" />
+<text x="16.4407cm" y="5.5976cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="15.9564cm" cy="9.9801cm" r="0.5cm" />
+<text x="15.9564cm" y="9.9801cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="15.2905cm" cy="18.745cm" r="0.5cm" />
+<text x="15.2905cm" y="18.745cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="17.7118cm" cy="15.3586cm" r="0.5cm" />
+<text x="17.7118cm" y="15.3586cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="19.4068cm" cy="14.7609cm" r="0.5cm" />
+<text x="19.4068cm" y="14.7609cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="20.1937cm" cy="13.9641cm" r="0.5cm" />
+<text x="20.1937cm" y="13.9641cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="18.2567cm" cy="7.29085cm" r="0.5cm" />
+<text x="18.2567cm" y="7.29085cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="19.2252cm" cy="5.8964cm" r="0.5cm" />
+<text x="19.2252cm" y="5.8964cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="20.2542cm" cy="5.2988cm" r="0.5cm" />
+<text x="20.2542cm" y="5.2988cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="20.7385cm" cy="5.498cm" r="0.5cm" />
+<text x="20.7385cm" y="5.498cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.2833cm" cy="7.19125cm" r="0.5cm" />
+<text x="21.2833cm" y="7.19125cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.1623cm" cy="7.88845cm" r="0.5cm" />
+<text x="21.1623cm" y="7.88845cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="22.494cm" cy="12.5697cm" r="0.5cm" />
+<text x="22.494cm" y="12.5697cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="22.5545cm" cy="11.4741cm" r="0.5cm" />
+<text x="22.5545cm" y="11.4741cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="18.9225cm" cy="19.1435cm" r="0.5cm" />
+<text x="18.9225cm" y="19.1435cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="18.862cm" cy="18.0478cm" r="0.5cm" />
+<text x="18.862cm" y="18.0478cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="19.5884cm" cy="16.8526cm" r="0.5cm" />
+<text x="19.5884cm" y="16.8526cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="20.0727cm" cy="17.251cm" r="0.5cm" />
+<text x="20.0727cm" y="17.251cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="20.7991cm" cy="16.9522cm" r="0.5cm" />
+<text x="20.7991cm" y="16.9522cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.0412cm" cy="15.5578cm" r="0.5cm" />
+<text x="21.0412cm" y="15.5578cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.586cm" cy="15.6573cm" r="0.5cm" />
+<text x="21.586cm" y="15.6573cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.3438cm" cy="16.6534cm" r="0.5cm" />
+<text x="21.3438cm" y="16.6534cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.2228cm" cy="17.4502cm" r="0.5cm" />
+<text x="21.2228cm" y="17.4502cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.1623cm" cy="18.1474cm" r="0.5cm" />
+<text x="21.1623cm" y="18.1474cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.9758cm" cy="11.3745cm" r="0.5cm" />
+<text x="24.9758cm" y="11.3745cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.5811cm" cy="11.2749cm" r="0.5cm" />
+<text x="25.5811cm" y="11.2749cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.3995cm" cy="10.5777cm" r="0.5cm" />
+<text x="25.3995cm" y="10.5777cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.7337cm" cy="7.29085cm" r="0.5cm" />
+<text x="24.7337cm" y="7.29085cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.1888cm" cy="6.79285cm" r="0.5cm" />
+<text x="24.1888cm" y="6.79285cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.3365cm" cy="10.2789cm" r="0.5cm" />
+<text x="27.3365cm" y="10.2789cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.9129cm" cy="11.5737cm" r="0.5cm" />
+<text x="26.9129cm" y="11.5737cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.0605cm" cy="9.28285cm" r="0.5cm" />
+<text x="30.0605cm" y="9.28285cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.2809cm" cy="18.247cm" r="0.5cm" />
+<text x="23.2809cm" y="18.247cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.2494cm" cy="18.6454cm" r="0.5cm" />
+<text x="24.2494cm" y="18.6454cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.2784cm" cy="19.4422cm" r="0.5cm" />
+<text x="25.2784cm" y="19.4422cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.9443cm" cy="19.0438cm" r="0.5cm" />
+<text x="25.9443cm" y="19.0438cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.247cm" cy="20.5378cm" r="0.5cm" />
+<text x="26.247cm" y="20.5378cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.9443cm" cy="16.3546cm" r="0.5cm" />
+<text x="25.9443cm" y="16.3546cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.6707cm" cy="16.4542cm" r="0.5cm" />
+<text x="26.6707cm" y="16.4542cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.3971cm" cy="17.0518cm" r="0.5cm" />
+<text x="27.3971cm" y="17.0518cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.6997cm" cy="16.753cm" r="0.5cm" />
+<text x="27.6997cm" y="16.753cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.4867cm" cy="17.749cm" r="0.5cm" />
+<text x="28.4867cm" y="17.749cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.4867cm" cy="19.1435cm" r="0.5cm" />
+<text x="28.4867cm" y="19.1435cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.2446cm" cy="20.2391cm" r="0.5cm" />
+<text x="28.2446cm" y="20.2391cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.6997cm" cy="22.8287cm" r="0.5cm" />
+<text x="27.6997cm" y="22.8287cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.4577cm" cy="23.5259cm" r="0.5cm" />
+<text x="27.4577cm" y="23.5259cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.9395cm" cy="16.3546cm" r="0.5cm" />
+<text x="29.9395cm" y="16.3546cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.8765cm" cy="13.6654cm" r="0.5cm" />
+<text x="31.8765cm" y="13.6654cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.1792cm" cy="12.7689cm" r="0.5cm" />
+<text x="32.1792cm" y="12.7689cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.5109cm" cy="15.2589cm" r="0.5cm" />
+<text x="33.5109cm" y="15.2589cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.8474cm" cy="20.4383cm" r="0.5cm" />
+<text x="30.8474cm" y="20.4383cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.5158cm" cy="24.4223cm" r="0.5cm" />
+<text x="29.5158cm" y="24.4223cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.3632cm" cy="26.4144cm" r="0.5cm" />
+<text x="30.3632cm" y="26.4144cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.2422cm" cy="27.51cm" r="0.5cm" />
+<text x="30.2422cm" y="27.51cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.3026cm" cy="28.3067cm" r="0.5cm" />
+<text x="30.3026cm" y="28.3067cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.1816cm" cy="29.9004cm" r="0.5cm" />
+<text x="30.1816cm" y="29.9004cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.2712cm" cy="27.9083cm" r="0.5cm" />
+<text x="31.2712cm" y="27.9083cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.0896cm" cy="24.7211cm" r="0.5cm" />
+<text x="31.0896cm" y="24.7211cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.1792cm" cy="22.8287cm" r="0.5cm" />
+<text x="32.1792cm" y="22.8287cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.6029cm" cy="21.3346cm" r="0.5cm" />
+<text x="32.6029cm" y="21.3346cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.9055cm" cy="20.5378cm" r="0.5cm" />
+<text x="32.9055cm" y="20.5378cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.6005cm" cy="21.3346cm" r="0.5cm" />
+<text x="34.6005cm" y="21.3346cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.0242cm" cy="22.0318cm" r="0.5cm" />
+<text x="35.0242cm" y="22.0318cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.9976cm" cy="24.9203cm" r="0.5cm" />
+<text x="31.9976cm" y="24.9203cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.1477cm" cy="25.4184cm" r="0.5cm" />
+<text x="33.1477cm" y="25.4184cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.5084cm" cy="25.8167cm" r="0.5cm" />
+<text x="35.5084cm" y="25.8167cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.6271cm" cy="29.6016cm" r="0.5cm" />
+<text x="37.6271cm" y="29.6016cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.1187cm" cy="31.6933cm" r="0.5cm" />
+<text x="32.1187cm" y="31.6933cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.6029cm" cy="30.498cm" r="0.5cm" />
+<text x="32.6029cm" y="30.498cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.2687cm" cy="31.0956cm" r="0.5cm" />
+<text x="33.2687cm" y="31.0956cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#000077" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.8135cm" cy="31.494cm" r="0.5cm" />
+<text x="33.8135cm" y="31.494cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#000077" > 2</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.2833cm" cy="26.2152cm" r="0.5cm" />
+<text x="21.2833cm" y="26.2152cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.4649cm" cy="27.3107cm" r="0.5cm" />
+<text x="21.4649cm" y="27.3107cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="21.4649cm" cy="29.4024cm" r="0.5cm" />
+<text x="21.4649cm" y="29.4024cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="22.0097cm" cy="30.6972cm" r="0.5cm" />
+<text x="22.0097cm" y="30.6972cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="22.7361cm" cy="29.9004cm" r="0.5cm" />
+<text x="22.7361cm" y="29.9004cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.4625cm" cy="28.0079cm" r="0.5cm" />
+<text x="23.4625cm" y="28.0079cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.1284cm" cy="26.8127cm" r="0.5cm" />
+<text x="24.1284cm" y="26.8127cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.1574cm" cy="26.8127cm" r="0.5cm" />
+<text x="25.1574cm" y="26.8127cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.9153cm" cy="28.3067cm" r="0.5cm" />
+<text x="24.9153cm" y="28.3067cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.31cm" cy="28.7052cm" r="0.5cm" />
+<text x="24.31cm" y="28.7052cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.1284cm" cy="30.5976cm" r="0.5cm" />
+<text x="24.1284cm" y="30.5976cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.8256cm" cy="30.996cm" r="0.5cm" />
+<text x="23.8256cm" y="30.996cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.523cm" cy="32.3904cm" r="0.5cm" />
+<text x="23.523cm" y="32.3904cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.4019cm" cy="34.482cm" r="0.5cm" />
+<text x="23.4019cm" y="34.482cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="22.494cm" cy="36.7729cm" r="0.5cm" />
+<text x="22.494cm" y="36.7729cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="22.5545cm" cy="37.4701cm" r="0.5cm" />
+<text x="22.5545cm" y="37.4701cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.7337cm" cy="29.6016cm" r="0.5cm" />
+<text x="24.7337cm" y="29.6016cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.6126cm" cy="30.1992cm" r="0.5cm" />
+<text x="24.6126cm" y="30.1992cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.1574cm" cy="30cm" r="0.5cm" />
+<text x="25.1574cm" y="30cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.9153cm" cy="30.6972cm" r="0.5cm" />
+<text x="24.9153cm" y="30.6972cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.0968cm" cy="31.0956cm" r="0.5cm" />
+<text x="25.0968cm" y="31.0956cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.5811cm" cy="30.8964cm" r="0.5cm" />
+<text x="25.5811cm" y="30.8964cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.7337cm" cy="31.6933cm" r="0.5cm" />
+<text x="24.7337cm" y="31.6933cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.5521cm" cy="32.2908cm" r="0.5cm" />
+<text x="24.5521cm" y="32.2908cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.2494cm" cy="32.7889cm" r="0.5cm" />
+<text x="24.2494cm" y="32.7889cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.8547cm" cy="32.8885cm" r="0.5cm" />
+<text x="24.8547cm" y="32.8885cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.2784cm" cy="32.5896cm" r="0.5cm" />
+<text x="25.2784cm" y="32.5896cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.7022cm" cy="32.49cm" r="0.5cm" />
+<text x="25.7022cm" y="32.49cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.46cm" cy="33.1873cm" r="0.5cm" />
+<text x="25.46cm" y="33.1873cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.9758cm" cy="33.8845cm" r="0.5cm" />
+<text x="24.9758cm" y="33.8845cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.0363cm" cy="34.5816cm" r="0.5cm" />
+<text x="25.0363cm" y="34.5816cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.8547cm" cy="35.3785cm" r="0.5cm" />
+<text x="24.8547cm" y="35.3785cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.6731cm" cy="36.1753cm" r="0.5cm" />
+<text x="24.6731cm" y="36.1753cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.1284cm" cy="36.4741cm" r="0.5cm" />
+<text x="24.1284cm" y="36.4741cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.8256cm" cy="35.8765cm" r="0.5cm" />
+<text x="23.8256cm" y="35.8765cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="23.5835cm" cy="37.0717cm" r="0.5cm" />
+<text x="23.5835cm" y="37.0717cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.31cm" cy="39.0638cm" r="0.5cm" />
+<text x="24.31cm" y="39.0638cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.3705cm" cy="38.0678cm" r="0.5cm" />
+<text x="24.3705cm" y="38.0678cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.6731cm" cy="38.3666cm" r="0.5cm" />
+<text x="24.6731cm" y="38.3666cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.0968cm" cy="38.4662cm" r="0.5cm" />
+<text x="25.0968cm" y="38.4662cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.0049cm" cy="37.0717cm" r="0.5cm" />
+<text x="26.0049cm" y="37.0717cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.6707cm" cy="35.8765cm" r="0.5cm" />
+<text x="26.6707cm" y="35.8765cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.0339cm" cy="36.7729cm" r="0.5cm" />
+<text x="27.0339cm" y="36.7729cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.7918cm" cy="38.3666cm" r="0.5cm" />
+<text x="26.7918cm" y="38.3666cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.8838cm" cy="39.0638cm" r="0.5cm" />
+<text x="25.8838cm" y="39.0638cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.4285cm" cy="40.757cm" r="0.5cm" />
+<text x="26.4285cm" y="40.757cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.2784cm" cy="40.0597cm" r="0.5cm" />
+<text x="25.2784cm" y="40.0597cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.46cm" cy="40.5577cm" r="0.5cm" />
+<text x="25.46cm" y="40.5577cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.5811cm" cy="41.1554cm" r="0.5cm" />
+<text x="25.5811cm" y="41.1554cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.0968cm" cy="41.4542cm" r="0.5cm" />
+<text x="25.0968cm" y="41.4542cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.6731cm" cy="41.4542cm" r="0.5cm" />
+<text x="24.6731cm" y="41.4542cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="24.431cm" cy="41.5538cm" r="0.5cm" />
+<text x="24.431cm" y="41.5538cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.1235cm" cy="40.9562cm" r="0.5cm" />
+<text x="28.1235cm" y="40.9562cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.2761cm" cy="41.753cm" r="0.5cm" />
+<text x="27.2761cm" y="41.753cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.339cm" cy="44.243cm" r="0.5cm" />
+<text x="25.339cm" y="44.243cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.3995cm" cy="44.6414cm" r="0.5cm" />
+<text x="25.3995cm" y="44.6414cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="25.7627cm" cy="45.7371cm" r="0.5cm" />
+<text x="25.7627cm" y="45.7371cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.1865cm" cy="44.1434cm" r="0.5cm" />
+<text x="26.1865cm" y="44.1434cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.5182cm" cy="42.6494cm" r="0.5cm" />
+<text x="27.5182cm" y="42.6494cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.6393cm" cy="43.1474cm" r="0.5cm" />
+<text x="27.6393cm" y="43.1474cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.2155cm" cy="43.1474cm" r="0.5cm" />
+<text x="27.2155cm" y="43.1474cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.0339cm" cy="43.8446cm" r="0.5cm" />
+<text x="27.0339cm" y="43.8446cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.6707cm" cy="45.1395cm" r="0.5cm" />
+<text x="26.6707cm" y="45.1395cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.7918cm" cy="45.5379cm" r="0.5cm" />
+<text x="26.7918cm" y="45.5379cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.5787cm" cy="44.4423cm" r="0.5cm" />
+<text x="27.5787cm" y="44.4423cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.3051cm" cy="44.243cm" r="0.5cm" />
+<text x="28.3051cm" y="44.243cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.3656cm" cy="43.0478cm" r="0.5cm" />
+<text x="28.3656cm" y="43.0478cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.7288cm" cy="43.0478cm" r="0.5cm" />
+<text x="28.7288cm" y="43.0478cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.0315cm" cy="43.247cm" r="0.5cm" />
+<text x="29.0315cm" y="43.247cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.3681cm" cy="46.9323cm" r="0.5cm" />
+<text x="26.3681cm" y="46.9323cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="26.7312cm" cy="47.0318cm" r="0.5cm" />
+<text x="26.7312cm" y="47.0318cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.5182cm" cy="46.8327cm" r="0.5cm" />
+<text x="27.5182cm" y="46.8327cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.2761cm" cy="47.1315cm" r="0.5cm" />
+<text x="27.2761cm" y="47.1315cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="27.3365cm" cy="47.5299cm" r="0.5cm" />
+<text x="27.3365cm" y="47.5299cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.8184cm" cy="43.247cm" r="0.5cm" />
+<text x="29.8184cm" y="43.247cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.0605cm" cy="43.247cm" r="0.5cm" />
+<text x="30.0605cm" y="43.247cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.6974cm" cy="44.8406cm" r="0.5cm" />
+<text x="29.6974cm" y="44.8406cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.8499cm" cy="46.8327cm" r="0.5cm" />
+<text x="28.8499cm" y="46.8327cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.9709cm" cy="48.1275cm" r="0.5cm" />
+<text x="28.9709cm" y="48.1275cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.4867cm" cy="48.7251cm" r="0.5cm" />
+<text x="28.4867cm" y="48.7251cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="28.9104cm" cy="50.518cm" r="0.5cm" />
+<text x="28.9104cm" y="50.518cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.5158cm" cy="49.7211cm" r="0.5cm" />
+<text x="29.5158cm" y="49.7211cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.5158cm" cy="48.4263cm" r="0.5cm" />
+<text x="29.5158cm" y="48.4263cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.4552cm" cy="47.6295cm" r="0.5cm" />
+<text x="29.4552cm" y="47.6295cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.6368cm" cy="46.8327cm" r="0.5cm" />
+<text x="29.6368cm" y="46.8327cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.6053cm" cy="43.8446cm" r="0.5cm" />
+<text x="30.6053cm" y="43.8446cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.6659cm" cy="44.4423cm" r="0.5cm" />
+<text x="30.6659cm" y="44.4423cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.1501cm" cy="45.4382cm" r="0.5cm" />
+<text x="31.1501cm" y="45.4382cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.6053cm" cy="47.5299cm" r="0.5cm" />
+<text x="30.6053cm" y="47.5299cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="29.9395cm" cy="50.7172cm" r="0.5cm" />
+<text x="29.9395cm" y="50.7172cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.5133cm" cy="47.4303cm" r="0.5cm" />
+<text x="31.5133cm" y="47.4303cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.3923cm" cy="48.5259cm" r="0.5cm" />
+<text x="31.3923cm" y="48.5259cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.7845cm" cy="46.4342cm" r="0.5cm" />
+<text x="32.7845cm" y="46.4342cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.3293cm" cy="46.8327cm" r="0.5cm" />
+<text x="33.3293cm" y="46.8327cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.7264cm" cy="51.2152cm" r="0.5cm" />
+<text x="30.7264cm" y="51.2152cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="30.9685cm" cy="50.7172cm" r="0.5cm" />
+<text x="30.9685cm" y="50.7172cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.3317cm" cy="50.2191cm" r="0.5cm" />
+<text x="31.3317cm" y="50.2191cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.3317cm" cy="51.0159cm" r="0.5cm" />
+<text x="31.3317cm" y="51.0159cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.6344cm" cy="49.8207cm" r="0.5cm" />
+<text x="31.6344cm" y="49.8207cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.9976cm" cy="49.6215cm" r="0.5cm" />
+<text x="31.9976cm" y="49.6215cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.2397cm" cy="50.2191cm" r="0.5cm" />
+<text x="32.2397cm" y="50.2191cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.5423cm" cy="48.9243cm" r="0.5cm" />
+<text x="32.5423cm" y="48.9243cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.9055cm" cy="48.9243cm" r="0.5cm" />
+<text x="32.9055cm" y="48.9243cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.7531cm" cy="48.5259cm" r="0.5cm" />
+<text x="33.7531cm" y="48.5259cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.9346cm" cy="47.9283cm" r="0.5cm" />
+<text x="33.9346cm" y="47.9283cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.661cm" cy="47.7291cm" r="0.5cm" />
+<text x="34.661cm" y="47.7291cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.69cm" cy="48.0279cm" r="0.5cm" />
+<text x="35.69cm" y="48.0279cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.7821cm" cy="49.3227cm" r="0.5cm" />
+<text x="34.7821cm" y="49.3227cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.632cm" cy="50.1195cm" r="0.5cm" />
+<text x="33.632cm" y="50.1195cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.3608cm" cy="51.0159cm" r="0.5cm" />
+<text x="32.3608cm" y="51.0159cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.9371cm" cy="51.3147cm" r="0.5cm" />
+<text x="31.9371cm" y="51.3147cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.2712cm" cy="51.7132cm" r="0.5cm" />
+<text x="31.2712cm" y="51.7132cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.7554cm" cy="52.6095cm" r="0.5cm" />
+<text x="31.7554cm" y="52.6095cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="31.8765cm" cy="52.8087cm" r="0.5cm" />
+<text x="31.8765cm" y="52.8087cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.3002cm" cy="53.1076cm" r="0.5cm" />
+<text x="32.3002cm" y="53.1076cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.5423cm" cy="53.6056cm" r="0.5cm" />
+<text x="32.5423cm" y="53.6056cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.6634cm" cy="52.4104cm" r="0.5cm" />
+<text x="32.6634cm" y="52.4104cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.9661cm" cy="53.506cm" r="0.5cm" />
+<text x="32.9661cm" y="53.506cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="32.9661cm" cy="51.3147cm" r="0.5cm" />
+<text x="32.9661cm" y="51.3147cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.4504cm" cy="52.8087cm" r="0.5cm" />
+<text x="33.4504cm" y="52.8087cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="33.8741cm" cy="52.8087cm" r="0.5cm" />
+<text x="33.8741cm" y="52.8087cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.0557cm" cy="53.1076cm" r="0.5cm" />
+<text x="34.0557cm" y="53.1076cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.0557cm" cy="52.2111cm" r="0.5cm" />
+<text x="34.0557cm" y="52.2111cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.2978cm" cy="51.3147cm" r="0.5cm" />
+<text x="34.2978cm" y="51.3147cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="36.1138cm" cy="49.4223cm" r="0.5cm" />
+<text x="36.1138cm" y="49.4223cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.0218cm" cy="48.9243cm" r="0.5cm" />
+<text x="37.0218cm" y="48.9243cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.2034cm" cy="49.9203cm" r="0.5cm" />
+<text x="37.2034cm" y="49.9203cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.4455cm" cy="49.9203cm" r="0.5cm" />
+<text x="37.4455cm" y="49.9203cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.506cm" cy="50.6175cm" r="0.5cm" />
+<text x="37.506cm" y="50.6175cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="36.6586cm" cy="50.9163cm" r="0.5cm" />
+<text x="36.6586cm" y="50.9163cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="36.3559cm" cy="51.0159cm" r="0.5cm" />
+<text x="36.3559cm" y="51.0159cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="36.6586cm" cy="52.012cm" r="0.5cm" />
+<text x="36.6586cm" y="52.012cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.8717cm" cy="52.012cm" r="0.5cm" />
+<text x="35.8717cm" y="52.012cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.6296cm" cy="52.3108cm" r="0.5cm" />
+<text x="35.6296cm" y="52.3108cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.6005cm" cy="52.6095cm" r="0.5cm" />
+<text x="34.6005cm" y="52.6095cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.1453cm" cy="53.0079cm" r="0.5cm" />
+<text x="35.1453cm" y="53.0079cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="35.4479cm" cy="53.6056cm" r="0.5cm" />
+<text x="35.4479cm" y="53.6056cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.3584cm" cy="54.1036cm" r="0.5cm" />
+<text x="34.3584cm" y="54.1036cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.5399cm" cy="54.3028cm" r="0.5cm" />
+<text x="34.5399cm" y="54.3028cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="34.9637cm" cy="54.502cm" r="0.5cm" />
+<text x="34.9637cm" y="54.502cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="36.6586cm" cy="54.9004cm" r="0.5cm" />
+<text x="36.6586cm" y="54.9004cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.0218cm" cy="54.502cm" r="0.5cm" />
+<text x="37.0218cm" y="54.502cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.0823cm" cy="54.8008cm" r="0.5cm" />
+<text x="37.0823cm" y="54.8008cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.9903cm" cy="54.3028cm" r="0.5cm" />
+<text x="37.9903cm" y="54.3028cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="37.9903cm" cy="53.8048cm" r="0.5cm" />
+<text x="37.9903cm" y="53.8048cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.0193cm" cy="52.7092cm" r="0.5cm" />
+<text x="39.0193cm" y="52.7092cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.0193cm" cy="51.4144cm" r="0.5cm" />
+<text x="39.0193cm" y="51.4144cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="38.9589cm" cy="49.9203cm" r="0.5cm" />
+<text x="38.9589cm" y="49.9203cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="38.7772cm" cy="49.3227cm" r="0.5cm" />
+<text x="38.7772cm" y="49.3227cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.5641cm" cy="48.2271cm" r="0.5cm" />
+<text x="39.5641cm" y="48.2271cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="40.4721cm" cy="47.7291cm" r="0.5cm" />
+<text x="40.4721cm" y="47.7291cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.1986cm" cy="54.004cm" r="0.5cm" />
+<text x="41.1986cm" y="54.004cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="40.5327cm" cy="53.9044cm" r="0.5cm" />
+<text x="40.5327cm" y="53.9044cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="40.1695cm" cy="53.9044cm" r="0.5cm" />
+<text x="40.1695cm" y="53.9044cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.5037cm" cy="52.8087cm" r="0.5cm" />
+<text x="39.5037cm" y="52.8087cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.8063cm" cy="52.7092cm" r="0.5cm" />
+<text x="39.8063cm" y="52.7092cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.322cm" cy="51.7132cm" r="0.5cm" />
+<text x="39.322cm" y="51.7132cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.7458cm" cy="51.1156cm" r="0.5cm" />
+<text x="39.7458cm" y="51.1156cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.8668cm" cy="51.4144cm" r="0.5cm" />
+<text x="39.8668cm" y="51.4144cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="40.3511cm" cy="51.9123cm" r="0.5cm" />
+<text x="40.3511cm" y="51.9123cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.3802cm" cy="51.9123cm" r="0.5cm" />
+<text x="41.3802cm" y="51.9123cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="40.9564cm" cy="52.7092cm" r="0.5cm" />
+<text x="40.9564cm" y="52.7092cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.4407cm" cy="52.9083cm" r="0.5cm" />
+<text x="41.4407cm" y="52.9083cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.7433cm" cy="52.9083cm" r="0.5cm" />
+<text x="41.7433cm" y="52.9083cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.5617cm" cy="50.4184cm" r="0.5cm" />
+<text x="41.5617cm" y="50.4184cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.2591cm" cy="49.1235cm" r="0.5cm" />
+<text x="41.2591cm" y="49.1235cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="41.3196cm" cy="48.5259cm" r="0.5cm" />
+<text x="41.3196cm" y="48.5259cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="42.2881cm" cy="48.3267cm" r="0.5cm" />
+<text x="42.2881cm" y="48.3267cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="42.4698cm" cy="47.7291cm" r="0.5cm" />
+<text x="42.4698cm" y="47.7291cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="42.8935cm" cy="46.8327cm" r="0.5cm" />
+<text x="42.8935cm" y="46.8327cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.4988cm" cy="44.9403cm" r="0.5cm" />
+<text x="43.4988cm" y="44.9403cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="44.5279cm" cy="45.9362cm" r="0.5cm" />
+<text x="44.5279cm" y="45.9362cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.6198cm" cy="46.9323cm" r="0.5cm" />
+<text x="43.6198cm" y="46.9323cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.6804cm" cy="47.6295cm" r="0.5cm" />
+<text x="43.6804cm" y="47.6295cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.5593cm" cy="48.1275cm" r="0.5cm" />
+<text x="43.5593cm" y="48.1275cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.3172cm" cy="48.6255cm" r="0.5cm" />
+<text x="43.3172cm" y="48.6255cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.5593cm" cy="49.2231cm" r="0.5cm" />
+<text x="43.5593cm" y="49.2231cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.1356cm" cy="50.7172cm" r="0.5cm" />
+<text x="43.1356cm" y="50.7172cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.3172cm" cy="52.3108cm" r="0.5cm" />
+<text x="43.3172cm" y="52.3108cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.9831cm" cy="52.5099cm" r="0.5cm" />
+<text x="43.9831cm" y="52.5099cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.7409cm" cy="51.6135cm" r="0.5cm" />
+<text x="43.7409cm" y="51.6135cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="43.8014cm" cy="51.1156cm" r="0.5cm" />
+<text x="43.8014cm" y="51.1156cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.4359cm" cy="51.6135cm" r="0.5cm" />
+<text x="45.4359cm" y="51.6135cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.4359cm" cy="50.8168cm" r="0.5cm" />
+<text x="45.4359cm" y="50.8168cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="44.8305cm" cy="50.3187cm" r="0.5cm" />
+<text x="44.8305cm" y="50.3187cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="44.5279cm" cy="49.5219cm" r="0.5cm" />
+<text x="44.5279cm" y="49.5219cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.0121cm" cy="48.9243cm" r="0.5cm" />
+<text x="45.0121cm" y="48.9243cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="44.5884cm" cy="48.4263cm" r="0.5cm" />
+<text x="44.5884cm" y="48.4263cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.8595cm" cy="49.2231cm" r="0.5cm" />
+<text x="45.8595cm" y="49.2231cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.1017cm" cy="49.5219cm" r="0.5cm" />
+<text x="46.1017cm" y="49.5219cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.1017cm" cy="48.3267cm" r="0.5cm" />
+<text x="46.1017cm" y="48.3267cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.8281cm" cy="48.3267cm" r="0.5cm" />
+<text x="46.8281cm" y="48.3267cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.7385cm" cy="47.2311cm" r="0.5cm" />
+<text x="45.7385cm" y="47.2311cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.4359cm" cy="46.5338cm" r="0.5cm" />
+<text x="45.4359cm" y="46.5338cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.8595cm" cy="46.2351cm" r="0.5cm" />
+<text x="45.8595cm" y="46.2351cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.1623cm" cy="46.4342cm" r="0.5cm" />
+<text x="46.1623cm" y="46.4342cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.3438cm" cy="46.8327cm" r="0.5cm" />
+<text x="46.3438cm" y="46.8327cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.7385cm" cy="45.3386cm" r="0.5cm" />
+<text x="45.7385cm" y="45.3386cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="45.9807cm" cy="45.1395cm" r="0.5cm" />
+<text x="45.9807cm" y="45.1395cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.5859cm" cy="44.8406cm" r="0.5cm" />
+<text x="46.5859cm" y="44.8406cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.1307cm" cy="44.741cm" r="0.5cm" />
+<text x="47.1307cm" y="44.741cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.494cm" cy="46.6334cm" r="0.5cm" />
+<text x="47.494cm" y="46.6334cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.4625cm" cy="47.4303cm" r="0.5cm" />
+<text x="48.4625cm" y="47.4303cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.6441cm" cy="46.3347cm" r="0.5cm" />
+<text x="48.6441cm" y="46.3347cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.3414cm" cy="46.0358cm" r="0.5cm" />
+<text x="48.3414cm" y="46.0358cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.6756cm" cy="45.0399cm" r="0.5cm" />
+<text x="47.6756cm" y="45.0399cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.8571cm" cy="44.6414cm" r="0.5cm" />
+<text x="47.8571cm" y="44.6414cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.9177cm" cy="44.0438cm" r="0.5cm" />
+<text x="47.9177cm" y="44.0438cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.6731cm" cy="46.1355cm" r="0.5cm" />
+<text x="49.6731cm" y="46.1355cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.0363cm" cy="45.5379cm" r="0.5cm" />
+<text x="50.0363cm" y="45.5379cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="39.4431cm" cy="52.012cm" r="0.5cm" />
+<text x="39.4431cm" y="52.012cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.4044cm" cy="42.8486cm" r="0.5cm" />
+<text x="46.4044cm" y="42.8486cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="46.8886cm" cy="42.0518cm" r="0.5cm" />
+<text x="46.8886cm" y="42.0518cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.615cm" cy="42.1514cm" r="0.5cm" />
+<text x="47.615cm" y="42.1514cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.7361cm" cy="41.5538cm" r="0.5cm" />
+<text x="47.7361cm" y="41.5538cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="47.4334cm" cy="40.8566cm" r="0.5cm" />
+<text x="47.4334cm" y="40.8566cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.5836cm" cy="42.5498cm" r="0.5cm" />
+<text x="48.5836cm" y="42.5498cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.4625cm" cy="41.255cm" r="0.5cm" />
+<text x="48.4625cm" y="41.255cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.8257cm" cy="41.3546cm" r="0.5cm" />
+<text x="48.8257cm" y="41.3546cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.2494cm" cy="40.5577cm" r="0.5cm" />
+<text x="49.2494cm" y="40.5577cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.2204cm" cy="40.5577cm" r="0.5cm" />
+<text x="48.2204cm" y="40.5577cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.0992cm" cy="39.4621cm" r="0.5cm" />
+<text x="48.0992cm" y="39.4621cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.6441cm" cy="39.1634cm" r="0.5cm" />
+<text x="48.6441cm" y="39.1634cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.339cm" cy="41.4542cm" r="0.5cm" />
+<text x="50.339cm" y="41.4542cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.6416cm" cy="41.9522cm" r="0.5cm" />
+<text x="50.6416cm" y="41.9522cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.5811cm" cy="39.8605cm" r="0.5cm" />
+<text x="50.5811cm" y="39.8605cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.7942cm" cy="39.2629cm" r="0.5cm" />
+<text x="49.7942cm" y="39.2629cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.4916cm" cy="38.5658cm" r="0.5cm" />
+<text x="49.4916cm" y="38.5658cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.3704cm" cy="38.0678cm" r="0.5cm" />
+<text x="49.3704cm" y="38.0678cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.9468cm" cy="37.3705cm" r="0.5cm" />
+<text x="48.9468cm" y="37.3705cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="48.7046cm" cy="36.4741cm" r="0.5cm" />
+<text x="48.7046cm" y="36.4741cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.1283cm" cy="35.7769cm" r="0.5cm" />
+<text x="49.1283cm" y="35.7769cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.2494cm" cy="36.5737cm" r="0.5cm" />
+<text x="49.2494cm" y="36.5737cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.7337cm" cy="36.9721cm" r="0.5cm" />
+<text x="49.7337cm" y="36.9721cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.0968cm" cy="37.1713cm" r="0.5cm" />
+<text x="50.0968cm" y="37.1713cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.8838cm" cy="37.3705cm" r="0.5cm" />
+<text x="50.8838cm" y="37.3705cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.7627cm" cy="36.4741cm" r="0.5cm" />
+<text x="50.7627cm" y="36.4741cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.1574cm" cy="34.9801cm" r="0.5cm" />
+<text x="50.1574cm" y="34.9801cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.31cm" cy="34.8805cm" r="0.5cm" />
+<text x="49.31cm" y="34.8805cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.5521cm" cy="34.0837cm" r="0.5cm" />
+<text x="49.5521cm" y="34.0837cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="49.9758cm" cy="31.8925cm" r="0.5cm" />
+<text x="49.9758cm" y="31.8925cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.5206cm" cy="31.6933cm" r="0.5cm" />
+<text x="50.5206cm" y="31.6933cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.2179cm" cy="31.9921cm" r="0.5cm" />
+<text x="50.2179cm" y="31.9921cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.5811cm" cy="32.1912cm" r="0.5cm" />
+<text x="50.5811cm" y="32.1912cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.7627cm" cy="32.3904cm" r="0.5cm" />
+<text x="50.7627cm" y="32.3904cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.7313cm" cy="32.49cm" r="0.5cm" />
+<text x="51.7313cm" y="32.49cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.368cm" cy="34.482cm" r="0.5cm" />
+<text x="51.368cm" y="34.482cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.3075cm" cy="35.0797cm" r="0.5cm" />
+<text x="51.3075cm" y="35.0797cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.6101cm" cy="36.1753cm" r="0.5cm" />
+<text x="51.6101cm" y="36.1753cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.9734cm" cy="37.2709cm" r="0.5cm" />
+<text x="51.9734cm" y="37.2709cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.0339cm" cy="36.2749cm" r="0.5cm" />
+<text x="52.0339cm" y="36.2749cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.276cm" cy="35.3785cm" r="0.5cm" />
+<text x="52.276cm" y="35.3785cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.8208cm" cy="35.2789cm" r="0.5cm" />
+<text x="52.8208cm" y="35.2789cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.063cm" cy="36.7729cm" r="0.5cm" />
+<text x="53.063cm" y="36.7729cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.1235cm" cy="35.8765cm" r="0.5cm" />
+<text x="53.1235cm" y="35.8765cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.2446cm" cy="34.5816cm" r="0.5cm" />
+<text x="53.2446cm" y="34.5816cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.1235cm" cy="31.8925cm" r="0.5cm" />
+<text x="53.1235cm" y="31.8925cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.8208cm" cy="31.2948cm" r="0.5cm" />
+<text x="52.8208cm" y="31.2948cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.3656cm" cy="31.0956cm" r="0.5cm" />
+<text x="53.3656cm" y="31.0956cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.3051cm" cy="30.3984cm" r="0.5cm" />
+<text x="53.3051cm" y="30.3984cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="54.1525cm" cy="30.2988cm" r="0.5cm" />
+<text x="54.1525cm" y="30.2988cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.7288cm" cy="29.502cm" r="0.5cm" />
+<text x="53.7288cm" y="29.502cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="54.092cm" cy="27.3107cm" r="0.5cm" />
+<text x="54.092cm" y="27.3107cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.7288cm" cy="26.8127cm" r="0.5cm" />
+<text x="53.7288cm" y="26.8127cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.4261cm" cy="28.0079cm" r="0.5cm" />
+<text x="53.4261cm" y="28.0079cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="53.1235cm" cy="28.3067cm" r="0.5cm" />
+<text x="53.1235cm" y="28.3067cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.4577cm" cy="28.506cm" r="0.5cm" />
+<text x="52.4577cm" y="28.506cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.1549cm" cy="28.506cm" r="0.5cm" />
+<text x="52.1549cm" y="28.506cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.6707cm" cy="29.9004cm" r="0.5cm" />
+<text x="51.6707cm" y="29.9004cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.1865cm" cy="29.9004cm" r="0.5cm" />
+<text x="51.1865cm" y="29.9004cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.5206cm" cy="27.9083cm" r="0.5cm" />
+<text x="50.5206cm" y="27.9083cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.0654cm" cy="27.2111cm" r="0.5cm" />
+<text x="51.0654cm" y="27.2111cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.368cm" cy="27.7092cm" r="0.5cm" />
+<text x="51.368cm" y="27.7092cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="50.4601cm" cy="26.2152cm" r="0.5cm" />
+<text x="50.4601cm" y="26.2152cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="51.9734cm" cy="27.0119cm" r="0.5cm" />
+<text x="51.9734cm" y="27.0119cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+<circle fill="#FF7F00" style="opacity:0.4"  stroke-width="0.05cm"  cx="52.4577cm" cy="26.8127cm" r="0.5cm" />
+<text x="52.4577cm" y="26.8127cm" font-style="normal" font-family="Times New Roman" font-size="0.5cm" stroke="none" fill="#FF7F00" > 1</text>
+</g>
+</svg>

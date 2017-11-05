@@ -15,7 +15,6 @@
 #
 import sys
 import os
-from datetime import datetime
 from subprocess import call
 
 
@@ -42,15 +41,16 @@ def showHeader():
 
 def showHelp():
     print("\tOptions\t\tDescription")
-    print("\t-h\t\t\tShow this help")
+    print("\t-h\t\tShow this help")
     print("\t-d <dir>\tThe data files gathering by devices will be found on <dir>/devices directory")
     print("\t-e <epsilon>\tValue of epsilon: default = 10")
     print("\t-m <cells>\tMinimum Cells (default: 3)")
     print("\t-f <force>\tMinimum Force (default: 150)")
     print("\t-r\t\tDon't draw rectangles")
     print("\t-g\t\tDon't draw edges")
-    print("\t-p\t\tPrint points")
-    print("\t-t\t\tUse timestamp on files")
+    print("\t-p\t\tDraw points")
+    print("\t-b\t\tDraw numbers")
+    print("\t-x\t\tConfiguration file: default config.csv on the <dir> directory")
     return
 
 
@@ -78,12 +78,11 @@ def parseOpt(opt, hasArgument):
 showHeader()
 
 # verify if have any -h option
-matHelp = [i for i, x in enumerate(sys.argv) if x == "-h"]
-qtyHelp = len(matHelp)
+hasHelp, opt = parseOpt("-h", False)
 
-if (qtyHelp > 0):
+if (hasHelp > 0):
     showHelp()
-    exit(0)
+    exit(1)
 
 # verify if directory is defined
 hasDir, nameDir = parseOpt("-d", True)
@@ -102,6 +101,8 @@ if hasDir:
 else:
     showHelp()
     showError("-d option not found")
+
+hasCfgFile, configFile = parseOpt("-x", True)
 
 # verify Epsilon
 hasEps, epsilon = parseOpt("-e", True)
@@ -139,28 +140,34 @@ else:
     if force <= 0:
         showError("Invalid value for force:" + str(force))
 
-# Verify is don't draw rectangle
+# Verify if don't draw rectangle
 optRect, opt = parseOpt("-r", False)
 if optRect:
     optRect = "-r"
 else:
     optRect = ""
 
-# Verify is don't draw edge
+# Verify if don't draw edge
 optEdge, opt = parseOpt("-g", False)
 if optEdge:
     optEdge = "-g"
 else:
     optEdge = ""
 
-# Verify is don't draw edge
+# Verify if draw points
 optPoint, opt = parseOpt("-p", False)
 if optPoint:
     optPoint = "-p"
 else:
     optPoint = ""
 
-hasTimeStamp, opt = parseOpt("-t", False)
+#hasTimeStamp, opt = parseOpt("-t", False)
+
+optNumber, opt = parseOpt("-b", False)
+if optNumber:
+    optNumber = "-b"
+else:
+    optNumber = ""
 
 # Starting process
 #
@@ -180,11 +187,10 @@ if not os.path.exists(dirConsolidateOutput):
 if not os.path.exists(dirGetClusterOutput):
     os.makedirs(dirGetClusterOutput)
 
-if hasTimeStamp:
-    now = datetime.now()
-    prefix = now.strftime('%Y%m%d-%H%M%S-')
-else:
-    prefix = ""
+prefix = ("e%03df%06.4f-" % (epsilon, force))
+
+if configFile == "":
+    configFile = nameDir + "/config/config-" + nameSingleDir + ".csv"
 
 qtyFiles = 0
 listCellsFiles = []
@@ -196,18 +202,19 @@ for file in os.listdir(dirInput):
         completeFileName = dirInput + file
         strN = "%02d" % qtyFiles
         # Deal Cell files
-        cellOutput = dirSumDataOutput + "/" + prefix + "cell-" + nameSingleDir  + "-" + strN + ".csv"
+        cellOutput = dirSumDataOutput + "/cell-" + nameSingleDir  + "-" + strN + ".csv"
         listCellsFiles.append(cellOutput)
         # Deal point files
         if (optPoint == ""):
             pointOutput = ""
         else:
-            pointOutput = dirSumDataOutput + "/" + prefix + "point-" + nameSingleDir + "-" + strN + ".csv"
+            pointOutput = dirSumDataOutput + "/point-" + nameSingleDir + "-" + strN + ".csv"
             listPointFiles.append(pointOutput)
-        result = call(["../sumData/bin/Debug/sumData",
+        result = call(["../sumData/bin/sumData",
                        "-e", str(epsilon),
                        "-i", completeFileName,
                        "-c", cellOutput,
+                       "-x", configFile,
                        optPoint, pointOutput])
         if result > 0:
             showError("Script ended with error number: " + str(result) + \
@@ -216,8 +223,8 @@ for file in os.listdir(dirInput):
 if qtyFiles == 0:
     showError("There is no csv files on directory " + dirInput)
 
-cellOutput = dirConsolidateOutput + "/" + prefix + "cells-" + nameSingleDir + ".csv"
-pointOutput = dirConsolidateOutput + "/" + prefix + "points-" + nameSingleDir + ".csv"
+cellOutput = dirConsolidateOutput + "/cells-" + nameSingleDir + ".csv"
+pointOutput = dirConsolidateOutput + "/points-" + nameSingleDir + ".csv"
 
 # Open cell output to write on it
 fileCellOutput = open(cellOutput, "w")
@@ -239,12 +246,12 @@ for i in range(len(listCellsFiles)):
 
 fileCellOutput.close()
 
-# Open cell output to write on it
+# Open point output to write on it
 if len(listPointFiles) > 0:
     filePointOutput = open(pointOutput, "w")
 
 for i in range(len(listPointFiles)):
-    fInd = open(listPointFiles[i], "r")  # open first cell
+    fInd = open(listPointFiles[i], "r")  # open first point
     firstLine = True
     for line in fInd:
         lineWr = line
@@ -262,13 +269,18 @@ if len(listPointFiles) > 0:
 # Run getCluster
 
 svgOutput = dirGetClusterOutput + "/" + prefix + "graph-" + nameSingleDir + ".svg"
+resultPointsOutput = dirGetClusterOutput + "/" + prefix + "result-points-" + nameSingleDir + ".csv"
+resultCellsOutput = dirGetClusterOutput + "/" + prefix + "result-cells-" + nameSingleDir + ".csv"
 
-result = call(["../getCluster/bin/Debug/getCluster",
+result = call(["../getCluster/bin/getCluster",
                "-e", str(epsilon),
                "-m", str(minCell),
                "-f", str(force),
                optRect,
                optEdge,
                optPoint, pointOutput,
+               optNumber,
                "-s", svgOutput,
+               "-t", resultPointsOutput,
+               "-l", resultCellsOutput,
                "-i", cellOutput])

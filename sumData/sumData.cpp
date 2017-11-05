@@ -15,16 +15,19 @@ bool isDouble(const char *str)
 int main(int argc, char* argv[])
 {
     ifstream infile;
+    ifstream cfgFile;
     int opt;
     string input;
+    string configFile;
     string outputCells;
     string outputPoints;
     string value;
     int lineNo = 0;
     unsigned dimension;
+    int fieldClass;
     int epsilon;
     unsigned noFields;  // number of fields
-    vector<string> lineCSV, headerCSV, clusterFields;
+    vector<string> lineCSV, headerCSV, configFields;
     vector<Cell*> listCells; // Vector of Cells
     vector<double> maxValue, minValue;
 
@@ -38,11 +41,13 @@ int main(int argc, char* argv[])
     // Default values of arguments
     unsigned epsilonDefault = 10;
     string inputDefault = "input.csv";
+    string configFileDefaul = "config.csv";
     string outputCellsDefault = "cells.csv";
     string outputPointsDefault = "points.csv";
 
     epsilon = epsilonDefault;
     input = inputDefault;
+    configFile = configFileDefaul;
     outputCells = outputCellsDefault;
     outputPoints = outputPointsDefault;
 
@@ -50,12 +55,15 @@ int main(int argc, char* argv[])
     //
     // Show help message if -h or there is no command options
 
-    while ((opt = getopt(argc, argv, "e:i:c:p:")) != -1)
+    while ((opt = getopt(argc, argv, "e:i:c:p:x:")) != -1)
     {
         switch (opt)
         {
         case 'i':
             input = optarg;
+            break;
+        case 'x':
+            configFile = optarg;
             break;
         case 'c':
             outputCells = optarg;
@@ -76,6 +84,7 @@ int main(int argc, char* argv[])
             cout << "OPTIONS: " << endl;
             cout << "-e <epsilon> (default: " << epsilonDefault << ")" << endl;
             cout << "-i <file>\tinput file (default: " << inputDefault <<")" << endl;
+            cout << "-x <file>\tconfiguration file (defaul: " << configFileDefaul << ")" << endl;
             cout << "-c <file>\tcells output file (default: " << outputCellsDefault << ")" << endl;
             cout << "-p <file>\tpoints output file (default: " << outputPointsDefault <<")" << endl;
             exit(EXIT_FAILURE);
@@ -85,11 +94,12 @@ int main(int argc, char* argv[])
     cout << "Parameters " << endl;
     cout << "-----------" << endl;
     cout << "epsilon    : " << epsilon << endl;
+    cout << "Config.file: " << configFile << endl;
     cout << "Input file : " << input << endl;
     cout << "Cells file : " << outputCells << endl;
     cout << "Points file: " << outputPoints << endl;
     cout << endl <<"Running" << endl;
-    cout << "-------" << endl;
+    cout << "-----------" << endl;
 
     infile.open(input.c_str());
     if (!infile)
@@ -98,12 +108,21 @@ int main(int argc, char* argv[])
         exit (EXIT_FAILURE);
     }
 
+    cfgFile.open(configFile.c_str());
+    if (!cfgFile)
+    {
+        cout << "Error: Unable to open configuration file: " << configFile << endl;
+        infile.close();
+        exit(EXIT_FAILURE);
+    }
+
     pFileCells = fopen(outputCells.c_str(), "w");
 
     if (pFileCells == NULL)
     {
         cout << "Error: Unable do open cells output file." << endl;
         infile.close();
+        cfgFile.close();
         exit (EXIT_FAILURE);
     }
 
@@ -113,13 +132,15 @@ int main(int argc, char* argv[])
     {
         cout << "Error: Unable do open points output file." << endl;
         infile.close();
+        cfgFile.close();
         fclose(pFileCells);
         exit (EXIT_FAILURE);
     }
 
-    if (!getCSVLine(infile, headerCSV))
+    if (!getCSVLine(cfgFile, headerCSV))
     {
-        cout << "Error reader CSV File (Header) on the first line" << endl;
+        cout << "Error reading Configuration File (Header) on the first line" << endl;
+        cfgFile.close();
         infile.close();
         fclose(pFileCells);
         fclose(pFilePoints);
@@ -128,52 +149,54 @@ int main(int argc, char* argv[])
 
     noFields = headerCSV.size(); // Define number of fields
 
-    cout << "Reading CSV File header. Number of Fields:" << noFields << endl;
+    cout << "Reading Configuration File header. Number of Fields:" << noFields << endl;
 
     for (unsigned i = 0; i < headerCSV.size(); i++)
         cout << (i?",": "") << headerCSV[i];
 
     cout << endl;
 
-    if (!getCSVLine(infile, clusterFields))
+    if (!getCSVLine(cfgFile, configFields))
     {
-        cout << "Error reading CSV File (Header) on Clusters Line" << endl;
+        cout << "Error reading Configuration File (Header) on Fields Configuration (line 2)" << endl;
         infile.close();
+        cfgFile.close();
         fclose(pFileCells);
         fclose(pFilePoints);
         exit(EXIT_FAILURE);
     }
 
-    if (clusterFields.size() != noFields)
+    if (configFields.size() != noFields)
     {
-        cout << "Error reading CSV File (Header): Clusters Line (line 2)- "
-             << "number of fields doesn't "
-             << "match. Read " << clusterFields.size() << " Expected: " << noFields
-             << " fields " << endl;
+        cout << "Error reading Configuration File (Header): Fields configuration (line 2)" << endl
+             << "\tNumber of fields doesn't match. Read " << configFields.size()
+             << " Expected: " << noFields << " fields " << endl;
         exit(EXIT_FAILURE);
     }
 
     dimension = 0;
-    for (unsigned i = 0; i < clusterFields.size(); i++)
+    fieldClass = -1; // At beginning doesn't exist field Classification
+    for (unsigned i = 0; i < configFields.size(); i++)
     {
-        if (clusterFields[i] != "C" && clusterFields[i] != "N")
+        if (configFields[i] != "C" && configFields[i] != "N" && configFields[i] != "L")
         {
-            cout << "Error reading CSV File (Header): Clusters Line (line 2)"
-                 << "- Invalid Parameter"
-                 << " on field " << i+1 << " \"" << clusterFields[i] << "\""
-                 << " Must be \"C\" (C)luster Field " <<
-                 " or \"N\" (N)ot a Cluster Field " << endl;
+            cout << "Error reading Configuration File (Header): Fields Configuration (line 2)" << endl
+                 << "\tInvalid Parameter on field " << i+1 << " \"" << configFields[i] << "\":" << endl
+                 << "\tMust be \"C\" (C)luster Field, \"N\" (N)ot a Cluster Field or \"L\""
+                 << "C(L)assification Field" << endl;
             exit(EXIT_FAILURE);
         }
-        if (clusterFields[i] == "C")
+        if (configFields[i] == "C")
             dimension++;
+        if (configFields[i] == "L")
+            fieldClass = i;
+
     }
 
     if (dimension == 0)
     {
-        cout << "Error reading CSV File (Header): Cluster Line (line 2) "
-             << "- There is not clusters fields "
-             << endl;
+        cout << "Error reading Configuration File (Header): Cluster Line (line 2)" << endl
+             << "\nThere is not clusters fields " << endl;
         exit(EXIT_FAILURE);
     }
 
@@ -181,24 +204,24 @@ int main(int argc, char* argv[])
 
     cout << "Fields used on clustering: ";
 
-    for (unsigned i = 0; i < clusterFields.size(); i++)
+    for (unsigned i = 0; i < configFields.size(); i++)
     {
-        if (clusterFields[i] == "C")
+        if (configFields[i] == "C")
             cout << headerCSV[i] << " ";
     }
 
     cout << endl;
 
-    if (!getCSVLine(infile, lineCSV))
+    if (!getCSVLine(cfgFile, lineCSV))
     {
-        cout << "Error reading CSV File (Header) on Max line (line 3)" << endl;
+        cout << "Error reading Configuration File (Header) on Max line (line 3)" << endl;
         exit(EXIT_FAILURE);
     }
 
     if (lineCSV.size() != noFields)  // Test if line of max values has the same number of fields than header
     {
-        cout << "Error reading CSV File (Header): Max line (line 3)"
-             << "- number of fields doesn't match. "
+        cout << "Error reading Configuration File (Header): Max line (line 3)" << endl
+             << "\tnumber of fields doesn't match. "
              << " Read " << lineCSV.size() << " Expected: " << noFields <<  endl ;
         exit(EXIT_FAILURE);
     }
@@ -210,28 +233,29 @@ int main(int argc, char* argv[])
     {
         if (!isDouble(lineCSV[i].c_str()))
         {
-            cout << "Error reading CSV File (Header): Max line (line 3)"
-                 << " Field number " << i+1 << ", "
+            cout << "Error reading Configuration File (Header): Max line (line 3)" << endl
+                 << "\nField number " << i+1 << ", "
                  << lineCSV[i] << " is not double" << endl;
             exit(EXIT_FAILURE);
         }
         maxValue[i] = stod(lineCSV[i]);
     }
 
-    cout << "CSV File - Max Line read - OK" << endl;
+    cout << "Configuration File - Max Line read - OK" << endl;
     lineCSV.resize(0);
     lineCSV.shrink_to_fit();
 
-    if (!getCSVLine(infile, lineCSV))
+    if (!getCSVLine(cfgFile, lineCSV))
     {
-        cout << "Error reading CSV File (Header) on Min line (line 4)" << endl;
+        cout << "Error reading Configuration File (Header) on Min line (line 4)" << endl;
         exit(EXIT_FAILURE);
     }
 
     if (lineCSV.size() != noFields) // Test if line of min values has the same dimension than header
     {
-        cout << "Error reading CSV File (Header): Min line (line 4) - number of fields "
-             << "doesn't match. Read " << lineCSV.size() << " Expected: " << noFields << endl ;
+        cout << "Error reading Configuration File (Header): Min line (line 4)" << endl
+             << "\tNumber of fields doesn't match. Read "
+             << lineCSV.size() << " Expected: " << noFields << endl ;
         exit(EXIT_FAILURE);
     }
 
@@ -239,23 +263,23 @@ int main(int argc, char* argv[])
     {
         if (!isDouble(lineCSV[i].c_str()))
         {
-            cout << "Error reading CSV File (Header): Min line (line 4)"
-                 << " Field number " << i+1 << ", "
+            cout << "Error reading Configuration File (Header): Min line (line 4)" << endl
+                 << "\tField number " << i+1 << ", "
                  << lineCSV[i] << " is not double" << endl;
             exit(EXIT_FAILURE);
         }
         minValue[i] = stod(lineCSV[i]);
 
-        if (minValue[i] >= maxValue[i]) // Test if min value is greater or equal than max value
+        if (minValue[i] >= maxValue[i] and configFields[i] == "C") // Test if min value is greater or equal than max value
         {
-            cout << "Error reading CSV File (Header) - line 4: Min value gretaer or equal"
-                 << "than Max value for dimension "
-                 << i+1 << ": " << minValue[i] << " isn't less than " << maxValue[i] << endl;
+            cout << "Error reading Configuration File (Header) - (line 4)" << endl
+                 << "\tMin value greater or equal than Max value for dimension "
+                 << "\t" << i+1 << ": " << minValue[i] << " isn't less than " << maxValue[i] << endl;
             exit(EXIT_FAILURE);
         }
     }
 
-    cout << "CSV File - Min Line read - OK" << endl;
+    cout << "Configuration File - Min Line read - OK" << endl;
     lineCSV.resize(0);
     lineCSV.shrink_to_fit();
 
@@ -264,6 +288,33 @@ int main(int argc, char* argv[])
     // Start read data (5th line)
 
     vector <Point> pointsSample;
+    vector <int> pointClass;
+
+    if (!getCSVLine(infile, lineCSV))
+    {
+        cout << "Error reading CSV File (Header) on the first line (" << input << ")" << endl;
+        exit (EXIT_FAILURE);
+    }
+
+    if (noFields != lineCSV.size())
+    {
+        cout << "Error reading CSV File (Header):" << endl << "\tNumber of fields doesn't match" << endl;
+        exit (EXIT_FAILURE);
+    }
+
+    lineCSV.resize(0);
+    lineCSV.shrink_to_fit();
+
+    for (unsigned i = 0; i < lineCSV.size(); i++)
+    {
+        if (lineCSV[i] != headerCSV[i])
+        {
+            cout << "Error reading CSV File (Header)" << endl << "\tFields doesn't match. (" << lineCSV[i]
+                << ") and (" << headerCSV[i] << ")" << endl;
+            exit(EXIT_FAILURE);
+
+        }
+    }
 
     // Now start reading actual data
     while (infile)
@@ -272,13 +323,14 @@ int main(int argc, char* argv[])
         ++lineNo;
         if (!r)
         {
-            cout << "Error reading CSV File (Data) on Line " << lineNo + 4  << "\n";
+            cout << "Error reading CSV File (" << input <<") on Line " << lineNo + 1  << "\n";
             exit(EXIT_FAILURE);
         }
         if (lineCSV.size() != noFields)
         {
-            cout << "Error reading CSV File (Data) on Line " << lineNo + 4 << ": number of "
-                 << "fields doesn't match" << endl;
+            cout << "Error reading CSV File (" << input <<") on Line " << lineNo + 1 << ":" << endl
+                 << "\tnumber of fields doesn't match. Read: " << lineCSV.size()
+                 << ", expected: " << noFields << endl;
             exit(EXIT_FAILURE);
         }
 
@@ -287,10 +339,16 @@ int main(int argc, char* argv[])
 
         // Coordinate index
         int posSample = 0;
+        int classfication = -1;
 
         for (unsigned i = 0; i < lineCSV.size(); i++)
         {
-            if (clusterFields[i] != "C")
+            if (configFields[i] == "L")
+            {
+                classfication = atoi(lineCSV[i].c_str());
+                continue;
+            }
+            else if (configFields[i] != "C")
                 continue;
             if (!isDouble(lineCSV[i].c_str()))
             {
@@ -306,6 +364,7 @@ int main(int argc, char* argv[])
 
         // Insert new vector on pointsSample list
         pointsSample.push_back(sample);
+        pointClass.push_back(classfication);
 
         // Here we know the CSV line is correct, so let's create a sample normalized
         Cell* pNewCell;
@@ -379,7 +438,7 @@ int main(int argc, char* argv[])
     bool first=true;
     for (unsigned i=0; i < headerCSV.size(); i++)
     {
-        if (clusterFields[i]=="C")
+        if (configFields[i]=="C")
         {
             if (!first)
                 fprintf(pFilePoints, ",");
@@ -387,6 +446,10 @@ int main(int argc, char* argv[])
             first = false;
         }
     }
+    if (fieldClass >= 0) // There is Field Classification
+        fprintf(pFilePoints, ",%s", headerCSV[fieldClass].c_str());
+    else
+        fprintf(pFilePoints, ",Class");
 
     fprintf(pFilePoints, "\n");
 
@@ -395,6 +458,7 @@ int main(int argc, char* argv[])
         fprintf(pFilePoints, "%f", pointsSample[i].coord[0]);
         for(unsigned j = 1; j < pointsSample[i].coord.size(); j++)
             fprintf(pFilePoints, ",%f", pointsSample[i].coord[j]);
+        fprintf(pFilePoints,",%d", pointClass[i]);
         fprintf(pFilePoints, "\n");
     }
 
@@ -414,7 +478,7 @@ int main(int argc, char* argv[])
     // Labels of dimensions
     for (unsigned i=0; i < headerCSV.size(); i++)
     {
-        if (clusterFields[i]=="C")
+        if (configFields[i]=="C")
             fprintf(pFileCells, ",%s", headerCSV[i].c_str());
     }
 

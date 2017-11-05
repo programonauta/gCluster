@@ -1,0 +1,895 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="60cm" height="85cm" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+<desc>Graph bi-dimensional </desc>
+<rect x="5cm" y="5cm" width="50cm" height="50cm" fill="none" stroke="black" stroke-width="0.1cm" />
+<text x="5cm" y="57cm" font-family="Times New Roman" font-size="1.5cm" fill="black">File Name: ../data/Compound/central/consolidate/cells-Compound.csv</text>
+<text x="5cm" y="59cm" font-family="Times New Roman" font-size="1.5cm" fill="black">Epsilon: 30, Min Force: 0.08, Number Clusters: 5</text>
+<g stroke="gray" stroke-width="0.0416667cm">
+<line x1="6.66667cm" y1="5cm" x2="6.66667cm" y2="55cm" />
+<line y1="6.66667cm" x1="5cm" y2="6.66667cm" x2="55cm" />
+<line x1="8.33333cm" y1="5cm" x2="8.33333cm" y2="55cm" />
+<line y1="8.33333cm" x1="5cm" y2="8.33333cm" x2="55cm" />
+<line x1="10cm" y1="5cm" x2="10cm" y2="55cm" />
+<line y1="10cm" x1="5cm" y2="10cm" x2="55cm" />
+<line x1="11.6667cm" y1="5cm" x2="11.6667cm" y2="55cm" />
+<line y1="11.6667cm" x1="5cm" y2="11.6667cm" x2="55cm" />
+<line x1="13.3333cm" y1="5cm" x2="13.3333cm" y2="55cm" />
+<line y1="13.3333cm" x1="5cm" y2="13.3333cm" x2="55cm" />
+<line x1="15cm" y1="5cm" x2="15cm" y2="55cm" />
+<line y1="15cm" x1="5cm" y2="15cm" x2="55cm" />
+<line x1="16.6667cm" y1="5cm" x2="16.6667cm" y2="55cm" />
+<line y1="16.6667cm" x1="5cm" y2="16.6667cm" x2="55cm" />
+<line x1="18.3333cm" y1="5cm" x2="18.3333cm" y2="55cm" />
+<line y1="18.3333cm" x1="5cm" y2="18.3333cm" x2="55cm" />
+<line x1="20cm" y1="5cm" x2="20cm" y2="55cm" />
+<line y1="20cm" x1="5cm" y2="20cm" x2="55cm" />
+<line x1="21.6667cm" y1="5cm" x2="21.6667cm" y2="55cm" />
+<line y1="21.6667cm" x1="5cm" y2="21.6667cm" x2="55cm" />
+<line x1="23.3333cm" y1="5cm" x2="23.3333cm" y2="55cm" />
+<line y1="23.3333cm" x1="5cm" y2="23.3333cm" x2="55cm" />
+<line x1="25cm" y1="5cm" x2="25cm" y2="55cm" />
+<line y1="25cm" x1="5cm" y2="25cm" x2="55cm" />
+<line x1="26.6667cm" y1="5cm" x2="26.6667cm" y2="55cm" />
+<line y1="26.6667cm" x1="5cm" y2="26.6667cm" x2="55cm" />
+<line x1="28.3333cm" y1="5cm" x2="28.3333cm" y2="55cm" />
+<line y1="28.3333cm" x1="5cm" y2="28.3333cm" x2="55cm" />
+<line x1="30cm" y1="5cm" x2="30cm" y2="55cm" />
+<line y1="30cm" x1="5cm" y2="30cm" x2="55cm" />
+<line x1="31.6667cm" y1="5cm" x2="31.6667cm" y2="55cm" />
+<line y1="31.6667cm" x1="5cm" y2="31.6667cm" x2="55cm" />
+<line x1="33.3333cm" y1="5cm" x2="33.3333cm" y2="55cm" />
+<line y1="33.3333cm" x1="5cm" y2="33.3333cm" x2="55cm" />
+<line x1="35cm" y1="5cm" x2="35cm" y2="55cm" />
+<line y1="35cm" x1="5cm" y2="35cm" x2="55cm" />
+<line x1="36.6667cm" y1="5cm" x2="36.6667cm" y2="55cm" />
+<line y1="36.6667cm" x1="5cm" y2="36.6667cm" x2="55cm" />
+<line x1="38.3333cm" y1="5cm" x2="38.3333cm" y2="55cm" />
+<line y1="38.3333cm" x1="5cm" y2="38.3333cm" x2="55cm" />
+<line x1="40cm" y1="5cm" x2="40cm" y2="55cm" />
+<line y1="40cm" x1="5cm" y2="40cm" x2="55cm" />
+<line x1="41.6667cm" y1="5cm" x2="41.6667cm" y2="55cm" />
+<line y1="41.6667cm" x1="5cm" y2="41.6667cm" x2="55cm" />
+<line x1="43.3333cm" y1="5cm" x2="43.3333cm" y2="55cm" />
+<line y1="43.3333cm" x1="5cm" y2="43.3333cm" x2="55cm" />
+<line x1="45cm" y1="5cm" x2="45cm" y2="55cm" />
+<line y1="45cm" x1="5cm" y2="45cm" x2="55cm" />
+<line x1="46.6667cm" y1="5cm" x2="46.6667cm" y2="55cm" />
+<line y1="46.6667cm" x1="5cm" y2="46.6667cm" x2="55cm" />
+<line x1="48.3333cm" y1="5cm" x2="48.3333cm" y2="55cm" />
+<line y1="48.3333cm" x1="5cm" y2="48.3333cm" x2="55cm" />
+<line x1="50cm" y1="5cm" x2="50cm" y2="55cm" />
+<line y1="50cm" x1="5cm" y2="50cm" x2="55cm" />
+<line x1="51.6667cm" y1="5cm" x2="51.6667cm" y2="55cm" />
+<line y1="51.6667cm" x1="5cm" y2="51.6667cm" x2="55cm" />
+<line x1="53.3333cm" y1="5cm" x2="53.3333cm" y2="55cm" />
+<line y1="53.3333cm" x1="5cm" y2="53.3333cm" x2="55cm" />
+</g>
+<g stroke="black" stroke-width="0.15cm">
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="13.3333cm" />
+<line stroke="#000077" x1="40.6081cm" y1="14.4827cm" x2="39.9324cm" y2="14.5905cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="15cm" />
+<line stroke="#000077" x1="40.6081cm" y1="14.4827cm" x2="39.5271cm" y2="15.9554cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="15cm" />
+<line stroke="#000077" x1="40.6081cm" y1="14.4827cm" x2="40.9122cm" y2="15.9375cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="13.3333cm" />
+<line stroke="#000077" x1="39.9324cm" y1="14.5905cm" x2="39.5271cm" y2="15.9554cm" />
+<line stroke="#000077" x1="39.9324cm" y1="14.5905cm" x2="40.9122cm" y2="15.9375cm" />
+<line stroke="#000077" x1="39.5271cm" y1="15.9554cm" x2="40.9122cm" y2="15.9375cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="16.6667cm" />
+<line stroke="#000077" x1="39.5271cm" y1="15.9554cm" x2="40.6982cm" y2="17.2845cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="16.6667cm" />
+<line stroke="#000077" x1="39.5271cm" y1="15.9554cm" x2="39.8648cm" y2="17.5cm" />
+<line stroke="#000077" x1="40.9122cm" y1="15.9375cm" x2="40.6982cm" y2="17.2845cm" />
+<line stroke="#000077" x1="40.9122cm" y1="15.9375cm" x2="39.8648cm" y2="17.5cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="41.6667cm" y="16.6667cm" />
+<line stroke="#000077" x1="40.9122cm" y1="15.9375cm" x2="42.3919cm" y2="17.5862cm" />
+<line stroke="#000077" x1="40.6982cm" y1="17.2845cm" x2="39.8648cm" y2="17.5cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="18.3333cm" />
+<line stroke="#000077" x1="40.6982cm" y1="17.2845cm" x2="39.6284cm" y2="19.1164cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="18.3333cm" />
+<line stroke="#000077" x1="40.6982cm" y1="17.2845cm" x2="40.8615cm" y2="19.2511cm" />
+<line stroke="#000077" x1="40.6982cm" y1="17.2845cm" x2="42.3919cm" y2="17.5862cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="41.6667cm" y="18.3333cm" />
+<line stroke="#000077" x1="40.6982cm" y1="17.2845cm" x2="42.5451cm" y2="19.1164cm" />
+<line stroke="#000077" x1="39.8648cm" y1="17.5cm" x2="39.6284cm" y2="19.1164cm" />
+<line stroke="#000077" x1="39.8648cm" y1="17.5cm" x2="40.8615cm" y2="19.2511cm" />
+<line stroke="#000077" x1="39.6284cm" y1="19.1164cm" x2="40.8615cm" y2="19.2511cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="20cm" />
+<line stroke="#000077" x1="39.6284cm" y1="19.1164cm" x2="39.1554cm" y2="20.598cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="20cm" />
+<line stroke="#000077" x1="39.6284cm" y1="19.1164cm" x2="40.8334cm" y2="21.1638cm" />
+<line stroke="#000077" x1="40.8615cm" y1="19.2511cm" x2="42.3919cm" y2="17.5862cm" />
+<line stroke="#000077" x1="40.8615cm" y1="19.2511cm" x2="42.5451cm" y2="19.1164cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="41.6667cm" y="20cm" />
+<line stroke="#000077" x1="40.8615cm" y1="19.2511cm" x2="42.2973cm" y2="20.3017cm" />
+<line stroke="#000077" x1="40.8615cm" y1="19.2511cm" x2="39.1554cm" y2="20.598cm" />
+<line stroke="#000077" x1="40.8615cm" y1="19.2511cm" x2="40.8334cm" y2="21.1638cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="43.3333cm" y="16.6667cm" />
+<line stroke="#000077" x1="42.3919cm" y1="17.5862cm" x2="44.1216cm" y2="17.5539cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="43.3333cm" y="15cm" />
+<line stroke="#000077" x1="42.3919cm" y1="17.5862cm" x2="43.8513cm" y2="16.3685cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="43.3333cm" y="18.3333cm" />
+<line stroke="#000077" x1="42.3919cm" y1="17.5862cm" x2="44.1216cm" y2="18.7931cm" />
+<line stroke="#000077" x1="42.3919cm" y1="17.5862cm" x2="42.5451cm" y2="19.1164cm" />
+<line stroke="#000077" x1="44.1216cm" y1="17.5539cm" x2="43.8513cm" y2="16.3685cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="45cm" y="15cm" />
+<line stroke="#000077" x1="44.1216cm" y1="17.5539cm" x2="45cm" y2="16.4224cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="45cm" y="16.6667cm" />
+<line stroke="#000077" x1="44.1216cm" y1="17.5539cm" x2="45.7602cm" y2="17.527cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="45cm" y="18.3333cm" />
+<line stroke="#000077" x1="44.1216cm" y1="17.5539cm" x2="45.7939cm" y2="19.2242cm" />
+<line stroke="#000077" x1="44.1216cm" y1="17.5539cm" x2="44.1216cm" y2="18.7931cm" />
+<line stroke="#000077" x1="44.1216cm" y1="17.5539cm" x2="42.5451cm" y2="19.1164cm" />
+<line stroke="#000077" x1="43.8513cm" y1="16.3685cm" x2="45cm" y2="16.4224cm" />
+<line stroke="#000077" x1="43.8513cm" y1="16.3685cm" x2="45.7602cm" y2="17.527cm" />
+<line stroke="#000077" x1="45cm" y1="16.4224cm" x2="45.7602cm" y2="17.527cm" />
+<line stroke="#000077" x1="45.7602cm" y1="17.527cm" x2="45.7939cm" y2="19.2242cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="46.6667cm" y="16.6667cm" />
+<line stroke="#000077" x1="45.7602cm" y1="17.527cm" x2="46.9594cm" y2="17.7155cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="46.6667cm" y="18.3333cm" />
+<line stroke="#000077" x1="45.7602cm" y1="17.527cm" x2="47.5451cm" y2="19.1882cm" />
+<line stroke="#000077" x1="45.7602cm" y1="17.527cm" x2="44.1216cm" y2="18.7931cm" />
+<line stroke="#000077" x1="45.7939cm" y1="19.2242cm" x2="46.9594cm" y2="17.7155cm" />
+<line stroke="#000077" x1="45.7939cm" y1="19.2242cm" x2="47.5451cm" y2="19.1882cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="46.6667cm" y="20cm" />
+<line stroke="#000077" x1="45.7939cm" y1="19.2242cm" x2="47.2298cm" y2="20.8046cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="45cm" y="20cm" />
+<line stroke="#000077" x1="45.7939cm" y1="19.2242cm" x2="45.7207cm" y2="20.8046cm" />
+<line stroke="#000077" x1="45.7939cm" y1="19.2242cm" x2="44.1216cm" y2="18.7931cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="43.3333cm" y="20cm" />
+<line stroke="#000077" x1="45.7939cm" y1="19.2242cm" x2="43.8513cm" y2="20.1401cm" />
+<line stroke="#000077" x1="46.9594cm" y1="17.7155cm" x2="47.5451cm" y2="19.1882cm" />
+<line stroke="#000077" x1="47.5451cm" y1="19.1882cm" x2="47.2298cm" y2="20.8046cm" />
+<line stroke="#000077" x1="47.5451cm" y1="19.1882cm" x2="45.7207cm" y2="20.8046cm" />
+<line stroke="#000077" x1="47.2298cm" y1="20.8046cm" x2="45.7207cm" y2="20.8046cm" />
+<line stroke="#000077" x1="45.7207cm" y1="20.8046cm" x2="44.1216cm" y2="18.7931cm" />
+<line stroke="#000077" x1="45.7207cm" y1="20.8046cm" x2="43.8513cm" y2="20.1401cm" />
+<line stroke="#000077" x1="44.1216cm" y1="18.7931cm" x2="43.8513cm" y2="20.1401cm" />
+<line stroke="#000077" x1="44.1216cm" y1="18.7931cm" x2="42.5451cm" y2="19.1164cm" />
+<line stroke="#000077" x1="43.8513cm" y1="20.1401cm" x2="42.5451cm" y2="19.1164cm" />
+<line stroke="#000077" x1="43.8513cm" y1="20.1401cm" x2="42.2973cm" y2="20.3017cm" />
+<line stroke="#000077" x1="42.5451cm" y1="19.1164cm" x2="42.2973cm" y2="20.3017cm" />
+<line stroke="#000077" x1="42.5451cm" y1="19.1164cm" x2="40.8334cm" y2="21.1638cm" />
+<line stroke="#000077" x1="42.2973cm" y1="20.3017cm" x2="40.8334cm" y2="21.1638cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="21.6667cm" />
+<line stroke="#000077" x1="42.2973cm" y1="20.3017cm" x2="40.9234cm" y2="22.5288cm" />
+<line stroke="#000077" x1="39.1554cm" y1="20.598cm" x2="40.8334cm" y2="21.1638cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="36.6667cm" y="20cm" />
+<line stroke="#000077" x1="39.1554cm" y1="20.598cm" x2="37.7027cm" y2="21.487cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="36.6667cm" y="21.6667cm" />
+<line stroke="#000077" x1="39.1554cm" y1="20.598cm" x2="37.7365cm" y2="22.6724cm" />
+<line stroke="#000077" x1="39.1554cm" y1="20.598cm" x2="40.9234cm" y2="22.5288cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="21.6667cm" />
+<line stroke="#000077" x1="39.1554cm" y1="20.598cm" x2="39.3074cm" y2="22.3222cm" />
+<line stroke="#000077" x1="40.8334cm" y1="21.1638cm" x2="40.9234cm" y2="22.5288cm" />
+<line stroke="#000077" x1="40.8334cm" y1="21.1638cm" x2="39.3074cm" y2="22.3222cm" />
+<line stroke="#000077" x1="37.7027cm" y1="21.487cm" x2="37.7365cm" y2="22.6724cm" />
+<line stroke="#000077" x1="37.7027cm" y1="21.487cm" x2="39.3074cm" y2="22.3222cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="36.6667cm" y="23.3333cm" />
+<line stroke="#000077" x1="37.7365cm" y1="22.6724cm" x2="37.8378cm" y2="23.9116cm" />
+<line stroke="#000077" x1="37.7365cm" y1="22.6724cm" x2="39.3074cm" y2="22.3222cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="23.3333cm" />
+<line stroke="#000077" x1="37.7365cm" y1="22.6724cm" x2="39.0709cm" y2="23.9655cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="38.3333cm" y="25cm" />
+<line stroke="#000077" x1="37.8378cm" y1="23.9116cm" x2="39.2737cm" y2="25.528cm" />
+<line stroke="#000077" x1="37.8378cm" y1="23.9116cm" x2="39.3074cm" y2="22.3222cm" />
+<line stroke="#000077" x1="37.8378cm" y1="23.9116cm" x2="39.0709cm" y2="23.9655cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="25cm" />
+<line stroke="#000077" x1="39.2737cm" y1="25.528cm" x2="40.6982cm" y2="25.7974cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="26.6667cm" />
+<line stroke="#000077" x1="39.2737cm" y1="25.528cm" x2="41.2162cm" y2="26.7673cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="40cm" y="23.3333cm" />
+<line stroke="#000077" x1="39.2737cm" y1="25.528cm" x2="40.8784cm" y2="23.9296cm" />
+<line stroke="#000077" x1="39.2737cm" y1="25.528cm" x2="39.0709cm" y2="23.9655cm" />
+<line stroke="#000077" x1="40.6982cm" y1="25.7974cm" x2="41.2162cm" y2="26.7673cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="41.6667cm" y="25cm" />
+<line stroke="#000077" x1="40.6982cm" y1="25.7974cm" x2="41.9594cm" y2="26.1207cm" />
+<rect style="opacity:0.6;fill:#000077;stroke:none" width="1.66667cm" height="1.66667cm" x="41.6667cm" y="23.3333cm" />
+<line stroke="#000077" x1="40.6982cm" y1="25.7974cm" x2="41.8919cm" y2="24.7199cm" />
+<line stroke="#000077" x1="40.6982cm" y1="25.7974cm" x2="40.8784cm" y2="23.9296cm" />
+<line stroke="#000077" x1="40.6982cm" y1="25.7974cm" x2="39.0709cm" y2="23.9655cm" />
+<line stroke="#000077" x1="41.2162cm" y1="26.7673cm" x2="41.9594cm" y2="26.1207cm" />
+<line stroke="#000077" x1="41.8919cm" y1="24.7199cm" x2="40.8784cm" y2="23.9296cm" />
+<line stroke="#000077" x1="40.8784cm" y1="23.9296cm" x2="40.9234cm" y2="22.5288cm" />
+<line stroke="#000077" x1="40.8784cm" y1="23.9296cm" x2="39.3074cm" y2="22.3222cm" />
+<line stroke="#000077" x1="40.8784cm" y1="23.9296cm" x2="39.0709cm" y2="23.9655cm" />
+<line stroke="#000077" x1="40.9234cm" y1="22.5288cm" x2="39.3074cm" y2="22.3222cm" />
+<line stroke="#000077" x1="40.9234cm" y1="22.5288cm" x2="39.0709cm" y2="23.9655cm" />
+<line stroke="#000077" x1="39.3074cm" y1="22.3222cm" x2="39.0709cm" y2="23.9655cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="13.3333cm" />
+<line stroke="#00007F" x1="9.44255cm" y1="15.6681cm" x2="9.08785cm" y2="14.375cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="13.3333cm" />
+<line stroke="#00007F" x1="9.44255cm" y1="15.6681cm" x2="10.4392cm" y2="14.3211cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="15cm" />
+<line stroke="#00007F" x1="9.44255cm" y1="15.6681cm" x2="10.3379cm" y2="15.5603cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="16.6667cm" />
+<line stroke="#00007F" x1="9.44255cm" y1="15.6681cm" x2="9.1216cm" y2="17.7155cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="16.6667cm" />
+<line stroke="#00007F" x1="9.44255cm" y1="15.6681cm" x2="10.6081cm" y2="17.7155cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="15cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="11.6667cm" />
+<line stroke="#00007F" x1="9.08785cm" y1="14.375cm" x2="9.3243cm" y2="13.0819cm" />
+<line stroke="#00007F" x1="9.08785cm" y1="14.375cm" x2="10.4392cm" y2="14.3211cm" />
+<rect style="opacity:0.6;fill:#00007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="11.6667cm" />
+<line stroke="#00007F" x1="9.3243cm" y1="13.0819cm" x2="10.2702cm" y2="12.9742cm" />
+<line stroke="#00007F" x1="10.2702cm" y1="12.9742cm" x2="10.4392cm" y2="14.3211cm" />
+<line stroke="#00007F" x1="10.4392cm" y1="14.3211cm" x2="10.3379cm" y2="15.5603cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="15cm" />
+<line stroke="#7F0000" x1="19.1216cm" y1="14.3211cm" x2="19.0541cm" y2="16.2608cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="13.3333cm" />
+<line stroke="#7F0000" x1="19.1216cm" y1="14.3211cm" x2="20.9459cm" y2="13.7823cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="15cm" />
+<line stroke="#7F0000" x1="19.1216cm" y1="14.3211cm" x2="20.9459cm" y2="15.7543cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="13.3333cm" />
+<line stroke="#7F0000" x1="19.0541cm" y1="16.2608cm" x2="20.9459cm" y2="15.7543cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="16.6667cm" />
+<line stroke="#7F0000" x1="19.0541cm" y1="16.2608cm" x2="20.5743cm" y2="17.2306cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="15cm" />
+<line stroke="#7F0000" x1="20.9459cm" y1="13.7823cm" x2="22.3311cm" y2="15.5065cm" />
+<line stroke="#7F0000" x1="20.9459cm" y1="13.7823cm" x2="20.9459cm" y2="15.7543cm" />
+<line stroke="#7F0000" x1="22.7027cm" y1="13.8362cm" x2="20.9459cm" y2="15.7543cm" />
+<line stroke="#7F0000" x1="22.3311cm" y1="15.5065cm" x2="20.9459cm" y2="15.7543cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="13.3333cm" />
+<line stroke="#7F0000" x1="20.9459cm" y1="15.7543cm" x2="20.5743cm" y2="17.2306cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="16.6667cm" />
+<line stroke="#7F0000" x1="20.9459cm" y1="15.7543cm" x2="22.0946cm" y2="17.5cm" />
+<rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="18.3333cm" />
+<line stroke="#7F0000" x1="20.5743cm" y1="17.2306cm" x2="21.3514cm" y2="18.362cm" />
+<line stroke="#7F0000" x1="20.5743cm" y1="17.2306cm" x2="22.0946cm" y2="17.5cm" />
+<line stroke="#7F0000" x1="21.3514cm" y1="18.362cm" x2="22.0946cm" y2="17.5cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="28.3333cm" />
+<line stroke="#7F007F" x1="10.946cm" y1="29.6767cm" x2="12.3874cm" y2="29.3176cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="30cm" />
+<line stroke="#7F007F" x1="10.946cm" y1="29.6767cm" x2="11.1824cm" y2="30.916cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="28.3333cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="28.3333cm" />
+<line stroke="#7F007F" x1="12.3874cm" y1="29.3176cm" x2="14.1892cm" y2="29.138cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="30cm" />
+<line stroke="#7F007F" x1="12.3874cm" y1="29.3176cm" x2="12.9729cm" y2="31.0237cm" />
+<line stroke="#7F007F" x1="12.3874cm" y1="29.3176cm" x2="11.1824cm" y2="30.916cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="30cm" />
+<line stroke="#7F007F" x1="12.3874cm" y1="29.3176cm" x2="14.1216cm" y2="31.5625cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="28.3333cm" />
+<line stroke="#7F007F" x1="14.1892cm" y1="29.138cm" x2="16.0473cm" y2="29.3804cm" />
+<line stroke="#7F007F" x1="14.1892cm" y1="29.138cm" x2="12.9729cm" y2="31.0237cm" />
+<line stroke="#7F007F" x1="14.1892cm" y1="29.138cm" x2="14.1216cm" y2="31.5625cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="30cm" />
+<line stroke="#7F007F" x1="14.1892cm" y1="29.138cm" x2="15.6757cm" y2="31.1315cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="28.3333cm" />
+<line stroke="#7F007F" x1="16.0473cm" y1="29.3804cm" x2="17.6013cm" y2="29.0301cm" />
+<line stroke="#7F007F" x1="16.0473cm" y1="29.3804cm" x2="14.1216cm" y2="31.5625cm" />
+<line stroke="#7F007F" x1="16.0473cm" y1="29.3804cm" x2="15.6757cm" y2="31.1315cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="30cm" />
+<line stroke="#7F007F" x1="16.0473cm" y1="29.3804cm" x2="17.5cm" y2="31.0058cm" />
+<line stroke="#7F007F" x1="17.6013cm" y1="29.0301cm" x2="15.6757cm" y2="31.1315cm" />
+<line stroke="#7F007F" x1="17.6013cm" y1="29.0301cm" x2="17.5cm" y2="31.0058cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="28.3333cm" />
+<line stroke="#7F007F" x1="17.6013cm" y1="29.0301cm" x2="19.1441cm" y2="29.2097cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="30cm" />
+<line stroke="#7F007F" x1="17.6013cm" y1="29.0301cm" x2="19.0406cm" y2="31.0776cm" />
+<line stroke="#7F007F" x1="12.9729cm" y1="31.0237cm" x2="11.1824cm" y2="30.916cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="12.9729cm" y1="31.0237cm" x2="12.4324cm" y2="32.6581cm" />
+<line stroke="#7F007F" x1="12.9729cm" y1="31.0237cm" x2="14.1216cm" y2="31.5625cm" />
+<line stroke="#7F007F" x1="11.1824cm" y1="30.916cm" x2="12.4324cm" y2="32.6581cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="30cm" />
+<line stroke="#7F007F" x1="11.1824cm" y1="30.916cm" x2="9.5608cm" y2="30.7543cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="11.1824cm" y1="30.916cm" x2="9.3919cm" y2="32.4066cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="32.6581cm" x2="14.1216cm" y2="31.5625cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="32.6581cm" x2="13.6149cm" y2="34.2026cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="32.6581cm" x2="10.7432cm" y2="32.8017cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="32.6581cm" x2="10.8108cm" y2="34.1487cm" />
+<line stroke="#7F007F" x1="14.1216cm" y1="31.5625cm" x2="15.6757cm" y2="31.1315cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="14.1216cm" y1="31.5625cm" x2="15.4729cm" y2="32.209cm" />
+<line stroke="#7F007F" x1="15.6757cm" y1="31.1315cm" x2="15.4729cm" y2="32.209cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="15.6757cm" y1="31.1315cm" x2="16.9594cm" y2="31.8319cm" />
+<line stroke="#7F007F" x1="15.6757cm" y1="31.1315cm" x2="17.5cm" y2="31.0058cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="32.209cm" x2="14.3919cm" y2="33.2327cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="32.209cm" x2="16.9594cm" y2="31.8319cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="32.209cm" x2="17.5cm" y2="31.0058cm" />
+<line stroke="#7F007F" x1="14.3919cm" y1="33.2327cm" x2="13.6149cm" y2="34.2026cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="13.6149cm" y1="34.2026cm" x2="12.2973cm" y2="34.9569cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="35cm" />
+<line stroke="#7F007F" x1="13.6149cm" y1="34.2026cm" x2="12.6013cm" y2="35.8729cm" />
+<line stroke="#7F007F" x1="10.7432cm" y1="32.8017cm" x2="9.3919cm" y2="32.4066cm" />
+<line stroke="#7F007F" x1="10.7432cm" y1="32.8017cm" x2="10.8108cm" y2="34.1487cm" />
+<line stroke="#7F007F" x1="9.5608cm" y1="30.7543cm" x2="9.3919cm" y2="32.4066cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="9.3919cm" y1="32.4066cm" x2="9.1216cm" y2="34.3104cm" />
+<line stroke="#7F007F" x1="9.3919cm" y1="32.4066cm" x2="10.8108cm" y2="34.1487cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="35cm" />
+<line stroke="#7F007F" x1="9.1216cm" y1="34.3104cm" x2="9.3243cm" y2="35.8729cm" />
+<line stroke="#7F007F" x1="9.1216cm" y1="34.3104cm" x2="10.8108cm" y2="34.1487cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="35cm" />
+<line stroke="#7F007F" x1="9.1216cm" y1="34.3104cm" x2="11.1712cm" y2="35.7472cm" />
+<line stroke="#7F007F" x1="9.3243cm" y1="35.8729cm" x2="10.8108cm" y2="34.1487cm" />
+<line stroke="#7F007F" x1="9.3243cm" y1="35.8729cm" x2="11.1712cm" y2="35.7472cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="8.33333cm" y="36.6667cm" />
+<line stroke="#7F007F" x1="9.3243cm" y1="35.8729cm" x2="9.1892cm" y2="36.7888cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="36.6667cm" />
+<line stroke="#7F007F" x1="9.3243cm" y1="35.8729cm" x2="10.6532cm" y2="37.2199cm" />
+<line stroke="#7F007F" x1="10.8108cm" y1="34.1487cm" x2="11.1712cm" y2="35.7472cm" />
+<line stroke="#7F007F" x1="12.2973cm" y1="34.9569cm" x2="12.6013cm" y2="35.8729cm" />
+<line stroke="#7F007F" x1="12.2973cm" y1="34.9569cm" x2="11.1712cm" y2="35.7472cm" />
+<line stroke="#7F007F" x1="12.6013cm" y1="35.8729cm" x2="11.1712cm" y2="35.7472cm" />
+<line stroke="#7F007F" x1="12.6013cm" y1="35.8729cm" x2="10.6532cm" y2="37.2199cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="36.6667cm" />
+<line stroke="#7F007F" x1="12.6013cm" y1="35.8729cm" x2="12.4099cm" y2="37.4354cm" />
+<line stroke="#7F007F" x1="11.1712cm" y1="35.7472cm" x2="10.6532cm" y2="37.2199cm" />
+<line stroke="#7F007F" x1="11.1712cm" y1="35.7472cm" x2="12.4099cm" y2="37.4354cm" />
+<line stroke="#7F007F" x1="9.1892cm" y1="36.7888cm" x2="10.6532cm" y2="37.2199cm" />
+<line stroke="#7F007F" x1="10.6532cm" y1="37.2199cm" x2="12.4099cm" y2="37.4354cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="38.3333cm" />
+<line stroke="#7F007F" x1="10.6532cm" y1="37.2199cm" x2="12.4324cm" y2="38.9799cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="38.3333cm" />
+<line stroke="#7F007F" x1="10.6532cm" y1="37.2199cm" x2="10.9798cm" y2="38.9979cm" />
+<line stroke="#7F007F" x1="12.4099cm" y1="37.4354cm" x2="12.4324cm" y2="38.9799cm" />
+<line stroke="#7F007F" x1="12.4099cm" y1="37.4354cm" x2="10.9798cm" y2="38.9979cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="38.9799cm" x2="10.9798cm" y2="38.9979cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="38.3333cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="38.9799cm" x2="13.4459cm" y2="39.375cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="40cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="38.9799cm" x2="12.1847cm" y2="40.9914cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="40cm" />
+<line stroke="#7F007F" x1="12.4324cm" y1="38.9799cm" x2="14.1216cm" y2="40.4796cm" />
+<line stroke="#7F007F" x1="10.9798cm" y1="38.9979cm" x2="12.1847cm" y2="40.9914cm" />
+<line stroke="#7F007F" x1="13.4459cm" y1="39.375cm" x2="14.1216cm" y2="40.4796cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="40cm" />
+<line stroke="#7F007F" x1="12.1847cm" y1="40.9914cm" x2="11.2838cm" y2="40.8836cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="10cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="12.1847cm" y1="40.9914cm" x2="11.4865cm" y2="42.3923cm" />
+<line stroke="#7F007F" x1="12.1847cm" y1="40.9914cm" x2="14.1216cm" y2="40.4796cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="12.1847cm" y1="40.9914cm" x2="14.0541cm" y2="42.4641cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="11.6667cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="12.1847cm" y1="40.9914cm" x2="12.5338cm" y2="42.7694cm" />
+<line stroke="#7F007F" x1="11.4865cm" y1="42.3923cm" x2="12.5338cm" y2="42.7694cm" />
+<line stroke="#7F007F" x1="14.1216cm" y1="40.4796cm" x2="14.0541cm" y2="42.4641cm" />
+<line stroke="#7F007F" x1="14.1216cm" y1="40.4796cm" x2="12.5338cm" y2="42.7694cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="14.1216cm" y1="40.4796cm" x2="15.4729cm" y2="42.6796cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="40cm" />
+<line stroke="#7F007F" x1="14.1216cm" y1="40.4796cm" x2="16.0473cm" y2="41.0452cm" />
+<line stroke="#7F007F" x1="14.0541cm" y1="42.4641cm" x2="12.5338cm" y2="42.7694cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="13.3333cm" y="43.3333cm" />
+<line stroke="#7F007F" x1="14.0541cm" y1="42.4641cm" x2="13.8851cm" y2="44.1702cm" />
+<line stroke="#7F007F" x1="14.0541cm" y1="42.4641cm" x2="15.4729cm" y2="42.6796cm" />
+<line stroke="#7F007F" x1="14.0541cm" y1="42.4641cm" x2="16.0473cm" y2="41.0452cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="43.3333cm" />
+<line stroke="#7F007F" x1="14.0541cm" y1="42.4641cm" x2="15.9797cm" y2="44.1702cm" />
+<line stroke="#7F007F" x1="12.5338cm" y1="42.7694cm" x2="13.8851cm" y2="44.1702cm" />
+<line stroke="#7F007F" x1="13.8851cm" y1="44.1702cm" x2="15.4729cm" y2="42.6796cm" />
+<line stroke="#7F007F" x1="13.8851cm" y1="44.1702cm" x2="15.9797cm" y2="44.1702cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="42.6796cm" x2="16.0473cm" y2="41.0452cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="40cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="42.6796cm" x2="17.4325cm" y2="41.2069cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="42.6796cm" x2="15.9797cm" y2="44.1702cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="15.4729cm" y1="42.6796cm" x2="17.4099cm" y2="42.5359cm" />
+<line stroke="#7F007F" x1="16.0473cm" y1="41.0452cm" x2="17.4325cm" y2="41.2069cm" />
+<line stroke="#7F007F" x1="16.0473cm" y1="41.0452cm" x2="17.4099cm" y2="42.5359cm" />
+<line stroke="#7F007F" x1="17.4325cm" y1="41.2069cm" x2="17.4099cm" y2="42.5359cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="17.4325cm" y1="41.2069cm" x2="18.9415cm" y2="42.5718cm" />
+<line stroke="#7F007F" x1="15.9797cm" y1="44.1702cm" x2="17.4099cm" y2="42.5359cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="43.3333cm" />
+<line stroke="#7F007F" x1="15.9797cm" y1="44.1702cm" x2="17.5cm" y2="43.5776cm" />
+<line stroke="#7F007F" x1="17.4099cm" y1="42.5359cm" x2="17.5cm" y2="43.5776cm" />
+<line stroke="#7F007F" x1="17.4099cm" y1="42.5359cm" x2="18.9415cm" y2="42.5718cm" />
+<line stroke="#7F007F" x1="17.5cm" y1="43.5776cm" x2="18.9415cm" y2="42.5718cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="40cm" />
+<line stroke="#7F007F" x1="18.9415cm" y1="42.5718cm" x2="20.6306cm" y2="40.8118cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="40cm" />
+<line stroke="#7F007F" x1="18.9415cm" y1="42.5718cm" x2="19.6622cm" y2="40.9914cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="18.9415cm" y1="42.5718cm" x2="20.8108cm" y2="42.6077cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="43.3333cm" />
+<line stroke="#7F007F" x1="18.9415cm" y1="42.5718cm" x2="19.7973cm" y2="43.3621cm" />
+<line stroke="#7F007F" x1="16.9594cm" y1="31.8319cm" x2="17.5cm" y2="31.0058cm" />
+<line stroke="#7F007F" x1="16.9594cm" y1="31.8319cm" x2="19.0406cm" y2="31.0776cm" />
+<line stroke="#7F007F" x1="17.5cm" y1="31.0058cm" x2="19.1441cm" y2="29.2097cm" />
+<line stroke="#7F007F" x1="17.5cm" y1="31.0058cm" x2="19.0406cm" y2="31.0776cm" />
+<line stroke="#7F007F" x1="19.1441cm" y1="29.2097cm" x2="19.0406cm" y2="31.0776cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="28.3333cm" />
+<line stroke="#7F007F" x1="19.1441cm" y1="29.2097cm" x2="20.6419cm" y2="29.569cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="30cm" />
+<line stroke="#7F007F" x1="19.1441cm" y1="29.2097cm" x2="20.625cm" y2="31.0237cm" />
+<line stroke="#7F007F" x1="19.0406cm" y1="31.0776cm" x2="20.6419cm" y2="29.569cm" />
+<line stroke="#7F007F" x1="19.0406cm" y1="31.0776cm" x2="20.625cm" y2="31.0237cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="19.0406cm" y1="31.0776cm" x2="19.6622cm" y2="31.9396cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="31.6667cm" />
+<line stroke="#7F007F" x1="19.0406cm" y1="31.0776cm" x2="21.0585cm" y2="32.4785cm" />
+<line stroke="#7F007F" x1="20.6419cm" y1="29.569cm" x2="20.625cm" y2="31.0237cm" />
+<line stroke="#7F007F" x1="20.625cm" y1="31.0237cm" x2="19.6622cm" y2="31.9396cm" />
+<line stroke="#7F007F" x1="20.625cm" y1="31.0237cm" x2="21.0585cm" y2="32.4785cm" />
+<line stroke="#7F007F" x1="19.6622cm" y1="31.9396cm" x2="21.0585cm" y2="32.4785cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="21.0585cm" y1="32.4785cm" x2="21.3514cm" y2="33.9332cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="21.0585cm" y1="32.4785cm" x2="22.0946cm" y2="34.1308cm" />
+<line stroke="#7F007F" x1="21.3514cm" y1="33.9332cm" x2="22.0946cm" y2="34.1308cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="35cm" />
+<line stroke="#7F007F" x1="21.3514cm" y1="33.9332cm" x2="22.6182cm" y2="35.8998cm" />
+<line stroke="#7F007F" x1="22.0946cm" y1="34.1308cm" x2="22.6182cm" y2="35.8998cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="23.3333cm" y="33.3333cm" />
+<line stroke="#7F007F" x1="22.0946cm" y1="34.1308cm" x2="23.8514cm" y2="34.6875cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="23.3333cm" y="35cm" />
+<line stroke="#7F007F" x1="22.0946cm" y1="34.1308cm" x2="24.2342cm" y2="35.9627cm" />
+<line stroke="#7F007F" x1="22.6182cm" y1="35.8998cm" x2="23.8514cm" y2="34.6875cm" />
+<line stroke="#7F007F" x1="22.6182cm" y1="35.8998cm" x2="24.2342cm" y2="35.9627cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="36.6667cm" />
+<line stroke="#7F007F" x1="22.6182cm" y1="35.8998cm" x2="22.0495cm" y2="37.5072cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="23.3333cm" y="36.6667cm" />
+<line stroke="#7F007F" x1="22.6182cm" y1="35.8998cm" x2="23.8176cm" y2="37.8664cm" />
+<line stroke="#7F007F" x1="23.8514cm" y1="34.6875cm" x2="24.2342cm" y2="35.9627cm" />
+<line stroke="#7F007F" x1="24.2342cm" y1="35.9627cm" x2="22.0495cm" y2="37.5072cm" />
+<line stroke="#7F007F" x1="24.2342cm" y1="35.9627cm" x2="23.8176cm" y2="37.8664cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="25cm" y="36.6667cm" />
+<line stroke="#7F007F" x1="24.2342cm" y1="35.9627cm" x2="25.1352cm" y2="37.6509cm" />
+<line stroke="#7F007F" x1="22.0495cm" y1="37.5072cm" x2="23.8176cm" y2="37.8664cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="23.3333cm" y="38.3333cm" />
+<line stroke="#7F007F" x1="22.0495cm" y1="37.5072cm" x2="24.5721cm" y2="39.4468cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="38.3333cm" />
+<line stroke="#7F007F" x1="22.0495cm" y1="37.5072cm" x2="22.5cm" y2="39.2134cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="20cm" y="38.3333cm" />
+<line stroke="#7F007F" x1="22.0495cm" y1="37.5072cm" x2="21.1486cm" y2="39.2673cm" />
+<line stroke="#7F007F" x1="23.8176cm" y1="37.8664cm" x2="25.1352cm" y2="37.6509cm" />
+<line stroke="#7F007F" x1="23.8176cm" y1="37.8664cm" x2="24.5721cm" y2="39.4468cm" />
+<line stroke="#7F007F" x1="23.8176cm" y1="37.8664cm" x2="22.5cm" y2="39.2134cm" />
+<line stroke="#7F007F" x1="25.1352cm" y1="37.6509cm" x2="24.5721cm" y2="39.4468cm" />
+<line stroke="#7F007F" x1="24.5721cm" y1="39.4468cm" x2="22.5cm" y2="39.2134cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="40cm" />
+<line stroke="#7F007F" x1="24.5721cm" y1="39.4468cm" x2="22.6858cm" y2="40.9644cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="23.3333cm" y="40cm" />
+<line stroke="#7F007F" x1="24.5721cm" y1="39.4468cm" x2="24.2568cm" y2="41.0991cm" />
+<line stroke="#7F007F" x1="22.5cm" y1="39.2134cm" x2="21.1486cm" y2="39.2673cm" />
+<line stroke="#7F007F" x1="22.5cm" y1="39.2134cm" x2="22.6858cm" y2="40.9644cm" />
+<line stroke="#7F007F" x1="22.5cm" y1="39.2134cm" x2="20.6306cm" y2="40.8118cm" />
+<line stroke="#7F007F" x1="21.1486cm" y1="39.2673cm" x2="22.6858cm" y2="40.9644cm" />
+<line stroke="#7F007F" x1="21.1486cm" y1="39.2673cm" x2="20.6306cm" y2="40.8118cm" />
+<line stroke="#7F007F" x1="22.6858cm" y1="40.9644cm" x2="24.2568cm" y2="41.0991cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="23.3333cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="22.6858cm" y1="40.9644cm" x2="23.7162cm" y2="41.9612cm" />
+<line stroke="#7F007F" x1="22.6858cm" y1="40.9644cm" x2="20.6306cm" y2="40.8118cm" />
+<line stroke="#7F007F" x1="22.6858cm" y1="40.9644cm" x2="20.8108cm" y2="42.6077cm" />
+<rect style="opacity:0.6;fill:#7F007F;stroke:none" width="1.66667cm" height="1.66667cm" x="21.6667cm" y="41.6667cm" />
+<line stroke="#7F007F" x1="22.6858cm" y1="40.9644cm" x2="22.3986cm" y2="43.0388cm" />
+<line stroke="#7F007F" x1="24.2568cm" y1="41.0991cm" x2="23.7162cm" y2="41.9612cm" />
+<line stroke="#7F007F" x1="20.6306cm" y1="40.8118cm" x2="19.6622cm" y2="40.9914cm" />
+<line stroke="#7F007F" x1="20.6306cm" y1="40.8118cm" x2="20.8108cm" y2="42.6077cm" />
+<line stroke="#7F007F" x1="20.6306cm" y1="40.8118cm" x2="22.3986cm" y2="43.0388cm" />
+<line stroke="#7F007F" x1="19.6622cm" y1="40.9914cm" x2="20.8108cm" y2="42.6077cm" />
+<line stroke="#7F007F" x1="20.8108cm" y1="42.6077cm" x2="22.3986cm" y2="43.0388cm" />
+<line stroke="#7F007F" x1="20.8108cm" y1="42.6077cm" x2="19.7973cm" y2="43.3621cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="36.6667cm" />
+<line stroke="#7F7F00" x1="18.7162cm" y1="35.5316cm" x2="18.7838cm" y2="36.7888cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="33.3333cm" />
+<line stroke="#7F7F00" x1="18.7162cm" y1="35.5316cm" x2="17.7703cm" y2="34.9569cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="35cm" />
+<line stroke="#7F7F00" x1="18.7162cm" y1="35.5316cm" x2="17.4459cm" y2="35.9483cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="16.6667cm" y="36.6667cm" />
+<line stroke="#7F7F00" x1="18.7162cm" y1="35.5316cm" x2="17.5cm" y2="37.2737cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="18.3333cm" y="35cm" />
+<line stroke="#7F7F00" x1="18.7838cm" y1="36.7888cm" x2="17.4459cm" y2="35.9483cm" />
+<line stroke="#7F7F00" x1="18.7838cm" y1="36.7888cm" x2="17.5cm" y2="37.2737cm" />
+<line stroke="#7F7F00" x1="17.7703cm" y1="34.9569cm" x2="17.4459cm" y2="35.9483cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="35cm" />
+<line stroke="#7F7F00" x1="17.7703cm" y1="34.9569cm" x2="16.2838cm" y2="35.9627cm" />
+<line stroke="#7F7F00" x1="17.4459cm" y1="35.9483cm" x2="17.5cm" y2="37.2737cm" />
+<line stroke="#7F7F00" x1="17.4459cm" y1="35.9483cm" x2="16.2838cm" y2="35.9627cm" />
+<rect style="opacity:0.6;fill:#7F7F00;stroke:none" width="1.66667cm" height="1.66667cm" x="15cm" y="36.6667cm" />
+<line stroke="#7F7F00" x1="17.4459cm" y1="35.9483cm" x2="16.2162cm" y2="37.0043cm" />
+<line stroke="#7F7F00" x1="17.5cm" y1="37.2737cm" x2="16.2838cm" y2="35.9627cm" />
+<line stroke="#7F7F00" x1="17.5cm" y1="37.2737cm" x2="16.2162cm" y2="37.0043cm" />
+<line stroke="#7F7F00" x1="16.2838cm" y1="35.9627cm" x2="16.2162cm" y2="37.0043cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="31.6892cm" cy="8.98705cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="35.8108cm" cy="8.98705cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.1757cm" cy="11.25cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="32.9729cm" cy="11.7888cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="35.9459cm" cy="13.7285cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="31.7568cm" cy="15.6681cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="33.8514cm" cy="17.3923cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="36.6216cm" cy="18.2543cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="32.3648cm" cy="20.7327cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="34.7973cm" cy="22.2414cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="32.2297cm" cy="24.7199cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="33.6486cm" cy="26.6595cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="36.5541cm" cy="26.875cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="32.3648cm" cy="30.9699cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="35.3379cm" cy="30.7543cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.1757cm" cy="30.431cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.2027cm" cy="33.7715cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="36.0135cm" cy="35.4957cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="33.3784cm" cy="35.7112cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="32.2297cm" cy="39.8061cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="34.9324cm" cy="39.2673cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.7162cm" cy="38.1896cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="42.4324cm" cy="38.2974cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="42.5676cm" cy="30.3233cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.5946cm" cy="23.8577cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="45cm" cy="28.2759cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.8378cm" cy="26.013cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="50cm" cy="23.319cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="52.6352cm" cy="26.013cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="50.5406cm" cy="29.138cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.7027cm" cy="30.6465cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.3243cm" cy="34.0949cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.3648cm" cy="34.3104cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.4189cm" cy="38.6207cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="49.7973cm" cy="38.2974cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="50.6757cm" cy="33.7715cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="53.5135cm" cy="32.4785cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="52.2298cm" cy="38.4051cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="52.9054cm" cy="19.1164cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="49.9324cm" cy="16.9612cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="53.0406cm" cy="14.806cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="50.8784cm" cy="12.2198cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="52.6352cm" cy="8.98705cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="48.0406cm" cy="8.4483cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.4324cm" cy="13.6207cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.1757cm" cy="13.1897cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.4729cm" cy="11.4655cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.6892cm" cy="8.55605cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.5811cm" cy="8.23275cm" r="0.5cm" />
+<circle fill="#FF7F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.9324cm" cy="10.6035cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.6081cm" cy="14.4827cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.9324cm" cy="14.5905cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.3243cm" cy="15.4526cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.3919cm" cy="16.4224cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.8648cm" cy="15.9914cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.4054cm" cy="15.3448cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.0811cm" cy="15.6681cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.6757cm" cy="16.3147cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.2027cm" cy="16.8535cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.8648cm" cy="17.5cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.4865cm" cy="16.4224cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.2838cm" cy="17.3923cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.6081cm" cy="17.6077cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.8648cm" cy="18.5776cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.3378cm" cy="18.9008cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.1487cm" cy="18.4698cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.6892cm" cy="18.2543cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.9594cm" cy="17.1767cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="42.7702cm" cy="16.8535cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="42.5cm" cy="17.8233cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.0406cm" cy="17.8233cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.7162cm" cy="17.6077cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.4459cm" cy="16.4224cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.2567cm" cy="16.3147cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.5271cm" cy="17.5cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45cm" cy="16.4224cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45.6757cm" cy="16.8535cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45.2027cm" cy="17.7155cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.4189cm" cy="17.2845cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45.7433cm" cy="18.2543cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.4189cm" cy="18.4698cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.9594cm" cy="17.7155cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.5cm" cy="18.5776cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.9729cm" cy="19.4397cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.1622cm" cy="19.5474cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.7027cm" cy="20.5173cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="47.2298cm" cy="21.487cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.7567cm" cy="20.4095cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.2162cm" cy="19.4397cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="46.4189cm" cy="21.3793cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45.7433cm" cy="20.7327cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45.5406cm" cy="19.763cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45cm" cy="19.2242cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.3919cm" cy="18.9008cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.8513cm" cy="18.6853cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="45cm" cy="20.3017cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="44.2567cm" cy="20.194cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.4459cm" cy="20.0862cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="43.2433cm" cy="18.9008cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="42.7027cm" cy="20.0862cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="42.5cm" cy="19.1164cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.8919cm" cy="19.3319cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.8919cm" cy="20.5173cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.3513cm" cy="19.6552cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.6081cm" cy="19.9785cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.9324cm" cy="20.194cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.8784cm" cy="20.9483cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.4865cm" cy="21.3793cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.3919cm" cy="19.6552cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.9189cm" cy="20.4095cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.3784cm" cy="20.8405cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="37.7027cm" cy="21.487cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="37.3648cm" cy="22.7802cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="37.6352cm" cy="23.6423cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.0406cm" cy="24.181cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.4459cm" cy="25.0431cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.9865cm" cy="25.7974cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.6622cm" cy="26.2285cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.3378cm" cy="26.444cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.2162cm" cy="26.7673cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.9594cm" cy="26.1207cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.8919cm" cy="24.7199cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.5541cm" cy="23.6423cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.3513cm" cy="22.3492cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.6081cm" cy="22.1336cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.1352cm" cy="21.1638cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.3919cm" cy="20.9483cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.7162cm" cy="21.7026cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.1081cm" cy="22.5647cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.4459cm" cy="23.5345cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.9865cm" cy="22.6724cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.5271cm" cy="22.0258cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40cm" cy="22.888cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.5271cm" cy="23.5345cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="38.8513cm" cy="23.9655cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="39.4594cm" cy="24.8276cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.1352cm" cy="23.8577cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.8108cm" cy="23.1035cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.9459cm" cy="24.2888cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40cm" cy="25.0431cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="40.5406cm" cy="25.4741cm" r="0.5cm" />
+<circle fill="#000077" style="opacity:0.6"  stroke-width="0.02cm"  cx="41.2162cm" cy="25.4741cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="7.97295cm" cy="8.55605cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.2702cm" cy="8.55605cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.3649cm" cy="8.6638cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.3919cm" cy="9.2026cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.3378cm" cy="12.9742cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.3108cm" cy="11.8965cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.2162cm" cy="11.5733cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.3919cm" cy="10.9267cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="7.97295cm" cy="11.8965cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="6.4189cm" cy="10.2802cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="5.2027cm" cy="13.8362cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="7.0946cm" cy="13.6207cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="7.02705cm" cy="15.3448cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="5.47295cm" cy="17.2845cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="6.6892cm" cy="20.8405cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="7.63515cm" cy="17.931cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="8.5135cm" cy="16.0992cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="8.5811cm" cy="14.1595cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.3243cm" cy="13.0819cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.2702cm" cy="12.9742cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.9594cm" cy="13.6207cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.7432cm" cy="14.1595cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.1351cm" cy="14.4827cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.5946cm" cy="14.5905cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.93245cm" cy="15.0215cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.45945cm" cy="15.4526cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.3379cm" cy="15.5603cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.86485cm" cy="16.0992cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.1216cm" cy="17.7155cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.52705cm" cy="20.3017cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.1216cm" cy="22.4569cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.6081cm" cy="17.7155cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.8919cm" cy="16.3147cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.3784cm" cy="15.3448cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.0811cm" cy="19.8707cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.6351cm" cy="18.6853cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.3243cm" cy="20.7327cm" r="0.5cm" />
+<circle fill="#00007F" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.5676cm" cy="22.6724cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.0675cm" cy="17.1767cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.0946cm" cy="12.0043cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.4459cm" cy="10.1724cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.7297cm" cy="9.4181cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.2162cm" cy="7.8017cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.1757cm" cy="7.69395cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.3514cm" cy="9.9569cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.1081cm" cy="10.6035cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="25.2027cm" cy="9.52585cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.7432cm" cy="12.112cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.5271cm" cy="12.4353cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.5811cm" cy="13.944cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.8243cm" cy="14.806cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.8243cm" cy="17.3923cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.6351cm" cy="20.3017cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.7838cm" cy="22.4569cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.7297cm" cy="20.0862cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.9189cm" cy="18.4698cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.5135cm" cy="15.9914cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.5946cm" cy="16.5302cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.6622cm" cy="14.6983cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.5406cm" cy="13.8362cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.3514cm" cy="13.7285cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.9594cm" cy="12.4353cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.7027cm" cy="13.8362cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.9594cm" cy="15.1293cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.1486cm" cy="15.1293cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.6081cm" cy="15.3448cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.4729cm" cy="16.0992cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.0135cm" cy="15.9914cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.4865cm" cy="16.2069cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.8784cm" cy="16.7457cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.2703cm" cy="17.7155cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.3514cm" cy="18.362cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.2162cm" cy="20.625cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.8784cm" cy="23.319cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.0946cm" cy="17.5cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.7027cm" cy="15.8836cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.2568cm" cy="12.7586cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.5271cm" cy="15.7758cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.7838cm" cy="18.1465cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.9054cm" cy="19.6552cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.7027cm" cy="23.5345cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.4594cm" cy="22.3492cm" r="0.5cm" />
+<circle fill="#0000FF" style="opacity:0.6"  stroke-width="0.02cm"  cx="25.5406cm" cy="19.763cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.946cm" cy="29.6767cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.8243cm" cy="29.2457cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.7027cm" cy="28.7069cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.5811cm" cy="28.5991cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.7297cm" cy="28.8146cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.8784cm" cy="28.8146cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.6216cm" cy="28.8146cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.2973cm" cy="28.4914cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.0946cm" cy="29.569cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.3513cm" cy="29.8923cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.3378cm" cy="30cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.2568cm" cy="30cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.3108cm" cy="30.431cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.6351cm" cy="30cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.6216cm" cy="30.6465cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.7568cm" cy="31.9396cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.6351cm" cy="31.6164cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.6487cm" cy="31.6164cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.5946cm" cy="31.5086cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.2703cm" cy="31.2931cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.0811cm" cy="30.9699cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.8784cm" cy="31.8319cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.0675cm" cy="32.5862cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.3919cm" cy="33.2327cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.1757cm" cy="32.8017cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.8513cm" cy="33.7715cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.3649cm" cy="33.2327cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.3784cm" cy="34.6336cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.7432cm" cy="32.8017cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.7432cm" cy="31.1854cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10cm" cy="30.3233cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.1216cm" cy="31.1854cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.86485cm" cy="31.7241cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="8.7162cm" cy="32.263cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.5946cm" cy="33.2327cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="8.7162cm" cy="33.8793cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="8.7162cm" cy="35.6035cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.52705cm" cy="34.7414cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.2702cm" cy="34.3104cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.3513cm" cy="33.987cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.2973cm" cy="34.9569cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.9729cm" cy="35.819cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.2298cm" cy="35.9267cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.554cm" cy="35.1724cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.6081cm" cy="35.6035cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.93245cm" cy="36.1423cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="9.1892cm" cy="36.7888cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.0676cm" cy="37.3276cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.5406cm" cy="36.681cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.3513cm" cy="36.4655cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.9594cm" cy="37.112cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.9054cm" cy="37.2199cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.3649cm" cy="37.9741cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.6892cm" cy="38.944cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.3513cm" cy="37.6509cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="10.8108cm" cy="38.4051cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.1487cm" cy="39.5905cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.9729cm" cy="38.4051cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.4459cm" cy="39.375cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.6351cm" cy="39.5905cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.8919cm" cy="40.3448cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.2838cm" cy="40.8836cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.0271cm" cy="41.6379cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="11.4865cm" cy="42.3923cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.6351cm" cy="40.9914cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.3784cm" cy="40.4526cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.9865cm" cy="40.0216cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.9325cm" cy="40.4526cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.1892cm" cy="40.9914cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.5811cm" cy="41.9612cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.7027cm" cy="42.2845cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="12.3649cm" cy="43.2543cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.3784cm" cy="44.1164cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="13.9865cm" cy="43.2543cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.5946cm" cy="42.1767cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.4054cm" cy="41.8534cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.8108cm" cy="40.5604cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.9594cm" cy="40.9914cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.2838cm" cy="41.5302cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.9459cm" cy="43.0388cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.0675cm" cy="43.1466cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.4729cm" cy="44.3319cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="14.3919cm" cy="44.2241cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.4865cm" cy="44.0086cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.8919cm" cy="42.9311cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.2297cm" cy="41.9612cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.9054cm" cy="41.4224cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.1081cm" cy="42.7155cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.5cm" cy="43.5776cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.5811cm" cy="43.2543cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.9594cm" cy="31.8319cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.0271cm" cy="30.6465cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.5675cm" cy="31.6164cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.9054cm" cy="30.7543cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.8378cm" cy="29.569cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.1757cm" cy="28.4914cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.1892cm" cy="28.7069cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.7162cm" cy="29.4612cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.6487cm" cy="30.6465cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.3784cm" cy="31.5086cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.0541cm" cy="31.6164cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.2568cm" cy="30.6465cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.5271cm" cy="29.4612cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.2703cm" cy="29.2457cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.2027cm" cy="30.3233cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.8649cm" cy="30.9699cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.6622cm" cy="31.9396cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.2703cm" cy="31.6164cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.6757cm" cy="30.862cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.0135cm" cy="29.8923cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.3514cm" cy="31.2931cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.0135cm" cy="32.0474cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.5406cm" cy="32.694cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.1486cm" cy="33.4483cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.6216cm" cy="32.694cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.7568cm" cy="33.6638cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.5541cm" cy="34.4181cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.4324cm" cy="33.8793cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.0946cm" cy="34.8491cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.8243cm" cy="35.7112cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.4324cm" cy="36.3577cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.9729cm" cy="35.0646cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.4459cm" cy="34.4181cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.2568cm" cy="34.9569cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.7838cm" cy="35.388cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.7973cm" cy="35.9267cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.1216cm" cy="36.5733cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.2432cm" cy="36.4655cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.8919cm" cy="36.8965cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.5cm" cy="37.6509cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.4459cm" cy="37.7586cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.1892cm" cy="37.9741cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="25.1352cm" cy="37.6509cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.9324cm" cy="38.944cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.7973cm" cy="39.9138cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.9865cm" cy="39.4827cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.9729cm" cy="39.0517cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.7568cm" cy="37.9741cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.0271cm" cy="39.375cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.1486cm" cy="39.2673cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.5676cm" cy="40.3448cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.3108cm" cy="40.4526cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="24.2568cm" cy="41.0991cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="23.7162cm" cy="41.9612cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.9054cm" cy="41.5302cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.9594cm" cy="41.5302cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.2838cm" cy="40.6681cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.3378cm" cy="40.3448cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.6622cm" cy="40.9914cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.2703cm" cy="41.4224cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="21.1486cm" cy="41.9612cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.0271cm" cy="43.2543cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="22.7703cm" cy="42.8233cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.9459cm" cy="43.2543cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="20.3378cm" cy="42.6077cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.3919cm" cy="42.6077cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.8513cm" cy="41.8534cm" r="0.5cm" />
+<circle fill="#FF0000" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.7973cm" cy="43.3621cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="19.1216cm" cy="35.4957cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.7838cm" cy="36.7888cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.5135cm" cy="36.0345cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="18.5135cm" cy="35.0646cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.7703cm" cy="34.9569cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.8378cm" cy="35.6035cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.9729cm" cy="36.3577cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.9729cm" cy="37.2199cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.0271cm" cy="37.3276cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.2297cm" cy="36.5733cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="17.2297cm" cy="35.9267cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.9594cm" cy="35.2801cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.2838cm" cy="35.388cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.6216cm" cy="36.3577cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="16.2162cm" cy="37.0043cm" r="0.5cm" />
+<circle fill="#007F00" style="opacity:0.6"  stroke-width="0.02cm"  cx="15.9459cm" cy="36.1423cm" r="0.5cm" />
+</g>
+</svg>

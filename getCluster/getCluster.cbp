@@ -11,7 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters="-i ..\data\cells.csv -f .001" />
+				<Option parameters=" -e 35 -f 0.0777 -i ../data/D31/central/consolidate/e035f0.0777-cells-D31.csv -p ../data/D31/central/consolidate/e035f0.0777-points-D31.csv" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>

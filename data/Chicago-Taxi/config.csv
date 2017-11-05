@@ -1,0 +1,4 @@
+Taxi_id,time_stamp,hour,day,month,trip_seconds,trip_miles,trip_total
+N,N,C,N,N,C,N,N
+0,0,23,31,12,8000,5,300
+0,0,0,1,1,30,0,2
