@@ -3,7 +3,7 @@
 xmlns="http://www.w3.org/2000/svg">
 <desc>Graph bi-dimensional </desc>
 <rect x="5cm" y="5cm" width="50cm" height="50cm" fill="none" stroke="black" stroke-width="0.1cm" />
-<text x="5cm" y="57cm" font-family="Times New Roman" font-size="1.5cm" fill="black">File Name: ../data/Agregation/central/consolidate/e012f0.2100-cells-Agregation.csv</text>
+<text x="5cm" y="57cm" font-family="Times New Roman" font-size="1.5cm" fill="black">File Name: ../data/Agregation/central/consolidate/cells-Agregation.csv</text>
 <text x="5cm" y="59cm" font-family="Times New Roman" font-size="1.5cm" fill="black">Epsilon: 12, Min Force: 0.21, Number Clusters: 7</text>
 <g stroke="gray" stroke-width="0.104167cm">
 <line x1="9.16667cm" y1="5cm" x2="9.16667cm" y2="55cm" />

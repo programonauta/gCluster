@@ -367,7 +367,6 @@ But in the validation, the cells from clusters 20 and 13 will have the same grou
 <img src="docs/images/wrongCellsPointsLabels.png" height="60%"><br>
 <em>Figure 2: Two different clusters find out by gClusters with the same ground truth</em>
 </p>
-[//]:![image](docs/images/wrongCellsPointsLabels.png)
 
 ##### type = Points 
 

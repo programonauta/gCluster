@@ -83,7 +83,7 @@ def dbFun(_x, _original_vals, epsilon, minPts, hasLegend):
     fileOutput = open(DBSCANOutput, "w")
 
 
-    if type == "p":
+    if fileType == "p":
         j = 0
         for i in _original_vals:
             # write line (x, y, label found by DBSCAN, ground truth
@@ -191,6 +191,7 @@ else:
     showError("-d option not found")
 
 hasPrefix, prefix = parseOpt("-pr", True)
+
 
 if prefix == "":
     print("--------------------------------")
