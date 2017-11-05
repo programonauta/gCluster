@@ -269,8 +269,8 @@ if len(listPointFiles) > 0:
 # Run getCluster
 
 svgOutput = dirGetClusterOutput + "/" + prefix + "graph-" + nameSingleDir + ".svg"
-resultPointsOutput = dirGetClusterOutput + "/" + prefix + "result-points-" + nameSingleDir + ".csv"
-resultCellsOutput = dirGetClusterOutput + "/" + prefix + "result-cells-" + nameSingleDir + ".csv"
+resultPointsOutput = dirGetClusterOutput + "/" + prefix + "points-result-" + nameSingleDir + ".csv"
+resultCellsOutput = dirGetClusterOutput + "/" + prefix + "cells-result-" + nameSingleDir + ".csv"
 
 result = call(["../getCluster/bin/getCluster",
                "-e", str(epsilon),

@@ -64,6 +64,10 @@ def parseOpt(opt, hasArgument):
         return True, arg
 
 
+def distPt(a, b):
+    dist = ((b[0]-a[0])**2 + (b[1]-a[1])**2) ** 0.5
+    return dist
+
 def dbFun(_x, _original_vals, epsilon, minPts, hasLegend):
 
     # Values salved for chamelon
@@ -78,14 +82,45 @@ def dbFun(_x, _original_vals, epsilon, minPts, hasLegend):
 
     fileOutput = open(DBSCANOutput, "w")
 
-    j = 0
-    for i in _original_vals:
-        # write line (x, y, label found by DBSCAN, ground truth
-        strCSV = str(i[0]) + "," + str(i[1]) + "," + str(labels[j]) + "," + str(int(i[2])) + "\n"
-        j += 1
-        fileOutput.write(strCSV)
 
-    fileOutput.close()
+    if type == "p":
+        j = 0
+        for i in _original_vals:
+            # write line (x, y, label found by DBSCAN, ground truth
+            strCSV = str(i[0]) + "," + str(i[1]) + "," + str(labels[j]) + "," + str(int(i[2])) + "\n"
+            j += 1
+            fileOutput.write(strCSV)
+
+        fileOutput.close()
+    else:
+        # Create a file to compare
+
+        totPts = 0
+        fileOutput = open(DBSCANOutput, "w")
+        with open(inputGT, 'rU') as inp:
+            rd = csv.reader(inp)
+            qty = 0
+            first = True
+            for row in rd:
+                if first:
+                    first = False
+                    continue
+                totPts += 1
+                print("Line: ", totPts, end='\r', flush=True)
+                p1 = [float(row[0]), float(row[1])]
+                min = 99999
+                labelDB = -1
+                j = 0
+                for i in _original_vals:
+                    d = distPt(i, p1)
+                    if d < min and d <= minPts:
+                        min = d
+                        labelDB = labels[j]
+                    j += 1
+
+                # Now j has the label found on DBSCAN to point row
+                strCSV = str(row[0]) + "," + str(row[1]) + "," + str(labelDB) + "," + row[-1] + "\n"
+                fileOutput.write(strCSV)
 
     n_clusters_ = len(set(labels)) - (1 if -1 else 0)
     title = ('Estimated number of clusters: %d' % n_clusters_)
@@ -207,19 +242,21 @@ dirDBSCANOutput = nameDir + "/central/DBSCAN"
 prefixDBSCAN = "e%06.4fm%03d-" % (epsilon, minPts)
 
 if fileType == "c":
-    prefixDBSCAN += "cell-"
-    inputFile = dirInput + "/" + prefix + "result-cells-" + nameSingleDir + ".csv"
+    prefixDBSCAN += "cells-"
+    inputFile = dirInput + "/" + prefix + "cells-result-" + nameSingleDir + ".csv"
 else:
-    prefixDBSCAN += "point-"
-    inputFile = dirInput + "/" + prefix + "result-points-" + nameSingleDir + ".csv"
+    prefixDBSCAN += "points-"
+    inputFile = dirInput + "/" + prefix + "points-result-" + nameSingleDir + ".csv"
 
 if not os.path.exists(dirDBSCANOutput):
     os.makedirs(dirDBSCANOutput)
 
 print("Input file: ", inputFile)
 
-
 DBSCANOutput = dirDBSCANOutput + "/" + prefixDBSCAN + "DBSCAN-" + nameSingleDir + ".csv"
+
+inputGT = nameDir + "/central/consolidate/points-" + nameSingleDir + ".csv"
+outputGT = dirDBSCANOutput + "/" + prefixDBSCAN + "DBSCAN-Compare-" + nameSingleDir + ".csv"
 
 with open(inputFile, 'rU') as inp:
     rd = csv.reader(inp)

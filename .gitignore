@@ -3,15 +3,15 @@ output.txt
 nodes.txt
 edges.txt
 *.svg
-*/central/*
+central/
 
 # Executables
 *.exe
 *.out
 *.app
 
-!/**/
-!*.*
+#!/**/
+#!*.*
 
 # build directory
 build/

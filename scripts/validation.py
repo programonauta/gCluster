@@ -30,7 +30,6 @@ def showHelp():
     print("\t-h\t\tShow this help")
     print("\t-d <dir>\tDirectory of files")
     print("\t-m <file>\tFile with map of indexes")
-    print("\t-p <file>\tFile of points and its classification")
     print("\t-t <opt>\t<opt> = c or p (for cells or points respectively)")
     print("\t-pr <pre>\tPrefix of files")
     print("\t\t\t if gGluster pr = (e<epsilon (3 digits)>f<force (with 4 decimals)> - Ex. e014f0.1500)")
@@ -117,9 +116,9 @@ else:
     showError("File type not informed. Please use -t <c> or <p> option")
 
 if fileType == "c":
-    prefix += "cell-"
+    prefix += "cells-"
 else:
-    prefix += "point-"
+    prefix += "points-"
 
 if isDBSCAN:
     if (mapFile == ""):
@@ -128,7 +127,7 @@ if isDBSCAN:
 else:
     if (mapFile == ""):
         mapFile = nameDir + "/config/" + prefix + "map-" + nameSingleDir + ".csv"
-    inputFile = dirInput + "/" + prefix + "result-points-" + nameSingleDir + ".csv"
+    inputFile = dirInput + "/" + prefix + "result-" + nameSingleDir + ".csv"
 
 # Create matMap list where there is the correspondence btw cluster number found and the ground truth
 fInd = open(mapFile, "r")
@@ -169,8 +168,12 @@ fInd = open(inputFile, "r")
 #    gCluster partition (position 1)
 #
 matClusters = []
+first = True
 for line in fInd:
     CSVLine = line.split(",")
+    if first:
+        first = False
+        continue
     aux = [int(CSVLine[-2]), int(CSVLine[-1])]
     # Search cluster number int map matrix
     for i in matMap:
@@ -206,8 +209,8 @@ dd = 0
 
 for pairs in itertools.combinations(matClusters, 2):
     # compare clusters on GT
-    clGT = (pairs[0][0] == pairs[1][0])  # test clusters on GT
-    clgC = (pairs[0][1] == pairs[1][1])  # test clusters no gCluster
+    clGT = (pairs[0][1] == pairs[1][1])  # test clusters on GT
+    clgC = (pairs[0][0] == pairs[1][0])  # test clusters no gCluster
 
     if (clgC and clGT):  # same cluster on gCluster and GT
         ss += 1
