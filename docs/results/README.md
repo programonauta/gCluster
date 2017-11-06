@@ -34,9 +34,9 @@ The methodology of experiment:
 - Minimum Force: 0.21
 
 ##### Summarization and Clustering
-- command line: `complete.py -d ../data/Agregation -e 12 -f 0.21 -p`
+- command line: `complete.py -d ../data/Agregation -e 20 -f 0.1 -p`
 
-<img src = "images/e012f0.2100-graph-Agregation-saved.svg" height="60%" >
+<img src = "images/e020f0.1000-graph-Agregation-saved.svg" height="60%" >
 
 <table>
   <tr>
@@ -92,7 +92,7 @@ The methodology of experiment:
 - Minimum Points: 1
 
 ###### Clusterization
-- command line: `DBSCAN.py -d ..\data\Agregation -pr e012f0.2100 -t c -e 0.3100 -m 1`
+- command line: `DBSCAN.py -d ..\data\Agregation -pr e020f0.1000 -t c -e 0.3100 -m 1`
 
 <img src = "images/e0.3100m001-DBSCAN-cell-Agregation.png" height="60%" >
 
@@ -104,7 +104,7 @@ The methodology of experiment:
 - Minimum Points: 3
 
 ###### Clusterization
-- command line: `DBSCAN.py -d ..\data\Agregation -pr e012f0.2100 -t c -e 0.1100 -m 3`
+- command line: `DBSCAN.py -d ..\data\Agregation -pr e020f0.1000 -t p -e 0.1100 -m 3`
 
 <img src = "images/e0.1100m003-DBSCAN-point-Agregation.png" height="60%" >
 
@@ -112,15 +112,15 @@ The methodology of experiment:
 
 ###### cells
 
-- command line `validation.py -d ../data/Agregation -t c -pr e012f0.2100`
-- map file: [e012f0.2100-cells-map-Agregation.csv](../../data/Agregation/config/e012f0.2100-cells-map-Agregation.csv)
-- **Result --> FM: 0.920413**
+- command line `validation.py -d ../data/Agregation -t c -pr e020f0.1000`
+- map file: [e020f0.1000-cells-map-Agregation.csv](../../data/Agregation/config/e020f0.1000-cells-map-Agregation.csv)
+- **Result --> FM: 0.996649**
 
 ###### points
 
-- command line `validation.py -d ../data/Agregation -t p -pr e012f0.2100`
-- map file: [e012f0.2100-points-map-Agregation.csv](../../data/Agregation/config/e012f0.2100-points-map-Agregation.csv)
-- **Result --> FM: 0.912781**
+- command line `validation.py -d ../data/Agregation -t p -pr e020f0.1000`
+- map file: [e020f0.1000-points-map-Agregation.csv](../../data/Agregation/config/e020f0.1000-points-map-Agregation.csv)
+- **Result --> FM: 0.991132**
 
 
 #### Validation - DBSCAN
@@ -129,13 +129,13 @@ The methodology of experiment:
 
 - command line `validation.py -d ../data/Agregation -t c -pr  e0.3100m001 -b`
 - map file: [e0.3100m001-cells-map-DBSCAN-Agregation.csv](../../data/Agregation/config/e0.3100m001-cells-map-DBSCAN-Agregation.csv)
-- **Result -->  FM: 0.990363**
+- **Result -->  FM: 0.999013**
 
 ##### points
 
 - command line `validation.py -d ../data/Agregation -t c -pr  e0.3100m001 -b`
 - map file: [e0.1100m003-points-map-DBSCAN-Agregation.csv](../../data/Agregation/config/e0.1100m003-points-map-DBSCAN-Agregation.csv)
-- **Result --> FM: 0.989107**
+- **Result --> FM: 0.996307**
 
 #### Agregation - Summary
 
@@ -147,12 +147,12 @@ The methodology of experiment:
   </tr>
   <tr>
     <td><b>cells<br></td>
-    <td>0.920413</td>
-    <td>0.990363</td>
+    <td>0.996649</td>
+    <td>0.999013</td>
   </tr>
   <tr>
     <td><b>points</td>
-    <td>0.912781</td>
-    <td>0.989107</td>
+    <td>0.991132</td>
+    <td>0.996307</td>
   </tr>
 </table>

@@ -177,8 +177,8 @@ for line in fInd:
     aux = [int(CSVLine[-2]), int(CSVLine[-1])]
     # Search cluster number int map matrix
     for i in matMap:
-        if aux[1] == i[0]:
-            aux[1] = i[1]
+        if aux[0] == i[0]:
+            aux[0] = i[1]
             break
     matClusters.append(aux)
 

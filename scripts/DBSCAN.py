@@ -124,7 +124,7 @@ def dbFun(_x, _original_vals, epsilon, minPts, hasLegend):
 
     n_clusters_ = len(set(labels)) - (1 if -1 else 0)
     title = ('Estimated number of clusters: %d' % n_clusters_)
-    subtitle = ('Epslon = %f, minPts = %d' % (epsilon,minPts))
+    subtitle = ('Epsilon = %f, minPts = %d' % (epsilon,minPts))
     print('Estimated number of clusters: %d' % n_clusters_)
     print("Output file: ", DBSCANOutput)
     print("Wait plotting clusters.....")
@@ -146,7 +146,7 @@ def plotCluster(_x, labels, core_samples_mask, title, subtitle, legend):
 
         xy = _x[class_member_mask & core_samples_mask]
         plt.plot(xy[:, 0], xy[:, 1], 'o', markerfacecolor=tuple(col),
-                 markeredgecolor='k', markersize=5)
+                 markeredgecolor='k', markersize=9)
         if legend:
             plt.legend(tuple(unique_labels), loc='best')
 

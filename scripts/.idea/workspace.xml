@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBSCAN.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBSCAN.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DBSCAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="91">
+              <caret line="148" column="50" lean-forward="false" selection-start-line="148" selection-start-column="50" selection-end-line="148" selection-end-column="50" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -45,21 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="validation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="validation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="149" column="38" lean-forward="false" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
+            <state relative-caret-position="101">
+              <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
               <folding>
                 <element signature="e#306#315#0" expanded="true" />
               </folding>
@@ -78,8 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Please</find>
-      <find>legend</find>
       <find>figure</find>
       <find>config.csv</find>
       <find>map-</find>
@@ -108,6 +96,8 @@
       <find>input</find>
       <find>type</find>
       <find>prefix</find>
+      <find>eps</find>
+      <find>Estim</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -115,8 +105,8 @@
       <list>
         <option value="$PROJECT_DIR$/DBSCAN-Cells.py" />
         <option value="$PROJECT_DIR$/complete.py" />
-        <option value="$PROJECT_DIR$/DBSCAN.py" />
         <option value="$PROJECT_DIR$/validation.py" />
+        <option value="$PROJECT_DIR$/DBSCAN.py" />
       </list>
     </option>
   </component>
@@ -191,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DBSCAN">
+  <component name="RunManager" selected="Python.validation">
     <configuration name="DBSCAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,7 +229,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scripts" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validation.py" />
-      <option name="PARAMETERS" value="-d ..\data\D31 -pr e035f0.0777 -t p -e 0.195 -m 1" />
+      <option name="PARAMETERS" value="-d ../data/Agregation -t c -pr  e020f0.1000" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
@@ -250,8 +240,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.DBSCAN" />
-        <item index="1" class="java.lang.String" itemvalue="Python.validation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.validation" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DBSCAN" />
       </list>
     </recent_temporary>
   </component>
@@ -352,11 +342,6 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/validation.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/complete.py</url>
           <line>189</line>
           <option name="timeStamp" value="49" />
@@ -370,21 +355,6 @@
           <url>file://$PROJECT_DIR$/DBSCAN.py</url>
           <line>93</line>
           <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/validation.py</url>
-          <line>71</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/validation.py</url>
-          <line>142</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/validation.py</url>
-          <line>163</line>
-          <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/DBSCAN.py</url>
@@ -401,8 +371,13 @@
           <line>195</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/validation.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="77" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -685,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DBSCAN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/complete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -707,10 +672,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/validation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="149" column="38" lean-forward="false" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
+        <state relative-caret-position="101">
+          <caret line="162" column="0" lean-forward="true" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
           <folding>
             <element signature="e#306#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBSCAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="148" column="50" lean-forward="false" selection-start-line="148" selection-start-column="50" selection-end-line="148" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
