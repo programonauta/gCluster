@@ -334,10 +334,9 @@ int main(int argc, char* argv[])
     cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
     cout << "Size of vector: " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
     cout << "Number of Cells: " << listCells.size() << endl;
-    cout << "Size of each cell: " << sizeof(*listCells[0]);
-    cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() <<
-         " Size of Points: " << sizeof(a) * lineNo << endl;
-
+    cout << "Size of each cell: " << sizeof(*listCells[0]) << endl;
+    cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() << endl;
+    cout << "Size of Points: " << sizeof(a) * lineNo << endl;
 
     if (listCells.size() == 0)
     {
@@ -412,6 +411,7 @@ int main(int argc, char* argv[])
 
 
     bool pointFileOk = true;
+    bool hasGT = true;  // Has Ground truth?
 
     typedef struct tdRawPoint
     {
@@ -473,7 +473,17 @@ int main(int argc, char* argv[])
             for (unsigned i = 0; i < dimension; i++)
                 resultFile << "Coord-" << i << ",";
 
-            resultFile << "gCluster-label,ground-truth-label" << endl;
+            resultFile << "gCluster-label";
+
+            if (headerCSV.back() == "_#NO_CLASS#_")
+            {
+                resultFile << ",_#NO_CLASS#_";
+                hasGT = false;
+            }
+            else
+                resultFile << ",ground-truth-label";
+
+            resultFile << endl;
 
             while (inPoint && procInPoints)
             {
@@ -573,15 +583,20 @@ int main(int argc, char* argv[])
     resultFile << "qty-cells-cluster-greater-equal-" << minCells << ",gCluster-label";
 
     if (rawPoints.size() > 0)
-        resultFile << ", ground-truth-cell-label";
+    {
+        if (hasGT)
+            resultFile << ", ground-truth-cell-label";
+        else
+            resultFile << ", _#NO_CLASS#_";
+    }
 
     resultFile << endl;
 
     // iterate all cells
     for (unsigned i = 0; i<(listCells.size()-1); i++)
     {
-        if (clusters[g.getClusterIndex(i)] < minCells)
-            continue;
+ //       if (clusters[g.getClusterIndex(i)] < minCells)
+ //           continue;
 
         resultFile << i << "," << i << "," << listCells[i]->getQtyPoints() << ",";
 

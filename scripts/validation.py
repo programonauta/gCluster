@@ -169,11 +169,22 @@ fInd = open(inputFile, "r")
 #
 matClusters = []
 first = True
+minCells = 0
 for line in fInd:
     CSVLine = line.split(",")
     if first:
+        if not isDBSCAN and fileType == "c":  # Get the minCells on the header
+            headerMinCell = CSVLine[-3].split("-")
+            minCells = int(headerMinCell[-1])
         first = False
         continue
+
+    # If reading cells and not DBSCAN, must ignore lines with cells cluster < min cells
+    if not isDBSCAN and fileType == "c":  # Get the minCells on the header
+        qtyCells = int(CSVLine[-3])
+        if qtyCells < minCells:
+            continue
+
     aux = [int(CSVLine[-2]), int(CSVLine[-1])]
     # Search cluster number int map matrix
     for i in matMap:

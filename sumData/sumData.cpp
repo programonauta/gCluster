@@ -449,7 +449,7 @@ int main(int argc, char* argv[])
     if (fieldClass >= 0) // There is Field Classification
         fprintf(pFilePoints, ",%s", headerCSV[fieldClass].c_str());
     else
-        fprintf(pFilePoints, ",Class");
+        fprintf(pFilePoints, ",_#NO_CLASS#_"); // Inform on header there is no classification
 
     fprintf(pFilePoints, "\n");
 

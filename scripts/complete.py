@@ -169,6 +169,8 @@ else:
 
 hasOptNotPrefix, opt = parseOpt("-x", False)
 
+hasOptNotPrefix, opt = parseOpt("-x", False)
+
 # Starting process
 #
 # First, let's verify if output directories are created and create them is not exist

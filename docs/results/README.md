@@ -14,9 +14,13 @@ The methodology of experiment:
 	- DBSCAN running over points
 
 ## Datasets
-- [Agregation](#agregation)
-- [D31](#d31)
-- [R15](#r15)
+
+- With Ground Truth
+	- [Agregation](#agregation)
+	- [D31](#d31)
+	- [R15](#r15)
+- Without Ground Truth
+	- [Chameleon](#chameleon)
 
 ### Agregation
 
@@ -231,10 +235,10 @@ The methodology of experiment:
 ###### Parameters
 
 - Epsilon: 0.195
-- Minimum Points: 1
+- Minimum Points: 2
 
 ###### Clusterization
-- command line: `DBSCAN.py -d ..\data\D31 -pr e035f0.0777 -t c -e 0.195 -m 1`
+- command line: ` DBSCAN.py -d ..\data\D31 -t c -e 0.195 -m 2`
 
 <img src = "images/D31/DBSCAN-cells-D31.png" height="60%" >
 
@@ -439,4 +443,96 @@ The methodology of experiment:
   </tr>
 </table>
 
+
+### Chameleon
+
+- Number of clusters: 6
+- Number of Points: 8,000
+- Row Data: CSV File: [chameleon.csv](../../data/chameleon/devices/chameleon.csv)
+	- Size: 168,139 bytes
+- Configuration File: [config-chameleon.csv](../../data/chameleon/config/config-chameleon.csv)
+	- Size: 24 bytes
+
+#### gCluster
+
+##### Parameters
+
+- Epsilon: 35
+- Minimum Force: 0.18
+- Miminum Cells: 3
+
+##### Summarization and Clustering
+- command line: `complete.py -d ..\data\chameleon -e 50 -f 0.08 -p`
+
+<img src = "images/chameleon/graph-chameleon-saved.svg" height="70%" >
+
+<table>
+  <tr>
+    <th colspan="2">Data Reduction<br></th>
+  </tr>
+  <tr>
+    <td colspan="2"><b>raw data<br></td>
+  </tr>
+  <tr>
+    <td>File Name<br></td>
+    <td>Size (bytes)<br></td>
+  </tr>
+  <tr>
+    <td>chameleon.csv</td>
+    <td>168,139<br></td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>summarized data<br></td>
+  </tr>
+  <tr>
+    <td>File Name<br></td>
+    <td>Size (bytes)<br></td>
+  </tr>
+  <tr>
+    <td>config-chameleon.csv</td>
+    <td>24</td>
+  </tr>
+  <tr>
+    <td>cell-chameleon-01.csv</td>
+    <td>18,492</td>
+  </tr>
+  <tr>
+    <td><b>TOTAL<br></td>
+    <td><b>18,516</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><b>Reduction (%)<br></td>
+    <td><b>88,99%</td>
+  </tr>
+</table>
+
+#### DBSCAN 
+
+##### cells
+
+###### Parameters
+
+- Epsilon: 0.215
+- Minimum Points: 30
+
+###### Clusterization
+- command line: `DBSCAN.py -d ..\data\chameleon -t c -e .215 -m 30`
+
+<img src = "images/chameleon/DBSCAN-cells-chameleon-saved.png" height="60%" >
+
+##### points
+
+###### Parameters
+
+- Epsilon: 0.09
+- Minimum Points: 16
+
+###### Clusterization
+- command line: ` DBSCAN.py -d ..\data\chameleon -t p -e .09 -m 16`
+
+<img src = "images/chameleon/DBSCAN-points-chameleon-saved.png" height="60%" >
 

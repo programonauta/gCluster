@@ -105,6 +105,8 @@ def dbFun(_x, _original_vals, epsilon, minPts, hasLegend):
             for row in rd:
                 if first:
                     first = False
+                    if row[-1] == "_#NO_CLASS#_":
+                        break
                     continue
                 totPts += 1
                 print("Line: ", totPts, end='\r', flush=True)
@@ -200,7 +202,7 @@ if prefix == "":
     print("Prefix of file was not informed!")
     print("Have any doubt? Run this with -h")
     print("--------------------------------")
-    exit(1)
+    # exit(1)
 else:
     prefix = prefix + "-"
 

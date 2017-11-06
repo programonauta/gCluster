@@ -4,7 +4,7 @@ xmlns="http://www.w3.org/2000/svg">
 <desc>Graph bi-dimensional </desc>
 <rect x="5cm" y="5cm" width="50cm" height="50cm" fill="none" stroke="black" stroke-width="0.1cm" />
 <text x="5cm" y="57cm" font-family="Times New Roman" font-size="1.5cm" fill="black">File Name: ../data/chameleon/central/results/graph-chameleon.svg</text>
-<text x="5cm" y="59cm" font-family="Times New Roman" font-size="1.5cm" fill="black">Epsilon: 35, Min Force: 0.19, Min Cells: 3, Number Clusters: 6</text>
+<text x="5cm" y="59cm" font-family="Times New Roman" font-size="1.5cm" fill="black">Epsilon: 35, Min Force: 0.18, Min Cells: 3, Number Clusters: 6</text>
 <g stroke="gray" stroke-width="0.0357143cm">
 <line x1="6.42857cm" y1="5cm" x2="6.42857cm" y2="55cm" />
 <line y1="6.42857cm" x1="5cm" y2="6.42857cm" x2="55cm" />
@@ -90,6 +90,8 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#FF7F00" x1="40.0088cm" y1="34.3175cm" x2="38.5741cm" y2="34.4017cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="40.7143cm" y="33.5714cm" />
 <line stroke="#FF7F00" x1="40.0088cm" y1="34.3175cm" x2="41.4673cm" y2="34.3222cm" />
+<rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="40.7143cm" y="35cm" />
+<line stroke="#FF7F00" x1="40.0088cm" y1="34.3175cm" x2="41.4373cm" y2="35.7934cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="39.2857cm" y="35cm" />
 <line stroke="#FF7F00" x1="40.0088cm" y1="34.3175cm" x2="40.1674cm" y2="35.7673cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="37.8571cm" y="35cm" />
@@ -98,6 +100,8 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#000000" x1="11.159cm" y1="42.8871cm" x2="9.9685cm" y2="44.3181cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="9.28571cm" y="42.1429cm" />
 <line stroke="#000000" x1="11.159cm" y1="42.8871cm" x2="9.9995cm" y2="42.8133cm" />
+<rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="9.28571cm" y="40.7143cm" />
+<line stroke="#000000" x1="11.159cm" y1="42.8871cm" x2="10.0718cm" y2="41.4097cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="35cm" y="35cm" />
 <line stroke="#FF7F00" x1="34.3589cm" y1="35.6945cm" x2="35.7206cm" y2="35.8076cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="32.1429cm" y="33.5714cm" />
@@ -158,6 +162,8 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#000000" x1="20.0512cm" y1="45.7705cm" x2="21.3069cm" y2="45.7694cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="19.2857cm" y="46.4286cm" />
 <line stroke="#000000" x1="20.0512cm" y1="45.7705cm" x2="19.8481cm" y2="47.1423cm" />
+<rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="17.8571cm" y="46.4286cm" />
+<line stroke="#000000" x1="20.0512cm" y1="45.7705cm" x2="18.7513cm" y2="47.2406cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="17.8571cm" y="45cm" />
 <line stroke="#000000" x1="20.0512cm" y1="45.7705cm" x2="19.047cm" y2="45.684cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="10.7143cm" y="42.1429cm" />
@@ -219,6 +225,8 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#bf870f" x1="25.7202cm" y1="36.9708cm" x2="24.2108cm" y2="36.9711cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="25cm" y="35cm" />
 <line stroke="#bf870f" x1="25.7202cm" y1="36.9708cm" x2="25.7001cm" y2="35.7075cm" />
+<rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="26.4286cm" y="37.8571cm" />
+<line stroke="#bf870f" x1="25.7202cm" y1="36.9708cm" x2="27.0117cm" y2="38.5826cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="25cm" y="37.8571cm" />
 <line stroke="#bf870f" x1="25.7202cm" y1="36.9708cm" x2="25.7764cm" y2="38.7813cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="23.5714cm" y="35cm" />
@@ -240,6 +248,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#0000FF" x1="44.3689cm" y1="42.8375cm" x2="45.7309cm" y2="41.4317cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="45cm" y="42.1429cm" />
 <line stroke="#0000FF" x1="44.3689cm" y1="42.8375cm" x2="45.8094cm" y2="42.9848cm" />
+<line stroke="#7F0000" x1="37.2235cm" y1="45.6253cm" x2="35.7104cm" y2="44.3203cm" />
 <rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.42857cm" height="1.42857cm" x="36.4286cm" y="46.4286cm" />
 <line stroke="#7F0000" x1="37.2235cm" y1="45.6253cm" x2="37.1123cm" y2="47.0602cm" />
 <line stroke="#7F0000" x1="37.2235cm" y1="45.6253cm" x2="35.7157cm" y2="45.7307cm" />
@@ -262,6 +271,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#000077" x1="30.2041cm" y1="48.6448cm" x2="29.9097cm" y2="50.1195cm" />
 <rect style="opacity:0.6;fill:#000077;stroke:none" width="1.42857cm" height="1.42857cm" x="29.2857cm" y="46.4286cm" />
 <line stroke="#000077" x1="30.2041cm" y1="48.6448cm" x2="30.3449cm" y2="47.1616cm" />
+<line stroke="#000077" x1="30.2041cm" y1="48.6448cm" x2="31.3102cm" y2="50.0573cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="19.2857cm" y="50.7143cm" />
 <line stroke="#000000" x1="21.4305cm" y1="51.4653cm" x2="20.2027cm" y2="51.4602cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="20.7143cm" y="49.2857cm" />
@@ -298,7 +308,6 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#000000" x1="9.87285cm" y1="40.0013cm" x2="8.6529cm" y2="40.2177cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="7.85714cm" y="40.7143cm" />
 <line stroke="#000000" x1="9.87285cm" y1="40.0013cm" x2="8.7531cm" y2="41.3573cm" />
-<rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="9.28571cm" y="40.7143cm" />
 <line stroke="#000000" x1="9.87285cm" y1="40.0013cm" x2="10.0718cm" y2="41.4097cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="9.28571cm" y="37.8571cm" />
 <line stroke="#000000" x1="9.87285cm" y1="40.0013cm" x2="10.1441cm" y2="38.9071cm" />
@@ -410,9 +419,13 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#000000" x1="10.039cm" y1="49.9736cm" x2="8.86515cm" y2="48.7165cm" />
 <line stroke="#000000" x1="10.039cm" y1="49.9736cm" x2="11.4658cm" y2="51.4158cm" />
 <line stroke="#000000" x1="10.039cm" y1="49.9736cm" x2="8.90365cm" y2="51.3972cm" />
+<line stroke="#bf870f" x1="14.3701cm" y1="38.6332cm" x2="15.6867cm" y2="37.2348cm" />
 <line stroke="#bf870f" x1="14.3701cm" y1="38.6332cm" x2="15.8097cm" y2="38.6133cm" />
 <line stroke="#bf870f" x1="14.3701cm" y1="38.6332cm" x2="14.4809cm" y2="39.9066cm" />
+<rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="36.4286cm" />
+<line stroke="#bf870f" x1="14.3701cm" y1="38.6332cm" x2="14.4701cm" y2="37.0881cm" />
 <line stroke="#000000" x1="11.3039cm" y1="50.0961cm" x2="11.4658cm" y2="51.4158cm" />
+<line stroke="#000000" x1="11.3039cm" y1="50.0961cm" x2="11.0844cm" y2="48.6746cm" />
 <line stroke="#000000" x1="11.3039cm" y1="50.0961cm" x2="12.7579cm" y2="49.9345cm" />
 <line stroke="#000000" x1="20.028cm" y1="48.6215cm" x2="21.4705cm" y2="49.9138cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="20.7143cm" y="47.8571cm" />
@@ -483,6 +496,7 @@ xmlns="http://www.w3.org/2000/svg">
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="26.4286cm" y="42.1429cm" />
 <line stroke="#bf870f" x1="25.7968cm" y1="44.3001cm" x2="26.9622cm" y2="42.8952cm" />
 <line stroke="#bf870f" x1="25.7968cm" y1="44.3001cm" x2="25.7485cm" y2="42.8755cm" />
+<line stroke="#bf870f" x1="25.7968cm" y1="44.3001cm" x2="26.8585cm" y2="45.7187cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="23.5714cm" y="43.5714cm" />
 <line stroke="#bf870f" x1="25.7968cm" y1="44.3001cm" x2="24.6406cm" y2="44.4775cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="26.4286cm" y="43.5714cm" />
@@ -554,6 +568,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#0000FF" x1="47.2215cm" y1="51.5055cm" x2="47.1968cm" y2="52.4625cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="47.8571cm" y="50.7143cm" />
 <line stroke="#0000FF" x1="47.2215cm" y1="51.5055cm" x2="48.4962cm" y2="51.2945cm" />
+<line stroke="#0000FF" x1="47.2215cm" y1="51.5055cm" x2="48.6055cm" y2="49.8935cm" />
 <line stroke="#0000FF" x1="47.2215cm" y1="51.5055cm" x2="47.0951cm" y2="49.9394cm" />
 <line stroke="#0000FF" x1="47.2215cm" y1="51.5055cm" x2="45.6639cm" y2="51.2724cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="16.4286cm" y="35cm" />
@@ -576,7 +591,6 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#bf870f" x1="15.5973cm" y1="35.6733cm" x2="15.6931cm" y2="34.5555cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="33.5714cm" />
 <line stroke="#bf870f" x1="15.5973cm" y1="35.6733cm" x2="14.4761cm" y2="34.4231cm" />
-<rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="36.4286cm" />
 <line stroke="#bf870f" x1="15.5973cm" y1="35.6733cm" x2="14.4701cm" y2="37.0881cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="35cm" />
 <line stroke="#bf870f" x1="15.5973cm" y1="35.6733cm" x2="14.3188cm" y2="35.6783cm" />
@@ -599,6 +613,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#0000FF" x1="44.2495cm" y1="52.4964cm" x2="44.2904cm" y2="51.4334cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="42.1429cm" y="50.7143cm" />
 <line stroke="#0000FF" x1="44.2495cm" y1="52.4964cm" x2="42.9305cm" y2="51.4151cm" />
+<rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="37.8571cm" />
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="15cm" y="35cm" />
 <line stroke="#bf870f" x1="15.6867cm" y1="37.2348cm" x2="15.8097cm" y2="38.6133cm" />
 <line stroke="#bf870f" x1="15.6867cm" y1="37.2348cm" x2="16.9835cm" y2="37.1751cm" />
@@ -683,6 +698,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#bf870f" x1="25.7001cm" y1="35.7075cm" x2="26.9364cm" y2="35.5788cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="46.4286cm" y="39.2857cm" />
 <line stroke="#0000FF" x1="48.592cm" y1="38.5334cm" x2="47.2951cm" y2="38.5022cm" />
+<line stroke="#0000FF" x1="48.592cm" y1="38.5334cm" x2="48.5983cm" y2="40.1066cm" />
 <line stroke="#0000FF" x1="48.592cm" y1="38.5334cm" x2="47.2316cm" y2="37.1774cm" />
 <line stroke="#0000FF" x1="48.592cm" y1="38.5334cm" x2="49.8521cm" y2="38.3647cm" />
 <line stroke="#0000FF" x1="47.2951cm" y1="38.5022cm" x2="47.2316cm" y2="37.1774cm" />
@@ -718,6 +734,7 @@ xmlns="http://www.w3.org/2000/svg">
 <rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="23.5714cm" y="45cm" />
 <line stroke="#bf870f" x1="25.7386cm" y1="45.6945cm" x2="24.6518cm" y2="45.7803cm" />
 <line stroke="#bf870f" x1="25.7386cm" y1="45.6945cm" x2="26.8585cm" y2="45.7187cm" />
+<line stroke="#bf870f" x1="25.7386cm" y1="45.6945cm" x2="26.9583cm" y2="44.4384cm" />
 <line stroke="#bf870f" x1="21.3489cm" y1="34.4243cm" x2="21.454cm" y2="35.7508cm" />
 <line stroke="#000000" x1="21.4373cm" y1="47.0174cm" x2="21.3069cm" y2="45.7694cm" />
 <line stroke="#000000" x1="21.4373cm" y1="47.0174cm" x2="19.8481cm" y2="47.1423cm" />
@@ -758,18 +775,17 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#7F0000" x1="35.7683cm" y1="38.8183cm" x2="37.0993cm" y2="38.7551cm" />
 <line stroke="#7F0000" x1="35.7683cm" y1="38.8183cm" x2="37.1096cm" y2="39.9413cm" />
 <line stroke="#7F0000" x1="35.7683cm" y1="38.8183cm" x2="35.7543cm" y2="40.0099cm" />
-<rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="37.8571cm" />
 <line stroke="#bf870f" x1="15.8097cm" y1="38.6133cm" x2="14.4809cm" y2="39.9066cm" />
 <line stroke="#bf870f" x1="15.8097cm" y1="38.6133cm" x2="16.9835cm" y2="37.1751cm" />
 <line stroke="#bf870f" x1="15.8097cm" y1="38.6133cm" x2="14.4701cm" y2="37.0881cm" />
 <line stroke="#000000" x1="20.0928cm" y1="50.0057cm" x2="18.5562cm" y2="49.9713cm" />
 <line stroke="#000000" x1="20.0928cm" y1="50.0057cm" x2="18.5071cm" y2="51.4674cm" />
-<rect style="opacity:0.6;fill:#bf870f;stroke:none" width="1.42857cm" height="1.42857cm" x="26.4286cm" y="37.8571cm" />
 <line stroke="#bf870f" x1="25.7764cm" y1="38.7813cm" x2="26.9797cm" y2="39.8173cm" />
 <line stroke="#bf870f" x1="25.7764cm" y1="38.7813cm" x2="25.6684cm" y2="39.9594cm" />
 <line stroke="#bf870f" x1="26.9622cm" y1="42.8952cm" x2="25.7485cm" y2="42.8755cm" />
 <rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.42857cm" height="1.42857cm" x="35cm" y="37.8571cm" />
 <line stroke="#7F0000" x1="37.0993cm" y1="38.7551cm" x2="37.1096cm" y2="39.9413cm" />
+<line stroke="#bf870f" x1="25.7658cm" y1="34.4766cm" x2="26.9364cm" y2="35.5788cm" />
 <line stroke="#7F0000" x1="35.7157cm" y1="45.7307cm" x2="34.6213cm" y2="45.6948cm" />
 <line stroke="#000000" x1="10.0718cm" y1="41.4097cm" x2="8.8099cm" y2="42.8239cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="10.7143cm" y="40.7143cm" />
@@ -782,6 +798,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#bf870f" x1="15.7121cm" y1="45.7106cm" x2="14.3184cm" y2="44.2579cm" />
 <line stroke="#bf870f" x1="15.7121cm" y1="45.7106cm" x2="16.7978cm" y2="44.1202cm" />
 <line stroke="#0000FF" x1="46.9754cm" y1="45.8624cm" x2="45.5527cm" y2="45.7369cm" />
+<line stroke="#0000FF" x1="46.9754cm" y1="45.8624cm" x2="48.6213cm" y2="47.0687cm" />
 <line stroke="#0000FF" x1="46.9754cm" y1="45.8624cm" x2="48.6133cm" y2="45.7676cm" />
 <line stroke="#0000FF" x1="46.9754cm" y1="45.8624cm" x2="47.1743cm" y2="47.2701cm" />
 <line stroke="#0000FF" x1="46.9754cm" y1="45.8624cm" x2="45.6797cm" y2="47.0773cm" />
@@ -817,6 +834,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#7F0000" x1="34.4708cm" y1="42.7971cm" x2="35.7099cm" y2="42.8075cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="43.5714cm" y="46.4286cm" />
 <line stroke="#0000FF" x1="45.5527cm" y1="45.7369cm" x2="44.477cm" y2="46.9471cm" />
+<line stroke="#0000FF" x1="45.5527cm" y1="45.7369cm" x2="47.1743cm" y2="47.2701cm" />
 <line stroke="#0000FF" x1="45.5527cm" y1="45.7369cm" x2="44.3726cm" y2="45.6011cm" />
 <line stroke="#0000FF" x1="45.5527cm" y1="45.7369cm" x2="45.6797cm" y2="47.0773cm" />
 <line stroke="#bf870f" x1="14.4761cm" y1="34.4231cm" x2="14.3188cm" y2="35.6783cm" />
@@ -830,6 +848,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#000000" x1="17.2295cm" y1="50.1568cm" x2="15.8827cm" y2="51.3756cm" />
 <line stroke="#000000" x1="17.2295cm" y1="50.1568cm" x2="18.5071cm" y2="51.4674cm" />
 <rect style="opacity:0.6;fill:#7F0000;stroke:none" width="1.42857cm" height="1.42857cm" x="33.5714cm" y="42.1429cm" />
+<line stroke="#7F0000" x1="35.7099cm" y1="42.8075cm" x2="34.5516cm" y2="44.1884cm" />
 <line stroke="#0000FF" x1="47.2316cm" y1="37.1774cm" x2="45.7891cm" y2="38.6906cm" />
 <line stroke="#000000" x1="18.5562cm" y1="49.9713cm" x2="18.8746cm" y2="48.6423cm" />
 <line stroke="#000000" x1="18.5562cm" y1="49.9713cm" x2="18.5071cm" y2="51.4674cm" />
@@ -846,10 +865,10 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#0000FF" x1="42.9305cm" y1="51.4151cm" x2="41.5306cm" y2="50.1411cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="42.1429cm" y="52.1429cm" />
 <line stroke="#0000FF" x1="42.9305cm" y1="51.4151cm" x2="42.7829cm" y2="52.3963cm" />
-<rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="40.7143cm" y="35cm" />
 <line stroke="#FF7F00" x1="41.4673cm" y1="34.3222cm" x2="41.4373cm" y2="35.7934cm" />
 <line stroke="#FF7F00" x1="41.4673cm" y1="34.3222cm" x2="40.1674cm" y2="35.7673cm" />
 <line stroke="#000000" x1="21.4004cm" y1="38.9939cm" x2="21.3962cm" y2="39.9859cm" />
+<line stroke="#000000" x1="8.8099cm" y1="42.8239cm" x2="8.87cm" y2="44.1762cm" />
 <line stroke="#FF7F00" x1="37.225cm" y1="35.6907cm" x2="38.4918cm" y2="35.7402cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="36.4286cm" y="36.4286cm" />
 <line stroke="#FF7F00" x1="37.225cm" y1="35.6907cm" x2="37.1338cm" y2="36.638cm" />
@@ -886,6 +905,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#FF7F00" x1="40.1674cm" y1="35.7673cm" x2="38.4918cm" y2="35.7402cm" />
 <rect style="opacity:0.6;fill:#FF7F00;stroke:none" width="1.42857cm" height="1.42857cm" x="39.2857cm" y="36.4286cm" />
 <line stroke="#FF7F00" x1="40.1674cm" y1="35.7673cm" x2="39.8788cm" y2="36.5941cm" />
+<line stroke="#0000FF" x1="48.6133cm" y1="45.7676cm" x2="47.1743cm" y2="47.2701cm" />
 <line stroke="#bf870f" x1="26.9797cm" y1="39.8173cm" x2="25.6684cm" y2="39.9594cm" />
 <rect style="opacity:0.6;fill:#000077;stroke:none" width="1.42857cm" height="1.42857cm" x="37.8571cm" y="50.7143cm" />
 <line stroke="#000077" x1="37.1555cm" y1="51.4473cm" x2="37.1153cm" y2="50.1714cm" />
@@ -907,6 +927,7 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#0000FF" x1="45.7103cm" y1="48.599cm" x2="47.0951cm" y2="49.9394cm" />
 <rect style="opacity:0.6;fill:#0000FF;stroke:none" width="1.42857cm" height="1.42857cm" x="42.1429cm" y="45cm" />
 <line stroke="#0000FF" x1="44.3726cm" y1="45.6011cm" x2="45.6797cm" y2="47.0773cm" />
+<line stroke="#0000FF" x1="44.548cm" y1="48.5753cm" x2="45.6797cm" y2="47.0773cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="20.7143cm" y="37.8571cm" />
 <line stroke="#0000FF" x1="41.5721cm" y1="51.3284cm" x2="42.8694cm" y2="50.0767cm" />
 <line stroke="#0000FF" x1="41.5721cm" y1="51.3284cm" x2="41.5306cm" y2="50.1411cm" />
@@ -918,7 +939,6 @@ xmlns="http://www.w3.org/2000/svg">
 <line stroke="#0000FF" x1="42.8694cm" y1="50.0767cm" x2="41.5306cm" y2="50.1411cm" />
 <rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="13.5714cm" y="52.1429cm" />
 <line stroke="#000000" x1="14.2512cm" y1="51.4855cm" x2="15.8827cm" y2="51.3756cm" />
-<rect style="opacity:0.6;fill:#000000;stroke:none" width="1.42857cm" height="1.42857cm" x="17.8571cm" y="46.4286cm" />
 <line stroke="#000000" x1="19.8481cm" y1="47.1423cm" x2="18.7513cm" y2="47.2406cm" />
 <line stroke="#bf870f" x1="14.206cm" y1="41.4226cm" x2="14.2523cm" y2="42.7733cm" />
 <line stroke="#0000FF" x1="47.0951cm" y1="49.9394cm" x2="45.6639cm" y2="51.2724cm" />
