@@ -33,7 +33,7 @@ The methodology of experiment:
 - Minimum Force: 0.21
 
 #### Summarization and Clustering
-- command line: `complete.py -d ..\data\Agregation -e 12 -f 0.21 -p`
+- command line: `complete.py -d ../data/Agregation -e 12 -f 0.21 -p`
 
 <img src = "images/e012f0.2100-graph-Agregation-saved.svg" >
 
@@ -83,8 +83,8 @@ The methodology of experiment:
 
 #### Validation
 
-- command line `validation.py -d ..\data\Agregation -t p -pr e012f0.2100`
-- map file: [e012f0.2100-points-map-Agregation.csv](../data/Agregation/config/e012f0.2100-points-map-Agregation.csv)
+- command line `validation.py -d ../data/Agregation -t p -pr e012f0.2100`
+- map file: [e012f0.2100-points-map-Agregation.csv](../../data/Agregation/config/e012f0.2100-points-map-Agregation.csv)
 - Result: FM: 0.9127811966774019
 
 
