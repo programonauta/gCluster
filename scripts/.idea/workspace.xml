@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="complete.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="complete.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/complete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3839">
-              <caret line="272" column="64" lean-forward="false" selection-start-line="272" selection-start-column="64" selection-end-line="272" selection-end-column="64" />
+            <state relative-caret-position="108">
+              <caret line="270" column="46" lean-forward="false" selection-start-line="270" selection-start-column="40" selection-end-line="270" selection-end-column="46" />
               <folding>
                 <element signature="e#573#583#0" expanded="true" />
               </folding>
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validation.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="validation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+            <state relative-caret-position="238">
+              <caret line="149" column="38" lean-forward="false" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
               <folding>
                 <element signature="e#306#315#0" expanded="true" />
               </folding>
@@ -115,8 +115,8 @@
       <list>
         <option value="$PROJECT_DIR$/DBSCAN-Cells.py" />
         <option value="$PROJECT_DIR$/complete.py" />
-        <option value="$PROJECT_DIR$/validation.py" />
         <option value="$PROJECT_DIR$/DBSCAN.py" />
+        <option value="$PROJECT_DIR$/validation.py" />
       </list>
     </option>
   </component>
@@ -677,16 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="120" column="23" lean-forward="true" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
-          <folding>
-            <element signature="e#306#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/sklearn/cluster/dbscan_.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -707,10 +697,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/complete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3839">
-          <caret line="272" column="64" lean-forward="false" selection-start-line="272" selection-start-column="64" selection-end-line="272" selection-end-column="64" />
+        <state relative-caret-position="108">
+          <caret line="270" column="46" lean-forward="false" selection-start-line="270" selection-start-column="40" selection-end-line="270" selection-end-column="46" />
           <folding>
             <element signature="e#573#583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="149" column="38" lean-forward="false" selection-start-line="149" selection-start-column="38" selection-end-line="149" selection-end-column="38" />
+          <folding>
+            <element signature="e#306#315#0" expanded="true" />
           </folding>
         </state>
       </provider>

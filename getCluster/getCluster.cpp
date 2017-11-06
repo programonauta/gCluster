@@ -570,7 +570,12 @@ int main(int argc, char* argv[])
     for (unsigned i = 0; i < dimension; i++)
         resultFile << "CM-" << i << ",";
 
-    resultFile << "qty-cells-cluster-greater-equal-" << minCells << ",gCluster-label" << endl;
+    resultFile << "qty-cells-cluster-greater-equal-" << minCells << ",gCluster-label";
+
+    if (rawPoints.size() > 0)
+        resultFile << ", ground-truth-cell-label";
+
+    resultFile << endl;
 
     // iterate all cells
     for (unsigned i = 0; i<(listCells.size()-1); i++)
@@ -625,7 +630,7 @@ int main(int argc, char* argv[])
         svgFile.open(outputSVG, std::ifstream::out);
         svgFile << "<?xml version=\"1.0\" standalone=\"no\"?>" << endl
                 << "<svg width=\"" << graphMult*1.2 << "cm\" height=\""
-                << graphMult * 1.7 << "cm\" version=\"1.1\"" << endl
+                << graphMult * 1.2 << "cm\" version=\"1.1\"" << endl
                 << "xmlns=\"http://www.w3.org/2000/svg\">" << endl
                 << "<desc>Graph bi-dimensional </desc>" << endl
                 // Display External Rectangle
@@ -640,7 +645,7 @@ int main(int argc, char* argv[])
                 << "y=\"" << graphMult * 1.14 << "cm\" "
                 << "font-family=\"Times New Roman\" font-size=\""
                 << graphMult * 0.03 << "cm\" fill=\"black\">"
-                << "File Name: " << input
+                << "File Name: " << outputSVG
                 << "</text>" << endl;
         svgFile << "<text x=\"" << graphMult * 0.1 << "cm\" "
                 << "y=\"" << graphMult * 1.18 << "cm\" "
@@ -648,6 +653,7 @@ int main(int argc, char* argv[])
                 << graphMult * 0.03 << "cm\" fill=\"black\">"
                 << "Epsilon: " << epsilon
                 << ", Min Force: " << minForce
+                << ", Min Cells: " << minCells
                 << ", Number Clusters: " << totClusters
                 << "</text>" << endl;
 

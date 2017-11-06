@@ -147,7 +147,7 @@ else:
     pre = ""
     type = "gCluster"
 
-print(pre + "Map File read")
+print(pre + "Map File read " + mapFile)
 print("-----------------------")
 print("labels")
 print(type+" | Ground Truth")
