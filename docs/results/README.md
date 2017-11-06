@@ -14,6 +14,7 @@ The methodology of experiment:
 	- DBSCAN running over points
 
 ## Datasets
+- [Agregation](#agregation)
 
 ### Agregation
 
@@ -25,17 +26,17 @@ The methodology of experiment:
 	- Size: 31 bytes
 
 
-### gCluster
+#### gCluster
 
-#### Parameters
+##### Parameters
 
 - Epsilon: 12
 - Minimum Force: 0.21
 
-#### Summarization and Clustering
+##### Summarization and Clustering
 - command line: `complete.py -d ../data/Agregation -e 12 -f 0.21 -p`
 
-<img src = "images/e012f0.2100-graph-Agregation-saved.svg" >
+<img src = "images/e012f0.2100-graph-Agregation-saved.svg" height="60%" >
 
 <table>
   <tr>
@@ -81,10 +82,77 @@ The methodology of experiment:
   </tr>
 </table>
 
-#### Validation
+#### DBSCAN
+
+##### cells
+
+###### Parameters
+
+- Epsilon: 0.3100
+- Minimum Points: 1
+
+###### Clusterization
+- command line: `DBSCAN.py -d ..\data\Agregation -pr e012f0.2100 -t c -e 0.3100 -m 1`
+
+<img src = "images/e0.3100m001-DBSCAN-cell-Agregation.png" height="60%" >
+
+##### points
+
+###### Parameters
+
+- Epsilon: 0.1100
+- Minimum Points: 3
+
+###### Clusterization
+- command line: `DBSCAN.py -d ..\data\Agregation -pr e012f0.2100 -t c -e 0.1100 -m 3`
+
+<img src = "images/e0.1100m003-DBSCAN-point-Agregation.png" height="60%" >
+
+#### Validation - gCluster
+
+###### cells
+
+- command line `validation.py -d ../data/Agregation -t c -pr e012f0.2100`
+- map file: [e012f0.2100-cells-map-Agregation.csv](../../data/Agregation/config/e012f0.2100-cells-map-Agregation.csv)
+- **Result --> FM: 0.920413**
+
+###### points
 
 - command line `validation.py -d ../data/Agregation -t p -pr e012f0.2100`
 - map file: [e012f0.2100-points-map-Agregation.csv](../../data/Agregation/config/e012f0.2100-points-map-Agregation.csv)
-- Result: FM: 0.9127811966774019
+- **Result --> FM: 0.912781**
 
 
+#### Validation - DBSCAN
+
+##### cells
+
+- command line `validation.py -d ../data/Agregation -t c -pr  e0.3100m001 -b`
+- map file: [e0.3100m001-cells-map-DBSCAN-Agregation.csv](../../data/Agregation/config/e0.3100m001-cells-map-DBSCAN-Agregation.csv)
+- **Result -->  FM: 0.990363**
+
+##### points
+
+- command line `validation.py -d ../data/Agregation -t c -pr  e0.3100m001 -b`
+- map file: [e0.1100m003-points-map-DBSCAN-Agregation.csv](../../data/Agregation/config/e0.1100m003-points-map-DBSCAN-Agregation.csv)
+- **Result --> FM: 0.989107**
+
+#### Agregation - Summary
+
+<table>
+  <tr>
+    <th>FM</th>
+    <th>gCluster<br></th>
+    <th>DBSCAN</th>
+  </tr>
+  <tr>
+    <td><b>cells<br></td>
+    <td>0.920413</td>
+    <td>0.990363</td>
+  </tr>
+  <tr>
+    <td><b>points</td>
+    <td>0.912781</td>
+    <td>0.989107</td>
+  </tr>
+</table>
