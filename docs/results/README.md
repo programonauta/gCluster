@@ -236,7 +236,7 @@ The methodology of experiment:
 ###### Clusterization
 - command line: `DBSCAN.py -d ..\data\D31 -pr e035f0.0777 -t c -e 0.195 -m 1`
 
-<img src = "images/D31/DBSCAN-cell-D31.png" height="60%" >
+<img src = "images/D31/DBSCAN-cells-D31.png" height="60%" >
 
 ##### points
 
