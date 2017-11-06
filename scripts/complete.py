@@ -50,7 +50,7 @@ def showHelp():
     print("\t-g\t\tDon't draw edges")
     print("\t-p\t\tDraw points")
     print("\t-b\t\tDraw numbers")
-    print("\t-x\t\tConfiguration file: default config.csv on the <dir> directory")
+    print("\t-x\t\tDon't use prefix")
     return
 
 
@@ -101,8 +101,6 @@ if hasDir:
 else:
     showHelp()
     showError("-d option not found")
-
-hasCfgFile, configFile = parseOpt("-x", True)
 
 # verify Epsilon
 hasEps, epsilon = parseOpt("-e", True)
@@ -169,6 +167,8 @@ if optNumber:
 else:
     optNumber = ""
 
+hasOptNotPrefix, opt = parseOpt("-x", False)
+
 # Starting process
 #
 # First, let's verify if output directories are created and create them is not exist
@@ -187,10 +187,7 @@ if not os.path.exists(dirConsolidateOutput):
 if not os.path.exists(dirGetClusterOutput):
     os.makedirs(dirGetClusterOutput)
 
-prefix = ("e%03df%06.4f-" % (epsilon, force))
-
-if configFile == "":
-    configFile = nameDir + "/config/config-" + nameSingleDir + ".csv"
+configFile = nameDir + "/config/config-" + nameSingleDir + ".csv"
 
 qtyFiles = 0
 listCellsFiles = []
@@ -267,6 +264,11 @@ if len(listPointFiles) > 0:
     filePointOutput.close()
 
 # Run getCluster
+
+if hasOptNotPrefix:
+    prefix = ""
+else:
+    prefix = ("e%03df%06.4f-" % (epsilon, force))
 
 svgOutput = dirGetClusterOutput + "/" + prefix + "graph-" + nameSingleDir + ".svg"
 resultPointsOutput = dirGetClusterOutput + "/" + prefix + "points-result-" + nameSingleDir + ".csv"

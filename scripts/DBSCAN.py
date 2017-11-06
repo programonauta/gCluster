@@ -41,6 +41,7 @@ def showHelp():
     print("\t-e <value>\tEpsilon value")
     print("\t-m <value>\tMin points value")
     print("\t-l\t\tPrint legend")
+    print("\t-x\t\tDon't create files with prefix")
     return
 
 
@@ -192,6 +193,7 @@ else:
 
 hasPrefix, prefix = parseOpt("-pr", True)
 
+hasNotOutputPrefix, opt = parseOpt("-x", False)
 
 if prefix == "":
     print("--------------------------------")
@@ -240,7 +242,10 @@ nameDirAux = nameDir.split('/')
 nameSingleDir = nameDirAux[len(nameDirAux) - 1]
 dirDBSCANOutput = nameDir + "/central/DBSCAN"
 
-prefixDBSCAN = "e%06.4fm%03d-" % (epsilon, minPts)
+if hasNotOutputPrefix:
+    prefixDBSCAN = ""
+else:
+    prefixDBSCAN = "e%06.4fm%03d-" % (epsilon, minPts)
 
 if fileType == "c":
     prefixDBSCAN += "cells-"
@@ -248,6 +253,7 @@ if fileType == "c":
 else:
     prefixDBSCAN += "points-"
     inputFile = dirInput + "/" + prefix + "points-result-" + nameSingleDir + ".csv"
+
 
 if not os.path.exists(dirDBSCANOutput):
     os.makedirs(dirDBSCANOutput)

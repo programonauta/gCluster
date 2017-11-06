@@ -75,7 +75,7 @@ Below the help screen:
       -g              Don't draw edges
       -p              Draw points
       -b              Draw numbers
-      -x              Configuration file: default config.csv on the <dir> directory
+      -x              Don't use prefix on the 
 
 First of all you need to create a new directory to store dataset in a CSV format.
 
@@ -152,6 +152,8 @@ The prefix has the format: `ennnfd.dddd` where `nnn` is the value of Epsilon and
 	- `-g` Don´t draw edges that link the cells creating the clusters
 	- `-p` Draw points. Used to compare raw data with clustering results.
 	- `-b` Draw Numbers. Draw the labels of clusters inside the cells and label of ground-truth (classification column on raw data) inside points.
+- Prefix parameter
+	- `-x` This option could be used when testing Epsilon and Force Parameters to don't generate a bunch of files for each group of parameters tested.
 
 #### Output formats
 
@@ -249,6 +251,7 @@ The goal is compare gCluster Algorithm with DBSCAN in two situations:
         -e <value>      Epsilon value
         -m <value>      Min points value
         -l              Print legend
+		-x 				Don't create files with prefix
 
 - Options
 	- `-d` is the `<dataset>` directory
