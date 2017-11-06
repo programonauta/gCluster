@@ -2,7 +2,6 @@
 output.txt
 nodes.txt
 edges.txt
-*.svg
 central/
 
 # Executables
