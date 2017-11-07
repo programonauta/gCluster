@@ -414,12 +414,13 @@ int main(int argc, char* argv[])
 
     Point a(dimension);
     cout << "CSV File - Total of " << lineNo << " lines of data read" << endl;
-    cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
-    cout << "Size of vector: " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
-    cout << "Number of Cells: " << listCells.size() << endl;
-    cout << "Size of each cell: " << sizeof(*listCells[0]) << endl;
-    cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() << endl;
-    cout << "Size of Points: " << sizeof(a) * lineNo << endl;
+    //cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
+    //cout << "Size of vector    : " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
+    cout << "Number of Cells   : " << listCells.size() << endl;
+    cout << "Ratio Cells/Line  : " << (double)listCells.size() / (double)lineNo << endl;
+    //cout << "Size of each cell: " << sizeof(*listCells[0]) << endl;
+    //cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() << endl;
+    //cout << "Size of Points: " << sizeof(a) * lineNo << endl;
 
     if (listCells.size() == 0)
     {
@@ -471,9 +472,9 @@ int main(int argc, char* argv[])
 
     fprintf(pFileCells, "id,Label,Number_Points");
 
-    // Labels from coordinates
-    for (unsigned i=0; i < dimension; i++)
-        fprintf(pFileCells, ",Coord-%d", i);
+    // Labels from coordinates (removing coordinates)
+    // for (unsigned i=0; i < dimension; i++)
+    //    fprintf(pFileCells, ",Coord-%d", i);
 
     // Labels of dimensions
     for (unsigned i=0; i < headerCSV.size(); i++)
@@ -492,9 +493,9 @@ int main(int argc, char* argv[])
         // Number of points
         fprintf(pFileCells, ",%ld", listCells[i]->getQtyPoints());
 
-        // Cell's coordinates
-        for (unsigned j = 0; j < listCells[i]->coord.size(); j++)
-            fprintf(pFileCells, ",%d", listCells[i]->coord[j]);
+        // Cell's coordinates (removing cells coordinates)
+        // for (unsigned j = 0; j < listCells[i]->coord.size(); j++)
+        //    fprintf(pFileCells, ",%d", listCells[i]->coord[j]);
 
         Point CM = listCells[i]->getCenterMass(); // Center of mass
         // Center of mass coordinates

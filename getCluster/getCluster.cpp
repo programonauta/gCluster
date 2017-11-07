@@ -197,7 +197,7 @@ int main(int argc, char* argv[])
     if (inputPoints.size() > 0)
         cout << "Point file: " << inputPoints << endl;
     cout << "Result Points file: " << outputResultPoints << endl;
-    cout << "Result Cells file :  " << outputResultCells << endl;
+    cout << "Result Cells file : " << outputResultCells << endl;
     cout << "SVG file          : " << outputSVG << endl;
     cout << endl <<"Running" << endl;
     cout << "-------" << endl;
@@ -230,21 +230,24 @@ int main(int argc, char* argv[])
     cout << endl;
 
     dimension = headerCSV.size() - 3;
-    if (dimension % 2 != 0) // dimension of cells, must be equal dimension of poinst
-    {
-        cout << "Error reading CSV File (Header)" << endl;
-        cout << "Dimension of Cells is different than Dimension of Points" << endl;
-        exit(EXIT_FAILURE);
-    }
-
-    dimension = dimension / 2;
+//
+// Block commented to remove cells coordinates
+//
+//    if (dimension % 2 != 0) // dimension of cells, must be equal dimension of poinst
+//    {
+//        cout << "Error reading CSV File (Header)" << endl;
+//        cout << "Dimension of Cells is different than Dimension of Points" << endl;
+//        exit(EXIT_FAILURE);
+//    }
+//
+//    dimension = dimension / 2;
 
     cout << "CSV File - Dimension: " << dimension << endl;
 
     cout << "Fields used on clustering: ";
 
-    unsigned dimPosition = (headerCSV.size()-(2*dimension));
-    unsigned coorPosition = (headerCSV.size()-dimension);
+    unsigned dimPosition = (headerCSV.size()-(dimension));
+//    unsigned coorPosition = (headerCSV.size()-dimension);
 
     for (unsigned i = dimPosition; i < headerCSV.size(); i++)
         cout << headerCSV[i] << " ";
@@ -254,6 +257,8 @@ int main(int argc, char* argv[])
 
     // Define max number of points
     unsigned maxPoints = 0;
+
+    unsigned totPoints = 0;
 
     while (infile)
     {
@@ -289,12 +294,13 @@ int main(int argc, char* argv[])
 
         for (unsigned i = 0; i < dimension; i++)
         {
-            centerMass.coord[i] = stod(lineCSV[i+coorPosition]);
-            coordCell[i] = stoi(lineCSV[i+dimPosition]);
+            centerMass.coord[i] = stod(lineCSV[i+dimPosition]);
+            coordCell[i] = (int)(centerMass.coord[i] * epsilon);
         }
 
         // Read Qty points
         qtyPoints = stoi(lineCSV[2]);
+        totPoints += qtyPoints;
 
         for (unsigned i=0; i<listCells.size(); i++) // Search cells
         {
@@ -331,12 +337,14 @@ int main(int argc, char* argv[])
     Point a(dimension);
 
     cout << "CSV File - Total of " << lineNo << " lines of data read" << endl;
-    cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
-    cout << "Size of vector: " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
-    cout << "Number of Cells: " << listCells.size() << endl;
-    cout << "Size of each cell: " << sizeof(*listCells[0]) << endl;
-    cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() << endl;
-    cout << "Size of Points: " << sizeof(a) * lineNo << endl;
+    //cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
+    //cout << "Size of vector: " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
+    cout << "Number of Cells   : " << listCells.size() << endl;
+    cout << "Number of Points  : " << totPoints << endl;
+    cout << "Avg Points by Cell: " << (double)totPoints / (double)listCells.size() << endl;
+    //cout << "Size of each cell: " << sizeof(*listCells[0]) << endl;
+    //cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() << endl;
+    //cout << "Size of Points: " << sizeof(a) * lineNo << endl;
 
     if (listCells.size() == 0)
     {
