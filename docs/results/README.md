@@ -535,6 +535,7 @@ The methodology of experiment:
 	- Taxi 4 (id=7c51c6): 10,006
 	- Taxi 5 (id=b50eb9): 14,097
 	- Taxi 6 (id=d1b852): 12,688
+	- TOTAL OF POINTS: 75,934
 - Configuration File: [config-ChicagoTaxi.csv](../../data/ChicagoTaxi/config/config-xx.csv)
 
 #### gCluster
