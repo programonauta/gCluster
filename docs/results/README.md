@@ -27,10 +27,7 @@ The methodology of experiment:
 
 - Number of clusters: 7
 - Number of Points: 788
-- Row Data: CSV File: [Agregation.csv](../../data/Agregation/devices/Aggregation.csv)
-	- Size: 10,435 bytes
 - Configuration File: [config-Agregation.csv](../../data/Agregation/config/config-Agregation.csv)
-	- Size: 31 bytes
 
 
 #### gCluster
@@ -168,10 +165,7 @@ The methodology of experiment:
 
 - Number of clusters: 31
 - Number of Points: 3100
-- Row Data: CSV File: [D31.csv](../../data/D31/devices/D31.csv)
-	- Size: 118,204 bytes
 - Configuration File: [config-D31.csv](../../data/D31/config/config-D31.csv)
-	- Size: 34 bytes
 
 #### gCluster
 
@@ -308,10 +302,7 @@ The methodology of experiment:
 
 - Number of clusters: 15
 - Number of Points: 600
-- Row Data: CSV File: [r15.csv](../../data/r15/devices/r15.csv)
-	- Size: 9,555 bytes
 - Configuration File: [config-r15.csv](../../data/r15/config/config-r15.csv)
-	- Size: 35 bytes
 
 #### gCluster
 
@@ -449,10 +440,7 @@ The methodology of experiment:
 
 - Number of clusters: 6
 - Number of Points: 8,000
-- Row Data: CSV File: [chameleon.csv](../../data/chameleon/devices/chameleon.csv)
-	- Size: 168,139 bytes
 - Configuration File: [config-chameleon.csv](../../data/chameleon/config/config-chameleon.csv)
-	- Size: 24 bytes
 
 #### gCluster
 
@@ -539,24 +527,25 @@ The methodology of experiment:
 
 ### Taxi of Chicago
 
-- Number of clusters: xx
-- Number of Points: xx
-- Row Data: CSV File: [xx.csv](../../data/xx/devices/xx.csv)
-	- Size: xx bytes
-- Configuration File: [config-xx.csv](../../data/xx/config/config-xx.csv)
-	- Size: xx bytes
+- Number of Devices (distributed nodes): 6
+- Number of Points: 
+	- Taxi 1 (id=455b6b): 14,209 
+	- Taxi 2 (id=4c8b67): 11,246
+	- Taxi 3 (id=5f1b23): 13,688
+	- Taxi 4 (id=7c51c6): 10,006
+	- Taxi 5 (id=b50eb9): 14,097
+	- Taxi 6 (id=d1b852): 12,688
+- Configuration File: [config-ChicagoTaxi.csv](../../data/ChicagoTaxi/config/config-xx.csv)
 
 #### gCluster
 
 ##### Parameters
 
-- Epsilon: xx
-- Minimum Force: 0.xx
+- Epsilon: 12
+- Minimum Force: 0.1
 
 ##### Summarization and Clustering
-- command line: `complete.py -d ../data/xx -e xx -f 0.xx -p -x`
-
-<img src = "images/xx/graph-xx-saved.svg" height="70%" >
+- command line: `complete.py -d ..\data\ChicagoTaxi -e 12 -f 0.1 -m 2`
 
 <table>
   <tr>
@@ -570,8 +559,32 @@ The methodology of experiment:
     <td>Size (bytes)<br></td>
   </tr>
   <tr>
-    <td>xx.csv</td>
-    <td>xx<br></td>
+    <td>455b6b.csv</td>
+    <td>874,912<br></td>
+  </tr>
+  <tr>
+    <td>4c8b67.csv</td>
+    <td>691,815<br></td>
+  </tr>
+  <tr>
+    <td>5f1b23.csv</td>
+    <td>844.861<br></td>
+  </tr>
+  <tr>
+    <td>7c51c6.csv</td>
+    <td>618.005<br></td>
+  </tr>
+  <tr>
+    <td>b50eb9.csv</td>
+    <td>869.513<br></td>
+  </tr>
+  <tr>
+    <td>d1b852.csv</td>
+    <td>782.584
+  </tr>
+  <tr>
+    <td><b>TOTAL<br></td>
+    <td><b>4,681,690</td>
   </tr>
   <tr>
     <td colspan="2"><b>summarized data<br></td>
@@ -581,16 +594,37 @@ The methodology of experiment:
     <td>Size (bytes)<br></td>
   </tr>
   <tr>
-    <td>config-xx.csv</td>
+    <td>config-ChicagoTaxi.csv</td>
     <td>34</td>
   </tr>
-  <tr>
-    <td>cell-xx-01.csv</td>
-    <td>xx</td>
-  </tr>
+		<tr>
+		  <td> cell-ChicagoTaxi-01.csv </td>
+		  <td> 592,235   </td>
+		</tr>
+		<tr>
+		  <td> cell-ChicagoTaxi-02.csv </td>
+		  <td> 280,904   </td>
+		</tr>
+		<tr>
+		  <td> cell-ChicagoTaxi-03.csv </td>
+		  <td> 612,363   </td>
+		</tr>
+		<tr>
+		  <td> cell-ChicagoTaxi-04.csv </td>
+		  <td> 505,784   </td>
+		</tr>
+		<tr>
+		  <td> cell-ChicagoTaxi-05.csv </td>
+		  <td> 697,810   </td>
+		</tr>
+		<tr>
+		  <td> cell-ChicagoTaxi-06.csv </td>
+		  <td> 595,033   </td>
+		</tr>
+		
   <tr>
     <td><b>TOTAL<br></td>
-    <td><b>xx</td>
+    <td><b>2,656,134</td>
   </tr>
   <tr>
     <td></td>
@@ -598,80 +632,13 @@ The methodology of experiment:
   </tr>
   <tr>
     <td><b>Reduction (%)<br></td>
-    <td><b>xx%</td>
+    <td><b>43.27%</td>
   </tr>
 </table>
 
-#### Taxi of Chica 
+###### Result
 
-##### cells
-
-###### Parameters
-
-- Epsilon: xx
-- Minimum Points: x
-
-###### Clusterization
-- command line: `DBSCAN.py -d ..\data\xx -pr xxx -t c -e xxx -m x`
-
-<img src = "images/xx/DBSCAN-cell-xx.png" height="60%" >
-
-##### points
-
-###### Parameters
-
-- Epsilon: x
-- Minimum Points: x
-
-###### Clusterization
-- command line: `DBSCAN.py -d ..\data\xx -pr exx -t p -e x -m x`
-
-<img src = "images/xx/DBSCAN-points-xx.png" height="60%" >
-
-#### Validation - gCluster
-
-###### cells
-
-- command line `validation.py -d ../data/xx -t c -pr xx`
-- map file: [xx-cells-result-xx.csv](../../data/xx/config/xx-cells-result-xx.csv)
-- **Result --> FM: 0.xxx**
-
-###### points
-
-- command line `validation.py -d ../data/xx -t p -pr xx.xx`
-- map file: [xx.xx-points-map-xx.csv](../../data/xx/config/xx.xx-points-map-xx.csv)
-- **Result --> FM: 0.xx**
-
-#### Validation - DBSCAN
-
-##### cells
-
-- command line `validation.py -d ../data/xx -t c -pr e0.xx -b`
-- map file: [xx-cells-map-DBSCAN-xx.csv](../../data/xx/config/e0.xx-cells-map-DBSCAN-xx.csv)
-- **Result -->  FM: 0.xx**
-
-##### points
-
-- command line `validation.py -d ../data/xx -t p -pr e0.xx -b`
-- map file: [xx.xx-points-map-DBSCAN-xx.csv](../../data/xx/config/e0.xx-points-map-DBSCAN-xx.csv)
-- **Result --> FM: 0.xx**
-
-#### xx - Summary
-
-<table>
-  <tr>
-    <th>FM</th>
-    <th>gCluster<br></th>
-    <th>DBSCAN</th>
-  </tr>
-  <tr>
-    <td><b>cells<br></td>
-    <td>0.xx</td>
-    <td>0.xx</td>
-  </tr>
-  <tr>
-    <td><b>points</td>
-    <td>0.xx</td>
-    <td>0.xx</td>
-  </tr>
-</table>
+- Clusters Found: 194
+- Number of Cells: 33,116
+- Number of Points  : 75,934
+- Avg Points by Cell: 2.29297
