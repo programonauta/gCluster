@@ -190,6 +190,7 @@ if not os.path.exists(dirGetClusterOutput):
     os.makedirs(dirGetClusterOutput)
 
 configFile = nameDir + "/config/config-" + nameSingleDir + ".csv"
+mapDirectory = nameDir + "/config"
 
 qtyFiles = 0
 listCellsFiles = []
@@ -287,4 +288,12 @@ result = call(["../getCluster/bin/getCluster",
                "-s", svgOutput,
                "-t", resultPointsOutput,
                "-l", resultCellsOutput,
+               "-k", mapDirectory,
+               "-x", prefix,
                "-i", cellOutput])
+
+result = call(["python",  "validation.py",
+              "-d", nameDir,
+              "-t", "p",
+              "-pr", prefix,
+              "-m", nameDir + "/config/" + prefix + "points-map.csv"])

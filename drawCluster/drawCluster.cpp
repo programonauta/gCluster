@@ -1,21 +1,6 @@
-#include <iostream>
-#include <sstream>
-#include <math.h>
-#include <unistd.h>
-#include "cell.h"
-#include "csv-reader.h"
-#include "graphs.h"
+#include "drawCluster.h"
 
-bool isDouble(const char *str)
-{
-    char* endptr = 0;
-    strtod(str, &endptr);
-
-    return !((endptr == str));
-}
-
-string strSVGRect(string opacity, float graphMult, unsigned epsilon, string color, int x, int y,
-                  int cluster, bool drawNumber)
+string strSVGRect(string opacity, float graphMult, unsigned epsilon, string color, int x, int y)
 {
     stringstream svgRect;
 
@@ -29,22 +14,47 @@ string strSVGRect(string opacity, float graphMult, unsigned epsilon, string colo
             << "x=\"" << xSVG << "cm\" "
             << "y=\"" << ySVG << "cm\" />"
             << endl;
-
-    if (drawNumber)
-    {
-        ySVG = graphMult*1.1 - graphMult * ((double)(y-1)/epsilon + (1./epsilon));
-        svgRect << "<text "
-                << "x=\"" << xSVG << "cm\" "
-                << "y=\"" << ySVG << "cm\" "
-                << "font-style=\"normal\" "
-                << "font-family=\"Times New Roman\" "
-                << "font-size=\"" << graphMult * 0.01 <<"cm\" "
-                << "stroke=\"none\" fill=\"black\" > "
-                << cluster
-                << "</text>" << endl;
-    }
-
     return svgRect.str();
+}
+
+string strSVGTextCell(float graphMult, unsigned epsilon, int x, int y,
+                      unsigned cellID, int cluster, int cellGT)
+{
+    stringstream svgText;
+
+    double xSVG = graphMult * (double)x/epsilon + graphMult*.1;
+    double ySVG =  graphMult*1.1 - graphMult * ((double)(y-1)/epsilon + (1./epsilon));
+
+    svgText << "<text "
+            << "x=\"" << xSVG + (graphMult * (1/(double)epsilon) * 0.05)<< "cm\" "
+            << "y=\"" << ySVG - (graphMult * (1/(double)epsilon) * 0.55)<< "cm\" "
+            << "font-style=\"normal\" "
+            << "font-family=\"Times New Roman\" "
+            << "font-size=\"" << graphMult * (1/(double)epsilon) * 0.25 <<"cm\" "
+            << "stroke=\"none\" fill=\"black\" > "
+            << "Cell:" << cellID
+            << "</text>" << endl;
+
+    svgText << "<text "
+            << "x=\"" << xSVG + (graphMult * (1/(double)epsilon) * 0.05)<< "cm\" "
+            << "y=\"" << ySVG - (graphMult * (1/(double)epsilon) * 0.30)<< "cm\" "
+            << "font-style=\"normal\" "
+            << "font-family=\"Times New Roman\" "
+            << "font-size=\"" << graphMult * (1/(double)epsilon) * 0.25 <<"cm\" "
+            << "stroke=\"none\" fill=\"black\" > "
+            << "Cl:" << cluster
+            << "</text>" << endl;
+
+    svgText << "<text "
+            << "x=\"" << xSVG + (graphMult * (1/(double)epsilon) * 0.05)<< "cm\" "
+            << "y=\"" << ySVG - (graphMult * (1/(double)epsilon) * 0.05)<< "cm\" "
+            << "font-style=\"normal\" "
+            << "font-family=\"Times New Roman\" "
+            << "font-size=\"" << graphMult * (1/(double)epsilon) * 0.25 <<"cm\" "
+            << "stroke=\"none\" fill=\"black\" > "
+            << "GT:" << cellGT
+            << "</text>" << endl;
+    return svgText.str();
 }
 
 string strSVGEdge(float graphMult, string color, double x1, double y1, double x2, double y2)
@@ -68,10 +78,9 @@ string strSVGEdge(float graphMult, string color, double x1, double y1, double x2
 
 int main(int argc, char* argv[])
 {
-    ofstream svgFile;
-    ofstream resultFile;
-    int opt;
     ifstream infile;
+    ofstream svgFile;
+    int opt;
     ifstream inPoint;
     string value;
     int lineNo = 0;
@@ -89,9 +98,12 @@ int main(int argc, char* argv[])
     string outputSVG;
     string outputSVGDefault = "graph.svg";
     string outputResultPoints;
+    string outputMapPoints;
     string outputResultPointsDefault = "resultPoints.csv";
     string outputResultCells;
     string outputResultCellsDefault = "resultCells.csv";
+    string outputMapCells;
+    string outputMapDirectory = ".";
     unsigned epsilon;
     unsigned epsilonDefault = 10;
     unsigned minCells;
@@ -108,6 +120,7 @@ int main(int argc, char* argv[])
     bool drawEdges = true;
     bool drawPoints = false;
     bool drawNumbers = false;
+    string prefix = "";
 
     // Initialize options
 
@@ -123,7 +136,7 @@ int main(int argc, char* argv[])
     //
     // Show help message if -h or there is no command options
 
-    while ((opt = getopt(argc, argv, "e:m:f:i:p:s:t:l:rghb")) != -1)
+    while ((opt = getopt(argc, argv, "e:m:f:i:p:s:t:k:l:x:rghb")) != -1)
     {
         switch (opt)
         {
@@ -156,6 +169,9 @@ int main(int argc, char* argv[])
         case 'l':
             outputResultCells = optarg;
             break;
+        case 'k':
+            outputMapDirectory = optarg;
+            break;
         case 'r':
             drawRects = false;
             break;
@@ -164,6 +180,9 @@ int main(int argc, char* argv[])
             break;
         case 'b':
             drawNumbers = true;
+            break;
+        case 'x':
+            prefix = optarg;
             break;
         case 'h':
         default: /* '?' */
@@ -184,9 +203,14 @@ int main(int argc, char* argv[])
             cout << "-r don't draw rectangles" << endl;
             cout << "-g don't draw edges" << endl;
             cout << "-h print this help" << endl;
+            cout << "-k output directory for map files (default: current directory)" << endl;
+            cout << "-x <prefix> Prefix to create maps files" << endl;
             exit(EXIT_FAILURE);
         }
     }
+
+    outputMapCells = outputMapDirectory + "/" + prefix + "cells-map.csv";
+    outputMapPoints = outputMapDirectory + "/" + prefix + "points-map.csv";
 
     cout << "Parameters" << endl;
     cout << "----------" << endl;
@@ -197,7 +221,9 @@ int main(int argc, char* argv[])
     if (inputPoints.size() > 0)
         cout << "Point file: " << inputPoints << endl;
     cout << "Result Points file: " << outputResultPoints << endl;
-    cout << "Result Cells file :  " << outputResultCells << endl;
+    cout << "Result Cells file : " << outputResultCells << endl;
+    cout << "Map Cells file    : " << outputMapCells << endl;
+    cout << "Map Points file   : " << outputMapPoints << endl;
     cout << "SVG file          : " << outputSVG << endl;
     cout << endl <<"Running" << endl;
     cout << "-------" << endl;
@@ -230,21 +256,12 @@ int main(int argc, char* argv[])
     cout << endl;
 
     dimension = headerCSV.size() - 3;
-    if (dimension % 2 != 0) // dimension of cells, must be equal dimension of poinst
-    {
-        cout << "Error reading CSV File (Header)" << endl;
-        cout << "Dimension of Cells is different than Dimension of Points" << endl;
-        exit(EXIT_FAILURE);
-    }
-
-    dimension = dimension / 2;
 
     cout << "CSV File - Dimension: " << dimension << endl;
 
     cout << "Fields used on clustering: ";
 
-    unsigned dimPosition = (headerCSV.size()-(2*dimension));
-    unsigned coorPosition = (headerCSV.size()-dimension);
+    unsigned dimPosition = (headerCSV.size()-(dimension));
 
     for (unsigned i = dimPosition; i < headerCSV.size(); i++)
         cout << headerCSV[i] << " ";
@@ -254,6 +271,8 @@ int main(int argc, char* argv[])
 
     // Define max number of points
     unsigned maxPoints = 0;
+
+    unsigned totPoints = 0;
 
     while (infile)
     {
@@ -289,12 +308,13 @@ int main(int argc, char* argv[])
 
         for (unsigned i = 0; i < dimension; i++)
         {
-            centerMass.coord[i] = stod(lineCSV[i+coorPosition]);
-            coordCell[i] = stoi(lineCSV[i+dimPosition]);
+            centerMass.coord[i] = stod(lineCSV[i+dimPosition]);
+            coordCell[i] = (int)(centerMass.coord[i] * epsilon);
         }
 
         // Read Qty points
         qtyPoints = stoi(lineCSV[2]);
+        totPoints += qtyPoints;
 
         for (unsigned i=0; i<listCells.size(); i++) // Search cells
         {
@@ -331,25 +351,20 @@ int main(int argc, char* argv[])
     Point a(dimension);
 
     cout << "CSV File - Total of " << lineNo << " lines of data read" << endl;
-    cout << "Size of each point: " << sizeof(a.coord[0]) << endl;
-    cout << "Size of vector: " << sizeof(a.coord) << " dimension: " << dimension <<  endl;
-    cout << "Number of Cells: " << listCells.size() << endl;
-    cout << "Size of each cell: " << sizeof(*listCells[0]);
-    cout << "Size of Cells: " << sizeof(*listCells[0])*listCells.size() <<
-         " Size of Points: " << sizeof(a) * lineNo << endl;
-
+    cout << "Number of Cells   : " << listCells.size() << endl;
+    cout << "Number of Points  : " << totPoints << endl;
+    cout << "Avg Points by Cell: " << (double)totPoints / (double)listCells.size() << endl;
 
     if (listCells.size() == 0)
     {
-        cout << "Error on algorithm: There is no cells" << endl;
+        cerr << "Error on algorithm: There is no cells" << endl;
         return 1;
     }
 
     // All cells were processed, now process the graph
 
-    // Create a Graph
+    // Create a Graph with number of nodes = number of cells
     Graph g(listCells.size());
-
 
     // iterate all cells
     for (unsigned i = 0; i<(listCells.size()-1); i++)
@@ -373,23 +388,21 @@ int main(int argc, char* argv[])
             }
         }
 
+        // for this cell (index = i), include in the correspondent node (index = i)
+        // an adjacent matrix, where there is all nodes connected to this cell
+        // The last parameter is the weight of edge. It´s not being used at this implementation
         for (unsigned j = 0; j < nodesToBeConnected.size(); j++)
             g.addEdge(i, nodesToBeConnected[j], 1.); // Create an edge on Graph
 
-
     }
 
-
+    // connected Components give labels for clusters and
+    // for each node store its cluster on g.[<nodeIndex>].clusterIndex
+    // Also, update an internal vector of graph that store the numbers of nodes each cluster has
+    // This vector could be gathered by getCluster method
     g.connectedComponents(); // Verify the connected components of graph
 
-    vector<unsigned> clusters;
-    for (unsigned i = 0; i<listCells.size(); i++)
-    {
-        unsigned curCluster = g.getClusterIndex(i);
-        if  (curCluster >= clusters.size())
-            clusters.resize(curCluster+1);
-        clusters[curCluster]++;
-    }
+    vector<unsigned> clusters = g.getClusters();
 
     cout << endl
          << "\t--------------------" << endl
@@ -399,7 +412,6 @@ int main(int argc, char* argv[])
     unsigned totClusters = 0;
     for (unsigned i = 0; i < clusters.size(); i++)
     {
-
         if (clusters[i] >= minCells)
         {
             cout << "\t" << i << "\t" << clusters[i] << endl;
@@ -412,33 +424,37 @@ int main(int argc, char* argv[])
 
 
     bool pointFileOk = true;
-
-    typedef struct tdRawPoint
-    {
-        Point rawPoint;
-        int classGT;    // Classification of Ground Truth
-    } pointGT;
+    bool hasGT = true;  // Has Ground truth?
 
     vector<pointGT> rawPoints;
 
+    /*
+    *  2-dimensional vectors to make correspondence between clusters found out by gCluster and Ground Truths
+    *
+    *  mapClusters[idxGC][idxGT][0..1] where idxGC = 0 to qty Clusters found - 1
+    *                                        idxGT = 0 to qty of GT found on idxGC - 1
+    *
+    *  mapClusters[idxGC][idxGT][0] = label Ground Truth
+    * mapClusters[idxGC][idxGT][1] = Qty of occurrences of label Ground Truth on label gCluster
+    */
+
+    vector< vector< vector<int> > >  mapClustersPoints(clusters.size());
+    vector< vector< vector<int> > >  mapClustersCells(clusters.size());
+
     if (drawPoints)
     {
-
-        cout << endl;
-        cout << "\t-----------------------------" << endl;
-        cout << "\t Creating result points file " << outputResultPoints << endl;
-        cout << "\t-----------------------------" << endl;
 
         bool procInPoints = true;
         headerCSV.resize(0);
 
         while (procInPoints)
         {
+
             inPoint.open(inputPoints.c_str());
             if (!inPoint)
             {
-                cout << "Error: Unable to open input file Points: " << endl;
-                cout << "\tFile: " << inputPoints << endl;
+                cerr << "Error: Unable to open input file Points: " << endl;
+                cerr << "\tFile: " << inputPoints << endl;
                 procInPoints = false;
                 pointFileOk = false;
                 continue;
@@ -446,7 +462,7 @@ int main(int argc, char* argv[])
 
             if (!getCSVLine(inPoint, headerCSV))
             {
-                cout << "Error reader Points File (Header) on the first line" << endl;
+                cerr << "Error reader Points File (Header) on the first line" << endl;
                 procInPoints = false;
                 continue;
             }
@@ -455,8 +471,8 @@ int main(int argc, char* argv[])
 
             if (noFields != (dimension + 1)) // Dimension + 1 if has
             {
-                cout << "Error reading Points File (Header). Number of dimensions doesn't match" << endl;
-                cout << "\tFile: " << inputPoints << endl;
+                cerr << "Error reading Points File (Header). Number of dimensions doesn't match" << endl;
+                cerr << "\tFile: " << inputPoints << endl;
                 procInPoints = false;
                 pointFileOk = false;
                 continue;
@@ -470,10 +486,24 @@ int main(int argc, char* argv[])
             // Open file Result
             resultFile.open(outputResultPoints, std::ifstream::out);
 
+
+            // Open Map Point file
+            mapFile.open(outputMapPoints, std::ifstream::out);
+
             for (unsigned i = 0; i < dimension; i++)
                 resultFile << "Coord-" << i << ",";
 
-            resultFile << "gCluster-label,ground-truth-label" << endl;
+            resultFile << "class-label,gCluster-label";
+
+            if (headerCSV.back() == "_#NO_CLASS#_")
+            {
+                resultFile << ",_#NO_CLASS#_";
+                hasGT = false;
+            }
+            else
+                resultFile << ",ground-truth-label";
+
+            resultFile << endl;
 
             while (inPoint && procInPoints)
             {
@@ -481,19 +511,19 @@ int main(int argc, char* argv[])
                 ++lineNo;
                 if (!r)
                 {
-                    cout << "Error reading CSV File (Data) on Line " << lineNo + 2  << "\n";
-                    cout << "\tFile: " << inputPoints << endl;
+                    cerr << "Error reading CSV File (Data) on Line " << lineNo + 2  << "\n";
+                    cerr << "\tFile: " << inputPoints << endl;
                     procInPoints = false;
                     pointFileOk = false;
                     continue;
                 }
                 if (lineCSV.size() != noFields)
                 {
-                    cout << "Error reading CSV File (Data) on Line " << lineNo + 2 << endl
+                    cerr << "Error reading CSV File (Data) on Line " << lineNo + 2 << endl
                          << "\tFile: " << inputPoints << endl
                          << "\tNumber of fields doesn't match" << endl;
-                    cout << "\tNumber of Fields expected: " << noFields << endl;
-                    cout << "\tNumber of Fields read: " << lineCSV.size() << endl;
+                    cerr << "\tNumber of Fields expected: " << noFields << endl;
+                    cerr << "\tNumber of Fields read: " << lineCSV.size() << endl;
                     procInPoints = false;
                     pointFileOk = false;
                     continue;
@@ -504,16 +534,6 @@ int main(int argc, char* argv[])
                 // Read the cell's coordinates from CSV line
                 for (unsigned i = 0; i < dimension; i++)
                     p.coord[i] = stod(lineCSV[i]);
-
-
-                // Insert into rawPoints vector
-
-                pointGT pRP;
-
-                pRP.rawPoint = p;
-                pRP.classGT = atoi(lineCSV.back().c_str());
-
-                rawPoints.push_back(pRP);
 
                 // Verify the cells coordinate, to find out the cluster
 
@@ -527,33 +547,96 @@ int main(int argc, char* argv[])
                     coordCell[i] = (int)(p.coord[i] * epsilon);
 
                 int clusterFound = -1;
+                int labelCell = -1;
                 for (unsigned i=0; i<listCells.size(); i++) // Search cells
                 {
                     // Compare listCells and current cell
                     if (coordCell == listCells[i]->coord) // all coordinates are equal
                     {
                         // Verify
+                        labelCell = i;
                         if (clusters[g.getClusterIndex(i)] >= minCells)
                             clusterFound = g.getClusterIndex(i);
                         break;
                     }
                 }
 
+                //
+                // Insert into rawPoints vector
+
+                pointGT pRP;
+
+                pRP.rawPoint = p;
+                pRP.classAlgo = clusterFound;
+                pRP.classGT = atoi(lineCSV.back().c_str());
+
+                rawPoints.push_back(pRP);
+
                 resultFile << p.coord[0];
                 for (unsigned i = 1; i < dimension; i++)
                     resultFile << "," << p.coord[i];
+
+                resultFile << ","<< labelCell;
                 resultFile << "," << clusterFound;
                 resultFile << "," << lineCSV.back() << endl;
 
+                if (clusterFound >= 0) // is not -1
+                {
+                    int idxGC = clusterFound;   // Index of gCluster on the matrix
+                    int idxGT = -1;             // Index of Ground Truth on the matrix
+                    // Try to find out GT on matrix of cluster Found
+                    for (unsigned j = 0; j < mapClustersPoints[idxGC].size(); j++ )
+                    {
+                        if (mapClustersPoints[idxGC][j][0] == pRP.classGT)
+                            idxGT = j;
+                    }
+
+                    // If don't find Ground Truth, create a new matrix
+                    if (idxGT == -1)
+                    {
+                        // Create a new Ground Truth on Map
+                        vector<int> matAux(2);
+                        matAux[0] = pRP.classGT;
+                        matAux[1] = 1;
+                        mapClustersPoints[idxGC].push_back(matAux);
+                    }
+                    else
+                    {
+                        mapClustersPoints[idxGC][idxGT][1]++;
+                    }
+                }
                 lineCSV.resize(0);
             }
 
-            resultFile.close();
             procInPoints = false;
         }
-
         inPoint.close();
+
+        for (unsigned i = 0; i < clusters.size(); i++)
+        {
+            int maxPts = 0;
+            int labelGT = -1;
+            if (clusters[i] >= minCells)
+            {
+                // Iterate map for cluster i
+                for (unsigned j = 0; j < mapClustersPoints[i].size(); j++)
+                {
+                    if (mapClustersPoints[i][j][1] > maxPts)
+                    {
+                        maxPts = mapClustersPoints[i][j][1];
+                        labelGT = mapClustersPoints[i][j][0];
+                    }
+                }
+                mapFile << i << "," << labelGT << endl;
+            }
+        }
+        resultFile.close();
+        mapFile.close();
     }
+
+    // Now rowPoitns has a copy of row result file.
+
+    // Creating map to make a relation between cluster labels (label Algo --> label GT)
 
     cout << "\t----------------------------" << endl;
     cout << "\t Creating result cells file " << outputResultCells << endl;
@@ -563,7 +646,6 @@ int main(int argc, char* argv[])
     resultFile.open(outputResultCells, std::ifstream::out);
 
     // Create header of file
-
     resultFile << "cell-id,cell-label,number-points,";
 
     // Label of center of mass coordinates
@@ -573,25 +655,36 @@ int main(int argc, char* argv[])
     resultFile << "qty-cells-cluster-greater-equal-" << minCells << ",gCluster-label";
 
     if (rawPoints.size() > 0)
-        resultFile << ", ground-truth-cell-label";
+    {
+        if (hasGT)
+            resultFile << ", ground-truth-cell-label";
+        else
+            resultFile << ", _#NO_CLASS#_";
+    }
 
     resultFile << endl;
 
     // iterate all cells
+
     for (unsigned i = 0; i<(listCells.size()-1); i++)
     {
-        if (clusters[g.getClusterIndex(i)] < minCells)
-            continue;
-
         resultFile << i << "," << i << "," << listCells[i]->getQtyPoints() << ",";
 
         Point cm = listCells[i]->getCenterMass();
 
+        // Write center of mass coordinates on file
         for (unsigned j = 0; j < cm.coord.size(); j++)
             resultFile << cm.coord[j] << ",";
 
+        int cellClusterIdx;
+
+        if (g.getQtyAdjacents(i) <= minCells)
+            cellClusterIdx = -1;
+        else
+            cellClusterIdx = g.getClusterIndex(i);
+
         resultFile  << clusters[g.getClusterIndex(i)]
-            << "," << g.getClusterIndex(i) ;
+                    << "," << cellClusterIdx;
 
         // Try to find out the closest raw pointer if there is rawPoints
 
@@ -608,14 +701,68 @@ int main(int argc, char* argv[])
                     posMat = j;
                 }
             }
-            // Found the ground truth
 
+            // Found the ground truth for the current cell
+            if (cellClusterIdx >= 0) // is not -1
+            {
+                int idxGC = cellClusterIdx;   // Index of gCluster on the matrix
+                int idxGT = -1;             // Index of Ground Truth on the matrix
+                // Try to find out GT on matrix of cluster Found
+                for (unsigned j = 0; j < mapClustersCells[idxGC].size(); j++ )
+                {
+                    if (mapClustersCells[idxGC][j][0] == rawPoints[posMat].classGT)
+                        idxGT = j;
+                }
+
+                // If don't find Ground Truth, create a new matrix
+                if (idxGT == -1)
+                {
+                    // Create a new Ground Truth on Map
+                    vector<int> matAux(2);
+                    matAux[0] = rawPoints[posMat].classGT;
+                    matAux[1] = 1;
+                    mapClustersCells[idxGC].push_back(matAux);
+                }
+                else
+                {
+                    mapClustersCells[idxGC][idxGT][1]++;
+                }
+            }
+
+            listCells[i]->cellGT = rawPoints[posMat].classGT;
             resultFile << "," << rawPoints[posMat].classGT;
+
         }
         resultFile << endl;
     }
 
     resultFile.close();
+
+    if (rawPoints.size() > 0)
+    {
+        // Open map result
+        mapFile.open(outputMapCells, std::ifstream::out);
+
+        for (unsigned i = 0; i < clusters.size(); i++)
+        {
+            int maxPts = 0;
+            int labelGT = -1;
+            if (clusters[i] >= minCells)
+            {
+                // Iterate map for cluster i
+                for (unsigned j = 0; j < mapClustersCells[i].size(); j++)
+                {
+                    if (mapClustersCells[i][j][1] > maxPts)
+                    {
+                        maxPts = mapClustersCells[i][j][1];
+                        labelGT = mapClustersCells[i][j][0];
+                    }
+                }
+                mapFile <<  i << "," <<  labelGT << endl;
+            }
+        }
+        mapFile.close();
+    }
 
     // If dimension == 2, create a svg file
     if (dimension == 2)
@@ -630,7 +777,7 @@ int main(int argc, char* argv[])
         svgFile.open(outputSVG, std::ifstream::out);
         svgFile << "<?xml version=\"1.0\" standalone=\"no\"?>" << endl
                 << "<svg width=\"" << graphMult*1.2 << "cm\" height=\""
-                << graphMult * 1.7 << "cm\" version=\"1.1\"" << endl
+                << graphMult * 1.2 << "cm\" version=\"1.1\"" << endl
                 << "xmlns=\"http://www.w3.org/2000/svg\">" << endl
                 << "<desc>Graph bi-dimensional </desc>" << endl
                 // Display External Rectangle
@@ -653,6 +800,7 @@ int main(int argc, char* argv[])
                 << graphMult * 0.03 << "cm\" fill=\"black\">"
                 << "Epsilon: " << epsilon
                 << ", Min Force: " << minForce
+                << ", Min Cells: " << minCells
                 << ", Number Clusters: " << totClusters
                 << "</text>" << endl;
 
@@ -724,6 +872,19 @@ int main(int argc, char* argv[])
             opacity = (!drawEdges?"0.7":"0.6");
 
             // Find out the connected cells
+
+            unsigned cellClusterIdx = clusters[g.getClusterIndex(i)];
+
+            if (cellClusterIdx <= minCells)
+                cellClusterIdx = -1;
+
+            if (drawNumbers)
+                svgFile << strSVGTextCell(graphMult, epsilon,
+                                          listCells[i]->coord[0],
+                                          listCells[i]->coord[1],
+                                          i, cellClusterIdx,
+                                          listCells[i]->cellGT) << endl;
+
             vector<unsigned> adj = g.getAdjacents(i);
 
             for (unsigned j = 0; j < adj.size(); j++)
@@ -738,8 +899,7 @@ int main(int argc, char* argv[])
                                           epsilon,
                                           colors[g.getClusterIndex(cellAdj)%colors.size()],
                                           listCells[cellAdj]->coord[0],
-                                          listCells[cellAdj]->coord[1],
-                                          g.getClusterIndex(cellAdj), drawNumbers);
+                                          listCells[cellAdj]->coord[1]);
                     rectDrawn[cellAdj] = true;
                 }
 
@@ -854,14 +1014,14 @@ int main(int argc, char* argv[])
                     string colorPoint = "none";
                     string opacity = "1.0";
                     string width = "0.03";
-                    double radio = 0.005;
+                    double radio = 0.002;
 
                     if (indClass >= 0)
                     {
                         colorPoint = colors[indClass%colors.size()];
                         opacity = "0.4";
                         width = "0.05";
-                        radio = 0.01;
+                        radio = 0.006;
                     }
 
                     double xCirc = (double)(p.coord[0]*graphMult)+graphMult*.1;
@@ -876,8 +1036,8 @@ int main(int argc, char* argv[])
                     if (drawNumbers)
                     {
                         svgFile << "<text "
-                                << "x=\"" << xCirc << "cm\" "
-                                << "y=\"" << yCirc << "cm\" "
+                                << "x=\"" << xCirc - 2 * radio << "cm\" "
+                                << "y=\"" << yCirc + radio << "cm\" "
                                 << "font-style=\"normal\" "
                                 << "font-family=\"Times New Roman\" "
                                 << "font-size=\"" << graphMult * 0.01 <<"cm\" "

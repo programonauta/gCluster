@@ -115,6 +115,9 @@ if hasType:
 else:
     showError("File type not informed. Please use -t <c> or <p> option")
 
+if prefix[-2:] == "--":
+    prefix = prefix[:-1]
+
 if fileType == "c":
     prefix += "cells-"
 else:
@@ -147,7 +150,8 @@ else:
     pre = ""
     type = "gCluster"
 
-print(pre + "Map File read " + mapFile)
+print(pre + "Map File read  :" + mapFile)
+print(pre + "Input File read:" + inputFile)
 print("-----------------------")
 print("labels")
 print(type+" | Ground Truth")
@@ -160,6 +164,8 @@ for l in matMap:
 print()
 print(pre + "Map File with ", len(matMap), "registers")
 input("Please confirm map file")
+
+print("Reading file", inputFile)
 
 fInd = open(inputFile, "r")
 #
@@ -180,10 +186,10 @@ for line in fInd:
         continue
 
     # If reading cells and not DBSCAN, must ignore lines with cells cluster < min cells
-    if not isDBSCAN and fileType == "c":  # Get the minCells on the header
-        qtyCells = int(CSVLine[-3])
-        if qtyCells < minCells:
-            continue
+    # if not isDBSCAN and fileType == "c":  # Get the minCells on the header
+    #     qtyCells = int(CSVLine[-3])
+    #     if qtyCells < minCells:
+    #         continue
 
     aux = [int(CSVLine[-2]), int(CSVLine[-1])]
     # Search cluster number int map matrix
@@ -230,13 +236,17 @@ for pairs in itertools.combinations(matClusters, 2):
     elif (not clgC and clGT):  # diff on gCluster and same on GT
         ds += 1
     else:  # diff clusters on both partitions
-        ss += 1
+        dd += 1
 
 m1 = ss + sd
 m2 = ss + ds
+m = ss + sd + ds + dd
 
 # calculate FM index: ss over the square root of m1 x m2
-fm = ss / (m1 * m2) ** 0.5
+fm = ss / ( (m1 * m2) ** 0.5 )
+rand = (ss + sd) / m
+jac = (ss) /  (ss + sd + ds)
+
 
 print("ss:", ss)
 print("sd:", sd)
@@ -244,3 +254,5 @@ print("ds:", ds)
 print("dd:", dd)
 print("-------------")
 print("FM:", fm)
+print("Rand:", rand)
+print("Jaccard:", jac)

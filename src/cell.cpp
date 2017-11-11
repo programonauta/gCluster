@@ -12,6 +12,8 @@ Cell::Cell(int dimen)
 
     this->dimen = dimen;
     this->qtyPoints = 0;
+    this->labelGT = -1;
+    this->labelgC = -1;
 
     coord.resize(dimen);
     Cell::centerMass.coord.resize(dimen);
@@ -37,6 +39,35 @@ unsigned long Cell::getQtyPoints()
 {
     return this->qtyPoints;
 }
+
+void Cell::setLabelGT(int label)
+{
+    this->labelGT = label;
+    return;
+}
+
+void Cell::setLabelgC(int label)
+{
+    this->labelgC = label;
+    return;
+}
+
+void Cell::setCenterMass(Point p)
+{
+    this->centerMass = p;
+    return;
+}
+
+int Cell::getLabelGT()
+{
+    return this->labelGT;
+}
+
+int Cell::getLabelgC()
+{
+    return this->labelgC;
+}
+
 //
 // Include a new point in the cell
 //
@@ -100,8 +131,8 @@ bool areAdjacents(Cell *cell1, Cell *cell2)
 
 }
 
-// Method to calculate the coordinates of hypercube (or cell)
-//
+// Recursive Method to calculate the coordinates of hypercube (or cell)
+
 void Cell::calcCubeCoord(vector<vector <double>> &g, vector<double> v, int len, int start, int epsilon)
 {
     if (len == 0)
@@ -120,7 +151,6 @@ void Cell::calcCubeCoord(vector<vector <double>> &g, vector<double> v, int len, 
     return;
 }
 
-
 vector<vector <double> > Cell::cubeCoord(int epsilon)
 {
     vector <double> v(this->dimen);
@@ -129,5 +159,21 @@ vector<vector <double> > Cell::cubeCoord(int epsilon)
     calcCubeCoord(g, v, this->dimen, 0, epsilon);
 
     return g;
+}
+
+// Return the cell coordinate given a point and the Epsilon
+vector<int> getCellCoord(Point p, int epsilon)
+{
+    vector<int> v(p.coord.size());
+
+    unsigned dimension = p.coord.size();
+    for (unsigned i = 0; i < dimension; i++)
+        v[i] = (int)(p.coord[i] * epsilon);
+
+    return v;
+}
+
+void calcCellGT()
+{
 }
 

@@ -1,16 +1,9 @@
 #include <iostream>
 #include <math.h>
 #include <unistd.h>
+#include "gCluster.h"
 #include "cell.h"
 #include "csv-reader.h"
-
-bool isDouble(const char *str)
-{
-    char* endptr = 0;
-    strtod(str, &endptr);
-
-    return !((endptr == str));
-}
 
 int main(int argc, char* argv[])
 {
@@ -34,7 +27,7 @@ int main(int argc, char* argv[])
     FILE* pFileCells;
     FILE* pFilePoints;
 
-    cout << "Grid Clustering algorithm - Summarization Phase" << endl;
+    cout << "gCluster algorithm - Summarization Phase" << endl;
     cout << "developed by ricardo brandao - https://github.com/programonauta/grid-clustering" << endl;
     cout << "===============================================================================\n" << endl;
 
@@ -76,7 +69,7 @@ int main(int argc, char* argv[])
             break;
         case 'h':
         default: /* '?' */
-            cout << "OVERVIEW: Clustering data using grid-based algorithm - Summarization Phase" << endl;
+            cout << "OVERVIEW: Clustering data using gCluster algorithm - Summarization module" << endl;
             cout << "          The program output a csv file with Cells data " << endl;
             cout << endl;
             cout << "USAGE: sumData <options>" << endl;
@@ -104,14 +97,14 @@ int main(int argc, char* argv[])
     infile.open(input.c_str());
     if (!infile)
     {
-        cout << "Error: Unable to open input file."<< endl;
+        cerr << "Error: Unable to open input file."<< endl;
         exit (EXIT_FAILURE);
     }
 
     cfgFile.open(configFile.c_str());
     if (!cfgFile)
     {
-        cout << "Error: Unable to open configuration file: " << configFile << endl;
+        cerr << "Error: Unable to open configuration file: " << configFile << endl;
         infile.close();
         exit(EXIT_FAILURE);
     }
@@ -120,7 +113,7 @@ int main(int argc, char* argv[])
 
     if (pFileCells == NULL)
     {
-        cout << "Error: Unable do open cells output file." << endl;
+        cerr << "Error: Unable do open cells output file." << endl;
         infile.close();
         cfgFile.close();
         exit (EXIT_FAILURE);
@@ -139,7 +132,7 @@ int main(int argc, char* argv[])
 
     if (!getCSVLine(cfgFile, headerCSV))
     {
-        cout << "Error reading Configuration File (Header) on the first line" << endl;
+        cerr << "Error reading Configuration File (Header) on the first line" << endl;
         cfgFile.close();
         infile.close();
         fclose(pFileCells);
@@ -158,7 +151,7 @@ int main(int argc, char* argv[])
 
     if (!getCSVLine(cfgFile, configFields))
     {
-        cout << "Error reading Configuration File (Header) on Fields Configuration (line 2)" << endl;
+        cerr << "Error reading Configuration File (Header) on Fields Configuration (line 2)" << endl;
         infile.close();
         cfgFile.close();
         fclose(pFileCells);
@@ -168,7 +161,7 @@ int main(int argc, char* argv[])
 
     if (configFields.size() != noFields)
     {
-        cout << "Error reading Configuration File (Header): Fields configuration (line 2)" << endl
+        cerr << "Error reading Configuration File (Header): Fields configuration (line 2)" << endl
              << "\tNumber of fields doesn't match. Read " << configFields.size()
              << " Expected: " << noFields << " fields " << endl;
         exit(EXIT_FAILURE);
@@ -180,7 +173,7 @@ int main(int argc, char* argv[])
     {
         if (configFields[i] != "C" && configFields[i] != "N" && configFields[i] != "L")
         {
-            cout << "Error reading Configuration File (Header): Fields Configuration (line 2)" << endl
+            cerr << "Error reading Configuration File (Header): Fields Configuration (line 2)" << endl
                  << "\tInvalid Parameter on field " << i+1 << " \"" << configFields[i] << "\":" << endl
                  << "\tMust be \"C\" (C)luster Field, \"N\" (N)ot a Cluster Field or \"L\""
                  << "C(L)assification Field" << endl;
@@ -195,7 +188,7 @@ int main(int argc, char* argv[])
 
     if (dimension == 0)
     {
-        cout << "Error reading Configuration File (Header): Cluster Line (line 2)" << endl
+        cerr << "Error reading Configuration File (Header): Cluster Line (line 2)" << endl
              << "\nThere is not clusters fields " << endl;
         exit(EXIT_FAILURE);
     }
@@ -214,13 +207,13 @@ int main(int argc, char* argv[])
 
     if (!getCSVLine(cfgFile, lineCSV))
     {
-        cout << "Error reading Configuration File (Header) on Max line (line 3)" << endl;
+        cerr << "Error reading Configuration File (Header) on Max line (line 3)" << endl;
         exit(EXIT_FAILURE);
     }
 
     if (lineCSV.size() != noFields)  // Test if line of max values has the same number of fields than header
     {
-        cout << "Error reading Configuration File (Header): Max line (line 3)" << endl
+        cerr << "Error reading Configuration File (Header): Max line (line 3)" << endl
              << "\tnumber of fields doesn't match. "
              << " Read " << lineCSV.size() << " Expected: " << noFields <<  endl ;
         exit(EXIT_FAILURE);
@@ -233,7 +226,7 @@ int main(int argc, char* argv[])
     {
         if (!isDouble(lineCSV[i].c_str()))
         {
-            cout << "Error reading Configuration File (Header): Max line (line 3)" << endl
+            cerr << "Error reading Configuration File (Header): Max line (line 3)" << endl
                  << "\nField number " << i+1 << ", "
                  << lineCSV[i] << " is not double" << endl;
             exit(EXIT_FAILURE);
@@ -247,13 +240,13 @@ int main(int argc, char* argv[])
 
     if (!getCSVLine(cfgFile, lineCSV))
     {
-        cout << "Error reading Configuration File (Header) on Min line (line 4)" << endl;
+        cerr << "Error reading Configuration File (Header) on Min line (line 4)" << endl;
         exit(EXIT_FAILURE);
     }
 
     if (lineCSV.size() != noFields) // Test if line of min values has the same dimension than header
     {
-        cout << "Error reading Configuration File (Header): Min line (line 4)" << endl
+        cerr << "Error reading Configuration File (Header): Min line (line 4)" << endl
              << "\tNumber of fields doesn't match. Read "
              << lineCSV.size() << " Expected: " << noFields << endl ;
         exit(EXIT_FAILURE);
@@ -263,7 +256,7 @@ int main(int argc, char* argv[])
     {
         if (!isDouble(lineCSV[i].c_str()))
         {
-            cout << "Error reading Configuration File (Header): Min line (line 4)" << endl
+            cerr << "Error reading Configuration File (Header): Min line (line 4)" << endl
                  << "\tField number " << i+1 << ", "
                  << lineCSV[i] << " is not double" << endl;
             exit(EXIT_FAILURE);
@@ -272,7 +265,7 @@ int main(int argc, char* argv[])
 
         if (minValue[i] >= maxValue[i] and configFields[i] == "C") // Test if min value is greater or equal than max value
         {
-            cout << "Error reading Configuration File (Header) - (line 4)" << endl
+            cerr << "Error reading Configuration File (Header) - (line 4)" << endl
                  << "\tMin value greater or equal than Max value for dimension "
                  << "\t" << i+1 << ": " << minValue[i] << " isn't less than " << maxValue[i] << endl;
             exit(EXIT_FAILURE);
@@ -292,13 +285,13 @@ int main(int argc, char* argv[])
 
     if (!getCSVLine(infile, lineCSV))
     {
-        cout << "Error reading CSV File (Header) on the first line (" << input << ")" << endl;
+        cerr << "Error reading CSV File (Header) on the first line (" << input << ")" << endl;
         exit (EXIT_FAILURE);
     }
 
     if (noFields != lineCSV.size())
     {
-        cout << "Error reading CSV File (Header):" << endl << "\tNumber of fields doesn't match" << endl;
+        cerr << "Error reading CSV File (Header):" << endl << "\tNumber of fields doesn't match" << endl;
         exit (EXIT_FAILURE);
     }
 
@@ -309,7 +302,7 @@ int main(int argc, char* argv[])
     {
         if (lineCSV[i] != headerCSV[i])
         {
-            cout << "Error reading CSV File (Header)" << endl << "\tFields doesn't match. (" << lineCSV[i]
+            cerr << "Error reading CSV File (Header)" << endl << "\tFields doesn't match. (" << lineCSV[i]
                 << ") and (" << headerCSV[i] << ")" << endl;
             exit(EXIT_FAILURE);
 
@@ -323,12 +316,12 @@ int main(int argc, char* argv[])
         ++lineNo;
         if (!r)
         {
-            cout << "Error reading CSV File (" << input <<") on Line " << lineNo + 1  << "\n";
+            cerr << "Error reading CSV File (" << input <<") on Line " << lineNo + 1  << "\n";
             exit(EXIT_FAILURE);
         }
         if (lineCSV.size() != noFields)
         {
-            cout << "Error reading CSV File (" << input <<") on Line " << lineNo + 1 << ":" << endl
+            cerr << "Error reading CSV File (" << input <<") on Line " << lineNo + 1 << ":" << endl
                  << "\tnumber of fields doesn't match. Read: " << lineCSV.size()
                  << ", expected: " << noFields << endl;
             exit(EXIT_FAILURE);
@@ -352,7 +345,7 @@ int main(int argc, char* argv[])
                 continue;
             if (!isDouble(lineCSV[i].c_str()))
             {
-                cout << "Error reading CSV File (Data) on Line: " << lineNo + 4 << ", Field: "
+                cerr << "Error reading CSV File (Data) on Line: " << lineNo + 4 << ", Field: "
                      << i+1 << " \""
                      << lineCSV[i] << "\" is not double" << endl;
                 exit(EXIT_FAILURE);
@@ -402,7 +395,7 @@ int main(int argc, char* argv[])
 
         if (!pNewCell->insertPoint(sample))
         {
-            cout << "Error on insert Point on Cell - Line " << lineNo << endl;
+            cerr << "Error on insert Point on Cell - Line " << lineNo << endl;
             exit(EXIT_FAILURE);
         }
 
@@ -424,7 +417,7 @@ int main(int argc, char* argv[])
 
     if (listCells.size() == 0)
     {
-        cout << "Error on algorithm: There is no cells" << endl;
+        cerr << "Error on algorithm: There is no cells" << endl;
         exit(EXIT_FAILURE);
     }
 
