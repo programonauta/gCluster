@@ -16,4 +16,14 @@
 #include "graphs.h"
 #include "csvDefinitions.h"
 
+class MapClusters
+{
+public:
+
+int cGLabel;                    // Label gCluster
+vector< vector<int> > mapGT;    // Label Ground Truth
+
+};
+
+
 #endif

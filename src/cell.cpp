@@ -14,6 +14,7 @@ Cell::Cell(int dimen)
     this->qtyPoints = 0;
     this->labelGT = -1;
     this->labelgC = -1;
+    this->mapGT.resize(0);
 
     coord.resize(dimen);
     Cell::centerMass.coord.resize(dimen);
@@ -52,9 +53,21 @@ void Cell::setLabelgC(int label)
     return;
 }
 
+void Cell::setCellId(int id)
+{
+    this->cellId = id;
+    return;
+}
+
 void Cell::setCenterMass(Point p)
 {
     this->centerMass = p;
+    return;
+}
+
+void Cell::setAdjacent(vector<int> v)
+{
+    this->adjacent = v;
     return;
 }
 
@@ -66,6 +79,16 @@ int Cell::getLabelGT()
 int Cell::getLabelgC()
 {
     return this->labelgC;
+}
+
+int Cell::getCellId()
+{
+    return this->cellId;
+}
+
+vector<int> Cell::getAdjacent()
+{
+    return this->adjacent;
 }
 
 //
@@ -94,6 +117,51 @@ bool Cell::insertPoint(Point coordPoint)
             this->qtyPoints;
 
     return true;
+}
+
+/*
+ * Insert a the GT label of a point that belongs to cell
+ *
+ * At the and the quantity of labels must be the same of quantity of points
+ */
+void Cell::insertLabelGT(int informedGT)
+{
+    // Try to find the label of GT on the Map
+
+    int idxGT = -1;
+    for (unsigned i = 0; i < mapGT.size(); i++)
+    {
+        if (mapGT[i][0] == informedGT)
+        {
+            idxGT = i;
+            break;
+        }
+    }
+    if (idxGT >= 0) // Found GT
+    {
+        mapGT[idxGT][1]++; // Increase the number of occurrences of this GT label
+;    }
+    else
+    {
+        vector<int> matAux = {informedGT, 1}; // Create a position on Matrix
+        mapGT.push_back(matAux);
+    }
+
+    // Find out the Ground True with max occurrence on cell
+
+    unsigned maxOcc = 0;
+    int labelFound = -1;
+    for (vector<int> a : mapGT)
+    {
+        if (a[1] > maxOcc)
+        {
+            maxOcc = a[1];
+            labelFound = a[0];
+        }
+    }
+
+    this->labelGT = labelFound;
+
 }
 
 bool Cell::mergePoints(Point cM, unsigned qP)

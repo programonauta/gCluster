@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1508372243 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.cpp
+1510405141 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.cpp
 	"csv-reader.h"
 
 1508372479 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\csv-reader\csv-reader.h
@@ -15,7 +15,7 @@
 	"cell.h"
 	"csv-reader.h"
 
-1510353667 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
+1510434519 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\cell.h
 	<vector>
 	"point.h"
 
@@ -28,10 +28,10 @@
 	"point.h"
 	<iostream>
 
-1510353667 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
+1510433946 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\cell.cpp
 	"cell.h"
 
-1510357036 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\sumdata\sumdata.cpp
+1510369104 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\sumdata\sumdata.cpp
 	<iostream>
 	<math.h>
 	<unistd.h>
@@ -42,7 +42,7 @@
 1510346607 source:c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\src\gcluster.cpp
 	"gCluster.h"
 
-1510357249 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\gcluster.h
+1510434483 c:\users\ricardo\dropbox\mestrado\repos\grid-clustering\include\gcluster.h
 	<stdio.h>
 	<stdlib.h>
 	"point.h"

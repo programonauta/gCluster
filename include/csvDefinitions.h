@@ -36,6 +36,7 @@
  * dimension + 1  unsigned  qty-points      Quantity of points inside the cell
  * dimension + 2  unsigned  connect-cells   Number of cells that forms the cluster
  * dimension + 3  int       gCluster-label  Label of cluster
+ * dimension + 4  int       adj-n           Id of adjacent's cells
  *
  */
 
@@ -45,5 +46,6 @@
 #define resultgC_posNumberPts() dimension + 1
 #define resultgC_posConnCells() dimension + 2
 #define resultgC_posGCLabel() dimension + 3
+#define resultgC_posAdjacent() dimension + 4
 
 #endif

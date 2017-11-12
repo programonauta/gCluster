@@ -35,9 +35,13 @@ public:
     unsigned long getQtyPoints();
     int getLabelGT();
     int getLabelgC();
+    int getCellId();
+    vector<int> getAdjacent();
     void setLabelGT(int label);
     void setLabelgC(int label);
+    void setCellId(int id);
     void setCenterMass(Point p);
+    void setAdjacent(vector<int>);
 
 /*
  * Methods to deal with cells
@@ -45,6 +49,7 @@ public:
  */
     // Method to insert a new point in the cell
     bool insertPoint(Point coordPoint);
+    void insertLabelGT(int informedGT);
 
     // Method to merge points in the cell
     bool mergePoints(Point cM, unsigned qP);
@@ -59,7 +64,9 @@ private:
 
     int labelgC;    // Label gCluster
     int labelGT;    // Cell Ground Truth
+    int cellId;     // Cell Identification gave by getCluster
     vector<vector <int> > mapGT; // A vector to map quantity of ground truth points inside the cell
+    vector<int> adjacent;
 
     // recursive method to calculate cube Coordinates
     void calcCubeCoord(vector<vector <double> > &g, vector<double> v, int len, int start, int epsilon);

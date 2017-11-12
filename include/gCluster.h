@@ -15,6 +15,7 @@
 typedef struct tdRawPoint
 {
     Point rawData;
+    int cellId;     // Id of cell to which point belongs
     int classAlgo;  // Classification of Algorithm
     int classGT;    // Classification of Ground Truth
 } rawPoint;

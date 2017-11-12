@@ -363,7 +363,14 @@ int main(int argc, char* argv[])
 
         // connected-cells, gCluster-Label
         resultFile  <<  clusters[g.getClusterIndex(i)][1] << ","
-                    << clusters[g.getClusterIndex(i)][0] << endl;
+                    << clusters[g.getClusterIndex(i)][0] ;
+
+        // Adjacent cells
+
+        for (unsigned a : g.getAdjacents(i))
+            resultFile << "," << a ;
+
+        resultFile << endl;
 
     }
 
