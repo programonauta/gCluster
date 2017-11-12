@@ -29,6 +29,7 @@ def showHelp():
     print("\tOptions\t\tDescription")
     print("\t-h\t\tShow this help")
     print("\t-i <file>\tInput file")
+    print("\t-p <pos1,pos2>\tList of colmuns of Algorithm 1 and Ground truth on csv file (Ex.: -p 5,6)/")
     return
 
 def parseOpt(opt, hasArgument):
@@ -61,6 +62,21 @@ if (hasHelp > 0):
     showHelp()
     exit(1)
 
+hasPosition, matPosition = parseOpt("-p", True)
+if matPosition == "":
+    posAlgo = -2
+    posGT = -1
+else:
+    matPosition = matPosition.split(",")
+    posAlgo = int(matPosition[0])
+    posGT = int(matPosition[1])
+
+if (posAlgo == posGT):
+    print("Error on columns of Labels: the parameter informed was decoded by ", posAlgo, " and ", posGT)
+    exit(1)
+
+print("Columns of Labels: (Algorithm, GT): (",posAlgo,",",posGT,")" )
+
 hasFile, inputFile = parseOpt("-i", True)
 
 if (inputFile == ""):
@@ -68,7 +84,6 @@ if (inputFile == ""):
     exit(1)
 
 # replace "\\" by "/". In windows machines uses "\" for subdirectories. Python could handle with / in all OSs.
-
 inputFile = inputFile.replace("\\", "/")
 
 # Create matMap list where there is the correspondence btw cluster number found and the ground truth
@@ -89,7 +104,7 @@ for line in fInd:
         first = False
         continue
 
-    aux = [int(CSVLine[-2]), int(CSVLine[-1])]
+    aux = [int(CSVLine[posAlgo]), int(CSVLine[posGT])]
     matClusters.append(aux)
 
 #

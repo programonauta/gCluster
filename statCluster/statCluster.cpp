@@ -20,7 +20,7 @@
  */
 #include "statCluster.h"
 
-#define PRINT_DEBUG 1
+#define PRINT_DEBUG 0
 
 int main(int argc, char* argv[])
 {
@@ -28,16 +28,15 @@ int main(int argc, char* argv[])
 /*
  *     Files
  */
-    ifstream inPoint; // input file - point
-    ifstream inCell;  // input file - cell
-    ifstream inPointDB; // input file - point DBSCAN
-    ifstream inCellDB;  // input file - cell DBSCAN
+    ifstream inPoints; // input file - point
+    ifstream inCells;  // input file - cell
+    ifstream inPointsDB; // input file - point DBSCAN
+    ifstream inCellsDB;  // input file - cell DBSCAN
 
-    ofstream outPoint;
-    ofstream outCell;
-    ofstream outPointDB;
-    ofstream outCellDB;
-    ofstream mapFile;
+    ofstream outPoints;
+    ofstream outCells;
+    ofstream outPointsDB;
+    ofstream outCellsDB;
 
     // Variables to deal with files
     int lineNo = 0;
@@ -85,7 +84,7 @@ int main(int argc, char* argv[])
     //
     // Show help message if -h or there is no command options
 
-    while ((opt = getopt(argc, argv, "p:c:d:b:1:2:3:4:e:")) != -1)
+    while ((opt = getopt(argc, argv, "p:c:d:b:1:2:3:4:e:h")) != -1)
     {
         switch (opt)
         {
@@ -113,7 +112,7 @@ int main(int argc, char* argv[])
         case '1':
             outputPoint = optarg;
         case '2':
-            outputCellDefault = optarg;
+            outputCell = optarg;
             break;
         case '3':
             outputPointDB = optarg;
@@ -168,13 +167,6 @@ int main(int argc, char* argv[])
     cout << endl <<"Running" << endl;
     cout << "-------" << endl;
 
-    inCell.open(inputCell.c_str());
-    if (!inCell)
-    {
-        cerr << "Error: Unable to open input cell file: " << inputCell << endl;
-        exit(EXIT_FAILURE);
-    }
-
 /************************************************************
  *
  * 1. Process input cell file, filling listCells up
@@ -187,9 +179,16 @@ int main(int argc, char* argv[])
  * due lack of information at this time.
  *
  ************************************************************/
+    inCells.open(inputCell.c_str());
+    if (!inCells)
+    {
+        cerr << "Error: Unable to open input cell file: " << inputCell << endl;
+        exit(EXIT_FAILURE);
+    }
+
     int r = 0;
 
-    if (!getCSVLine(inCell, headerCellCSV))
+    if (!getCSVLine(inCells, headerCellCSV))
     {
         cerr << "Error reading cell file (Header) on the first line: " << inputCell << endl;
         exit(EXIT_FAILURE);
@@ -213,9 +212,9 @@ int main(int argc, char* argv[])
 
     lineCSV.resize(0);
 
-    while (inCell)
+    while (inCells)
     {
-        r = getCSVLine(inCell, lineCSV);
+        r = getCSVLine(inCells, lineCSV);
         ++lineNo;
         if (!r)
         {
@@ -265,7 +264,7 @@ int main(int argc, char* argv[])
         lineCSV.resize(0);
     }
 
-    inCell.close();
+    inCells.close();
 
 /*********************************************************
  *
@@ -277,8 +276,8 @@ int main(int argc, char* argv[])
  * Also update listCells
  *
  ********************************************************/
-    inPoint.open(inputPoint.c_str());
-    if (!inPoint)
+    inPoints.open(inputPoint.c_str());
+    if (!inPoints)
     {
         cerr << "Error: Unable to open input point file: "<< inputPoint << endl;
         exit(EXIT_FAILURE);
@@ -286,7 +285,7 @@ int main(int argc, char* argv[])
 
     r = 0;
 
-    if (!getCSVLine(inPoint, headerPointCSV))
+    if (!getCSVLine(inPoints, headerPointCSV))
     {
         cerr << "Error reading point file (Header) on the first line" << endl;
         exit(EXIT_FAILURE);
@@ -310,9 +309,9 @@ int main(int argc, char* argv[])
 
     lineCSV.resize(0);
 
-    while (inPoint)
+    while (inPoints)
     {
-        r = getCSVLine(inPoint, lineCSV);
+        r = getCSVLine(inPoints, lineCSV);
         ++lineNo;
         if (!r)
         {
@@ -367,7 +366,7 @@ int main(int argc, char* argv[])
         lineCSV.resize(0);
     }
 
-    inPoint.close();
+    inPoints.close();
 
 
  /********************************************************
@@ -465,8 +464,8 @@ int main(int argc, char* argv[])
 
     cout << "Writing point output file: " << outputPoint << endl;
 
-    outPoint.open(outputPoint, std::ifstream::out);
-    if (!outPoint.is_open())
+    outPoints.open(outputPoint, std::ifstream::out);
+    if (!outPoints.is_open())
     {
         cerr << "Could not open output file:" << outputPoint << endl;
         exit (EXIT_FAILURE);
@@ -475,14 +474,14 @@ int main(int argc, char* argv[])
     // Write header
 
     for (unsigned i = 0; i < dimension; i++)
-        outPoint << headerPointCSV[consolidPts_posDimension()] << ",";
+        outPoints << headerPointCSV[consolidPts_posDimension()] << ",";
 
-    outPoint << "cell-id,label-gC,label-GT" << endl;
+    outPoints << "cell-id,label-gC,label-GT" << endl;
 
     for (rawPoint line : listPoints)
     {
         for (unsigned i = 0; i < dimension; i++)
-            outPoint << line.rawData.coord[i] << ",";
+            outPoints << line.rawData.coord[i] << ",";
 
         int modLabel = line.classAlgo;
         for (vector<int> m : finalMap)
@@ -495,17 +494,17 @@ int main(int argc, char* argv[])
         }
 
 
-        outPoint << line.cellId << "," << modLabel << "," << line.classGT << endl;
+        outPoints << line.cellId << "," << modLabel << "," << line.classGT << endl;
 
     }
 
-    outPoint.close();
+    outPoints.close();
 
     cout << "Writing cell output file: " << outputCell << endl;
 
-    outCell.open(outputCell, std::ifstream::out);
+    outCells.open(outputCell, std::ifstream::out);
 
-    if (!outCell.is_open())
+    if (!outCells.is_open())
     {
         cerr << "Could not open output file:" << outputCell << endl;
         exit (EXIT_FAILURE);
@@ -514,14 +513,14 @@ int main(int argc, char* argv[])
     // Write header
 
     for (unsigned i = 0; i < dimension; i++)
-        outCell << headerCellCSV[i] << ",";
+        outCells << headerCellCSV[i] << ",";
 
-    outCell << "cell-id,label-gC,label-GT" << endl;
+    outCells << "cell-id,label-gC,label-GT" << endl;
 
     for (Cell c : listCells)
     {
         for (unsigned i = 0; i < dimension; i++)
-            outCell << c.getCenterMass().coord[i] << ",";
+            outCells << c.getCenterMass().coord[i] << ",";
 
         int modLabel = c.getLabelgC();
         for (vector<int> m : finalMap)
@@ -533,13 +532,18 @@ int main(int argc, char* argv[])
             }
         }
 
-        outCell << c.getCellId()
+        outCells << c.getCellId()
             << "," << modLabel
-            << "," << c.getLabelGT() << endl;
+            << "," << c.getLabelGT();
+
+        for (int a : c.getAdjacent())
+            outCells << "," << a;
+
+        outCells << endl;
 
     }
 
-    outCell.close();
+    outCells.close();
 
 //    // connected Components give labels for clusters and
 //    // for each node store its cluster on g.[<nodeIndex>].clusterIndex

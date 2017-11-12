@@ -48,4 +48,32 @@
 #define resultgC_posGCLabel() dimension + 3
 #define resultgC_posAdjacent() dimension + 4
 
+/* Program: statCluster
+ * ===================
+ *
+ * File output (default name): map-cell-gC.csv
+ * Prefix: mapC
+ * Description: file with cells values after statCluster algorithm,
+ *              In this file there is a correspondence of labels from gCluster and GT
+ *              The format is almost the same, the only difference is the GT column
+ *
+ * Field number   Type      Name            Description
+ *--------------------------------------------------------------------------
+ * [0..z]         double    CM-x            Coordinates of Center of Mass
+ * dimension + 0  int       cell-id         Identification of cell
+ * dimension + 1  int       label-gC        Label of cluster found out by gCluster
+ * dimension + 2  int       GT-label        Label of Ground Truth
+ * dimension + 3  int       adj-n           Id of adjacent's cells
+ *
+ */
+
+#define mapC_qtyFixedLabels 3
+#define mapC_posDimension() 0
+#define mapC_posCellId() dimension + 0
+#define mapC_posGCLabel() dimension + 1
+#define mapC_posGT() dimension + 2
+#define mapC_posAdjacent() dimension + 3
+
+
+
 #endif

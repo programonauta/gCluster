@@ -31,17 +31,22 @@ public:
  *
  */
     unsigned getDimension();
-    Point getCenterMass();
     unsigned long getQtyPoints();
+
     int getLabelGT();
-    int getLabelgC();
-    int getCellId();
-    vector<int> getAdjacent();
     void setLabelGT(int label);
+
+    int getLabelgC();
     void setLabelgC(int label);
+
     void setCellId(int id);
+    int getCellId();
+
     void setCenterMass(Point p);
+    Point getCenterMass();
+
     void setAdjacent(vector<int>);
+    vector<int> getAdjacent();
 
 /*
  * Methods to deal with cells
