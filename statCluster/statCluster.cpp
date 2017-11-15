@@ -10,10 +10,12 @@
  *               -d <dbscan point file> DBSCAN.py output over sumData output
  *               -b <dbscan cell file>  DBSCAN.py output over getCluster output
  *
- * Output files: -1 <point gCluster with GT>
- *               -2 <cells gCluster with GT>
- *               -3 <point DBSCAN with GT>
- *               -4 <cells DBSCAN with GT>
+ * Output files: -1 <file> point gCluster with GT
+ *               -2 <file> cells gCluster with GT
+ *               -3 <file> cells DBSCAN with GT
+ *
+ * Validation files: -v <file>  points file with only coordinates, gCluster Label and ground truth
+ *                   -w <file>  cells file with only cm coordinates, gCluster Label and ground truth
  *
  * Epsilon       -e <epsilon>
  *
@@ -30,13 +32,14 @@ int main(int argc, char* argv[])
  */
     ifstream inPoints; // input file - point
     ifstream inCells;  // input file - cell
-    ifstream inPointsDB; // input file - point DBSCAN
     ifstream inCellsDB;  // input file - cell DBSCAN
 
     ofstream outPoints;
     ofstream outCells;
-    ofstream outPointsDB;
     ofstream outCellsDB;
+
+    ofstream outValidPoints;
+    ofstream outValidCells;
 
     // Variables to deal with files
     int lineNo = 0;
@@ -60,10 +63,13 @@ int main(int argc, char* argv[])
     string outputCell = "";
     string outputCellDefault = "map-cell-gC.csv";
 
-    string outputPointDB = "";
-    string outputPointDBDefault = "map-point-dbscan.csv";
-    string outputCellDB = "";
-    string outputCellDBDefault = "map-cell-dbscan.csv";
+    string outputValidPoint = "";
+    string outputValidPointDefault = "valid-point-gC.csv";
+    string outputValidCells = "";
+    string outputValidCellDefault = "valid-cell-gC.csv";
+
+    string outputCellsDB = "";
+    string outputCellsDBDefault = "map-cell-dbscan.csv";
 
     unsigned epsilon;
 
@@ -77,14 +83,15 @@ int main(int argc, char* argv[])
 
     outputPoint = outputPointDefault;
     outputCell = outputCellDefault;
-    outputPointDB = outputPointDBDefault;
-    outputCellDB = outputCellDBDefault;
+    outputValidPoint = outputValidPointDefault;
+    outputValidCells = outputValidCellDefault;
+    outputCellsDB = outputCellsDBDefault;
 
     // Verify command line options
     //
     // Show help message if -h or there is no command options
 
-    while ((opt = getopt(argc, argv, "p:c:d:b:1:2:3:4:e:h")) != -1)
+    while ((opt = getopt(argc, argv, "e:p:c:d:b:v:w:1:2:3:h")) != -1)
     {
         switch (opt)
         {
@@ -114,11 +121,14 @@ int main(int argc, char* argv[])
         case '2':
             outputCell = optarg;
             break;
-        case '3':
-            outputPointDB = optarg;
+        case 'v':
+            outputValidPoint = optarg;
             break;
-        case '4':
-            outputCellDB = false;
+        case 'w':
+            outputValidCells = optarg;
+            break;
+        case '3':
+            outputCellsDB = optarg;
             break;
         case 'h':
         default: /* '?' */
@@ -135,8 +145,7 @@ int main(int argc, char* argv[])
             cout << "-b <file>\tinput cells DBSCAN file (optional)" << endl;
             cout << "-1 <file>\toutput points file" << endl;
             cout << "-2 <file>\toutput cells file" << endl;
-            cout << "-3 <file>\toutput points DBSCAN file" << endl;
-            cout << "-4 <file>\toutput cells DBSCAN file" << endl;
+            cout << "-3 <file>\toutput cells DBSCAN file" << endl;
             exit(EXIT_FAILURE);
         }
     }
@@ -162,8 +171,7 @@ int main(int argc, char* argv[])
     cout << "Input Cells DBSCAN..: " << inputCellDB << endl;
     cout << "Output Points.......: " << outputPoint << endl;
     cout << "Output Cells........: " << outputCell << endl;
-    cout << "Output Points DBSCAN: " << outputPointDB << endl;
-    cout << "Output Cells DBSCAN.: " << outputCellDB << endl;
+    cout << "Output Cells DBSCAN.: " << outputCellsDB << endl;
     cout << endl <<"Running" << endl;
     cout << "-------" << endl;
 
@@ -252,6 +260,7 @@ int main(int argc, char* argv[])
         newCell.setCenterMass(cm);
         newCell.setLabelgC(atoi(lineCSV[resultgC_posGCLabel()].c_str())); // Take last position of CSV
         newCell.setCellId(atoi(lineCSV[resultgC_posCellId()].c_str()));
+        newCell.setQtyPoints((unsigned long)atoi(lineCSV[resultgC_posQtyPts()].c_str()));
         newCell.setLabelGT(-1);
         newCell.setAdjacent(adjAux);
 
@@ -447,14 +456,17 @@ int main(int argc, char* argv[])
         finalMap.push_back(nAux);
     }
 
+#if PRINT_DEBUG
     cout << "again...." << endl;
     for (vector<int> m : finalMap)
     {
         cout << m[0] << "," << m[1] << endl;
     }
+#endif // PRINT_DEBUG
+
 /*********************************************************
  *
- * 4. Store listCells and listPoints on the disk
+ * 4. Store listCells and listPoints on the disk (map and valid files)
  *
  * Read points and look at listCells to find out the cell
  * it belongs to.
@@ -462,7 +474,13 @@ int main(int argc, char* argv[])
  *
  ********************************************************/
 
-    cout << "Writing point output file: " << outputPoint << endl;
+ /*********************************************************
+ *
+ * 4.1 Write Points
+ *
+ ********************************************************/
+   cout << "Writing point output file: " << outputPoint << endl;
+    cout << "Writing point validation file : " << outputValidPoint << endl;
 
     outPoints.open(outputPoint, std::ifstream::out);
     if (!outPoints.is_open())
@@ -471,17 +489,31 @@ int main(int argc, char* argv[])
         exit (EXIT_FAILURE);
     }
 
+    outValidPoints.open(outputValidPoint, std::ifstream::out);
+    if (!outValidPoints.is_open())
+    {
+        cerr << "Could not open valide point output file:" << outputValidPoint << endl;
+        exit (EXIT_FAILURE);
+    }
+
     // Write header
 
     for (unsigned i = 0; i < dimension; i++)
-        outPoints << headerPointCSV[consolidPts_posDimension()] << ",";
+    {
+        outPoints << headerPointCSV[consolidPts_posDimension()+i] << ",";
+        outValidPoints << headerPointCSV[consolidPts_posDimension()+i] << ",";
+    }
 
     outPoints << "cell-id,label-gC,label-GT" << endl;
+    outValidPoints << "label-gC,label-GT" << endl;
 
     for (rawPoint line : listPoints)
     {
         for (unsigned i = 0; i < dimension; i++)
-            outPoints << line.rawData.coord[i] << ",";
+        {
+            outPoints << line.rawData.coord[consolidPts_posDimension()+i] << ",";
+            outValidPoints << line.rawData.coord[consolidPts_posDimension()+i] << ",";
+        }
 
         int modLabel = line.classAlgo;
         for (vector<int> m : finalMap)
@@ -492,15 +524,22 @@ int main(int argc, char* argv[])
                 break;
             }
         }
-
-
         outPoints << line.cellId << "," << modLabel << "," << line.classGT << endl;
-
+        outValidPoints << modLabel << "," << line.classGT << endl;
     }
 
     outPoints.close();
+    outValidPoints.close();
+
+ /*********************************************************
+ *
+ * 4.1 Write Cells
+ *
+ ********************************************************/
 
     cout << "Writing cell output file: " << outputCell << endl;
+    cout << "Writing cell validation input file: " << outputValidCells << endl;
+    cout << "Writing cell DBSCAN input file: " << outputCellsDB << endl;
 
     outCells.open(outputCell, std::ifstream::out);
 
@@ -510,17 +549,40 @@ int main(int argc, char* argv[])
         exit (EXIT_FAILURE);
     }
 
+    outValidCells.open(outputValidCells, std::ifstream::out);
+    if (!outValidCells.is_open())
+    {
+        cerr << "Could not open output valid cells file:" << outputValidCells << endl;
+        exit (EXIT_FAILURE);
+    }
+
+    outCellsDB.open(outputCellsDB, std::ifstream::out);
+    if (!outValidCells.is_open())
+    {
+        cerr << "Could not open output DBSCAN cells file:" << outputCellsDB << endl;
+        exit (EXIT_FAILURE);
+    }
+
+
     // Write header
 
     for (unsigned i = 0; i < dimension; i++)
-        outCells << headerCellCSV[i] << ",";
+    {
+        outCells << headerCellCSV[resultgC_posDimension()+i] << ",";        outValidCells << headerCellCSV[resultgC_posDimension()+i] << ",";
+        outCellsDB << headerCellCSV[resultgC_posDimension()+i] << ",";
+    }
 
     outCells << "cell-id,label-gC,label-GT" << endl;
+    outValidCells << "label-gC,label-GT" << endl;
+    outCellsDB << "label-gC,label-GT" << endl;
 
     for (Cell c : listCells)
     {
         for (unsigned i = 0; i < dimension; i++)
-            outCells << c.getCenterMass().coord[i] << ",";
+        {
+            outCells << c.getCenterMass().coord[resultgC_posDimension()+i] << ",";
+            outValidCells << c.getCenterMass().coord[resultgC_posDimension()+i] << ",";
+        }
 
         int modLabel = c.getLabelgC();
         for (vector<int> m : finalMap)
@@ -536,381 +598,33 @@ int main(int argc, char* argv[])
             << "," << modLabel
             << "," << c.getLabelGT();
 
+        outValidCells << c.getCellId()
+            << "," << modLabel
+            << "," << c.getLabelGT();
+
         for (int a : c.getAdjacent())
             outCells << "," << a;
 
         outCells << endl;
+        outValidCells << endl;
+
+        // Write qty points of cells to DBSCAN
+        for (unsigned j = 0; j < c.getQtyPoints(); j++)
+        {
+            for (unsigned i = 0; i < dimension; i++)
+                outCellsDB << c.getCenterMass().coord[resultgC_posDimension()+i] << ",";
+
+            outCellsDB << c.getCellId()
+                << "," << modLabel
+                << "," << c.getLabelGT() << endl;
+        }
 
     }
 
     outCells.close();
+    outValidCells.close();
+    outCellsDB.close();
 
-//    // connected Components give labels for clusters and
-//    // for each node store its cluster on g.[<nodeIndex>].clusterIndex
-//    // Also, update an internal vector of graph that store the numbers of nodes each cluster has
-//    // This vector could be gathered by getCluster method
-//    g.connectedComponents(); // Verify the connected components of graph
-//
-//    vector<unsigned> clusters = g.getClusters();
-//
-//    cout << endl
-//         << "\t--------------------" << endl
-//         << "\tCluster\tQty Cells"<< endl
-//         << "\t--------------------" << endl;
-//
-//    unsigned totClusters = 0;
-//    for (unsigned i = 0; i < clusters.size(); i++)
-//    {
-//        if (clusters[i] >= minCells)
-//        {
-//            cout << "\t" << i << "\t" << clusters[i] << endl;
-//            totClusters++;
-//        }
-//    }
-//    cout << "\t----------------------" << endl;
-//    cout << "\t Total Clusters: " << totClusters << endl;
-//    cout << "\t----------------------" << endl << endl;
-//
-//
-//    bool pointFileOk = true;
-//    bool hasGT = true;  // Has Ground truth?
-//
-//    /*
-//    *  2-dimensional vectors to make correspondence between clusters found out by gCluster and Ground Truths
-//    *
-//    *  mapClusters[idxGC][idxGT][0..1] where idxGC = 0 to qty Clusters found - 1
-//    *                                        idxGT = 0 to qty of GT found on idxGC - 1
-//    *
-//    *  mapClusters[idxGC][idxGT][0] = label Ground Truth
-//    * mapClusters[idxGC][idxGT][1] = Qty of occurrences of label Ground Truth on label gCluster
-//    */
-//
-//    vector< vector< vector<int> > >  mapClustersPoints(clusters.size());
-//    vector< vector< vector<int> > >  mapClustersCells(clusters.size());
-//
-//    if (drawPoints)
-//    {
-//
-//        bool procInPoints = true;
-//        headerCSV.resize(0);
-//
-//        while (procInPoints)
-//        {
-//
-//            inPoint.open(inputPoints.c_str());
-//            if (!inPoint)
-//            {
-//                cerr << "Error: Unable to open input file Points: " << endl;
-//                cerr << "\tFile: " << inputPoints << endl;
-//                procInPoints = false;
-//                pointFileOk = false;
-//                continue;
-//            }
-//
-//            if (!getCSVLine(inPoint, headerCSV))
-//            {
-//                cerr << "Error reader Points File (Header) on the first line" << endl;
-//                procInPoints = false;
-//                continue;
-//            }
-//
-//            noFields = headerCSV.size(); // Define number of fields
-//
-//            if (noFields != (dimension + 1)) // Dimension + 1 if has
-//            {
-//                cerr << "Error reading Points File (Header). Number of dimensions doesn't match" << endl;
-//                cerr << "\tFile: " << inputPoints << endl;
-//                procInPoints = false;
-//                pointFileOk = false;
-//                continue;
-//            }
-//
-//            // Start to read CSV file
-//            int r = 0;
-//
-//            lineNo = 1;
-//
-//            // Open file Result
-//            resultFile.open(outputResultPoints, std::ifstream::out);
-//
-//
-//            // Open Map Point file
-//            mapFile.open(outputMapPoints, std::ifstream::out);
-//
-//            for (unsigned i = 0; i < dimension; i++)
-//                resultFile << "Coord-" << i << ",";
-//
-//            resultFile << "class-label,gCluster-label";
-//
-//            if (headerCSV.back() == "_#NO_CLASS#_")
-//            {
-//                resultFile << ",_#NO_CLASS#_";
-//                hasGT = false;
-//            }
-//            else
-//                resultFile << ",ground-truth-label";
-//
-//            resultFile << endl;
-//
-//            while (inPoint && procInPoints)
-//            {
-//                r = getCSVLine(inPoint, lineCSV);
-//                ++lineNo;
-//                if (!r)
-//                {
-//                    cerr << "Error reading CSV File (Data) on Line " << lineNo + 2  << "\n";
-//                    cerr << "\tFile: " << inputPoints << endl;
-//                    procInPoints = false;
-//                    pointFileOk = false;
-//                    continue;
-//                }
-//                if (lineCSV.size() != noFields)
-//                {
-//                    cerr << "Error reading CSV File (Data) on Line " << lineNo + 2 << endl
-//                         << "\tFile: " << inputPoints << endl
-//                         << "\tNumber of fields doesn't match" << endl;
-//                    cerr << "\tNumber of Fields expected: " << noFields << endl;
-//                    cerr << "\tNumber of Fields read: " << lineCSV.size() << endl;
-//                    procInPoints = false;
-//                    pointFileOk = false;
-//                    continue;
-//                }
-//
-//                Point p(dimension); // Center of Mass coordinates
-//
-//                // Read the cell's coordinates from CSV line
-//                for (unsigned i = 0; i < dimension; i++)
-//                    p.coord[i] = stod(lineCSV[i]);
-//
-//                // Verify the cells coordinate, to find out the cluster
-//
-//                vector<int> coordCell; // Cells coordinates
-//
-//                coordCell.resize(dimension);
-//
-//                // Determine the cell's coordinates
-//
-//                for (unsigned i = 0; i < dimension; i++)
-//                    coordCell[i] = (int)(p.coord[i] * epsilon);
-//
-//                int clusterFound = -1;
-//                int labelCell = -1;
-//                for (unsigned i=0; i<listCells.size(); i++) // Search cells
-//                {
-//                    // Compare listCells and current cell
-//                    if (coordCell == listCells[i]->coord) // all coordinates are equal
-//                    {
-//                        // Verify
-//                        labelCell = i;
-//                        if (clusters[g.getClusterIndex(i)] >= minCells)
-//                            clusterFound = g.getClusterIndex(i);
-//                        break;
-//                    }
-//                }
-//
-//                //
-//                // Insert into rawPoints vector
-//
-//                pointGT pRP;
-//
-//                pRP.rawPoint = p;
-//                pRP.classAlgo = clusterFound;
-//                pRP.classGT = atoi(lineCSV.back().c_str());
-//
-//                rawPoints.push_back(pRP);
-//
-//                resultFile << p.coord[0];
-//                for (unsigned i = 1; i < dimension; i++)
-//                    resultFile << "," << p.coord[i];
-//
-//                resultFile << ","<< labelCell;
-//                resultFile << "," << clusterFound;
-//                resultFile << "," << lineCSV.back() << endl;
-//
-//                if (clusterFound >= 0) // is not -1
-//                {
-//                    int idxGC = clusterFound;   // Index of gCluster on the matrix
-//                    int idxGT = -1;             // Index of Ground Truth on the matrix
-//                    // Try to find out GT on matrix of cluster Found
-//                    for (unsigned j = 0; j < mapClustersPoints[idxGC].size(); j++ )
-//                    {
-//                        if (mapClustersPoints[idxGC][j][0] == pRP.classGT)
-//                            idxGT = j;
-//                    }
-//
-//                    // If don't find Ground Truth, create a new matrix
-//                    if (idxGT == -1)
-//                    {
-//                        // Create a new Ground Truth on Map
-//                        vector<int> matAux(2);
-//                        matAux[0] = pRP.classGT;
-//                        matAux[1] = 1;
-//                        mapClustersPoints[idxGC].push_back(matAux);
-//                    }
-//                    else
-//                    {
-//                        mapClustersPoints[idxGC][idxGT][1]++;
-//                    }
-//                }
-//                lineCSV.resize(0);
-//            }
-//
-//            procInPoints = false;
-//        }
-//        inPoint.close();
-//
-//        for (unsigned i = 0; i < clusters.size(); i++)
-//        {
-//            int maxPts = 0;
-//            int labelGT = -1;
-//            if (clusters[i] >= minCells)
-//            {
-//                // Iterate map for cluster i
-//                for (unsigned j = 0; j < mapClustersPoints[i].size(); j++)
-//                {
-//                    if (mapClustersPoints[i][j][1] > maxPts)
-//                    {
-//                        maxPts = mapClustersPoints[i][j][1];
-//                        labelGT = mapClustersPoints[i][j][0];
-//                    }
-//                }
-//                mapFile << i << "," << labelGT << endl;
-//            }
-//        }
-//        resultFile.close();
-//        mapFile.close();
-//    }
-//
-//    // Now rowPoitns has a copy of row result file.
-//
-//    // Creating map to make a relation between cluster labels (label Algo --> label GT)
-//
-//    cout << "\t----------------------------" << endl;
-//    cout << "\t Creating result cells file " << outputResultCells << endl;
-//    cout << "\t----------------------------" << endl;
-//
-//    // Open file Result
-//    resultFile.open(outputResultCells, std::ifstream::out);
-//
-//    // Create header of file
-//    resultFile << "cell-id,cell-label,number-points,";
-//
-//    // Label of center of mass coordinates
-//    for (unsigned i = 0; i < dimension; i++)
-//        resultFile << "CM-" << i << ",";
-//
-//    resultFile << "qty-cells-cluster-greater-equal-" << minCells << ",gCluster-label";
-//
-//    if (rawPoints.size() > 0)
-//    {
-//        if (hasGT)
-//            resultFile << ", ground-truth-cell-label";
-//        else
-//            resultFile << ", _#NO_CLASS#_";
-//    }
-//
-//    resultFile << endl;
-//
-//    // iterate all cells
-//
-//    for (unsigned i = 0; i<(listCells.size()-1); i++)
-//    {
-//        resultFile << i << "," << i << "," << listCells[i]->getQtyPoints() << ",";
-//
-//        Point cm = listCells[i]->getCenterMass();
-//
-//        // Write center of mass coordinates on file
-//        for (unsigned j = 0; j < cm.coord.size(); j++)
-//            resultFile << cm.coord[j] << ",";
-//
-//        int cellClusterIdx;
-//
-//        if (g.getQtyAdjacents(i) <= minCells)
-//            cellClusterIdx = -1;
-//        else
-//            cellClusterIdx = g.getClusterIndex(i);
-//
-//        resultFile  << clusters[g.getClusterIndex(i)]
-//                    << "," << cellClusterIdx;
-//
-//        // Try to find out the closest raw pointer if there is rawPoints
-//
-//        if (rawPoints.size() > 0)
-//        {
-//            double minDist = cm.dist(rawPoints[0].rawPoint);
-//            unsigned posMat = 0;
-//            for (unsigned j = 1; j < rawPoints.size(); j++)
-//            {
-//                double curDist = cm.dist(rawPoints[j].rawPoint);
-//                if (curDist < minDist)
-//                {
-//                    minDist = curDist;
-//                    posMat = j;
-//                }
-//            }
-//
-//            // Found the ground truth for the current cell
-//            if (cellClusterIdx >= 0) // is not -1
-//            {
-//                int idxGC = cellClusterIdx;   // Index of gCluster on the matrix
-//                int idxGT = -1;             // Index of Ground Truth on the matrix
-//                // Try to find out GT on matrix of cluster Found
-//                for (unsigned j = 0; j < mapClustersCells[idxGC].size(); j++ )
-//                {
-//                    if (mapClustersCells[idxGC][j][0] == rawPoints[posMat].classGT)
-//                        idxGT = j;
-//                }
-//
-//                // If don't find Ground Truth, create a new matrix
-//                if (idxGT == -1)
-//                {
-//                    // Create a new Ground Truth on Map
-//                    vector<int> matAux(2);
-//                    matAux[0] = rawPoints[posMat].classGT;
-//                    matAux[1] = 1;
-//                    mapClustersCells[idxGC].push_back(matAux);
-//                }
-//                else
-//                {
-//                    mapClustersCells[idxGC][idxGT][1]++;
-//                }
-//            }
-//
-//            listCells[i]->cellGT = rawPoints[posMat].classGT;
-//            resultFile << "," << rawPoints[posMat].classGT;
-//
-//        }
-//        resultFile << endl;
-//    }
-//
-//    resultFile.close();
-//
-//    if (rawPoints.size() > 0)
-//    {
-//        // Open map result
-//        mapFile.open(outputMapCells, std::ifstream::out);
-//
-//        for (unsigned i = 0; i < clusters.size(); i++)
-//        {
-//            int maxPts = 0;
-//            int labelGT = -1;
-//            if (clusters[i] >= minCells)
-//            {
-//                // Iterate map for cluster i
-//                for (unsigned j = 0; j < mapClustersCells[i].size(); j++)
-//                {
-//                    if (mapClustersCells[i][j][1] > maxPts)
-//                    {
-//                        maxPts = mapClustersCells[i][j][1];
-//                        labelGT = mapClustersCells[i][j][0];
-//                    }
-//                }
-//                mapFile <<  i << "," <<  labelGT << endl;
-//            }
-//        }
-//        mapFile.close();
-//    }
-//
     exit(EXIT_SUCCESS);
 
 }

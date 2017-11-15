@@ -15,17 +15,7 @@
 #
 import sys
 import os
-import time
-import validation
 from subprocess import call
-
-def cleanDirectory(dirName):
-    if os.path.exists(dirName):
-        # Remove and create directories
-        for i in os.listdir(dirName):
-            os.remove(os.path.join(dirName, i))
-        os.removedirs(dirName)
-    os.makedirs(dirName)
 
 
 def isfloat(value):
@@ -40,15 +30,11 @@ def showError(msgErr):
     print("Error on script")
     print("---------------")
     print(msgErr)
-    fLog.write("Error on script "+msgErr + "\n")
     exit(1)
 
-def writeLog(msgLog):
-    fLog.write(time.strftime('%d/%m/%Y %a %H:%M:%S') + ":" + msgLog)
-    return;
 
 def showHeader():
-    print("gCluster algorithm - Script to all phases")
+    print("Grid Clustering algorithm - Script to all phases")
     print("Developed by Ricardo Brandao: https://github.com/programonauta/grid-clustering")
     print("------------------------------------------------------------------------------")
 
@@ -64,6 +50,7 @@ def showHelp():
     print("\t-g\t\tDon't draw edges")
     print("\t-p\t\tDraw points")
     print("\t-b\t\tDraw numbers")
+    print("\t-x\t\tDon't use prefix")
     return
 
 
@@ -180,6 +167,10 @@ if optNumber:
 else:
     optNumber = ""
 
+hasOptNotPrefix, opt = parseOpt("-x", False)
+
+hasOptNotPrefix, opt = parseOpt("-x", False)
+
 # Starting process
 #
 # First, let's verify if output directories are created and create them is not exist
@@ -187,19 +178,16 @@ else:
 nameDirAux = nameDir.split('/')
 nameSingleDir = nameDirAux[len(nameDirAux) - 1]
 
-dirSumDataOutput = nameDir + "/central/1.sumDataOutput"
-dirConsolidateOutput = nameDir + "/central/2.deviceConsolidation"
-dirGetClusterOutput = nameDir + "/central/3.getClusterOutput"
-dirStatClusterOutput = nameDir + "/central/4.statClusterOutput"
-dirValidClusterInput = "validClusterInput"
+dirSumDataOutput = nameDir + "/central/devicesCells"
+dirConsolidateOutput = nameDir + "/central/consolidate"
+dirGetClusterOutput = nameDir + "/central/results"
 
-logFile = nameDir + "/" + nameSingleDir + ".log"
-
-cleanDirectory(dirSumDataOutput)
-cleanDirectory(dirConsolidateOutput)
-cleanDirectory(dirGetClusterOutput)
-cleanDirectory(dirStatClusterOutput)
-cleanDirectory(dirValidClusterInput)
+if not os.path.exists(dirSumDataOutput):
+    os.makedirs(dirSumDataOutput)
+if not os.path.exists(dirConsolidateOutput):
+    os.makedirs(dirConsolidateOutput)
+if not os.path.exists(dirGetClusterOutput):
+    os.makedirs(dirGetClusterOutput)
 
 configFile = nameDir + "/config/config-" + nameSingleDir + ".csv"
 mapDirectory = nameDir + "/config"
@@ -208,51 +196,38 @@ qtyFiles = 0
 listCellsFiles = []
 listPointFiles = []
 
-fLog = open(logFile, "a")
-
-writeLog("Directory: " + nameDir + "\n")
-writeLog("   Config File: " + configFile  + "\n")
-writeLog("   Epsilon..: " + str(epsilon)  + "\n")
-writeLog("   sumData"  + "\n")
-
 for file in os.listdir(dirInput):
     if file.endswith(".csv"):
         qtyFiles += 1;
         completeFileName = dirInput + file
         strN = "%02d" % qtyFiles
         # Deal Cell files
-        cellDataOutput = dirSumDataOutput + "/cell-" + nameSingleDir  + "-" + strN + ".csv"
-        listCellsFiles.append(cellDataOutput)
+        cellOutput = dirSumDataOutput + "/cell-" + nameSingleDir  + "-" + strN + ".csv"
+        listCellsFiles.append(cellOutput)
         # Deal point files
-
-        writeLog("   File Input:......" + completeFileName + "\n")
-        writeLog("   File Cell Output.:" + cellDataOutput + "\n")
-
         if (optPoint == ""):
-            pointConsOutput = ""
+            pointOutput = ""
         else:
-            pointConsOutput = dirSumDataOutput + "/point-" + nameSingleDir + "-" + strN + ".csv"
-            writeLog("   File Point Output:" + pointConsOutput + "\n")
-            listPointFiles.append(pointConsOutput)
-
+            pointOutput = dirSumDataOutput + "/point-" + nameSingleDir + "-" + strN + ".csv"
+            listPointFiles.append(pointOutput)
         result = call(["../sumData/bin/sumData",
                        "-e", str(epsilon),
                        "-i", completeFileName,
-                       "-c", cellDataOutput,
+                       "-c", cellOutput,
                        "-x", configFile,
-                       optPoint, pointConsOutput])
+                       optPoint, pointOutput])
         if result > 0:
-            showError("sumData: Script ended with error number: " + str(result) + \
+            showError("Script ended with error number: " + str(result) + \
                       "\nProcessing file " + completeFileName)
 
 if qtyFiles == 0:
     showError("There is no csv files on directory " + dirInput)
 
-cellConsOutput = dirConsolidateOutput + "/cells-" + nameSingleDir + ".csv"
-pointConsOutput = dirConsolidateOutput + "/points-" + nameSingleDir + ".csv"
+cellOutput = dirConsolidateOutput + "/cells-" + nameSingleDir + ".csv"
+pointOutput = dirConsolidateOutput + "/points-" + nameSingleDir + ".csv"
 
 # Open cell output to write on it
-fileCellConsOutput = open(cellConsOutput, "w")
+fileCellOutput = open(cellOutput, "w")
 
 for i in range(len(listCellsFiles)):
     fInd = open(listCellsFiles[i], "r")  # open first cell
@@ -263,19 +238,17 @@ for i in range(len(listCellsFiles)):
             lineWr = ""
 
         if len(lineWr) > 0:
-            fileCellConsOutput.write(lineWr)
+            fileCellOutput.write(lineWr)
 
         firstLine = False
 
     fInd.close()
 
-fileCellConsOutput.close()
-
-writeLog("Cells consolidation to file: " + cellConsOutput + " OK"  + "\n")
+fileCellOutput.close()
 
 # Open point output to write on it
 if len(listPointFiles) > 0:
-    filePointConsOutput = open(pointConsOutput, "w")
+    filePointOutput = open(pointOutput, "w")
 
 for i in range(len(listPointFiles)):
     fInd = open(listPointFiles[i], "r")  # open first point
@@ -286,82 +259,41 @@ for i in range(len(listPointFiles)):
             lineWr = ""
 
         if len(lineWr) > 0:
-            filePointConsOutput.write(lineWr)
+            filePointOutput.write(lineWr)
         firstLine = False
     fInd.close()
 
 if len(listPointFiles) > 0:
-    filePointConsOutput.close()
-    writeLog("Points consolidation to file: " + pointConsOutput + " OK" + "\n")
+    filePointOutput.close()
 
 # Run getCluster
 
-svgOutput = dirGetClusterOutput + "/graph-" + nameSingleDir + ".svg"
-fileGetClusterOutput = dirGetClusterOutput + "/gCluster-result-" + nameSingleDir + ".csv"
+if hasOptNotPrefix:
+    prefix = ""
+else:
+    prefix = ("e%03df%06.4f-" % (epsilon, force))
 
-writeLog("getCluster" + "\n")
-writeLog("   Epsilon..: "+str(epsilon) + "\n")
-writeLog("   Min Force: "+str(force) + "\n")
-writeLog("   Min Cells: "+str(minCell) + "\n")
-writeLog("   Input....: " + cellConsOutput + "\n")
-writeLog("   Output...: " + fileGetClusterOutput + "\n")
+svgOutput = dirGetClusterOutput + "/" + prefix + "graph-" + nameSingleDir + ".svg"
+resultPointsOutput = dirGetClusterOutput + "/" + prefix + "points-result-" + nameSingleDir + ".csv"
+resultCellsOutput = dirGetClusterOutput + "/" + prefix + "cells-result-" + nameSingleDir + ".csv"
 
 result = call(["../getCluster/bin/getCluster",
                "-e", str(epsilon),
                "-m", str(minCell),
                "-f", str(force),
-               "-i", cellConsOutput,
-               "-o", fileGetClusterOutput, ])
+               optRect,
+               optEdge,
+               optPoint, pointOutput,
+               optNumber,
+               "-s", svgOutput,
+               "-t", resultPointsOutput,
+               "-l", resultCellsOutput,
+               "-k", mapDirectory,
+               "-x", prefix,
+               "-i", cellOutput])
 
-fileStatOutputCell = dirStatClusterOutput + "/map-cell-" + nameSingleDir + ".csv"
-fileStatOutputPoint = dirStatClusterOutput + "/map-point-" + nameSingleDir + ".csv"
-fileStatOutputDBSCAN = dirStatClusterOutput + "/map-cell-DBSCAN-" + nameSingleDir + ".csv"
-
-fileValidOutputCell = dirValidClusterInput + "/valid-cell-" + nameSingleDir + ".csv"
-fileValidOutputPoint = dirValidClusterInput + "/valid-point-" + nameSingleDir + ".csv"
-
-optPointOut = ""
-
-if (optPoint == "-p"):
-
-    writeLog("statCluster \n")
-    writeLog("   Epsilon............: " + str(epsilon) + "\n")
-    writeLog("   Input Cell.........: " + fileGetClusterOutput + "\n")
-    writeLog("   Map Cell gCluster..: " + fileStatOutputCell + "\n")
-    writeLog("   Input Point........: " + pointConsOutput + "\n")
-    writeLog("   Map Point gCluster.: " + fileStatOutputPoint + "\n")
-    writeLog("   Map DBSCAN.........: " + fileStatOutputDBSCAN + "\n")
-    writeLog("   Valid Cell.........: " + fileValidOutputCell + "\n")
-    writeLog("   Valid Point........: " + fileValidOutputPoint + "\n")
-
-
-    result = call(["../statCluster/bin/statCluster",
-                   "-p", pointConsOutput,
-                   "-e", str(epsilon),
-                   "-c", fileGetClusterOutput,
-                   "-1", fileStatOutputPoint,
-                   "-v", fileValidOutputPoint,
-                   "-w", fileValidOutputCell,
-                   "-3", fileStatOutputDBSCAN])
-
-    if result > 0:
-        showError("Error on statCluster. Input file" + cellConsOutput)
-
-    r, response = validation.validation(fileValidOutputPoint);
-    if r:
-        writeLog("-----\n")
-        writeLog("   FM for gCluster Points: " + str(response) + "\n")
-    else:
-        writeLog("Some problem on validation process\n")
-
-    r, response = validation.validation(fileValidOutputCell);
-    if r:
-        writeLog("   FM for gCluster Cells.: " + str(response) + "\n")
-    else:
-        writeLog("Some problem on validation process\n")
-
-
-
-else:
-    writeLog("statCluster: didn't execute. Don't have -p option")
-
+result = call(["python",  "validation.py",
+              "-d", nameDir,
+              "-t", "p",
+              "-pr", prefix,
+              "-m", nameDir + "/config/" + prefix + "points-map.csv"])

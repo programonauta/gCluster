@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="-c ..\scripts\ map-cell-gC.csv -p ..\data\chameleonGT\central\consolidate\points-chameleonGT.csv -e 50" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -31,8 +32,24 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="../include" />
+			<Add directory="../point" />
+			<Add directory="../csv-reader" />
+			<Add directory="../src" />
+			<Add directory="include" />
+			<Add directory="../graphs" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="../csv-reader/csv-reader.cpp" />
+		<Unit filename="../csv-reader/csv-reader.h" />
+		<Unit filename="../include/cell.h" />
+		<Unit filename="../include/csvDefinitions.h" />
+		<Unit filename="../include/gCluster.h" />
+		<Unit filename="../point/point.cpp" />
+		<Unit filename="../point/point.h" />
+		<Unit filename="../src/cell.cpp" />
+		<Unit filename="../src/gcluster.cpp" />
+		<Unit filename="include/statCluster.h" />
+		<Unit filename="statCluster.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

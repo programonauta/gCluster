@@ -31,7 +31,9 @@ public:
  *
  */
     unsigned getDimension();
+
     unsigned long getQtyPoints();
+    void setQtyPoints(unsigned long);
 
     int getLabelGT();
     void setLabelGT(int label);

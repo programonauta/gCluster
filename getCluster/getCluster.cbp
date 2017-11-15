@@ -11,7 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
-				<Option parameters=" -e 35 -f 0.205 -i ../data/Agregation/central/consolidate/cells-Agregation.csv -p ../data/Agregation/central/consolidate/points-Agregation.csv" />
+				<Option parameters=" -e 50 -f 0.088 -i ..\scripts\cells.csv -o ..\scripts\resultCells.csv" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -44,12 +44,13 @@
 		<Unit filename="../graphs/graphs.cpp" />
 		<Unit filename="../graphs/graphs.h" />
 		<Unit filename="../include/cell.h" />
+		<Unit filename="../include/gCluster.h" />
 		<Unit filename="../point/point.cpp" />
 		<Unit filename="../point/point.h" />
 		<Unit filename="../src/cell.cpp" />
+		<Unit filename="../src/gcluster.cpp" />
 		<Unit filename="README.md" />
 		<Unit filename="getCluster.cpp" />
-		<Unit filename="include/getCluster.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

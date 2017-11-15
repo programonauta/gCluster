@@ -11,6 +11,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters="-e 50 -c ..\scripts\map-cell-gC.csv -b" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
@@ -31,8 +32,23 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="../include" />
+			<Add directory="../point" />
+			<Add directory="../csv-reader" />
+			<Add directory="../src" />
+			<Add directory="include" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="../csv-reader/csv-reader.cpp" />
+		<Unit filename="../csv-reader/csv-reader.h" />
+		<Unit filename="../include/cell.h" />
+		<Unit filename="../include/csvDefinitions.h" />
+		<Unit filename="../include/gCluster.h" />
+		<Unit filename="../point/point.cpp" />
+		<Unit filename="../point/point.h" />
+		<Unit filename="../src/cell.cpp" />
+		<Unit filename="../src/gcluster.cpp" />
+		<Unit filename="drawCluster.cpp" />
+		<Unit filename="include/drawCluster.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

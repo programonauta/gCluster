@@ -41,6 +41,12 @@ unsigned long Cell::getQtyPoints()
     return this->qtyPoints;
 }
 
+void Cell::setQtyPoints(unsigned long qty)
+{
+    this->qtyPoints = qty;
+    return;
+}
+
 void Cell::setLabelGT(int label)
 {
     this->labelGT = label;

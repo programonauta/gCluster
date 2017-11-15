@@ -43,7 +43,7 @@
 #define resultgC_qtyFixedLabels 4
 #define resultgC_posDimension() 0
 #define resultgC_posCellId() dimension + 0
-#define resultgC_posNumberPts() dimension + 1
+#define resultgC_posQtyPts() dimension + 1
 #define resultgC_posConnCells() dimension + 2
 #define resultgC_posGCLabel() dimension + 3
 #define resultgC_posAdjacent() dimension + 4

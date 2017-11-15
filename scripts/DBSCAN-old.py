@@ -1,7 +1,5 @@
 import csv
 
-import time
-import validation
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cluster import DBSCAN
@@ -11,9 +9,6 @@ from sklearn.preprocessing import StandardScaler
 import os
 import sys
 
-def writeLog(msgLog):
-    fLog.write(time.strftime('%d/%m/%Y %a %H:%M:%S') + ":" + msgLog + "\n")
-    return;
 
 def isfloat(value):
     try:
@@ -40,11 +35,13 @@ def showError(msgErr):
 def showHelp():
     print("\tOptions\t\tDescription")
     print("\t-h\t\tShow this help")
-    print("\t-i <file>\tinput file")
-    print("\t-o <file>\toutput file")
+    print("\t-d <dir>\tDirectory of files")
+    print("\t-pr <pre>\tPrefix of files (e<epsilon>f<force (with 4 decimals)> - Ex. e014f0.1500)")
+    print("\t-t <opt>\t<opt> = c or p (for cells or points respectively)")
     print("\t-e <value>\tEpsilon value")
     print("\t-m <value>\tMin points value")
     print("\t-l\t\tPrint legend")
+    print("\t-x\t\tDon't create files with prefix")
     return
 
 
@@ -84,61 +81,55 @@ def dbFun(_x, _original_vals, epsilon, minPts, hasLegend):
     labels = db.labels_
     # print(labels)
 
-    #create a map label DBSCAN x label Ground Truth
+    fileOutput = open(DBSCANOutput, "w")
 
-    maps = []  # Initalize map vector
-    finalMap = []
 
-    j = 0
-    for i in _original_vals:
-        labelDB = labels[j]
-        j += 1
-        labelGT = int(i[-1])
-        found = False
-        for k in maps:
-            if k[0] == labelDB and k[1] == labelGT:
-                found = True
-                k[2] += 1
-                break;
-        if not found:
-            maps.append([labelDB, labelGT, 1])
+    if fileType == "p":
+        j = 0
+        for i in _original_vals:
+            # write line (x, y, label found by DBSCAN, ground truth
+            strCSV = str(i[0]) + "," + str(i[1]) + "," + str(labels[j]) + "," + str(int(i[2])) + "\n"
+            j += 1
+            fileOutput.write(strCSV)
 
-    for label in set(labels):
-        max = 0;
-        labelGT = -2
-        for k in maps:
-            if k[0] == label:
-                if k[2] > max:
-                    max = k[2]
-                    labelGT = k[1]
-        finalMap.append([label, labelGT])
+        fileOutput.close()
+    else:
+        # Create a file to compare
 
-    fOut = open(outputFile, "w")
+        totPts = 0
+        fileOutput = open(DBSCANOutput, "w")
+        with open(inputGT, 'rU') as inp:
+            rd = csv.reader(inp)
+            qty = 0
+            first = True
+            for row in rd:
+                if first:
+                    first = False
+                    if row[-1] == "_#NO_CLASS#_":
+                        break
+                    continue
+                totPts += 1
+                print("Line: ", totPts, end='\r', flush=True)
+                p1 = [float(row[0]), float(row[1])]
+                min = 99999
+                labelDB = -1
+                j = 0
+                for i in _original_vals:
+                    d = distPt(i, p1)
+                    if d < min and d <= minPts:
+                        min = d
+                        labelDB = labels[j]
+                    j += 1
 
-    j = 0
-    for i in _original_vals:
-        # write line (x, y, label found by DBSCAN, ground truth
-        # find correspondent label
-
-        labelDB = labels[j]
-        for k in finalMap:
-            if labelDB == k[0]:
-                labelDB = k[1]
-
-        strCSV = str(i[0]) + "," + str(i[1]) + "," + str(labelDB) + "," + str(int(i[-1])) + "\n"
-        j += 1
-        fOut.write(strCSV)
-
-    fOut.close()
+                # Now j has the label found on DBSCAN to point row
+                strCSV = str(row[0]) + "," + str(row[1]) + "," + str(labelDB) + "," + row[-1] + "\n"
+                fileOutput.write(strCSV)
 
     n_clusters_ = len(set(labels)) - (1 if -1 else 0)
-
     title = ('Estimated number of clusters: %d' % n_clusters_)
     subtitle = ('Epsilon = %f, minPts = %d' % (epsilon,minPts))
     print('Estimated number of clusters: %d' % n_clusters_)
-
-    writeLog("   Clusters...: " + str(n_clusters_))
-
+    print("Output file: ", DBSCANOutput)
     print("Wait plotting clusters.....")
     plotCluster(_original_vals, labels, core_samples_mask, title, subtitle, hasLegend)
     return
@@ -171,12 +162,6 @@ def plotCluster(_x, labels, core_samples_mask, title, subtitle, legend):
     plt.show()
     return
 
-dirName = "resultsDBSCAN"
-if not os.path.exists(dirName):
-    os.makedirs(dirName)
-
-logFile = dirName + "/logDBSCAN.log"
-fLog = open(logFile, "a")
 
 _val = []
 
@@ -190,24 +175,46 @@ if (hasHelp > 0):
     showHelp()
     exit(1)
 
-# verify if input file is defined
-hasInput, inputFile = parseOpt("-i", True)
+# verify if directory is defined
+hasDir, nameDir = parseOpt("-d", True)
 
 # replace "\\" by "/". In windows machines uses "\" for subdirectories. Python could handle with / in all OSs.
-inputFile = inputFile.replace("\\", "/")
+nameDir = nameDir.replace("\\", "/")
 
-if not hasInput:
+if hasDir:
+    if nameDir == "":
+        showError("Directory is not informed")
+    if not os.path.isdir(nameDir):
+        showError(nameDir + " is not a Directory")
+    dirInput = nameDir + "/central/results"
+    if not os.path.isdir(dirInput):
+        showError(dirInput + " subdirectory not found on ")
+else:
     showHelp()
-    showError("-i option not found. Must inform input file")
+    showError("-d option not found")
 
-# verify if output file is defined
-hasOutput, outputFile = parseOpt("-o", True)
+hasPrefix, prefix = parseOpt("-pr", True)
 
-if not hasOutput:
-    outputFile = "valid-DBSCAN.csv"
+hasNotOutputPrefix, opt = parseOpt("-x", False)
 
-# replace "\\" by "/". In windows machines uses "\" for subdirectories. Python could handle with / in all OSs.
-outputFile = outputFile.replace("\\", "/")
+if prefix == "":
+    print("--------------------------------")
+    print("Prefix of file was not informed!")
+    print("Have any doubt? Run this with -h")
+    print("--------------------------------")
+    # exit(1)
+else:
+    prefix = prefix + "-"
+
+hasType, fileType = parseOpt("-t", True)
+
+if hasType:
+    if fileType == "":
+        showError("File type not informed")
+    if fileType != "c" and fileType != "p":
+        showError("File type (" + fileType + ") wrong. Enter c or p (cell or point)")
+else:
+    showError("File type not informed. Please use -t <c> or <p> option")
 
 # verify Epsilon
 hasEpsilon, epsilon = parseOpt("-e", True)
@@ -233,12 +240,32 @@ else:
 
 hasLegend, opt = parseOpt("-l", False)
 
-qtyClusters = 0
+nameDirAux = nameDir.split('/')
+nameSingleDir = nameDirAux[len(nameDirAux) - 1]
+dirDBSCANOutput = nameDir + "/central/DBSCAN"
+
+if hasNotOutputPrefix:
+    prefixDBSCAN = ""
+else:
+    prefixDBSCAN = "e%06.4fm%03d-" % (epsilon, minPts)
+
+if fileType == "c":
+    prefixDBSCAN += "cells-"
+    inputFile = dirInput + "/" + prefix + "cells-result-" + nameSingleDir + ".csv"
+else:
+    prefixDBSCAN += "points-"
+    inputFile = dirInput + "/" + prefix + "points-result-" + nameSingleDir + ".csv"
+
+
+if not os.path.exists(dirDBSCANOutput):
+    os.makedirs(dirDBSCANOutput)
 
 print("Input file: ", inputFile)
-print("Output file: ", outputFile)
-print("Epsilon: ", epsilon)
-print("MinPts: ", minPts)
+
+DBSCANOutput = dirDBSCANOutput + "/" + prefixDBSCAN + "DBSCAN-" + nameSingleDir + ".csv"
+
+inputGT = nameDir + "/central/consolidate/points-" + nameSingleDir + ".csv"
+outputGT = dirDBSCANOutput + "/" + prefixDBSCAN + "DBSCAN-Compare-" + nameSingleDir + ".csv"
 
 with open(inputFile, 'rU') as inp:
     rd = csv.reader(inp)
@@ -248,29 +275,25 @@ with open(inputFile, 'rU') as inp:
         if first:
             first = False
         else:
-            qty += 1
-            # _val receive: x, y and ground truth
-            _val.append([row[0], row[1], row[-1]])
+            if fileType == "c":
+                repeat = int(row[2])
+                pos = [3, 4]
+                gt = -1  # last position
+            else:
+                repeat = 1
+                pos = [0, 1]
+                gt = -1  # last position
+            for i in (range(repeat)):
+                qty += 1
+                # _val receive: x, y and ground truth
+                _val.append([row[pos[0]], row[pos[1]], row[gt]])
     print("Total Points:", qty)
-
+    # print(_center)
 _val = np.asarray(_val)
 _val_original = _val
 _val_original = _val_original.astype('float32')
 _val = StandardScaler().fit_transform(_val_original)
 
-writeLog("epsilon: " + str(epsilon) + " minPts: " + str(minPts))
-writeLog("   Input File.: " + inputFile)
-writeLog("   Output File: " + outputFile)
-
 dbFun(_val, _val_original, epsilon, minPts, hasLegend)
-
-print("Calculating FM...")
-ok, result = validation.validation(outputFile)
-
-print("fm", result)
-
-writeLog("   FM.........: " + str(result))
-
-fLog.close()
 
 # _len = len(_center)

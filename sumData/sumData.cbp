@@ -39,9 +39,11 @@
 		<Unit filename="../csv-reader/csv-reader.cpp" />
 		<Unit filename="../csv-reader/csv-reader.h" />
 		<Unit filename="../include/cell.h" />
+		<Unit filename="../include/gCluster.h" />
 		<Unit filename="../point/point.cpp" />
 		<Unit filename="../point/point.h" />
 		<Unit filename="../src/cell.cpp" />
+		<Unit filename="../src/gcluster.cpp" />
 		<Unit filename="README.md" />
 		<Unit filename="sumData.cpp" />
 		<Extensions>

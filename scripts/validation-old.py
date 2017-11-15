@@ -13,7 +13,7 @@ import itertools
 
 
 def showHeader():
-    print("gClustering algorithm - Script to validate results")
+    print("Grid Clustering algorithm - Script to validate results")
     print("Developed by Ricardo Brandao: https://github.com/programonauta/grid-clustering")
     print("------------------------------------------------------------------------------")
 
@@ -28,8 +28,13 @@ def showError(msgErr):
 def showHelp():
     print("\tOptions\t\tDescription")
     print("\t-h\t\tShow this help")
-    print("\t-i <file>\tInput file")
-    print("\t-p <pos1,pos2>\tList of colmuns of Algorithm 1 and Ground truth on csv file (Ex.: -p 5,6)/")
+    print("\t-d <dir>\tDirectory of files")
+    print("\t-m <file>\tFile with map of indexes")
+    print("\t-t <opt>\t<opt> = c or p (for cells or points respectively)")
+    print("\t-pr <pre>\tPrefix of files")
+    print("\t\t\t if gGluster pr = (e<epsilon (3 digits)>f<force (with 4 decimals)> - Ex. e014f0.1500)")
+    print("\t\t\t if DBSCAN pr = (e<epsilon (4 decimals)>m<minPts (with 3 digits)> - Ex. e0.1100m003)")
+    print("\t-b\t\tUse this if you'll validate DBSCAN")
     return
 
 def parseOpt(opt, hasArgument):
@@ -62,31 +67,104 @@ if (hasHelp > 0):
     showHelp()
     exit(1)
 
-hasPosition, matPosition = parseOpt("-p", True)
-if matPosition == "":
-    posAlgo = -2
-    posGT = -1
+hasPrefix, prefix = parseOpt("-pr", True)
+
+if prefix == "":
+    print("--------------------------------")
+    print("Prefix of file was not informed!")
+    print("Have any doubt? Run this with -h")
+    print("--------------------------------")
 else:
-    matPosition = matPosition.split(",")
-    posAlgo = int(matPosition[0])
-    posGT = int(matPosition[1])
+    prefix = prefix + "-"
 
-if (posAlgo == posGT):
-    print("Error on columns of Labels: the parameter informed was decoded by ", posAlgo, " and ", posGT)
-    exit(1)
+isDBSCAN, opt = parseOpt("-b", False)
 
-print("Columns of Labels: (Algorithm, GT): (",posAlgo,",",posGT,")" )
+# verify if directory is defined
+hasDir, nameDir = parseOpt("-d", True)
 
-hasFile, inputFile = parseOpt("-i", True)
-
-if (inputFile == ""):
-    showError("Input file not informed")
-    exit(1)
+hasMap, mapFile = parseOpt("-m", True)
 
 # replace "\\" by "/". In windows machines uses "\" for subdirectories. Python could handle with / in all OSs.
-inputFile = inputFile.replace("\\", "/")
+nameDir = nameDir.replace("\\", "/")
+
+if hasDir:
+    if nameDir == "":
+        showError("Directory is not informed")
+    if not os.path.isdir(nameDir):
+        showError(nameDir + " is not a Directory")
+    if isDBSCAN:
+        dirInput = nameDir + "/central/DBSCAN"
+    else:
+        dirInput = nameDir + "/central/results"
+    if not os.path.isdir(dirInput):
+        showError(dirInput + " subdirectory not found")
+else:
+    showHelp()
+    showError("-d option not found")
+
+nameDirAux = nameDir.split('/')
+nameSingleDir = nameDirAux[len(nameDirAux) - 1]
+
+hasType, fileType = parseOpt("-t", True)
+
+if hasType:
+    if fileType == "":
+        showError("File type not informed")
+    if fileType != "c" and fileType != "p":
+        showError("File type (" + fileType + ") wrong. Enter c or p (cell or point)")
+else:
+    showError("File type not informed. Please use -t <c> or <p> option")
+
+if prefix[-2:] == "--":
+    prefix = prefix[:-1]
+
+if fileType == "c":
+    prefix += "cells-"
+else:
+    prefix += "points-"
+
+if isDBSCAN:
+    if (mapFile == ""):
+        mapFile = nameDir + "/config/" + prefix + "map-DBSCAN-" + nameSingleDir + ".csv"
+    inputFile = dirInput + "/" + prefix + "DBSCAN-" + nameSingleDir + ".csv"
+else:
+    if (mapFile == ""):
+        mapFile = nameDir + "/config/" + prefix + "map-" + nameSingleDir + ".csv"
+    inputFile = dirInput + "/" + prefix + "result-" + nameSingleDir + ".csv"
 
 # Create matMap list where there is the correspondence btw cluster number found and the ground truth
+fInd = open(mapFile, "r")
+matMap = []
+for line in fInd:
+    CSVLine = line.split(",")
+    for i in range(len(CSVLine)):
+        CSVLine[i] = int(CSVLine[i])
+    matMap.append(CSVLine)
+
+fInd.close()
+
+if isDBSCAN:
+    pre = "DBSCAN "
+    type = " DBSCAN "
+else:
+    pre = ""
+    type = "gCluster"
+
+print(pre + "Map File read  :" + mapFile)
+print(pre + "Input File read:" + inputFile)
+print("-----------------------")
+print("labels")
+print(type+" | Ground Truth")
+print("-----------------------")
+
+for l in matMap:
+    print("    %4d | %4d" %(l[0],l[1]))
+
+
+print()
+print(pre + "Map File with ", len(matMap), "registers")
+input("Please confirm map file")
+
 print("Reading file", inputFile)
 
 fInd = open(inputFile, "r")
@@ -101,10 +179,24 @@ minCells = 0
 for line in fInd:
     CSVLine = line.split(",")
     if first:
+        if not isDBSCAN and fileType == "c":  # Get the minCells on the header
+            headerMinCell = CSVLine[-3].split("-")
+            minCells = int(headerMinCell[-1])
         first = False
         continue
 
-    aux = [int(CSVLine[posAlgo]), int(CSVLine[posGT])]
+    # If reading cells and not DBSCAN, must ignore lines with cells cluster < min cells
+    # if not isDBSCAN and fileType == "c":  # Get the minCells on the header
+    #     qtyCells = int(CSVLine[-3])
+    #     if qtyCells < minCells:
+    #         continue
+
+    aux = [int(CSVLine[-2]), int(CSVLine[-1])]
+    # Search cluster number int map matrix
+    for i in matMap:
+        if aux[0] == i[0]:
+            aux[0] = i[1]
+            break
     matClusters.append(aux)
 
 #
