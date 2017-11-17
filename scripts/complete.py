@@ -347,6 +347,8 @@ if (optPoint == "-p"):
     if result > 0:
         showError("Error on statCluster. Input file" + cellConsOutput)
 
+    print("Validating Points")
+
     r, response = validation.validation(fileValidOutputPoint);
     if r:
         writeLog("-----\n")
@@ -354,7 +356,9 @@ if (optPoint == "-p"):
     else:
         writeLog("Some problem on validation process\n")
 
-    r, response = validation.validation(fileValidOutputCell);
+    print("Validating Cells")
+
+    r, response = validation.validation(fileStatOutputDBSCAN);  # Actually this file has all points
     if r:
         writeLog("   FM for gCluster Cells.: " + str(response) + "\n")
     else:
