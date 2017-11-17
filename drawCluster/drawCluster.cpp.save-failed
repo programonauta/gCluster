@@ -51,7 +51,7 @@ string strSVGTextCell(float graphMult, unsigned epsilon, int x, int y,
             << "font-family=\"Times New Roman\" "
             << "font-size=\"" << graphMult * (1/(double)epsilon) * 0.25 <<"cm\" "
             << "stroke=\"none\" fill=\"" << color << "\" > "
-            << "Lb:" << cellgC
+            << "Cl:" << cellgC
             << "</text>" << endl;
 
     if (cellGT > -2)
@@ -187,8 +187,8 @@ int main(int argc, char* argv[])
             cout << endl;
             cout << "OPTIONS: " << endl;
             cout << "-e <value>\tEpsilon (required)" << endl;
-            cout << "-p <file>\tinput points file - Consolidate" << endl;
-            cout << "-c <file>\tinput cells file (required) - Map cells file" << endl;
+            cout << "-p <file>\tinput points file (required)" << endl;
+            cout << "-c <file>\tinput cells file (required)" << endl;
             cout << "-s <file>\tSVG output file (" << svgOutputDefault << ")" << endl;
             cout << "-r don't draw rectangles" << endl;
             cout << "-g don't draw edges" << endl;
@@ -616,11 +616,11 @@ int main(int argc, char* argv[])
             string colorPoint = "none";
             string opacity = "1.0";
             string width = "0.03";
-            double radio = (drawNumbers?0.004:0.002);
+            double radio = 0.004;
 
             if (labelGT >= 0)
             {
-                colorPoint = colors[(labelGT)%colors.size()];
+                colorPoint = colors[(labelGT+5)%colors.size()];
                 opacity = "0.4";
                 width = "0.05";
                 radio = 0.006;
@@ -631,16 +631,16 @@ int main(int argc, char* argv[])
             svgFile << "<circle fill=\""<< colorPoint<< "\""
                     << " style=\"opacity:" << opacity << "\" "
                     << " stroke=\"black\" "
-                    << " stroke-width=\""<< width << "cm\" "
-                    << " cx=\"" << xCirc  << "cm\" "
-                    << " cy=\"" << yCirc  << "cm\" "
-                    << " r=\"" << graphMult * radio << "cm\""
+                    << " stroke-width=\""<< width << "cm\"  cx=\""
+                    << xCirc << "cm\" "
+                    << "cy=\"" << yCirc
+                    << "cm\" r=\"" << graphMult * radio << "cm\""
                     << " />" << endl;
             if (drawNumbers)
             {
                 svgFile << "<text "
-                        << "x=\"" << xCirc - ( 0.4 * graphMult * radio) << "cm\" "
-                        << "y=\"" << yCirc + ( 0.4 * graphMult * radio) << "cm\" "
+                        << "x=\"" << xCirc - 2 * radio << "cm\" "
+                        << "y=\"" << yCirc + radio << "cm\" "
                         << "font-style=\"normal\" "
                         << "font-family=\"Times New Roman\" "
                         << "font-size=\"" << graphMult * 0.005 <<"cm\" "

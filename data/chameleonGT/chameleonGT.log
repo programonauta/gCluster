@@ -25,3 +25,56 @@
 13/11/2017 Mon 20:38:31:-----
 13/11/2017 Mon 20:38:31:   FM for gCluster Points: 0.977441209559446
 13/11/2017 Mon 20:38:31:   FM for gCluster Cells.: 0.9611419332425227
+15/11/2017 Wed 19:06:01:Directory: ../data/chameleonGT
+15/11/2017 Wed 19:06:01:   Config File: ../data/chameleonGT/config/config-chameleonGT.csv
+15/11/2017 Wed 19:06:01:   Epsilon..: 50
+15/11/2017 Wed 19:06:01:   sumData
+15/11/2017 Wed 19:06:01:   File Input:......../data/chameleonGT/devices/chameleonGT.csv
+15/11/2017 Wed 19:06:01:   File Cell Output.:../data/chameleonGT/central/1.sumDataOutput/cell-chameleonGT-01.csv
+15/11/2017 Wed 19:06:01:   File Point Output:../data/chameleonGT/central/1.sumDataOutput/point-chameleonGT-01.csv
+15/11/2017 Wed 19:06:12:Cells consolidation to file: ../data/chameleonGT/central/2.deviceConsolidation/cells-chameleonGT.csv OK
+15/11/2017 Wed 19:06:12:Points consolidation to file: ../data/chameleonGT/central/2.deviceConsolidation/points-chameleonGT.csv OK
+15/11/2017 Wed 19:06:12:getCluster
+15/11/2017 Wed 19:06:12:   Epsilon..: 50
+15/11/2017 Wed 19:06:12:   Min Force: 0.088
+15/11/2017 Wed 19:06:12:   Min Cells: 3
+15/11/2017 Wed 19:06:12:   Input....: ../data/chameleonGT/central/2.deviceConsolidation/cells-chameleonGT.csv
+15/11/2017 Wed 19:06:12:   Output...: ../data/chameleonGT/central/3.getClusterOutput/gCluster-result-chameleonGT.csv
+15/11/2017 Wed 19:06:14:statCluster 
+15/11/2017 Wed 19:06:14:   Epsilon............: 50
+15/11/2017 Wed 19:06:14:   Input Cell.........: ../data/chameleonGT/central/3.getClusterOutput/gCluster-result-chameleonGT.csv
+15/11/2017 Wed 19:06:14:   Map Cell gCluster..: ../data/chameleonGT/central/4.statClusterOutput/map-cell-chameleonGT.csv
+15/11/2017 Wed 19:06:14:   Input Point........: ../data/chameleonGT/central/2.deviceConsolidation/points-chameleonGT.csv
+15/11/2017 Wed 19:06:14:   Map Point gCluster.: ../data/chameleonGT/central/4.statClusterOutput/map-point-chameleonGT.csv
+15/11/2017 Wed 19:06:14:   Map DBSCAN.........: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+15/11/2017 Wed 19:06:14:   Valid Cell.........: validClusterInput/valid-cell-chameleonGT.csv
+15/11/2017 Wed 19:06:14:   Valid Point........: validClusterInput/valid-point-chameleonGT.csv
+15/11/2017 Wed 19:06:41:-----
+15/11/2017 Wed 19:06:41:   FM for gCluster Points: 0.977441209559446
+15/11/2017 Wed 19:08:05:Directory: ../data/chameleonGT
+15/11/2017 Wed 19:08:05:   Config File: ../data/chameleonGT/config/config-chameleonGT.csv
+15/11/2017 Wed 19:08:05:   Epsilon..: 50
+15/11/2017 Wed 19:08:05:   sumData
+15/11/2017 Wed 19:08:05:   File Input:......../data/chameleonGT/devices/chameleonGT.csv
+15/11/2017 Wed 19:08:05:   File Cell Output.:../data/chameleonGT/central/1.sumDataOutput/cell-chameleonGT-01.csv
+15/11/2017 Wed 19:08:05:   File Point Output:../data/chameleonGT/central/1.sumDataOutput/point-chameleonGT-01.csv
+15/11/2017 Wed 19:08:15:Cells consolidation to file: ../data/chameleonGT/central/2.deviceConsolidation/cells-chameleonGT.csv OK
+15/11/2017 Wed 19:08:16:Points consolidation to file: ../data/chameleonGT/central/2.deviceConsolidation/points-chameleonGT.csv OK
+15/11/2017 Wed 19:08:16:getCluster
+15/11/2017 Wed 19:08:16:   Epsilon..: 50
+15/11/2017 Wed 19:08:16:   Min Force: 0.088
+15/11/2017 Wed 19:08:16:   Min Cells: 3
+15/11/2017 Wed 19:08:16:   Input....: ../data/chameleonGT/central/2.deviceConsolidation/cells-chameleonGT.csv
+15/11/2017 Wed 19:08:16:   Output...: ../data/chameleonGT/central/3.getClusterOutput/gCluster-result-chameleonGT.csv
+15/11/2017 Wed 19:08:17:statCluster 
+15/11/2017 Wed 19:08:17:   Epsilon............: 50
+15/11/2017 Wed 19:08:17:   Input Cell.........: ../data/chameleonGT/central/3.getClusterOutput/gCluster-result-chameleonGT.csv
+15/11/2017 Wed 19:08:17:   Map Cell gCluster..: ../data/chameleonGT/central/4.statClusterOutput/map-cell-chameleonGT.csv
+15/11/2017 Wed 19:08:17:   Input Point........: ../data/chameleonGT/central/2.deviceConsolidation/points-chameleonGT.csv
+15/11/2017 Wed 19:08:17:   Map Point gCluster.: ../data/chameleonGT/central/4.statClusterOutput/map-point-chameleonGT.csv
+15/11/2017 Wed 19:08:17:   Map DBSCAN.........: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+15/11/2017 Wed 19:08:17:   Valid Cell.........: validClusterInput/valid-cell-chameleonGT.csv
+15/11/2017 Wed 19:08:17:   Valid Point........: validClusterInput/valid-point-chameleonGT.csv
+15/11/2017 Wed 19:08:42:-----
+15/11/2017 Wed 19:08:42:   FM for gCluster Points: 0.977441209559446
+15/11/2017 Wed 19:09:04:   FM for gCluster Cells.: 0.9846500449206509
