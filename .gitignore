@@ -2,7 +2,7 @@
 output.txt
 nodes.txt
 edges.txt
-central/
+#central/
 
 # Executables
 *.exe
