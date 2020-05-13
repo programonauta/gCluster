@@ -1,0 +1,56 @@
+17/11/2017 Fri 17:22:44:epsilon: 0.2 minPts: 28
+17/11/2017 Fri 17:22:44:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:22:44:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:22:45:   Clusters...: 9
+17/11/2017 Fri 17:23:04:   FM.........: 0.8985726820385335
+17/11/2017 Fri 17:23:17:epsilon: 0.09 minPts: 16
+17/11/2017 Fri 17:23:17:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:23:17:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:23:17:   Clusters...: 132
+17/11/2017 Fri 17:23:52:epsilon: 0.09 minPts: 16
+17/11/2017 Fri 17:23:52:   Input File.: ../data/chameleonGT/central/2.deviceConsolidation/points-chameleonGT.csv
+17/11/2017 Fri 17:23:52:   Output File: ../data/chameleonGT/resultsDBSCAN/output-points-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:23:52:   Clusters...: 6
+17/11/2017 Fri 17:24:13:   FM.........: 0.9977136458643967
+17/11/2017 Fri 17:27:26:epsilon: 0.2 minPts: 28
+17/11/2017 Fri 17:27:26:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:27:26:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:27:27:   Clusters...: 9
+17/11/2017 Fri 17:27:54:   FM.........: 0.8985726820385335
+17/11/2017 Fri 17:36:45:epsilon: 0.21 minPts: 28
+17/11/2017 Fri 17:36:45:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:36:45:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:36:45:   Clusters...: 9
+17/11/2017 Fri 17:36:55:epsilon: 0.22 minPts: 28
+17/11/2017 Fri 17:36:55:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:36:55:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:36:55:   Clusters...: 9
+17/11/2017 Fri 17:37:07:epsilon: 0.18 minPts: 28
+17/11/2017 Fri 17:37:07:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:37:07:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:37:07:   Clusters...: 7
+17/11/2017 Fri 17:37:17:epsilon: 0.17 minPts: 28
+17/11/2017 Fri 17:37:17:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:37:17:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:37:17:   Clusters...: 10
+17/11/2017 Fri 17:37:42:epsilon: 0.178 minPts: 28
+17/11/2017 Fri 17:37:42:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:37:42:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:37:42:   Clusters...: 8
+17/11/2017 Fri 17:38:04:epsilon: 0.18 minPts: 28
+17/11/2017 Fri 17:38:04:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:04:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:04:   Clusters...: 7
+17/11/2017 Fri 17:38:13:epsilon: 0.18 minPts: 20
+17/11/2017 Fri 17:38:13:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:13:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:13:   Clusters...: 14
+17/11/2017 Fri 17:38:24:epsilon: 0.18 minPts: 30
+17/11/2017 Fri 17:38:24:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:24:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:24:   Clusters...: 7
+17/11/2017 Fri 17:38:32:epsilon: 0.18 minPts: 35
+17/11/2017 Fri 17:38:32:   Input File.: ../data/chameleonGT/central/4.statClusterOutput/map-cell-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:32:   Output File: ../data/chameleonGT/resultsDBSCAN/output-cells-DBSCAN-chameleonGT.csv
+17/11/2017 Fri 17:38:32:   Clusters...: 6
+17/11/2017 Fri 17:38:49:   FM.........: 0.7869515635198074

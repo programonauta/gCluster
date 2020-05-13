@@ -1,0 +1,1214 @@
+18/11/2017 Sat 09:26:43:/------ Begin of Script
+18/11/2017 Sat 09:26:43:epsilon: 0.1 minPts: 20
+18/11/2017 Sat 09:26:43:   Type.......: Point
+18/11/2017 Sat 09:26:43:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:26:43:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:26:43:   Clusters...: 39
+18/11/2017 Sat 09:26:49:   FM.........: 0.3011327259130967
+18/11/2017 Sat 09:26:49:End of Script ------/
+18/11/2017 Sat 09:27:02:/------ Begin of Script
+18/11/2017 Sat 09:27:02:epsilon: 0.05 minPts: 10
+18/11/2017 Sat 09:27:02:   Type.......: Point
+18/11/2017 Sat 09:27:02:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:27:02:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:27:02:   Clusters...: 5
+18/11/2017 Sat 09:27:08:   FM.........: 0.3274752195275119
+18/11/2017 Sat 09:27:08:End of Script ------/
+18/11/2017 Sat 09:27:17:/------ Begin of Script
+18/11/2017 Sat 09:27:17:epsilon: 0.2 minPts: 10
+18/11/2017 Sat 09:27:17:   Type.......: Point
+18/11/2017 Sat 09:27:17:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:27:17:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:27:17:   Clusters...: 8
+18/11/2017 Sat 09:28:09:   FM.........: 1.0
+18/11/2017 Sat 09:28:09:End of Script ------/
+18/11/2017 Sat 09:28:26:/------ Begin of Script
+18/11/2017 Sat 09:28:26:epsilon: 0.2 minPts: 7
+18/11/2017 Sat 09:28:26:   Type.......: Point
+18/11/2017 Sat 09:28:26:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:28:26:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:28:26:   Clusters...: 8
+18/11/2017 Sat 09:28:37:   FM.........: 1.0
+18/11/2017 Sat 09:28:37:End of Script ------/
+18/11/2017 Sat 09:28:47:/------ Begin of Script
+18/11/2017 Sat 09:28:47:epsilon: 0.15 minPts: 7
+18/11/2017 Sat 09:28:47:   Type.......: Point
+18/11/2017 Sat 09:28:47:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:28:47:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:28:47:   Clusters...: 8
+18/11/2017 Sat 09:28:53:   FM.........: 1.0
+18/11/2017 Sat 09:28:53:End of Script ------/
+18/11/2017 Sat 09:29:01:/------ Begin of Script
+18/11/2017 Sat 09:29:01:epsilon: 0.25 minPts: 7
+18/11/2017 Sat 09:29:01:   Type.......: Point
+18/11/2017 Sat 09:29:01:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:29:01:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:29:02:   Clusters...: 8
+18/11/2017 Sat 09:29:06:   FM.........: 1.0
+18/11/2017 Sat 09:29:06:End of Script ------/
+18/11/2017 Sat 09:29:11:/------ Begin of Script
+18/11/2017 Sat 09:29:11:epsilon: 0.3 minPts: 7
+18/11/2017 Sat 09:29:11:   Type.......: Point
+18/11/2017 Sat 09:29:11:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:29:11:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:29:12:   Clusters...: 8
+18/11/2017 Sat 09:29:15:   FM.........: 1.0
+18/11/2017 Sat 09:29:15:End of Script ------/
+18/11/2017 Sat 09:29:25:/------ Begin of Script
+18/11/2017 Sat 09:29:25:epsilon: 0.05 minPts: 5
+18/11/2017 Sat 09:29:25:   Type.......: Point
+18/11/2017 Sat 09:29:25:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:29:25:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:29:25:   Clusters...: 184
+18/11/2017 Sat 09:29:30:   FM.........: 0.5158490031194825
+18/11/2017 Sat 09:29:30:End of Script ------/
+18/11/2017 Sat 09:29:57:/------ Begin of Script
+18/11/2017 Sat 09:29:57:epsilon: 0.15 minPts: 8
+18/11/2017 Sat 09:29:57:   Type.......: Point
+18/11/2017 Sat 09:29:57:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:29:57:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:29:57:   Clusters...: 8
+18/11/2017 Sat 09:30:10:   FM.........: 1.0
+18/11/2017 Sat 09:30:10:End of Script ------/
+18/11/2017 Sat 09:30:54:/------ Begin of Script
+18/11/2017 Sat 09:30:54:epsilon: 0.3 minPts: 10
+18/11/2017 Sat 09:30:54:   Type.......: Point
+18/11/2017 Sat 09:30:54:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:30:54:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:30:54:   Clusters...: 8
+18/11/2017 Sat 09:30:59:   FM.........: 1.0
+18/11/2017 Sat 09:30:59:End of Script ------/
+18/11/2017 Sat 09:34:53:/------ Begin of Script
+18/11/2017 Sat 09:34:53:epsilon: 0.3 minPts: 10
+18/11/2017 Sat 09:34:53:   Type.......: Point
+18/11/2017 Sat 09:34:53:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:34:53:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:35:46:/------ Begin of Script
+18/11/2017 Sat 09:35:46:epsilon: 0.3 minPts: 10
+18/11/2017 Sat 09:35:46:   Type.......: Point
+18/11/2017 Sat 09:35:46:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:35:46:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:36:12:/------ Begin of Script
+18/11/2017 Sat 09:36:12:epsilon: 0.3 minPts: 10
+18/11/2017 Sat 09:36:12:   Type.......: Point
+18/11/2017 Sat 09:36:12:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:36:12:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:39:58:/------ Begin of Script
+18/11/2017 Sat 09:39:58:epsilon: 0.3 minPts: 10
+18/11/2017 Sat 09:39:58:   Type.......: Point
+18/11/2017 Sat 09:39:58:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:39:58:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:39:59:   Clusters...: 9
+18/11/2017 Sat 09:40:16:   FM.........: 1.0
+18/11/2017 Sat 09:40:16:End of Script ------/
+18/11/2017 Sat 09:41:24:/------ Begin of Script
+18/11/2017 Sat 09:41:24:epsilon: 0.3 minPts: 10
+18/11/2017 Sat 09:41:24:   Type.......: Cell
+18/11/2017 Sat 09:41:24:   Input File.: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:41:24:   Output File: ../data/diamond9/resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:41:24:   Clusters...: 9
+18/11/2017 Sat 09:41:28:   FM.........: 1.0
+18/11/2017 Sat 09:41:28:End of Script ------/
+19/11/2017 Sun 14:08:46:/------ Begin of Script
+19/11/2017 Sun 14:08:46:epsilon: 0.3 minPts: 10
+19/11/2017 Sun 14:08:46:   Type.......: Cell
+19/11/2017 Sun 14:08:46:   Input File.: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+19/11/2017 Sun 14:08:46:   Output File: ../data/diamond9/resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+19/11/2017 Sun 14:08:47:   Clusters...: 9
+19/11/2017 Sun 14:08:54:   FM.........: 1.0
+19/11/2017 Sun 14:08:54:End of Script ------/
+19/11/2017 Sun 14:09:04:/------ Begin of Script
+19/11/2017 Sun 14:09:04:epsilon: 0.3 minPts: 10
+19/11/2017 Sun 14:09:04:   Type.......: Point
+19/11/2017 Sun 14:09:04:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+19/11/2017 Sun 14:09:04:   Output File: ../data/diamond9/resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+19/11/2017 Sun 14:09:04:   Clusters...: 9
+19/11/2017 Sun 14:09:10:   FM.........: 1.0
+19/11/2017 Sun 14:09:10:End of Script ------/
+20/11/2017 Mon 15:55:06:/------ Begin of Script
+20/11/2017 Mon 15:55:06:epsilon: 0.3 minPts: 10
+20/11/2017 Mon 15:55:06:   Type.......: Point
+20/11/2017 Mon 15:55:06:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:55:06:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:55:06:   Map Matrix
+20/11/2017 Mon 15:55:06:   0, 1
+20/11/2017 Mon 15:55:06:   Clusters...: 1
+20/11/2017 Mon 15:55:12:   FM.........: 0.332888889284808
+20/11/2017 Mon 15:55:12:End of Script ------/
+20/11/2017 Mon 15:55:25:/------ Begin of Script
+20/11/2017 Mon 15:55:25:epsilon: 0.04 minPts: 10
+20/11/2017 Mon 15:55:25:   Type.......: Point
+20/11/2017 Mon 15:55:25:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:55:25:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:55:25:   Map Matrix
+20/11/2017 Mon 15:55:25:   0, 1
+20/11/2017 Mon 15:55:25:   Clusters...: 1
+20/11/2017 Mon 15:55:29:   FM.........: 0.332888889284808
+20/11/2017 Mon 15:55:29:End of Script ------/
+20/11/2017 Mon 15:55:35:/------ Begin of Script
+20/11/2017 Mon 15:55:35:epsilon: 0.02 minPts: 10
+20/11/2017 Mon 15:55:35:   Type.......: Point
+20/11/2017 Mon 15:55:35:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:55:35:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:55:35:   Map Matrix
+20/11/2017 Mon 15:55:35:   0, 0
+20/11/2017 Mon 15:55:35:   1, 0
+20/11/2017 Mon 15:55:35:   2, 0
+20/11/2017 Mon 15:55:35:   3, 0
+20/11/2017 Mon 15:55:35:   4, 0
+20/11/2017 Mon 15:55:35:   5, 0
+20/11/2017 Mon 15:55:35:   6, 0
+20/11/2017 Mon 15:55:35:   7, 1
+20/11/2017 Mon 15:55:35:   8, 1
+20/11/2017 Mon 15:55:35:   9, 1
+20/11/2017 Mon 15:55:35:   10, 1
+20/11/2017 Mon 15:55:35:   11, 1
+20/11/2017 Mon 15:55:35:   12, 1
+20/11/2017 Mon 15:55:35:   13, 1
+20/11/2017 Mon 15:55:35:   14, 1
+20/11/2017 Mon 15:55:35:   15, 1
+20/11/2017 Mon 15:55:35:   16, 2
+20/11/2017 Mon 15:55:35:   17, 2
+20/11/2017 Mon 15:55:35:   18, 2
+20/11/2017 Mon 15:55:35:   19, 2
+20/11/2017 Mon 15:55:35:   20, 2
+20/11/2017 Mon 15:55:35:   21, 2
+20/11/2017 Mon 15:55:35:   22, 2
+20/11/2017 Mon 15:55:35:   23, 2
+20/11/2017 Mon 15:55:35:   24, 2
+20/11/2017 Mon 15:55:35:   25, 3
+20/11/2017 Mon 15:55:35:   26, 3
+20/11/2017 Mon 15:55:35:   27, 3
+20/11/2017 Mon 15:55:35:   28, 3
+20/11/2017 Mon 15:55:35:   29, 3
+20/11/2017 Mon 15:55:35:   30, 3
+20/11/2017 Mon 15:55:35:   31, 3
+20/11/2017 Mon 15:55:35:   32, 4
+20/11/2017 Mon 15:55:35:   33, 4
+20/11/2017 Mon 15:55:35:   34, 4
+20/11/2017 Mon 15:55:35:   35, 4
+20/11/2017 Mon 15:55:35:   36, 4
+20/11/2017 Mon 15:55:35:   37, 4
+20/11/2017 Mon 15:55:35:   38, 4
+20/11/2017 Mon 15:55:35:   39, 4
+20/11/2017 Mon 15:55:35:   40, 4
+20/11/2017 Mon 15:55:35:   41, 5
+20/11/2017 Mon 15:55:35:   42, 5
+20/11/2017 Mon 15:55:35:   43, 5
+20/11/2017 Mon 15:55:35:   44, 5
+20/11/2017 Mon 15:55:35:   45, 5
+20/11/2017 Mon 15:55:35:   46, 5
+20/11/2017 Mon 15:55:35:   47, 5
+20/11/2017 Mon 15:55:35:   48, 5
+20/11/2017 Mon 15:55:35:   49, 5
+20/11/2017 Mon 15:55:35:   50, 5
+20/11/2017 Mon 15:55:35:   51, 6
+20/11/2017 Mon 15:55:35:   52, 6
+20/11/2017 Mon 15:55:35:   53, 6
+20/11/2017 Mon 15:55:35:   54, 6
+20/11/2017 Mon 15:55:35:   55, 6
+20/11/2017 Mon 15:55:35:   56, 6
+20/11/2017 Mon 15:55:35:   57, 6
+20/11/2017 Mon 15:55:35:   58, 6
+20/11/2017 Mon 15:55:35:   59, 6
+20/11/2017 Mon 15:55:35:   60, 6
+20/11/2017 Mon 15:55:35:   61, 7
+20/11/2017 Mon 15:55:35:   62, 7
+20/11/2017 Mon 15:55:35:   63, 7
+20/11/2017 Mon 15:55:35:   64, 7
+20/11/2017 Mon 15:55:35:   65, 7
+20/11/2017 Mon 15:55:35:   66, 7
+20/11/2017 Mon 15:55:35:   67, 7
+20/11/2017 Mon 15:55:35:   68, 7
+20/11/2017 Mon 15:55:35:   69, 7
+20/11/2017 Mon 15:55:35:   70, 7
+20/11/2017 Mon 15:55:35:   71, 8
+20/11/2017 Mon 15:55:35:   72, 8
+20/11/2017 Mon 15:55:35:   73, 8
+20/11/2017 Mon 15:55:35:   74, 8
+20/11/2017 Mon 15:55:35:   75, 8
+20/11/2017 Mon 15:55:35:   76, 8
+20/11/2017 Mon 15:55:35:   77, 8
+20/11/2017 Mon 15:55:35:   78, 8
+20/11/2017 Mon 15:55:35:   79, 8
+20/11/2017 Mon 15:55:35:   80, 8
+20/11/2017 Mon 15:55:35:   -1, -1
+20/11/2017 Mon 15:55:35:   Clusters...: 81
+20/11/2017 Mon 15:55:41:   FM.........: 0.42953969298980127
+20/11/2017 Mon 15:55:41:End of Script ------/
+20/11/2017 Mon 15:55:47:/------ Begin of Script
+20/11/2017 Mon 15:55:47:epsilon: 0.02 minPts: 6
+20/11/2017 Mon 15:55:47:   Type.......: Point
+20/11/2017 Mon 15:55:47:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:55:47:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:55:47:   Map Matrix
+20/11/2017 Mon 15:55:47:   0, 0
+20/11/2017 Mon 15:55:47:   1, 0
+20/11/2017 Mon 15:55:47:   2, 1
+20/11/2017 Mon 15:55:47:   3, 1
+20/11/2017 Mon 15:55:47:   4, 1
+20/11/2017 Mon 15:55:47:   5, 1
+20/11/2017 Mon 15:55:47:   6, 2
+20/11/2017 Mon 15:55:47:   7, 3
+20/11/2017 Mon 15:55:47:   8, 3
+20/11/2017 Mon 15:55:47:   9, 4
+20/11/2017 Mon 15:55:47:   10, 4
+20/11/2017 Mon 15:55:47:   11, 4
+20/11/2017 Mon 15:55:47:   12, 5
+20/11/2017 Mon 15:55:47:   13, 6
+20/11/2017 Mon 15:55:47:   14, 6
+20/11/2017 Mon 15:55:47:   15, 7
+20/11/2017 Mon 15:55:47:   16, 8
+20/11/2017 Mon 15:55:47:   -1, -1
+20/11/2017 Mon 15:55:47:   Clusters...: 17
+20/11/2017 Mon 15:55:54:   FM.........: 0.9668940391235611
+20/11/2017 Mon 15:55:54:End of Script ------/
+20/11/2017 Mon 15:56:02:/------ Begin of Script
+20/11/2017 Mon 15:56:02:epsilon: 0.03 minPts: 6
+20/11/2017 Mon 15:56:02:   Type.......: Point
+20/11/2017 Mon 15:56:02:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:56:02:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:56:02:   Map Matrix
+20/11/2017 Mon 15:56:02:   0, 1
+20/11/2017 Mon 15:56:02:   Clusters...: 1
+20/11/2017 Mon 15:56:05:   FM.........: 0.332888889284808
+20/11/2017 Mon 15:56:05:End of Script ------/
+20/11/2017 Mon 15:56:10:/------ Begin of Script
+20/11/2017 Mon 15:56:10:epsilon: 0.025 minPts: 6
+20/11/2017 Mon 15:56:10:   Type.......: Point
+20/11/2017 Mon 15:56:10:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:56:10:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:56:10:   Map Matrix
+20/11/2017 Mon 15:56:10:   0, 0
+20/11/2017 Mon 15:56:10:   1, 1
+20/11/2017 Mon 15:56:10:   2, 2
+20/11/2017 Mon 15:56:10:   3, 7
+20/11/2017 Mon 15:56:10:   4, 5
+20/11/2017 Mon 15:56:10:   5, 6
+20/11/2017 Mon 15:56:10:   6, 8
+20/11/2017 Mon 15:56:10:   -1, -1
+20/11/2017 Mon 15:56:11:   Clusters...: 7
+20/11/2017 Mon 15:56:18:   FM.........: 0.7710820613188809
+20/11/2017 Mon 15:56:18:End of Script ------/
+20/11/2017 Mon 15:56:23:/------ Begin of Script
+20/11/2017 Mon 15:56:23:epsilon: 0.025 minPts: 10
+20/11/2017 Mon 15:56:23:   Type.......: Point
+20/11/2017 Mon 15:56:23:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:56:23:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:56:23:   Map Matrix
+20/11/2017 Mon 15:56:23:   0, 0
+20/11/2017 Mon 15:56:23:   1, 1
+20/11/2017 Mon 15:56:23:   2, 2
+20/11/2017 Mon 15:56:23:   3, 3
+20/11/2017 Mon 15:56:23:   4, 4
+20/11/2017 Mon 15:56:23:   5, 4
+20/11/2017 Mon 15:56:23:   6, 5
+20/11/2017 Mon 15:56:23:   7, 6
+20/11/2017 Mon 15:56:23:   8, 7
+20/11/2017 Mon 15:56:23:   9, 8
+20/11/2017 Mon 15:56:23:   -1, -1
+20/11/2017 Mon 15:56:23:   Clusters...: 10
+20/11/2017 Mon 15:56:39:   FM.........: 0.97511407522746
+20/11/2017 Mon 15:56:39:End of Script ------/
+20/11/2017 Mon 15:56:48:/------ Begin of Script
+20/11/2017 Mon 15:56:48:epsilon: 0.0275 minPts: 10
+20/11/2017 Mon 15:56:48:   Type.......: Point
+20/11/2017 Mon 15:56:48:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:56:48:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:56:48:   Map Matrix
+20/11/2017 Mon 15:56:48:   0, 0
+20/11/2017 Mon 15:56:48:   1, 1
+20/11/2017 Mon 15:56:48:   2, 2
+20/11/2017 Mon 15:56:48:   3, 3
+20/11/2017 Mon 15:56:48:   4, 4
+20/11/2017 Mon 15:56:48:   5, 5
+20/11/2017 Mon 15:56:48:   6, 6
+20/11/2017 Mon 15:56:48:   7, 7
+20/11/2017 Mon 15:56:48:   -1, -1
+20/11/2017 Mon 15:56:48:   Clusters...: 8
+20/11/2017 Mon 15:56:54:   FM.........: 0.8970767232158453
+20/11/2017 Mon 15:56:54:End of Script ------/
+20/11/2017 Mon 15:57:01:/------ Begin of Script
+20/11/2017 Mon 15:57:01:epsilon: 0.0285 minPts: 10
+20/11/2017 Mon 15:57:01:   Type.......: Point
+20/11/2017 Mon 15:57:01:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:57:01:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:57:01:   Map Matrix
+20/11/2017 Mon 15:57:01:   0, 0
+20/11/2017 Mon 15:57:01:   1, 1
+20/11/2017 Mon 15:57:01:   2, 2
+20/11/2017 Mon 15:57:01:   3, 3
+20/11/2017 Mon 15:57:01:   4, 4
+20/11/2017 Mon 15:57:01:   5, 5
+20/11/2017 Mon 15:57:01:   6, 6
+20/11/2017 Mon 15:57:01:   7, 7
+20/11/2017 Mon 15:57:01:   -1, -1
+20/11/2017 Mon 15:57:01:   Clusters...: 8
+20/11/2017 Mon 15:57:14:   FM.........: 0.8985210665924155
+20/11/2017 Mon 15:57:14:End of Script ------/
+20/11/2017 Mon 15:57:19:/------ Begin of Script
+20/11/2017 Mon 15:57:19:epsilon: 0.0285 minPts: 15
+20/11/2017 Mon 15:57:19:   Type.......: Point
+20/11/2017 Mon 15:57:19:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:57:19:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:57:19:   Map Matrix
+20/11/2017 Mon 15:57:19:   0, 0
+20/11/2017 Mon 15:57:19:   1, 0
+20/11/2017 Mon 15:57:19:   2, 0
+20/11/2017 Mon 15:57:19:   3, 1
+20/11/2017 Mon 15:57:19:   4, 2
+20/11/2017 Mon 15:57:19:   5, 2
+20/11/2017 Mon 15:57:19:   6, 2
+20/11/2017 Mon 15:57:19:   7, 2
+20/11/2017 Mon 15:57:19:   8, 3
+20/11/2017 Mon 15:57:19:   9, 3
+20/11/2017 Mon 15:57:19:   10, 3
+20/11/2017 Mon 15:57:19:   11, 4
+20/11/2017 Mon 15:57:19:   12, 4
+20/11/2017 Mon 15:57:19:   13, 4
+20/11/2017 Mon 15:57:19:   14, 5
+20/11/2017 Mon 15:57:19:   15, 5
+20/11/2017 Mon 15:57:19:   16, 6
+20/11/2017 Mon 15:57:19:   17, 6
+20/11/2017 Mon 15:57:19:   18, 6
+20/11/2017 Mon 15:57:19:   19, 7
+20/11/2017 Mon 15:57:19:   20, 7
+20/11/2017 Mon 15:57:19:   21, 8
+20/11/2017 Mon 15:57:19:   -1, -1
+20/11/2017 Mon 15:57:19:   Clusters...: 22
+20/11/2017 Mon 15:57:28:   FM.........: 0.9192719365917251
+20/11/2017 Mon 15:57:28:End of Script ------/
+20/11/2017 Mon 15:57:31:/------ Begin of Script
+20/11/2017 Mon 15:57:31:epsilon: 0.0285 minPts: 12
+20/11/2017 Mon 15:57:31:   Type.......: Point
+20/11/2017 Mon 15:57:31:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:57:31:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:57:31:   Map Matrix
+20/11/2017 Mon 15:57:31:   0, 0
+20/11/2017 Mon 15:57:31:   1, 1
+20/11/2017 Mon 15:57:31:   2, 2
+20/11/2017 Mon 15:57:31:   3, 3
+20/11/2017 Mon 15:57:31:   4, 4
+20/11/2017 Mon 15:57:31:   5, 5
+20/11/2017 Mon 15:57:31:   6, 6
+20/11/2017 Mon 15:57:31:   7, 7
+20/11/2017 Mon 15:57:31:   8, 8
+20/11/2017 Mon 15:57:31:   -1, -1
+20/11/2017 Mon 15:57:31:   Clusters...: 9
+20/11/2017 Mon 15:57:36:   FM.........: 0.9849815148512069
+20/11/2017 Mon 15:57:36:End of Script ------/
+20/11/2017 Mon 15:57:45:/------ Begin of Script
+20/11/2017 Mon 15:57:45:epsilon: 0.029 minPts: 12
+20/11/2017 Mon 15:57:45:   Type.......: Point
+20/11/2017 Mon 15:57:45:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:57:45:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:57:45:   Map Matrix
+20/11/2017 Mon 15:57:45:   0, 0
+20/11/2017 Mon 15:57:45:   1, 1
+20/11/2017 Mon 15:57:45:   2, 2
+20/11/2017 Mon 15:57:45:   3, 3
+20/11/2017 Mon 15:57:45:   4, 4
+20/11/2017 Mon 15:57:45:   5, 5
+20/11/2017 Mon 15:57:45:   6, 6
+20/11/2017 Mon 15:57:45:   7, 7
+20/11/2017 Mon 15:57:45:   8, 8
+20/11/2017 Mon 15:57:45:   -1, -1
+20/11/2017 Mon 15:57:46:   Clusters...: 9
+20/11/2017 Mon 15:57:51:   FM.........: 0.9857360247649155
+20/11/2017 Mon 15:57:51:End of Script ------/
+20/11/2017 Mon 15:58:05:/------ Begin of Script
+20/11/2017 Mon 15:58:05:epsilon: 0.03 minPts: 12
+20/11/2017 Mon 15:58:05:   Type.......: Point
+20/11/2017 Mon 15:58:05:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:58:05:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:58:05:   Map Matrix
+20/11/2017 Mon 15:58:05:   0, 0
+20/11/2017 Mon 15:58:05:   1, 1
+20/11/2017 Mon 15:58:05:   2, 2
+20/11/2017 Mon 15:58:05:   3, 3
+20/11/2017 Mon 15:58:05:   4, 4
+20/11/2017 Mon 15:58:05:   5, 5
+20/11/2017 Mon 15:58:05:   6, 6
+20/11/2017 Mon 15:58:05:   7, 7
+20/11/2017 Mon 15:58:05:   8, 8
+20/11/2017 Mon 15:58:05:   -1, -1
+20/11/2017 Mon 15:58:05:   Clusters...: 9
+20/11/2017 Mon 15:58:10:   FM.........: 0.9899406012282814
+20/11/2017 Mon 15:58:10:End of Script ------/
+20/11/2017 Mon 15:58:17:/------ Begin of Script
+20/11/2017 Mon 15:58:17:epsilon: 0.04 minPts: 12
+20/11/2017 Mon 15:58:17:   Type.......: Point
+20/11/2017 Mon 15:58:17:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:58:17:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:58:17:   Map Matrix
+20/11/2017 Mon 15:58:17:   0, 1
+20/11/2017 Mon 15:58:17:   Clusters...: 1
+20/11/2017 Mon 15:58:20:   FM.........: 0.332888889284808
+20/11/2017 Mon 15:58:20:End of Script ------/
+20/11/2017 Mon 15:58:26:/------ Begin of Script
+20/11/2017 Mon 15:58:26:epsilon: 0.035 minPts: 12
+20/11/2017 Mon 15:58:26:   Type.......: Point
+20/11/2017 Mon 15:58:26:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:58:26:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:58:26:   Map Matrix
+20/11/2017 Mon 15:58:26:   0, 4
+20/11/2017 Mon 15:58:26:   -1, -1
+20/11/2017 Mon 15:58:26:   Clusters...: 1
+20/11/2017 Mon 15:58:29:   FM.........: 0.3327773516980861
+20/11/2017 Mon 15:58:29:End of Script ------/
+20/11/2017 Mon 15:58:36:/------ Begin of Script
+20/11/2017 Mon 15:58:36:epsilon: 0.0325 minPts: 12
+20/11/2017 Mon 15:58:36:   Type.......: Point
+20/11/2017 Mon 15:58:36:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:58:36:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:58:36:   Map Matrix
+20/11/2017 Mon 15:58:36:   0, 0
+20/11/2017 Mon 15:58:36:   1, 2
+20/11/2017 Mon 15:58:36:   2, 3
+20/11/2017 Mon 15:58:36:   3, 7
+20/11/2017 Mon 15:58:36:   4, 6
+20/11/2017 Mon 15:58:36:   -1, -1
+20/11/2017 Mon 15:58:36:   Clusters...: 5
+20/11/2017 Mon 15:58:39:   FM.........: 0.622883957565408
+20/11/2017 Mon 15:58:39:End of Script ------/
+20/11/2017 Mon 15:58:45:/------ Begin of Script
+20/11/2017 Mon 15:58:45:epsilon: 0.03 minPts: 12
+20/11/2017 Mon 15:58:45:   Type.......: Point
+20/11/2017 Mon 15:58:45:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:58:45:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:58:45:   Map Matrix
+20/11/2017 Mon 15:58:45:   0, 0
+20/11/2017 Mon 15:58:45:   1, 1
+20/11/2017 Mon 15:58:45:   2, 2
+20/11/2017 Mon 15:58:45:   3, 3
+20/11/2017 Mon 15:58:45:   4, 4
+20/11/2017 Mon 15:58:45:   5, 5
+20/11/2017 Mon 15:58:45:   6, 6
+20/11/2017 Mon 15:58:45:   7, 7
+20/11/2017 Mon 15:58:45:   8, 8
+20/11/2017 Mon 15:58:45:   -1, -1
+20/11/2017 Mon 15:58:45:   Clusters...: 9
+20/11/2017 Mon 15:58:56:   FM.........: 0.9899406012282814
+20/11/2017 Mon 15:58:56:End of Script ------/
+20/11/2017 Mon 15:59:23:/------ Begin of Script
+20/11/2017 Mon 15:59:23:epsilon: 0.06 minPts: 24
+20/11/2017 Mon 15:59:23:   Type.......: Cell
+20/11/2017 Mon 15:59:23:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 15:59:23:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:59:23:   Map Matrix
+20/11/2017 Mon 15:59:23:   0, 1
+20/11/2017 Mon 15:59:23:   Clusters...: 1
+20/11/2017 Mon 15:59:26:   FM.........: 0.332888889284808
+20/11/2017 Mon 15:59:26:End of Script ------/
+20/11/2017 Mon 15:59:30:/------ Begin of Script
+20/11/2017 Mon 15:59:30:epsilon: 0.06 minPts: 12
+20/11/2017 Mon 15:59:30:   Type.......: Cell
+20/11/2017 Mon 15:59:30:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 15:59:30:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:59:30:   Map Matrix
+20/11/2017 Mon 15:59:30:   0, 1
+20/11/2017 Mon 15:59:30:   Clusters...: 1
+20/11/2017 Mon 15:59:34:   FM.........: 0.332888889284808
+20/11/2017 Mon 15:59:34:End of Script ------/
+20/11/2017 Mon 15:59:38:/------ Begin of Script
+20/11/2017 Mon 15:59:38:epsilon: 0.04 minPts: 12
+20/11/2017 Mon 15:59:38:   Type.......: Cell
+20/11/2017 Mon 15:59:38:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 15:59:38:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:59:39:   Map Matrix
+20/11/2017 Mon 15:59:39:   0, 1
+20/11/2017 Mon 15:59:39:   1, 4
+20/11/2017 Mon 15:59:39:   2, 5
+20/11/2017 Mon 15:59:39:   3, 6
+20/11/2017 Mon 15:59:39:   4, 8
+20/11/2017 Mon 15:59:39:   Clusters...: 5
+20/11/2017 Mon 15:59:47:   FM.........: 0.6250624058101235
+20/11/2017 Mon 15:59:47:End of Script ------/
+20/11/2017 Mon 15:59:55:/------ Begin of Script
+20/11/2017 Mon 15:59:55:epsilon: 0.04 minPts: 8
+20/11/2017 Mon 15:59:55:   Type.......: Cell
+20/11/2017 Mon 15:59:55:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 15:59:55:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 15:59:55:   Map Matrix
+20/11/2017 Mon 15:59:55:   0, 1
+20/11/2017 Mon 15:59:55:   1, 4
+20/11/2017 Mon 15:59:55:   2, 5
+20/11/2017 Mon 15:59:55:   3, 6
+20/11/2017 Mon 15:59:55:   4, 8
+20/11/2017 Mon 15:59:55:   Clusters...: 5
+20/11/2017 Mon 16:00:02:   FM.........: 0.6250624058101235
+20/11/2017 Mon 16:00:02:End of Script ------/
+20/11/2017 Mon 16:00:17:/------ Begin of Script
+20/11/2017 Mon 16:00:17:epsilon: 0.03 minPts: 8
+20/11/2017 Mon 16:00:17:   Type.......: Cell
+20/11/2017 Mon 16:00:17:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:00:17:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:00:17:   Map Matrix
+20/11/2017 Mon 16:00:17:   0, 0
+20/11/2017 Mon 16:00:17:   1, 0
+20/11/2017 Mon 16:00:17:   2, 0
+20/11/2017 Mon 16:00:17:   3, 0
+20/11/2017 Mon 16:00:17:   4, 0
+20/11/2017 Mon 16:00:17:   5, 0
+20/11/2017 Mon 16:00:17:   6, 0
+20/11/2017 Mon 16:00:17:   7, 0
+20/11/2017 Mon 16:00:17:   8, 0
+20/11/2017 Mon 16:00:17:   9, 0
+20/11/2017 Mon 16:00:17:   10, 0
+20/11/2017 Mon 16:00:17:   11, 0
+20/11/2017 Mon 16:00:17:   12, 0
+20/11/2017 Mon 16:00:17:   13, 0
+20/11/2017 Mon 16:00:17:   14, 0
+20/11/2017 Mon 16:00:17:   15, 0
+20/11/2017 Mon 16:00:17:   16, 1
+20/11/2017 Mon 16:00:17:   17, 1
+20/11/2017 Mon 16:00:17:   18, 1
+20/11/2017 Mon 16:00:17:   19, 1
+20/11/2017 Mon 16:00:17:   20, 1
+20/11/2017 Mon 16:00:17:   21, 1
+20/11/2017 Mon 16:00:17:   22, 1
+20/11/2017 Mon 16:00:17:   23, 1
+20/11/2017 Mon 16:00:17:   24, 1
+20/11/2017 Mon 16:00:17:   25, 1
+20/11/2017 Mon 16:00:17:   26, 1
+20/11/2017 Mon 16:00:17:   27, 1
+20/11/2017 Mon 16:00:17:   28, 1
+20/11/2017 Mon 16:00:17:   29, 1
+20/11/2017 Mon 16:00:17:   30, 1
+20/11/2017 Mon 16:00:17:   31, 1
+20/11/2017 Mon 16:00:17:   32, 1
+20/11/2017 Mon 16:00:17:   33, 1
+20/11/2017 Mon 16:00:17:   34, 1
+20/11/2017 Mon 16:00:17:   35, 1
+20/11/2017 Mon 16:00:17:   36, 2
+20/11/2017 Mon 16:00:17:   37, 2
+20/11/2017 Mon 16:00:17:   38, 2
+20/11/2017 Mon 16:00:17:   39, 2
+20/11/2017 Mon 16:00:17:   40, 2
+20/11/2017 Mon 16:00:17:   41, 2
+20/11/2017 Mon 16:00:17:   42, 2
+20/11/2017 Mon 16:00:17:   43, 2
+20/11/2017 Mon 16:00:17:   44, 2
+20/11/2017 Mon 16:00:17:   45, 2
+20/11/2017 Mon 16:00:17:   46, 2
+20/11/2017 Mon 16:00:17:   47, 2
+20/11/2017 Mon 16:00:17:   48, 2
+20/11/2017 Mon 16:00:17:   49, 2
+20/11/2017 Mon 16:00:17:   50, 3
+20/11/2017 Mon 16:00:17:   51, 3
+20/11/2017 Mon 16:00:17:   52, 3
+20/11/2017 Mon 16:00:17:   53, 3
+20/11/2017 Mon 16:00:17:   54, 3
+20/11/2017 Mon 16:00:17:   55, 3
+20/11/2017 Mon 16:00:17:   56, 3
+20/11/2017 Mon 16:00:17:   57, 3
+20/11/2017 Mon 16:00:17:   58, 3
+20/11/2017 Mon 16:00:17:   59, 3
+20/11/2017 Mon 16:00:17:   60, 3
+20/11/2017 Mon 16:00:17:   61, 3
+20/11/2017 Mon 16:00:17:   62, 3
+20/11/2017 Mon 16:00:17:   63, 3
+20/11/2017 Mon 16:00:17:   64, 3
+20/11/2017 Mon 16:00:17:   65, 3
+20/11/2017 Mon 16:00:17:   66, 4
+20/11/2017 Mon 16:00:17:   67, 4
+20/11/2017 Mon 16:00:17:   68, 4
+20/11/2017 Mon 16:00:17:   69, 4
+20/11/2017 Mon 16:00:17:   70, 4
+20/11/2017 Mon 16:00:17:   71, 4
+20/11/2017 Mon 16:00:17:   72, 4
+20/11/2017 Mon 16:00:17:   73, 4
+20/11/2017 Mon 16:00:17:   74, 4
+20/11/2017 Mon 16:00:17:   75, 4
+20/11/2017 Mon 16:00:17:   76, 4
+20/11/2017 Mon 16:00:17:   77, 4
+20/11/2017 Mon 16:00:17:   78, 4
+20/11/2017 Mon 16:00:17:   79, 5
+20/11/2017 Mon 16:00:17:   80, 5
+20/11/2017 Mon 16:00:17:   81, 5
+20/11/2017 Mon 16:00:17:   82, 5
+20/11/2017 Mon 16:00:17:   83, 5
+20/11/2017 Mon 16:00:17:   84, 5
+20/11/2017 Mon 16:00:17:   85, 5
+20/11/2017 Mon 16:00:17:   86, 5
+20/11/2017 Mon 16:00:17:   87, 5
+20/11/2017 Mon 16:00:17:   88, 5
+20/11/2017 Mon 16:00:17:   89, 5
+20/11/2017 Mon 16:00:17:   90, 5
+20/11/2017 Mon 16:00:17:   91, 5
+20/11/2017 Mon 16:00:17:   92, 5
+20/11/2017 Mon 16:00:17:   93, 5
+20/11/2017 Mon 16:00:17:   94, 6
+20/11/2017 Mon 16:00:17:   95, 6
+20/11/2017 Mon 16:00:17:   96, 6
+20/11/2017 Mon 16:00:17:   97, 6
+20/11/2017 Mon 16:00:17:   98, 6
+20/11/2017 Mon 16:00:17:   99, 6
+20/11/2017 Mon 16:00:17:   100, 6
+20/11/2017 Mon 16:00:17:   101, 6
+20/11/2017 Mon 16:00:17:   102, 6
+20/11/2017 Mon 16:00:17:   103, 6
+20/11/2017 Mon 16:00:17:   104, 6
+20/11/2017 Mon 16:00:17:   105, 6
+20/11/2017 Mon 16:00:17:   106, 7
+20/11/2017 Mon 16:00:17:   107, 7
+20/11/2017 Mon 16:00:17:   108, 7
+20/11/2017 Mon 16:00:17:   109, 7
+20/11/2017 Mon 16:00:17:   110, 7
+20/11/2017 Mon 16:00:17:   111, 7
+20/11/2017 Mon 16:00:17:   112, 7
+20/11/2017 Mon 16:00:17:   113, 7
+20/11/2017 Mon 16:00:17:   114, 7
+20/11/2017 Mon 16:00:17:   115, 7
+20/11/2017 Mon 16:00:17:   116, 7
+20/11/2017 Mon 16:00:17:   117, 8
+20/11/2017 Mon 16:00:17:   118, 8
+20/11/2017 Mon 16:00:17:   119, 8
+20/11/2017 Mon 16:00:17:   120, 8
+20/11/2017 Mon 16:00:17:   121, 8
+20/11/2017 Mon 16:00:17:   122, 8
+20/11/2017 Mon 16:00:17:   123, 8
+20/11/2017 Mon 16:00:17:   124, 8
+20/11/2017 Mon 16:00:17:   125, 8
+20/11/2017 Mon 16:00:17:   126, 8
+20/11/2017 Mon 16:00:17:   127, 8
+20/11/2017 Mon 16:00:17:   128, 8
+20/11/2017 Mon 16:00:17:   129, 8
+20/11/2017 Mon 16:00:17:   130, 8
+20/11/2017 Mon 16:00:17:   131, 8
+20/11/2017 Mon 16:00:17:   132, 8
+20/11/2017 Mon 16:00:17:   133, 8
+20/11/2017 Mon 16:00:17:   134, 8
+20/11/2017 Mon 16:00:17:   -1, -1
+20/11/2017 Mon 16:00:18:   Clusters...: 135
+20/11/2017 Mon 16:00:21:   FM.........: 0.8330054613521688
+20/11/2017 Mon 16:00:21:End of Script ------/
+20/11/2017 Mon 16:00:29:/------ Begin of Script
+20/11/2017 Mon 16:00:29:epsilon: 0.035 minPts: 8
+20/11/2017 Mon 16:00:29:   Type.......: Cell
+20/11/2017 Mon 16:00:29:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:00:29:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:00:29:   Map Matrix
+20/11/2017 Mon 16:00:29:   0, 0
+20/11/2017 Mon 16:00:29:   1, 0
+20/11/2017 Mon 16:00:29:   2, 0
+20/11/2017 Mon 16:00:29:   3, 0
+20/11/2017 Mon 16:00:29:   4, 1
+20/11/2017 Mon 16:00:29:   5, 2
+20/11/2017 Mon 16:00:29:   6, 2
+20/11/2017 Mon 16:00:29:   7, 2
+20/11/2017 Mon 16:00:29:   8, 3
+20/11/2017 Mon 16:00:29:   9, 4
+20/11/2017 Mon 16:00:29:   10, 4
+20/11/2017 Mon 16:00:29:   11, 5
+20/11/2017 Mon 16:00:29:   12, 5
+20/11/2017 Mon 16:00:29:   13, 6
+20/11/2017 Mon 16:00:29:   14, 7
+20/11/2017 Mon 16:00:29:   15, 8
+20/11/2017 Mon 16:00:29:   16, 8
+20/11/2017 Mon 16:00:29:   -1, -1
+20/11/2017 Mon 16:00:30:   Clusters...: 17
+20/11/2017 Mon 16:00:39:   FM.........: 0.9823633676393108
+20/11/2017 Mon 16:00:39:End of Script ------/
+20/11/2017 Mon 16:00:47:/------ Begin of Script
+20/11/2017 Mon 16:00:47:epsilon: 0.035 minPts: 10
+20/11/2017 Mon 16:00:47:   Type.......: Cell
+20/11/2017 Mon 16:00:47:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:00:47:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:00:47:   Map Matrix
+20/11/2017 Mon 16:00:47:   0, 0
+20/11/2017 Mon 16:00:47:   1, 0
+20/11/2017 Mon 16:00:47:   2, 0
+20/11/2017 Mon 16:00:47:   3, 0
+20/11/2017 Mon 16:00:47:   4, 1
+20/11/2017 Mon 16:00:47:   5, 2
+20/11/2017 Mon 16:00:47:   6, 2
+20/11/2017 Mon 16:00:47:   7, 2
+20/11/2017 Mon 16:00:47:   8, 3
+20/11/2017 Mon 16:00:47:   9, 4
+20/11/2017 Mon 16:00:47:   10, 4
+20/11/2017 Mon 16:00:47:   11, 5
+20/11/2017 Mon 16:00:47:   12, 5
+20/11/2017 Mon 16:00:47:   13, 6
+20/11/2017 Mon 16:00:47:   14, 7
+20/11/2017 Mon 16:00:47:   15, 8
+20/11/2017 Mon 16:00:47:   -1, -1
+20/11/2017 Mon 16:00:47:   Clusters...: 16
+20/11/2017 Mon 16:00:54:   FM.........: 0.9788710246263232
+20/11/2017 Mon 16:00:54:End of Script ------/
+20/11/2017 Mon 16:00:59:/------ Begin of Script
+20/11/2017 Mon 16:00:59:epsilon: 0.038 minPts: 10
+20/11/2017 Mon 16:00:59:   Type.......: Cell
+20/11/2017 Mon 16:00:59:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:00:59:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:00:59:   Map Matrix
+20/11/2017 Mon 16:00:59:   0, 1
+20/11/2017 Mon 16:00:59:   1, 3
+20/11/2017 Mon 16:00:59:   2, 2
+20/11/2017 Mon 16:00:59:   3, 4
+20/11/2017 Mon 16:00:59:   4, 5
+20/11/2017 Mon 16:00:59:   5, 6
+20/11/2017 Mon 16:00:59:   6, 7
+20/11/2017 Mon 16:00:59:   7, 8
+20/11/2017 Mon 16:00:59:   Clusters...: 8
+20/11/2017 Mon 16:01:05:   FM.........: 0.8996195672442199
+20/11/2017 Mon 16:01:05:End of Script ------/
+20/11/2017 Mon 16:01:09:/------ Begin of Script
+20/11/2017 Mon 16:01:09:epsilon: 0.038 minPts: 12
+20/11/2017 Mon 16:01:09:   Type.......: Cell
+20/11/2017 Mon 16:01:09:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:01:09:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:01:09:   Map Matrix
+20/11/2017 Mon 16:01:09:   0, 1
+20/11/2017 Mon 16:01:09:   1, 3
+20/11/2017 Mon 16:01:09:   2, 2
+20/11/2017 Mon 16:01:09:   3, 4
+20/11/2017 Mon 16:01:09:   4, 5
+20/11/2017 Mon 16:01:09:   5, 6
+20/11/2017 Mon 16:01:09:   6, 7
+20/11/2017 Mon 16:01:09:   7, 8
+20/11/2017 Mon 16:01:09:   Clusters...: 8
+20/11/2017 Mon 16:01:24:   FM.........: 0.8996195672442199
+20/11/2017 Mon 16:01:24:End of Script ------/
+20/11/2017 Mon 16:01:29:/------ Begin of Script
+20/11/2017 Mon 16:01:29:epsilon: 0.038 minPts: 14
+20/11/2017 Mon 16:01:29:   Type.......: Cell
+20/11/2017 Mon 16:01:29:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:01:29:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:01:29:   Map Matrix
+20/11/2017 Mon 16:01:29:   0, 1
+20/11/2017 Mon 16:01:29:   1, 0
+20/11/2017 Mon 16:01:29:   2, 2
+20/11/2017 Mon 16:01:29:   3, 3
+20/11/2017 Mon 16:01:29:   4, 4
+20/11/2017 Mon 16:01:29:   5, 5
+20/11/2017 Mon 16:01:29:   6, 6
+20/11/2017 Mon 16:01:29:   7, 7
+20/11/2017 Mon 16:01:29:   8, 8
+20/11/2017 Mon 16:01:29:   -1, -1
+20/11/2017 Mon 16:01:29:   Clusters...: 9
+20/11/2017 Mon 16:01:48:   FM.........: 0.9020419081987855
+20/11/2017 Mon 16:01:48:End of Script ------/
+20/11/2017 Mon 16:02:18:/------ Begin of Script
+20/11/2017 Mon 16:02:18:epsilon: 0.037 minPts: 12
+20/11/2017 Mon 16:02:18:   Type.......: Cell
+20/11/2017 Mon 16:02:18:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:02:18:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:02:18:   Map Matrix
+20/11/2017 Mon 16:02:18:   0, 1
+20/11/2017 Mon 16:02:18:   1, 0
+20/11/2017 Mon 16:02:18:   2, 2
+20/11/2017 Mon 16:02:18:   3, 3
+20/11/2017 Mon 16:02:18:   4, 4
+20/11/2017 Mon 16:02:18:   5, 5
+20/11/2017 Mon 16:02:18:   6, 6
+20/11/2017 Mon 16:02:18:   7, 7
+20/11/2017 Mon 16:02:18:   8, 8
+20/11/2017 Mon 16:02:18:   Clusters...: 9
+20/11/2017 Mon 16:02:32:   FM.........: 0.9031082384596978
+20/11/2017 Mon 16:02:32:End of Script ------/
+20/11/2017 Mon 16:02:58:/------ Begin of Script
+20/11/2017 Mon 16:02:58:epsilon: 0.038 minPts: 16
+20/11/2017 Mon 16:02:58:   Type.......: Cell
+20/11/2017 Mon 16:02:58:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:02:58:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:02:58:   Map Matrix
+20/11/2017 Mon 16:02:58:   0, 1
+20/11/2017 Mon 16:02:58:   1, 2
+20/11/2017 Mon 16:02:58:   2, 3
+20/11/2017 Mon 16:02:58:   3, 4
+20/11/2017 Mon 16:02:58:   4, 5
+20/11/2017 Mon 16:02:58:   5, 6
+20/11/2017 Mon 16:02:58:   6, 7
+20/11/2017 Mon 16:02:58:   7, 8
+20/11/2017 Mon 16:02:58:   -1, -1
+20/11/2017 Mon 16:02:58:   Clusters...: 8
+20/11/2017 Mon 16:03:08:   FM.........: 0.8986984099937312
+20/11/2017 Mon 16:03:08:End of Script ------/
+20/11/2017 Mon 16:03:12:/------ Begin of Script
+20/11/2017 Mon 16:03:12:epsilon: 0.038 minPts: 18
+20/11/2017 Mon 16:03:12:   Type.......: Cell
+20/11/2017 Mon 16:03:12:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:03:12:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:03:12:   Map Matrix
+20/11/2017 Mon 16:03:12:   0, 1
+20/11/2017 Mon 16:03:12:   1, 2
+20/11/2017 Mon 16:03:12:   2, 3
+20/11/2017 Mon 16:03:12:   3, 4
+20/11/2017 Mon 16:03:12:   4, 5
+20/11/2017 Mon 16:03:12:   5, 6
+20/11/2017 Mon 16:03:12:   6, 7
+20/11/2017 Mon 16:03:12:   7, 8
+20/11/2017 Mon 16:03:12:   -1, -1
+20/11/2017 Mon 16:03:12:   Clusters...: 8
+20/11/2017 Mon 16:03:17:   FM.........: 0.8975873863949861
+20/11/2017 Mon 16:03:17:End of Script ------/
+20/11/2017 Mon 16:03:21:/------ Begin of Script
+20/11/2017 Mon 16:03:21:epsilon: 0.038 minPts: 20
+20/11/2017 Mon 16:03:21:   Type.......: Cell
+20/11/2017 Mon 16:03:21:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:03:21:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:03:22:   Map Matrix
+20/11/2017 Mon 16:03:22:   0, 0
+20/11/2017 Mon 16:03:22:   1, 1
+20/11/2017 Mon 16:03:22:   2, 2
+20/11/2017 Mon 16:03:22:   3, 3
+20/11/2017 Mon 16:03:22:   4, 4
+20/11/2017 Mon 16:03:22:   5, 4
+20/11/2017 Mon 16:03:22:   6, 5
+20/11/2017 Mon 16:03:22:   7, 6
+20/11/2017 Mon 16:03:22:   8, 6
+20/11/2017 Mon 16:03:22:   9, 7
+20/11/2017 Mon 16:03:22:   10, 8
+20/11/2017 Mon 16:03:22:   -1, -1
+20/11/2017 Mon 16:03:22:   Clusters...: 11
+20/11/2017 Mon 16:03:30:   FM.........: 0.8942534376883943
+20/11/2017 Mon 16:03:30:End of Script ------/
+20/11/2017 Mon 16:03:35:/------ Begin of Script
+20/11/2017 Mon 16:03:35:epsilon: 0.038 minPts: 19
+20/11/2017 Mon 16:03:35:   Type.......: Cell
+20/11/2017 Mon 16:03:35:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 16:03:35:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 16:03:35:   Map Matrix
+20/11/2017 Mon 16:03:35:   0, 0
+20/11/2017 Mon 16:03:35:   1, 1
+20/11/2017 Mon 16:03:35:   2, 2
+20/11/2017 Mon 16:03:35:   3, 3
+20/11/2017 Mon 16:03:35:   4, 4
+20/11/2017 Mon 16:03:35:   5, 5
+20/11/2017 Mon 16:03:35:   6, 6
+20/11/2017 Mon 16:03:35:   7, 7
+20/11/2017 Mon 16:03:35:   8, 8
+20/11/2017 Mon 16:03:35:   -1, -1
+20/11/2017 Mon 16:03:35:   Clusters...: 9
+20/11/2017 Mon 16:03:47:   FM.........: 0.8961394764992614
+20/11/2017 Mon 16:03:47:End of Script ------/
+20/11/2017 Mon 20:11:04:/------ Begin of Script
+20/11/2017 Mon 20:11:04:epsilon: 0.03 minPts: 12
+20/11/2017 Mon 20:11:04:   Type.......: Point
+20/11/2017 Mon 20:11:04:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:11:04:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:11:04:   Map Matrix
+20/11/2017 Mon 20:11:04:   -1, -1, 7
+20/11/2017 Mon 20:11:04:   0, 0, 333
+20/11/2017 Mon 20:11:04:   1, 1, 325
+20/11/2017 Mon 20:11:04:   2, 2, 330
+20/11/2017 Mon 20:11:04:   3, 3, 329
+20/11/2017 Mon 20:11:04:   4, 4, 333
+20/11/2017 Mon 20:11:04:   5, 5, 332
+20/11/2017 Mon 20:11:04:   6, 6, 332
+20/11/2017 Mon 20:11:04:   7, 7, 333
+20/11/2017 Mon 20:11:04:   8, 8, 330
+20/11/2017 Mon 20:11:04:   Clusters...: 9
+20/11/2017 Mon 20:11:41:   FM.........: 0.9899406012282814
+20/11/2017 Mon 20:11:41:End of Script ------/
+20/11/2017 Mon 20:12:34:/------ Begin of Script
+20/11/2017 Mon 20:12:34:epsilon: 0.03 minPts: 10
+20/11/2017 Mon 20:12:34:   Type.......: Point
+20/11/2017 Mon 20:12:34:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:12:34:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:12:34:   Map Matrix
+20/11/2017 Mon 20:12:34:   -1, -1, 4
+20/11/2017 Mon 20:12:34:   0, 0, 333
+20/11/2017 Mon 20:12:34:   1, 1, 331
+20/11/2017 Mon 20:12:34:   2, 2, 332
+20/11/2017 Mon 20:12:34:   3, 3, 329
+20/11/2017 Mon 20:12:34:   5, 6, 333
+20/11/2017 Mon 20:12:34:   4, 7, 334
+20/11/2017 Mon 20:12:34:   Clusters...: 6
+20/11/2017 Mon 20:12:41:   FM.........: 0.6507054385795878
+20/11/2017 Mon 20:12:41:End of Script ------/
+20/11/2017 Mon 20:12:47:/------ Begin of Script
+20/11/2017 Mon 20:12:47:epsilon: 0.03 minPts: 11
+20/11/2017 Mon 20:12:47:   Type.......: Point
+20/11/2017 Mon 20:12:47:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:12:47:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:12:47:   Map Matrix
+20/11/2017 Mon 20:12:47:   -1, -1, 4
+20/11/2017 Mon 20:12:47:   0, 0, 333
+20/11/2017 Mon 20:12:47:   1, 1, 331
+20/11/2017 Mon 20:12:47:   2, 2, 332
+20/11/2017 Mon 20:12:47:   3, 3, 329
+20/11/2017 Mon 20:12:47:   4, 4, 333
+20/11/2017 Mon 20:12:47:   6, 6, 332
+20/11/2017 Mon 20:12:47:   7, 7, 333
+20/11/2017 Mon 20:12:47:   5, 8, 333
+20/11/2017 Mon 20:12:47:   Clusters...: 8
+20/11/2017 Mon 20:12:52:   FM.........: 0.899122254808414
+20/11/2017 Mon 20:12:52:End of Script ------/
+20/11/2017 Mon 20:13:01:/------ Begin of Script
+20/11/2017 Mon 20:13:01:epsilon: 0.035 minPts: 12
+20/11/2017 Mon 20:13:01:   Type.......: Point
+20/11/2017 Mon 20:13:01:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:13:01:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:13:01:   Map Matrix
+20/11/2017 Mon 20:13:01:   -1, -1, 1
+20/11/2017 Mon 20:13:01:   0, 4, 334
+20/11/2017 Mon 20:13:01:   Clusters...: 1
+20/11/2017 Mon 20:13:04:   FM.........: 0.3327773516980861
+20/11/2017 Mon 20:13:04:End of Script ------/
+20/11/2017 Mon 20:13:12:/------ Begin of Script
+20/11/2017 Mon 20:13:12:epsilon: 0.0315 minPts: 12
+20/11/2017 Mon 20:13:12:   Type.......: Point
+20/11/2017 Mon 20:13:12:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:13:12:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:13:12:   Map Matrix
+20/11/2017 Mon 20:13:12:   -1, -1, 6
+20/11/2017 Mon 20:13:12:   0, 0, 333
+20/11/2017 Mon 20:13:12:   1, 1, 326
+20/11/2017 Mon 20:13:12:   2, 2, 333
+20/11/2017 Mon 20:13:12:   3, 3, 329
+20/11/2017 Mon 20:13:12:   5, 6, 332
+20/11/2017 Mon 20:13:12:   4, 7, 334
+20/11/2017 Mon 20:13:12:   Clusters...: 6
+20/11/2017 Mon 20:13:16:   FM.........: 0.6486408948364364
+20/11/2017 Mon 20:13:16:End of Script ------/
+20/11/2017 Mon 20:13:22:/------ Begin of Script
+20/11/2017 Mon 20:13:22:epsilon: 0.0305 minPts: 12
+20/11/2017 Mon 20:13:22:   Type.......: Point
+20/11/2017 Mon 20:13:22:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:13:22:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:13:22:   Map Matrix
+20/11/2017 Mon 20:13:22:   -1, -1, 6
+20/11/2017 Mon 20:13:22:   0, 0, 333
+20/11/2017 Mon 20:13:22:   1, 1, 326
+20/11/2017 Mon 20:13:22:   2, 2, 331
+20/11/2017 Mon 20:13:22:   3, 3, 329
+20/11/2017 Mon 20:13:22:   4, 4, 332
+20/11/2017 Mon 20:13:22:   5, 5, 332
+20/11/2017 Mon 20:13:22:   6, 6, 332
+20/11/2017 Mon 20:13:22:   7, 7, 333
+20/11/2017 Mon 20:13:22:   8, 8, 330
+20/11/2017 Mon 20:13:22:   Clusters...: 9
+20/11/2017 Mon 20:13:27:   FM.........: 0.989950935914782
+20/11/2017 Mon 20:13:27:End of Script ------/
+20/11/2017 Mon 20:13:41:/------ Begin of Script
+20/11/2017 Mon 20:13:41:epsilon: 0.0308 minPts: 12
+20/11/2017 Mon 20:13:41:   Type.......: Point
+20/11/2017 Mon 20:13:41:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 20:13:41:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:13:41:   Map Matrix
+20/11/2017 Mon 20:13:41:   -1, -1, 6
+20/11/2017 Mon 20:13:41:   0, 0, 333
+20/11/2017 Mon 20:13:41:   1, 1, 326
+20/11/2017 Mon 20:13:41:   2, 2, 331
+20/11/2017 Mon 20:13:41:   3, 3, 329
+20/11/2017 Mon 20:13:41:   4, 4, 332
+20/11/2017 Mon 20:13:41:   5, 5, 332
+20/11/2017 Mon 20:13:41:   6, 6, 332
+20/11/2017 Mon 20:13:41:   7, 7, 332
+20/11/2017 Mon 20:13:41:   8, 8, 330
+20/11/2017 Mon 20:13:41:   Clusters...: 9
+20/11/2017 Mon 20:13:46:   FM.........: 0.9892844651104962
+20/11/2017 Mon 20:13:46:End of Script ------/
+20/11/2017 Mon 20:15:54:/------ Begin of Script
+20/11/2017 Mon 20:15:54:epsilon: 0.037 minPts: 12
+20/11/2017 Mon 20:15:54:   Type.......: Cell
+20/11/2017 Mon 20:15:54:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 20:15:54:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:15:54:   Map Matrix
+20/11/2017 Mon 20:15:54:   1, 0, 14
+20/11/2017 Mon 20:15:54:   0, 1, 334
+20/11/2017 Mon 20:15:54:   2, 2, 333
+20/11/2017 Mon 20:15:54:   3, 3, 333
+20/11/2017 Mon 20:15:54:   4, 4, 334
+20/11/2017 Mon 20:15:54:   5, 5, 333
+20/11/2017 Mon 20:15:54:   6, 6, 333
+20/11/2017 Mon 20:15:54:   7, 7, 334
+20/11/2017 Mon 20:15:54:   8, 8, 333
+20/11/2017 Mon 20:15:54:   Clusters...: 9
+20/11/2017 Mon 20:16:01:   FM.........: 0.9031082384596978
+20/11/2017 Mon 20:16:01:End of Script ------/
+20/11/2017 Mon 20:16:06:/------ Begin of Script
+20/11/2017 Mon 20:16:06:epsilon: 0.037 minPts: 12
+20/11/2017 Mon 20:16:06:   Type.......: Cell
+20/11/2017 Mon 20:16:06:   Input File.: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 20:16:06:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-cells-DBSCAN-diamond9.csv
+20/11/2017 Mon 20:16:06:   Map Matrix
+20/11/2017 Mon 20:16:06:   1, 0, 14
+20/11/2017 Mon 20:16:06:   0, 1, 334
+20/11/2017 Mon 20:16:06:   2, 2, 333
+20/11/2017 Mon 20:16:06:   3, 3, 333
+20/11/2017 Mon 20:16:06:   4, 4, 334
+20/11/2017 Mon 20:16:06:   5, 5, 333
+20/11/2017 Mon 20:16:06:   6, 6, 333
+20/11/2017 Mon 20:16:06:   7, 7, 334
+20/11/2017 Mon 20:16:06:   8, 8, 333
+20/11/2017 Mon 20:16:06:   Clusters...: 9
+20/11/2017 Mon 20:16:55:   FM.........: 0.9031082384596978
+20/11/2017 Mon 20:16:55:End of Script ------/
+21/11/2017 Tue 18:07:13:/------ Begin of Script
+21/11/2017 Tue 18:07:13:epsilon: 0.03 minPts: 12
+21/11/2017 Tue 18:07:13:   Type.......: Point
+21/11/2017 Tue 18:07:13:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:07:13:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:07:13:   Map Matrix
+21/11/2017 Tue 18:07:13:   -1, -1, 7
+21/11/2017 Tue 18:07:13:   0, 0, 333
+21/11/2017 Tue 18:07:13:   1, 1, 325
+21/11/2017 Tue 18:07:13:   2, 2, 330
+21/11/2017 Tue 18:07:13:   3, 3, 329
+21/11/2017 Tue 18:07:13:   4, 4, 333
+21/11/2017 Tue 18:07:13:   5, 5, 332
+21/11/2017 Tue 18:07:13:   6, 6, 332
+21/11/2017 Tue 18:07:13:   7, 7, 333
+21/11/2017 Tue 18:07:13:   8, 8, 330
+21/11/2017 Tue 18:07:13:   Clusters...: 9
+21/11/2017 Tue 18:07:19:   FM.........: 0.9899406012282814
+21/11/2017 Tue 18:07:19:End of Script ------/
+21/11/2017 Tue 18:07:26:/------ Begin of Script
+21/11/2017 Tue 18:07:26:epsilon: 0.035 minPts: 12
+21/11/2017 Tue 18:07:26:   Type.......: Point
+21/11/2017 Tue 18:07:26:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:07:26:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:07:26:   Map Matrix
+21/11/2017 Tue 18:07:26:   -1, -1, 1
+21/11/2017 Tue 18:07:26:   0, 4, 334
+21/11/2017 Tue 18:07:26:   Clusters...: 1
+21/11/2017 Tue 18:07:31:   FM.........: 0.3327773516980861
+21/11/2017 Tue 18:07:31:End of Script ------/
+21/11/2017 Tue 18:07:36:/------ Begin of Script
+21/11/2017 Tue 18:07:36:epsilon: 0.0325 minPts: 12
+21/11/2017 Tue 18:07:36:   Type.......: Point
+21/11/2017 Tue 18:07:36:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:07:36:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:07:37:   Map Matrix
+21/11/2017 Tue 18:07:37:   -1, -1, 2
+21/11/2017 Tue 18:07:37:   0, 0, 333
+21/11/2017 Tue 18:07:37:   1, 2, 333
+21/11/2017 Tue 18:07:37:   2, 3, 331
+21/11/2017 Tue 18:07:37:   4, 6, 333
+21/11/2017 Tue 18:07:37:   3, 7, 334
+21/11/2017 Tue 18:07:37:   Clusters...: 5
+21/11/2017 Tue 18:07:43:   FM.........: 0.622883957565408
+21/11/2017 Tue 18:07:43:End of Script ------/
+21/11/2017 Tue 18:07:53:/------ Begin of Script
+21/11/2017 Tue 18:07:53:epsilon: 0.0313 minPts: 12
+21/11/2017 Tue 18:07:53:   Type.......: Point
+21/11/2017 Tue 18:07:53:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:07:53:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:07:53:   Map Matrix
+21/11/2017 Tue 18:07:53:   -1, -1, 6
+21/11/2017 Tue 18:07:53:   0, 0, 333
+21/11/2017 Tue 18:07:53:   1, 1, 326
+21/11/2017 Tue 18:07:53:   2, 2, 332
+21/11/2017 Tue 18:07:53:   3, 3, 329
+21/11/2017 Tue 18:07:53:   5, 5, 332
+21/11/2017 Tue 18:07:53:   6, 6, 332
+21/11/2017 Tue 18:07:53:   4, 7, 334
+21/11/2017 Tue 18:07:53:   Clusters...: 7
+21/11/2017 Tue 18:07:59:   FM.........: 0.8230833732454137
+21/11/2017 Tue 18:07:59:End of Script ------/
+21/11/2017 Tue 18:08:06:/------ Begin of Script
+21/11/2017 Tue 18:08:06:epsilon: 0.0305 minPts: 12
+21/11/2017 Tue 18:08:06:   Type.......: Point
+21/11/2017 Tue 18:08:06:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:08:06:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:08:06:   Map Matrix
+21/11/2017 Tue 18:08:06:   -1, -1, 6
+21/11/2017 Tue 18:08:06:   0, 0, 333
+21/11/2017 Tue 18:08:06:   1, 1, 326
+21/11/2017 Tue 18:08:06:   2, 2, 331
+21/11/2017 Tue 18:08:06:   3, 3, 329
+21/11/2017 Tue 18:08:06:   4, 4, 332
+21/11/2017 Tue 18:08:06:   5, 5, 332
+21/11/2017 Tue 18:08:06:   6, 6, 332
+21/11/2017 Tue 18:08:06:   7, 7, 333
+21/11/2017 Tue 18:08:06:   8, 8, 330
+21/11/2017 Tue 18:08:06:   Clusters...: 9
+21/11/2017 Tue 18:08:14:   FM.........: 0.989950935914782
+21/11/2017 Tue 18:08:14:End of Script ------/
+21/11/2017 Tue 18:08:24:/------ Begin of Script
+21/11/2017 Tue 18:08:24:epsilon: 0.031 minPts: 12
+21/11/2017 Tue 18:08:24:   Type.......: Point
+21/11/2017 Tue 18:08:24:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:08:24:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:08:24:   Map Matrix
+21/11/2017 Tue 18:08:24:   -1, -1, 6
+21/11/2017 Tue 18:08:24:   0, 0, 333
+21/11/2017 Tue 18:08:24:   1, 1, 326
+21/11/2017 Tue 18:08:24:   2, 2, 331
+21/11/2017 Tue 18:08:24:   3, 3, 329
+21/11/2017 Tue 18:08:24:   4, 4, 330
+21/11/2017 Tue 18:08:24:   5, 5, 332
+21/11/2017 Tue 18:08:24:   6, 6, 332
+21/11/2017 Tue 18:08:24:   7, 7, 332
+21/11/2017 Tue 18:08:24:   8, 8, 330
+21/11/2017 Tue 18:08:24:   Clusters...: 9
+21/11/2017 Tue 18:08:31:   FM.........: 0.9879575842414076
+21/11/2017 Tue 18:08:31:End of Script ------/
+21/11/2017 Tue 18:08:46:/------ Begin of Script
+21/11/2017 Tue 18:08:46:epsilon: 0.031 minPts: 10
+21/11/2017 Tue 18:08:46:   Type.......: Point
+21/11/2017 Tue 18:08:46:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:08:46:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:08:46:   Map Matrix
+21/11/2017 Tue 18:08:46:   -1, -1, 3
+21/11/2017 Tue 18:08:46:   0, 0, 333
+21/11/2017 Tue 18:08:46:   1, 2, 333
+21/11/2017 Tue 18:08:46:   2, 4, 334
+21/11/2017 Tue 18:08:46:   Clusters...: 3
+21/11/2017 Tue 18:08:52:   FM.........: 0.4673147633191436
+21/11/2017 Tue 18:08:52:End of Script ------/
+21/11/2017 Tue 18:09:09:/------ Begin of Script
+21/11/2017 Tue 18:09:09:epsilon: 0.031 minPts: 11
+21/11/2017 Tue 18:09:09:   Type.......: Point
+21/11/2017 Tue 18:09:09:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:09:09:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:09:09:   Map Matrix
+21/11/2017 Tue 18:09:09:   -1, -1, 4
+21/11/2017 Tue 18:09:09:   0, 0, 333
+21/11/2017 Tue 18:09:09:   1, 1, 331
+21/11/2017 Tue 18:09:09:   2, 2, 333
+21/11/2017 Tue 18:09:09:   3, 3, 329
+21/11/2017 Tue 18:09:09:   5, 6, 332
+21/11/2017 Tue 18:09:09:   4, 7, 334
+21/11/2017 Tue 18:09:09:   Clusters...: 6
+21/11/2017 Tue 18:09:15:   FM.........: 0.6503328764370284
+21/11/2017 Tue 18:09:15:End of Script ------/
+21/11/2017 Tue 18:09:21:/------ Begin of Script
+21/11/2017 Tue 18:09:21:epsilon: 0.031 minPts: 10
+21/11/2017 Tue 18:09:21:   Type.......: Point
+21/11/2017 Tue 18:09:21:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:09:21:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:09:21:   Map Matrix
+21/11/2017 Tue 18:09:21:   -1, -1, 3
+21/11/2017 Tue 18:09:21:   0, 0, 333
+21/11/2017 Tue 18:09:21:   1, 2, 333
+21/11/2017 Tue 18:09:21:   2, 4, 334
+21/11/2017 Tue 18:09:21:   Clusters...: 3
+21/11/2017 Tue 18:09:27:   FM.........: 0.4673147633191436
+21/11/2017 Tue 18:09:27:End of Script ------/
+21/11/2017 Tue 18:09:31:/------ Begin of Script
+21/11/2017 Tue 18:09:31:epsilon: 0.031 minPts: 12
+21/11/2017 Tue 18:09:31:   Type.......: Point
+21/11/2017 Tue 18:09:31:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:09:31:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:09:31:   Map Matrix
+21/11/2017 Tue 18:09:31:   -1, -1, 6
+21/11/2017 Tue 18:09:31:   0, 0, 333
+21/11/2017 Tue 18:09:31:   1, 1, 326
+21/11/2017 Tue 18:09:31:   2, 2, 331
+21/11/2017 Tue 18:09:31:   3, 3, 329
+21/11/2017 Tue 18:09:31:   4, 4, 330
+21/11/2017 Tue 18:09:31:   5, 5, 332
+21/11/2017 Tue 18:09:31:   6, 6, 332
+21/11/2017 Tue 18:09:31:   7, 7, 332
+21/11/2017 Tue 18:09:31:   8, 8, 330
+21/11/2017 Tue 18:09:31:   Clusters...: 9
+21/11/2017 Tue 18:09:39:   FM.........: 0.9879575842414076
+21/11/2017 Tue 18:09:39:End of Script ------/
+21/11/2017 Tue 18:09:45:/------ Begin of Script
+21/11/2017 Tue 18:09:45:epsilon: 0.033 minPts: 12
+21/11/2017 Tue 18:09:45:   Type.......: Point
+21/11/2017 Tue 18:09:45:   Input File.: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+21/11/2017 Tue 18:09:45:   Output File: ../data/diamond9/central/6.resultsDBSCAN/output-points-DBSCAN-diamond9.csv
+21/11/2017 Tue 18:09:45:   Map Matrix
+21/11/2017 Tue 18:09:45:   -1, -1, 1
+21/11/2017 Tue 18:09:45:   0, 0, 333
+21/11/2017 Tue 18:09:45:   1, 2, 333
+21/11/2017 Tue 18:09:45:   2, 4, 334
+21/11/2017 Tue 18:09:45:   3, 6, 333
+21/11/2017 Tue 18:09:45:   Clusters...: 4
+21/11/2017 Tue 18:09:51:   FM.........: 0.5375255647135109
+21/11/2017 Tue 18:09:51:End of Script ------/

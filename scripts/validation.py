@@ -36,7 +36,6 @@ def validation(inputFile):
         if first:
             first = False
             continue
-
         aux = [int(CSVLine[-2]), int(CSVLine[-1])]
         matClusters.append(aux)
 
@@ -81,4 +80,4 @@ def validation(inputFile):
     rand = (ss + sd) / m
     jac = (ss) /  (ss + sd + ds)
 
-    return True, fm
+    return True, fm, rand, jac

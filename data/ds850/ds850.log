@@ -1,0 +1,1025 @@
+19/11/2017 Sun 14:17:58:/------ Begin of Script ------
+19/11/2017 Sun 14:17:58:Directory: ../data/ds850
+19/11/2017 Sun 14:17:58:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:17:58:   Epsilon..: 30
+19/11/2017 Sun 14:17:58:   sumData
+19/11/2017 Sun 14:17:58:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:17:58:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:17:58:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+Error on script sumData: Script ended with error number: 1
+Processing file ../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:18:29:/------ Begin of Script ------
+19/11/2017 Sun 14:18:29:Directory: ../data/ds850
+19/11/2017 Sun 14:18:29:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:18:29:   Epsilon..: 30
+19/11/2017 Sun 14:18:29:   sumData
+19/11/2017 Sun 14:18:29:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:18:29:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:18:29:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:18:30:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:18:30:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:18:30:getCluster
+19/11/2017 Sun 14:18:30:   Epsilon..: 30
+19/11/2017 Sun 14:18:30:   Min Force: 0.075
+19/11/2017 Sun 14:18:30:   Min Cells: 3
+19/11/2017 Sun 14:18:30:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:18:30:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:18:30:statCluster 
+19/11/2017 Sun 14:18:30:   Epsilon............: 30
+19/11/2017 Sun 14:18:30:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:18:30:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:18:30:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:18:30:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:18:30:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:18:30:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:18:30:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:18:31:Results-------
+19/11/2017 Sun 14:18:31:   FM for gCluster Points: 0.5233794364002394
+19/11/2017 Sun 14:18:31:   FM for gCluster Cells.: 0.5233794364002394
+19/11/2017 Sun 14:18:31:drawCluster 
+19/11/2017 Sun 14:18:31:   Epsilon.......: 30
+19/11/2017 Sun 14:18:31:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:18:31:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:18:31:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:18:35:Comment: 7 clusters
+19/11/2017 Sun 14:18:35:------ End of Script ------/
+19/11/2017 Sun 14:19:12:/------ Begin of Script ------
+19/11/2017 Sun 14:19:12:Directory: ../data/ds850
+19/11/2017 Sun 14:19:12:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:19:12:   Epsilon..: 20
+19/11/2017 Sun 14:19:12:   sumData
+19/11/2017 Sun 14:19:12:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:19:12:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:19:12:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:19:13:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:19:14:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:19:14:getCluster
+19/11/2017 Sun 14:19:14:   Epsilon..: 20
+19/11/2017 Sun 14:19:14:   Min Force: 0.1
+19/11/2017 Sun 14:19:14:   Min Cells: 3
+19/11/2017 Sun 14:19:14:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:19:14:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:19:14:statCluster 
+19/11/2017 Sun 14:19:14:   Epsilon............: 20
+19/11/2017 Sun 14:19:14:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:19:14:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:19:14:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:19:14:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:19:14:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:19:14:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:19:14:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:19:16:Results-------
+19/11/2017 Sun 14:19:16:   FM for gCluster Points: 0.6485886959782426
+19/11/2017 Sun 14:19:16:   FM for gCluster Cells.: 0.6470031029292981
+19/11/2017 Sun 14:19:16:drawCluster 
+19/11/2017 Sun 14:19:16:   Epsilon.......: 20
+19/11/2017 Sun 14:19:16:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:19:16:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:19:16:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:19:21:Comment: 5 clusters
+19/11/2017 Sun 14:19:21:------ End of Script ------/
+19/11/2017 Sun 14:19:44:/------ Begin of Script ------
+19/11/2017 Sun 14:19:44:Directory: ../data/ds850
+19/11/2017 Sun 14:19:44:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:19:44:   Epsilon..: 20
+19/11/2017 Sun 14:19:44:   sumData
+19/11/2017 Sun 14:19:44:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:19:44:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:19:44:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:19:45:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:19:46:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:19:46:getCluster
+19/11/2017 Sun 14:19:46:   Epsilon..: 20
+19/11/2017 Sun 14:19:46:   Min Force: 0.05
+19/11/2017 Sun 14:19:46:   Min Cells: 3
+19/11/2017 Sun 14:19:46:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:19:46:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:19:47:statCluster 
+19/11/2017 Sun 14:19:47:   Epsilon............: 20
+19/11/2017 Sun 14:19:47:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:19:47:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:19:47:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:19:47:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:19:47:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:19:47:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:19:47:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:19:48:Results-------
+19/11/2017 Sun 14:19:48:   FM for gCluster Points: 0.7460495615633902
+19/11/2017 Sun 14:19:48:   FM for gCluster Cells.: 0.7455879092099655
+19/11/2017 Sun 14:19:48:drawCluster 
+19/11/2017 Sun 14:19:48:   Epsilon.......: 20
+19/11/2017 Sun 14:19:48:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:19:48:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:19:48:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:20:01:Comment: 5 clusters
+19/11/2017 Sun 14:20:01:------ End of Script ------/
+19/11/2017 Sun 14:20:06:/------ Begin of Script ------
+19/11/2017 Sun 14:20:06:Directory: ../data/ds850
+19/11/2017 Sun 14:20:06:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:20:06:   Epsilon..: 15
+19/11/2017 Sun 14:20:06:   sumData
+19/11/2017 Sun 14:20:06:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:20:06:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:20:06:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:20:07:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:20:07:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:20:07:getCluster
+19/11/2017 Sun 14:20:07:   Epsilon..: 15
+19/11/2017 Sun 14:20:07:   Min Force: 0.05
+19/11/2017 Sun 14:20:07:   Min Cells: 3
+19/11/2017 Sun 14:20:07:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:20:07:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:20:07:statCluster 
+19/11/2017 Sun 14:20:07:   Epsilon............: 15
+19/11/2017 Sun 14:20:07:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:20:07:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:20:07:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:20:07:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:20:07:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:20:07:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:20:07:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:20:08:Results-------
+19/11/2017 Sun 14:20:08:   FM for gCluster Points: 0.8581003880861664
+19/11/2017 Sun 14:20:08:   FM for gCluster Cells.: 0.8623384696543301
+19/11/2017 Sun 14:20:08:drawCluster 
+19/11/2017 Sun 14:20:08:   Epsilon.......: 15
+19/11/2017 Sun 14:20:08:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:20:08:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:20:08:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:20:23:Comment: 5 clusters
+19/11/2017 Sun 14:20:23:------ End of Script ------/
+19/11/2017 Sun 14:20:41:/------ Begin of Script ------
+19/11/2017 Sun 14:20:41:Directory: ../data/ds850
+19/11/2017 Sun 14:20:41:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:20:41:   Epsilon..: 15
+19/11/2017 Sun 14:20:41:   sumData
+19/11/2017 Sun 14:20:41:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:20:41:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:20:41:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:20:42:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:20:42:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:20:42:getCluster
+19/11/2017 Sun 14:20:42:   Epsilon..: 15
+19/11/2017 Sun 14:20:42:   Min Force: 0.03
+19/11/2017 Sun 14:20:42:   Min Cells: 3
+19/11/2017 Sun 14:20:42:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:20:42:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:20:42:statCluster 
+19/11/2017 Sun 14:20:42:   Epsilon............: 15
+19/11/2017 Sun 14:20:42:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:20:42:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:20:42:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:20:42:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:20:42:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:20:42:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:20:42:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:20:43:Results-------
+19/11/2017 Sun 14:20:43:   FM for gCluster Points: 0.9431291613376774
+19/11/2017 Sun 14:20:43:   FM for gCluster Cells.: 0.9457280457852579
+19/11/2017 Sun 14:20:43:drawCluster 
+19/11/2017 Sun 14:20:43:   Epsilon.......: 15
+19/11/2017 Sun 14:20:43:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:20:43:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:20:43:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:20:46:Comment: 5 clusters
+19/11/2017 Sun 14:20:46:------ End of Script ------/
+19/11/2017 Sun 14:21:07:/------ Begin of Script ------
+19/11/2017 Sun 14:21:07:Directory: ../data/ds850
+19/11/2017 Sun 14:21:07:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:21:07:   Epsilon..: 15
+19/11/2017 Sun 14:21:07:   sumData
+19/11/2017 Sun 14:21:07:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:21:07:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:21:07:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:21:08:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:21:08:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:21:08:getCluster
+19/11/2017 Sun 14:21:08:   Epsilon..: 15
+19/11/2017 Sun 14:21:08:   Min Force: 0.02
+19/11/2017 Sun 14:21:08:   Min Cells: 3
+19/11/2017 Sun 14:21:08:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:21:08:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:21:08:statCluster 
+19/11/2017 Sun 14:21:08:   Epsilon............: 15
+19/11/2017 Sun 14:21:08:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:21:08:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:21:08:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:21:08:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:21:08:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:21:08:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:21:08:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:21:11:Results-------
+19/11/2017 Sun 14:21:11:   FM for gCluster Points: 0.8447736572643987
+19/11/2017 Sun 14:21:12:   FM for gCluster Cells.: 0.8493630102738196
+19/11/2017 Sun 14:21:12:drawCluster 
+19/11/2017 Sun 14:21:12:   Epsilon.......: 15
+19/11/2017 Sun 14:21:12:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:21:12:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:21:12:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:21:31:Comment: 4 clusters
+19/11/2017 Sun 14:21:31:------ End of Script ------/
+19/11/2017 Sun 14:21:47:/------ Begin of Script ------
+19/11/2017 Sun 14:21:47:Directory: ../data/ds850
+19/11/2017 Sun 14:21:47:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:21:47:   Epsilon..: 18
+19/11/2017 Sun 14:21:47:   sumData
+19/11/2017 Sun 14:21:47:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:21:47:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:21:47:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:21:48:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:21:48:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:21:48:getCluster
+19/11/2017 Sun 14:21:48:   Epsilon..: 18
+19/11/2017 Sun 14:21:48:   Min Force: 0.02
+19/11/2017 Sun 14:21:48:   Min Cells: 3
+19/11/2017 Sun 14:21:48:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:21:48:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:21:48:statCluster 
+19/11/2017 Sun 14:21:48:   Epsilon............: 18
+19/11/2017 Sun 14:21:48:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:21:48:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:21:48:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:21:48:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:21:48:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:21:48:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:21:48:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:21:49:Results-------
+19/11/2017 Sun 14:21:49:   FM for gCluster Points: 0.9323486997326842
+19/11/2017 Sun 14:21:49:   FM for gCluster Cells.: 0.9347904744524083
+19/11/2017 Sun 14:21:49:drawCluster 
+19/11/2017 Sun 14:21:49:   Epsilon.......: 18
+19/11/2017 Sun 14:21:49:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:21:49:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:21:49:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:21:56:Comment: 6 clusters
+19/11/2017 Sun 14:21:56:------ End of Script ------/
+19/11/2017 Sun 14:22:17:/------ Begin of Script ------
+19/11/2017 Sun 14:22:17:Directory: ../data/ds850
+19/11/2017 Sun 14:22:17:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:22:17:   Epsilon..: 18
+19/11/2017 Sun 14:22:17:   sumData
+19/11/2017 Sun 14:22:17:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:22:17:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:22:17:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:22:19:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:22:19:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:22:19:getCluster
+19/11/2017 Sun 14:22:19:   Epsilon..: 18
+19/11/2017 Sun 14:22:19:   Min Force: 0.01
+19/11/2017 Sun 14:22:19:   Min Cells: 3
+19/11/2017 Sun 14:22:19:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:22:19:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:22:19:statCluster 
+19/11/2017 Sun 14:22:19:   Epsilon............: 18
+19/11/2017 Sun 14:22:19:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:22:19:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:22:19:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:22:19:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:22:19:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:22:19:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:22:19:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:22:20:Results-------
+19/11/2017 Sun 14:22:20:   FM for gCluster Points: 0.949327271359998
+19/11/2017 Sun 14:22:20:   FM for gCluster Cells.: 0.9517127825662702
+19/11/2017 Sun 14:22:20:drawCluster 
+19/11/2017 Sun 14:22:20:   Epsilon.......: 18
+19/11/2017 Sun 14:22:20:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:22:20:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:22:20:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:22:23:Comment: 5 clusters
+19/11/2017 Sun 14:22:23:------ End of Script ------/
+19/11/2017 Sun 14:22:46:/------ Begin of Script ------
+19/11/2017 Sun 14:22:46:Directory: ../data/ds850
+19/11/2017 Sun 14:22:46:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:22:46:   Epsilon..: 18
+19/11/2017 Sun 14:22:46:   sumData
+19/11/2017 Sun 14:22:46:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:22:46:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:22:46:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:22:47:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:22:47:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:22:47:getCluster
+19/11/2017 Sun 14:22:47:   Epsilon..: 18
+19/11/2017 Sun 14:22:47:   Min Force: 0.008
+19/11/2017 Sun 14:22:47:   Min Cells: 3
+19/11/2017 Sun 14:22:47:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:22:47:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:22:48:statCluster 
+19/11/2017 Sun 14:22:48:   Epsilon............: 18
+19/11/2017 Sun 14:22:48:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:22:48:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:22:48:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:22:48:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:22:48:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:22:48:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:22:48:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:22:48:Results-------
+19/11/2017 Sun 14:22:48:   FM for gCluster Points: 0.9667553436846267
+19/11/2017 Sun 14:22:48:   FM for gCluster Cells.: 0.9692138369310429
+19/11/2017 Sun 14:22:48:drawCluster 
+19/11/2017 Sun 14:22:48:   Epsilon.......: 18
+19/11/2017 Sun 14:22:48:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:22:48:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:22:48:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:22:50:Comment: 5 clusters
+19/11/2017 Sun 14:22:50:------ End of Script ------/
+19/11/2017 Sun 14:23:10:/------ Begin of Script ------
+19/11/2017 Sun 14:23:10:Directory: ../data/ds850
+19/11/2017 Sun 14:23:10:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:23:10:   Epsilon..: 18
+19/11/2017 Sun 14:23:10:   sumData
+19/11/2017 Sun 14:23:10:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:23:10:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:23:10:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:23:11:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:23:11:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:23:11:getCluster
+19/11/2017 Sun 14:23:11:   Epsilon..: 18
+19/11/2017 Sun 14:23:11:   Min Force: 0.005
+19/11/2017 Sun 14:23:11:   Min Cells: 3
+19/11/2017 Sun 14:23:11:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:23:11:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:12:statCluster 
+19/11/2017 Sun 14:23:12:   Epsilon............: 18
+19/11/2017 Sun 14:23:12:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:12:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:12:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:23:12:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:12:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:23:12:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:23:12:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:23:12:Results-------
+19/11/2017 Sun 14:23:12:   FM for gCluster Points: 0.6807711880376582
+19/11/2017 Sun 14:23:12:   FM for gCluster Cells.: 0.6806825478677003
+19/11/2017 Sun 14:23:12:drawCluster 
+19/11/2017 Sun 14:23:12:   Epsilon.......: 18
+19/11/2017 Sun 14:23:12:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:12:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:12:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:23:16:Comment: 3 clusters
+19/11/2017 Sun 14:23:16:------ End of Script ------/
+19/11/2017 Sun 14:23:23:/------ Begin of Script ------
+19/11/2017 Sun 14:23:23:Directory: ../data/ds850
+19/11/2017 Sun 14:23:23:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:23:23:   Epsilon..: 18
+19/11/2017 Sun 14:23:23:   sumData
+19/11/2017 Sun 14:23:23:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:23:23:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:23:23:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:23:24:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:23:24:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:23:24:getCluster
+19/11/2017 Sun 14:23:24:   Epsilon..: 18
+19/11/2017 Sun 14:23:24:   Min Force: 0.007
+19/11/2017 Sun 14:23:24:   Min Cells: 3
+19/11/2017 Sun 14:23:24:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:23:24:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:24:statCluster 
+19/11/2017 Sun 14:23:24:   Epsilon............: 18
+19/11/2017 Sun 14:23:24:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:24:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:24:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:23:24:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:24:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:23:24:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:23:24:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:23:25:Results-------
+19/11/2017 Sun 14:23:25:   FM for gCluster Points: 0.803596553571179
+19/11/2017 Sun 14:23:25:   FM for gCluster Cells.: 0.8034656682300495
+19/11/2017 Sun 14:23:25:drawCluster 
+19/11/2017 Sun 14:23:25:   Epsilon.......: 18
+19/11/2017 Sun 14:23:25:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:25:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:25:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:23:27:Comment: 4 clusters
+19/11/2017 Sun 14:23:27:------ End of Script ------/
+19/11/2017 Sun 14:23:35:/------ Begin of Script ------
+19/11/2017 Sun 14:23:35:Directory: ../data/ds850
+19/11/2017 Sun 14:23:35:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:23:35:   Epsilon..: 18
+19/11/2017 Sun 14:23:35:   sumData
+19/11/2017 Sun 14:23:35:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:23:35:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:23:35:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:23:35:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:23:35:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:23:35:getCluster
+19/11/2017 Sun 14:23:35:   Epsilon..: 18
+19/11/2017 Sun 14:23:35:   Min Force: 0.0075
+19/11/2017 Sun 14:23:35:   Min Cells: 3
+19/11/2017 Sun 14:23:35:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:23:35:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:36:statCluster 
+19/11/2017 Sun 14:23:36:   Epsilon............: 18
+19/11/2017 Sun 14:23:36:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:36:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:36:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:23:36:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:36:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:23:36:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:23:36:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:23:36:Results-------
+19/11/2017 Sun 14:23:36:   FM for gCluster Points: 0.8023362169126919
+19/11/2017 Sun 14:23:36:   FM for gCluster Cells.: 0.8021938526573793
+19/11/2017 Sun 14:23:36:drawCluster 
+19/11/2017 Sun 14:23:36:   Epsilon.......: 18
+19/11/2017 Sun 14:23:36:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:36:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:36:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:23:42:Comment: 4 clusters
+19/11/2017 Sun 14:23:42:------ End of Script ------/
+19/11/2017 Sun 14:23:49:/------ Begin of Script ------
+19/11/2017 Sun 14:23:49:Directory: ../data/ds850
+19/11/2017 Sun 14:23:49:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:23:49:   Epsilon..: 20
+19/11/2017 Sun 14:23:49:   sumData
+19/11/2017 Sun 14:23:49:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:23:49:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:23:49:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:23:50:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:23:50:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:23:50:getCluster
+19/11/2017 Sun 14:23:50:   Epsilon..: 20
+19/11/2017 Sun 14:23:50:   Min Force: 0.0075
+19/11/2017 Sun 14:23:50:   Min Cells: 3
+19/11/2017 Sun 14:23:50:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:23:50:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:50:statCluster 
+19/11/2017 Sun 14:23:50:   Epsilon............: 20
+19/11/2017 Sun 14:23:50:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:23:50:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:50:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:23:50:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:50:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:23:50:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:23:50:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:23:51:Results-------
+19/11/2017 Sun 14:23:51:   FM for gCluster Points: 0.9721564517150343
+19/11/2017 Sun 14:23:51:   FM for gCluster Cells.: 0.969626718393103
+19/11/2017 Sun 14:23:51:drawCluster 
+19/11/2017 Sun 14:23:51:   Epsilon.......: 20
+19/11/2017 Sun 14:23:51:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:23:51:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:23:51:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:23:53:Comment: 5 clusters
+19/11/2017 Sun 14:23:53:------ End of Script ------/
+19/11/2017 Sun 14:24:30:/------ Begin of Script ------
+19/11/2017 Sun 14:24:30:Directory: ../data/ds850
+19/11/2017 Sun 14:24:30:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:24:30:   Epsilon..: 20
+19/11/2017 Sun 14:24:30:   sumData
+19/11/2017 Sun 14:24:30:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:24:30:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:24:30:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:24:32:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:24:32:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:24:32:getCluster
+19/11/2017 Sun 14:24:32:   Epsilon..: 20
+19/11/2017 Sun 14:24:32:   Min Force: 0.007
+19/11/2017 Sun 14:24:32:   Min Cells: 3
+19/11/2017 Sun 14:24:32:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:24:32:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:24:32:statCluster 
+19/11/2017 Sun 14:24:32:   Epsilon............: 20
+19/11/2017 Sun 14:24:32:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:24:32:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:24:32:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:24:32:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:24:32:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:24:32:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:24:32:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:24:33:Results-------
+19/11/2017 Sun 14:24:33:   FM for gCluster Points: 0.7992746451870029
+19/11/2017 Sun 14:24:33:   FM for gCluster Cells.: 0.7993809284414762
+19/11/2017 Sun 14:24:33:drawCluster 
+19/11/2017 Sun 14:24:33:   Epsilon.......: 20
+19/11/2017 Sun 14:24:33:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:24:33:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:24:33:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:24:58:Comment: 4 clusters
+19/11/2017 Sun 14:24:58:------ End of Script ------/
+19/11/2017 Sun 14:25:20:/------ Begin of Script ------
+19/11/2017 Sun 14:25:20:Directory: ../data/ds850
+19/11/2017 Sun 14:25:20:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:25:20:   Epsilon..: 15
+19/11/2017 Sun 14:25:20:   sumData
+19/11/2017 Sun 14:25:20:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:25:20:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:25:20:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:25:21:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:25:21:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:25:21:getCluster
+19/11/2017 Sun 14:25:21:   Epsilon..: 15
+19/11/2017 Sun 14:25:21:   Min Force: 0.007
+19/11/2017 Sun 14:25:21:   Min Cells: 3
+19/11/2017 Sun 14:25:21:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:25:21:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:25:21:statCluster 
+19/11/2017 Sun 14:25:21:   Epsilon............: 15
+19/11/2017 Sun 14:25:21:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:25:21:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:25:21:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:25:21:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:25:21:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:25:21:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:25:21:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:25:22:Results-------
+19/11/2017 Sun 14:25:22:   FM for gCluster Points: 0.5372252088447534
+19/11/2017 Sun 14:25:22:   FM for gCluster Cells.: 0.5386472566902016
+19/11/2017 Sun 14:25:22:drawCluster 
+19/11/2017 Sun 14:25:22:   Epsilon.......: 15
+19/11/2017 Sun 14:25:22:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:25:22:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:25:22:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:25:25:Comment: 2 clusters
+19/11/2017 Sun 14:25:25:------ End of Script ------/
+19/11/2017 Sun 14:25:53:/------ Begin of Script ------
+19/11/2017 Sun 14:25:53:Directory: ../data/ds850
+19/11/2017 Sun 14:25:53:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:25:53:   Epsilon..: 15
+19/11/2017 Sun 14:25:53:   sumData
+19/11/2017 Sun 14:25:53:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:25:53:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:25:53:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:25:54:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:25:54:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:25:54:getCluster
+19/11/2017 Sun 14:25:54:   Epsilon..: 15
+19/11/2017 Sun 14:25:54:   Min Force: 0.05
+19/11/2017 Sun 14:25:54:   Min Cells: 3
+19/11/2017 Sun 14:25:54:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:25:54:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:25:55:statCluster 
+19/11/2017 Sun 14:25:55:   Epsilon............: 15
+19/11/2017 Sun 14:25:55:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:25:55:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:25:55:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:25:55:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:25:55:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:25:55:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:25:55:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:26:00:Results-------
+19/11/2017 Sun 14:26:00:   FM for gCluster Points: 0.8581003880861664
+19/11/2017 Sun 14:26:00:   FM for gCluster Cells.: 0.8623384696543301
+19/11/2017 Sun 14:26:00:drawCluster 
+19/11/2017 Sun 14:26:00:   Epsilon.......: 15
+19/11/2017 Sun 14:26:00:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:26:00:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:26:00:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:26:03:Comment: 5 clusters
+19/11/2017 Sun 14:26:03:------ End of Script ------/
+19/11/2017 Sun 14:26:24:/------ Begin of Script ------
+19/11/2017 Sun 14:26:24:Directory: ../data/ds850
+19/11/2017 Sun 14:26:24:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:26:24:   Epsilon..: 15
+19/11/2017 Sun 14:26:24:   sumData
+19/11/2017 Sun 14:26:24:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:26:24:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:26:24:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:26:25:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:26:25:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:26:25:getCluster
+19/11/2017 Sun 14:26:25:   Epsilon..: 15
+19/11/2017 Sun 14:26:25:   Min Force: 0.03
+19/11/2017 Sun 14:26:25:   Min Cells: 3
+19/11/2017 Sun 14:26:25:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:26:25:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:26:25:statCluster 
+19/11/2017 Sun 14:26:25:   Epsilon............: 15
+19/11/2017 Sun 14:26:25:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:26:25:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:26:25:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:26:25:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:26:25:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:26:25:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:26:25:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:26:26:Results-------
+19/11/2017 Sun 14:26:26:   FM for gCluster Points: 0.9431291613376774
+19/11/2017 Sun 14:26:26:   FM for gCluster Cells.: 0.9457280457852579
+19/11/2017 Sun 14:26:26:drawCluster 
+19/11/2017 Sun 14:26:26:   Epsilon.......: 15
+19/11/2017 Sun 14:26:26:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:26:26:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:26:26:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:26:28:Comment: 5 clusters
+19/11/2017 Sun 14:26:28:------ End of Script ------/
+19/11/2017 Sun 14:26:51:/------ Begin of Script ------
+19/11/2017 Sun 14:26:51:Directory: ../data/ds850
+19/11/2017 Sun 14:26:51:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:26:51:   Epsilon..: 15
+19/11/2017 Sun 14:26:51:   sumData
+19/11/2017 Sun 14:26:51:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:26:51:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:26:51:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:26:51:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:26:52:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:26:52:getCluster
+19/11/2017 Sun 14:26:52:   Epsilon..: 15
+19/11/2017 Sun 14:26:52:   Min Force: 0.02
+19/11/2017 Sun 14:26:52:   Min Cells: 3
+19/11/2017 Sun 14:26:52:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:26:52:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:26:52:statCluster 
+19/11/2017 Sun 14:26:52:   Epsilon............: 15
+19/11/2017 Sun 14:26:52:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:26:52:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:26:52:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:26:52:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:26:52:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:26:52:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:26:52:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:26:57:Results-------
+19/11/2017 Sun 14:26:57:   FM for gCluster Points: 0.8447736572643987
+19/11/2017 Sun 14:26:57:   FM for gCluster Cells.: 0.8493630102738196
+19/11/2017 Sun 14:26:57:drawCluster 
+19/11/2017 Sun 14:26:57:   Epsilon.......: 15
+19/11/2017 Sun 14:26:57:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:26:57:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:26:57:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:26:59:Comment: 4 clusters
+19/11/2017 Sun 14:26:59:------ End of Script ------/
+19/11/2017 Sun 14:27:02:/------ Begin of Script ------
+19/11/2017 Sun 14:27:02:Directory: ../data/ds850
+19/11/2017 Sun 14:27:02:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:27:02:   Epsilon..: 15
+19/11/2017 Sun 14:27:02:   sumData
+19/11/2017 Sun 14:27:02:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:27:02:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:27:02:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:27:02:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:27:02:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:27:02:getCluster
+19/11/2017 Sun 14:27:02:   Epsilon..: 15
+19/11/2017 Sun 14:27:02:   Min Force: 0.025
+19/11/2017 Sun 14:27:02:   Min Cells: 3
+19/11/2017 Sun 14:27:02:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:27:02:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:27:03:statCluster 
+19/11/2017 Sun 14:27:03:   Epsilon............: 15
+19/11/2017 Sun 14:27:03:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:27:03:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:27:03:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:27:03:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:27:03:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:27:03:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:27:03:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:27:03:Results-------
+19/11/2017 Sun 14:27:03:   FM for gCluster Points: 0.95569688719888
+19/11/2017 Sun 14:27:03:   FM for gCluster Cells.: 0.958334803246413
+19/11/2017 Sun 14:27:03:drawCluster 
+19/11/2017 Sun 14:27:03:   Epsilon.......: 15
+19/11/2017 Sun 14:27:03:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:27:03:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:27:03:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:27:09:Comment: 5 clusters
+19/11/2017 Sun 14:27:09:------ End of Script ------/
+19/11/2017 Sun 14:27:39:/------ Begin of Script ------
+19/11/2017 Sun 14:27:39:Directory: ../data/ds850
+19/11/2017 Sun 14:27:39:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:27:39:   Epsilon..: 15
+19/11/2017 Sun 14:27:39:   sumData
+19/11/2017 Sun 14:27:39:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:27:39:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:27:39:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:27:41:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:27:41:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:27:41:getCluster
+19/11/2017 Sun 14:27:41:   Epsilon..: 15
+19/11/2017 Sun 14:27:41:   Min Force: 0.0235
+19/11/2017 Sun 14:27:41:   Min Cells: 3
+19/11/2017 Sun 14:27:41:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:27:41:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:27:41:statCluster 
+19/11/2017 Sun 14:27:41:   Epsilon............: 15
+19/11/2017 Sun 14:27:41:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:27:41:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:27:41:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:27:41:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:27:41:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:27:41:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:27:41:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:27:43:Results-------
+19/11/2017 Sun 14:27:43:   FM for gCluster Points: 0.9702887085124623
+19/11/2017 Sun 14:27:43:   FM for gCluster Cells.: 0.9729246855709321
+19/11/2017 Sun 14:27:43:drawCluster 
+19/11/2017 Sun 14:27:43:   Epsilon.......: 15
+19/11/2017 Sun 14:27:43:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:27:43:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:27:43:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:27:45:Comment: 5 clusters
+19/11/2017 Sun 14:27:45:------ End of Script ------/
+19/11/2017 Sun 14:28:24:/------ Begin of Script ------
+19/11/2017 Sun 14:28:24:Directory: ../data/ds850
+19/11/2017 Sun 14:28:24:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:28:24:   Epsilon..: 15
+19/11/2017 Sun 14:28:24:   sumData
+19/11/2017 Sun 14:28:24:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:28:24:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:28:24:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:28:25:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:28:25:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:28:25:getCluster
+19/11/2017 Sun 14:28:25:   Epsilon..: 15
+19/11/2017 Sun 14:28:25:   Min Force: 0.023
+19/11/2017 Sun 14:28:25:   Min Cells: 3
+19/11/2017 Sun 14:28:25:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:28:25:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:28:25:statCluster 
+19/11/2017 Sun 14:28:25:   Epsilon............: 15
+19/11/2017 Sun 14:28:25:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:28:25:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:28:25:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:28:25:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:28:25:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:28:25:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:28:25:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:28:26:Results-------
+19/11/2017 Sun 14:28:26:   FM for gCluster Points: 0.9702887085124623
+19/11/2017 Sun 14:28:26:   FM for gCluster Cells.: 0.9729246855709321
+19/11/2017 Sun 14:28:26:drawCluster 
+19/11/2017 Sun 14:28:26:   Epsilon.......: 15
+19/11/2017 Sun 14:28:26:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:28:26:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:28:26:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:28:31:Comment: 5 clusters
+19/11/2017 Sun 14:28:31:------ End of Script ------/
+19/11/2017 Sun 14:28:45:/------ Begin of Script ------
+19/11/2017 Sun 14:28:45:Directory: ../data/ds850
+19/11/2017 Sun 14:28:45:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:28:45:   Epsilon..: 15
+19/11/2017 Sun 14:28:45:   sumData
+19/11/2017 Sun 14:28:45:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:28:45:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:28:45:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:28:46:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:28:46:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:28:46:getCluster
+19/11/2017 Sun 14:28:46:   Epsilon..: 15
+19/11/2017 Sun 14:28:46:   Min Force: 0.022
+19/11/2017 Sun 14:28:46:   Min Cells: 3
+19/11/2017 Sun 14:28:46:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:28:46:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:28:46:statCluster 
+19/11/2017 Sun 14:28:46:   Epsilon............: 15
+19/11/2017 Sun 14:28:46:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:28:46:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:28:46:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:28:46:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:28:46:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:28:46:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:28:46:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:28:47:Results-------
+19/11/2017 Sun 14:28:47:   FM for gCluster Points: 0.9702887085124623
+19/11/2017 Sun 14:28:47:   FM for gCluster Cells.: 0.9729246855709321
+19/11/2017 Sun 14:28:47:drawCluster 
+19/11/2017 Sun 14:28:47:   Epsilon.......: 15
+19/11/2017 Sun 14:28:47:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:28:47:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:28:47:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:28:51:Comment: 5 clusters
+19/11/2017 Sun 14:28:51:------ End of Script ------/
+19/11/2017 Sun 14:29:02:/------ Begin of Script ------
+19/11/2017 Sun 14:29:02:Directory: ../data/ds850
+19/11/2017 Sun 14:29:02:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:29:02:   Epsilon..: 15
+19/11/2017 Sun 14:29:02:   sumData
+19/11/2017 Sun 14:29:02:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:29:02:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:29:02:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:29:03:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:29:03:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:29:03:getCluster
+19/11/2017 Sun 14:29:03:   Epsilon..: 15
+19/11/2017 Sun 14:29:03:   Min Force: 0.021
+19/11/2017 Sun 14:29:03:   Min Cells: 3
+19/11/2017 Sun 14:29:03:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:29:03:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:29:11:statCluster 
+19/11/2017 Sun 14:29:11:   Epsilon............: 15
+19/11/2017 Sun 14:29:11:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:29:11:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:29:11:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:29:11:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:29:11:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:29:11:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:29:11:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:29:12:Results-------
+19/11/2017 Sun 14:29:12:   FM for gCluster Points: 0.9702887085124623
+19/11/2017 Sun 14:29:12:   FM for gCluster Cells.: 0.9729246855709321
+19/11/2017 Sun 14:29:12:drawCluster 
+19/11/2017 Sun 14:29:12:   Epsilon.......: 15
+19/11/2017 Sun 14:29:12:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:29:12:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:29:12:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:29:14:Comment: 5 clusters
+19/11/2017 Sun 14:29:14:------ End of Script ------/
+19/11/2017 Sun 14:29:31:/------ Begin of Script ------
+19/11/2017 Sun 14:29:31:Directory: ../data/ds850
+19/11/2017 Sun 14:29:31:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:29:31:   Epsilon..: 15
+19/11/2017 Sun 14:29:31:   sumData
+19/11/2017 Sun 14:29:31:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:29:31:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:29:31:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:29:31:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:29:31:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:29:31:getCluster
+19/11/2017 Sun 14:29:31:   Epsilon..: 15
+19/11/2017 Sun 14:29:31:   Min Force: 0.0205
+19/11/2017 Sun 14:29:31:   Min Cells: 3
+19/11/2017 Sun 14:29:31:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:29:31:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:29:32:statCluster 
+19/11/2017 Sun 14:29:32:   Epsilon............: 15
+19/11/2017 Sun 14:29:32:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:29:32:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:29:32:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:29:32:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:29:32:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:29:32:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:29:32:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:29:33:Results-------
+19/11/2017 Sun 14:29:33:   FM for gCluster Points: 0.8447736572643987
+19/11/2017 Sun 14:29:33:   FM for gCluster Cells.: 0.8493630102738196
+19/11/2017 Sun 14:29:33:drawCluster 
+19/11/2017 Sun 14:29:33:   Epsilon.......: 15
+19/11/2017 Sun 14:29:33:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:29:33:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:29:33:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:29:37:Comment: 5 clusters
+19/11/2017 Sun 14:29:37:------ End of Script ------/
+19/11/2017 Sun 14:30:00:/------ Begin of Script ------
+19/11/2017 Sun 14:30:00:Directory: ../data/ds850
+19/11/2017 Sun 14:30:00:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:30:00:   Epsilon..: 12
+19/11/2017 Sun 14:30:00:   sumData
+19/11/2017 Sun 14:30:00:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:30:00:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:30:00:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:30:02:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:30:02:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:30:02:getCluster
+19/11/2017 Sun 14:30:02:   Epsilon..: 12
+19/11/2017 Sun 14:30:02:   Min Force: 0.0205
+19/11/2017 Sun 14:30:02:   Min Cells: 3
+19/11/2017 Sun 14:30:02:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:30:02:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:30:02:statCluster 
+19/11/2017 Sun 14:30:02:   Epsilon............: 12
+19/11/2017 Sun 14:30:02:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:30:02:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:30:02:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:30:02:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:30:02:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:30:02:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:30:02:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:30:04:Results-------
+19/11/2017 Sun 14:30:04:   FM for gCluster Points: 0.5270269024988344
+19/11/2017 Sun 14:30:05:   FM for gCluster Cells.: 0.5278739550778697
+19/11/2017 Sun 14:30:05:drawCluster 
+19/11/2017 Sun 14:30:05:   Epsilon.......: 12
+19/11/2017 Sun 14:30:05:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:30:05:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:30:05:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:30:09:Comment: 2 clusters
+19/11/2017 Sun 14:30:09:------ End of Script ------/
+19/11/2017 Sun 14:30:36:/------ Begin of Script ------
+19/11/2017 Sun 14:30:36:Directory: ../data/ds850
+19/11/2017 Sun 14:30:36:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:30:36:   Epsilon..: 10
+19/11/2017 Sun 14:30:36:   sumData
+19/11/2017 Sun 14:30:36:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:30:36:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:30:36:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:30:37:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:30:37:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:30:37:getCluster
+19/11/2017 Sun 14:30:37:   Epsilon..: 10
+19/11/2017 Sun 14:30:37:   Min Force: 0.03
+19/11/2017 Sun 14:30:37:   Min Cells: 3
+19/11/2017 Sun 14:30:37:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:30:37:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:30:39:statCluster 
+19/11/2017 Sun 14:30:39:   Epsilon............: 10
+19/11/2017 Sun 14:30:39:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:30:39:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:30:39:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:30:39:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:30:39:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:30:39:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:30:39:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:30:41:Results-------
+19/11/2017 Sun 14:30:41:   FM for gCluster Points: 0.6595093597687725
+19/11/2017 Sun 14:30:41:   FM for gCluster Cells.: 0.6632041438016619
+19/11/2017 Sun 14:30:41:drawCluster 
+19/11/2017 Sun 14:30:41:   Epsilon.......: 10
+19/11/2017 Sun 14:30:41:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:30:41:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:30:41:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:30:46:Comment: 3 clusters
+19/11/2017 Sun 14:30:46:------ End of Script ------/
+19/11/2017 Sun 14:30:56:/------ Begin of Script ------
+19/11/2017 Sun 14:30:56:Directory: ../data/ds850
+19/11/2017 Sun 14:30:56:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:30:56:   Epsilon..: 10
+19/11/2017 Sun 14:30:56:   sumData
+19/11/2017 Sun 14:30:56:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:30:56:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:30:56:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:30:57:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:30:57:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:30:57:getCluster
+19/11/2017 Sun 14:30:57:   Epsilon..: 10
+19/11/2017 Sun 14:30:57:   Min Force: 0.05
+19/11/2017 Sun 14:30:57:   Min Cells: 3
+19/11/2017 Sun 14:30:57:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:30:57:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:30:57:statCluster 
+19/11/2017 Sun 14:30:57:   Epsilon............: 10
+19/11/2017 Sun 14:30:57:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:30:57:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:30:57:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:30:57:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:30:57:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:30:57:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:30:57:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:30:58:Results-------
+19/11/2017 Sun 14:30:58:   FM for gCluster Points: 0.6264619250705131
+19/11/2017 Sun 14:30:58:   FM for gCluster Cells.: 0.6293604382427941
+19/11/2017 Sun 14:30:58:drawCluster 
+19/11/2017 Sun 14:30:58:   Epsilon.......: 10
+19/11/2017 Sun 14:30:58:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:30:58:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:30:58:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:31:01:Comment: 3 clusters
+19/11/2017 Sun 14:31:01:------ End of Script ------/
+19/11/2017 Sun 14:31:23:/------ Begin of Script ------
+19/11/2017 Sun 14:31:23:Directory: ../data/ds850
+19/11/2017 Sun 14:31:23:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:31:23:   Epsilon..: 10
+19/11/2017 Sun 14:31:23:   sumData
+19/11/2017 Sun 14:31:23:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:31:23:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:31:23:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:31:24:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:31:24:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:31:24:getCluster
+19/11/2017 Sun 14:31:24:   Epsilon..: 10
+19/11/2017 Sun 14:31:24:   Min Force: 0.07
+19/11/2017 Sun 14:31:24:   Min Cells: 3
+19/11/2017 Sun 14:31:24:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:31:24:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:31:24:statCluster 
+19/11/2017 Sun 14:31:24:   Epsilon............: 10
+19/11/2017 Sun 14:31:24:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:31:24:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:31:24:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:31:24:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:31:24:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:31:24:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:31:24:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:31:25:Results-------
+19/11/2017 Sun 14:31:25:   FM for gCluster Points: 0.7469020439611969
+19/11/2017 Sun 14:31:25:   FM for gCluster Cells.: 0.7483241981821398
+19/11/2017 Sun 14:31:25:drawCluster 
+19/11/2017 Sun 14:31:25:   Epsilon.......: 10
+19/11/2017 Sun 14:31:25:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:31:25:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:31:25:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:32:00:Comment: 4 clusters
+19/11/2017 Sun 14:32:00:------ End of Script ------/
+19/11/2017 Sun 14:32:49:/------ Begin of Script ------
+19/11/2017 Sun 14:32:49:Directory: ../data/ds850
+19/11/2017 Sun 14:32:49:   Config File: ../data/ds850/config/config-ds850.csv
+19/11/2017 Sun 14:32:49:   Epsilon..: 15
+19/11/2017 Sun 14:32:49:   sumData
+19/11/2017 Sun 14:32:49:   File Input:......../data/ds850/devices/ds850.csv
+19/11/2017 Sun 14:32:49:   File Cell Output.:../data/ds850/central/1.sumDataOutput/cell-ds850-01.csv
+19/11/2017 Sun 14:32:49:   File Point Output:../data/ds850/central/1.sumDataOutput/point-ds850-01.csv
+19/11/2017 Sun 14:32:50:Cells consolidation to file: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv OK
+19/11/2017 Sun 14:32:50:Points consolidation to file: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv OK
+19/11/2017 Sun 14:32:50:getCluster
+19/11/2017 Sun 14:32:50:   Epsilon..: 15
+19/11/2017 Sun 14:32:50:   Min Force: 0.022
+19/11/2017 Sun 14:32:50:   Min Cells: 3
+19/11/2017 Sun 14:32:50:   Input....: ../data/ds850/central/2.deviceConsolidation/cells-ds850.csv
+19/11/2017 Sun 14:32:50:   Output...: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:32:51:statCluster 
+19/11/2017 Sun 14:32:51:   Epsilon............: 15
+19/11/2017 Sun 14:32:51:   Input Cell.........: ../data/ds850/central/3.getClusterOutput/gCluster-result-ds850.csv
+19/11/2017 Sun 14:32:51:   Map Cell gCluster..: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:32:51:   Input Point........: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:32:51:   Map Point gCluster.: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:32:51:   Map DBSCAN.........: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:32:51:   Valid Cell.........: ../data/ds850/central/validClusterInput/valid-cell-ds850.csv
+19/11/2017 Sun 14:32:51:   Valid Point........: ../data/ds850/central/validClusterInput/valid-point-ds850.csv
+19/11/2017 Sun 14:32:51:Results-------
+19/11/2017 Sun 14:32:51:   FM for gCluster Points: 0.9702887085124623
+19/11/2017 Sun 14:32:51:   FM for gCluster Cells.: 0.9729246855709321
+19/11/2017 Sun 14:32:51:drawCluster 
+19/11/2017 Sun 14:32:51:   Epsilon.......: 15
+19/11/2017 Sun 14:32:51:   Input Cell....: ../data/ds850/central/4.statClusterOutput/map-cell-ds850.csv
+19/11/2017 Sun 14:32:51:   Input Point...: ../data/ds850/central/4.statClusterOutput/map-point-ds850.csv
+19/11/2017 Sun 14:32:51:   Output SVG....: ../data/ds850/central/drawOutput/graph-ds850.svg
+19/11/2017 Sun 14:32:55:Comment: 5 clusters
+19/11/2017 Sun 14:32:55:------ End of Script ------/

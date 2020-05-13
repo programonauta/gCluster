@@ -1,0 +1,20 @@
+05/02/2018 Mon 14:33:15:/------ Begin of Script Random Sampling------
+05/02/2018 Mon 14:33:15:Directory: ../data/diamond9
+05/02/2018 Mon 14:33:15:   Input File....: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+05/02/2018 Mon 14:33:15:   Reduction.....: 0.7432
+05/02/2018 Mon 14:33:15:   Epsilon.......: 0.03
+05/02/2018 Mon 14:33:15:   minPts........: 3
+05/02/2018 Mon 14:33:15:   qtyExperiments: 100
+05/02/2018 Mon 14:33:15:Input file with 3001 registers
+05/02/2018 Mon 14:33:15:Created: 100 Experiments with 771 each 
+05/02/2018 Mon 14:33:33:------ End of Script ------/
+05/02/2018 Mon 14:34:09:/------ Begin of Script Random Sampling------
+05/02/2018 Mon 14:34:09:Directory: ../data/diamond9
+05/02/2018 Mon 14:34:09:   Input File....: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+05/02/2018 Mon 14:34:09:   Reduction.....: 0.7432
+05/02/2018 Mon 14:34:09:   Epsilon.......: 0.03
+05/02/2018 Mon 14:34:09:   minPts........: 3
+05/02/2018 Mon 14:34:09:   qtyExperiments: 100
+05/02/2018 Mon 14:34:09:Input file with 3001 registers
+05/02/2018 Mon 14:34:10:Created: 100 Experiments with 771 each 
+05/02/2018 Mon 14:34:28:------ End of Script ------/

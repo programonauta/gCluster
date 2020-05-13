@@ -48,8 +48,59 @@
 1510232071 c:\mestrado\repos\grid-clustering\getcluster\include\getcluster.h
 	"point.h"
 
-1510434483 c:\mestrado\repos\grid-clustering\include\gcluster.h
+1511146032 c:\mestrado\repos\grid-clustering\include\gcluster.h
 	<stdio.h>
 	<stdlib.h>
 	"point.h"
+
+1510401541 source:d:\googledrive\mestrado\repos\grid-clustering\csv-reader\csv-reader.cpp
+	"csv-reader.h"
+
+1508368879 d:\googledrive\mestrado\repos\grid-clustering\csv-reader\csv-reader.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1510351440 source:d:\googledrive\mestrado\repos\grid-clustering\graphs\graphs.cpp
+	"graphs.h"
+
+1510351407 d:\googledrive\mestrado\repos\grid-clustering\graphs\graphs.h
+	<vector>
+
+1508693315 source:d:\googledrive\mestrado\repos\grid-clustering\point\point.cpp
+	"point.h"
+	<iostream>
+
+1497454353 d:\googledrive\mestrado\repos\grid-clustering\point\point.h
+	<math.h>
+	<vector>
+	<iostream>
+
+1510580419 source:d:\googledrive\mestrado\repos\grid-clustering\src\cell.cpp
+	"cell.h"
+
+1510580308 d:\googledrive\mestrado\repos\grid-clustering\include\cell.h
+	<vector>
+	"point.h"
+
+1510343007 source:d:\googledrive\mestrado\repos\grid-clustering\src\gcluster.cpp
+	"gCluster.h"
+
+1511142432 d:\googledrive\mestrado\repos\grid-clustering\include\gcluster.h
+	<stdio.h>
+	<stdlib.h>
+	"point.h"
+
+1515750486 source:d:\googledrive\mestrado\repos\grid-clustering\getcluster\getcluster.cpp
+	"gCluster.h"
+	<iostream>
+	<algorithm>
+	<sstream>
+	<math.h>
+	<unistd.h>
+	"point.h"
+	"cell.h"
+	"csv-reader.h"
+	"graphs.h"
 

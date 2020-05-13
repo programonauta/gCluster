@@ -1,0 +1,536 @@
+18/11/2017 Sat 09:12:28:/------ Begin of Script ------
+18/11/2017 Sat 09:12:28:Directory: ../data/diamond9
+18/11/2017 Sat 09:12:28:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:12:28:   Epsilon..: 50
+18/11/2017 Sat 09:12:28:   sumData
+18/11/2017 Sat 09:12:28:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:12:28:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:12:31:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:12:31:getCluster
+18/11/2017 Sat 09:12:31:   Epsilon..: 50
+18/11/2017 Sat 09:12:31:   Min Force: 0.08
+18/11/2017 Sat 09:12:31:   Min Cells: 3
+18/11/2017 Sat 09:12:31:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:12:31:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:12:32:statCluster: didn't execute. Don't have -p option18/11/2017 Sat 09:12:50:Comment: First experiment
+18/11/2017 Sat 09:12:50:------ End of Script ------/
+18/11/2017 Sat 09:12:57:/------ Begin of Script ------
+18/11/2017 Sat 09:12:57:Directory: ../data/diamond9
+18/11/2017 Sat 09:12:57:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:12:57:   Epsilon..: 30
+18/11/2017 Sat 09:12:57:   sumData
+18/11/2017 Sat 09:12:57:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:12:57:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:12:59:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:12:59:getCluster
+18/11/2017 Sat 09:12:59:   Epsilon..: 30
+18/11/2017 Sat 09:12:59:   Min Force: 0.08
+18/11/2017 Sat 09:12:59:   Min Cells: 3
+18/11/2017 Sat 09:12:59:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:12:59:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:12:59:statCluster: didn't execute. Don't have -p option18/11/2017 Sat 09:13:43:Comment: First with 9 clusters
+18/11/2017 Sat 09:13:43:------ End of Script ------/
+18/11/2017 Sat 09:15:16:/------ Begin of Script ------
+18/11/2017 Sat 09:15:16:Directory: ../data/diamond9
+18/11/2017 Sat 09:15:16:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:15:16:   Epsilon..: 50
+18/11/2017 Sat 09:15:16:   sumData
+18/11/2017 Sat 09:15:16:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:15:16:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:15:16:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:15:18:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:15:18:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:15:18:getCluster
+18/11/2017 Sat 09:15:18:   Epsilon..: 50
+18/11/2017 Sat 09:15:18:   Min Force: 0.08
+18/11/2017 Sat 09:15:18:   Min Cells: 3
+18/11/2017 Sat 09:15:18:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:15:18:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:15:20:statCluster 
+18/11/2017 Sat 09:15:20:   Epsilon............: 50
+18/11/2017 Sat 09:15:20:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:15:20:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:15:20:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:15:20:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:15:20:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:15:20:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:15:20:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:15:28:Results-------
+18/11/2017 Sat 09:15:28:   FM for gCluster Points: 0.8192169987464875
+18/11/2017 Sat 09:15:29:   FM for gCluster Cells.: 0.8192169987464875
+18/11/2017 Sat 09:15:29:drawCluster 
+18/11/2017 Sat 09:15:29:   Epsilon.......: 50
+18/11/2017 Sat 09:15:29:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:15:29:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:15:29:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:15:37:Comment: 34 clusters
+18/11/2017 Sat 09:15:37:------ End of Script ------/
+18/11/2017 Sat 09:15:49:/------ Begin of Script ------
+18/11/2017 Sat 09:15:49:Directory: ../data/diamond9
+18/11/2017 Sat 09:15:49:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:15:49:   Epsilon..: 30
+18/11/2017 Sat 09:15:49:   sumData
+18/11/2017 Sat 09:15:49:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:15:49:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:15:49:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:15:51:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:15:51:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:15:51:getCluster
+18/11/2017 Sat 09:15:51:   Epsilon..: 30
+18/11/2017 Sat 09:15:51:   Min Force: 0.08
+18/11/2017 Sat 09:15:51:   Min Cells: 3
+18/11/2017 Sat 09:15:51:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:15:51:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:15:52:statCluster 
+18/11/2017 Sat 09:15:52:   Epsilon............: 30
+18/11/2017 Sat 09:15:52:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:15:52:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:15:52:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:15:52:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:15:52:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:15:52:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:15:52:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:15:54:Results-------
+18/11/2017 Sat 09:15:54:   FM for gCluster Points: 0.9844891170370386
+18/11/2017 Sat 09:15:56:   FM for gCluster Cells.: 0.9844891170370386
+18/11/2017 Sat 09:15:56:drawCluster 
+18/11/2017 Sat 09:15:56:   Epsilon.......: 30
+18/11/2017 Sat 09:15:56:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:15:56:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:15:56:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:16:42:------ End of Script ------/
+18/11/2017 Sat 09:16:59:/------ Begin of Script ------
+18/11/2017 Sat 09:16:59:Directory: ../data/diamond9
+18/11/2017 Sat 09:16:59:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:16:59:   Epsilon..: 30
+18/11/2017 Sat 09:16:59:   sumData
+18/11/2017 Sat 09:16:59:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:16:59:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:16:59:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:17:01:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:17:01:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:17:01:getCluster
+18/11/2017 Sat 09:17:01:   Epsilon..: 30
+18/11/2017 Sat 09:17:01:   Min Force: 0.07
+18/11/2017 Sat 09:17:01:   Min Cells: 3
+18/11/2017 Sat 09:17:01:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:17:01:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:17:02:statCluster 
+18/11/2017 Sat 09:17:02:   Epsilon............: 30
+18/11/2017 Sat 09:17:02:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:17:02:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:17:02:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:17:02:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:17:02:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:17:02:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:17:02:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:17:02:Choose not run validation process
+18/11/2017 Sat 09:17:02:drawCluster 
+18/11/2017 Sat 09:17:02:   Epsilon.......: 30
+18/11/2017 Sat 09:17:02:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:17:02:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:17:02:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:17:12:Comment: 8 clusters
+18/11/2017 Sat 09:17:12:------ End of Script ------/
+18/11/2017 Sat 09:17:39:/------ Begin of Script ------
+18/11/2017 Sat 09:17:39:Directory: ../data/diamond9
+18/11/2017 Sat 09:17:39:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:17:39:   Epsilon..: 30
+18/11/2017 Sat 09:17:39:   sumData
+18/11/2017 Sat 09:17:39:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:17:39:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:17:39:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:17:41:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:17:42:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:17:42:getCluster
+18/11/2017 Sat 09:17:42:   Epsilon..: 30
+18/11/2017 Sat 09:17:42:   Min Force: 0.075
+18/11/2017 Sat 09:17:42:   Min Cells: 3
+18/11/2017 Sat 09:17:42:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:17:42:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:17:42:statCluster 
+18/11/2017 Sat 09:17:42:   Epsilon............: 30
+18/11/2017 Sat 09:17:42:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:17:42:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:17:42:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:17:42:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:17:42:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:17:42:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:17:42:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:17:43:Choose not run validation process
+18/11/2017 Sat 09:17:43:drawCluster 
+18/11/2017 Sat 09:17:43:   Epsilon.......: 30
+18/11/2017 Sat 09:17:43:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:17:43:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:17:43:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:17:54:Comment: 9 clusters
+18/11/2017 Sat 09:17:54:------ End of Script ------/
+18/11/2017 Sat 09:18:34:/------ Begin of Script ------
+18/11/2017 Sat 09:18:34:Directory: ../data/diamond9
+18/11/2017 Sat 09:18:34:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:18:34:   Epsilon..: 35
+18/11/2017 Sat 09:18:34:   sumData
+18/11/2017 Sat 09:18:34:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:18:34:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:18:34:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:18:36:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:18:36:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:18:36:getCluster
+18/11/2017 Sat 09:18:36:   Epsilon..: 35
+18/11/2017 Sat 09:18:36:   Min Force: 0.075
+18/11/2017 Sat 09:18:36:   Min Cells: 3
+18/11/2017 Sat 09:18:36:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:18:36:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:18:36:statCluster 
+18/11/2017 Sat 09:18:36:   Epsilon............: 35
+18/11/2017 Sat 09:18:36:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:18:36:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:18:36:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:18:36:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:18:36:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:18:36:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:18:36:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:18:37:Choose not run validation process
+18/11/2017 Sat 09:18:37:drawCluster 
+18/11/2017 Sat 09:18:37:   Epsilon.......: 35
+18/11/2017 Sat 09:18:37:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:18:37:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:18:37:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:18:43:Comment: 6 clusters
+18/11/2017 Sat 09:18:43:------ End of Script ------/
+18/11/2017 Sat 09:18:56:/------ Begin of Script ------
+18/11/2017 Sat 09:18:56:Directory: ../data/diamond9
+18/11/2017 Sat 09:18:56:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:18:56:   Epsilon..: 35
+18/11/2017 Sat 09:18:56:   sumData
+18/11/2017 Sat 09:18:56:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:18:56:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:18:56:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:18:58:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:18:58:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:18:58:getCluster
+18/11/2017 Sat 09:18:58:   Epsilon..: 35
+18/11/2017 Sat 09:18:58:   Min Force: 0.09
+18/11/2017 Sat 09:18:58:   Min Cells: 3
+18/11/2017 Sat 09:18:58:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:18:58:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:18:59:statCluster 
+18/11/2017 Sat 09:18:59:   Epsilon............: 35
+18/11/2017 Sat 09:18:59:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:18:59:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:18:59:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:18:59:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:18:59:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:18:59:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:18:59:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:19:00:Choose not run validation process
+18/11/2017 Sat 09:19:00:drawCluster 
+18/11/2017 Sat 09:19:00:   Epsilon.......: 35
+18/11/2017 Sat 09:19:00:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:19:00:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:19:00:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:19:03:Comment: 7 clusters
+18/11/2017 Sat 09:19:03:------ End of Script ------/
+18/11/2017 Sat 09:19:07:/------ Begin of Script ------
+18/11/2017 Sat 09:19:07:Directory: ../data/diamond9
+18/11/2017 Sat 09:19:07:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:19:07:   Epsilon..: 35
+18/11/2017 Sat 09:19:07:   sumData
+18/11/2017 Sat 09:19:07:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:19:07:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:19:07:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:19:09:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:19:09:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:19:09:getCluster
+18/11/2017 Sat 09:19:09:   Epsilon..: 35
+18/11/2017 Sat 09:19:09:   Min Force: 0.1
+18/11/2017 Sat 09:19:09:   Min Cells: 3
+18/11/2017 Sat 09:19:09:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:19:09:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:19:10:statCluster 
+18/11/2017 Sat 09:19:10:   Epsilon............: 35
+18/11/2017 Sat 09:19:10:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:19:10:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:19:10:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:19:10:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:19:10:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:19:10:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:19:10:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:19:11:Choose not run validation process
+18/11/2017 Sat 09:19:11:drawCluster 
+18/11/2017 Sat 09:19:11:   Epsilon.......: 35
+18/11/2017 Sat 09:19:11:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:19:11:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:19:11:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:19:18:Comment: 7 clusters
+18/11/2017 Sat 09:19:18:------ End of Script ------/
+18/11/2017 Sat 09:19:50:/------ Begin of Script ------
+18/11/2017 Sat 09:19:50:Directory: ../data/diamond9
+18/11/2017 Sat 09:19:50:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:19:50:   Epsilon..: 35
+18/11/2017 Sat 09:19:50:   sumData
+18/11/2017 Sat 09:19:50:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:19:50:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:19:50:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:19:52:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:19:52:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:19:52:getCluster
+18/11/2017 Sat 09:19:52:   Epsilon..: 35
+18/11/2017 Sat 09:19:52:   Min Force: 0.1
+18/11/2017 Sat 09:19:52:   Min Cells: 3
+18/11/2017 Sat 09:19:52:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:19:52:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:19:53:statCluster 
+18/11/2017 Sat 09:19:53:   Epsilon............: 35
+18/11/2017 Sat 09:19:53:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:19:53:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:19:53:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:19:53:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:19:53:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:19:53:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:19:53:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:19:54:Choose not run validation process
+18/11/2017 Sat 09:19:54:drawCluster 
+18/11/2017 Sat 09:19:54:   Epsilon.......: 35
+18/11/2017 Sat 09:19:54:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:19:54:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:19:54:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:19:59:Comment: 7 clusters
+18/11/2017 Sat 09:19:59:------ End of Script ------/
+18/11/2017 Sat 09:20:22:/------ Begin of Script ------
+18/11/2017 Sat 09:20:22:Directory: ../data/diamond9
+18/11/2017 Sat 09:20:22:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:20:22:   Epsilon..: 35
+18/11/2017 Sat 09:20:22:   sumData
+18/11/2017 Sat 09:20:22:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:20:22:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:20:22:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:20:24:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:20:25:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:20:25:getCluster
+18/11/2017 Sat 09:20:25:   Epsilon..: 35
+18/11/2017 Sat 09:20:25:   Min Force: 0.12
+18/11/2017 Sat 09:20:25:   Min Cells: 3
+18/11/2017 Sat 09:20:25:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:20:25:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:20:25:statCluster 
+18/11/2017 Sat 09:20:25:   Epsilon............: 35
+18/11/2017 Sat 09:20:25:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:20:25:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:20:25:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:20:25:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:20:25:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:20:25:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:20:25:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:20:27:Choose not run validation process
+18/11/2017 Sat 09:20:27:drawCluster 
+18/11/2017 Sat 09:20:27:   Epsilon.......: 35
+18/11/2017 Sat 09:20:27:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:20:27:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:20:27:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:20:57:Comment: Didn't worked well
+18/11/2017 Sat 09:20:57:------ End of Script ------/
+18/11/2017 Sat 09:21:09:/------ Begin of Script ------
+18/11/2017 Sat 09:21:09:Directory: ../data/diamond9
+18/11/2017 Sat 09:21:09:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:21:09:   Epsilon..: 25
+18/11/2017 Sat 09:21:09:   sumData
+18/11/2017 Sat 09:21:09:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:21:09:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:21:09:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:21:11:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:21:11:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:21:11:getCluster
+18/11/2017 Sat 09:21:11:   Epsilon..: 25
+18/11/2017 Sat 09:21:11:   Min Force: 0.075
+18/11/2017 Sat 09:21:11:   Min Cells: 3
+18/11/2017 Sat 09:21:11:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:21:11:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:21:11:statCluster 
+18/11/2017 Sat 09:21:11:   Epsilon............: 25
+18/11/2017 Sat 09:21:11:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:21:11:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:21:11:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:21:11:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:21:11:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:21:11:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:21:11:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:21:12:Choose not run validation process
+18/11/2017 Sat 09:21:12:drawCluster 
+18/11/2017 Sat 09:21:12:   Epsilon.......: 25
+18/11/2017 Sat 09:21:12:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:21:12:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:21:12:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:21:27:Comment: 4 clusters
+18/11/2017 Sat 09:21:27:------ End of Script ------/
+18/11/2017 Sat 09:21:37:/------ Begin of Script ------
+18/11/2017 Sat 09:21:37:Directory: ../data/diamond9
+18/11/2017 Sat 09:21:37:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:21:37:   Epsilon..: 25
+18/11/2017 Sat 09:21:37:   sumData
+18/11/2017 Sat 09:21:37:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:21:37:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:21:37:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:21:40:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:21:40:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:21:40:getCluster
+18/11/2017 Sat 09:21:40:   Epsilon..: 25
+18/11/2017 Sat 09:21:40:   Min Force: 0.05
+18/11/2017 Sat 09:21:40:   Min Cells: 3
+18/11/2017 Sat 09:21:40:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:21:40:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:21:41:statCluster 
+18/11/2017 Sat 09:21:41:   Epsilon............: 25
+18/11/2017 Sat 09:21:41:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:21:41:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:21:41:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:21:41:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:21:41:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:21:41:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:21:41:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:21:41:Choose not run validation process
+18/11/2017 Sat 09:21:41:drawCluster 
+18/11/2017 Sat 09:21:41:   Epsilon.......: 25
+18/11/2017 Sat 09:21:41:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:21:41:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:21:41:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:21:46:------ End of Script ------/
+18/11/2017 Sat 09:21:56:/------ Begin of Script ------
+18/11/2017 Sat 09:21:56:Directory: ../data/diamond9
+18/11/2017 Sat 09:21:56:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:21:56:   Epsilon..: 25
+18/11/2017 Sat 09:21:56:   sumData
+18/11/2017 Sat 09:21:56:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:21:56:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:21:56:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:21:58:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:21:58:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:21:58:getCluster
+18/11/2017 Sat 09:21:58:   Epsilon..: 25
+18/11/2017 Sat 09:21:58:   Min Force: 0.1
+18/11/2017 Sat 09:21:58:   Min Cells: 3
+18/11/2017 Sat 09:21:58:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:21:58:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:21:59:statCluster 
+18/11/2017 Sat 09:21:59:   Epsilon............: 25
+18/11/2017 Sat 09:21:59:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:21:59:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:21:59:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:21:59:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:21:59:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:21:59:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:21:59:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:22:00:Choose not run validation process
+18/11/2017 Sat 09:22:00:drawCluster 
+18/11/2017 Sat 09:22:00:   Epsilon.......: 25
+18/11/2017 Sat 09:22:00:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:22:00:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:22:00:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:22:02:Comment: 5 clusters
+18/11/2017 Sat 09:22:02:------ End of Script ------/
+18/11/2017 Sat 09:23:15:/------ Begin of Script ------
+18/11/2017 Sat 09:23:15:Directory: ../data/diamond9
+18/11/2017 Sat 09:23:15:   Config File: ../data/diamond9/config/config-diamond9.csv
+18/11/2017 Sat 09:23:15:   Epsilon..: 30
+18/11/2017 Sat 09:23:15:   sumData
+18/11/2017 Sat 09:23:15:   File Input:......../data/diamond9/devices/diamond9.csv
+18/11/2017 Sat 09:23:15:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+18/11/2017 Sat 09:23:15:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+18/11/2017 Sat 09:23:17:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+18/11/2017 Sat 09:23:17:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+18/11/2017 Sat 09:23:17:getCluster
+18/11/2017 Sat 09:23:17:   Epsilon..: 30
+18/11/2017 Sat 09:23:17:   Min Force: 0.075
+18/11/2017 Sat 09:23:17:   Min Cells: 3
+18/11/2017 Sat 09:23:17:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+18/11/2017 Sat 09:23:17:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:23:17:statCluster 
+18/11/2017 Sat 09:23:17:   Epsilon............: 30
+18/11/2017 Sat 09:23:17:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+18/11/2017 Sat 09:23:17:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:23:17:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+18/11/2017 Sat 09:23:17:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:23:17:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+18/11/2017 Sat 09:23:17:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+18/11/2017 Sat 09:23:17:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+18/11/2017 Sat 09:23:20:Results-------
+18/11/2017 Sat 09:23:20:   FM for gCluster Points: 0.9899240800400236
+18/11/2017 Sat 09:23:22:   FM for gCluster Cells.: 0.9899240800400236
+18/11/2017 Sat 09:23:22:drawCluster 
+18/11/2017 Sat 09:23:22:   Epsilon.......: 30
+18/11/2017 Sat 09:23:22:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+18/11/2017 Sat 09:23:22:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+18/11/2017 Sat 09:23:22:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+18/11/2017 Sat 09:23:54:Comment: The best so far
+18/11/2017 Sat 09:23:54:------ End of Script ------/
+19/11/2017 Sun 14:05:49:/------ Begin of Script ------
+19/11/2017 Sun 14:05:49:Directory: ../data/diamond9
+19/11/2017 Sun 14:05:49:   Config File: ../data/diamond9/config/config-diamond9.csv
+19/11/2017 Sun 14:05:49:   Epsilon..: 30
+19/11/2017 Sun 14:05:49:   sumData
+19/11/2017 Sun 14:05:49:   File Input:......../data/diamond9/devices/diamond9.csv
+19/11/2017 Sun 14:05:49:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+19/11/2017 Sun 14:05:49:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+19/11/2017 Sun 14:06:03:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+19/11/2017 Sun 14:06:03:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+19/11/2017 Sun 14:06:03:getCluster
+19/11/2017 Sun 14:06:03:   Epsilon..: 30
+19/11/2017 Sun 14:06:03:   Min Force: 0.075
+19/11/2017 Sun 14:06:03:   Min Cells: 3
+19/11/2017 Sun 14:06:03:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+19/11/2017 Sun 14:06:03:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+19/11/2017 Sun 14:06:05:statCluster 
+19/11/2017 Sun 14:06:05:   Epsilon............: 30
+19/11/2017 Sun 14:06:05:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+19/11/2017 Sun 14:06:05:   Map Cell gCluster..: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+19/11/2017 Sun 14:06:05:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+19/11/2017 Sun 14:06:05:   Map Point gCluster.: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+19/11/2017 Sun 14:06:05:   Map DBSCAN.........: ../data/diamond9/central/4.statClusterOutput/map-cell-DBSCAN-diamond9.csv
+19/11/2017 Sun 14:06:05:   Valid Cell.........: ../data/diamond9/central/validClusterInput/valid-cell-diamond9.csv
+19/11/2017 Sun 14:06:05:   Valid Point........: ../data/diamond9/central/validClusterInput/valid-point-diamond9.csv
+19/11/2017 Sun 14:06:13:Results-------
+19/11/2017 Sun 14:06:13:   FM for gCluster Points: 0.9899240800400236
+19/11/2017 Sun 14:06:15:   FM for gCluster Cells.: 0.9899240800400236
+19/11/2017 Sun 14:06:15:drawCluster 
+19/11/2017 Sun 14:06:15:   Epsilon.......: 30
+19/11/2017 Sun 14:06:15:   Input Cell....: ../data/diamond9/central/4.statClusterOutput/map-cell-diamond9.csv
+19/11/2017 Sun 14:06:15:   Input Point...: ../data/diamond9/central/4.statClusterOutput/map-point-diamond9.csv
+19/11/2017 Sun 14:06:15:   Output SVG....: ../data/diamond9/central/drawOutput/graph-diamond9.svg
+19/11/2017 Sun 14:07:05:Comment: 9 clusters
+19/11/2017 Sun 14:07:05:------ End of Script ------/
+20/11/2017 Mon 15:53:40:/------ Begin of Script ------
+20/11/2017 Mon 15:53:40:Directory: ../data/diamond9
+20/11/2017 Mon 15:53:40:   Config File: ../data/diamond9/config/config-diamond9.csv
+20/11/2017 Mon 15:53:40:   Epsilon..: 30
+20/11/2017 Mon 15:53:40:   sumData
+20/11/2017 Mon 15:53:40:   File Input:......../data/diamond9/devices/diamond9.csv
+20/11/2017 Mon 15:53:40:   File Cell Output.:../data/diamond9/central/1.sumDataOutput/cell-diamond9-01.csv
+20/11/2017 Mon 15:53:40:   File Point Output:../data/diamond9/central/1.sumDataOutput/point-diamond9-01.csv
+20/11/2017 Mon 15:53:42:Cells consolidation to file: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv OK
+20/11/2017 Mon 15:53:42:Points consolidation to file: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv OK
+20/11/2017 Mon 15:53:42:getCluster
+20/11/2017 Mon 15:53:42:   Epsilon..: 30
+20/11/2017 Mon 15:53:42:   Min Force: 0.075
+20/11/2017 Mon 15:53:42:   Min Cells: 3
+20/11/2017 Mon 15:53:42:   Input....: ../data/diamond9/central/2.deviceConsolidation/cells-diamond9.csv
+20/11/2017 Mon 15:53:42:   Output...: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+20/11/2017 Mon 15:53:43:mapCluster 
+20/11/2017 Mon 15:53:43:   Epsilon............: 30
+20/11/2017 Mon 15:53:43:   Input Cell.........: ../data/diamond9/central/3.getClusterOutput/gCluster-result-diamond9.csv
+20/11/2017 Mon 15:53:43:   Input Point........: ../data/diamond9/central/2.deviceConsolidation/points-diamond9.csv
+20/11/2017 Mon 15:53:43:   Labeled Cells .....: ../data/diamond9/central/4.mapClusterOutput/labeled-cells-diamond9.csv
+20/11/2017 Mon 15:53:43:   Labeled Points ....: ../data/diamond9/central/4.mapClusterOutput/labeled-points-diamond9.csv
+20/11/2017 Mon 15:53:43:   Expanded Points....: ../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 15:53:44:Results-------
+20/11/2017 Mon 15:53:44:   Input File../data/diamond9/central/4.mapClusterOutput/labeled-points-diamond9.csv
+20/11/2017 Mon 15:53:46:   FM for gCluster Points: 0.9928491383142651
+20/11/2017 Mon 15:53:46:   Input File../data/diamond9/central/4.mapClusterOutput/expanded-points-diamond9.csv
+20/11/2017 Mon 15:53:47:   FM for gCluster Cells.: 0.9928491383142651
+20/11/2017 Mon 15:53:47:drawCluster 
+20/11/2017 Mon 15:53:47:   Epsilon.......: 30
+20/11/2017 Mon 15:53:47:   Input Cell....: ../data/diamond9/central/4.mapClusterOutput/labeled-cells-diamond9.csv
+20/11/2017 Mon 15:53:47:   Input Point...: ../data/diamond9/central/4.mapClusterOutput/labeled-points-diamond9.csv
+20/11/2017 Mon 15:53:47:   Output SVG....: ../data/diamond9/central/5.drawOutput/graph-diamond9.svg
+20/11/2017 Mon 15:53:47:    Draw Numbers..: No
+20/11/2017 Mon 15:54:22:Comment: 9 clusters
+20/11/2017 Mon 15:54:22:------ End of Script ------/

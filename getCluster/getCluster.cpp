@@ -280,7 +280,7 @@ int main(int argc, char* argv[])
                 double relativeQtyJ = (double)listCells[j]->getQtyPoints() / maxPoints;
                 double gravForce = (relativeQtyI)*(relativeQtyJ)/(distance*distance);
                 // Test if need to create a edge between cells
-                if (gravForce > minForce)
+                if (gravForce > minForce || minForce == 0)
                     nodesToBeConnected.push_back(j);
             }
         }

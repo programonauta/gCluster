@@ -1,0 +1,1388 @@
+17/11/2017 Fri 23:08:37:/------ Begin of Script
+17/11/2017 Fri 23:08:37:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:08:37:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:08:37:   Epsilon..: 50
+17/11/2017 Fri 23:08:37:   sumData
+17/11/2017 Fri 23:08:37:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:08:37:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:08:37:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+Error on script sumData: Script ended with error number: 1
+Processing file ../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:09:44:/------ Begin of Script
+17/11/2017 Fri 23:09:44:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:09:44:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:09:44:   Epsilon..: 50
+17/11/2017 Fri 23:09:44:   sumData
+17/11/2017 Fri 23:09:44:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:09:44:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:09:44:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+Error on script sumData: Script ended with error number: 1
+Processing file ../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:10:43:/------ Begin of Script
+17/11/2017 Fri 23:10:43:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:10:43:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:10:43:   Epsilon..: 50
+17/11/2017 Fri 23:10:43:   sumData
+17/11/2017 Fri 23:10:43:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:10:43:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:10:43:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+Error on script sumData: Script ended with error number: 1
+Processing file ../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:11:41:/------ Begin of Script
+17/11/2017 Fri 23:11:41:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:11:41:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:41:   Epsilon..: 50
+17/11/2017 Fri 23:11:41:   sumData
+17/11/2017 Fri 23:11:41:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:11:41:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:11:41:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:11:46:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:11:46:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:11:46:getCluster
+17/11/2017 Fri 23:11:46:   Epsilon..: 50
+17/11/2017 Fri 23:11:46:   Min Force: 0.08
+17/11/2017 Fri 23:11:46:   Min Cells: 3
+17/11/2017 Fri 23:11:46:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:46:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:statCluster 
+17/11/2017 Fri 23:11:48:   Epsilon............: 50
+17/11/2017 Fri 23:11:48:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:48:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:49:Choose not run validation process
+17/11/2017 Fri 23:11:49:drawCluster 
+17/11/2017 Fri 23:11:49:   Epsilon.......: 50
+17/11/2017 Fri 23:11:49:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:49:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:11:49:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:11:50:End of Script ------/17/11/2017 Fri 23:12:31:/------ Begin of Script
+17/11/2017 Fri 23:12:31:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:12:31:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:31:   Epsilon..: 35
+17/11/2017 Fri 23:12:31:   sumData
+17/11/2017 Fri 23:12:31:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:12:31:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:12:31:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:12:37:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:12:37:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:12:37:getCluster
+17/11/2017 Fri 23:12:37:   Epsilon..: 35
+17/11/2017 Fri 23:12:37:   Min Force: 0.08
+17/11/2017 Fri 23:12:37:   Min Cells: 3
+17/11/2017 Fri 23:12:37:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:37:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:statCluster 
+17/11/2017 Fri 23:12:38:   Epsilon............: 35
+17/11/2017 Fri 23:12:38:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:38:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:40:Choose not run validation process
+17/11/2017 Fri 23:12:40:drawCluster 
+17/11/2017 Fri 23:12:40:   Epsilon.......: 35
+17/11/2017 Fri 23:12:40:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:40:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:12:40:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:12:40:End of Script ------/17/11/2017 Fri 23:13:20:/------ Begin of Script
+17/11/2017 Fri 23:13:20:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:13:20:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:20:   Epsilon..: 40
+17/11/2017 Fri 23:13:20:   sumData
+17/11/2017 Fri 23:13:20:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:13:20:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:13:20:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:13:25:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:13:25:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:13:25:getCluster
+17/11/2017 Fri 23:13:25:   Epsilon..: 40
+17/11/2017 Fri 23:13:25:   Min Force: 0.08
+17/11/2017 Fri 23:13:25:   Min Cells: 3
+17/11/2017 Fri 23:13:25:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:25:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:statCluster 
+17/11/2017 Fri 23:13:26:   Epsilon............: 40
+17/11/2017 Fri 23:13:26:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:26:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:28:Choose not run validation process
+17/11/2017 Fri 23:13:28:drawCluster 
+17/11/2017 Fri 23:13:28:   Epsilon.......: 40
+17/11/2017 Fri 23:13:28:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:28:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:28:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:13:29:End of Script ------/17/11/2017 Fri 23:13:41:/------ Begin of Script
+17/11/2017 Fri 23:13:41:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:13:41:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:41:   Epsilon..: 40
+17/11/2017 Fri 23:13:41:   sumData
+17/11/2017 Fri 23:13:41:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:13:41:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:13:41:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:13:46:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:13:46:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:13:46:getCluster
+17/11/2017 Fri 23:13:46:   Epsilon..: 40
+17/11/2017 Fri 23:13:46:   Min Force: 0.1
+17/11/2017 Fri 23:13:46:   Min Cells: 3
+17/11/2017 Fri 23:13:46:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:46:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:statCluster 
+17/11/2017 Fri 23:13:48:   Epsilon............: 40
+17/11/2017 Fri 23:13:48:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:48:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:50:Choose not run validation process
+17/11/2017 Fri 23:13:50:drawCluster 
+17/11/2017 Fri 23:13:50:   Epsilon.......: 40
+17/11/2017 Fri 23:13:50:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:50:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:13:50:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:13:51:End of Script ------/17/11/2017 Fri 23:14:04:/------ Begin of Script
+17/11/2017 Fri 23:14:04:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:14:04:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:04:   Epsilon..: 40
+17/11/2017 Fri 23:14:04:   sumData
+17/11/2017 Fri 23:14:04:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:14:04:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:14:04:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:14:09:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:14:09:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:14:09:getCluster
+17/11/2017 Fri 23:14:09:   Epsilon..: 40
+17/11/2017 Fri 23:14:09:   Min Force: 0.06
+17/11/2017 Fri 23:14:09:   Min Cells: 3
+17/11/2017 Fri 23:14:09:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:09:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:statCluster 
+17/11/2017 Fri 23:14:10:   Epsilon............: 40
+17/11/2017 Fri 23:14:10:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:10:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:11:Choose not run validation process
+17/11/2017 Fri 23:14:11:drawCluster 
+17/11/2017 Fri 23:14:11:   Epsilon.......: 40
+17/11/2017 Fri 23:14:11:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:11:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:11:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:14:12:End of Script ------/17/11/2017 Fri 23:14:30:/------ Begin of Script
+17/11/2017 Fri 23:14:30:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:14:30:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:30:   Epsilon..: 35
+17/11/2017 Fri 23:14:30:   sumData
+17/11/2017 Fri 23:14:30:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:14:30:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:14:30:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:14:35:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:14:36:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:14:36:getCluster
+17/11/2017 Fri 23:14:36:   Epsilon..: 35
+17/11/2017 Fri 23:14:36:   Min Force: 0.06
+17/11/2017 Fri 23:14:36:   Min Cells: 3
+17/11/2017 Fri 23:14:36:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:36:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:statCluster 
+17/11/2017 Fri 23:14:37:   Epsilon............: 35
+17/11/2017 Fri 23:14:37:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:37:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:38:Choose not run validation process
+17/11/2017 Fri 23:14:38:drawCluster 
+17/11/2017 Fri 23:14:38:   Epsilon.......: 35
+17/11/2017 Fri 23:14:38:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:38:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:14:38:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:14:40:End of Script ------/17/11/2017 Fri 23:15:00:/------ Begin of Script
+17/11/2017 Fri 23:15:00:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:15:00:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:00:   Epsilon..: 50
+17/11/2017 Fri 23:15:00:   sumData
+17/11/2017 Fri 23:15:00:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:15:00:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:15:00:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:15:06:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:15:06:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:15:06:getCluster
+17/11/2017 Fri 23:15:06:   Epsilon..: 50
+17/11/2017 Fri 23:15:06:   Min Force: 0.06
+17/11/2017 Fri 23:15:06:   Min Cells: 3
+17/11/2017 Fri 23:15:06:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:06:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:statCluster 
+17/11/2017 Fri 23:15:08:   Epsilon............: 50
+17/11/2017 Fri 23:15:08:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:08:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:09:Choose not run validation process
+17/11/2017 Fri 23:15:09:drawCluster 
+17/11/2017 Fri 23:15:09:   Epsilon.......: 50
+17/11/2017 Fri 23:15:09:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:09:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:09:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:15:11:End of Script ------/17/11/2017 Fri 23:15:29:/------ Begin of Script
+17/11/2017 Fri 23:15:29:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:15:29:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:29:   Epsilon..: 50
+17/11/2017 Fri 23:15:29:   sumData
+17/11/2017 Fri 23:15:29:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:15:29:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:15:29:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:15:34:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:15:35:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:15:35:getCluster
+17/11/2017 Fri 23:15:35:   Epsilon..: 50
+17/11/2017 Fri 23:15:35:   Min Force: 0.03
+17/11/2017 Fri 23:15:35:   Min Cells: 3
+17/11/2017 Fri 23:15:35:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:35:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:statCluster 
+17/11/2017 Fri 23:15:36:   Epsilon............: 50
+17/11/2017 Fri 23:15:36:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:36:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:38:Choose not run validation process
+17/11/2017 Fri 23:15:38:drawCluster 
+17/11/2017 Fri 23:15:38:   Epsilon.......: 50
+17/11/2017 Fri 23:15:38:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:38:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:15:38:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:15:39:End of Script ------/17/11/2017 Fri 23:16:02:/------ Begin of Script
+17/11/2017 Fri 23:16:02:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:16:02:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:02:   Epsilon..: 25
+17/11/2017 Fri 23:16:02:   sumData
+17/11/2017 Fri 23:16:02:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:16:02:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:16:02:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:16:07:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:16:07:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:16:07:getCluster
+17/11/2017 Fri 23:16:07:   Epsilon..: 25
+17/11/2017 Fri 23:16:07:   Min Force: 0.1
+17/11/2017 Fri 23:16:07:   Min Cells: 3
+17/11/2017 Fri 23:16:07:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:07:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:statCluster 
+17/11/2017 Fri 23:16:08:   Epsilon............: 25
+17/11/2017 Fri 23:16:08:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:08:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:10:Choose not run validation process
+17/11/2017 Fri 23:16:10:drawCluster 
+17/11/2017 Fri 23:16:10:   Epsilon.......: 25
+17/11/2017 Fri 23:16:10:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:10:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:10:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:16:10:End of Script ------/17/11/2017 Fri 23:16:33:/------ Begin of Script
+17/11/2017 Fri 23:16:33:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:16:33:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:33:   Epsilon..: 25
+17/11/2017 Fri 23:16:33:   sumData
+17/11/2017 Fri 23:16:33:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:16:33:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:16:33:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:16:38:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:16:38:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:16:38:getCluster
+17/11/2017 Fri 23:16:38:   Epsilon..: 25
+17/11/2017 Fri 23:16:38:   Min Force: 0.07
+17/11/2017 Fri 23:16:38:   Min Cells: 3
+17/11/2017 Fri 23:16:38:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:38:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:statCluster 
+17/11/2017 Fri 23:16:39:   Epsilon............: 25
+17/11/2017 Fri 23:16:39:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:39:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:40:Choose not run validation process
+17/11/2017 Fri 23:16:40:drawCluster 
+17/11/2017 Fri 23:16:40:   Epsilon.......: 25
+17/11/2017 Fri 23:16:40:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:40:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:16:40:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:16:41:End of Script ------/17/11/2017 Fri 23:17:01:/------ Begin of Script
+17/11/2017 Fri 23:17:01:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:17:01:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:01:   Epsilon..: 25
+17/11/2017 Fri 23:17:01:   sumData
+17/11/2017 Fri 23:17:01:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:17:01:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:17:01:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:17:06:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:17:06:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:17:06:getCluster
+17/11/2017 Fri 23:17:06:   Epsilon..: 25
+17/11/2017 Fri 23:17:06:   Min Force: 0.085
+17/11/2017 Fri 23:17:06:   Min Cells: 3
+17/11/2017 Fri 23:17:06:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:statCluster 
+17/11/2017 Fri 23:17:06:   Epsilon............: 25
+17/11/2017 Fri 23:17:06:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:06:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:08:Choose not run validation process
+17/11/2017 Fri 23:17:08:drawCluster 
+17/11/2017 Fri 23:17:08:   Epsilon.......: 25
+17/11/2017 Fri 23:17:08:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:08:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:08:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:17:09:End of Script ------/17/11/2017 Fri 23:17:34:/------ Begin of Script
+17/11/2017 Fri 23:17:34:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:17:34:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:34:   Epsilon..: 25
+17/11/2017 Fri 23:17:34:   sumData
+17/11/2017 Fri 23:17:34:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:17:34:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:17:34:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:17:39:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:17:39:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:17:39:getCluster
+17/11/2017 Fri 23:17:39:   Epsilon..: 25
+17/11/2017 Fri 23:17:39:   Min Force: 0.08
+17/11/2017 Fri 23:17:39:   Min Cells: 3
+17/11/2017 Fri 23:17:39:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:39:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:statCluster 
+17/11/2017 Fri 23:17:40:   Epsilon............: 25
+17/11/2017 Fri 23:17:40:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:40:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:41:Choose not run validation process
+17/11/2017 Fri 23:17:41:drawCluster 
+17/11/2017 Fri 23:17:41:   Epsilon.......: 25
+17/11/2017 Fri 23:17:41:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:41:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:17:41:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:17:42:End of Script ------/17/11/2017 Fri 23:18:09:/------ Begin of Script
+17/11/2017 Fri 23:18:09:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:18:09:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:09:   Epsilon..: 25
+17/11/2017 Fri 23:18:09:   sumData
+17/11/2017 Fri 23:18:09:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:18:09:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:18:09:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:18:15:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:18:15:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:18:15:getCluster
+17/11/2017 Fri 23:18:15:   Epsilon..: 25
+17/11/2017 Fri 23:18:15:   Min Force: 0.075
+17/11/2017 Fri 23:18:15:   Min Cells: 3
+17/11/2017 Fri 23:18:15:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:15:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:statCluster 
+17/11/2017 Fri 23:18:16:   Epsilon............: 25
+17/11/2017 Fri 23:18:16:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:16:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:17:Choose not run validation process
+17/11/2017 Fri 23:18:17:drawCluster 
+17/11/2017 Fri 23:18:17:   Epsilon.......: 25
+17/11/2017 Fri 23:18:17:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:17:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:17:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:18:18:End of Script ------/17/11/2017 Fri 23:18:39:/------ Begin of Script
+17/11/2017 Fri 23:18:39:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:18:39:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:39:   Epsilon..: 25
+17/11/2017 Fri 23:18:39:   sumData
+17/11/2017 Fri 23:18:39:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:18:39:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:18:39:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:18:44:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:18:44:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:18:44:getCluster
+17/11/2017 Fri 23:18:44:   Epsilon..: 25
+17/11/2017 Fri 23:18:44:   Min Force: 0.07
+17/11/2017 Fri 23:18:44:   Min Cells: 3
+17/11/2017 Fri 23:18:44:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:statCluster 
+17/11/2017 Fri 23:18:44:   Epsilon............: 25
+17/11/2017 Fri 23:18:44:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:44:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:46:Choose not run validation process
+17/11/2017 Fri 23:18:46:drawCluster 
+17/11/2017 Fri 23:18:46:   Epsilon.......: 25
+17/11/2017 Fri 23:18:46:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:46:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:18:46:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:18:46:End of Script ------/17/11/2017 Fri 23:19:01:/------ Begin of Script
+17/11/2017 Fri 23:19:01:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:19:01:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:01:   Epsilon..: 28
+17/11/2017 Fri 23:19:01:   sumData
+17/11/2017 Fri 23:19:01:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:19:01:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:19:01:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:19:06:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:19:06:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:19:06:getCluster
+17/11/2017 Fri 23:19:06:   Epsilon..: 28
+17/11/2017 Fri 23:19:06:   Min Force: 0.07
+17/11/2017 Fri 23:19:06:   Min Cells: 3
+17/11/2017 Fri 23:19:06:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:06:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:statCluster 
+17/11/2017 Fri 23:19:07:   Epsilon............: 28
+17/11/2017 Fri 23:19:07:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:07:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:09:Choose not run validation process
+17/11/2017 Fri 23:19:09:drawCluster 
+17/11/2017 Fri 23:19:09:   Epsilon.......: 28
+17/11/2017 Fri 23:19:09:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:09:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:09:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:19:10:End of Script ------/17/11/2017 Fri 23:19:23:/------ Begin of Script
+17/11/2017 Fri 23:19:23:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:19:23:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:23:   Epsilon..: 28
+17/11/2017 Fri 23:19:23:   sumData
+17/11/2017 Fri 23:19:23:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:19:23:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:19:23:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:19:28:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:19:28:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:19:28:getCluster
+17/11/2017 Fri 23:19:28:   Epsilon..: 28
+17/11/2017 Fri 23:19:28:   Min Force: 0.085
+17/11/2017 Fri 23:19:28:   Min Cells: 3
+17/11/2017 Fri 23:19:28:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:28:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:statCluster 
+17/11/2017 Fri 23:19:29:   Epsilon............: 28
+17/11/2017 Fri 23:19:29:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:29:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:30:Choose not run validation process
+17/11/2017 Fri 23:19:30:drawCluster 
+17/11/2017 Fri 23:19:30:   Epsilon.......: 28
+17/11/2017 Fri 23:19:30:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:30:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:30:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:19:31:End of Script ------/17/11/2017 Fri 23:19:44:/------ Begin of Script
+17/11/2017 Fri 23:19:44:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:19:44:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:44:   Epsilon..: 28
+17/11/2017 Fri 23:19:44:   sumData
+17/11/2017 Fri 23:19:44:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:19:44:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:19:44:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:19:49:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:19:49:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:19:49:getCluster
+17/11/2017 Fri 23:19:49:   Epsilon..: 28
+17/11/2017 Fri 23:19:49:   Min Force: 0.088
+17/11/2017 Fri 23:19:49:   Min Cells: 3
+17/11/2017 Fri 23:19:49:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:49:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:statCluster 
+17/11/2017 Fri 23:19:50:   Epsilon............: 28
+17/11/2017 Fri 23:19:50:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:50:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:52:Choose not run validation process
+17/11/2017 Fri 23:19:52:drawCluster 
+17/11/2017 Fri 23:19:52:   Epsilon.......: 28
+17/11/2017 Fri 23:19:52:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:52:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:19:52:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:19:52:End of Script ------/17/11/2017 Fri 23:20:12:/------ Begin of Script
+17/11/2017 Fri 23:20:12:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:20:12:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:12:   Epsilon..: 28
+17/11/2017 Fri 23:20:12:   sumData
+17/11/2017 Fri 23:20:12:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:20:12:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:20:12:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:20:17:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:20:17:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:20:17:getCluster
+17/11/2017 Fri 23:20:17:   Epsilon..: 28
+17/11/2017 Fri 23:20:17:   Min Force: 0.09
+17/11/2017 Fri 23:20:17:   Min Cells: 3
+17/11/2017 Fri 23:20:17:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:17:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:statCluster 
+17/11/2017 Fri 23:20:18:   Epsilon............: 28
+17/11/2017 Fri 23:20:18:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:18:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:19:Choose not run validation process
+17/11/2017 Fri 23:20:19:drawCluster 
+17/11/2017 Fri 23:20:19:   Epsilon.......: 28
+17/11/2017 Fri 23:20:19:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:19:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:19:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:20:20:End of Script ------/17/11/2017 Fri 23:20:33:/------ Begin of Script
+17/11/2017 Fri 23:20:33:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:20:33:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:33:   Epsilon..: 30
+17/11/2017 Fri 23:20:33:   sumData
+17/11/2017 Fri 23:20:33:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:20:33:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:20:33:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:20:37:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:20:37:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:20:37:getCluster
+17/11/2017 Fri 23:20:37:   Epsilon..: 30
+17/11/2017 Fri 23:20:37:   Min Force: 0.09
+17/11/2017 Fri 23:20:37:   Min Cells: 3
+17/11/2017 Fri 23:20:37:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:37:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:statCluster 
+17/11/2017 Fri 23:20:38:   Epsilon............: 30
+17/11/2017 Fri 23:20:38:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:38:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:39:Choose not run validation process
+17/11/2017 Fri 23:20:39:drawCluster 
+17/11/2017 Fri 23:20:39:   Epsilon.......: 30
+17/11/2017 Fri 23:20:39:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:39:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:39:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:20:40:End of Script ------/17/11/2017 Fri 23:20:55:/------ Begin of Script
+17/11/2017 Fri 23:20:55:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:20:55:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:20:55:   Epsilon..: 30
+17/11/2017 Fri 23:20:55:   sumData
+17/11/2017 Fri 23:20:55:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:20:55:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:20:55:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:21:01:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:21:01:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:21:01:getCluster
+17/11/2017 Fri 23:21:01:   Epsilon..: 30
+17/11/2017 Fri 23:21:01:   Min Force: 0.07
+17/11/2017 Fri 23:21:01:   Min Cells: 3
+17/11/2017 Fri 23:21:01:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:01:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:statCluster 
+17/11/2017 Fri 23:21:02:   Epsilon............: 30
+17/11/2017 Fri 23:21:02:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:02:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:03:Choose not run validation process
+17/11/2017 Fri 23:21:03:drawCluster 
+17/11/2017 Fri 23:21:03:   Epsilon.......: 30
+17/11/2017 Fri 23:21:03:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:03:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:03:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:21:04:End of Script ------/17/11/2017 Fri 23:21:18:/------ Begin of Script
+17/11/2017 Fri 23:21:18:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:21:18:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:18:   Epsilon..: 30
+17/11/2017 Fri 23:21:18:   sumData
+17/11/2017 Fri 23:21:18:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:21:18:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:21:18:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:21:23:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:21:23:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:21:23:getCluster
+17/11/2017 Fri 23:21:23:   Epsilon..: 30
+17/11/2017 Fri 23:21:23:   Min Force: 0.06
+17/11/2017 Fri 23:21:23:   Min Cells: 3
+17/11/2017 Fri 23:21:23:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:23:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:statCluster 
+17/11/2017 Fri 23:21:24:   Epsilon............: 30
+17/11/2017 Fri 23:21:24:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:24:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:25:Choose not run validation process
+17/11/2017 Fri 23:21:25:drawCluster 
+17/11/2017 Fri 23:21:25:   Epsilon.......: 30
+17/11/2017 Fri 23:21:25:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:25:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:25:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:21:26:End of Script ------/17/11/2017 Fri 23:21:44:/------ Begin of Script
+17/11/2017 Fri 23:21:44:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:21:44:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:44:   Epsilon..: 35
+17/11/2017 Fri 23:21:44:   sumData
+17/11/2017 Fri 23:21:44:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:21:44:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:21:44:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:21:48:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:21:49:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:21:49:getCluster
+17/11/2017 Fri 23:21:49:   Epsilon..: 35
+17/11/2017 Fri 23:21:49:   Min Force: 0.06
+17/11/2017 Fri 23:21:49:   Min Cells: 3
+17/11/2017 Fri 23:21:49:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:49:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:statCluster 
+17/11/2017 Fri 23:21:50:   Epsilon............: 35
+17/11/2017 Fri 23:21:50:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:50:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:51:Choose not run validation process
+17/11/2017 Fri 23:21:51:drawCluster 
+17/11/2017 Fri 23:21:51:   Epsilon.......: 35
+17/11/2017 Fri 23:21:51:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:51:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:21:51:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:21:52:End of Script ------/17/11/2017 Fri 23:22:12:/------ Begin of Script
+17/11/2017 Fri 23:22:12:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:22:12:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:12:   Epsilon..: 30
+17/11/2017 Fri 23:22:12:   sumData
+17/11/2017 Fri 23:22:12:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:22:12:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:22:12:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:22:17:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:22:17:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:22:17:getCluster
+17/11/2017 Fri 23:22:17:   Epsilon..: 30
+17/11/2017 Fri 23:22:17:   Min Force: 0.08
+17/11/2017 Fri 23:22:17:   Min Cells: 3
+17/11/2017 Fri 23:22:17:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:statCluster 
+17/11/2017 Fri 23:22:17:   Epsilon............: 30
+17/11/2017 Fri 23:22:17:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:17:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:19:Choose not run validation process
+17/11/2017 Fri 23:22:19:drawCluster 
+17/11/2017 Fri 23:22:19:   Epsilon.......: 30
+17/11/2017 Fri 23:22:19:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:19:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:19:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:22:20:End of Script ------/17/11/2017 Fri 23:22:40:/------ Begin of Script
+17/11/2017 Fri 23:22:40:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:22:40:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:40:   Epsilon..: 30
+17/11/2017 Fri 23:22:40:   sumData
+17/11/2017 Fri 23:22:40:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:22:40:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:22:40:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:22:45:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:22:45:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:22:45:getCluster
+17/11/2017 Fri 23:22:45:   Epsilon..: 30
+17/11/2017 Fri 23:22:45:   Min Force: 0.1
+17/11/2017 Fri 23:22:45:   Min Cells: 3
+17/11/2017 Fri 23:22:45:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:45:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:statCluster 
+17/11/2017 Fri 23:22:46:   Epsilon............: 30
+17/11/2017 Fri 23:22:46:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:46:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:47:Choose not run validation process
+17/11/2017 Fri 23:22:47:drawCluster 
+17/11/2017 Fri 23:22:47:   Epsilon.......: 30
+17/11/2017 Fri 23:22:47:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:47:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:22:47:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:22:48:End of Script ------/17/11/2017 Fri 23:23:39:/------ Begin of Script
+17/11/2017 Fri 23:23:39:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:23:39:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:39:   Epsilon..: 50
+17/11/2017 Fri 23:23:39:   sumData
+17/11/2017 Fri 23:23:39:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:23:39:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:23:39:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:23:46:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:23:46:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:23:46:getCluster
+17/11/2017 Fri 23:23:46:   Epsilon..: 50
+17/11/2017 Fri 23:23:46:   Min Force: 0.08
+17/11/2017 Fri 23:23:46:   Min Cells: 3
+17/11/2017 Fri 23:23:46:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:46:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:statCluster 
+17/11/2017 Fri 23:23:47:   Epsilon............: 50
+17/11/2017 Fri 23:23:47:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:47:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:49:Choose not run validation process
+17/11/2017 Fri 23:23:49:drawCluster 
+17/11/2017 Fri 23:23:49:   Epsilon.......: 50
+17/11/2017 Fri 23:23:49:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:49:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:23:49:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:23:51:End of Script ------/17/11/2017 Fri 23:24:12:/------ Begin of Script
+17/11/2017 Fri 23:24:12:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:24:12:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:12:   Epsilon..: 50
+17/11/2017 Fri 23:24:12:   sumData
+17/11/2017 Fri 23:24:12:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:24:12:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:24:12:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:24:17:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:24:17:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:24:17:getCluster
+17/11/2017 Fri 23:24:17:   Epsilon..: 50
+17/11/2017 Fri 23:24:17:   Min Force: 0.06
+17/11/2017 Fri 23:24:17:   Min Cells: 3
+17/11/2017 Fri 23:24:17:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:17:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:statCluster 
+17/11/2017 Fri 23:24:18:   Epsilon............: 50
+17/11/2017 Fri 23:24:18:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:18:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:20:Choose not run validation process
+17/11/2017 Fri 23:24:20:drawCluster 
+17/11/2017 Fri 23:24:20:   Epsilon.......: 50
+17/11/2017 Fri 23:24:20:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:20:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:20:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:24:21:End of Script ------/17/11/2017 Fri 23:24:42:/------ Begin of Script
+17/11/2017 Fri 23:24:42:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:24:42:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:42:   Epsilon..: 50
+17/11/2017 Fri 23:24:42:   sumData
+17/11/2017 Fri 23:24:42:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:24:42:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:24:42:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:24:47:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:24:47:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:24:47:getCluster
+17/11/2017 Fri 23:24:47:   Epsilon..: 50
+17/11/2017 Fri 23:24:47:   Min Force: 0.04
+17/11/2017 Fri 23:24:47:   Min Cells: 3
+17/11/2017 Fri 23:24:47:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:47:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:statCluster 
+17/11/2017 Fri 23:24:48:   Epsilon............: 50
+17/11/2017 Fri 23:24:48:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:48:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:50:Choose not run validation process
+17/11/2017 Fri 23:24:50:drawCluster 
+17/11/2017 Fri 23:24:50:   Epsilon.......: 50
+17/11/2017 Fri 23:24:50:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:50:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:24:50:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:24:51:End of Script ------/17/11/2017 Fri 23:25:10:/------ Begin of Script
+17/11/2017 Fri 23:25:10:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:25:10:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:10:   Epsilon..: 50
+17/11/2017 Fri 23:25:10:   sumData
+17/11/2017 Fri 23:25:10:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:25:10:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:25:10:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:25:15:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:25:15:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:25:15:getCluster
+17/11/2017 Fri 23:25:15:   Epsilon..: 50
+17/11/2017 Fri 23:25:15:   Min Force: 0.035
+17/11/2017 Fri 23:25:15:   Min Cells: 3
+17/11/2017 Fri 23:25:15:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:15:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:statCluster 
+17/11/2017 Fri 23:25:16:   Epsilon............: 50
+17/11/2017 Fri 23:25:16:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:16:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:18:Choose not run validation process
+17/11/2017 Fri 23:25:18:drawCluster 
+17/11/2017 Fri 23:25:18:   Epsilon.......: 50
+17/11/2017 Fri 23:25:18:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:18:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:18:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:25:19:End of Script ------/17/11/2017 Fri 23:25:49:/------ Begin of Script
+17/11/2017 Fri 23:25:49:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:25:49:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:49:   Epsilon..: 50
+17/11/2017 Fri 23:25:49:   sumData
+17/11/2017 Fri 23:25:49:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:25:49:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:25:49:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:25:55:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:25:55:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:25:55:getCluster
+17/11/2017 Fri 23:25:55:   Epsilon..: 50
+17/11/2017 Fri 23:25:55:   Min Force: 0.04
+17/11/2017 Fri 23:25:55:   Min Cells: 4
+17/11/2017 Fri 23:25:55:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:55:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:statCluster 
+17/11/2017 Fri 23:25:56:   Epsilon............: 50
+17/11/2017 Fri 23:25:56:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:56:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:58:Choose not run validation process
+17/11/2017 Fri 23:25:58:drawCluster 
+17/11/2017 Fri 23:25:58:   Epsilon.......: 50
+17/11/2017 Fri 23:25:58:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:58:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:25:58:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:25:59:End of Script ------/17/11/2017 Fri 23:26:16:/------ Begin of Script
+17/11/2017 Fri 23:26:16:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:26:16:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:16:   Epsilon..: 50
+17/11/2017 Fri 23:26:16:   sumData
+17/11/2017 Fri 23:26:16:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:26:16:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:26:16:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:26:21:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:26:21:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:26:21:getCluster
+17/11/2017 Fri 23:26:21:   Epsilon..: 50
+17/11/2017 Fri 23:26:21:   Min Force: 0.03
+17/11/2017 Fri 23:26:21:   Min Cells: 4
+17/11/2017 Fri 23:26:21:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:21:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:statCluster 
+17/11/2017 Fri 23:26:23:   Epsilon............: 50
+17/11/2017 Fri 23:26:23:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:23:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:24:Choose not run validation process
+17/11/2017 Fri 23:26:24:drawCluster 
+17/11/2017 Fri 23:26:24:   Epsilon.......: 50
+17/11/2017 Fri 23:26:24:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:24:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:24:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:26:25:End of Script ------/17/11/2017 Fri 23:26:48:/------ Begin of Script
+17/11/2017 Fri 23:26:48:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:26:48:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:48:   Epsilon..: 47
+17/11/2017 Fri 23:26:48:   sumData
+17/11/2017 Fri 23:26:48:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:26:48:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:26:48:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:26:53:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:26:53:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:26:53:getCluster
+17/11/2017 Fri 23:26:53:   Epsilon..: 47
+17/11/2017 Fri 23:26:53:   Min Force: 0.03
+17/11/2017 Fri 23:26:53:   Min Cells: 5
+17/11/2017 Fri 23:26:53:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:53:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:statCluster 
+17/11/2017 Fri 23:26:54:   Epsilon............: 47
+17/11/2017 Fri 23:26:54:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:54:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:57:Choose not run validation process
+17/11/2017 Fri 23:26:57:drawCluster 
+17/11/2017 Fri 23:26:57:   Epsilon.......: 47
+17/11/2017 Fri 23:26:57:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:57:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:26:57:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:26:58:End of Script ------/17/11/2017 Fri 23:27:24:/------ Begin of Script
+17/11/2017 Fri 23:27:24:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:27:24:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:24:   Epsilon..: 47
+17/11/2017 Fri 23:27:24:   sumData
+17/11/2017 Fri 23:27:24:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:27:24:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:27:24:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:27:29:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:27:29:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:27:29:getCluster
+17/11/2017 Fri 23:27:29:   Epsilon..: 47
+17/11/2017 Fri 23:27:29:   Min Force: 0.035
+17/11/2017 Fri 23:27:29:   Min Cells: 5
+17/11/2017 Fri 23:27:29:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:29:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:statCluster 
+17/11/2017 Fri 23:27:31:   Epsilon............: 47
+17/11/2017 Fri 23:27:31:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:31:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:33:Choose not run validation process
+17/11/2017 Fri 23:27:33:drawCluster 
+17/11/2017 Fri 23:27:33:   Epsilon.......: 47
+17/11/2017 Fri 23:27:33:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:33:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:33:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:27:34:End of Script ------/17/11/2017 Fri 23:27:54:/------ Begin of Script
+17/11/2017 Fri 23:27:54:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:27:54:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:27:54:   Epsilon..: 47
+17/11/2017 Fri 23:27:54:   sumData
+17/11/2017 Fri 23:27:54:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:27:54:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:27:54:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:28:00:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:28:00:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:28:00:getCluster
+17/11/2017 Fri 23:28:00:   Epsilon..: 47
+17/11/2017 Fri 23:28:00:   Min Force: 0.04
+17/11/2017 Fri 23:28:00:   Min Cells: 5
+17/11/2017 Fri 23:28:00:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:00:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:statCluster 
+17/11/2017 Fri 23:28:01:   Epsilon............: 47
+17/11/2017 Fri 23:28:01:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:01:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:03:Choose not run validation process
+17/11/2017 Fri 23:28:03:drawCluster 
+17/11/2017 Fri 23:28:03:   Epsilon.......: 47
+17/11/2017 Fri 23:28:03:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:03:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:03:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:28:04:End of Script ------/17/11/2017 Fri 23:28:21:/------ Begin of Script
+17/11/2017 Fri 23:28:21:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:28:21:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:21:   Epsilon..: 47
+17/11/2017 Fri 23:28:21:   sumData
+17/11/2017 Fri 23:28:21:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:28:21:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:28:21:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:28:26:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:28:26:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:28:26:getCluster
+17/11/2017 Fri 23:28:26:   Epsilon..: 47
+17/11/2017 Fri 23:28:26:   Min Force: 0.06
+17/11/2017 Fri 23:28:26:   Min Cells: 5
+17/11/2017 Fri 23:28:26:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:26:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:statCluster 
+17/11/2017 Fri 23:28:28:   Epsilon............: 47
+17/11/2017 Fri 23:28:28:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:28:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:29:Choose not run validation process
+17/11/2017 Fri 23:28:29:drawCluster 
+17/11/2017 Fri 23:28:29:   Epsilon.......: 47
+17/11/2017 Fri 23:28:29:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:29:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:29:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:28:30:End of Script ------/17/11/2017 Fri 23:28:55:/------ Begin of Script
+17/11/2017 Fri 23:28:55:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:28:55:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:28:55:   Epsilon..: 47
+17/11/2017 Fri 23:28:55:   sumData
+17/11/2017 Fri 23:28:55:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:28:55:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:28:55:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:29:01:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:29:01:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:29:01:getCluster
+17/11/2017 Fri 23:29:01:   Epsilon..: 47
+17/11/2017 Fri 23:29:01:   Min Force: 0.06
+17/11/2017 Fri 23:29:01:   Min Cells: 6
+17/11/2017 Fri 23:29:01:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:01:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:statCluster 
+17/11/2017 Fri 23:29:02:   Epsilon............: 47
+17/11/2017 Fri 23:29:02:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:02:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:05:Choose not run validation process
+17/11/2017 Fri 23:29:05:drawCluster 
+17/11/2017 Fri 23:29:05:   Epsilon.......: 47
+17/11/2017 Fri 23:29:05:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:05:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:05:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:29:06:End of Script ------/17/11/2017 Fri 23:29:19:/------ Begin of Script
+17/11/2017 Fri 23:29:19:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:29:19:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:19:   Epsilon..: 47
+17/11/2017 Fri 23:29:19:   sumData
+17/11/2017 Fri 23:29:19:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:29:19:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:29:19:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:29:24:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:29:24:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:29:24:getCluster
+17/11/2017 Fri 23:29:24:   Epsilon..: 47
+17/11/2017 Fri 23:29:24:   Min Force: 0.06
+17/11/2017 Fri 23:29:24:   Min Cells: 6
+17/11/2017 Fri 23:29:24:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:24:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:statCluster 
+17/11/2017 Fri 23:29:25:   Epsilon............: 47
+17/11/2017 Fri 23:29:25:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:25:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:43:Results-------
+17/11/2017 Fri 23:29:43:   FM for gCluster Points: 0.9455936599614452
+17/11/2017 Fri 23:29:59:   FM for gCluster Cells.: 0.9464626881753458
+17/11/2017 Fri 23:29:59:drawCluster 
+17/11/2017 Fri 23:29:59:   Epsilon.......: 47
+17/11/2017 Fri 23:29:59:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:59:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:29:59:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:30:02:End of Script ------/
+17/11/2017 Fri 23:33:41:/------ Begin of Script ------
+17/11/2017 Fri 23:33:41:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:33:41:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:41:   Epsilon..: 47
+17/11/2017 Fri 23:33:41:   sumData
+17/11/2017 Fri 23:33:41:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:33:41:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:33:41:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:33:46:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:33:46:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:33:46:getCluster
+17/11/2017 Fri 23:33:46:   Epsilon..: 47
+17/11/2017 Fri 23:33:46:   Min Force: 0.06
+17/11/2017 Fri 23:33:46:   Min Cells: 6
+17/11/2017 Fri 23:33:46:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:46:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:statCluster 
+17/11/2017 Fri 23:33:47:   Epsilon............: 47
+17/11/2017 Fri 23:33:47:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:33:47:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:34:04:Results-------
+17/11/2017 Fri 23:34:04:   FM for gCluster Points: 0.9455936599614452
+17/11/2017 Fri 23:34:20:   FM for gCluster Cells.: 0.9464626881753458
+17/11/2017 Fri 23:34:20:drawCluster 
+17/11/2017 Fri 23:34:20:   Epsilon.......: 47
+17/11/2017 Fri 23:34:20:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:34:20:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:34:20:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:34:21:------ End of Script ------/
+17/11/2017 Fri 23:35:27:/------ Begin of Script ------
+17/11/2017 Fri 23:35:27:Directory: ../data/cluto-t8.8k
+17/11/2017 Fri 23:35:27:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:27:   Epsilon..: 47
+17/11/2017 Fri 23:35:27:   sumData
+17/11/2017 Fri 23:35:27:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+17/11/2017 Fri 23:35:27:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:35:27:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+17/11/2017 Fri 23:35:32:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:35:32:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+17/11/2017 Fri 23:35:32:getCluster
+17/11/2017 Fri 23:35:32:   Epsilon..: 47
+17/11/2017 Fri 23:35:32:   Min Force: 0.06
+17/11/2017 Fri 23:35:32:   Min Cells: 6
+17/11/2017 Fri 23:35:32:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:32:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:statCluster 
+17/11/2017 Fri 23:35:33:   Epsilon............: 47
+17/11/2017 Fri 23:35:33:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:   Map Cell gCluster..: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:   Map Point gCluster.: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:   Map DBSCAN.........: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:   Valid Cell.........: ../data/cluto-t8.8k/central/validClusterInput/valid-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:33:   Valid Point........: ../data/cluto-t8.8k/central/validClusterInput/valid-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:35:50:Results-------
+17/11/2017 Fri 23:35:50:   FM for gCluster Points: 0.9455936599614452
+17/11/2017 Fri 23:36:06:   FM for gCluster Cells.: 0.9464626881753458
+17/11/2017 Fri 23:36:06:drawCluster 
+17/11/2017 Fri 23:36:06:   Epsilon.......: 47
+17/11/2017 Fri 23:36:06:   Input Cell....: ../data/cluto-t8.8k/central/4.statClusterOutput/map-cell-cluto-t8.8k.csv
+17/11/2017 Fri 23:36:06:   Input Point...: ../data/cluto-t8.8k/central/4.statClusterOutput/map-point-cluto-t8.8k.csv
+17/11/2017 Fri 23:36:06:   Output SVG....: ../data/cluto-t8.8k/central/drawOutput/graph-cluto-t8.8k.svg
+17/11/2017 Fri 23:37:31:11 clusters - maybe the best so far
+17/11/2017 Fri 23:37:31:------ End of Script ------/
+20/11/2017 Mon 16:43:14:/------ Begin of Script ------
+20/11/2017 Mon 16:43:14:Directory: ../data/cluto-t8.8k
+20/11/2017 Mon 16:43:14:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:14:   Epsilon..: 47
+20/11/2017 Mon 16:43:14:   sumData
+20/11/2017 Mon 16:43:14:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+20/11/2017 Mon 16:43:14:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+20/11/2017 Mon 16:43:14:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+20/11/2017 Mon 16:43:19:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+20/11/2017 Mon 16:43:19:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+20/11/2017 Mon 16:43:19:getCluster
+20/11/2017 Mon 16:43:19:   Epsilon..: 47
+20/11/2017 Mon 16:43:19:   Min Force: 0.06
+20/11/2017 Mon 16:43:19:   Min Cells: 6
+20/11/2017 Mon 16:43:19:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:19:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:21:mapCluster 
+20/11/2017 Mon 16:43:21:   Epsilon............: 47
+20/11/2017 Mon 16:43:21:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:21:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:21:   Labeled Cells .....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:21:   Labeled Points ....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:21:   Expanded Points....: ../data/cluto-t8.8k/central/4.mapClusterOutput/expanded-points-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:22:Results-------
+20/11/2017 Mon 16:43:22:   Input File../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:35:   FM for gCluster Points: 0.9455936599614452
+20/11/2017 Mon 16:43:35:drawCluster 
+20/11/2017 Mon 16:43:35:   Epsilon.......: 47
+20/11/2017 Mon 16:43:35:   Input Cell....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:35:   Input Point...: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+20/11/2017 Mon 16:43:35:   Output SVG....: ../data/cluto-t8.8k/central/5.drawOutput/graph-cluto-t8.8k.svg
+20/11/2017 Mon 16:43:35:    Draw Numbers..: No
+20/11/2017 Mon 16:43:43:Comment: 11 clusters
+20/11/2017 Mon 16:43:43:------ End of Script ------/
+21/11/2017 Tue 11:52:58:/------ Begin of Script ------
+21/11/2017 Tue 11:52:58:Directory: ../data/cluto-t8.8k
+21/11/2017 Tue 11:52:58:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+21/11/2017 Tue 11:52:58:   Epsilon..: 47
+21/11/2017 Tue 11:52:58:   sumData
+21/11/2017 Tue 11:52:58:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+21/11/2017 Tue 11:52:58:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+21/11/2017 Tue 11:52:58:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+21/11/2017 Tue 11:53:05:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+21/11/2017 Tue 11:53:05:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+21/11/2017 Tue 11:53:05:getCluster
+21/11/2017 Tue 11:53:05:   Epsilon..: 47
+21/11/2017 Tue 11:53:05:   Min Force: 0.06
+21/11/2017 Tue 11:53:05:   Min Cells: 3
+21/11/2017 Tue 11:53:05:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:05:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:07:mapCluster 
+21/11/2017 Tue 11:53:07:   Epsilon............: 47
+21/11/2017 Tue 11:53:07:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:07:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:07:   Labeled Cells .....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:07:   Labeled Points ....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:07:   Expanded Points....: ../data/cluto-t8.8k/central/4.mapClusterOutput/expanded-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:13:Results-------
+21/11/2017 Tue 11:53:13:   Input File../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:27:   FM for gCluster Points: 0.9511604879290307
+21/11/2017 Tue 11:53:27:drawCluster 
+21/11/2017 Tue 11:53:27:   Epsilon.......: 47
+21/11/2017 Tue 11:53:27:   Input Cell....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:27:   Input Point...: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:27:   Output SVG....: ../data/cluto-t8.8k/central/5.drawOutput/graph-cluto-t8.8k.svg
+21/11/2017 Tue 11:53:27:    Draw Numbers..: No
+21/11/2017 Tue 11:53:41:Comment: 18 clusters
+21/11/2017 Tue 11:53:41:------ End of Script ------/
+21/11/2017 Tue 11:53:53:/------ Begin of Script ------
+21/11/2017 Tue 11:53:53:Directory: ../data/cluto-t8.8k
+21/11/2017 Tue 11:53:53:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+21/11/2017 Tue 11:53:53:   Epsilon..: 47
+21/11/2017 Tue 11:53:53:   sumData
+21/11/2017 Tue 11:53:53:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+21/11/2017 Tue 11:53:53:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+21/11/2017 Tue 11:53:53:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+21/11/2017 Tue 11:53:59:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+21/11/2017 Tue 11:54:00:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+21/11/2017 Tue 11:54:00:getCluster
+21/11/2017 Tue 11:54:00:   Epsilon..: 47
+21/11/2017 Tue 11:54:00:   Min Force: 0.06
+21/11/2017 Tue 11:54:00:   Min Cells: 6
+21/11/2017 Tue 11:54:00:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:00:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:01:mapCluster 
+21/11/2017 Tue 11:54:01:   Epsilon............: 47
+21/11/2017 Tue 11:54:01:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:01:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:01:   Labeled Cells .....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:01:   Labeled Points ....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:01:   Expanded Points....: ../data/cluto-t8.8k/central/4.mapClusterOutput/expanded-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:03:Results-------
+21/11/2017 Tue 11:54:03:   Input File../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:19:   FM for gCluster Points: 0.9455936599614452
+21/11/2017 Tue 11:54:19:drawCluster 
+21/11/2017 Tue 11:54:19:   Epsilon.......: 47
+21/11/2017 Tue 11:54:19:   Input Cell....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:19:   Input Point...: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 11:54:19:   Output SVG....: ../data/cluto-t8.8k/central/5.drawOutput/graph-cluto-t8.8k.svg
+21/11/2017 Tue 11:54:19:    Draw Numbers..: No
+21/11/2017 Tue 11:54:25:Comment: 11 clusters
+21/11/2017 Tue 11:54:25:------ End of Script ------/
+21/11/2017 Tue 12:14:18:/------ Begin of Script ------
+21/11/2017 Tue 12:14:18:Directory: ../data/cluto-t8.8k
+21/11/2017 Tue 12:14:18:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:18:   Epsilon..: 47
+21/11/2017 Tue 12:14:18:   sumData
+21/11/2017 Tue 12:14:18:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+21/11/2017 Tue 12:14:18:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+21/11/2017 Tue 12:14:18:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+21/11/2017 Tue 12:14:24:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+21/11/2017 Tue 12:14:24:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+21/11/2017 Tue 12:14:24:getCluster
+21/11/2017 Tue 12:14:24:   Epsilon..: 47
+21/11/2017 Tue 12:14:24:   Min Force: 0.06
+21/11/2017 Tue 12:14:24:   Min Cells: 6
+21/11/2017 Tue 12:14:24:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:24:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:26:mapCluster 
+21/11/2017 Tue 12:14:26:   Epsilon............: 47
+21/11/2017 Tue 12:14:26:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:26:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:26:   Labeled Cells .....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:26:   Labeled Points ....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:26:   Expanded Points....: ../data/cluto-t8.8k/central/4.mapClusterOutput/expanded-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:28:Results-------
+21/11/2017 Tue 12:14:28:   Input File../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:46:   FM for gCluster Points: 0.9455936599614452
+21/11/2017 Tue 12:14:46:drawCluster 
+21/11/2017 Tue 12:14:46:   Epsilon.......: 47
+21/11/2017 Tue 12:14:46:   Input Cell....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:46:   Input Point...: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:14:46:   Output SVG....: ../data/cluto-t8.8k/central/5.drawOutput/graph-cluto-t8.8k.svg
+21/11/2017 Tue 12:14:46:    Draw Numbers..: No
+21/11/2017 Tue 12:15:57:Comment: 11 clusters
+21/11/2017 Tue 12:15:57:------ End of Script ------/
+21/11/2017 Tue 12:21:30:/------ Begin of Script ------
+21/11/2017 Tue 12:21:30:Directory: ../data/cluto-t8.8k
+21/11/2017 Tue 12:21:30:   Config File: ../data/cluto-t8.8k/config/config-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:30:   Epsilon..: 47
+21/11/2017 Tue 12:21:30:   sumData
+21/11/2017 Tue 12:21:30:   File Input:......../data/cluto-t8.8k/devices/cluto-t8-8k.csv
+21/11/2017 Tue 12:21:30:   File Cell Output.:../data/cluto-t8.8k/central/1.sumDataOutput/cell-cluto-t8.8k-01.csv
+21/11/2017 Tue 12:21:30:   File Point Output:../data/cluto-t8.8k/central/1.sumDataOutput/point-cluto-t8.8k-01.csv
+21/11/2017 Tue 12:21:39:Cells consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv OK
+21/11/2017 Tue 12:21:39:Points consolidation to file: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv OK
+21/11/2017 Tue 12:21:39:getCluster
+21/11/2017 Tue 12:21:39:   Epsilon..: 47
+21/11/2017 Tue 12:21:39:   Min Force: 0.055
+21/11/2017 Tue 12:21:39:   Min Cells: 6
+21/11/2017 Tue 12:21:39:   Input....: ../data/cluto-t8.8k/central/2.deviceConsolidation/cells-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:39:   Output...: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:41:mapCluster 
+21/11/2017 Tue 12:21:41:   Epsilon............: 47
+21/11/2017 Tue 12:21:41:   Input Cell.........: ../data/cluto-t8.8k/central/3.getClusterOutput/gCluster-result-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:41:   Input Point........: ../data/cluto-t8.8k/central/2.deviceConsolidation/points-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:41:   Labeled Cells .....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:41:   Labeled Points ....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:41:   Expanded Points....: ../data/cluto-t8.8k/central/4.mapClusterOutput/expanded-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:21:44:Results-------
+21/11/2017 Tue 12:21:44:   Input File../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:22:07:   FM for gCluster Points: 0.9298646154374853
+21/11/2017 Tue 12:22:07:drawCluster 
+21/11/2017 Tue 12:22:07:   Epsilon.......: 47
+21/11/2017 Tue 12:22:07:   Input Cell....: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-cells-cluto-t8.8k.csv
+21/11/2017 Tue 12:22:07:   Input Point...: ../data/cluto-t8.8k/central/4.mapClusterOutput/labeled-points-cluto-t8.8k.csv
+21/11/2017 Tue 12:22:07:   Output SVG....: ../data/cluto-t8.8k/central/5.drawOutput/graph-cluto-t8.8k.svg
+21/11/2017 Tue 12:22:07:    Draw Numbers..: No
+21/11/2017 Tue 12:22:10:Comment: 11 clusters
+21/11/2017 Tue 12:22:10:------ End of Script ------/

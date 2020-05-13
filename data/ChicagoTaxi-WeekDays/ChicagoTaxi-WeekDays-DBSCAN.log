@@ -1,0 +1,49 @@
+07/04/2019 Sun 12:55:37:/------ Begin of Script
+07/04/2019 Sun 12:55:37:epsilon: 0.03 minPts: 3
+07/04/2019 Sun 12:55:37:   Type.......: Point
+07/04/2019 Sun 12:55:37:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 12:55:37:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 12:57:36:/------ Begin of Script
+07/04/2019 Sun 12:57:36:epsilon: 0.025 minPts: 3
+07/04/2019 Sun 12:57:36:   Type.......: Point
+07/04/2019 Sun 12:57:36:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 12:57:36:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 12:58:04:/------ Begin of Script
+07/04/2019 Sun 12:58:04:epsilon: 0.025 minPts: 3
+07/04/2019 Sun 12:58:04:   Type.......: Point
+07/04/2019 Sun 12:58:04:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 12:58:04:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:01:22:/------ Begin of Script
+07/04/2019 Sun 13:01:22:epsilon: 0.03 minPts: 5
+07/04/2019 Sun 13:01:22:   Type.......: Point
+07/04/2019 Sun 13:01:22:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:01:22:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:10:38:/------ Begin of Script
+07/04/2019 Sun 13:10:38:epsilon: 0.03 minPts: 5
+07/04/2019 Sun 13:10:38:   Type.......: Point
+07/04/2019 Sun 13:10:38:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:10:38:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:12:11:/------ Begin of Script
+07/04/2019 Sun 13:12:11:epsilon: 0.03 minPts: 5
+07/04/2019 Sun 13:12:11:   Type.......: Point
+07/04/2019 Sun 13:12:11:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:12:11:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:14:01:/------ Begin of Script
+07/04/2019 Sun 13:14:01:epsilon: 0.02 minPts: 3
+07/04/2019 Sun 13:14:01:   Type.......: Point
+07/04/2019 Sun 13:14:01:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:14:01:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:14:04:   Map Matrix
+07/04/2019 Sun 13:14:04:   -1, -1, 60
+07/04/2019 Sun 13:14:04:   0, 0, 19915
+07/04/2019 Sun 13:14:04:   1, 1, 7
+07/04/2019 Sun 13:14:04:   2, 2, 5
+07/04/2019 Sun 13:14:04:   3, 3, 7
+07/04/2019 Sun 13:14:04:   4, 4, 3
+07/04/2019 Sun 13:14:04:   5, 5, 3
+07/04/2019 Sun 13:14:05:   Clusters...: 6
+07/04/2019 Sun 13:15:42:/------ Begin of Script
+07/04/2019 Sun 13:15:42:epsilon: 0.025 minPts: 3
+07/04/2019 Sun 13:15:42:   Type.......: Point
+07/04/2019 Sun 13:15:42:   Input File.: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/2.deviceConsolidation/points-ChicagoTaxi-WeekDays.csv
+07/04/2019 Sun 13:15:42:   Output File: d:/Dropbox/Mestrado/repos/grid-clustering/data/ChicagoTaxi-WeekDays/central/6.resultsDBSCAN/output-points-DBSCAN-ChicagoTaxi-WeekDays.csv

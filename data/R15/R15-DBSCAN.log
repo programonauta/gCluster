@@ -1,0 +1,8 @@
+18/11/2017 Sat 14:43:47:/------ Begin of Script
+18/11/2017 Sat 14:43:47:epsilon: 0.19 minPts: 2
+18/11/2017 Sat 14:43:47:   Type.......: Point
+18/11/2017 Sat 14:43:47:   Input File.: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:43:47:   Output File: ../data/R15/resultsDBSCAN/output-points-DBSCAN-R15.csv
+18/11/2017 Sat 14:43:47:   Clusters...: 15
+18/11/2017 Sat 14:43:52:   FM.........: 1.0
+18/11/2017 Sat 14:43:52:End of Script ------/

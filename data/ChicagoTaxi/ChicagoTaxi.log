@@ -1,0 +1,989 @@
+21/11/2017 Tue 12:43:23:/------ Begin of Script ------
+21/11/2017 Tue 12:43:23:Directory: ../data/ChicagoTaxi
+21/11/2017 Tue 12:43:23:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+21/11/2017 Tue 12:43:23:   Epsilon..: 50
+21/11/2017 Tue 12:43:23:   sumData
+21/11/2017 Tue 12:43:23:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+21/11/2017 Tue 12:43:23:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+21/11/2017 Tue 12:43:23:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+21/11/2017 Tue 12:43:46:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+21/11/2017 Tue 12:43:46:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+21/11/2017 Tue 12:43:46:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+21/11/2017 Tue 12:44:02:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+21/11/2017 Tue 12:44:02:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+21/11/2017 Tue 12:44:02:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+21/11/2017 Tue 12:44:28:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+21/11/2017 Tue 12:44:28:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+21/11/2017 Tue 12:44:28:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+21/11/2017 Tue 12:44:44:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+21/11/2017 Tue 12:44:44:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+21/11/2017 Tue 12:44:44:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+21/11/2017 Tue 12:45:12:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+21/11/2017 Tue 12:45:12:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+21/11/2017 Tue 12:45:12:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+21/11/2017 Tue 12:45:36:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+21/11/2017 Tue 12:45:37:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+21/11/2017 Tue 12:45:37:getCluster
+21/11/2017 Tue 12:45:37:   Epsilon..: 50
+21/11/2017 Tue 12:45:37:   Min Force: 0.08
+21/11/2017 Tue 12:45:37:   Min Cells: 3
+21/11/2017 Tue 12:45:37:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+21/11/2017 Tue 12:45:37:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+21/11/2017 Tue 12:57:28:mapCluster 
+21/11/2017 Tue 12:57:28:   Epsilon............: 50
+21/11/2017 Tue 12:57:28:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+21/11/2017 Tue 12:57:28:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+21/11/2017 Tue 12:57:28:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+21/11/2017 Tue 12:57:28:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+21/11/2017 Tue 12:57:28:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+21/11/2017 Tue 13:01:38:Results-------
+21/11/2017 Tue 13:01:38:   Input File../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+21/11/2017 Tue 13:28:24:   FM for gCluster Points: 1.0
+21/11/2017 Tue 13:28:24:drawCluster 
+21/11/2017 Tue 13:28:24:   Epsilon.......: 50
+21/11/2017 Tue 13:28:24:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+21/11/2017 Tue 13:28:24:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+21/11/2017 Tue 13:28:24:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+21/11/2017 Tue 13:28:24:    Draw Numbers..: No
+21/11/2017 Tue 13:54:24:Comment: 355 Clusters
+21/11/2017 Tue 13:54:24:------ End of Script ------/
+21/11/2017 Tue 13:55:08:/------ Begin of Script ------
+21/11/2017 Tue 13:55:08:Directory: ../data/ChicagoTaxi
+21/11/2017 Tue 13:55:08:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+21/11/2017 Tue 13:55:08:   Epsilon..: 25
+21/11/2017 Tue 13:55:08:   sumData
+21/11/2017 Tue 13:55:08:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+21/11/2017 Tue 13:55:08:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+21/11/2017 Tue 13:55:08:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+21/11/2017 Tue 13:55:31:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+21/11/2017 Tue 13:55:31:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+21/11/2017 Tue 13:55:31:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+21/11/2017 Tue 13:55:48:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+21/11/2017 Tue 13:55:48:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+21/11/2017 Tue 13:55:48:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+21/11/2017 Tue 13:56:08:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+21/11/2017 Tue 13:56:08:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+21/11/2017 Tue 13:56:08:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+21/11/2017 Tue 13:56:22:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+21/11/2017 Tue 13:56:22:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+21/11/2017 Tue 13:56:22:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+21/11/2017 Tue 13:56:47:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+21/11/2017 Tue 13:56:47:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+21/11/2017 Tue 13:56:47:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+21/11/2017 Tue 13:57:14:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+21/11/2017 Tue 13:57:15:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+21/11/2017 Tue 13:57:15:getCluster
+21/11/2017 Tue 13:57:15:   Epsilon..: 25
+21/11/2017 Tue 13:57:15:   Min Force: 0.08
+21/11/2017 Tue 13:57:15:   Min Cells: 3
+21/11/2017 Tue 13:57:15:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+21/11/2017 Tue 13:57:15:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+21/11/2017 Tue 14:07:39:mapCluster 
+21/11/2017 Tue 14:07:39:   Epsilon............: 25
+21/11/2017 Tue 14:07:39:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+21/11/2017 Tue 14:07:39:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+21/11/2017 Tue 14:07:39:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+21/11/2017 Tue 14:07:39:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+21/11/2017 Tue 14:07:39:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+21/11/2017 Tue 14:10:21:/------ Begin of Script ------
+21/11/2017 Tue 14:10:21:Directory: ../data/ChicagoTaxi
+21/11/2017 Tue 14:10:21:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+21/11/2017 Tue 14:10:21:   Epsilon..: 25
+21/11/2017 Tue 14:10:21:   sumData
+21/11/2017 Tue 14:10:21:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+21/11/2017 Tue 14:10:21:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+21/11/2017 Tue 14:10:53:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+21/11/2017 Tue 14:10:53:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+21/11/2017 Tue 14:11:15:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+21/11/2017 Tue 14:11:15:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+21/11/2017 Tue 14:11:48:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+21/11/2017 Tue 14:11:48:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+21/11/2017 Tue 14:12:02:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+21/11/2017 Tue 14:12:02:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+21/11/2017 Tue 14:12:27:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+21/11/2017 Tue 14:12:27:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+21/11/2017 Tue 14:12:49:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+21/11/2017 Tue 14:12:49:getCluster
+21/11/2017 Tue 14:12:49:   Epsilon..: 25
+21/11/2017 Tue 14:12:49:   Min Force: 0.08
+21/11/2017 Tue 14:12:49:   Min Cells: 3
+21/11/2017 Tue 14:12:49:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+21/11/2017 Tue 14:12:49:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+21/11/2017 Tue 14:23:47:mapCluster and drawCluster: didn't execute. Don't have -p option21/11/2017 Tue 14:47:47:Comment: 158 clusters
+02/01/2018 Tue 17:39:06:/------ Begin of Script ------
+02/01/2018 Tue 17:39:06:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:39:06:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:39:06:   Epsilon..: 10
+02/01/2018 Tue 17:39:06:   sumData
+02/01/2018 Tue 17:39:06:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:39:06:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:39:16:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:39:16:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:39:22:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:39:22:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:39:29:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:39:29:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:39:35:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:39:35:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:39:43:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:39:43:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:39:49:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:39:49:getCluster
+02/01/2018 Tue 17:39:49:   Epsilon..: 10
+02/01/2018 Tue 17:39:49:   Min Force: 0.2
+02/01/2018 Tue 17:39:49:   Min Cells: 3
+02/01/2018 Tue 17:39:49:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:39:49:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:39:51:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 17:40:00:Comment: 1 cluster
+02/01/2018 Tue 17:40:26:/------ Begin of Script ------
+02/01/2018 Tue 17:40:26:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:40:26:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:40:26:   Epsilon..: 10
+02/01/2018 Tue 17:40:26:   sumData
+02/01/2018 Tue 17:40:26:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:40:26:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:40:26:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:40:33:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:40:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:40:33:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:40:47:/------ Begin of Script ------
+02/01/2018 Tue 17:40:47:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:40:47:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:40:47:   Epsilon..: 10
+02/01/2018 Tue 17:40:47:   sumData
+02/01/2018 Tue 17:40:47:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:40:47:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:40:47:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:40:54:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:40:54:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:40:54:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:41:00:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:41:00:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:41:00:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:41:07:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:41:07:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:41:07:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:41:12:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:41:12:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:41:12:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:41:20:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:41:20:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:41:20:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:41:26:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:41:26:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:41:26:getCluster
+02/01/2018 Tue 17:41:26:   Epsilon..: 10
+02/01/2018 Tue 17:41:26:   Min Force: 0.2
+02/01/2018 Tue 17:41:26:   Min Cells: 3
+02/01/2018 Tue 17:41:26:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:26:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:27:mapCluster 
+02/01/2018 Tue 17:41:27:   Epsilon............: 10
+02/01/2018 Tue 17:41:27:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:27:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:27:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:27:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:27:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:41:31:Results-------
+02/01/2018 Tue 17:41:31:   Input File../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:42:22:/------ Begin of Script ------
+02/01/2018 Tue 17:42:22:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:42:22:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:42:22:   Epsilon..: 10
+02/01/2018 Tue 17:42:22:   sumData
+02/01/2018 Tue 17:42:22:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:42:22:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:42:22:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:42:33:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:42:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:42:33:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:42:41:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:42:41:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:42:41:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:42:49:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:42:49:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:42:49:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:42:55:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:42:55:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:42:55:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:43:04:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:43:04:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:43:04:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:43:12:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:43:12:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:43:12:getCluster
+02/01/2018 Tue 17:43:12:   Epsilon..: 10
+02/01/2018 Tue 17:43:12:   Min Force: 0.2
+02/01/2018 Tue 17:43:12:   Min Cells: 3
+02/01/2018 Tue 17:43:12:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:12:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:14:mapCluster 
+02/01/2018 Tue 17:43:14:   Epsilon............: 10
+02/01/2018 Tue 17:43:14:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:14:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:14:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:14:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:14:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:18:Choose not run validation process
+02/01/2018 Tue 17:43:18:drawCluster 
+02/01/2018 Tue 17:43:18:   Epsilon.......: 10
+02/01/2018 Tue 17:43:18:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:18:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:43:18:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 17:43:18:    Draw Numbers..: No
+02/01/2018 Tue 17:43:27:Comment: 1 cluster
+02/01/2018 Tue 17:48:18:/------ Begin of Script ------
+02/01/2018 Tue 17:48:18:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:48:18:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:48:18:   Epsilon..: 50
+02/01/2018 Tue 17:48:18:   sumData
+02/01/2018 Tue 17:48:18:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:48:18:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:48:18:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:48:27:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:48:27:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:48:27:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:48:33:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:48:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:48:33:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:48:40:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:48:40:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:48:40:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:48:47:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:48:47:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:48:47:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:48:54:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:48:54:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:48:54:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:49:01:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:49:02:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:49:02:getCluster
+02/01/2018 Tue 17:49:02:   Epsilon..: 50
+02/01/2018 Tue 17:49:02:   Min Force: 0.2
+02/01/2018 Tue 17:49:02:   Min Cells: 3
+02/01/2018 Tue 17:49:02:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:02:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:06:mapCluster 
+02/01/2018 Tue 17:49:06:   Epsilon............: 50
+02/01/2018 Tue 17:49:06:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:06:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:06:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:06:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:06:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:13:Choose not run validation process
+02/01/2018 Tue 17:49:13:drawCluster 
+02/01/2018 Tue 17:49:13:   Epsilon.......: 50
+02/01/2018 Tue 17:49:13:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:13:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:49:13:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 17:49:13:    Draw Numbers..: No
+02/01/2018 Tue 17:49:23:Comment: 2 clusters
+02/01/2018 Tue 17:52:51:/------ Begin of Script ------
+02/01/2018 Tue 17:52:51:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:52:51:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:52:51:   Epsilon..: 50
+02/01/2018 Tue 17:52:51:   sumData
+02/01/2018 Tue 17:52:51:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:52:51:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:52:51:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:52:59:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:52:59:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:52:59:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:53:05:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:53:05:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:53:05:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:53:12:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:53:12:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:53:12:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:53:17:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:53:17:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:53:17:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:53:24:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:53:24:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:53:24:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:53:31:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:53:31:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:53:31:getCluster
+02/01/2018 Tue 17:53:31:   Epsilon..: 50
+02/01/2018 Tue 17:53:31:   Min Force: 0.2
+02/01/2018 Tue 17:53:31:   Min Cells: 3
+02/01/2018 Tue 17:53:31:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:31:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:32:mapCluster 
+02/01/2018 Tue 17:53:32:   Epsilon............: 50
+02/01/2018 Tue 17:53:32:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:32:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:32:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:32:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:32:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:36:Choose not run validation process
+02/01/2018 Tue 17:53:36:drawCluster 
+02/01/2018 Tue 17:53:36:   Epsilon.......: 50
+02/01/2018 Tue 17:53:36:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:36:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:53:36:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 17:53:36:    Draw Numbers..: No
+02/01/2018 Tue 17:53:43:Comment: 1 cluster
+02/01/2018 Tue 17:54:54:/------ Begin of Script ------
+02/01/2018 Tue 17:54:54:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:54:54:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:54:54:   Epsilon..: 50
+02/01/2018 Tue 17:54:54:   sumData
+02/01/2018 Tue 17:54:54:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:54:54:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:54:54:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:55:01:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:55:01:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:55:01:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:55:08:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:55:08:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:55:08:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:55:15:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:55:15:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:55:15:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:55:19:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:55:19:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:55:19:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:55:26:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:55:26:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:55:26:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:55:33:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:55:34:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:55:34:getCluster
+02/01/2018 Tue 17:55:34:   Epsilon..: 50
+02/01/2018 Tue 17:55:34:   Min Force: 0.8
+02/01/2018 Tue 17:55:34:   Min Cells: 3
+02/01/2018 Tue 17:55:34:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:34:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:34:mapCluster 
+02/01/2018 Tue 17:55:34:   Epsilon............: 50
+02/01/2018 Tue 17:55:34:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:34:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:34:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:34:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:34:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:38:Choose not run validation process
+02/01/2018 Tue 17:55:38:drawCluster 
+02/01/2018 Tue 17:55:38:   Epsilon.......: 50
+02/01/2018 Tue 17:55:38:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:38:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 17:55:38:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 17:55:38:    Draw Numbers..: No
+02/01/2018 Tue 17:55:45:Comment: 0 clusters
+02/01/2018 Tue 17:56:47:/------ Begin of Script ------
+02/01/2018 Tue 17:56:47:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 17:56:47:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 17:56:47:   Epsilon..: 50
+02/01/2018 Tue 17:56:47:   sumData
+02/01/2018 Tue 17:56:47:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 17:56:47:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 17:56:57:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 17:56:57:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 17:57:05:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 17:57:05:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 17:57:15:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 17:57:15:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 17:57:22:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 17:57:22:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 17:57:32:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 17:57:32:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 17:57:40:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 17:57:40:getCluster
+02/01/2018 Tue 17:57:40:   Epsilon..: 50
+02/01/2018 Tue 17:57:40:   Min Force: 0.1
+02/01/2018 Tue 17:57:40:   Min Cells: 3
+02/01/2018 Tue 17:57:40:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 17:57:40:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 17:57:41:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 17:57:46:Comment: 1 cluster
+02/01/2018 Tue 18:01:12:/------ Begin of Script ------
+02/01/2018 Tue 18:01:12:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:01:12:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:12:   Epsilon..: 50
+02/01/2018 Tue 18:01:12:   sumData
+02/01/2018 Tue 18:01:12:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:01:12:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:01:12:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:01:20:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:01:20:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:01:20:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:01:26:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:01:26:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:01:26:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:01:33:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:01:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:01:33:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:01:38:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:01:38:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:01:38:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:01:46:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:01:46:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:01:46:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:01:53:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:01:53:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:01:53:getCluster
+02/01/2018 Tue 18:01:53:   Epsilon..: 50
+02/01/2018 Tue 18:01:53:   Min Force: 0.1
+02/01/2018 Tue 18:01:53:   Min Cells: 3
+02/01/2018 Tue 18:01:53:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:53:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:54:mapCluster 
+02/01/2018 Tue 18:01:54:   Epsilon............: 50
+02/01/2018 Tue 18:01:54:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:54:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:54:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:54:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:54:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:57:Choose not run validation process
+02/01/2018 Tue 18:01:57:drawCluster 
+02/01/2018 Tue 18:01:57:   Epsilon.......: 50
+02/01/2018 Tue 18:01:57:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:57:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:01:57:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 18:01:57:    Draw Numbers..: No
+02/01/2018 Tue 18:02:14:Comment: 1 cluster
+02/01/2018 Tue 18:03:16:/------ Begin of Script ------
+02/01/2018 Tue 18:03:16:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:03:16:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:16:   Epsilon..: 50
+02/01/2018 Tue 18:03:16:   sumData
+02/01/2018 Tue 18:03:16:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:03:16:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:03:16:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:03:23:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:03:23:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:03:23:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:03:29:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:03:29:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:03:29:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:03:37:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:03:37:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:03:37:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:03:42:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:03:42:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:03:42:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:03:49:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:03:49:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:03:49:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:03:55:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:03:56:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:03:56:getCluster
+02/01/2018 Tue 18:03:56:   Epsilon..: 50
+02/01/2018 Tue 18:03:56:   Min Force: 0.1
+02/01/2018 Tue 18:03:56:   Min Cells: 2
+02/01/2018 Tue 18:03:56:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:56:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:56:mapCluster 
+02/01/2018 Tue 18:03:56:   Epsilon............: 50
+02/01/2018 Tue 18:03:56:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:56:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:56:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:56:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:03:56:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:04:00:Choose not run validation process
+02/01/2018 Tue 18:04:00:drawCluster 
+02/01/2018 Tue 18:04:00:   Epsilon.......: 50
+02/01/2018 Tue 18:04:00:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:04:00:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:04:00:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 18:04:00:    Draw Numbers..: No
+02/01/2018 Tue 18:04:06:Comment: 1 cluster
+02/01/2018 Tue 18:10:33:/------ Begin of Script ------
+02/01/2018 Tue 18:10:33:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:10:33:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:10:33:   Epsilon..: 50
+02/01/2018 Tue 18:10:33:   sumData
+02/01/2018 Tue 18:10:33:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:10:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:10:41:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:10:41:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:10:47:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:10:47:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:10:54:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:10:54:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:10:59:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:10:59:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:11:07:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:11:07:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:11:14:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:11:14:getCluster
+02/01/2018 Tue 18:11:14:   Epsilon..: 50
+02/01/2018 Tue 18:11:14:   Min Force: 0.01
+02/01/2018 Tue 18:11:14:   Min Cells: 1
+02/01/2018 Tue 18:11:14:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:11:14:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:11:15:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 18:11:22:Comment: 319 clusters
+02/01/2018 Tue 18:12:19:/------ Begin of Script ------
+02/01/2018 Tue 18:12:19:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:12:19:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:12:19:   Epsilon..: 50
+02/01/2018 Tue 18:12:19:   sumData
+02/01/2018 Tue 18:12:19:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:12:19:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:12:27:/------ Begin of Script ------
+02/01/2018 Tue 18:12:27:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:12:27:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:12:27:   Epsilon..: 50
+02/01/2018 Tue 18:12:27:   sumData
+02/01/2018 Tue 18:12:27:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:12:27:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:12:34:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:12:34:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:12:41:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:12:41:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:12:48:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:12:48:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:12:53:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:12:53:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:13:00:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:13:00:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:13:08:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:13:08:getCluster
+02/01/2018 Tue 18:13:08:   Epsilon..: 50
+02/01/2018 Tue 18:13:08:   Min Force: 0.001
+02/01/2018 Tue 18:13:08:   Min Cells: 2
+02/01/2018 Tue 18:13:08:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:13:08:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:13:08:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 18:13:15:Comment: 1 cluster
+02/01/2018 Tue 18:14:06:/------ Begin of Script ------
+02/01/2018 Tue 18:14:06:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:14:06:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:14:06:   Epsilon..: 25
+02/01/2018 Tue 18:14:06:   sumData
+02/01/2018 Tue 18:14:06:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:14:06:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:14:13:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:14:13:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:14:19:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:14:19:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:14:26:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:14:26:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:14:32:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:14:32:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:14:39:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:14:39:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:14:45:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:14:45:getCluster
+02/01/2018 Tue 18:14:45:   Epsilon..: 25
+02/01/2018 Tue 18:14:45:   Min Force: 0.0001
+02/01/2018 Tue 18:14:45:   Min Cells: 1
+02/01/2018 Tue 18:14:45:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:14:45:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:14:46:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 18:14:56:Comment: 127 clusters
+02/01/2018 Tue 18:15:51:/------ Begin of Script ------
+02/01/2018 Tue 18:15:51:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:15:51:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:15:51:   Epsilon..: 25
+02/01/2018 Tue 18:15:51:   sumData
+02/01/2018 Tue 18:15:51:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:15:51:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:15:59:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:15:59:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:16:05:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:16:05:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:16:12:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:16:12:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:16:17:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:16:17:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:16:24:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:16:24:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:16:31:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:16:31:getCluster
+02/01/2018 Tue 18:16:31:   Epsilon..: 25
+02/01/2018 Tue 18:16:31:   Min Force: 0.0001
+02/01/2018 Tue 18:16:31:   Min Cells: 2
+02/01/2018 Tue 18:16:31:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:16:31:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:16:31:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 18:16:35:Comment: 1 cluster
+02/01/2018 Tue 18:18:43:/------ Begin of Script ------
+02/01/2018 Tue 18:18:43:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:18:43:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:18:43:   Epsilon..: 25
+02/01/2018 Tue 18:18:43:   sumData
+02/01/2018 Tue 18:18:43:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:18:43:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:18:51:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:18:51:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:18:57:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:18:57:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:19:04:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:19:04:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:19:09:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:19:09:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:19:17:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:19:17:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:19:25:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:19:25:getCluster
+02/01/2018 Tue 18:19:25:   Epsilon..: 25
+02/01/2018 Tue 18:19:25:   Min Force: 0.0001
+02/01/2018 Tue 18:19:25:   Min Cells: 1
+02/01/2018 Tue 18:19:25:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:19:25:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:19:25:mapCluster and drawCluster: didn't execute. Don't have -p option02/01/2018 Tue 18:44:03:Comment: 127 clusters
+02/01/2018 Tue 18:45:22:/------ Begin of Script ------
+02/01/2018 Tue 18:45:22:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:45:22:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:45:22:   Epsilon..: 25
+02/01/2018 Tue 18:45:22:   sumData
+02/01/2018 Tue 18:45:22:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:45:22:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:45:22:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:45:30:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:45:30:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:45:30:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:45:36:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:45:36:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:45:36:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:45:44:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:45:44:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:45:44:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:45:50:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:45:50:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:45:50:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:45:57:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:45:57:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:45:57:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:46:04:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:46:05:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:46:05:getCluster
+02/01/2018 Tue 18:46:05:   Epsilon..: 25
+02/01/2018 Tue 18:46:05:   Min Force: 0.0001
+02/01/2018 Tue 18:46:05:   Min Cells: 1
+02/01/2018 Tue 18:46:05:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:05:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:05:mapCluster 
+02/01/2018 Tue 18:46:05:   Epsilon............: 25
+02/01/2018 Tue 18:46:05:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:05:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:05:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:05:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:05:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:10:Choose not run validation process
+02/01/2018 Tue 18:46:10:drawCluster 
+02/01/2018 Tue 18:46:10:   Epsilon.......: 25
+02/01/2018 Tue 18:46:10:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:10:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:46:10:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 18:46:10:    Draw Numbers..: No
+02/01/2018 Tue 18:46:21:Comment: 126 clusters
+02/01/2018 Tue 18:57:39:/------ Begin of Script ------
+02/01/2018 Tue 18:57:39:Directory: ../data/ChicagoTaxi
+02/01/2018 Tue 18:57:39:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+02/01/2018 Tue 18:57:39:   Epsilon..: 25
+02/01/2018 Tue 18:57:39:   sumData
+02/01/2018 Tue 18:57:39:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+02/01/2018 Tue 18:57:39:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:57:39:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+02/01/2018 Tue 18:57:47:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+02/01/2018 Tue 18:57:47:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:57:47:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+02/01/2018 Tue 18:57:53:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+02/01/2018 Tue 18:57:53:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:57:53:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+02/01/2018 Tue 18:58:00:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+02/01/2018 Tue 18:58:00:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:58:00:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+02/01/2018 Tue 18:58:06:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+02/01/2018 Tue 18:58:06:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:58:06:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+02/01/2018 Tue 18:58:13:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+02/01/2018 Tue 18:58:13:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:58:13:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+02/01/2018 Tue 18:58:21:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:58:21:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+02/01/2018 Tue 18:58:21:getCluster
+02/01/2018 Tue 18:58:21:   Epsilon..: 25
+02/01/2018 Tue 18:58:21:   Min Force: 1e-05
+02/01/2018 Tue 18:58:21:   Min Cells: 2
+02/01/2018 Tue 18:58:21:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:21:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:22:mapCluster 
+02/01/2018 Tue 18:58:22:   Epsilon............: 25
+02/01/2018 Tue 18:58:22:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:22:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:22:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:22:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:22:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:25:Choose not run validation process
+02/01/2018 Tue 18:58:25:drawCluster 
+02/01/2018 Tue 18:58:25:   Epsilon.......: 25
+02/01/2018 Tue 18:58:25:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:25:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+02/01/2018 Tue 18:58:25:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+02/01/2018 Tue 18:58:25:    Draw Numbers..: No
+02/01/2018 Tue 18:58:35:Comment: 1 cluster
+12/01/2018 Fri 07:57:30:/------ Begin of Script ------
+12/01/2018 Fri 07:57:30:Directory: ../data/ChicagoTaxi
+12/01/2018 Fri 07:57:30:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+12/01/2018 Fri 07:57:30:   Epsilon..: 25
+12/01/2018 Fri 07:57:30:   sumData
+12/01/2018 Fri 07:57:30:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+12/01/2018 Fri 07:57:30:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+12/01/2018 Fri 07:57:30:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+12/01/2018 Fri 07:57:52:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+12/01/2018 Fri 07:57:52:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+12/01/2018 Fri 07:57:52:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+12/01/2018 Fri 07:58:00:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+12/01/2018 Fri 07:58:00:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+12/01/2018 Fri 07:58:00:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+12/01/2018 Fri 07:58:09:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+12/01/2018 Fri 07:58:09:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+12/01/2018 Fri 07:58:09:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+12/01/2018 Fri 07:58:16:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+12/01/2018 Fri 07:58:16:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+12/01/2018 Fri 07:58:16:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+12/01/2018 Fri 07:58:28:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+12/01/2018 Fri 07:58:28:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+12/01/2018 Fri 07:58:28:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+12/01/2018 Fri 07:58:42:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+12/01/2018 Fri 07:58:43:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+12/01/2018 Fri 07:58:43:getCluster
+12/01/2018 Fri 07:58:43:   Epsilon..: 25
+12/01/2018 Fri 07:58:43:   Min Force: 0.0
+12/01/2018 Fri 07:58:43:   Min Cells: 3
+12/01/2018 Fri 07:58:43:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:43:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:46:mapCluster 
+12/01/2018 Fri 07:58:46:   Epsilon............: 25
+12/01/2018 Fri 07:58:46:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:46:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:46:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:46:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:46:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:56:Choose not run validation process
+12/01/2018 Fri 07:58:56:drawCluster 
+12/01/2018 Fri 07:58:56:   Epsilon.......: 25
+12/01/2018 Fri 07:58:56:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:56:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 07:58:56:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+12/01/2018 Fri 07:58:56:    Draw Numbers..: No
+12/01/2018 Fri 08:00:31:Comment: 2 Clusters
+12/01/2018 Fri 08:25:00:/------ Begin of Script ------
+12/01/2018 Fri 08:25:00:Directory: ../data/ChicagoTaxi
+12/01/2018 Fri 08:25:00:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:00:   Epsilon..: 25
+12/01/2018 Fri 08:25:00:   sumData
+12/01/2018 Fri 08:25:00:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+12/01/2018 Fri 08:25:00:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+12/01/2018 Fri 08:25:00:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+12/01/2018 Fri 08:25:12:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+12/01/2018 Fri 08:25:12:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+12/01/2018 Fri 08:25:12:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+12/01/2018 Fri 08:25:20:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+12/01/2018 Fri 08:25:20:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+12/01/2018 Fri 08:25:20:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+12/01/2018 Fri 08:25:28:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+12/01/2018 Fri 08:25:28:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+12/01/2018 Fri 08:25:28:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+12/01/2018 Fri 08:25:33:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+12/01/2018 Fri 08:25:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+12/01/2018 Fri 08:25:33:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+12/01/2018 Fri 08:25:43:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+12/01/2018 Fri 08:25:43:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+12/01/2018 Fri 08:25:43:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+12/01/2018 Fri 08:25:50:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+12/01/2018 Fri 08:25:51:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+12/01/2018 Fri 08:25:51:getCluster
+12/01/2018 Fri 08:25:51:   Epsilon..: 25
+12/01/2018 Fri 08:25:51:   Min Force: 0.0
+12/01/2018 Fri 08:25:51:   Min Cells: 2
+12/01/2018 Fri 08:25:51:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:51:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:52:mapCluster 
+12/01/2018 Fri 08:25:52:   Epsilon............: 25
+12/01/2018 Fri 08:25:52:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:52:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:52:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:52:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:52:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:59:Choose not run validation process
+12/01/2018 Fri 08:25:59:drawCluster 
+12/01/2018 Fri 08:25:59:   Epsilon.......: 25
+12/01/2018 Fri 08:25:59:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:59:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 08:25:59:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+12/01/2018 Fri 08:25:59:    Draw Numbers..: No
+12/01/2018 Fri 08:26:19:Comment: 10 clusters
+12/01/2018 Fri 13:40:11:/------ Begin of Script ------
+12/01/2018 Fri 13:40:11:Directory: ../data/ChicagoTaxi
+12/01/2018 Fri 13:40:11:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+12/01/2018 Fri 13:40:11:   Epsilon..: 25
+12/01/2018 Fri 13:40:11:   sumData
+12/01/2018 Fri 13:40:11:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+12/01/2018 Fri 13:40:11:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+12/01/2018 Fri 13:40:11:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+12/01/2018 Fri 13:40:25:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+12/01/2018 Fri 13:40:25:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+12/01/2018 Fri 13:40:25:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+12/01/2018 Fri 13:40:32:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+12/01/2018 Fri 13:40:32:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+12/01/2018 Fri 13:40:32:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+12/01/2018 Fri 13:40:39:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+12/01/2018 Fri 13:40:39:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+12/01/2018 Fri 13:40:39:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+12/01/2018 Fri 13:40:45:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+12/01/2018 Fri 13:40:45:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+12/01/2018 Fri 13:40:45:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+12/01/2018 Fri 13:40:52:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+12/01/2018 Fri 13:40:52:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+12/01/2018 Fri 13:40:52:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+12/01/2018 Fri 13:40:59:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+12/01/2018 Fri 13:41:00:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+12/01/2018 Fri 13:41:00:getCluster
+12/01/2018 Fri 13:41:00:   Epsilon..: 25
+12/01/2018 Fri 13:41:00:   Min Force: 0.0
+12/01/2018 Fri 13:41:00:   Min Cells: 2
+12/01/2018 Fri 13:41:00:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:00:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:01:mapCluster 
+12/01/2018 Fri 13:41:01:   Epsilon............: 25
+12/01/2018 Fri 13:41:01:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:01:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:01:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:01:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:01:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:06:Choose not run validation process
+12/01/2018 Fri 13:41:06:drawCluster 
+12/01/2018 Fri 13:41:06:   Epsilon.......: 25
+12/01/2018 Fri 13:41:06:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:06:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 13:41:06:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+12/01/2018 Fri 13:41:06:    Draw Numbers..: No
+12/01/2018 Fri 14:48:08:Comment: 3 clusters
+12/01/2018 Fri 14:56:16:/------ Begin of Script ------
+12/01/2018 Fri 14:56:16:Directory: ../data/ChicagoTaxi
+12/01/2018 Fri 14:56:16:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+12/01/2018 Fri 14:56:16:   Epsilon..: 50
+12/01/2018 Fri 14:56:16:   sumData
+12/01/2018 Fri 14:56:16:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+12/01/2018 Fri 14:56:16:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+12/01/2018 Fri 14:56:16:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+12/01/2018 Fri 14:56:27:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+12/01/2018 Fri 14:56:27:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+12/01/2018 Fri 14:56:27:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+12/01/2018 Fri 14:56:33:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+12/01/2018 Fri 14:56:33:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+12/01/2018 Fri 14:56:33:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+12/01/2018 Fri 14:56:40:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+12/01/2018 Fri 14:56:40:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+12/01/2018 Fri 14:56:40:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+12/01/2018 Fri 14:56:46:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+12/01/2018 Fri 14:56:46:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+12/01/2018 Fri 14:56:46:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+12/01/2018 Fri 14:56:53:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+12/01/2018 Fri 14:56:53:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+12/01/2018 Fri 14:56:53:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+12/01/2018 Fri 14:57:00:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+12/01/2018 Fri 14:57:01:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+12/01/2018 Fri 14:57:01:getCluster
+12/01/2018 Fri 14:57:01:   Epsilon..: 50
+12/01/2018 Fri 14:57:01:   Min Force: 0.0
+12/01/2018 Fri 14:57:01:   Min Cells: 2
+12/01/2018 Fri 14:57:01:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:01:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:02:mapCluster 
+12/01/2018 Fri 14:57:02:   Epsilon............: 50
+12/01/2018 Fri 14:57:02:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:02:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:02:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:02:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:02:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:06:Choose not run validation process
+12/01/2018 Fri 14:57:06:drawCluster 
+12/01/2018 Fri 14:57:06:   Epsilon.......: 50
+12/01/2018 Fri 14:57:06:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:06:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 14:57:06:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+12/01/2018 Fri 14:57:06:    Draw Numbers..: No
+12/01/2018 Fri 14:57:14:Comment: 7 clusters
+12/01/2018 Fri 15:06:55:/------ Begin of Script ------
+12/01/2018 Fri 15:06:55:Directory: ../data/ChicagoTaxi
+12/01/2018 Fri 15:06:55:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+12/01/2018 Fri 15:06:55:   Epsilon..: 50
+12/01/2018 Fri 15:06:55:   sumData
+12/01/2018 Fri 15:06:55:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+12/01/2018 Fri 15:06:55:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+12/01/2018 Fri 15:06:55:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+12/01/2018 Fri 15:07:06:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+12/01/2018 Fri 15:07:06:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+12/01/2018 Fri 15:07:06:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+12/01/2018 Fri 15:07:15:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+12/01/2018 Fri 15:07:15:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+12/01/2018 Fri 15:07:15:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+12/01/2018 Fri 15:07:25:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+12/01/2018 Fri 15:07:25:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+12/01/2018 Fri 15:07:25:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+12/01/2018 Fri 15:07:34:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+12/01/2018 Fri 15:07:34:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+12/01/2018 Fri 15:07:34:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+12/01/2018 Fri 15:07:44:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+12/01/2018 Fri 15:07:44:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+12/01/2018 Fri 15:07:44:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+12/01/2018 Fri 15:07:53:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+12/01/2018 Fri 15:07:54:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+12/01/2018 Fri 15:07:54:getCluster
+12/01/2018 Fri 15:07:54:   Epsilon..: 50
+12/01/2018 Fri 15:07:54:   Min Force: 0.0
+12/01/2018 Fri 15:07:54:   Min Cells: 2
+12/01/2018 Fri 15:07:54:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+12/01/2018 Fri 15:07:54:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 15:07:55:mapCluster 
+12/01/2018 Fri 15:07:55:   Epsilon............: 50
+12/01/2018 Fri 15:07:55:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 15:07:55:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+12/01/2018 Fri 15:07:55:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 15:07:55:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 15:07:55:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+12/01/2018 Fri 15:08:02:Choose not run validation process
+12/01/2018 Fri 15:08:02:drawCluster 
+12/01/2018 Fri 15:08:02:   Epsilon.......: 50
+12/01/2018 Fri 15:08:02:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 15:08:02:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 15:08:02:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+12/01/2018 Fri 15:08:02:    Draw Numbers..: No
+12/01/2018 Fri 15:08:16:Comment: 10 clusters
+12/01/2018 Fri 15:18:19:/------ Begin of Script ------
+12/01/2018 Fri 15:18:19:Directory: ../data/ChicagoTaxi
+12/01/2018 Fri 15:18:19:   Config File: ../data/ChicagoTaxi/config/config-ChicagoTaxi.csv
+12/01/2018 Fri 15:18:19:   Epsilon..: 50
+12/01/2018 Fri 15:18:19:   sumData
+12/01/2018 Fri 15:18:19:   File Input:......../data/ChicagoTaxi/devices/455b6b.csv
+12/01/2018 Fri 15:18:19:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-01.csv
+12/01/2018 Fri 15:18:19:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-01.csv
+12/01/2018 Fri 15:18:32:   File Input:......../data/ChicagoTaxi/devices/4c8b67.csv
+12/01/2018 Fri 15:18:32:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-02.csv
+12/01/2018 Fri 15:18:32:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-02.csv
+12/01/2018 Fri 15:18:38:   File Input:......../data/ChicagoTaxi/devices/5f1b23.csv
+12/01/2018 Fri 15:18:38:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-03.csv
+12/01/2018 Fri 15:18:38:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-03.csv
+12/01/2018 Fri 15:18:46:   File Input:......../data/ChicagoTaxi/devices/7c51c6.csv
+12/01/2018 Fri 15:18:46:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-04.csv
+12/01/2018 Fri 15:18:46:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-04.csv
+12/01/2018 Fri 15:18:52:   File Input:......../data/ChicagoTaxi/devices/b50eb9.csv
+12/01/2018 Fri 15:18:52:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-05.csv
+12/01/2018 Fri 15:18:52:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-05.csv
+12/01/2018 Fri 15:19:00:   File Input:......../data/ChicagoTaxi/devices/d1b852.csv
+12/01/2018 Fri 15:19:00:   File Cell Output.:../data/ChicagoTaxi/central/1.sumDataOutput/cell-ChicagoTaxi-06.csv
+12/01/2018 Fri 15:19:00:   File Point Output:../data/ChicagoTaxi/central/1.sumDataOutput/point-ChicagoTaxi-06.csv
+12/01/2018 Fri 15:19:06:Cells consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv OK
+12/01/2018 Fri 15:19:07:Points consolidation to file: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv OK
+12/01/2018 Fri 15:19:07:getCluster
+12/01/2018 Fri 15:19:07:   Epsilon..: 50
+12/01/2018 Fri 15:19:07:   Min Force: 0.0
+12/01/2018 Fri 15:19:07:   Min Cells: 3
+12/01/2018 Fri 15:19:07:   Input....: ../data/ChicagoTaxi/central/2.deviceConsolidation/cells-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:07:   Output...: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:09:mapCluster 
+12/01/2018 Fri 15:19:09:   Epsilon............: 50
+12/01/2018 Fri 15:19:09:   Input Cell.........: ../data/ChicagoTaxi/central/3.getClusterOutput/gCluster-result-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:09:   Input Point........: ../data/ChicagoTaxi/central/2.deviceConsolidation/points-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:09:   Labeled Cells .....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:09:   Labeled Points ....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:09:   Expanded Points....: ../data/ChicagoTaxi/central/4.mapClusterOutput/expanded-points-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:13:Choose not run validation process
+12/01/2018 Fri 15:19:13:drawCluster 
+12/01/2018 Fri 15:19:13:   Epsilon.......: 50
+12/01/2018 Fri 15:19:13:   Input Cell....: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:13:   Input Point...: ../data/ChicagoTaxi/central/4.mapClusterOutput/labeled-points-ChicagoTaxi.csv
+12/01/2018 Fri 15:19:13:   Output SVG....: ../data/ChicagoTaxi/central/5.drawOutput/graph-ChicagoTaxi.svg
+12/01/2018 Fri 15:19:13:    Draw Numbers..: No
+12/01/2018 Fri 15:19:34:Comment: 6 clusters

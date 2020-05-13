@@ -1,0 +1,397 @@
+18/11/2017 Sat 15:30:07:/------ Begin of Script ------
+18/11/2017 Sat 15:30:07:Directory: ../data/Agregation
+18/11/2017 Sat 15:30:07:   Config File: ../data/Agregation/config/config-Agregation.csv
+18/11/2017 Sat 15:30:07:   Epsilon..: 20
+18/11/2017 Sat 15:30:07:   sumData
+18/11/2017 Sat 15:30:07:   File Input:......../data/Agregation/devices/Aggregation.csv
+18/11/2017 Sat 15:30:07:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+18/11/2017 Sat 15:30:07:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+18/11/2017 Sat 15:30:09:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+18/11/2017 Sat 15:30:09:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+18/11/2017 Sat 15:30:09:getCluster
+18/11/2017 Sat 15:30:09:   Epsilon..: 20
+18/11/2017 Sat 15:30:09:   Min Force: 0.1
+18/11/2017 Sat 15:30:09:   Min Cells: 3
+18/11/2017 Sat 15:30:09:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+18/11/2017 Sat 15:30:09:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:30:09:statCluster 
+18/11/2017 Sat 15:30:09:   Epsilon............: 20
+18/11/2017 Sat 15:30:09:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:30:09:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:30:09:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+18/11/2017 Sat 15:30:09:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:30:09:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+18/11/2017 Sat 15:30:09:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+18/11/2017 Sat 15:30:09:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+18/11/2017 Sat 15:30:10:Results-------
+18/11/2017 Sat 15:30:10:   FM for gCluster Points: 0.9582514058593005
+18/11/2017 Sat 15:30:10:   FM for gCluster Cells.: 0.9597791364477241
+18/11/2017 Sat 15:30:10:drawCluster 
+18/11/2017 Sat 15:30:10:   Epsilon.......: 20
+18/11/2017 Sat 15:30:10:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:30:10:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:30:10:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+18/11/2017 Sat 15:30:19:Comment: 7 clusters
+18/11/2017 Sat 15:30:19:------ End of Script ------/
+18/11/2017 Sat 15:31:48:/------ Begin of Script ------
+18/11/2017 Sat 15:31:48:Directory: ../data/Agregation
+18/11/2017 Sat 15:31:48:   Config File: ../data/Agregation/config/config-Agregation.csv
+18/11/2017 Sat 15:31:48:   Epsilon..: 20
+18/11/2017 Sat 15:31:48:   sumData
+18/11/2017 Sat 15:31:48:   File Input:......../data/Agregation/devices/Aggregation.csv
+18/11/2017 Sat 15:31:48:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+18/11/2017 Sat 15:31:48:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+18/11/2017 Sat 15:31:49:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+18/11/2017 Sat 15:31:49:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+18/11/2017 Sat 15:31:49:getCluster
+18/11/2017 Sat 15:31:49:   Epsilon..: 20
+18/11/2017 Sat 15:31:49:   Min Force: 0.09
+18/11/2017 Sat 15:31:49:   Min Cells: 3
+18/11/2017 Sat 15:31:49:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+18/11/2017 Sat 15:31:49:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:31:49:statCluster 
+18/11/2017 Sat 15:31:49:   Epsilon............: 20
+18/11/2017 Sat 15:31:49:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:31:49:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:31:49:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+18/11/2017 Sat 15:31:49:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:31:49:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+18/11/2017 Sat 15:31:49:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+18/11/2017 Sat 15:31:49:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+18/11/2017 Sat 15:31:50:Results-------
+18/11/2017 Sat 15:31:50:   FM for gCluster Points: 0.8937220615517191
+18/11/2017 Sat 15:31:50:   FM for gCluster Cells.: 0.8949637075919953
+18/11/2017 Sat 15:31:50:drawCluster 
+18/11/2017 Sat 15:31:50:   Epsilon.......: 20
+18/11/2017 Sat 15:31:50:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:31:50:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:31:50:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+18/11/2017 Sat 15:31:54:Comment: 6 clusters
+18/11/2017 Sat 15:31:54:------ End of Script ------/
+18/11/2017 Sat 15:32:05:/------ Begin of Script ------
+18/11/2017 Sat 15:32:05:Directory: ../data/Agregation
+18/11/2017 Sat 15:32:05:   Config File: ../data/Agregation/config/config-Agregation.csv
+18/11/2017 Sat 15:32:05:   Epsilon..: 20
+18/11/2017 Sat 15:32:05:   sumData
+18/11/2017 Sat 15:32:05:   File Input:......../data/Agregation/devices/Aggregation.csv
+18/11/2017 Sat 15:32:05:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+18/11/2017 Sat 15:32:05:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+18/11/2017 Sat 15:32:06:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+18/11/2017 Sat 15:32:06:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+18/11/2017 Sat 15:32:06:getCluster
+18/11/2017 Sat 15:32:06:   Epsilon..: 20
+18/11/2017 Sat 15:32:06:   Min Force: 0.095
+18/11/2017 Sat 15:32:06:   Min Cells: 3
+18/11/2017 Sat 15:32:06:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+18/11/2017 Sat 15:32:06:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:32:07:statCluster 
+18/11/2017 Sat 15:32:07:   Epsilon............: 20
+18/11/2017 Sat 15:32:07:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:32:07:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:32:07:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+18/11/2017 Sat 15:32:07:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:32:07:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+18/11/2017 Sat 15:32:07:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+18/11/2017 Sat 15:32:07:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+18/11/2017 Sat 15:32:08:Results-------
+18/11/2017 Sat 15:32:08:   FM for gCluster Points: 0.9624204069243928
+18/11/2017 Sat 15:32:08:   FM for gCluster Cells.: 0.9639412403378355
+18/11/2017 Sat 15:32:08:drawCluster 
+18/11/2017 Sat 15:32:08:   Epsilon.......: 20
+18/11/2017 Sat 15:32:08:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:32:08:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:32:08:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+18/11/2017 Sat 15:32:10:Comment: 7 clusters
+18/11/2017 Sat 15:32:10:------ End of Script ------/
+18/11/2017 Sat 15:32:48:/------ Begin of Script ------
+18/11/2017 Sat 15:32:48:Directory: ../data/Agregation
+18/11/2017 Sat 15:32:48:   Config File: ../data/Agregation/config/config-Agregation.csv
+18/11/2017 Sat 15:32:48:   Epsilon..: 20
+18/11/2017 Sat 15:32:48:   sumData
+18/11/2017 Sat 15:32:48:   File Input:......../data/Agregation/devices/Aggregation.csv
+18/11/2017 Sat 15:32:48:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+18/11/2017 Sat 15:32:48:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+18/11/2017 Sat 15:32:49:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+18/11/2017 Sat 15:32:49:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+18/11/2017 Sat 15:32:49:getCluster
+18/11/2017 Sat 15:32:49:   Epsilon..: 20
+18/11/2017 Sat 15:32:49:   Min Force: 0.0945
+18/11/2017 Sat 15:32:49:   Min Cells: 3
+18/11/2017 Sat 15:32:49:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+18/11/2017 Sat 15:32:49:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:32:49:statCluster 
+18/11/2017 Sat 15:32:49:   Epsilon............: 20
+18/11/2017 Sat 15:32:49:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:32:49:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:32:49:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+18/11/2017 Sat 15:32:49:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:32:49:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+18/11/2017 Sat 15:32:49:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+18/11/2017 Sat 15:32:49:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+18/11/2017 Sat 15:32:50:Results-------
+18/11/2017 Sat 15:32:50:   FM for gCluster Points: 0.8895166193636297
+18/11/2017 Sat 15:32:50:   FM for gCluster Cells.: 0.8907672824445352
+18/11/2017 Sat 15:32:50:drawCluster 
+18/11/2017 Sat 15:32:50:   Epsilon.......: 20
+18/11/2017 Sat 15:32:50:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:32:50:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:32:50:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+18/11/2017 Sat 15:32:53:Comment: 6 clusters
+18/11/2017 Sat 15:32:53:------ End of Script ------/
+18/11/2017 Sat 15:33:07:/------ Begin of Script ------
+18/11/2017 Sat 15:33:07:Directory: ../data/Agregation
+18/11/2017 Sat 15:33:07:   Config File: ../data/Agregation/config/config-Agregation.csv
+18/11/2017 Sat 15:33:07:   Epsilon..: 20
+18/11/2017 Sat 15:33:07:   sumData
+18/11/2017 Sat 15:33:07:   File Input:......../data/Agregation/devices/Aggregation.csv
+18/11/2017 Sat 15:33:07:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+18/11/2017 Sat 15:33:07:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+18/11/2017 Sat 15:33:08:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+18/11/2017 Sat 15:33:08:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+18/11/2017 Sat 15:33:08:getCluster
+18/11/2017 Sat 15:33:08:   Epsilon..: 20
+18/11/2017 Sat 15:33:08:   Min Force: 0.0948
+18/11/2017 Sat 15:33:08:   Min Cells: 3
+18/11/2017 Sat 15:33:08:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+18/11/2017 Sat 15:33:08:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:33:09:statCluster 
+18/11/2017 Sat 15:33:09:   Epsilon............: 20
+18/11/2017 Sat 15:33:09:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+18/11/2017 Sat 15:33:09:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:33:09:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+18/11/2017 Sat 15:33:09:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:33:09:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+18/11/2017 Sat 15:33:09:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+18/11/2017 Sat 15:33:09:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+18/11/2017 Sat 15:33:09:Results-------
+18/11/2017 Sat 15:33:09:   FM for gCluster Points: 0.8895166193636297
+18/11/2017 Sat 15:33:09:   FM for gCluster Cells.: 0.8907672824445352
+18/11/2017 Sat 15:33:09:drawCluster 
+18/11/2017 Sat 15:33:09:   Epsilon.......: 20
+18/11/2017 Sat 15:33:09:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+18/11/2017 Sat 15:33:09:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+18/11/2017 Sat 15:33:09:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+18/11/2017 Sat 15:33:11:Comment: 6 clusters
+18/11/2017 Sat 15:33:11:------ End of Script ------/
+19/11/2017 Sun 10:42:28:/------ Begin of Script ------
+19/11/2017 Sun 10:42:28:Directory: ../data/Agregation
+19/11/2017 Sun 10:42:28:   Config File: ../data/Agregation/config/config-Agregation.csv
+19/11/2017 Sun 10:42:28:   Epsilon..: 20
+19/11/2017 Sun 10:42:28:   sumData
+19/11/2017 Sun 10:42:28:   File Input:......../data/Agregation/devices/Aggregation.csv
+19/11/2017 Sun 10:42:28:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+19/11/2017 Sun 10:42:28:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+19/11/2017 Sun 10:42:34:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+19/11/2017 Sun 10:42:35:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+19/11/2017 Sun 10:42:35:getCluster
+19/11/2017 Sun 10:42:35:   Epsilon..: 20
+19/11/2017 Sun 10:42:35:   Min Force: 0.095
+19/11/2017 Sun 10:42:35:   Min Cells: 3
+19/11/2017 Sun 10:42:35:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+19/11/2017 Sun 10:42:35:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+19/11/2017 Sun 10:42:38:statCluster 
+19/11/2017 Sun 10:42:38:   Epsilon............: 20
+19/11/2017 Sun 10:42:38:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+19/11/2017 Sun 10:42:38:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+19/11/2017 Sun 10:42:38:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+19/11/2017 Sun 10:42:38:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+19/11/2017 Sun 10:42:38:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+19/11/2017 Sun 10:42:38:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+19/11/2017 Sun 10:42:38:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+19/11/2017 Sun 10:42:40:Results-------
+19/11/2017 Sun 10:42:40:   FM for gCluster Points: 0.9624204069243928
+19/11/2017 Sun 10:42:40:   FM for gCluster Cells.: 0.9639412403378355
+19/11/2017 Sun 10:42:40:drawCluster 
+19/11/2017 Sun 10:42:40:   Epsilon.......: 20
+19/11/2017 Sun 10:42:40:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+19/11/2017 Sun 10:42:40:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+19/11/2017 Sun 10:42:40:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+19/11/2017 Sun 10:42:45:Comment: 7 clusters
+19/11/2017 Sun 10:42:45:------ End of Script ------/
+20/11/2017 Mon 12:31:03:/------ Begin of Script ------
+20/11/2017 Mon 12:31:03:Directory: ../data/Agregation
+20/11/2017 Mon 12:31:03:   Config File: ../data/Agregation/config/config-Agregation.csv
+20/11/2017 Mon 12:31:03:   Epsilon..: 20
+20/11/2017 Mon 12:31:03:   sumData
+20/11/2017 Mon 12:31:03:   File Input:......../data/Agregation/devices/Aggregation.csv
+20/11/2017 Mon 12:31:03:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+20/11/2017 Mon 12:31:03:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+20/11/2017 Mon 12:31:04:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+20/11/2017 Mon 12:31:04:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+20/11/2017 Mon 12:31:04:getCluster
+20/11/2017 Mon 12:31:04:   Epsilon..: 20
+20/11/2017 Mon 12:31:04:   Min Force: 0.095
+20/11/2017 Mon 12:31:04:   Min Cells: 3
+20/11/2017 Mon 12:31:04:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+20/11/2017 Mon 12:31:04:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 12:31:04:statCluster 
+20/11/2017 Mon 12:31:04:   Epsilon............: 20
+20/11/2017 Mon 12:31:04:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 12:31:04:   Map Cell gCluster..: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+20/11/2017 Mon 12:31:04:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 12:31:04:   Map Point gCluster.: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+20/11/2017 Mon 12:31:04:   Map DBSCAN.........: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+20/11/2017 Mon 12:31:04:   Valid Cell.........: ../data/Agregation/central/validClusterInput/valid-cell-Agregation.csv
+20/11/2017 Mon 12:31:04:   Valid Point........: ../data/Agregation/central/validClusterInput/valid-point-Agregation.csv
+20/11/2017 Mon 12:31:05:mapCluster 
+20/11/2017 Mon 12:31:05:   Epsilon............: 20
+20/11/2017 Mon 12:31:05:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 12:31:05:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 12:31:05:   Labeled Cells .....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 12:31:05:   Labeled Points ....: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 12:31:05:   Expanded Points....: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 12:31:05:Results-------
+20/11/2017 Mon 12:31:05:   Input File../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 12:31:05:   FM for gCluster Points: 0.9628895282787742
+20/11/2017 Mon 12:31:05:   Input File../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 12:31:05:   FM for gCluster Cells.: 0.9628895282787742
+20/11/2017 Mon 12:31:05:drawCluster 
+20/11/2017 Mon 12:31:05:   Epsilon.......: 20
+20/11/2017 Mon 12:31:05:   Input Cell....: ../data/Agregation/central/4.statClusterOutput/map-cell-Agregation.csv
+20/11/2017 Mon 12:31:05:   Input Point...: ../data/Agregation/central/4.statClusterOutput/map-point-Agregation.csv
+20/11/2017 Mon 12:31:05:   Output SVG....: ../data/Agregation/central/drawOutput/graph-Agregation.svg
+20/11/2017 Mon 12:31:05:    Draw Numbers..: No
+20/11/2017 Mon 12:31:29:Comment: 7 clusters
+20/11/2017 Mon 12:31:29:------ End of Script ------/
+20/11/2017 Mon 15:16:15:/------ Begin of Script ------
+20/11/2017 Mon 15:16:15:Directory: ../data/Agregation
+20/11/2017 Mon 15:16:15:   Config File: ../data/Agregation/config/config-Agregation.csv
+20/11/2017 Mon 15:16:15:   Epsilon..: 20
+20/11/2017 Mon 15:16:15:   sumData
+20/11/2017 Mon 15:16:15:   File Input:......../data/Agregation/devices/Aggregation.csv
+20/11/2017 Mon 15:16:15:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+20/11/2017 Mon 15:16:15:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+20/11/2017 Mon 15:16:15:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+20/11/2017 Mon 15:16:15:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+20/11/2017 Mon 15:16:15:getCluster
+20/11/2017 Mon 15:16:15:   Epsilon..: 20
+20/11/2017 Mon 15:16:15:   Min Force: 0.095
+20/11/2017 Mon 15:16:15:   Min Cells: 3
+20/11/2017 Mon 15:16:15:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+20/11/2017 Mon 15:16:15:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 15:16:16:mapCluster 
+20/11/2017 Mon 15:16:16:   Epsilon............: 20
+20/11/2017 Mon 15:16:16:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 15:16:16:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:16:16:   Labeled Cells .....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 15:16:16:   Labeled Points ....: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 15:16:16:   Expanded Points....: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:16:16:Results-------
+20/11/2017 Mon 15:16:16:   Input File../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 15:16:16:   FM for gCluster Points: 0.9628895282787742
+20/11/2017 Mon 15:16:16:   Input File../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:16:17:   FM for gCluster Cells.: 0.9628895282787742
+20/11/2017 Mon 15:16:17:drawCluster 
+20/11/2017 Mon 15:16:17:   Epsilon.......: 20
+20/11/2017 Mon 15:16:17:   Input Cell....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 15:16:17:   Input Point...: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 15:16:17:   Output SVG....: ../data/Agregation/central/6.drawOutput/graph-Agregation.svg
+20/11/2017 Mon 15:16:17:    Draw Numbers..: No
+20/11/2017 Mon 15:16:32:Comment: 7 clusters
+20/11/2017 Mon 15:16:32:------ End of Script ------/
+20/11/2017 Mon 15:49:24:/------ Begin of Script ------
+20/11/2017 Mon 15:49:24:Directory: ../data/Agregation
+20/11/2017 Mon 15:49:24:   Config File: ../data/Agregation/config/config-Agregation.csv
+20/11/2017 Mon 15:49:24:   Epsilon..: 20
+20/11/2017 Mon 15:49:24:   sumData
+20/11/2017 Mon 15:49:24:   File Input:......../data/Agregation/devices/Aggregation.csv
+20/11/2017 Mon 15:49:24:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+20/11/2017 Mon 15:49:24:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+20/11/2017 Mon 15:49:25:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+20/11/2017 Mon 15:49:25:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+20/11/2017 Mon 15:49:25:getCluster
+20/11/2017 Mon 15:49:25:   Epsilon..: 20
+20/11/2017 Mon 15:49:25:   Min Force: 0.095
+20/11/2017 Mon 15:49:25:   Min Cells: 3
+20/11/2017 Mon 15:49:25:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+20/11/2017 Mon 15:49:25:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 15:49:25:mapCluster 
+20/11/2017 Mon 15:49:25:   Epsilon............: 20
+20/11/2017 Mon 15:49:25:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 15:49:25:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:49:25:   Labeled Cells .....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 15:49:25:   Labeled Points ....: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 15:49:25:   Expanded Points....: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:49:25:Results-------
+20/11/2017 Mon 15:49:25:   Input File../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 15:49:26:   FM for gCluster Points: 0.9628895282787742
+20/11/2017 Mon 15:49:26:   Input File../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:49:26:   FM for gCluster Cells.: 0.9628895282787742
+20/11/2017 Mon 15:49:26:drawCluster 
+20/11/2017 Mon 15:49:26:   Epsilon.......: 20
+20/11/2017 Mon 15:49:26:   Input Cell....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 15:49:26:   Input Point...: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 15:49:26:   Output SVG....: ../data/Agregation/central/5.drawOutput/graph-Agregation.svg
+20/11/2017 Mon 15:49:26:    Draw Numbers..: No
+20/11/2017 Mon 15:49:33:Comment: 7 clusters
+20/11/2017 Mon 15:49:33:------ End of Script ------/
+20/11/2017 Mon 18:22:13:/------ Begin of Script ------
+20/11/2017 Mon 18:22:13:Directory: ../data/Agregation
+20/11/2017 Mon 18:22:13:   Config File: ../data/Agregation/config/config-Agregation.csv
+20/11/2017 Mon 18:22:13:   Epsilon..: 20
+20/11/2017 Mon 18:22:13:   sumData
+20/11/2017 Mon 18:22:13:   File Input:......../data/Agregation/devices/Aggregation.csv
+20/11/2017 Mon 18:22:13:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+20/11/2017 Mon 18:22:13:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+20/11/2017 Mon 18:22:15:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+20/11/2017 Mon 18:22:15:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+20/11/2017 Mon 18:22:15:getCluster
+20/11/2017 Mon 18:22:15:   Epsilon..: 20
+20/11/2017 Mon 18:22:15:   Min Force: 0.095
+20/11/2017 Mon 18:22:15:   Min Cells: 3
+20/11/2017 Mon 18:22:15:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+20/11/2017 Mon 18:22:15:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 18:22:15:mapCluster 
+20/11/2017 Mon 18:22:15:   Epsilon............: 20
+20/11/2017 Mon 18:22:15:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+20/11/2017 Mon 18:22:15:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:22:15:   Labeled Cells .....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 18:22:15:   Labeled Points ....: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 18:22:15:   Expanded Points....: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 18:22:16:Results-------
+20/11/2017 Mon 18:22:16:   Input File../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 18:22:16:   FM for gCluster Points: 0.9628895282787742
+20/11/2017 Mon 18:22:16:drawCluster 
+20/11/2017 Mon 18:22:16:   Epsilon.......: 20
+20/11/2017 Mon 18:22:16:   Input Cell....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+20/11/2017 Mon 18:22:16:   Input Point...: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+20/11/2017 Mon 18:22:16:   Output SVG....: ../data/Agregation/central/5.drawOutput/graph-Agregation.svg
+20/11/2017 Mon 18:22:16:    Draw Numbers..: No
+20/11/2017 Mon 18:22:23:Comment: 7 clusters
+20/11/2017 Mon 18:22:23:------ End of Script ------/
+25/11/2017 Sat 03:11:55:/------ Begin of Script ------
+25/11/2017 Sat 03:11:55:Directory: ../data/Agregation
+25/11/2017 Sat 03:11:55:   Config File: ../data/Agregation/config/config-Agregation.csv
+25/11/2017 Sat 03:11:55:   Epsilon..: 20
+25/11/2017 Sat 03:11:55:   sumData
+25/11/2017 Sat 03:11:55:   File Input:......../data/Agregation/devices/Aggregation.csv
+25/11/2017 Sat 03:11:55:   File Cell Output.:../data/Agregation/central/1.sumDataOutput/cell-Agregation-01.csv
+25/11/2017 Sat 03:11:55:   File Point Output:../data/Agregation/central/1.sumDataOutput/point-Agregation-01.csv
+25/11/2017 Sat 03:11:56:Cells consolidation to file: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv OK
+25/11/2017 Sat 03:11:56:Points consolidation to file: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv OK
+25/11/2017 Sat 03:11:56:getCluster
+25/11/2017 Sat 03:11:56:   Epsilon..: 20
+25/11/2017 Sat 03:11:56:   Min Force: 0.095
+25/11/2017 Sat 03:11:56:   Min Cells: 3
+25/11/2017 Sat 03:11:56:   Input....: ../data/Agregation/central/2.deviceConsolidation/cells-Agregation.csv
+25/11/2017 Sat 03:11:56:   Output...: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+25/11/2017 Sat 03:11:56:mapCluster 
+25/11/2017 Sat 03:11:56:   Epsilon............: 20
+25/11/2017 Sat 03:11:56:   Input Cell.........: ../data/Agregation/central/3.getClusterOutput/gCluster-result-Agregation.csv
+25/11/2017 Sat 03:11:56:   Input Point........: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+25/11/2017 Sat 03:11:56:   Labeled Cells .....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+25/11/2017 Sat 03:11:56:   Labeled Points ....: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+25/11/2017 Sat 03:11:56:   Expanded Points....: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+25/11/2017 Sat 03:11:57:Results-------
+25/11/2017 Sat 03:11:57:   Input File../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+25/11/2017 Sat 03:11:57:   FM for gCluster Points..: 0.9628895282787742
+25/11/2017 Sat 03:11:57:   Rand for gCluster Points..: 0.20444210811473243
+25/11/2017 Sat 03:11:57:   Jac for gCluster Points..: 0.9276969652218858
+25/11/2017 Sat 03:11:57:drawCluster 
+25/11/2017 Sat 03:11:57:   Epsilon.......: 20
+25/11/2017 Sat 03:11:57:   Input Cell....: ../data/Agregation/central/4.mapClusterOutput/labeled-cells-Agregation.csv
+25/11/2017 Sat 03:11:57:   Input Point...: ../data/Agregation/central/4.mapClusterOutput/labeled-points-Agregation.csv
+25/11/2017 Sat 03:11:57:   Output SVG....: ../data/Agregation/central/5.drawOutput/graph-Agregation.svg
+25/11/2017 Sat 03:11:57:    Draw Numbers..: No
+25/11/2017 Sat 03:12:05:Comment: 7 clusters
+25/11/2017 Sat 03:12:05:------ End of Script ------/

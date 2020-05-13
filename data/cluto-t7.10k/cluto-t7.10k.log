@@ -1,0 +1,763 @@
+17/11/2017 Fri 21:05:38:/------ Begin of Scrtip
+17/11/2017 Fri 21:05:38:Directory: ../data/cluto-t7.10k
+17/11/2017 Fri 21:05:38:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+17/11/2017 Fri 21:05:38:   Epsilon..: 50
+17/11/2017 Fri 21:05:38:   sumData
+17/11/2017 Fri 21:05:38:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+17/11/2017 Fri 21:05:38:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:05:38:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+Error on script sumData: Script ended with error number: 1
+Processing file ../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+17/11/2017 Fri 21:06:14:/------ Begin of Scrtip
+17/11/2017 Fri 21:06:14:Directory: ../data/cluto-t7.10k
+17/11/2017 Fri 21:06:14:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:14:   Epsilon..: 50
+17/11/2017 Fri 21:06:14:   sumData
+17/11/2017 Fri 21:06:14:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+17/11/2017 Fri 21:06:14:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:06:14:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:06:21:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+17/11/2017 Fri 21:06:21:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+17/11/2017 Fri 21:06:21:getCluster
+17/11/2017 Fri 21:06:21:   Epsilon..: 50
+17/11/2017 Fri 21:06:21:   Min Force: 0.088
+17/11/2017 Fri 21:06:21:   Min Cells: 3
+17/11/2017 Fri 21:06:21:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:21:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:statCluster 
+17/11/2017 Fri 21:06:22:   Epsilon............: 50
+17/11/2017 Fri 21:06:22:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:22:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:06:45:Results-------
+17/11/2017 Fri 21:06:45:   FM for gCluster Points: 0.9466633769419072
+17/11/2017 Fri 21:07:13:   FM for gCluster Cells.: 0.9476986331994376
+17/11/2017 Fri 21:07:13:drawCluster 
+17/11/2017 Fri 21:07:13:   Epsilon.......: 50
+17/11/2017 Fri 21:07:13:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:07:13:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:07:13:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+17/11/2017 Fri 21:07:14:End of Script ------/17/11/2017 Fri 21:24:50:/------ Begin of Script
+17/11/2017 Fri 21:24:50:Directory: ../data/cluto-t7.10k
+17/11/2017 Fri 21:24:50:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:50:   Epsilon..: 50
+17/11/2017 Fri 21:24:50:   sumData
+17/11/2017 Fri 21:24:50:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+17/11/2017 Fri 21:24:50:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:24:50:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:24:56:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+17/11/2017 Fri 21:24:56:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+17/11/2017 Fri 21:24:56:getCluster
+17/11/2017 Fri 21:24:56:   Epsilon..: 50
+17/11/2017 Fri 21:24:56:   Min Force: 0.088
+17/11/2017 Fri 21:24:56:   Min Cells: 3
+17/11/2017 Fri 21:24:56:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:56:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:statCluster 
+17/11/2017 Fri 21:24:58:   Epsilon............: 50
+17/11/2017 Fri 21:24:58:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:24:58:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:25:26:Results-------
+17/11/2017 Fri 21:25:26:   FM for gCluster Points: 0.9466633769419072
+17/11/2017 Fri 21:25:51:   FM for gCluster Cells.: 0.9476986331994376
+17/11/2017 Fri 21:25:51:drawCluster 
+17/11/2017 Fri 21:25:51:   Epsilon.......: 50
+17/11/2017 Fri 21:25:51:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:25:51:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:25:51:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+17/11/2017 Fri 21:27:41:/------ Begin of Script
+17/11/2017 Fri 21:27:41:Directory: ../data/cluto-t7.10k
+17/11/2017 Fri 21:27:41:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:41:   Epsilon..: 50
+17/11/2017 Fri 21:27:41:   sumData
+17/11/2017 Fri 21:27:41:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+17/11/2017 Fri 21:27:41:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:27:41:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+17/11/2017 Fri 21:27:48:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+17/11/2017 Fri 21:27:48:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+17/11/2017 Fri 21:27:48:getCluster
+17/11/2017 Fri 21:27:48:   Epsilon..: 50
+17/11/2017 Fri 21:27:48:   Min Force: 0.088
+17/11/2017 Fri 21:27:48:   Min Cells: 3
+17/11/2017 Fri 21:27:48:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:48:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:statCluster 
+17/11/2017 Fri 21:27:49:   Epsilon............: 50
+17/11/2017 Fri 21:27:49:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:27:49:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:28:16:Results-------
+17/11/2017 Fri 21:28:16:   FM for gCluster Points: 0.9466633769419072
+17/11/2017 Fri 21:28:44:   FM for gCluster Cells.: 0.9476986331994376
+17/11/2017 Fri 21:28:44:drawCluster 
+17/11/2017 Fri 21:28:44:   Epsilon.......: 50
+17/11/2017 Fri 21:28:44:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+17/11/2017 Fri 21:28:44:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+17/11/2017 Fri 21:28:44:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+17/11/2017 Fri 21:28:46:End of Script ------/19/11/2017 Sun 16:57:53:/------ Begin of Script ------
+19/11/2017 Sun 16:57:53:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 16:57:53:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 16:57:53:   Epsilon..: 50
+19/11/2017 Sun 16:57:53:   sumData
+19/11/2017 Sun 16:57:53:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 16:57:53:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 16:57:53:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 16:58:00:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 16:58:00:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 16:58:00:getCluster
+19/11/2017 Sun 16:58:00:   Epsilon..: 50
+19/11/2017 Sun 16:58:00:   Min Force: 0.088
+19/11/2017 Sun 16:58:00:   Min Cells: 3
+19/11/2017 Sun 16:58:00:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:00:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:statCluster 
+19/11/2017 Sun 16:58:02:   Epsilon............: 50
+19/11/2017 Sun 16:58:02:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:02:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 16:58:32:Results-------
+19/11/2017 Sun 16:58:32:   FM for gCluster Points: 0.9466633769419072
+19/11/2017 Sun 16:59:05:   FM for gCluster Cells.: 0.9476986331994376
+19/11/2017 Sun 16:59:05:drawCluster 
+19/11/2017 Sun 16:59:05:   Epsilon.......: 50
+19/11/2017 Sun 16:59:05:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 16:59:05:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 16:59:05:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 16:59:17:Comment: 9 clusters
+19/11/2017 Sun 16:59:17:------ End of Script ------/
+19/11/2017 Sun 17:05:48:/------ Begin of Script ------
+19/11/2017 Sun 17:05:48:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 17:05:48:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:48:   Epsilon..: 50
+19/11/2017 Sun 17:05:48:   sumData
+19/11/2017 Sun 17:05:48:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 17:05:48:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:05:48:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:05:57:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:05:57:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:05:57:getCluster
+19/11/2017 Sun 17:05:57:   Epsilon..: 50
+19/11/2017 Sun 17:05:57:   Min Force: 0.07
+19/11/2017 Sun 17:05:57:   Min Cells: 3
+19/11/2017 Sun 17:05:57:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:57:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:statCluster 
+19/11/2017 Sun 17:05:59:   Epsilon............: 50
+19/11/2017 Sun 17:05:59:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:05:59:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:06:30:Results-------
+19/11/2017 Sun 17:06:30:   FM for gCluster Points: 0.9632465612922433
+19/11/2017 Sun 17:06:57:   FM for gCluster Cells.: 0.9647326167715969
+19/11/2017 Sun 17:06:57:drawCluster 
+19/11/2017 Sun 17:06:57:   Epsilon.......: 50
+19/11/2017 Sun 17:06:57:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:06:57:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:06:57:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 17:07:04:Comment: 9 clusters
+19/11/2017 Sun 17:07:04:------ End of Script ------/
+19/11/2017 Sun 17:07:55:/------ Begin of Script ------
+19/11/2017 Sun 17:07:55:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 17:07:55:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 17:07:55:   Epsilon..: 50
+19/11/2017 Sun 17:07:55:   sumData
+19/11/2017 Sun 17:07:55:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 17:07:55:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:07:55:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:08:03:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:08:03:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:08:03:getCluster
+19/11/2017 Sun 17:08:03:   Epsilon..: 50
+19/11/2017 Sun 17:08:03:   Min Force: 0.06
+19/11/2017 Sun 17:08:03:   Min Cells: 3
+19/11/2017 Sun 17:08:03:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:03:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:statCluster 
+19/11/2017 Sun 17:08:05:   Epsilon............: 50
+19/11/2017 Sun 17:08:05:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:05:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:08:40:Results-------
+19/11/2017 Sun 17:08:40:   FM for gCluster Points: 0.9697335224516703
+19/11/2017 Sun 17:09:12:   FM for gCluster Cells.: 0.9718089538687551
+19/11/2017 Sun 17:09:12:drawCluster 
+19/11/2017 Sun 17:09:12:   Epsilon.......: 50
+19/11/2017 Sun 17:09:12:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:09:12:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:09:12:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 17:09:49:Comment: 9 clusters
+19/11/2017 Sun 17:09:49:------ End of Script ------/
+19/11/2017 Sun 17:10:29:/------ Begin of Script ------
+19/11/2017 Sun 17:10:29:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 17:10:29:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:29:   Epsilon..: 50
+19/11/2017 Sun 17:10:29:   sumData
+19/11/2017 Sun 17:10:29:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 17:10:29:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:10:29:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:10:37:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:10:38:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:10:38:getCluster
+19/11/2017 Sun 17:10:38:   Epsilon..: 50
+19/11/2017 Sun 17:10:38:   Min Force: 0.05
+19/11/2017 Sun 17:10:38:   Min Cells: 3
+19/11/2017 Sun 17:10:38:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:38:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:statCluster 
+19/11/2017 Sun 17:10:40:   Epsilon............: 50
+19/11/2017 Sun 17:10:40:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:10:40:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:11:13:Results-------
+19/11/2017 Sun 17:11:13:   FM for gCluster Points: 0.9737994200527414
+19/11/2017 Sun 17:11:43:   FM for gCluster Cells.: 0.9763055584384084
+19/11/2017 Sun 17:11:43:drawCluster 
+19/11/2017 Sun 17:11:43:   Epsilon.......: 50
+19/11/2017 Sun 17:11:43:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:11:43:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:11:43:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 17:11:49:Comment: 11 clusters
+19/11/2017 Sun 17:11:49:------ End of Script ------/
+19/11/2017 Sun 17:12:15:/------ Begin of Script ------
+19/11/2017 Sun 17:12:15:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 17:12:15:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:15:   Epsilon..: 50
+19/11/2017 Sun 17:12:15:   sumData
+19/11/2017 Sun 17:12:15:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 17:12:15:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:12:15:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:12:29:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:12:29:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:12:29:getCluster
+19/11/2017 Sun 17:12:29:   Epsilon..: 50
+19/11/2017 Sun 17:12:29:   Min Force: 0.045
+19/11/2017 Sun 17:12:29:   Min Cells: 4
+19/11/2017 Sun 17:12:29:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:29:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:statCluster 
+19/11/2017 Sun 17:12:31:   Epsilon............: 50
+19/11/2017 Sun 17:12:31:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:31:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:41:/------ Begin of Script ------
+19/11/2017 Sun 17:12:41:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 17:12:41:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:41:   Epsilon..: 50
+19/11/2017 Sun 17:12:41:   sumData
+19/11/2017 Sun 17:12:41:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 17:12:41:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:12:41:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:12:49:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:12:49:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:12:49:getCluster
+19/11/2017 Sun 17:12:49:   Epsilon..: 50
+19/11/2017 Sun 17:12:49:   Min Force: 0.048
+19/11/2017 Sun 17:12:49:   Min Cells: 4
+19/11/2017 Sun 17:12:49:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:49:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:statCluster 
+19/11/2017 Sun 17:12:51:   Epsilon............: 50
+19/11/2017 Sun 17:12:51:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:12:51:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:13:23:Results-------
+19/11/2017 Sun 17:13:23:   FM for gCluster Points: 0.9740686599591166
+19/11/2017 Sun 17:13:52:   FM for gCluster Cells.: 0.9761564610708997
+19/11/2017 Sun 17:13:52:drawCluster 
+19/11/2017 Sun 17:13:52:   Epsilon.......: 50
+19/11/2017 Sun 17:13:52:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:13:52:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:13:52:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 17:14:04:Comment: 9 clusters
+19/11/2017 Sun 17:14:04:------ End of Script ------/
+19/11/2017 Sun 17:14:57:/------ Begin of Script ------
+19/11/2017 Sun 17:14:57:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 17:14:57:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 17:14:57:   Epsilon..: 50
+19/11/2017 Sun 17:14:57:   sumData
+19/11/2017 Sun 17:14:57:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 17:14:57:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:14:57:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 17:15:05:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:15:05:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 17:15:05:getCluster
+19/11/2017 Sun 17:15:05:   Epsilon..: 50
+19/11/2017 Sun 17:15:05:   Min Force: 0.05
+19/11/2017 Sun 17:15:05:   Min Cells: 4
+19/11/2017 Sun 17:15:05:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:05:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:statCluster 
+19/11/2017 Sun 17:15:07:   Epsilon............: 50
+19/11/2017 Sun 17:15:07:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:07:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:15:41:Results-------
+19/11/2017 Sun 17:15:41:   FM for gCluster Points: 0.9737994200527414
+19/11/2017 Sun 17:16:10:   FM for gCluster Cells.: 0.9763055584384084
+19/11/2017 Sun 17:16:10:drawCluster 
+19/11/2017 Sun 17:16:10:   Epsilon.......: 50
+19/11/2017 Sun 17:16:10:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 17:16:10:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 17:16:10:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 17:16:16:Comment: 9 clusters
+19/11/2017 Sun 17:16:16:------ End of Script ------/
+19/11/2017 Sun 18:01:49:/------ Begin of Script ------
+19/11/2017 Sun 18:01:49:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:01:49:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:01:49:   Epsilon..: 30
+19/11/2017 Sun 18:01:49:   sumData
+19/11/2017 Sun 18:01:49:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:01:49:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:01:49:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:02:00:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:02:01:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:02:01:getCluster
+19/11/2017 Sun 18:02:01:   Epsilon..: 30
+19/11/2017 Sun 18:02:01:   Min Force: 0.048
+19/11/2017 Sun 18:02:01:   Min Cells: 3
+19/11/2017 Sun 18:02:01:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:01:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:statCluster 
+19/11/2017 Sun 18:02:03:   Epsilon............: 30
+19/11/2017 Sun 18:02:03:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:03:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:29:/------ Begin of Script ------
+19/11/2017 Sun 18:02:29:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:02:29:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:29:   Epsilon..: 30
+19/11/2017 Sun 18:02:29:   sumData
+19/11/2017 Sun 18:02:29:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:02:29:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:02:29:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:02:35:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:02:35:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:02:35:getCluster
+19/11/2017 Sun 18:02:35:   Epsilon..: 30
+19/11/2017 Sun 18:02:35:   Min Force: 0.048
+19/11/2017 Sun 18:02:35:   Min Cells: 3
+19/11/2017 Sun 18:02:35:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:35:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:statCluster 
+19/11/2017 Sun 18:02:37:   Epsilon............: 30
+19/11/2017 Sun 18:02:37:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:37:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:50:/------ Begin of Script ------
+19/11/2017 Sun 18:02:50:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:02:50:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:50:   Epsilon..: 30
+19/11/2017 Sun 18:02:50:   sumData
+19/11/2017 Sun 18:02:50:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:02:50:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:02:50:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:02:56:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:02:56:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:02:56:getCluster
+19/11/2017 Sun 18:02:56:   Epsilon..: 30
+19/11/2017 Sun 18:02:56:   Min Force: 0.08
+19/11/2017 Sun 18:02:56:   Min Cells: 3
+19/11/2017 Sun 18:02:56:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:56:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:statCluster 
+19/11/2017 Sun 18:02:57:   Epsilon............: 30
+19/11/2017 Sun 18:02:57:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:02:57:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:03:25:Results-------
+19/11/2017 Sun 18:03:25:   FM for gCluster Points: 0.6828853547344576
+19/11/2017 Sun 18:03:53:   FM for gCluster Cells.: 0.6886132544481599
+19/11/2017 Sun 18:03:53:drawCluster 
+19/11/2017 Sun 18:03:53:   Epsilon.......: 30
+19/11/2017 Sun 18:03:53:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:03:53:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:03:53:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 18:06:25:Comment: 6 clusters
+19/11/2017 Sun 18:06:25:------ End of Script ------/
+19/11/2017 Sun 18:06:55:/------ Begin of Script ------
+19/11/2017 Sun 18:06:55:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:06:55:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:06:55:   Epsilon..: 30
+19/11/2017 Sun 18:06:55:   sumData
+19/11/2017 Sun 18:06:55:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:06:55:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:06:55:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:07:02:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:07:02:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:07:02:getCluster
+19/11/2017 Sun 18:07:02:   Epsilon..: 30
+19/11/2017 Sun 18:07:02:   Min Force: 0.1
+19/11/2017 Sun 18:07:02:   Min Cells: 3
+19/11/2017 Sun 18:07:02:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:02:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:statCluster 
+19/11/2017 Sun 18:07:04:   Epsilon............: 30
+19/11/2017 Sun 18:07:04:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:04:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:19:/------ Begin of Script ------
+19/11/2017 Sun 18:07:19:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:07:19:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:19:   Epsilon..: 30
+19/11/2017 Sun 18:07:19:   sumData
+19/11/2017 Sun 18:07:19:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:07:19:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:07:19:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:07:27:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:07:27:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:07:27:getCluster
+19/11/2017 Sun 18:07:27:   Epsilon..: 30
+19/11/2017 Sun 18:07:27:   Min Force: 0.12
+19/11/2017 Sun 18:07:27:   Min Cells: 3
+19/11/2017 Sun 18:07:27:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:27:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:statCluster 
+19/11/2017 Sun 18:07:30:   Epsilon............: 30
+19/11/2017 Sun 18:07:30:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:07:30:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:08:04:Results-------
+19/11/2017 Sun 18:08:04:   FM for gCluster Points: 0.8874209797643022
+19/11/2017 Sun 18:08:35:   FM for gCluster Cells.: 0.8916286290631721
+19/11/2017 Sun 18:08:35:drawCluster 
+19/11/2017 Sun 18:08:35:   Epsilon.......: 30
+19/11/2017 Sun 18:08:35:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:08:35:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:08:35:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 18:09:00:Comment: 7 clusters
+19/11/2017 Sun 18:09:00:------ End of Script ------/
+19/11/2017 Sun 18:09:32:/------ Begin of Script ------
+19/11/2017 Sun 18:09:32:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:09:32:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:32:   Epsilon..: 30
+19/11/2017 Sun 18:09:32:   sumData
+19/11/2017 Sun 18:09:32:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:09:32:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:09:32:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:09:40:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:09:40:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:09:40:getCluster
+19/11/2017 Sun 18:09:40:   Epsilon..: 30
+19/11/2017 Sun 18:09:40:   Min Force: 0.15
+19/11/2017 Sun 18:09:40:   Min Cells: 3
+19/11/2017 Sun 18:09:40:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:40:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:statCluster 
+19/11/2017 Sun 18:09:41:   Epsilon............: 30
+19/11/2017 Sun 18:09:41:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:09:41:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:10:14:Results-------
+19/11/2017 Sun 18:10:14:   FM for gCluster Points: 0.9380995087115036
+19/11/2017 Sun 18:10:43:   FM for gCluster Cells.: 0.9411388210591488
+19/11/2017 Sun 18:10:43:drawCluster 
+19/11/2017 Sun 18:10:43:   Epsilon.......: 30
+19/11/2017 Sun 18:10:43:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:10:43:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:10:43:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 18:10:51:Comment: 10 clusters
+19/11/2017 Sun 18:10:51:------ End of Script ------/
+19/11/2017 Sun 18:11:36:/------ Begin of Script ------
+19/11/2017 Sun 18:11:36:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:11:36:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:36:   Epsilon..: 30
+19/11/2017 Sun 18:11:36:   sumData
+19/11/2017 Sun 18:11:36:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:11:36:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:11:36:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:11:45:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:11:45:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:11:45:getCluster
+19/11/2017 Sun 18:11:45:   Epsilon..: 30
+19/11/2017 Sun 18:11:45:   Min Force: 0.135
+19/11/2017 Sun 18:11:45:   Min Cells: 3
+19/11/2017 Sun 18:11:45:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:45:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:statCluster 
+19/11/2017 Sun 18:11:46:   Epsilon............: 30
+19/11/2017 Sun 18:11:46:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:11:46:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:12:20:Results-------
+19/11/2017 Sun 18:12:20:   FM for gCluster Points: 0.9367146194670389
+19/11/2017 Sun 18:12:50:   FM for gCluster Cells.: 0.9405928767798438
+19/11/2017 Sun 18:12:50:drawCluster 
+19/11/2017 Sun 18:12:50:   Epsilon.......: 30
+19/11/2017 Sun 18:12:50:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:12:50:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:12:50:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 18:13:00:Comment: 9 clusters
+19/11/2017 Sun 18:13:00:------ End of Script ------/
+19/11/2017 Sun 18:14:23:/------ Begin of Script ------
+19/11/2017 Sun 18:14:23:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:14:23:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:23:   Epsilon..: 50
+19/11/2017 Sun 18:14:23:   sumData
+19/11/2017 Sun 18:14:23:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:14:23:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:14:23:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:14:31:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:14:31:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:14:31:getCluster
+19/11/2017 Sun 18:14:31:   Epsilon..: 50
+19/11/2017 Sun 18:14:31:   Min Force: 0.048
+19/11/2017 Sun 18:14:31:   Min Cells: 4
+19/11/2017 Sun 18:14:31:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:31:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:statCluster 
+19/11/2017 Sun 18:14:33:   Epsilon............: 50
+19/11/2017 Sun 18:14:33:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:14:33:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:15:05:Results-------
+19/11/2017 Sun 18:15:05:   FM for gCluster Points: 0.9740686599591166
+19/11/2017 Sun 18:15:34:   FM for gCluster Cells.: 0.9761564610708997
+19/11/2017 Sun 18:15:34:drawCluster 
+19/11/2017 Sun 18:15:34:   Epsilon.......: 50
+19/11/2017 Sun 18:15:34:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:15:34:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:15:34:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 18:18:48:Comment: 9 clusters
+19/11/2017 Sun 18:18:48:------ End of Script ------/
+19/11/2017 Sun 18:19:30:/------ Begin of Script ------
+19/11/2017 Sun 18:19:30:Directory: ../data/cluto-t7.10k
+19/11/2017 Sun 18:19:30:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:30:   Epsilon..: 50
+19/11/2017 Sun 18:19:30:   sumData
+19/11/2017 Sun 18:19:30:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+19/11/2017 Sun 18:19:30:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:19:30:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+19/11/2017 Sun 18:19:38:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:19:38:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+19/11/2017 Sun 18:19:38:getCluster
+19/11/2017 Sun 18:19:38:   Epsilon..: 50
+19/11/2017 Sun 18:19:38:   Min Force: 0.05
+19/11/2017 Sun 18:19:38:   Min Cells: 4
+19/11/2017 Sun 18:19:38:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:38:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:statCluster 
+19/11/2017 Sun 18:19:41:   Epsilon............: 50
+19/11/2017 Sun 18:19:41:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:   Map Cell gCluster..: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:   Map Point gCluster.: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:   Map DBSCAN.........: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:   Valid Cell.........: ../data/cluto-t7.10k/central/validClusterInput/valid-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:19:41:   Valid Point........: ../data/cluto-t7.10k/central/validClusterInput/valid-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:20:19:Results-------
+19/11/2017 Sun 18:20:19:   FM for gCluster Points: 0.9737994200527414
+19/11/2017 Sun 18:20:55:   FM for gCluster Cells.: 0.9763055584384084
+19/11/2017 Sun 18:20:55:drawCluster 
+19/11/2017 Sun 18:20:55:   Epsilon.......: 50
+19/11/2017 Sun 18:20:55:   Input Cell....: ../data/cluto-t7.10k/central/4.statClusterOutput/map-cell-cluto-t7.10k.csv
+19/11/2017 Sun 18:20:55:   Input Point...: ../data/cluto-t7.10k/central/4.statClusterOutput/map-point-cluto-t7.10k.csv
+19/11/2017 Sun 18:20:55:   Output SVG....: ../data/cluto-t7.10k/central/drawOutput/graph-cluto-t7.10k.svg
+19/11/2017 Sun 18:22:16:Comment: 9 clusters
+19/11/2017 Sun 18:22:16:------ End of Script ------/
+20/11/2017 Mon 16:25:22:/------ Begin of Script ------
+20/11/2017 Mon 16:25:22:Directory: ../data/cluto-t7.10k
+20/11/2017 Mon 16:25:22:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:22:   Epsilon..: 50
+20/11/2017 Mon 16:25:22:   sumData
+20/11/2017 Mon 16:25:22:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+20/11/2017 Mon 16:25:22:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:25:22:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:25:28:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:25:28:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:25:28:getCluster
+20/11/2017 Mon 16:25:28:   Epsilon..: 50
+20/11/2017 Mon 16:25:28:   Min Force: 0.05
+20/11/2017 Mon 16:25:28:   Min Cells: 4
+20/11/2017 Mon 16:25:28:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:28:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:29:mapCluster 
+20/11/2017 Mon 16:25:29:   Epsilon............: 50
+20/11/2017 Mon 16:25:29:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:29:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:29:   Labeled Cells .....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:29:   Labeled Points ....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:29:   Expanded Points....: ../data/cluto-t7.10k/central/4.mapClusterOutput/expanded-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:31:Results-------
+20/11/2017 Mon 16:25:31:   Input File../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:50:   FM for gCluster Points: 0.9737994200527414
+20/11/2017 Mon 16:25:50:drawCluster 
+20/11/2017 Mon 16:25:50:   Epsilon.......: 50
+20/11/2017 Mon 16:25:50:   Input Cell....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:50:   Input Point...: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:25:50:   Output SVG....: ../data/cluto-t7.10k/central/5.drawOutput/graph-cluto-t7.10k.svg
+20/11/2017 Mon 16:25:50:    Draw Numbers..: No
+20/11/2017 Mon 16:25:57:Comment: 9 clusters
+20/11/2017 Mon 16:26:43:/------ Begin of Script ------
+20/11/2017 Mon 16:26:43:Directory: ../data/cluto-t7.10k
+20/11/2017 Mon 16:26:43:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:43:   Epsilon..: 50
+20/11/2017 Mon 16:26:43:   sumData
+20/11/2017 Mon 16:26:43:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+20/11/2017 Mon 16:26:43:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:26:43:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:26:49:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:26:49:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:26:49:getCluster
+20/11/2017 Mon 16:26:49:   Epsilon..: 50
+20/11/2017 Mon 16:26:49:   Min Force: 0.05
+20/11/2017 Mon 16:26:49:   Min Cells: 4
+20/11/2017 Mon 16:26:49:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:49:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:51:mapCluster 
+20/11/2017 Mon 16:26:51:   Epsilon............: 50
+20/11/2017 Mon 16:26:51:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:51:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:51:   Labeled Cells .....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:51:   Labeled Points ....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:51:   Expanded Points....: ../data/cluto-t7.10k/central/4.mapClusterOutput/expanded-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:26:52:Results-------
+20/11/2017 Mon 16:26:52:   Input File../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:27:14:   FM for gCluster Points: 0.9737994200527414
+20/11/2017 Mon 16:27:14:drawCluster 
+20/11/2017 Mon 16:27:14:   Epsilon.......: 50
+20/11/2017 Mon 16:27:14:   Input Cell....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:27:14:   Input Point...: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:27:14:   Output SVG....: ../data/cluto-t7.10k/central/5.drawOutput/graph-cluto-t7.10k.svg
+20/11/2017 Mon 16:27:14:    Draw Numbers..: No
+20/11/2017 Mon 16:27:29:Comment: 9 clusters
+20/11/2017 Mon 16:27:54:/------ Begin of Script ------
+20/11/2017 Mon 16:27:54:Directory: ../data/cluto-t7.10k
+20/11/2017 Mon 16:27:54:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+20/11/2017 Mon 16:27:54:   Epsilon..: 50
+20/11/2017 Mon 16:27:54:   sumData
+20/11/2017 Mon 16:27:54:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+20/11/2017 Mon 16:27:54:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:27:54:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:28:00:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:28:00:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:28:00:getCluster
+20/11/2017 Mon 16:28:00:   Epsilon..: 50
+20/11/2017 Mon 16:28:00:   Min Force: 0.05
+20/11/2017 Mon 16:28:00:   Min Cells: 4
+20/11/2017 Mon 16:28:00:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:00:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:01:mapCluster 
+20/11/2017 Mon 16:28:01:   Epsilon............: 50
+20/11/2017 Mon 16:28:01:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:01:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:01:   Labeled Cells .....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:01:   Labeled Points ....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:01:   Expanded Points....: ../data/cluto-t7.10k/central/4.mapClusterOutput/expanded-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:03:Results-------
+20/11/2017 Mon 16:28:03:   Input File../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:29:   FM for gCluster Points: 0.9737994200527414
+20/11/2017 Mon 16:28:29:drawCluster 
+20/11/2017 Mon 16:28:29:   Epsilon.......: 50
+20/11/2017 Mon 16:28:29:   Input Cell....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:29:   Input Point...: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:28:29:   Output SVG....: ../data/cluto-t7.10k/central/5.drawOutput/graph-cluto-t7.10k.svg
+20/11/2017 Mon 16:28:29:    Draw Numbers..: No
+20/11/2017 Mon 16:30:21:Comment: 9 clusters
+20/11/2017 Mon 16:30:21:------ End of Script ------/
+20/11/2017 Mon 16:30:45:/------ Begin of Script ------
+20/11/2017 Mon 16:30:45:Directory: ../data/cluto-t7.10k
+20/11/2017 Mon 16:30:45:   Config File: ../data/cluto-t7.10k/config/config-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:45:   Epsilon..: 50
+20/11/2017 Mon 16:30:45:   sumData
+20/11/2017 Mon 16:30:45:   File Input:......../data/cluto-t7.10k/devices/cluto-t7-10k.csv
+20/11/2017 Mon 16:30:45:   File Cell Output.:../data/cluto-t7.10k/central/1.sumDataOutput/cell-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:30:45:   File Point Output:../data/cluto-t7.10k/central/1.sumDataOutput/point-cluto-t7.10k-01.csv
+20/11/2017 Mon 16:30:51:Cells consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:30:51:Points consolidation to file: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv OK
+20/11/2017 Mon 16:30:51:getCluster
+20/11/2017 Mon 16:30:51:   Epsilon..: 50
+20/11/2017 Mon 16:30:51:   Min Force: 0.05
+20/11/2017 Mon 16:30:51:   Min Cells: 4
+20/11/2017 Mon 16:30:51:   Input....: ../data/cluto-t7.10k/central/2.deviceConsolidation/cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:51:   Output...: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:53:mapCluster 
+20/11/2017 Mon 16:30:53:   Epsilon............: 50
+20/11/2017 Mon 16:30:53:   Input Cell.........: ../data/cluto-t7.10k/central/3.getClusterOutput/gCluster-result-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:53:   Input Point........: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:53:   Labeled Cells .....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:53:   Labeled Points ....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:53:   Expanded Points....: ../data/cluto-t7.10k/central/4.mapClusterOutput/expanded-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:30:55:Results-------
+20/11/2017 Mon 16:30:55:   Input File../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:31:21:   FM for gCluster Points: 0.9737994200527414
+20/11/2017 Mon 16:31:21:drawCluster 
+20/11/2017 Mon 16:31:21:   Epsilon.......: 50
+20/11/2017 Mon 16:31:21:   Input Cell....: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-cells-cluto-t7.10k.csv
+20/11/2017 Mon 16:31:21:   Input Point...: ../data/cluto-t7.10k/central/4.mapClusterOutput/labeled-points-cluto-t7.10k.csv
+20/11/2017 Mon 16:31:21:   Output SVG....: ../data/cluto-t7.10k/central/5.drawOutput/graph-cluto-t7.10k.svg
+20/11/2017 Mon 16:31:21:    Draw Numbers..: No
+20/11/2017 Mon 16:31:58:Comment: 9 clusters
+20/11/2017 Mon 16:31:58:------ End of Script ------/

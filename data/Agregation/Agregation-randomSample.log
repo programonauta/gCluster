@@ -1,0 +1,20 @@
+05/02/2018 Mon 14:31:01:/------ Begin of Script Random Sampling------
+05/02/2018 Mon 14:31:01:Directory: ../data/Agregation
+05/02/2018 Mon 14:31:01:   Input File....: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+05/02/2018 Mon 14:31:01:   Reduction.....: 0.3959
+05/02/2018 Mon 14:31:01:   Epsilon.......: 0.042
+05/02/2018 Mon 14:31:01:   minPts........: 3
+05/02/2018 Mon 14:31:01:   qtyExperiments: 40
+05/02/2018 Mon 14:31:01:Input file with 789 registers
+05/02/2018 Mon 14:31:01:Created: 40 Experiments with 477 each 
+05/02/2018 Mon 14:31:06:------ End of Script ------/
+05/02/2018 Mon 14:31:59:/------ Begin of Script Random Sampling------
+05/02/2018 Mon 14:31:59:Directory: ../data/Agregation
+05/02/2018 Mon 14:31:59:   Input File....: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+05/02/2018 Mon 14:31:59:   Reduction.....: 0.3959
+05/02/2018 Mon 14:31:59:   Epsilon.......: 0.042
+05/02/2018 Mon 14:31:59:   minPts........: 3
+05/02/2018 Mon 14:31:59:   qtyExperiments: 100
+05/02/2018 Mon 14:31:59:Input file with 789 registers
+05/02/2018 Mon 14:31:59:Created: 100 Experiments with 477 each 
+05/02/2018 Mon 14:32:09:------ End of Script ------/

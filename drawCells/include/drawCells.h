@@ -1,0 +1,23 @@
+#ifndef DRAW_CELLS_H
+#define DRAW_CELLS_H
+
+#include "gCluster.h"
+#include <iostream>
+#include <algorithm>
+#include <sstream>
+#include <math.h>
+#include <unistd.h>
+#include "cell.h"
+#include "csv-reader.h"
+#include "csvDefinitions.h"
+#include "point.h"
+
+/*
+ * Functions to create SVG strings
+ *
+ */
+string strSVGRect(string opacity, float graphMult, unsigned epsilon, string color, int x, int y);
+string strSVGTextCell(float graphMult, unsigned epsilon, int x, int y,
+                      unsigned cellID, int cluster, int cellGT);
+
+#endif

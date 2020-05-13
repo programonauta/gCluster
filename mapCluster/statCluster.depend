@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1510584019 source:c:\mestrado\repos\grid-clustering\src\cell.cpp
+	"cell.h"
+
+1510583908 c:\mestrado\repos\grid-clustering\include\cell.h
+	<vector>
+	"point.h"
+
+1497457953 c:\mestrado\repos\grid-clustering\point\point.h
+	<math.h>
+	<vector>
+	<iostream>
+
+1510346607 source:c:\mestrado\repos\grid-clustering\src\gcluster.cpp
+	"gCluster.h"
+
+1510491598 c:\mestrado\repos\grid-clustering\include\gcluster.h
+	<stdio.h>
+	<stdlib.h>
+	"point.h"
+
+1510523135 source:c:\mestrado\repos\grid-clustering\statcluster\statcluster.cpp
+	"mapCluster.h"
+
+1510492946 c:\mestrado\repos\grid-clustering\statcluster\include\statcluster.h
+	<iostream>
+	<algorithm>
+	<sstream>
+	<math.h>
+	<unistd.h>
+	"gCluster.h"
+	"cell.h"
+	"csv-reader.h"
+	"graphs.h"
+	"csvDefinitions.h"
+
+1508372479 c:\mestrado\repos\grid-clustering\csv-reader\csv-reader.h
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1510355007 c:\mestrado\repos\grid-clustering\graphs\graphs.h
+	<vector>
+
+1508696915 source:c:\mestrado\repos\grid-clustering\point\point.cpp
+	"point.h"
+	<iostream>
+
+1510405141 source:c:\mestrado\repos\grid-clustering\csv-reader\csv-reader.cpp
+	"csv-reader.h"
+
+1510523766 c:\mestrado\repos\grid-clustering\include\csvdefinitions.h
+

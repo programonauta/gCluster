@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="drawCells" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/drawCells" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters=" -e 50 -c ..\data\ChicagoTaxi-WeekDays\central\3.getClusterOutput\gCluster-result-ChicagoTaxi-WeekDays.csv" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/drawCells" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../include" />
+			<Add directory="../point" />
+			<Add directory="../csv-reader" />
+			<Add directory="../src" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="../csv-reader/csv-reader.cpp" />
+		<Unit filename="../csv-reader/csv-reader.h" />
+		<Unit filename="../include/cell.h" />
+		<Unit filename="../include/csvDefinitions.h" />
+		<Unit filename="../include/gCluster.h" />
+		<Unit filename="../point/point.cpp" />
+		<Unit filename="../point/point.h" />
+		<Unit filename="../src/cell.cpp" />
+		<Unit filename="../src/gcluster.cpp" />
+		<Unit filename="drawCells.cpp" />
+		<Unit filename="include/drawCells.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

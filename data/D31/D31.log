@@ -1,0 +1,34 @@
+18/11/2017 Sat 14:39:07:/------ Begin of Script ------
+18/11/2017 Sat 14:39:07:Directory: ../data/D31
+18/11/2017 Sat 14:39:07:   Config File: ../data/D31/config/config-D31.csv
+18/11/2017 Sat 14:39:07:   Epsilon..: 35
+18/11/2017 Sat 14:39:07:   sumData
+18/11/2017 Sat 14:39:07:   File Input:......../data/D31/devices/D31.csv
+18/11/2017 Sat 14:39:07:   File Cell Output.:../data/D31/central/1.sumDataOutput/cell-D31-01.csv
+18/11/2017 Sat 14:39:07:   File Point Output:../data/D31/central/1.sumDataOutput/point-D31-01.csv
+18/11/2017 Sat 14:39:11:Cells consolidation to file: ../data/D31/central/2.deviceConsolidation/cells-D31.csv OK
+18/11/2017 Sat 14:39:11:Points consolidation to file: ../data/D31/central/2.deviceConsolidation/points-D31.csv OK
+18/11/2017 Sat 14:39:11:getCluster
+18/11/2017 Sat 14:39:11:   Epsilon..: 35
+18/11/2017 Sat 14:39:11:   Min Force: 0.0777
+18/11/2017 Sat 14:39:11:   Min Cells: 3
+18/11/2017 Sat 14:39:11:   Input....: ../data/D31/central/2.deviceConsolidation/cells-D31.csv
+18/11/2017 Sat 14:39:11:   Output...: ../data/D31/central/3.getClusterOutput/gCluster-result-D31.csv
+18/11/2017 Sat 14:39:12:statCluster 
+18/11/2017 Sat 14:39:12:   Epsilon............: 35
+18/11/2017 Sat 14:39:12:   Input Cell.........: ../data/D31/central/3.getClusterOutput/gCluster-result-D31.csv
+18/11/2017 Sat 14:39:12:   Map Cell gCluster..: ../data/D31/central/4.statClusterOutput/map-cell-D31.csv
+18/11/2017 Sat 14:39:12:   Input Point........: ../data/D31/central/2.deviceConsolidation/points-D31.csv
+18/11/2017 Sat 14:39:12:   Map Point gCluster.: ../data/D31/central/4.statClusterOutput/map-point-D31.csv
+18/11/2017 Sat 14:39:12:   Map DBSCAN.........: ../data/D31/central/4.statClusterOutput/map-cell-DBSCAN-D31.csv
+18/11/2017 Sat 14:39:12:   Valid Cell.........: ../data/D31/central/validClusterInput/valid-cell-D31.csv
+18/11/2017 Sat 14:39:12:   Valid Point........: ../data/D31/central/validClusterInput/valid-point-D31.csv
+18/11/2017 Sat 14:39:18:Results-------
+18/11/2017 Sat 14:39:18:   FM for gCluster Points: 0.49731604911190963
+18/11/2017 Sat 14:39:21:   FM for gCluster Cells.: 0.5074219051020041
+18/11/2017 Sat 14:39:21:drawCluster 
+18/11/2017 Sat 14:39:21:   Epsilon.......: 35
+18/11/2017 Sat 14:39:21:   Input Cell....: ../data/D31/central/4.statClusterOutput/map-cell-D31.csv
+18/11/2017 Sat 14:39:21:   Input Point...: ../data/D31/central/4.statClusterOutput/map-point-D31.csv
+18/11/2017 Sat 14:39:21:   Output SVG....: ../data/D31/central/drawOutput/graph-D31.svg
+18/11/2017 Sat 14:39:26:------ End of Script ------/

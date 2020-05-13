@@ -1,0 +1,10 @@
+07/02/2018 Wed 11:33:36:/------ Begin of Script Random Sampling------
+07/02/2018 Wed 11:33:36:Directory: ../data/cluto-t7.10k
+07/02/2018 Wed 11:33:36:   Input File....: ../data/cluto-t7.10k/central/2.deviceConsolidation/points-cluto-t7.10k.csv
+07/02/2018 Wed 11:33:36:   Reduction.....: 0.7796
+07/02/2018 Wed 11:33:36:   Epsilon.......: 0.025
+07/02/2018 Wed 11:33:36:   minPts........: 15
+07/02/2018 Wed 11:33:36:   qtyExperiments: 100
+07/02/2018 Wed 11:33:36:Input file with 10001 registers
+07/02/2018 Wed 11:33:36:Created: 100 Experiments with 2205 each 
+07/02/2018 Wed 11:35:46:------ End of Script ------/

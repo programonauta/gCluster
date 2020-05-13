@@ -18,6 +18,7 @@ typedef struct tdRawPoint
     int cellId;     // Id of cell to which point belongs
     int classAlgo;  // Classification of Algorithm
     int classGT;    // Classification of Ground Truth
+    Point CM;       // Center of Mass of correspondent cell
 } rawPoint;
 
 /*

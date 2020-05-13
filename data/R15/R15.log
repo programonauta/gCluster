@@ -1,0 +1,1050 @@
+18/11/2017 Sat 14:42:13:/------ Begin of Script ------
+18/11/2017 Sat 14:42:13:Directory: ../data/R15
+18/11/2017 Sat 14:42:13:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:42:13:   Epsilon..: 25
+18/11/2017 Sat 14:42:13:   sumData
+18/11/2017 Sat 14:42:13:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:42:13:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:42:13:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:42:15:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:42:16:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:42:16:getCluster
+18/11/2017 Sat 14:42:16:   Epsilon..: 25
+18/11/2017 Sat 14:42:16:   Min Force: 0.0438
+18/11/2017 Sat 14:42:16:   Min Cells: 3
+18/11/2017 Sat 14:42:16:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:42:16:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:42:17:statCluster 
+18/11/2017 Sat 14:42:17:   Epsilon............: 25
+18/11/2017 Sat 14:42:17:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:42:17:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:42:17:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:42:17:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:42:17:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:42:17:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:42:17:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:42:18:Results-------
+18/11/2017 Sat 14:42:18:   FM for gCluster Points: 0.9214682185897471
+18/11/2017 Sat 14:42:18:   FM for gCluster Cells.: 0.9349963166097923
+18/11/2017 Sat 14:42:18:drawCluster 
+18/11/2017 Sat 14:42:18:   Epsilon.......: 25
+18/11/2017 Sat 14:42:18:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:42:18:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:42:18:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:42:52:Comment: Correct number of clusters
+18/11/2017 Sat 14:42:52:------ End of Script ------/
+18/11/2017 Sat 14:48:17:/------ Begin of Script ------
+18/11/2017 Sat 14:48:17:Directory: ../data/R15
+18/11/2017 Sat 14:48:17:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:48:17:   Epsilon..: 25
+18/11/2017 Sat 14:48:17:   sumData
+18/11/2017 Sat 14:48:17:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:48:17:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:48:17:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:48:19:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:48:19:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:48:19:getCluster
+18/11/2017 Sat 14:48:19:   Epsilon..: 25
+18/11/2017 Sat 14:48:19:   Min Force: 0.04
+18/11/2017 Sat 14:48:19:   Min Cells: 3
+18/11/2017 Sat 14:48:19:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:48:19:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:48:19:statCluster 
+18/11/2017 Sat 14:48:19:   Epsilon............: 25
+18/11/2017 Sat 14:48:19:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:48:19:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:48:19:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:48:19:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:48:19:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:48:19:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:48:19:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:48:20:Results-------
+18/11/2017 Sat 14:48:20:   FM for gCluster Points: 0.8509610480233296
+18/11/2017 Sat 14:48:20:   FM for gCluster Cells.: 0.856123321909996
+18/11/2017 Sat 14:48:20:drawCluster 
+18/11/2017 Sat 14:48:20:   Epsilon.......: 25
+18/11/2017 Sat 14:48:20:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:48:20:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:48:20:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:48:30:Comment: 13 clusters
+18/11/2017 Sat 14:48:30:------ End of Script ------/
+18/11/2017 Sat 14:49:11:/------ Begin of Script ------
+18/11/2017 Sat 14:49:11:Directory: ../data/R15
+18/11/2017 Sat 14:49:11:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:49:11:   Epsilon..: 30
+18/11/2017 Sat 14:49:11:   sumData
+18/11/2017 Sat 14:49:11:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:49:11:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:49:11:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:49:14:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:49:14:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:49:14:getCluster
+18/11/2017 Sat 14:49:14:   Epsilon..: 30
+18/11/2017 Sat 14:49:14:   Min Force: 0.04
+18/11/2017 Sat 14:49:14:   Min Cells: 3
+18/11/2017 Sat 14:49:14:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:49:14:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:49:14:statCluster 
+18/11/2017 Sat 14:49:14:   Epsilon............: 30
+18/11/2017 Sat 14:49:14:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:49:14:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:49:14:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:49:14:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:49:14:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:49:14:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:49:14:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:49:15:Results-------
+18/11/2017 Sat 14:49:15:   FM for gCluster Points: 0.8158493286553529
+18/11/2017 Sat 14:49:15:   FM for gCluster Cells.: 0.8188323754747155
+18/11/2017 Sat 14:49:15:drawCluster 
+18/11/2017 Sat 14:49:15:   Epsilon.......: 30
+18/11/2017 Sat 14:49:15:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:49:15:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:49:15:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:49:20:Comment: 15 clusters
+18/11/2017 Sat 14:49:20:------ End of Script ------/
+18/11/2017 Sat 14:49:48:/------ Begin of Script ------
+18/11/2017 Sat 14:49:48:Directory: ../data/R15
+18/11/2017 Sat 14:49:48:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:49:48:   Epsilon..: 30
+18/11/2017 Sat 14:49:48:   sumData
+18/11/2017 Sat 14:49:48:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:49:48:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:49:48:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:49:50:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:49:50:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:49:50:getCluster
+18/11/2017 Sat 14:49:50:   Epsilon..: 30
+18/11/2017 Sat 14:49:50:   Min Force: 0.035
+18/11/2017 Sat 14:49:50:   Min Cells: 3
+18/11/2017 Sat 14:49:50:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:49:50:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:49:50:statCluster 
+18/11/2017 Sat 14:49:50:   Epsilon............: 30
+18/11/2017 Sat 14:49:50:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:49:50:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:49:50:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:49:50:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:49:50:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:49:50:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:49:50:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:49:51:Results-------
+18/11/2017 Sat 14:49:51:   FM for gCluster Points: 0.8532107289837371
+18/11/2017 Sat 14:49:52:   FM for gCluster Cells.: 0.8564069319590663
+18/11/2017 Sat 14:49:52:drawCluster 
+18/11/2017 Sat 14:49:52:   Epsilon.......: 30
+18/11/2017 Sat 14:49:52:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:49:52:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:49:52:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:50:30:Comment: 15 clusters
+18/11/2017 Sat 14:50:30:------ End of Script ------/
+18/11/2017 Sat 14:50:56:/------ Begin of Script ------
+18/11/2017 Sat 14:50:56:Directory: ../data/R15
+18/11/2017 Sat 14:50:56:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:50:56:   Epsilon..: 30
+18/11/2017 Sat 14:50:56:   sumData
+18/11/2017 Sat 14:50:56:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:50:56:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:50:56:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:50:57:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:50:57:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:50:57:getCluster
+18/11/2017 Sat 14:50:57:   Epsilon..: 30
+18/11/2017 Sat 14:50:57:   Min Force: 0.03
+18/11/2017 Sat 14:50:57:   Min Cells: 3
+18/11/2017 Sat 14:50:57:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:50:57:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:50:57:statCluster 
+18/11/2017 Sat 14:50:57:   Epsilon............: 30
+18/11/2017 Sat 14:50:57:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:50:57:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:50:57:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:50:57:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:50:57:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:50:57:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:50:57:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:50:58:Results-------
+18/11/2017 Sat 14:50:58:   FM for gCluster Points: 0.8618157782148756
+18/11/2017 Sat 14:50:58:   FM for gCluster Cells.: 0.8650215344481157
+18/11/2017 Sat 14:50:58:drawCluster 
+18/11/2017 Sat 14:50:58:   Epsilon.......: 30
+18/11/2017 Sat 14:50:58:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:50:58:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:50:58:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:51:10:Comment: 15 clusters
+18/11/2017 Sat 14:51:10:------ End of Script ------/
+18/11/2017 Sat 14:51:34:/------ Begin of Script ------
+18/11/2017 Sat 14:51:34:Directory: ../data/R15
+18/11/2017 Sat 14:51:34:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:51:34:   Epsilon..: 30
+18/11/2017 Sat 14:51:34:   sumData
+18/11/2017 Sat 14:51:34:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:51:34:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:51:34:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:51:35:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:51:35:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:51:35:getCluster
+18/11/2017 Sat 14:51:35:   Epsilon..: 30
+18/11/2017 Sat 14:51:35:   Min Force: 0.025
+18/11/2017 Sat 14:51:35:   Min Cells: 3
+18/11/2017 Sat 14:51:35:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:51:35:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:51:36:statCluster 
+18/11/2017 Sat 14:51:36:   Epsilon............: 30
+18/11/2017 Sat 14:51:36:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:51:36:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:51:36:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:51:36:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:51:36:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:51:36:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:51:36:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:51:38:Results-------
+18/11/2017 Sat 14:51:38:   FM for gCluster Points: 0.833388567272382
+18/11/2017 Sat 14:51:38:   FM for gCluster Cells.: 0.8363574529776938
+18/11/2017 Sat 14:51:38:drawCluster 
+18/11/2017 Sat 14:51:38:   Epsilon.......: 30
+18/11/2017 Sat 14:51:38:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:51:38:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:51:38:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:51:42:Comment: 14 clusters
+18/11/2017 Sat 14:51:42:------ End of Script ------/
+18/11/2017 Sat 14:52:20:/------ Begin of Script ------
+18/11/2017 Sat 14:52:20:Directory: ../data/R15
+18/11/2017 Sat 14:52:20:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:52:20:   Epsilon..: 30
+18/11/2017 Sat 14:52:20:   sumData
+18/11/2017 Sat 14:52:20:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:52:20:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:52:20:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:52:21:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:52:21:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:52:21:getCluster
+18/11/2017 Sat 14:52:21:   Epsilon..: 30
+18/11/2017 Sat 14:52:21:   Min Force: 0.028
+18/11/2017 Sat 14:52:21:   Min Cells: 3
+18/11/2017 Sat 14:52:21:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:52:21:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:52:22:statCluster 
+18/11/2017 Sat 14:52:22:   Epsilon............: 30
+18/11/2017 Sat 14:52:22:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:52:22:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:52:22:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:52:22:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:52:22:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:52:22:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:52:22:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:52:23:Results-------
+18/11/2017 Sat 14:52:23:   FM for gCluster Points: 0.8660228015563725
+18/11/2017 Sat 14:52:24:   FM for gCluster Cells.: 0.8692332411362016
+18/11/2017 Sat 14:52:24:drawCluster 
+18/11/2017 Sat 14:52:24:   Epsilon.......: 30
+18/11/2017 Sat 14:52:24:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:52:24:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:52:24:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:52:26:Comment: 15 clusters
+18/11/2017 Sat 14:52:26:------ End of Script ------/
+18/11/2017 Sat 14:57:00:/------ Begin of Script ------
+18/11/2017 Sat 14:57:00:Directory: ../data/R15
+18/11/2017 Sat 14:57:00:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:57:00:   Epsilon..: 18
+18/11/2017 Sat 14:57:00:   sumData
+18/11/2017 Sat 14:57:00:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:57:00:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:57:00:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:57:02:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:57:02:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:57:02:getCluster
+18/11/2017 Sat 14:57:02:   Epsilon..: 18
+18/11/2017 Sat 14:57:02:   Min Force: 0.028
+18/11/2017 Sat 14:57:02:   Min Cells: 3
+18/11/2017 Sat 14:57:02:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:57:02:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:57:03:statCluster 
+18/11/2017 Sat 14:57:03:   Epsilon............: 18
+18/11/2017 Sat 14:57:03:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:57:03:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:57:03:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:57:03:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:57:03:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:57:03:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:57:03:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:57:04:Results-------
+18/11/2017 Sat 14:57:04:   FM for gCluster Points: 0.4534611995233232
+18/11/2017 Sat 14:57:04:   FM for gCluster Cells.: 0.45377557276907476
+18/11/2017 Sat 14:57:04:drawCluster 
+18/11/2017 Sat 14:57:04:   Epsilon.......: 18
+18/11/2017 Sat 14:57:04:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:57:04:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:57:04:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:57:09:Comment: 8 clusters
+18/11/2017 Sat 14:57:09:------ End of Script ------/
+18/11/2017 Sat 14:57:34:/------ Begin of Script ------
+18/11/2017 Sat 14:57:34:Directory: ../data/R15
+18/11/2017 Sat 14:57:34:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:57:34:   Epsilon..: 18
+18/11/2017 Sat 14:57:34:   sumData
+18/11/2017 Sat 14:57:34:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:57:34:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:57:34:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:57:35:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:57:35:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:57:35:getCluster
+18/11/2017 Sat 14:57:35:   Epsilon..: 18
+18/11/2017 Sat 14:57:35:   Min Force: 0.02
+18/11/2017 Sat 14:57:35:   Min Cells: 3
+18/11/2017 Sat 14:57:35:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:57:35:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:57:36:statCluster 
+18/11/2017 Sat 14:57:36:   Epsilon............: 18
+18/11/2017 Sat 14:57:36:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:57:36:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:57:36:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:57:36:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:57:36:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:57:36:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:57:36:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:57:38:Results-------
+18/11/2017 Sat 14:57:38:   FM for gCluster Points: 0.45506004660670785
+18/11/2017 Sat 14:57:38:   FM for gCluster Cells.: 0.4554099582667199
+18/11/2017 Sat 14:57:38:drawCluster 
+18/11/2017 Sat 14:57:38:   Epsilon.......: 18
+18/11/2017 Sat 14:57:38:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:57:38:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:57:38:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:57:40:Comment: 8 clusters
+18/11/2017 Sat 14:57:40:------ End of Script ------/
+18/11/2017 Sat 14:57:47:/------ Begin of Script ------
+18/11/2017 Sat 14:57:47:Directory: ../data/R15
+18/11/2017 Sat 14:57:47:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:57:47:   Epsilon..: 18
+18/11/2017 Sat 14:57:47:   sumData
+18/11/2017 Sat 14:57:47:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:57:47:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:57:47:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:57:48:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:57:48:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:57:48:getCluster
+18/11/2017 Sat 14:57:48:   Epsilon..: 18
+18/11/2017 Sat 14:57:48:   Min Force: 0.01
+18/11/2017 Sat 14:57:48:   Min Cells: 3
+18/11/2017 Sat 14:57:48:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:57:48:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:57:48:statCluster 
+18/11/2017 Sat 14:57:48:   Epsilon............: 18
+18/11/2017 Sat 14:57:48:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:57:48:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:57:48:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:57:48:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:57:48:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:57:48:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:57:48:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:57:50:Results-------
+18/11/2017 Sat 14:57:50:   FM for gCluster Points: 0.45506004660670785
+18/11/2017 Sat 14:57:50:   FM for gCluster Cells.: 0.4554099582667199
+18/11/2017 Sat 14:57:50:drawCluster 
+18/11/2017 Sat 14:57:50:   Epsilon.......: 18
+18/11/2017 Sat 14:57:50:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:57:50:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:57:50:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:57:58:Comment: 8 clusters
+18/11/2017 Sat 14:57:58:------ End of Script ------/
+18/11/2017 Sat 14:58:02:/------ Begin of Script ------
+18/11/2017 Sat 14:58:02:Directory: ../data/R15
+18/11/2017 Sat 14:58:02:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:58:02:   Epsilon..: 18
+18/11/2017 Sat 14:58:02:   sumData
+18/11/2017 Sat 14:58:02:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:58:02:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:58:02:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:58:03:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:58:03:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:58:03:getCluster
+18/11/2017 Sat 14:58:03:   Epsilon..: 18
+18/11/2017 Sat 14:58:03:   Min Force: 0.005
+18/11/2017 Sat 14:58:03:   Min Cells: 3
+18/11/2017 Sat 14:58:03:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:58:03:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:58:04:statCluster 
+18/11/2017 Sat 14:58:04:   Epsilon............: 18
+18/11/2017 Sat 14:58:04:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:58:04:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:58:04:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:58:04:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:58:04:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:58:04:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:58:04:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:58:05:Results-------
+18/11/2017 Sat 14:58:05:   FM for gCluster Points: 0.45506004660670785
+18/11/2017 Sat 14:58:05:   FM for gCluster Cells.: 0.4554099582667199
+18/11/2017 Sat 14:58:05:drawCluster 
+18/11/2017 Sat 14:58:05:   Epsilon.......: 18
+18/11/2017 Sat 14:58:05:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:58:05:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:58:05:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:58:13:Comment: 8 clusters
+18/11/2017 Sat 14:58:13:------ End of Script ------/
+18/11/2017 Sat 14:58:20:/------ Begin of Script ------
+18/11/2017 Sat 14:58:20:Directory: ../data/R15
+18/11/2017 Sat 14:58:20:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 14:58:20:   Epsilon..: 18
+18/11/2017 Sat 14:58:20:   sumData
+18/11/2017 Sat 14:58:20:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 14:58:20:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 14:58:20:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 14:58:21:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 14:58:21:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 14:58:21:getCluster
+18/11/2017 Sat 14:58:21:   Epsilon..: 18
+18/11/2017 Sat 14:58:21:   Min Force: 0.04
+18/11/2017 Sat 14:58:21:   Min Cells: 3
+18/11/2017 Sat 14:58:21:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 14:58:21:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:58:22:statCluster 
+18/11/2017 Sat 14:58:22:   Epsilon............: 18
+18/11/2017 Sat 14:58:22:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 14:58:22:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:58:22:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 14:58:22:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:58:22:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 14:58:22:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 14:58:22:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 14:58:22:Results-------
+18/11/2017 Sat 14:58:22:   FM for gCluster Points: 0.4445688992270896
+18/11/2017 Sat 14:58:23:   FM for gCluster Cells.: 0.4449199793703979
+18/11/2017 Sat 14:58:23:drawCluster 
+18/11/2017 Sat 14:58:23:   Epsilon.......: 18
+18/11/2017 Sat 14:58:23:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 14:58:23:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 14:58:23:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 14:58:33:Comment: 8 clusters
+18/11/2017 Sat 14:58:33:------ End of Script ------/
+18/11/2017 Sat 15:12:14:/------ Begin of Script ------
+18/11/2017 Sat 15:12:14:Directory: ../data/R15
+18/11/2017 Sat 15:12:14:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:12:14:   Epsilon..: 18
+18/11/2017 Sat 15:12:14:   sumData
+18/11/2017 Sat 15:12:14:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:12:14:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:12:14:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:12:18:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:12:18:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:12:18:getCluster
+18/11/2017 Sat 15:12:18:   Epsilon..: 18
+18/11/2017 Sat 15:12:18:   Min Force: 0.04
+18/11/2017 Sat 15:12:18:   Min Cells: 3
+18/11/2017 Sat 15:12:18:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:12:18:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:12:20:statCluster 
+18/11/2017 Sat 15:12:20:   Epsilon............: 18
+18/11/2017 Sat 15:12:20:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:12:20:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:12:20:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:12:20:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:12:20:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:12:20:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:12:20:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:12:29:Results-------
+18/11/2017 Sat 15:12:29:   FM for gCluster Points: 0.4445688992270896
+18/11/2017 Sat 15:12:29:   FM for gCluster Cells.: 0.4449199793703979
+18/11/2017 Sat 15:12:29:drawCluster 
+18/11/2017 Sat 15:12:29:   Epsilon.......: 18
+18/11/2017 Sat 15:12:29:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:12:29:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:12:29:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:12:37:Comment: 8 clusters
+18/11/2017 Sat 15:12:37:------ End of Script ------/
+18/11/2017 Sat 15:14:31:/------ Begin of Script ------
+18/11/2017 Sat 15:14:31:Directory: ../data/R15
+18/11/2017 Sat 15:14:31:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:14:31:   Epsilon..: 18
+18/11/2017 Sat 15:14:31:   sumData
+18/11/2017 Sat 15:14:31:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:14:31:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:14:31:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:14:34:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:14:34:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:14:34:getCluster
+18/11/2017 Sat 15:14:34:   Epsilon..: 18
+18/11/2017 Sat 15:14:34:   Min Force: 0.04
+18/11/2017 Sat 15:14:34:   Min Cells: 3
+18/11/2017 Sat 15:14:34:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:14:34:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:14:36:statCluster 
+18/11/2017 Sat 15:14:36:   Epsilon............: 18
+18/11/2017 Sat 15:14:36:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:14:36:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:14:36:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:14:36:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:14:36:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:14:36:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:14:36:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:14:38:Results-------
+18/11/2017 Sat 15:14:38:   FM for gCluster Points: 0.4445688992270896
+18/11/2017 Sat 15:14:38:   FM for gCluster Cells.: 0.4449199793703979
+18/11/2017 Sat 15:14:38:drawCluster 
+18/11/2017 Sat 15:14:38:   Epsilon.......: 18
+18/11/2017 Sat 15:14:38:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:14:38:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:14:38:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:14:43:Comment: 8 clusters
+18/11/2017 Sat 15:14:43:------ End of Script ------/
+18/11/2017 Sat 15:19:05:/------ Begin of Script ------
+18/11/2017 Sat 15:19:05:Directory: ../data/R15
+18/11/2017 Sat 15:19:05:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:19:05:   Epsilon..: 18
+18/11/2017 Sat 15:19:05:   sumData
+18/11/2017 Sat 15:19:05:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:19:05:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:19:05:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:19:07:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:19:07:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:19:07:getCluster
+18/11/2017 Sat 15:19:07:   Epsilon..: 18
+18/11/2017 Sat 15:19:07:   Min Force: 0.04
+18/11/2017 Sat 15:19:07:   Min Cells: 3
+18/11/2017 Sat 15:19:07:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:19:07:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:19:08:statCluster 
+18/11/2017 Sat 15:19:08:   Epsilon............: 18
+18/11/2017 Sat 15:19:08:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:19:08:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:19:08:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:19:08:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:19:08:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:19:08:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:19:08:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:19:16:Results-------
+18/11/2017 Sat 15:19:16:   FM for gCluster Points: 0.4445688992270896
+18/11/2017 Sat 15:19:16:   FM for gCluster Cells.: 0.4449199793703979
+18/11/2017 Sat 15:19:16:drawCluster 
+18/11/2017 Sat 15:19:16:   Epsilon.......: 18
+18/11/2017 Sat 15:19:16:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:19:16:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:19:16:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:19:22:Comment: 8 clusters
+18/11/2017 Sat 15:19:22:------ End of Script ------/
+18/11/2017 Sat 15:20:05:/------ Begin of Script ------
+18/11/2017 Sat 15:20:05:Directory: ../data/R15
+18/11/2017 Sat 15:20:05:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:20:05:   Epsilon..: 30
+18/11/2017 Sat 15:20:05:   sumData
+18/11/2017 Sat 15:20:05:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:20:05:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:20:05:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:20:07:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:20:07:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:20:07:getCluster
+18/11/2017 Sat 15:20:07:   Epsilon..: 30
+18/11/2017 Sat 15:20:07:   Min Force: 0.028
+18/11/2017 Sat 15:20:07:   Min Cells: 3
+18/11/2017 Sat 15:20:07:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:20:07:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:20:09:statCluster 
+18/11/2017 Sat 15:20:09:   Epsilon............: 30
+18/11/2017 Sat 15:20:09:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:20:09:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:20:09:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:20:09:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:20:09:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:20:09:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:20:09:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:20:10:Results-------
+18/11/2017 Sat 15:20:10:   FM for gCluster Points: 0.8660228015563725
+18/11/2017 Sat 15:20:10:   FM for gCluster Cells.: 0.8692332411362016
+18/11/2017 Sat 15:20:10:drawCluster 
+18/11/2017 Sat 15:20:10:   Epsilon.......: 30
+18/11/2017 Sat 15:20:10:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:20:10:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:20:10:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:20:14:Comment: 15 clusters
+18/11/2017 Sat 15:20:14:------ End of Script ------/
+18/11/2017 Sat 15:20:45:/------ Begin of Script ------
+18/11/2017 Sat 15:20:45:Directory: ../data/R15
+18/11/2017 Sat 15:20:45:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:20:45:   Epsilon..: 28
+18/11/2017 Sat 15:20:45:   sumData
+18/11/2017 Sat 15:20:45:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:20:45:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:20:45:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:20:46:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:20:46:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:20:46:getCluster
+18/11/2017 Sat 15:20:46:   Epsilon..: 28
+18/11/2017 Sat 15:20:46:   Min Force: 0.028
+18/11/2017 Sat 15:20:46:   Min Cells: 3
+18/11/2017 Sat 15:20:46:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:20:46:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:20:47:statCluster 
+18/11/2017 Sat 15:20:47:   Epsilon............: 28
+18/11/2017 Sat 15:20:47:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:20:47:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:20:47:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:20:47:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:20:47:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:20:47:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:20:47:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:20:50:Results-------
+18/11/2017 Sat 15:20:50:   FM for gCluster Points: 0.7680819194950637
+18/11/2017 Sat 15:20:50:   FM for gCluster Cells.: 0.7655312370934885
+18/11/2017 Sat 15:20:50:drawCluster 
+18/11/2017 Sat 15:20:50:   Epsilon.......: 28
+18/11/2017 Sat 15:20:50:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:20:50:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:20:50:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:20:54:Comment: 12 clusters
+18/11/2017 Sat 15:20:54:------ End of Script ------/
+18/11/2017 Sat 15:21:12:/------ Begin of Script ------
+18/11/2017 Sat 15:21:12:Directory: ../data/R15
+18/11/2017 Sat 15:21:12:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:21:12:   Epsilon..: 28
+18/11/2017 Sat 15:21:12:   sumData
+18/11/2017 Sat 15:21:12:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:21:12:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:21:12:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:21:14:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:21:14:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:21:14:getCluster
+18/11/2017 Sat 15:21:14:   Epsilon..: 28
+18/11/2017 Sat 15:21:14:   Min Force: 0.04
+18/11/2017 Sat 15:21:14:   Min Cells: 3
+18/11/2017 Sat 15:21:14:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:21:14:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:21:14:statCluster 
+18/11/2017 Sat 15:21:14:   Epsilon............: 28
+18/11/2017 Sat 15:21:14:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:21:14:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:21:14:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:21:14:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:21:14:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:21:14:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:21:14:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:21:17:Results-------
+18/11/2017 Sat 15:21:17:   FM for gCluster Points: 0.8986843489383669
+18/11/2017 Sat 15:21:17:   FM for gCluster Cells.: 0.8986919323753687
+18/11/2017 Sat 15:21:17:drawCluster 
+18/11/2017 Sat 15:21:17:   Epsilon.......: 28
+18/11/2017 Sat 15:21:17:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:21:17:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:21:17:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:21:21:Comment: 15 clusters
+18/11/2017 Sat 15:21:21:------ End of Script ------/
+18/11/2017 Sat 15:22:05:/------ Begin of Script ------
+18/11/2017 Sat 15:22:05:Directory: ../data/R15
+18/11/2017 Sat 15:22:05:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:22:05:   Epsilon..: 28
+18/11/2017 Sat 15:22:05:   sumData
+18/11/2017 Sat 15:22:05:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:22:05:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:22:05:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:22:06:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:22:06:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:22:06:getCluster
+18/11/2017 Sat 15:22:06:   Epsilon..: 28
+18/11/2017 Sat 15:22:06:   Min Force: 0.035
+18/11/2017 Sat 15:22:06:   Min Cells: 3
+18/11/2017 Sat 15:22:06:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:22:06:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:22:06:statCluster 
+18/11/2017 Sat 15:22:06:   Epsilon............: 28
+18/11/2017 Sat 15:22:06:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:22:06:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:22:06:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:22:06:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:22:06:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:22:06:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:22:06:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:22:08:Results-------
+18/11/2017 Sat 15:22:08:   FM for gCluster Points: 0.9181692825673126
+18/11/2017 Sat 15:22:08:   FM for gCluster Cells.: 0.915123490127865
+18/11/2017 Sat 15:22:08:drawCluster 
+18/11/2017 Sat 15:22:08:   Epsilon.......: 28
+18/11/2017 Sat 15:22:08:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:22:08:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:22:08:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:22:11:Comment: 15 clusters
+18/11/2017 Sat 15:22:11:------ End of Script ------/
+18/11/2017 Sat 15:23:21:/------ Begin of Script ------
+18/11/2017 Sat 15:23:21:Directory: ../data/R15
+18/11/2017 Sat 15:23:21:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:23:21:   Epsilon..: 28
+18/11/2017 Sat 15:23:21:   sumData
+18/11/2017 Sat 15:23:21:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:23:21:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:23:21:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:23:22:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:23:22:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:23:22:getCluster
+18/11/2017 Sat 15:23:22:   Epsilon..: 28
+18/11/2017 Sat 15:23:22:   Min Force: 0.03
+18/11/2017 Sat 15:23:22:   Min Cells: 3
+18/11/2017 Sat 15:23:22:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:23:22:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:23:23:statCluster 
+18/11/2017 Sat 15:23:23:   Epsilon............: 28
+18/11/2017 Sat 15:23:23:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:23:23:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:23:23:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:23:23:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:23:23:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:23:23:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:23:23:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:23:24:Results-------
+18/11/2017 Sat 15:23:24:   FM for gCluster Points: 0.8399522767945529
+18/11/2017 Sat 15:23:24:   FM for gCluster Cells.: 0.8342752321591067
+18/11/2017 Sat 15:23:24:drawCluster 
+18/11/2017 Sat 15:23:24:   Epsilon.......: 28
+18/11/2017 Sat 15:23:24:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:23:24:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:23:24:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:23:27:Comment: 13 clusters
+18/11/2017 Sat 15:23:27:------ End of Script ------/
+18/11/2017 Sat 15:23:52:/------ Begin of Script ------
+18/11/2017 Sat 15:23:52:Directory: ../data/R15
+18/11/2017 Sat 15:23:52:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:23:52:   Epsilon..: 28
+18/11/2017 Sat 15:23:52:   sumData
+18/11/2017 Sat 15:23:52:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:23:52:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:23:52:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:23:53:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:23:53:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:23:53:getCluster
+18/11/2017 Sat 15:23:53:   Epsilon..: 28
+18/11/2017 Sat 15:23:53:   Min Force: 0.032
+18/11/2017 Sat 15:23:53:   Min Cells: 3
+18/11/2017 Sat 15:23:53:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:23:53:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:23:53:statCluster 
+18/11/2017 Sat 15:23:53:   Epsilon............: 28
+18/11/2017 Sat 15:23:53:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:23:53:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:23:53:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:23:53:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:23:53:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:23:53:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:23:53:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:23:55:Results-------
+18/11/2017 Sat 15:23:55:   FM for gCluster Points: 0.8345343586451155
+18/11/2017 Sat 15:23:56:   FM for gCluster Cells.: 0.8288570241811974
+18/11/2017 Sat 15:23:56:drawCluster 
+18/11/2017 Sat 15:23:56:   Epsilon.......: 28
+18/11/2017 Sat 15:23:56:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:23:56:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:23:56:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:24:01:Comment: 13 clusters
+18/11/2017 Sat 15:24:01:------ End of Script ------/
+18/11/2017 Sat 15:24:28:/------ Begin of Script ------
+18/11/2017 Sat 15:24:28:Directory: ../data/R15
+18/11/2017 Sat 15:24:28:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:24:28:   Epsilon..: 28
+18/11/2017 Sat 15:24:28:   sumData
+18/11/2017 Sat 15:24:28:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:24:28:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:24:28:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:24:29:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:24:29:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:24:29:getCluster
+18/11/2017 Sat 15:24:29:   Epsilon..: 28
+18/11/2017 Sat 15:24:29:   Min Force: 0.0335
+18/11/2017 Sat 15:24:29:   Min Cells: 3
+18/11/2017 Sat 15:24:29:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:24:29:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:24:30:statCluster 
+18/11/2017 Sat 15:24:30:   Epsilon............: 28
+18/11/2017 Sat 15:24:30:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:24:30:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:24:30:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:24:30:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:24:30:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:24:30:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:24:30:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:24:31:Results-------
+18/11/2017 Sat 15:24:31:   FM for gCluster Points: 0.9181692825673126
+18/11/2017 Sat 15:24:31:   FM for gCluster Cells.: 0.915123490127865
+18/11/2017 Sat 15:24:31:drawCluster 
+18/11/2017 Sat 15:24:31:   Epsilon.......: 28
+18/11/2017 Sat 15:24:31:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:24:31:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:24:31:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:24:35:Comment: 15 clusters
+18/11/2017 Sat 15:24:35:------ End of Script ------/
+18/11/2017 Sat 15:25:03:/------ Begin of Script ------
+18/11/2017 Sat 15:25:03:Directory: ../data/R15
+18/11/2017 Sat 15:25:03:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:25:03:   Epsilon..: 28
+18/11/2017 Sat 15:25:03:   sumData
+18/11/2017 Sat 15:25:03:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:25:03:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:25:03:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:25:05:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:25:05:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:25:05:getCluster
+18/11/2017 Sat 15:25:05:   Epsilon..: 28
+18/11/2017 Sat 15:25:05:   Min Force: 0.033
+18/11/2017 Sat 15:25:05:   Min Cells: 3
+18/11/2017 Sat 15:25:05:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:25:05:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:25:05:statCluster 
+18/11/2017 Sat 15:25:05:   Epsilon............: 28
+18/11/2017 Sat 15:25:05:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:25:05:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:25:05:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:25:05:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:25:05:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:25:05:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:25:05:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:25:06:Results-------
+18/11/2017 Sat 15:25:06:   FM for gCluster Points: 0.9259771664224342
+18/11/2017 Sat 15:25:06:   FM for gCluster Cells.: 0.9228414234817367
+18/11/2017 Sat 15:25:06:drawCluster 
+18/11/2017 Sat 15:25:06:   Epsilon.......: 28
+18/11/2017 Sat 15:25:06:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:25:06:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:25:06:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:25:10:Comment: 15 clusters
+18/11/2017 Sat 15:25:10:------ End of Script ------/
+18/11/2017 Sat 15:25:27:/------ Begin of Script ------
+18/11/2017 Sat 15:25:27:Directory: ../data/R15
+18/11/2017 Sat 15:25:27:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:25:27:   Epsilon..: 28
+18/11/2017 Sat 15:25:27:   sumData
+18/11/2017 Sat 15:25:27:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:25:27:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:25:27:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:25:28:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:25:28:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:25:28:getCluster
+18/11/2017 Sat 15:25:28:   Epsilon..: 28
+18/11/2017 Sat 15:25:28:   Min Force: 0.0325
+18/11/2017 Sat 15:25:28:   Min Cells: 3
+18/11/2017 Sat 15:25:28:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:25:28:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:25:29:statCluster 
+18/11/2017 Sat 15:25:29:   Epsilon............: 28
+18/11/2017 Sat 15:25:29:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:25:29:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:25:29:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:25:29:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:25:29:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:25:29:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:25:29:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:25:31:Results-------
+18/11/2017 Sat 15:25:31:   FM for gCluster Points: 0.8723330486304972
+18/11/2017 Sat 15:25:31:   FM for gCluster Cells.: 0.8663600141103581
+18/11/2017 Sat 15:25:31:drawCluster 
+18/11/2017 Sat 15:25:31:   Epsilon.......: 28
+18/11/2017 Sat 15:25:31:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:25:31:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:25:31:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:25:39:Comment: 14 clusters
+18/11/2017 Sat 15:25:39:------ End of Script ------/
+18/11/2017 Sat 15:25:54:/------ Begin of Script ------
+18/11/2017 Sat 15:25:54:Directory: ../data/R15
+18/11/2017 Sat 15:25:54:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:25:54:   Epsilon..: 28
+18/11/2017 Sat 15:25:54:   sumData
+18/11/2017 Sat 15:25:54:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:25:54:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:25:54:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:25:55:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:25:55:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:25:55:getCluster
+18/11/2017 Sat 15:25:55:   Epsilon..: 28
+18/11/2017 Sat 15:25:55:   Min Force: 0.0327
+18/11/2017 Sat 15:25:55:   Min Cells: 3
+18/11/2017 Sat 15:25:55:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:25:55:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:25:56:statCluster 
+18/11/2017 Sat 15:25:56:   Epsilon............: 28
+18/11/2017 Sat 15:25:56:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:25:56:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:25:56:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:25:56:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:25:56:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:25:56:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:25:56:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:25:57:Results-------
+18/11/2017 Sat 15:25:57:   FM for gCluster Points: 0.8723330486304972
+18/11/2017 Sat 15:25:57:   FM for gCluster Cells.: 0.8663600141103581
+18/11/2017 Sat 15:25:57:drawCluster 
+18/11/2017 Sat 15:25:57:   Epsilon.......: 28
+18/11/2017 Sat 15:25:57:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:25:57:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:25:57:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:25:58:Comment: 14 clusters
+18/11/2017 Sat 15:25:58:------ End of Script ------/
+18/11/2017 Sat 15:26:09:/------ Begin of Script ------
+18/11/2017 Sat 15:26:09:Directory: ../data/R15
+18/11/2017 Sat 15:26:09:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:26:09:   Epsilon..: 28
+18/11/2017 Sat 15:26:09:   sumData
+18/11/2017 Sat 15:26:09:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:26:09:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:26:09:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:26:10:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:26:10:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:26:10:getCluster
+18/11/2017 Sat 15:26:10:   Epsilon..: 28
+18/11/2017 Sat 15:26:10:   Min Force: 0.0328
+18/11/2017 Sat 15:26:10:   Min Cells: 3
+18/11/2017 Sat 15:26:10:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:26:10:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:26:10:statCluster 
+18/11/2017 Sat 15:26:10:   Epsilon............: 28
+18/11/2017 Sat 15:26:10:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:26:10:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:26:10:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:26:10:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:26:10:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:26:10:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:26:10:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:26:12:Results-------
+18/11/2017 Sat 15:26:12:   FM for gCluster Points: 0.9259771664224342
+18/11/2017 Sat 15:26:12:   FM for gCluster Cells.: 0.9228414234817367
+18/11/2017 Sat 15:26:12:drawCluster 
+18/11/2017 Sat 15:26:12:   Epsilon.......: 28
+18/11/2017 Sat 15:26:12:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:26:12:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:26:12:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:26:16:Comment: 15 clusters
+18/11/2017 Sat 15:26:16:------ End of Script ------/
+18/11/2017 Sat 15:26:57:/------ Begin of Script ------
+18/11/2017 Sat 15:26:57:Directory: ../data/R15
+18/11/2017 Sat 15:26:57:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:26:57:   Epsilon..: 25
+18/11/2017 Sat 15:26:57:   sumData
+18/11/2017 Sat 15:26:57:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:26:57:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:26:57:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:26:58:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:26:58:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:26:58:getCluster
+18/11/2017 Sat 15:26:58:   Epsilon..: 25
+18/11/2017 Sat 15:26:58:   Min Force: 0.05
+18/11/2017 Sat 15:26:58:   Min Cells: 3
+18/11/2017 Sat 15:26:58:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:26:58:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:26:59:statCluster 
+18/11/2017 Sat 15:26:59:   Epsilon............: 25
+18/11/2017 Sat 15:26:59:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:26:59:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:26:59:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:26:59:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:26:59:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:26:59:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:26:59:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:27:00:Results-------
+18/11/2017 Sat 15:27:00:   FM for gCluster Points: 0.8896495889079669
+18/11/2017 Sat 15:27:00:   FM for gCluster Cells.: 0.9033270434500745
+18/11/2017 Sat 15:27:00:drawCluster 
+18/11/2017 Sat 15:27:00:   Epsilon.......: 25
+18/11/2017 Sat 15:27:00:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:27:00:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:27:00:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:27:02:Comment: 15 clusters
+18/11/2017 Sat 15:27:02:------ End of Script ------/
+18/11/2017 Sat 15:27:26:/------ Begin of Script ------
+18/11/2017 Sat 15:27:26:Directory: ../data/R15
+18/11/2017 Sat 15:27:26:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:27:26:   Epsilon..: 25
+18/11/2017 Sat 15:27:26:   sumData
+18/11/2017 Sat 15:27:26:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:27:26:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:27:26:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:27:28:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:27:28:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:27:28:getCluster
+18/11/2017 Sat 15:27:28:   Epsilon..: 25
+18/11/2017 Sat 15:27:28:   Min Force: 0.04
+18/11/2017 Sat 15:27:28:   Min Cells: 3
+18/11/2017 Sat 15:27:28:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:27:28:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:27:28:statCluster 
+18/11/2017 Sat 15:27:28:   Epsilon............: 25
+18/11/2017 Sat 15:27:28:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:27:28:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:27:28:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:27:28:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:27:28:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:27:28:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:27:28:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:27:29:Results-------
+18/11/2017 Sat 15:27:29:   FM for gCluster Points: 0.8509610480233296
+18/11/2017 Sat 15:27:29:   FM for gCluster Cells.: 0.856123321909996
+18/11/2017 Sat 15:27:29:drawCluster 
+18/11/2017 Sat 15:27:29:   Epsilon.......: 25
+18/11/2017 Sat 15:27:29:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:27:29:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:27:29:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:27:32:Comment: 13 clusters
+18/11/2017 Sat 15:27:32:------ End of Script ------/
+18/11/2017 Sat 15:27:49:/------ Begin of Script ------
+18/11/2017 Sat 15:27:49:Directory: ../data/R15
+18/11/2017 Sat 15:27:49:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:27:49:   Epsilon..: 25
+18/11/2017 Sat 15:27:49:   sumData
+18/11/2017 Sat 15:27:49:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:27:49:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:27:49:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:27:49:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:27:49:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:27:49:getCluster
+18/11/2017 Sat 15:27:49:   Epsilon..: 25
+18/11/2017 Sat 15:27:49:   Min Force: 0.045
+18/11/2017 Sat 15:27:49:   Min Cells: 3
+18/11/2017 Sat 15:27:49:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:27:49:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:27:50:statCluster 
+18/11/2017 Sat 15:27:50:   Epsilon............: 25
+18/11/2017 Sat 15:27:50:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:27:50:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:27:50:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:27:50:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:27:50:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:27:50:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:27:50:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:27:51:Results-------
+18/11/2017 Sat 15:27:51:   FM for gCluster Points: 0.9061693454942974
+18/11/2017 Sat 15:27:51:   FM for gCluster Cells.: 0.9197796950274175
+18/11/2017 Sat 15:27:51:drawCluster 
+18/11/2017 Sat 15:27:51:   Epsilon.......: 25
+18/11/2017 Sat 15:27:51:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:27:51:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:27:51:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:27:53:Comment: 15 clusters
+18/11/2017 Sat 15:27:53:------ End of Script ------/
+18/11/2017 Sat 15:28:21:/------ Begin of Script ------
+18/11/2017 Sat 15:28:21:Directory: ../data/R15
+18/11/2017 Sat 15:28:21:   Config File: ../data/R15/config/config-R15.csv
+18/11/2017 Sat 15:28:21:   Epsilon..: 25
+18/11/2017 Sat 15:28:21:   sumData
+18/11/2017 Sat 15:28:21:   File Input:......../data/R15/devices/r15.csv
+18/11/2017 Sat 15:28:21:   File Cell Output.:../data/R15/central/1.sumDataOutput/cell-R15-01.csv
+18/11/2017 Sat 15:28:21:   File Point Output:../data/R15/central/1.sumDataOutput/point-R15-01.csv
+18/11/2017 Sat 15:28:22:Cells consolidation to file: ../data/R15/central/2.deviceConsolidation/cells-R15.csv OK
+18/11/2017 Sat 15:28:22:Points consolidation to file: ../data/R15/central/2.deviceConsolidation/points-R15.csv OK
+18/11/2017 Sat 15:28:22:getCluster
+18/11/2017 Sat 15:28:22:   Epsilon..: 25
+18/11/2017 Sat 15:28:22:   Min Force: 0.0455
+18/11/2017 Sat 15:28:22:   Min Cells: 3
+18/11/2017 Sat 15:28:22:   Input....: ../data/R15/central/2.deviceConsolidation/cells-R15.csv
+18/11/2017 Sat 15:28:22:   Output...: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:28:22:statCluster 
+18/11/2017 Sat 15:28:22:   Epsilon............: 25
+18/11/2017 Sat 15:28:22:   Input Cell.........: ../data/R15/central/3.getClusterOutput/gCluster-result-R15.csv
+18/11/2017 Sat 15:28:22:   Map Cell gCluster..: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:28:22:   Input Point........: ../data/R15/central/2.deviceConsolidation/points-R15.csv
+18/11/2017 Sat 15:28:22:   Map Point gCluster.: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:28:22:   Map DBSCAN.........: ../data/R15/central/4.statClusterOutput/map-cell-DBSCAN-R15.csv
+18/11/2017 Sat 15:28:22:   Valid Cell.........: ../data/R15/central/validClusterInput/valid-cell-R15.csv
+18/11/2017 Sat 15:28:22:   Valid Point........: ../data/R15/central/validClusterInput/valid-point-R15.csv
+18/11/2017 Sat 15:28:23:Results-------
+18/11/2017 Sat 15:28:23:   FM for gCluster Points: 0.9061693454942974
+18/11/2017 Sat 15:28:24:   FM for gCluster Cells.: 0.9197796950274175
+18/11/2017 Sat 15:28:24:drawCluster 
+18/11/2017 Sat 15:28:24:   Epsilon.......: 25
+18/11/2017 Sat 15:28:24:   Input Cell....: ../data/R15/central/4.statClusterOutput/map-cell-R15.csv
+18/11/2017 Sat 15:28:24:   Input Point...: ../data/R15/central/4.statClusterOutput/map-point-R15.csv
+18/11/2017 Sat 15:28:24:   Output SVG....: ../data/R15/central/drawOutput/graph-R15.svg
+18/11/2017 Sat 15:28:25:Comment: 15 clusters
+18/11/2017 Sat 15:28:25:------ End of Script ------/

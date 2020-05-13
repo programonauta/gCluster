@@ -1,0 +1,1305 @@
+19/11/2017 Sun 12:36:07:/------ Begin of Script
+19/11/2017 Sun 12:36:07:epsilon: 0.11 minPts: 3
+19/11/2017 Sun 12:36:07:   Type.......: Point
+19/11/2017 Sun 12:36:07:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+19/11/2017 Sun 12:36:07:   Output File: ../data/Agregation/resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+19/11/2017 Sun 12:36:08:   Clusters...: 7
+19/11/2017 Sun 12:36:18:   FM.........: 0.9866372474121966
+19/11/2017 Sun 12:36:18:End of Script ------/
+19/11/2017 Sun 12:36:32:/------ Begin of Script
+19/11/2017 Sun 12:36:32:epsilon: 0.11 minPts: 3
+19/11/2017 Sun 12:36:32:   Type.......: Point
+19/11/2017 Sun 12:36:32:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+19/11/2017 Sun 12:36:32:   Output File: ../data/Agregation/resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+19/11/2017 Sun 12:36:32:   Clusters...: 7
+19/11/2017 Sun 12:36:51:   FM.........: 0.9866372474121966
+19/11/2017 Sun 12:36:51:End of Script ------/
+19/11/2017 Sun 12:37:43:/------ Begin of Script
+19/11/2017 Sun 12:37:43:epsilon: 0.31 minPts: 1
+19/11/2017 Sun 12:37:43:   Type.......: Cell
+19/11/2017 Sun 12:37:43:   Input File.: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+19/11/2017 Sun 12:37:43:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+19/11/2017 Sun 12:37:43:   Clusters...: 7
+19/11/2017 Sun 12:37:48:   FM.........: 1.0
+19/11/2017 Sun 12:37:48:End of Script ------/
+19/11/2017 Sun 12:57:32:/------ Begin of Script
+19/11/2017 Sun 12:57:32:epsilon: 0.11 minPts: 3
+19/11/2017 Sun 12:57:32:   Type.......: Point
+19/11/2017 Sun 12:57:32:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+19/11/2017 Sun 12:57:32:   Output File: ../data/Agregation/resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+19/11/2017 Sun 12:57:32:   Clusters...: 7
+19/11/2017 Sun 12:59:12:   FM.........: 0.9866372474121966
+19/11/2017 Sun 12:59:12:End of Script ------/
+19/11/2017 Sun 13:02:33:/------ Begin of Script
+19/11/2017 Sun 13:02:33:epsilon: 0.31 minPts: 1
+19/11/2017 Sun 13:02:33:   Type.......: Cell
+19/11/2017 Sun 13:02:33:   Input File.: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:02:33:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:02:33:   Clusters...: 7
+19/11/2017 Sun 13:05:33:   FM.........: 1.0
+19/11/2017 Sun 13:05:33:End of Script ------/
+19/11/2017 Sun 13:05:38:/------ Begin of Script
+19/11/2017 Sun 13:05:38:epsilon: 0.11 minPts: 3
+19/11/2017 Sun 13:05:38:   Type.......: Point
+19/11/2017 Sun 13:05:38:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+19/11/2017 Sun 13:05:38:   Output File: ../data/Agregation/resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:05:39:   Clusters...: 7
+19/11/2017 Sun 13:05:56:   FM.........: 0.9866372474121966
+19/11/2017 Sun 13:05:56:End of Script ------/
+19/11/2017 Sun 13:06:03:/------ Begin of Script
+19/11/2017 Sun 13:06:03:epsilon: 0.31 minPts: 1
+19/11/2017 Sun 13:06:03:   Type.......: Cell
+19/11/2017 Sun 13:06:03:   Input File.: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:06:03:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:06:03:   Clusters...: 7
+19/11/2017 Sun 13:06:24:   FM.........: 1.0
+19/11/2017 Sun 13:06:24:End of Script ------/
+19/11/2017 Sun 13:06:28:/------ Begin of Script
+19/11/2017 Sun 13:06:28:epsilon: 0.11 minPts: 3
+19/11/2017 Sun 13:06:28:   Type.......: Point
+19/11/2017 Sun 13:06:28:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+19/11/2017 Sun 13:06:28:   Output File: ../data/Agregation/resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:06:28:   Clusters...: 7
+19/11/2017 Sun 13:07:25:   FM.........: 0.9866372474121966
+19/11/2017 Sun 13:07:25:End of Script ------/
+19/11/2017 Sun 13:07:30:/------ Begin of Script
+19/11/2017 Sun 13:07:30:epsilon: 0.31 minPts: 1
+19/11/2017 Sun 13:07:30:   Type.......: Cell
+19/11/2017 Sun 13:07:30:   Input File.: ../data/Agregation/central/4.statClusterOutput/map-cell-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:07:30:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+19/11/2017 Sun 13:07:30:   Clusters...: 7
+19/11/2017 Sun 13:10:59:   FM.........: 1.0
+19/11/2017 Sun 13:10:59:End of Script ------/
+20/11/2017 Mon 12:34:50:/------ Begin of Script
+20/11/2017 Mon 12:34:50:epsilon: 0.31 minPts: 1
+20/11/2017 Mon 12:34:50:   Type.......: Cell
+20/11/2017 Mon 12:34:50:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 12:34:50:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 12:34:50:   Clusters...: 8
+20/11/2017 Mon 12:34:57:   FM.........: 1.0
+20/11/2017 Mon 12:34:57:End of Script ------/
+20/11/2017 Mon 12:35:20:/------ Begin of Script
+20/11/2017 Mon 12:35:20:epsilon: 0.31 minPts: 2
+20/11/2017 Mon 12:35:20:   Type.......: Cell
+20/11/2017 Mon 12:35:20:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 12:35:20:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 12:35:20:   Clusters...: 7
+20/11/2017 Mon 12:35:23:   FM.........: 1.0
+20/11/2017 Mon 12:35:23:End of Script ------/
+20/11/2017 Mon 12:41:59:/------ Begin of Script
+20/11/2017 Mon 12:41:59:epsilon: 0.31 minPts: 1
+20/11/2017 Mon 12:41:59:   Type.......: Cell
+20/11/2017 Mon 12:41:59:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 12:41:59:   Output File: ../data/Agregation/resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 12:41:59:   Map Matrix
+20/11/2017 Mon 12:41:59:   0, 1
+20/11/2017 Mon 12:41:59:   1, 2
+20/11/2017 Mon 12:41:59:   2, 3
+20/11/2017 Mon 12:41:59:   3, 4
+20/11/2017 Mon 12:41:59:   4, 5
+20/11/2017 Mon 12:41:59:   5, 6
+20/11/2017 Mon 12:41:59:   6, 7
+20/11/2017 Mon 12:41:59:   7, 7
+20/11/2017 Mon 12:41:59:   Clusters...: 8
+20/11/2017 Mon 12:42:01:   FM.........: 1.0
+20/11/2017 Mon 12:42:01:End of Script ------/
+20/11/2017 Mon 15:17:09:/------ Begin of Script
+20/11/2017 Mon 15:17:09:epsilon: 0.11 minPts: 3
+20/11/2017 Mon 15:17:09:   Type.......: Point
+20/11/2017 Mon 15:17:09:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:17:09:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:17:09:   Map Matrix
+20/11/2017 Mon 15:17:09:   0, 1
+20/11/2017 Mon 15:17:09:   1, 2
+20/11/2017 Mon 15:17:09:   2, 6
+20/11/2017 Mon 15:17:09:   3, 4
+20/11/2017 Mon 15:17:09:   Clusters...: 4
+20/11/2017 Mon 15:17:16:   FM.........: 0.8188124025758456
+20/11/2017 Mon 15:17:16:End of Script ------/
+20/11/2017 Mon 15:17:23:/------ Begin of Script
+20/11/2017 Mon 15:17:23:epsilon: 0.11 minPts: 5
+20/11/2017 Mon 15:17:23:   Type.......: Point
+20/11/2017 Mon 15:17:23:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:17:23:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:17:23:   Map Matrix
+20/11/2017 Mon 15:17:23:   0, 1
+20/11/2017 Mon 15:17:23:   1, 2
+20/11/2017 Mon 15:17:23:   2, 6
+20/11/2017 Mon 15:17:23:   3, 4
+20/11/2017 Mon 15:17:23:   Clusters...: 4
+20/11/2017 Mon 15:17:27:   FM.........: 0.8188124025758456
+20/11/2017 Mon 15:17:27:End of Script ------/
+20/11/2017 Mon 15:17:34:/------ Begin of Script
+20/11/2017 Mon 15:17:34:epsilon: 0.11 minPts: 10
+20/11/2017 Mon 15:17:34:   Type.......: Point
+20/11/2017 Mon 15:17:34:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:17:34:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:17:34:   Map Matrix
+20/11/2017 Mon 15:17:34:   0, 1
+20/11/2017 Mon 15:17:34:   1, 2
+20/11/2017 Mon 15:17:34:   2, 6
+20/11/2017 Mon 15:17:34:   3, 4
+20/11/2017 Mon 15:17:34:   Clusters...: 4
+20/11/2017 Mon 15:17:36:   FM.........: 0.8188124025758456
+20/11/2017 Mon 15:17:36:End of Script ------/
+20/11/2017 Mon 15:17:42:/------ Begin of Script
+20/11/2017 Mon 15:17:42:epsilon: 0.09 minPts: 10
+20/11/2017 Mon 15:17:42:   Type.......: Point
+20/11/2017 Mon 15:17:42:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:17:42:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:17:42:   Map Matrix
+20/11/2017 Mon 15:17:42:   0, 1
+20/11/2017 Mon 15:17:42:   1, 2
+20/11/2017 Mon 15:17:42:   2, 6
+20/11/2017 Mon 15:17:42:   3, 4
+20/11/2017 Mon 15:17:42:   Clusters...: 4
+20/11/2017 Mon 15:17:45:   FM.........: 0.8188124025758456
+20/11/2017 Mon 15:17:45:End of Script ------/
+20/11/2017 Mon 15:17:50:/------ Begin of Script
+20/11/2017 Mon 15:17:50:epsilon: 0.03 minPts: 10
+20/11/2017 Mon 15:17:50:   Type.......: Point
+20/11/2017 Mon 15:17:50:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:17:50:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:17:50:   Map Matrix
+20/11/2017 Mon 15:17:50:   -1, 4
+20/11/2017 Mon 15:17:50:   Clusters...: 0
+20/11/2017 Mon 15:17:51:   FM.........: 0.4657661364876436
+20/11/2017 Mon 15:17:51:End of Script ------/
+20/11/2017 Mon 15:18:05:/------ Begin of Script
+20/11/2017 Mon 15:18:05:epsilon: 0.06 minPts: 5
+20/11/2017 Mon 15:18:05:   Type.......: Point
+20/11/2017 Mon 15:18:05:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:18:05:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:18:05:   Map Matrix
+20/11/2017 Mon 15:18:05:   0, 1
+20/11/2017 Mon 15:18:05:   1, 2
+20/11/2017 Mon 15:18:05:   2, 6
+20/11/2017 Mon 15:18:05:   3, 4
+20/11/2017 Mon 15:18:05:   4, 5
+20/11/2017 Mon 15:18:05:   Clusters...: 5
+20/11/2017 Mon 15:18:15:   FM.........: 0.8651731836537094
+20/11/2017 Mon 15:18:15:End of Script ------/
+20/11/2017 Mon 15:18:22:/------ Begin of Script
+20/11/2017 Mon 15:18:22:epsilon: 0.05 minPts: 5
+20/11/2017 Mon 15:18:22:   Type.......: Point
+20/11/2017 Mon 15:18:22:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:18:22:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:18:22:   Map Matrix
+20/11/2017 Mon 15:18:22:   0, 1
+20/11/2017 Mon 15:18:22:   1, 2
+20/11/2017 Mon 15:18:22:   2, 6
+20/11/2017 Mon 15:18:22:   3, 4
+20/11/2017 Mon 15:18:22:   4, 5
+20/11/2017 Mon 15:18:22:   Clusters...: 5
+20/11/2017 Mon 15:18:24:   FM.........: 0.8651731836537094
+20/11/2017 Mon 15:18:24:End of Script ------/
+20/11/2017 Mon 15:18:30:/------ Begin of Script
+20/11/2017 Mon 15:18:30:epsilon: 0.04 minPts: 4
+20/11/2017 Mon 15:18:30:   Type.......: Point
+20/11/2017 Mon 15:18:30:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:18:30:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:18:30:   Map Matrix
+20/11/2017 Mon 15:18:30:   0, 1
+20/11/2017 Mon 15:18:30:   1, 2
+20/11/2017 Mon 15:18:30:   2, 6
+20/11/2017 Mon 15:18:30:   3, 4
+20/11/2017 Mon 15:18:30:   4, 5
+20/11/2017 Mon 15:18:30:   -1, 2
+20/11/2017 Mon 15:18:30:   Clusters...: 5
+20/11/2017 Mon 15:18:35:   FM.........: 0.8651731836537094
+20/11/2017 Mon 15:18:35:End of Script ------/
+20/11/2017 Mon 15:18:42:/------ Begin of Script
+20/11/2017 Mon 15:18:42:epsilon: 0.035 minPts: 3
+20/11/2017 Mon 15:18:42:   Type.......: Point
+20/11/2017 Mon 15:18:42:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:18:42:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:18:42:   Map Matrix
+20/11/2017 Mon 15:18:42:   0, 1
+20/11/2017 Mon 15:18:42:   1, 2
+20/11/2017 Mon 15:18:42:   2, 6
+20/11/2017 Mon 15:18:42:   3, 4
+20/11/2017 Mon 15:18:42:   4, 5
+20/11/2017 Mon 15:18:42:   -1, 2
+20/11/2017 Mon 15:18:42:   Clusters...: 5
+20/11/2017 Mon 15:18:46:   FM.........: 0.8623203195785284
+20/11/2017 Mon 15:18:46:End of Script ------/
+20/11/2017 Mon 15:18:54:/------ Begin of Script
+20/11/2017 Mon 15:18:54:epsilon: 0.03 minPts: 2
+20/11/2017 Mon 15:18:54:   Type.......: Point
+20/11/2017 Mon 15:18:54:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:18:54:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:18:54:   Map Matrix
+20/11/2017 Mon 15:18:54:   0, 1
+20/11/2017 Mon 15:18:54:   1, 1
+20/11/2017 Mon 15:18:54:   2, 2
+20/11/2017 Mon 15:18:54:   3, 2
+20/11/2017 Mon 15:18:54:   4, 2
+20/11/2017 Mon 15:18:54:   5, 2
+20/11/2017 Mon 15:18:54:   6, 6
+20/11/2017 Mon 15:18:54:   7, 4
+20/11/2017 Mon 15:18:54:   8, 5
+20/11/2017 Mon 15:18:54:   -1, 2
+20/11/2017 Mon 15:18:54:   Clusters...: 9
+20/11/2017 Mon 15:18:58:   FM.........: 0.8492968505518119
+20/11/2017 Mon 15:18:58:End of Script ------/
+20/11/2017 Mon 15:19:02:/------ Begin of Script
+20/11/2017 Mon 15:19:02:epsilon: 0.03 minPts: 4
+20/11/2017 Mon 15:19:02:   Type.......: Point
+20/11/2017 Mon 15:19:02:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:19:02:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:19:02:   Map Matrix
+20/11/2017 Mon 15:19:02:   0, 1
+20/11/2017 Mon 15:19:02:   1, 1
+20/11/2017 Mon 15:19:02:   2, 2
+20/11/2017 Mon 15:19:02:   3, 2
+20/11/2017 Mon 15:19:02:   4, 2
+20/11/2017 Mon 15:19:02:   5, 2
+20/11/2017 Mon 15:19:02:   6, 2
+20/11/2017 Mon 15:19:02:   7, 2
+20/11/2017 Mon 15:19:02:   8, 3
+20/11/2017 Mon 15:19:02:   9, 3
+20/11/2017 Mon 15:19:02:   10, 4
+20/11/2017 Mon 15:19:02:   11, 5
+20/11/2017 Mon 15:19:02:   12, 6
+20/11/2017 Mon 15:19:02:   13, 6
+20/11/2017 Mon 15:19:02:   14, 6
+20/11/2017 Mon 15:19:02:   15, 7
+20/11/2017 Mon 15:19:02:   -1, 2
+20/11/2017 Mon 15:19:02:   Clusters...: 16
+20/11/2017 Mon 15:19:05:   FM.........: 0.9617150674111028
+20/11/2017 Mon 15:19:05:End of Script ------/
+20/11/2017 Mon 15:19:25:/------ Begin of Script
+20/11/2017 Mon 15:19:25:epsilon: 0.035 minPts: 4
+20/11/2017 Mon 15:19:25:   Type.......: Point
+20/11/2017 Mon 15:19:25:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:19:25:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:19:25:   Map Matrix
+20/11/2017 Mon 15:19:25:   0, 1
+20/11/2017 Mon 15:19:25:   1, 2
+20/11/2017 Mon 15:19:25:   2, 6
+20/11/2017 Mon 15:19:25:   3, 4
+20/11/2017 Mon 15:19:25:   4, 5
+20/11/2017 Mon 15:19:25:   -1, 2
+20/11/2017 Mon 15:19:25:   Clusters...: 5
+20/11/2017 Mon 15:19:31:   FM.........: 0.8623203195785284
+20/11/2017 Mon 15:19:31:End of Script ------/
+20/11/2017 Mon 15:19:36:/------ Begin of Script
+20/11/2017 Mon 15:19:36:epsilon: 0.035 minPts: 6
+20/11/2017 Mon 15:19:36:   Type.......: Point
+20/11/2017 Mon 15:19:36:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:19:36:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:19:36:   Map Matrix
+20/11/2017 Mon 15:19:36:   0, 1
+20/11/2017 Mon 15:19:36:   1, 2
+20/11/2017 Mon 15:19:36:   2, 2
+20/11/2017 Mon 15:19:36:   3, 2
+20/11/2017 Mon 15:19:36:   4, 3
+20/11/2017 Mon 15:19:36:   5, 4
+20/11/2017 Mon 15:19:36:   6, 5
+20/11/2017 Mon 15:19:36:   7, 6
+20/11/2017 Mon 15:19:36:   8, 7
+20/11/2017 Mon 15:19:36:   -1, 2
+20/11/2017 Mon 15:19:36:   Clusters...: 9
+20/11/2017 Mon 15:19:46:   FM.........: 0.9665773211362122
+20/11/2017 Mon 15:19:46:End of Script ------/
+20/11/2017 Mon 15:20:13:/------ Begin of Script
+20/11/2017 Mon 15:20:13:epsilon: 0.03 minPts: 6
+20/11/2017 Mon 15:20:13:   Type.......: Point
+20/11/2017 Mon 15:20:13:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:20:13:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:20:13:   Map Matrix
+20/11/2017 Mon 15:20:13:   0, 1
+20/11/2017 Mon 15:20:13:   1, 1
+20/11/2017 Mon 15:20:13:   2, 1
+20/11/2017 Mon 15:20:13:   3, 2
+20/11/2017 Mon 15:20:13:   4, 2
+20/11/2017 Mon 15:20:13:   5, 2
+20/11/2017 Mon 15:20:13:   6, 2
+20/11/2017 Mon 15:20:13:   7, 2
+20/11/2017 Mon 15:20:13:   8, 2
+20/11/2017 Mon 15:20:13:   9, 2
+20/11/2017 Mon 15:20:13:   10, 2
+20/11/2017 Mon 15:20:13:   11, 3
+20/11/2017 Mon 15:20:13:   12, 3
+20/11/2017 Mon 15:20:13:   13, 3
+20/11/2017 Mon 15:20:13:   14, 3
+20/11/2017 Mon 15:20:13:   15, 3
+20/11/2017 Mon 15:20:13:   16, 3
+20/11/2017 Mon 15:20:13:   17, 4
+20/11/2017 Mon 15:20:13:   18, 5
+20/11/2017 Mon 15:20:13:   19, 6
+20/11/2017 Mon 15:20:13:   20, 6
+20/11/2017 Mon 15:20:13:   21, 6
+20/11/2017 Mon 15:20:13:   22, 6
+20/11/2017 Mon 15:20:13:   23, 6
+20/11/2017 Mon 15:20:13:   24, 6
+20/11/2017 Mon 15:20:13:   25, 6
+20/11/2017 Mon 15:20:13:   26, 7
+20/11/2017 Mon 15:20:13:   -1, 2
+20/11/2017 Mon 15:20:13:   Clusters...: 27
+20/11/2017 Mon 15:20:15:   FM.........: 0.6939679450931464
+20/11/2017 Mon 15:20:15:End of Script ------/
+20/11/2017 Mon 15:20:25:/------ Begin of Script
+20/11/2017 Mon 15:20:25:epsilon: 0.04 minPts: 6
+20/11/2017 Mon 15:20:25:   Type.......: Point
+20/11/2017 Mon 15:20:25:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:20:25:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:20:25:   Map Matrix
+20/11/2017 Mon 15:20:25:   0, 1
+20/11/2017 Mon 15:20:25:   1, 2
+20/11/2017 Mon 15:20:25:   2, 3
+20/11/2017 Mon 15:20:25:   3, 4
+20/11/2017 Mon 15:20:25:   4, 5
+20/11/2017 Mon 15:20:25:   5, 6
+20/11/2017 Mon 15:20:25:   6, 7
+20/11/2017 Mon 15:20:25:   -1, 2
+20/11/2017 Mon 15:20:25:   Clusters...: 7
+20/11/2017 Mon 15:20:29:   FM.........: 0.9880601392773993
+20/11/2017 Mon 15:20:29:End of Script ------/
+20/11/2017 Mon 15:21:11:/------ Begin of Script
+20/11/2017 Mon 15:21:11:epsilon: 0.08 minPts: 10
+20/11/2017 Mon 15:21:11:   Type.......: Cell
+20/11/2017 Mon 15:21:11:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:21:11:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:21:11:   Map Matrix
+20/11/2017 Mon 15:21:11:   0, 1
+20/11/2017 Mon 15:21:11:   1, 2
+20/11/2017 Mon 15:21:11:   2, 6
+20/11/2017 Mon 15:21:11:   3, 4
+20/11/2017 Mon 15:21:11:   4, 5
+20/11/2017 Mon 15:21:11:   -1, 7
+20/11/2017 Mon 15:21:11:   Clusters...: 5
+20/11/2017 Mon 15:21:14:   FM.........: 0.8662274507428835
+20/11/2017 Mon 15:21:14:End of Script ------/
+20/11/2017 Mon 15:21:19:/------ Begin of Script
+20/11/2017 Mon 15:21:19:epsilon: 0.07 minPts: 10
+20/11/2017 Mon 15:21:19:   Type.......: Cell
+20/11/2017 Mon 15:21:19:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:21:19:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:21:19:   Map Matrix
+20/11/2017 Mon 15:21:19:   0, 1
+20/11/2017 Mon 15:21:19:   1, 2
+20/11/2017 Mon 15:21:19:   2, 6
+20/11/2017 Mon 15:21:19:   3, 4
+20/11/2017 Mon 15:21:19:   4, 5
+20/11/2017 Mon 15:21:19:   -1, 7
+20/11/2017 Mon 15:21:19:   Clusters...: 5
+20/11/2017 Mon 15:21:22:   FM.........: 0.8662274507428835
+20/11/2017 Mon 15:21:22:End of Script ------/
+20/11/2017 Mon 15:21:31:/------ Begin of Script
+20/11/2017 Mon 15:21:31:epsilon: 0.04 minPts: 10
+20/11/2017 Mon 15:21:31:   Type.......: Cell
+20/11/2017 Mon 15:21:31:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:21:31:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:21:31:   Map Matrix
+20/11/2017 Mon 15:21:31:   0, 1
+20/11/2017 Mon 15:21:31:   1, 3
+20/11/2017 Mon 15:21:31:   2, 4
+20/11/2017 Mon 15:21:31:   3, 4
+20/11/2017 Mon 15:21:31:   4, 5
+20/11/2017 Mon 15:21:31:   5, 5
+20/11/2017 Mon 15:21:31:   -1, 4
+20/11/2017 Mon 15:21:31:   Clusters...: 6
+20/11/2017 Mon 15:21:34:   FM.........: 0.4799374633713913
+20/11/2017 Mon 15:21:34:End of Script ------/
+20/11/2017 Mon 15:21:38:/------ Begin of Script
+20/11/2017 Mon 15:21:38:epsilon: 0.05 minPts: 10
+20/11/2017 Mon 15:21:38:   Type.......: Cell
+20/11/2017 Mon 15:21:38:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:21:38:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:21:38:   Map Matrix
+20/11/2017 Mon 15:21:38:   0, 1
+20/11/2017 Mon 15:21:38:   1, 1
+20/11/2017 Mon 15:21:38:   2, 2
+20/11/2017 Mon 15:21:38:   3, 2
+20/11/2017 Mon 15:21:38:   4, 2
+20/11/2017 Mon 15:21:38:   5, 2
+20/11/2017 Mon 15:21:38:   6, 2
+20/11/2017 Mon 15:21:38:   7, 3
+20/11/2017 Mon 15:21:38:   8, 3
+20/11/2017 Mon 15:21:38:   9, 3
+20/11/2017 Mon 15:21:38:   10, 3
+20/11/2017 Mon 15:21:38:   11, 3
+20/11/2017 Mon 15:21:38:   12, 4
+20/11/2017 Mon 15:21:38:   13, 4
+20/11/2017 Mon 15:21:38:   14, 5
+20/11/2017 Mon 15:21:38:   15, 6
+20/11/2017 Mon 15:21:38:   16, 6
+20/11/2017 Mon 15:21:38:   17, 6
+20/11/2017 Mon 15:21:38:   18, 6
+20/11/2017 Mon 15:21:38:   19, 6
+20/11/2017 Mon 15:21:38:   20, 6
+20/11/2017 Mon 15:21:38:   21, 7
+20/11/2017 Mon 15:21:38:   -1, 2
+20/11/2017 Mon 15:21:38:   Clusters...: 22
+20/11/2017 Mon 15:21:41:   FM.........: 0.8799019046976265
+20/11/2017 Mon 15:21:41:End of Script ------/
+20/11/2017 Mon 15:21:48:/------ Begin of Script
+20/11/2017 Mon 15:21:48:epsilon: 0.04 minPts: 6
+20/11/2017 Mon 15:21:48:   Type.......: Cell
+20/11/2017 Mon 15:21:48:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:21:48:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:21:48:   Map Matrix
+20/11/2017 Mon 15:21:48:   0, 1
+20/11/2017 Mon 15:21:48:   1, 1
+20/11/2017 Mon 15:21:48:   2, 1
+20/11/2017 Mon 15:21:48:   3, 2
+20/11/2017 Mon 15:21:48:   4, 2
+20/11/2017 Mon 15:21:48:   5, 2
+20/11/2017 Mon 15:21:48:   6, 2
+20/11/2017 Mon 15:21:48:   7, 3
+20/11/2017 Mon 15:21:48:   8, 3
+20/11/2017 Mon 15:21:48:   9, 3
+20/11/2017 Mon 15:21:48:   10, 3
+20/11/2017 Mon 15:21:48:   11, 3
+20/11/2017 Mon 15:21:48:   12, 3
+20/11/2017 Mon 15:21:48:   13, 4
+20/11/2017 Mon 15:21:48:   14, 4
+20/11/2017 Mon 15:21:48:   15, 4
+20/11/2017 Mon 15:21:48:   16, 4
+20/11/2017 Mon 15:21:48:   17, 4
+20/11/2017 Mon 15:21:48:   18, 4
+20/11/2017 Mon 15:21:48:   19, 4
+20/11/2017 Mon 15:21:48:   20, 4
+20/11/2017 Mon 15:21:48:   21, 4
+20/11/2017 Mon 15:21:48:   22, 4
+20/11/2017 Mon 15:21:48:   23, 4
+20/11/2017 Mon 15:21:48:   24, 4
+20/11/2017 Mon 15:21:48:   25, 4
+20/11/2017 Mon 15:21:48:   26, 4
+20/11/2017 Mon 15:21:48:   27, 4
+20/11/2017 Mon 15:21:48:   28, 5
+20/11/2017 Mon 15:21:48:   29, 5
+20/11/2017 Mon 15:21:48:   30, 6
+20/11/2017 Mon 15:21:48:   31, 6
+20/11/2017 Mon 15:21:48:   32, 6
+20/11/2017 Mon 15:21:48:   33, 6
+20/11/2017 Mon 15:21:48:   34, 6
+20/11/2017 Mon 15:21:48:   35, 6
+20/11/2017 Mon 15:21:48:   36, 6
+20/11/2017 Mon 15:21:48:   37, 6
+20/11/2017 Mon 15:21:48:   38, 6
+20/11/2017 Mon 15:21:48:   39, 7
+20/11/2017 Mon 15:21:48:   40, 7
+20/11/2017 Mon 15:21:48:   -1, 4
+20/11/2017 Mon 15:21:48:   Clusters...: 41
+20/11/2017 Mon 15:21:50:   FM.........: 0.5062773522539855
+20/11/2017 Mon 15:21:50:End of Script ------/
+20/11/2017 Mon 15:21:57:/------ Begin of Script
+20/11/2017 Mon 15:21:57:epsilon: 0.05 minPts: 6
+20/11/2017 Mon 15:21:57:   Type.......: Cell
+20/11/2017 Mon 15:21:57:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:21:57:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:21:57:   Map Matrix
+20/11/2017 Mon 15:21:57:   0, 1
+20/11/2017 Mon 15:21:57:   1, 1
+20/11/2017 Mon 15:21:57:   2, 2
+20/11/2017 Mon 15:21:57:   3, 2
+20/11/2017 Mon 15:21:57:   4, 2
+20/11/2017 Mon 15:21:57:   5, 2
+20/11/2017 Mon 15:21:57:   6, 2
+20/11/2017 Mon 15:21:57:   7, 3
+20/11/2017 Mon 15:21:57:   8, 3
+20/11/2017 Mon 15:21:57:   9, 3
+20/11/2017 Mon 15:21:57:   10, 3
+20/11/2017 Mon 15:21:57:   11, 3
+20/11/2017 Mon 15:21:57:   12, 7
+20/11/2017 Mon 15:21:57:   13, 4
+20/11/2017 Mon 15:21:57:   14, 4
+20/11/2017 Mon 15:21:57:   15, 4
+20/11/2017 Mon 15:21:57:   16, 5
+20/11/2017 Mon 15:21:57:   17, 6
+20/11/2017 Mon 15:21:57:   18, 6
+20/11/2017 Mon 15:21:57:   19, 6
+20/11/2017 Mon 15:21:57:   20, 6
+20/11/2017 Mon 15:21:57:   21, 7
+20/11/2017 Mon 15:21:57:   -1, 2
+20/11/2017 Mon 15:21:57:   Clusters...: 22
+20/11/2017 Mon 15:22:00:   FM.........: 0.9872760630910441
+20/11/2017 Mon 15:22:00:End of Script ------/
+20/11/2017 Mon 15:22:17:/------ Begin of Script
+20/11/2017 Mon 15:22:17:epsilon: 0.06 minPts: 6
+20/11/2017 Mon 15:22:17:   Type.......: Cell
+20/11/2017 Mon 15:22:17:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:22:17:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:22:17:   Map Matrix
+20/11/2017 Mon 15:22:17:   0, 1
+20/11/2017 Mon 15:22:17:   1, 2
+20/11/2017 Mon 15:22:17:   2, 3
+20/11/2017 Mon 15:22:17:   3, 4
+20/11/2017 Mon 15:22:17:   4, 5
+20/11/2017 Mon 15:22:17:   5, 6
+20/11/2017 Mon 15:22:17:   -1, 7
+20/11/2017 Mon 15:22:17:   Clusters...: 6
+20/11/2017 Mon 15:22:27:   FM.........: 0.9386909485201984
+20/11/2017 Mon 15:22:27:End of Script ------/
+20/11/2017 Mon 15:22:42:/------ Begin of Script
+20/11/2017 Mon 15:22:42:epsilon: 0.06 minPts: 7
+20/11/2017 Mon 15:22:42:   Type.......: Cell
+20/11/2017 Mon 15:22:42:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:22:42:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:22:42:   Map Matrix
+20/11/2017 Mon 15:22:42:   0, 1
+20/11/2017 Mon 15:22:42:   1, 2
+20/11/2017 Mon 15:22:42:   2, 3
+20/11/2017 Mon 15:22:42:   3, 4
+20/11/2017 Mon 15:22:42:   4, 5
+20/11/2017 Mon 15:22:42:   5, 6
+20/11/2017 Mon 15:22:42:   -1, 7
+20/11/2017 Mon 15:22:42:   Clusters...: 6
+20/11/2017 Mon 15:22:46:   FM.........: 0.9386909485201984
+20/11/2017 Mon 15:22:46:End of Script ------/
+20/11/2017 Mon 15:22:52:/------ Begin of Script
+20/11/2017 Mon 15:22:52:epsilon: 0.06 minPts: 8
+20/11/2017 Mon 15:22:52:   Type.......: Cell
+20/11/2017 Mon 15:22:52:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:22:52:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:22:52:   Map Matrix
+20/11/2017 Mon 15:22:52:   0, 1
+20/11/2017 Mon 15:22:52:   1, 2
+20/11/2017 Mon 15:22:52:   2, 3
+20/11/2017 Mon 15:22:52:   3, 4
+20/11/2017 Mon 15:22:52:   4, 5
+20/11/2017 Mon 15:22:52:   5, 6
+20/11/2017 Mon 15:22:52:   -1, 7
+20/11/2017 Mon 15:22:52:   Clusters...: 6
+20/11/2017 Mon 15:22:54:   FM.........: 0.9386909485201984
+20/11/2017 Mon 15:22:54:End of Script ------/
+20/11/2017 Mon 15:23:17:/------ Begin of Script
+20/11/2017 Mon 15:23:17:epsilon: 0.06 minPts: 10
+20/11/2017 Mon 15:23:17:   Type.......: Cell
+20/11/2017 Mon 15:23:17:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:23:17:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:23:17:   Map Matrix
+20/11/2017 Mon 15:23:17:   0, 1
+20/11/2017 Mon 15:23:17:   1, 2
+20/11/2017 Mon 15:23:17:   2, 3
+20/11/2017 Mon 15:23:17:   3, 4
+20/11/2017 Mon 15:23:17:   4, 5
+20/11/2017 Mon 15:23:17:   5, 6
+20/11/2017 Mon 15:23:17:   -1, 2
+20/11/2017 Mon 15:23:17:   Clusters...: 6
+20/11/2017 Mon 15:23:21:   FM.........: 0.9376438588625426
+20/11/2017 Mon 15:23:21:End of Script ------/
+20/11/2017 Mon 15:23:26:/------ Begin of Script
+20/11/2017 Mon 15:23:26:epsilon: 0.055 minPts: 10
+20/11/2017 Mon 15:23:26:   Type.......: Cell
+20/11/2017 Mon 15:23:26:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:23:26:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:23:26:   Map Matrix
+20/11/2017 Mon 15:23:26:   0, 1
+20/11/2017 Mon 15:23:26:   1, 2
+20/11/2017 Mon 15:23:26:   2, 3
+20/11/2017 Mon 15:23:26:   3, 4
+20/11/2017 Mon 15:23:26:   4, 5
+20/11/2017 Mon 15:23:26:   5, 6
+20/11/2017 Mon 15:23:26:   6, 7
+20/11/2017 Mon 15:23:26:   -1, 3
+20/11/2017 Mon 15:23:26:   Clusters...: 7
+20/11/2017 Mon 15:23:30:   FM.........: 0.9846210486243506
+20/11/2017 Mon 15:23:30:End of Script ------/
+20/11/2017 Mon 15:30:32:/------ Begin of Script
+20/11/2017 Mon 15:30:32:epsilon: 0.055 minPts: 10
+20/11/2017 Mon 15:30:32:   Type.......: Cell
+20/11/2017 Mon 15:30:32:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:30:32:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:30:32:   Map Matrix
+20/11/2017 Mon 15:30:32:   0, 1
+20/11/2017 Mon 15:30:32:   1, 2
+20/11/2017 Mon 15:30:32:   2, 3
+20/11/2017 Mon 15:30:32:   3, 4
+20/11/2017 Mon 15:30:32:   4, 5
+20/11/2017 Mon 15:30:32:   5, 6
+20/11/2017 Mon 15:30:32:   6, 7
+20/11/2017 Mon 15:30:32:   -1, -1
+20/11/2017 Mon 15:30:32:   Clusters...: 7
+20/11/2017 Mon 15:30:41:   FM.........: 0.9804741810455688
+20/11/2017 Mon 15:30:41:End of Script ------/
+20/11/2017 Mon 15:31:27:/------ Begin of Script
+20/11/2017 Mon 15:31:27:epsilon: 0.055 minPts: 10
+20/11/2017 Mon 15:31:27:   Type.......: Cell
+20/11/2017 Mon 15:31:27:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:31:27:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:31:27:   Map Matrix
+20/11/2017 Mon 15:31:27:   0, 1
+20/11/2017 Mon 15:31:27:   1, 2
+20/11/2017 Mon 15:31:27:   2, 3
+20/11/2017 Mon 15:31:27:   3, 4
+20/11/2017 Mon 15:31:27:   4, 5
+20/11/2017 Mon 15:31:27:   5, 6
+20/11/2017 Mon 15:31:27:   6, 7
+20/11/2017 Mon 15:31:27:   -1, -1
+20/11/2017 Mon 15:31:27:   Clusters...: 7
+20/11/2017 Mon 15:31:28:   FM.........: 0.9804741810455688
+20/11/2017 Mon 15:31:28:End of Script ------/
+20/11/2017 Mon 15:31:38:/------ Begin of Script
+20/11/2017 Mon 15:31:38:epsilon: 0.04 minPts: 6
+20/11/2017 Mon 15:31:38:   Type.......: Point
+20/11/2017 Mon 15:31:38:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:31:38:   Output File: ../data/Agregation/central/5.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:31:38:   Map Matrix
+20/11/2017 Mon 15:31:38:   0, 1
+20/11/2017 Mon 15:31:38:   1, 2
+20/11/2017 Mon 15:31:38:   2, 3
+20/11/2017 Mon 15:31:38:   3, 4
+20/11/2017 Mon 15:31:38:   4, 5
+20/11/2017 Mon 15:31:38:   5, 6
+20/11/2017 Mon 15:31:38:   6, 7
+20/11/2017 Mon 15:31:38:   -1, -1
+20/11/2017 Mon 15:31:38:   Clusters...: 7
+20/11/2017 Mon 15:31:43:   FM.........: 0.9880043421137912
+20/11/2017 Mon 15:31:43:End of Script ------/
+20/11/2017 Mon 15:50:57:/------ Begin of Script
+20/11/2017 Mon 15:50:57:epsilon: 0.04 minPts: 6
+20/11/2017 Mon 15:50:57:   Type.......: Point
+20/11/2017 Mon 15:50:57:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:50:57:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:50:57:   Map Matrix
+20/11/2017 Mon 15:50:57:   0, 1
+20/11/2017 Mon 15:50:57:   1, 2
+20/11/2017 Mon 15:50:57:   2, 3
+20/11/2017 Mon 15:50:57:   3, 4
+20/11/2017 Mon 15:50:57:   4, 5
+20/11/2017 Mon 15:50:57:   5, 6
+20/11/2017 Mon 15:50:57:   6, 7
+20/11/2017 Mon 15:50:57:   -1, -1
+20/11/2017 Mon 15:50:57:   Clusters...: 7
+20/11/2017 Mon 15:51:00:   FM.........: 0.9880043421137912
+20/11/2017 Mon 15:51:00:End of Script ------/
+20/11/2017 Mon 15:51:45:/------ Begin of Script
+20/11/2017 Mon 15:51:45:epsilon: 0.055 minPts: 7
+20/11/2017 Mon 15:51:45:   Type.......: Point
+20/11/2017 Mon 15:51:45:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 15:51:45:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:51:45:   Map Matrix
+20/11/2017 Mon 15:51:45:   0, 1
+20/11/2017 Mon 15:51:45:   1, 2
+20/11/2017 Mon 15:51:45:   2, 6
+20/11/2017 Mon 15:51:45:   3, 4
+20/11/2017 Mon 15:51:45:   4, 5
+20/11/2017 Mon 15:51:45:   Clusters...: 5
+20/11/2017 Mon 15:52:00:   FM.........: 0.8651731836537094
+20/11/2017 Mon 15:52:00:End of Script ------/
+20/11/2017 Mon 15:52:05:/------ Begin of Script
+20/11/2017 Mon 15:52:05:epsilon: 0.055 minPts: 7
+20/11/2017 Mon 15:52:05:   Type.......: Cell
+20/11/2017 Mon 15:52:05:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 15:52:05:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 15:52:05:   Map Matrix
+20/11/2017 Mon 15:52:05:   0, 1
+20/11/2017 Mon 15:52:05:   1, 2
+20/11/2017 Mon 15:52:05:   2, 3
+20/11/2017 Mon 15:52:05:   3, 3
+20/11/2017 Mon 15:52:05:   4, 4
+20/11/2017 Mon 15:52:05:   5, 5
+20/11/2017 Mon 15:52:05:   6, 6
+20/11/2017 Mon 15:52:05:   -1, -1
+20/11/2017 Mon 15:52:05:   Clusters...: 7
+20/11/2017 Mon 15:52:09:   FM.........: 0.9386909485201984
+20/11/2017 Mon 15:52:09:End of Script ------/
+20/11/2017 Mon 18:25:25:/------ Begin of Script
+20/11/2017 Mon 18:25:25:epsilon: 0.04 minPts: 6
+20/11/2017 Mon 18:25:25:   Type.......: Point
+20/11/2017 Mon 18:25:25:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:25:25:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:25:25:   Map Matrix
+20/11/2017 Mon 18:25:25:   -1, -1, 3
+20/11/2017 Mon 18:25:25:   0, 1, 45
+20/11/2017 Mon 18:25:25:   1, 2, 167
+20/11/2017 Mon 18:25:25:   2, 3, 100
+20/11/2017 Mon 18:25:25:   3, 4, 272
+20/11/2017 Mon 18:25:25:   4, 5, 34
+20/11/2017 Mon 18:25:25:   5, 6, 127
+20/11/2017 Mon 18:25:25:   6, 7, 34
+20/11/2017 Mon 18:25:25:   Clusters...: 7
+20/11/2017 Mon 18:26:44:   FM.........: 0.9880043421137912
+20/11/2017 Mon 18:26:44:End of Script ------/
+20/11/2017 Mon 18:38:23:/------ Begin of Script
+20/11/2017 Mon 18:38:23:epsilon: 0.055 minPts: 7
+20/11/2017 Mon 18:38:23:   Type.......: Cell
+20/11/2017 Mon 18:38:23:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 18:38:23:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:38:23:   Map Matrix
+20/11/2017 Mon 18:38:23:   -1, -1, 1
+20/11/2017 Mon 18:38:23:   0, 1, 45
+20/11/2017 Mon 18:38:23:   1, 2, 170
+20/11/2017 Mon 18:38:23:   2, 3, 94
+20/11/2017 Mon 18:38:23:   3, 3, 8
+20/11/2017 Mon 18:38:23:   4, 4, 273
+20/11/2017 Mon 18:38:23:   5, 5, 34
+20/11/2017 Mon 18:38:23:   6, 6, 130
+20/11/2017 Mon 18:38:23:   Clusters...: 7
+20/11/2017 Mon 18:39:12:   FM.........: 0.9386909485201984
+20/11/2017 Mon 18:39:12:End of Script ------/
+20/11/2017 Mon 18:39:32:/------ Begin of Script
+20/11/2017 Mon 18:39:32:epsilon: 0.054 minPts: 7
+20/11/2017 Mon 18:39:32:   Type.......: Cell
+20/11/2017 Mon 18:39:32:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 18:39:32:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:39:32:   Map Matrix
+20/11/2017 Mon 18:39:32:   -1, -1, 3
+20/11/2017 Mon 18:39:32:   0, 1, 45
+20/11/2017 Mon 18:39:32:   1, 2, 170
+20/11/2017 Mon 18:39:32:   2, 2, 44
+20/11/2017 Mon 18:39:32:   3, 3, 50
+20/11/2017 Mon 18:39:32:   5, 4, 271
+20/11/2017 Mon 18:39:32:   4, 4, 8
+20/11/2017 Mon 18:39:32:   6, 5, 34
+20/11/2017 Mon 18:39:32:   7, 6, 115
+20/11/2017 Mon 18:39:32:   9, 7, 33
+20/11/2017 Mon 18:39:32:   8, 8, 12
+20/11/2017 Mon 18:39:32:   Clusters...: 10
+20/11/2017 Mon 18:39:38:   FM.........: 0.8922122807177612
+20/11/2017 Mon 18:39:38:End of Script ------/
+20/11/2017 Mon 18:39:46:/------ Begin of Script
+20/11/2017 Mon 18:39:46:epsilon: 0.0545 minPts: 7
+20/11/2017 Mon 18:39:46:   Type.......: Cell
+20/11/2017 Mon 18:39:46:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 18:39:46:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:39:46:   Map Matrix
+20/11/2017 Mon 18:39:46:   -1, -1, 1
+20/11/2017 Mon 18:39:46:   0, 1, 45
+20/11/2017 Mon 18:39:46:   1, 2, 170
+20/11/2017 Mon 18:39:46:   2, 2, 44
+20/11/2017 Mon 18:39:46:   3, 3, 50
+20/11/2017 Mon 18:39:46:   5, 4, 271
+20/11/2017 Mon 18:39:46:   4, 4, 8
+20/11/2017 Mon 18:39:46:   6, 5, 34
+20/11/2017 Mon 18:39:46:   7, 6, 130
+20/11/2017 Mon 18:39:46:   8, 7, 33
+20/11/2017 Mon 18:39:46:   Clusters...: 9
+20/11/2017 Mon 18:39:51:   FM.........: 0.9065590068452245
+20/11/2017 Mon 18:39:51:End of Script ------/
+20/11/2017 Mon 18:40:02:/------ Begin of Script
+20/11/2017 Mon 18:40:02:epsilon: 0.0548 minPts: 7
+20/11/2017 Mon 18:40:02:   Type.......: Cell
+20/11/2017 Mon 18:40:02:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 18:40:02:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:40:02:   Map Matrix
+20/11/2017 Mon 18:40:02:   -1, -1, 1
+20/11/2017 Mon 18:40:02:   0, 1, 45
+20/11/2017 Mon 18:40:02:   1, 2, 170
+20/11/2017 Mon 18:40:02:   2, 3, 94
+20/11/2017 Mon 18:40:02:   3, 3, 8
+20/11/2017 Mon 18:40:02:   4, 4, 271
+20/11/2017 Mon 18:40:02:   5, 5, 34
+20/11/2017 Mon 18:40:02:   6, 6, 130
+20/11/2017 Mon 18:40:02:   7, 7, 33
+20/11/2017 Mon 18:40:02:   Clusters...: 8
+20/11/2017 Mon 18:40:05:   FM.........: 0.9952123601174344
+20/11/2017 Mon 18:40:05:End of Script ------/
+20/11/2017 Mon 18:40:48:/------ Begin of Script
+20/11/2017 Mon 18:40:48:epsilon: 0.0548 minPts: 7
+20/11/2017 Mon 18:40:48:   Type.......: Cell
+20/11/2017 Mon 18:40:48:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 18:40:48:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:40:48:   Map Matrix
+20/11/2017 Mon 18:40:48:   -1, -1, 1
+20/11/2017 Mon 18:40:48:   0, 1, 45
+20/11/2017 Mon 18:40:48:   1, 2, 170
+20/11/2017 Mon 18:40:48:   2, 3, 94
+20/11/2017 Mon 18:40:48:   3, 3, 8
+20/11/2017 Mon 18:40:48:   4, 4, 271
+20/11/2017 Mon 18:40:48:   5, 5, 34
+20/11/2017 Mon 18:40:48:   6, 6, 130
+20/11/2017 Mon 18:40:48:   7, 7, 33
+20/11/2017 Mon 18:40:48:   Clusters...: 8
+20/11/2017 Mon 18:40:57:   FM.........: 0.9952123601174344
+20/11/2017 Mon 18:40:57:End of Script ------/
+20/11/2017 Mon 18:45:39:/------ Begin of Script
+20/11/2017 Mon 18:45:39:epsilon: 0.045 minPts: 6
+20/11/2017 Mon 18:45:39:   Type.......: Point
+20/11/2017 Mon 18:45:39:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:45:39:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:45:39:   Map Matrix
+20/11/2017 Mon 18:45:39:   -1, -1, 1
+20/11/2017 Mon 18:45:39:   0, 1, 45
+20/11/2017 Mon 18:45:39:   1, 2, 169
+20/11/2017 Mon 18:45:39:   2, 3, 102
+20/11/2017 Mon 18:45:39:   3, 4, 273
+20/11/2017 Mon 18:45:39:   4, 5, 34
+20/11/2017 Mon 18:45:39:   5, 6, 128
+20/11/2017 Mon 18:45:39:   Clusters...: 6
+20/11/2017 Mon 18:45:47:   FM.........: 0.93268322677042
+20/11/2017 Mon 18:45:47:End of Script ------/
+20/11/2017 Mon 18:45:56:/------ Begin of Script
+20/11/2017 Mon 18:45:56:epsilon: 0.038 minPts: 6
+20/11/2017 Mon 18:45:56:   Type.......: Point
+20/11/2017 Mon 18:45:56:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:45:56:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:45:56:   Map Matrix
+20/11/2017 Mon 18:45:56:   -1, -1, 6
+20/11/2017 Mon 18:45:56:   0, 1, 45
+20/11/2017 Mon 18:45:56:   1, 2, 164
+20/11/2017 Mon 18:45:56:   2, 3, 100
+20/11/2017 Mon 18:45:56:   3, 4, 272
+20/11/2017 Mon 18:45:56:   4, 5, 34
+20/11/2017 Mon 18:45:56:   5, 6, 127
+20/11/2017 Mon 18:45:56:   6, 7, 34
+20/11/2017 Mon 18:45:56:   Clusters...: 7
+20/11/2017 Mon 18:46:05:   FM.........: 0.9849789251769918
+20/11/2017 Mon 18:46:05:End of Script ------/
+20/11/2017 Mon 18:46:20:/------ Begin of Script
+20/11/2017 Mon 18:46:20:epsilon: 0.038 minPts: 5
+20/11/2017 Mon 18:46:20:   Type.......: Point
+20/11/2017 Mon 18:46:20:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:46:20:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:46:20:   Map Matrix
+20/11/2017 Mon 18:46:20:   -1, -1, 3
+20/11/2017 Mon 18:46:20:   0, 1, 45
+20/11/2017 Mon 18:46:20:   1, 2, 167
+20/11/2017 Mon 18:46:20:   3, 4, 273
+20/11/2017 Mon 18:46:20:   4, 5, 34
+20/11/2017 Mon 18:46:20:   2, 6, 130
+20/11/2017 Mon 18:46:20:   Clusters...: 5
+20/11/2017 Mon 18:46:27:   FM.........: 0.8611229235129974
+20/11/2017 Mon 18:46:27:End of Script ------/
+20/11/2017 Mon 18:46:33:/------ Begin of Script
+20/11/2017 Mon 18:46:33:epsilon: 0.045 minPts: 5
+20/11/2017 Mon 18:46:33:   Type.......: Point
+20/11/2017 Mon 18:46:33:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:46:33:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:46:33:   Map Matrix
+20/11/2017 Mon 18:46:33:   -1, -1, 1
+20/11/2017 Mon 18:46:33:   0, 1, 45
+20/11/2017 Mon 18:46:33:   1, 2, 169
+20/11/2017 Mon 18:46:33:   3, 4, 273
+20/11/2017 Mon 18:46:33:   4, 5, 34
+20/11/2017 Mon 18:46:33:   2, 6, 130
+20/11/2017 Mon 18:46:33:   Clusters...: 5
+20/11/2017 Mon 18:46:36:   FM.........: 0.8638087067859841
+20/11/2017 Mon 18:46:36:End of Script ------/
+20/11/2017 Mon 18:46:41:/------ Begin of Script
+20/11/2017 Mon 18:46:41:epsilon: 0.04 minPts: 5
+20/11/2017 Mon 18:46:41:   Type.......: Point
+20/11/2017 Mon 18:46:41:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:46:41:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:46:41:   Map Matrix
+20/11/2017 Mon 18:46:41:   -1, -1, 2
+20/11/2017 Mon 18:46:41:   0, 1, 45
+20/11/2017 Mon 18:46:41:   1, 2, 168
+20/11/2017 Mon 18:46:41:   3, 4, 273
+20/11/2017 Mon 18:46:41:   4, 5, 34
+20/11/2017 Mon 18:46:41:   2, 6, 130
+20/11/2017 Mon 18:46:41:   Clusters...: 5
+20/11/2017 Mon 18:46:43:   FM.........: 0.8624586010119826
+20/11/2017 Mon 18:46:43:End of Script ------/
+20/11/2017 Mon 18:46:47:/------ Begin of Script
+20/11/2017 Mon 18:46:47:epsilon: 0.04 minPts: 6
+20/11/2017 Mon 18:46:47:   Type.......: Point
+20/11/2017 Mon 18:46:47:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:46:47:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:46:47:   Map Matrix
+20/11/2017 Mon 18:46:47:   -1, -1, 3
+20/11/2017 Mon 18:46:47:   0, 1, 45
+20/11/2017 Mon 18:46:47:   1, 2, 167
+20/11/2017 Mon 18:46:47:   2, 3, 100
+20/11/2017 Mon 18:46:47:   3, 4, 272
+20/11/2017 Mon 18:46:47:   4, 5, 34
+20/11/2017 Mon 18:46:47:   5, 6, 127
+20/11/2017 Mon 18:46:47:   6, 7, 34
+20/11/2017 Mon 18:46:47:   Clusters...: 7
+20/11/2017 Mon 18:46:51:   FM.........: 0.9880043421137912
+20/11/2017 Mon 18:46:51:End of Script ------/
+20/11/2017 Mon 18:47:01:/------ Begin of Script
+20/11/2017 Mon 18:47:01:epsilon: 0.042 minPts: 6
+20/11/2017 Mon 18:47:01:   Type.......: Point
+20/11/2017 Mon 18:47:01:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:47:01:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:47:01:   Map Matrix
+20/11/2017 Mon 18:47:01:   -1, -1, 2
+20/11/2017 Mon 18:47:01:   0, 1, 45
+20/11/2017 Mon 18:47:01:   1, 2, 168
+20/11/2017 Mon 18:47:01:   2, 3, 101
+20/11/2017 Mon 18:47:01:   3, 4, 273
+20/11/2017 Mon 18:47:01:   4, 5, 34
+20/11/2017 Mon 18:47:01:   5, 6, 128
+20/11/2017 Mon 18:47:01:   Clusters...: 6
+20/11/2017 Mon 18:47:05:   FM.........: 0.9305729261697143
+20/11/2017 Mon 18:47:05:End of Script ------/
+20/11/2017 Mon 18:47:09:/------ Begin of Script
+20/11/2017 Mon 18:47:09:epsilon: 0.042 minPts: 55
+20/11/2017 Mon 18:47:09:   Type.......: Point
+20/11/2017 Mon 18:47:09:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:47:09:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:47:09:   Map Matrix
+20/11/2017 Mon 18:47:09:   -1, -1, 273
+20/11/2017 Mon 18:47:09:   Clusters...: 0
+20/11/2017 Mon 18:47:11:   FM.........: 0.4657661364876436
+20/11/2017 Mon 18:47:11:End of Script ------/
+20/11/2017 Mon 18:47:16:/------ Begin of Script
+20/11/2017 Mon 18:47:16:epsilon: 0.042 minPts: 5
+20/11/2017 Mon 18:47:16:   Type.......: Point
+20/11/2017 Mon 18:47:16:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:47:16:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:47:16:   Map Matrix
+20/11/2017 Mon 18:47:16:   -1, -1, 2
+20/11/2017 Mon 18:47:16:   0, 1, 45
+20/11/2017 Mon 18:47:16:   1, 2, 168
+20/11/2017 Mon 18:47:16:   3, 4, 273
+20/11/2017 Mon 18:47:16:   4, 5, 34
+20/11/2017 Mon 18:47:16:   2, 6, 130
+20/11/2017 Mon 18:47:16:   Clusters...: 5
+20/11/2017 Mon 18:47:21:   FM.........: 0.8624586010119826
+20/11/2017 Mon 18:47:21:End of Script ------/
+20/11/2017 Mon 18:47:25:/------ Begin of Script
+20/11/2017 Mon 18:47:25:epsilon: 0.042 minPts: 7
+20/11/2017 Mon 18:47:25:   Type.......: Point
+20/11/2017 Mon 18:47:25:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+20/11/2017 Mon 18:47:25:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+20/11/2017 Mon 18:47:25:   Map Matrix
+20/11/2017 Mon 18:47:25:   -1, -1, 5
+20/11/2017 Mon 18:47:25:   0, 1, 45
+20/11/2017 Mon 18:47:25:   1, 2, 165
+20/11/2017 Mon 18:47:25:   2, 3, 100
+20/11/2017 Mon 18:47:25:   3, 4, 273
+20/11/2017 Mon 18:47:25:   4, 5, 34
+20/11/2017 Mon 18:47:25:   5, 6, 128
+20/11/2017 Mon 18:47:25:   6, 7, 34
+20/11/2017 Mon 18:47:25:   Clusters...: 7
+20/11/2017 Mon 18:47:27:   FM.........: 0.9895214417946377
+20/11/2017 Mon 18:47:27:End of Script ------/
+20/11/2017 Mon 19:17:08:/------ Begin of Script
+20/11/2017 Mon 19:17:08:epsilon: 0.0548 minPts: 7
+20/11/2017 Mon 19:17:08:   Type.......: Cell
+20/11/2017 Mon 19:17:08:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 19:17:08:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 19:17:08:   Map Matrix
+20/11/2017 Mon 19:17:08:   -1, -1, 1
+20/11/2017 Mon 19:17:08:   0, 1, 45
+20/11/2017 Mon 19:17:08:   1, 2, 170
+20/11/2017 Mon 19:17:08:   2, 3, 94
+20/11/2017 Mon 19:17:08:   3, 3, 8
+20/11/2017 Mon 19:17:08:   4, 4, 271
+20/11/2017 Mon 19:17:08:   5, 5, 34
+20/11/2017 Mon 19:17:08:   6, 6, 130
+20/11/2017 Mon 19:17:08:   7, 7, 33
+20/11/2017 Mon 19:17:19:/------ Begin of Script
+20/11/2017 Mon 19:17:19:epsilon: 0.0548 minPts: 7
+20/11/2017 Mon 19:17:19:   Type.......: Cell
+20/11/2017 Mon 19:17:19:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+20/11/2017 Mon 19:17:19:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+20/11/2017 Mon 19:17:19:   Map Matrix
+20/11/2017 Mon 19:17:19:   -1, -1, 1
+20/11/2017 Mon 19:17:19:   0, 1, 45
+20/11/2017 Mon 19:17:19:   1, 2, 170
+20/11/2017 Mon 19:17:19:   2, 3, 94
+20/11/2017 Mon 19:17:19:   3, 3, 8
+20/11/2017 Mon 19:17:19:   4, 4, 271
+20/11/2017 Mon 19:17:19:   5, 5, 34
+20/11/2017 Mon 19:17:19:   6, 6, 130
+20/11/2017 Mon 19:17:19:   7, 7, 33
+20/11/2017 Mon 19:17:19:   Clusters...: 8
+20/11/2017 Mon 19:18:09:   FM.........: 0.9952123601174344
+20/11/2017 Mon 19:18:09:End of Script ------/
+21/11/2017 Tue 17:45:25:/------ Begin of Script
+21/11/2017 Tue 17:45:25:epsilon: 0.0548 minPts: 7
+21/11/2017 Tue 17:45:25:   Type.......: Cell
+21/11/2017 Tue 17:45:25:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:45:25:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:45:25:   Map Matrix
+21/11/2017 Tue 17:45:25:   -1, -1, 1
+21/11/2017 Tue 17:45:25:   0, 1, 45
+21/11/2017 Tue 17:45:25:   1, 2, 170
+21/11/2017 Tue 17:45:25:   2, 3, 94
+21/11/2017 Tue 17:45:25:   3, 3, 8
+21/11/2017 Tue 17:45:25:   4, 4, 271
+21/11/2017 Tue 17:45:25:   5, 5, 34
+21/11/2017 Tue 17:45:25:   6, 6, 130
+21/11/2017 Tue 17:45:25:   7, 7, 33
+21/11/2017 Tue 17:45:25:   Clusters...: 8
+21/11/2017 Tue 17:45:32:   FM.........: 0.9952123601174344
+21/11/2017 Tue 17:45:32:End of Script ------/
+21/11/2017 Tue 17:47:00:/------ Begin of Script
+21/11/2017 Tue 17:47:00:epsilon: 0.055 minPts: 7
+21/11/2017 Tue 17:47:00:   Type.......: Cell
+21/11/2017 Tue 17:47:00:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:47:00:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:47:00:   Map Matrix
+21/11/2017 Tue 17:47:00:   -1, -1, 1
+21/11/2017 Tue 17:47:00:   0, 1, 45
+21/11/2017 Tue 17:47:00:   1, 2, 170
+21/11/2017 Tue 17:47:00:   2, 3, 94
+21/11/2017 Tue 17:47:00:   3, 3, 8
+21/11/2017 Tue 17:47:00:   4, 4, 273
+21/11/2017 Tue 17:47:00:   5, 5, 34
+21/11/2017 Tue 17:47:00:   6, 6, 130
+21/11/2017 Tue 17:47:01:   Clusters...: 7
+21/11/2017 Tue 17:47:07:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:47:07:End of Script ------/
+21/11/2017 Tue 17:47:33:/------ Begin of Script
+21/11/2017 Tue 17:47:33:epsilon: 0.055 minPts: 6
+21/11/2017 Tue 17:47:33:   Type.......: Cell
+21/11/2017 Tue 17:47:33:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:47:33:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:47:33:   Map Matrix
+21/11/2017 Tue 17:47:33:   -1, -1, 1
+21/11/2017 Tue 17:47:33:   0, 1, 45
+21/11/2017 Tue 17:47:33:   1, 2, 170
+21/11/2017 Tue 17:47:33:   2, 3, 94
+21/11/2017 Tue 17:47:33:   3, 3, 8
+21/11/2017 Tue 17:47:33:   4, 4, 273
+21/11/2017 Tue 17:47:33:   5, 5, 34
+21/11/2017 Tue 17:47:33:   6, 6, 130
+21/11/2017 Tue 17:47:33:   Clusters...: 7
+21/11/2017 Tue 17:47:36:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:47:36:End of Script ------/
+21/11/2017 Tue 17:47:48:/------ Begin of Script
+21/11/2017 Tue 17:47:48:epsilon: 0.0548 minPts: 6
+21/11/2017 Tue 17:47:48:   Type.......: Cell
+21/11/2017 Tue 17:47:48:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:47:48:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:47:48:   Map Matrix
+21/11/2017 Tue 17:47:48:   -1, -1, 1
+21/11/2017 Tue 17:47:48:   0, 1, 45
+21/11/2017 Tue 17:47:48:   1, 2, 170
+21/11/2017 Tue 17:47:49:   2, 3, 94
+21/11/2017 Tue 17:47:49:   3, 3, 8
+21/11/2017 Tue 17:47:49:   5, 4, 271
+21/11/2017 Tue 17:47:49:   6, 5, 34
+21/11/2017 Tue 17:47:49:   7, 6, 130
+21/11/2017 Tue 17:47:49:   4, 7, 33
+21/11/2017 Tue 17:47:49:   Clusters...: 8
+21/11/2017 Tue 17:47:51:   FM.........: 0.9952123601174344
+21/11/2017 Tue 17:47:51:End of Script ------/
+21/11/2017 Tue 17:48:00:/------ Begin of Script
+21/11/2017 Tue 17:48:00:epsilon: 0.0548 minPts: 5
+21/11/2017 Tue 17:48:00:   Type.......: Cell
+21/11/2017 Tue 17:48:00:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:48:00:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:48:00:   Map Matrix
+21/11/2017 Tue 17:48:00:   -1, -1, 1
+21/11/2017 Tue 17:48:00:   0, 1, 45
+21/11/2017 Tue 17:48:00:   1, 2, 170
+21/11/2017 Tue 17:48:00:   2, 3, 94
+21/11/2017 Tue 17:48:00:   3, 3, 8
+21/11/2017 Tue 17:48:00:   5, 4, 271
+21/11/2017 Tue 17:48:00:   6, 5, 34
+21/11/2017 Tue 17:48:00:   7, 6, 130
+21/11/2017 Tue 17:48:00:   4, 7, 33
+21/11/2017 Tue 17:48:00:   Clusters...: 8
+21/11/2017 Tue 17:48:03:   FM.........: 0.9952123601174344
+21/11/2017 Tue 17:48:03:End of Script ------/
+21/11/2017 Tue 17:48:17:/------ Begin of Script
+21/11/2017 Tue 17:48:17:epsilon: 0.0548 minPts: 10
+21/11/2017 Tue 17:48:17:   Type.......: Cell
+21/11/2017 Tue 17:48:17:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:48:17:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:48:17:   Map Matrix
+21/11/2017 Tue 17:48:17:   -1, -1, 12
+21/11/2017 Tue 17:48:17:   0, 1, 45
+21/11/2017 Tue 17:48:17:   1, 2, 166
+21/11/2017 Tue 17:48:17:   2, 3, 90
+21/11/2017 Tue 17:48:17:   3, 4, 271
+21/11/2017 Tue 17:48:17:   4, 5, 34
+21/11/2017 Tue 17:48:17:   5, 6, 115
+21/11/2017 Tue 17:48:17:   6, 6, 14
+21/11/2017 Tue 17:48:17:   7, 7, 33
+21/11/2017 Tue 17:48:17:   Clusters...: 8
+21/11/2017 Tue 17:48:20:   FM.........: 0.9804741810455688
+21/11/2017 Tue 17:48:20:End of Script ------/
+21/11/2017 Tue 17:48:35:/------ Begin of Script
+21/11/2017 Tue 17:48:35:epsilon: 0.0549 minPts: 7
+21/11/2017 Tue 17:48:35:   Type.......: Cell
+21/11/2017 Tue 17:48:35:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:48:35:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:48:35:   Map Matrix
+21/11/2017 Tue 17:48:35:   -1, -1, 1
+21/11/2017 Tue 17:48:35:   0, 1, 45
+21/11/2017 Tue 17:48:35:   1, 2, 170
+21/11/2017 Tue 17:48:35:   2, 3, 94
+21/11/2017 Tue 17:48:35:   3, 3, 8
+21/11/2017 Tue 17:48:35:   4, 4, 273
+21/11/2017 Tue 17:48:35:   5, 5, 34
+21/11/2017 Tue 17:48:35:   6, 6, 130
+21/11/2017 Tue 17:48:35:   Clusters...: 7
+21/11/2017 Tue 17:48:38:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:48:38:End of Script ------/
+21/11/2017 Tue 17:49:04:/------ Begin of Script
+21/11/2017 Tue 17:49:04:epsilon: 0.0551 minPts: 7
+21/11/2017 Tue 17:49:04:   Type.......: Cell
+21/11/2017 Tue 17:49:04:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:49:04:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:49:04:   Map Matrix
+21/11/2017 Tue 17:49:04:   -1, -1, 1
+21/11/2017 Tue 17:49:04:   0, 1, 45
+21/11/2017 Tue 17:49:04:   1, 2, 170
+21/11/2017 Tue 17:49:04:   2, 3, 94
+21/11/2017 Tue 17:49:04:   3, 3, 8
+21/11/2017 Tue 17:49:04:   4, 4, 273
+21/11/2017 Tue 17:49:04:   5, 5, 34
+21/11/2017 Tue 17:49:04:   6, 6, 130
+21/11/2017 Tue 17:49:04:   Clusters...: 7
+21/11/2017 Tue 17:49:07:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:49:07:End of Script ------/
+21/11/2017 Tue 17:49:17:/------ Begin of Script
+21/11/2017 Tue 17:49:17:epsilon: 0.0555 minPts: 7
+21/11/2017 Tue 17:49:17:   Type.......: Cell
+21/11/2017 Tue 17:49:17:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:49:17:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:49:17:   Map Matrix
+21/11/2017 Tue 17:49:17:   -1, -1, 1
+21/11/2017 Tue 17:49:17:   0, 1, 45
+21/11/2017 Tue 17:49:17:   1, 2, 170
+21/11/2017 Tue 17:49:17:   2, 3, 94
+21/11/2017 Tue 17:49:17:   3, 3, 8
+21/11/2017 Tue 17:49:17:   4, 4, 273
+21/11/2017 Tue 17:49:17:   5, 5, 34
+21/11/2017 Tue 17:49:17:   6, 6, 130
+21/11/2017 Tue 17:49:17:   Clusters...: 7
+21/11/2017 Tue 17:49:19:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:49:19:End of Script ------/
+21/11/2017 Tue 17:49:29:/------ Begin of Script
+21/11/2017 Tue 17:49:29:epsilon: 0.056 minPts: 7
+21/11/2017 Tue 17:49:29:   Type.......: Cell
+21/11/2017 Tue 17:49:29:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:49:29:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:49:29:   Map Matrix
+21/11/2017 Tue 17:49:29:   -1, -1, 1
+21/11/2017 Tue 17:49:29:   0, 1, 45
+21/11/2017 Tue 17:49:29:   1, 2, 170
+21/11/2017 Tue 17:49:29:   2, 3, 94
+21/11/2017 Tue 17:49:29:   3, 3, 8
+21/11/2017 Tue 17:49:29:   4, 4, 273
+21/11/2017 Tue 17:49:29:   5, 5, 34
+21/11/2017 Tue 17:49:29:   6, 6, 130
+21/11/2017 Tue 17:49:29:   Clusters...: 7
+21/11/2017 Tue 17:49:31:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:49:31:End of Script ------/
+21/11/2017 Tue 17:49:41:/------ Begin of Script
+21/11/2017 Tue 17:49:41:epsilon: 0.058 minPts: 7
+21/11/2017 Tue 17:49:41:   Type.......: Cell
+21/11/2017 Tue 17:49:41:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:49:41:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:49:41:   Map Matrix
+21/11/2017 Tue 17:49:41:   -1, -1, 1
+21/11/2017 Tue 17:49:41:   0, 1, 45
+21/11/2017 Tue 17:49:41:   1, 2, 170
+21/11/2017 Tue 17:49:41:   2, 3, 102
+21/11/2017 Tue 17:49:41:   3, 4, 273
+21/11/2017 Tue 17:49:41:   4, 5, 34
+21/11/2017 Tue 17:49:41:   5, 6, 130
+21/11/2017 Tue 17:49:41:   Clusters...: 6
+21/11/2017 Tue 17:49:46:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:49:46:End of Script ------/
+21/11/2017 Tue 17:50:26:/------ Begin of Script
+21/11/2017 Tue 17:50:26:epsilon: 0.058 minPts: 4
+21/11/2017 Tue 17:50:26:   Type.......: Cell
+21/11/2017 Tue 17:50:26:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:50:26:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:50:26:   Map Matrix
+21/11/2017 Tue 17:50:26:   -1, -1, 1
+21/11/2017 Tue 17:50:26:   0, 1, 45
+21/11/2017 Tue 17:50:26:   1, 2, 170
+21/11/2017 Tue 17:50:26:   2, 3, 102
+21/11/2017 Tue 17:50:26:   3, 4, 273
+21/11/2017 Tue 17:50:26:   4, 5, 34
+21/11/2017 Tue 17:50:26:   5, 6, 130
+21/11/2017 Tue 17:50:26:   Clusters...: 6
+21/11/2017 Tue 17:50:28:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:50:28:End of Script ------/
+21/11/2017 Tue 17:50:34:/------ Begin of Script
+21/11/2017 Tue 17:50:34:epsilon: 0.058 minPts: 3
+21/11/2017 Tue 17:50:34:   Type.......: Cell
+21/11/2017 Tue 17:50:34:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:50:34:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:50:34:   Map Matrix
+21/11/2017 Tue 17:50:34:   -1, -1, 1
+21/11/2017 Tue 17:50:34:   0, 1, 45
+21/11/2017 Tue 17:50:34:   1, 2, 170
+21/11/2017 Tue 17:50:34:   2, 3, 102
+21/11/2017 Tue 17:50:34:   3, 4, 273
+21/11/2017 Tue 17:50:34:   4, 5, 34
+21/11/2017 Tue 17:50:34:   5, 6, 130
+21/11/2017 Tue 17:50:34:   Clusters...: 6
+21/11/2017 Tue 17:50:38:   FM.........: 0.9386909485201984
+21/11/2017 Tue 17:50:38:End of Script ------/
+21/11/2017 Tue 17:50:48:/------ Begin of Script
+21/11/2017 Tue 17:50:48:epsilon: 0.056 minPts: 10
+21/11/2017 Tue 17:50:48:   Type.......: Cell
+21/11/2017 Tue 17:50:48:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:50:48:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:50:48:   Map Matrix
+21/11/2017 Tue 17:50:48:   -1, -1, 10
+21/11/2017 Tue 17:50:48:   0, 1, 45
+21/11/2017 Tue 17:50:48:   1, 2, 169
+21/11/2017 Tue 17:50:48:   2, 3, 92
+21/11/2017 Tue 17:50:48:   3, 4, 271
+21/11/2017 Tue 17:50:48:   4, 5, 34
+21/11/2017 Tue 17:50:48:   5, 6, 130
+21/11/2017 Tue 17:50:48:   6, 7, 33
+21/11/2017 Tue 17:50:48:   Clusters...: 7
+21/11/2017 Tue 17:50:52:   FM.........: 0.9868663409629118
+21/11/2017 Tue 17:50:52:End of Script ------/
+21/11/2017 Tue 17:51:17:/------ Begin of Script
+21/11/2017 Tue 17:51:17:epsilon: 0.056 minPts: 9
+21/11/2017 Tue 17:51:17:   Type.......: Cell
+21/11/2017 Tue 17:51:17:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:51:17:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:51:17:   Map Matrix
+21/11/2017 Tue 17:51:17:   -1, -1, 10
+21/11/2017 Tue 17:51:17:   0, 1, 45
+21/11/2017 Tue 17:51:17:   1, 2, 170
+21/11/2017 Tue 17:51:17:   2, 3, 92
+21/11/2017 Tue 17:51:17:   4, 4, 268
+21/11/2017 Tue 17:51:17:   5, 5, 34
+21/11/2017 Tue 17:51:17:   6, 6, 130
+21/11/2017 Tue 17:51:17:   3, 7, 33
+21/11/2017 Tue 17:51:18:   Clusters...: 7
+21/11/2017 Tue 17:51:20:   FM.........: 0.9814399908960187
+21/11/2017 Tue 17:51:20:End of Script ------/
+21/11/2017 Tue 17:52:59:/------ Begin of Script
+21/11/2017 Tue 17:52:59:epsilon: 0.056 minPts: 9
+21/11/2017 Tue 17:52:59:   Type.......: Cell
+21/11/2017 Tue 17:52:59:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+21/11/2017 Tue 17:52:59:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+21/11/2017 Tue 17:52:59:   Map Matrix
+21/11/2017 Tue 17:52:59:   -1, -1, 10
+21/11/2017 Tue 17:52:59:   0, 1, 45
+21/11/2017 Tue 17:52:59:   1, 2, 170
+21/11/2017 Tue 17:52:59:   2, 3, 92
+21/11/2017 Tue 17:52:59:   4, 4, 268
+21/11/2017 Tue 17:52:59:   5, 5, 34
+21/11/2017 Tue 17:52:59:   6, 6, 130
+21/11/2017 Tue 17:52:59:   3, 7, 33
+21/11/2017 Tue 17:52:59:   Clusters...: 7
+21/11/2017 Tue 17:53:39:   FM.........: 0.9814399908960187
+21/11/2017 Tue 17:53:39:End of Script ------/
+25/11/2017 Sat 03:10:44:/------ Begin of Script
+25/11/2017 Sat 03:10:44:epsilon: 0.042 minPts: 7
+25/11/2017 Sat 03:10:44:   Type.......: Point
+25/11/2017 Sat 03:10:44:   Input File.: ../data/Agregation/central/2.deviceConsolidation/points-Agregation.csv
+25/11/2017 Sat 03:10:44:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-points-DBSCAN-Agregation.csv
+25/11/2017 Sat 03:10:44:   Map Matrix
+25/11/2017 Sat 03:10:44:   -1, -1, 5
+25/11/2017 Sat 03:10:44:   0, 1, 45
+25/11/2017 Sat 03:10:44:   1, 2, 165
+25/11/2017 Sat 03:10:44:   2, 3, 100
+25/11/2017 Sat 03:10:44:   3, 4, 273
+25/11/2017 Sat 03:10:44:   4, 5, 34
+25/11/2017 Sat 03:10:44:   5, 6, 128
+25/11/2017 Sat 03:10:44:   6, 7, 34
+25/11/2017 Sat 03:10:44:   Clusters...: 7
+25/11/2017 Sat 03:10:47:   FM.........: 0.9895214417946377
+25/11/2017 Sat 03:10:47:   Rand.......: 0.21317141462247527
+25/11/2017 Sat 03:10:47:   Jac........: 0.9791858838932366
+25/11/2017 Sat 03:10:47:End of Script ------/
+25/11/2017 Sat 03:11:17:/------ Begin of Script
+25/11/2017 Sat 03:11:17:epsilon: 0.056 minPts: 10
+25/11/2017 Sat 03:11:17:   Type.......: Cell
+25/11/2017 Sat 03:11:17:   Input File.: ../data/Agregation/central/4.mapClusterOutput/expanded-points-Agregation.csv
+25/11/2017 Sat 03:11:17:   Output File: ../data/Agregation/central/6.resultsDBSCAN/output-cells-DBSCAN-Agregation.csv
+25/11/2017 Sat 03:11:17:   Map Matrix
+25/11/2017 Sat 03:11:17:   -1, -1, 10
+25/11/2017 Sat 03:11:17:   0, 1, 45
+25/11/2017 Sat 03:11:17:   1, 2, 169
+25/11/2017 Sat 03:11:17:   2, 3, 92
+25/11/2017 Sat 03:11:17:   3, 4, 271
+25/11/2017 Sat 03:11:17:   4, 5, 34
+25/11/2017 Sat 03:11:17:   5, 6, 130
+25/11/2017 Sat 03:11:17:   6, 7, 33
+25/11/2017 Sat 03:11:17:   Clusters...: 7
+25/11/2017 Sat 03:11:19:   FM.........: 0.9868663409629118
+25/11/2017 Sat 03:11:19:   Rand.......: 0.21183933577116695
+25/11/2017 Sat 03:11:19:   Jac........: 0.9739372469635628
+25/11/2017 Sat 03:11:19:End of Script ------/

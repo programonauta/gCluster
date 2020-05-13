@@ -1,0 +1,91 @@
+19/01/2018 Fri 00:57:37:/------ Begin of Script ------
+19/01/2018 Fri 00:57:37:Directory: ../data/ChicagoTaxi-Weekends
+19/01/2018 Fri 00:57:37:   Config File: ../data/ChicagoTaxi-Weekends/config/config-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:37:   Epsilon..: 50
+19/01/2018 Fri 00:57:37:   sumData
+19/01/2018 Fri 00:57:37:   File Input:......../data/ChicagoTaxi-Weekends/devices/455b6b-Weekends.csv
+19/01/2018 Fri 00:57:37:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-01.csv
+19/01/2018 Fri 00:57:37:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-01.csv
+19/01/2018 Fri 00:57:39:   File Input:......../data/ChicagoTaxi-Weekends/devices/4c8b67-Weekends.csv
+19/01/2018 Fri 00:57:39:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-02.csv
+19/01/2018 Fri 00:57:39:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-02.csv
+19/01/2018 Fri 00:57:41:   File Input:......../data/ChicagoTaxi-Weekends/devices/5f1b23-Weekends.csv
+19/01/2018 Fri 00:57:41:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-03.csv
+19/01/2018 Fri 00:57:41:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-03.csv
+19/01/2018 Fri 00:57:43:   File Input:......../data/ChicagoTaxi-Weekends/devices/7c51c6-Weekends.csv
+19/01/2018 Fri 00:57:43:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-04.csv
+19/01/2018 Fri 00:57:43:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-04.csv
+19/01/2018 Fri 00:57:45:   File Input:......../data/ChicagoTaxi-Weekends/devices/b50eb9-Weekends.csv
+19/01/2018 Fri 00:57:45:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-05.csv
+19/01/2018 Fri 00:57:45:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-05.csv
+19/01/2018 Fri 00:57:47:   File Input:......../data/ChicagoTaxi-Weekends/devices/d1b852-Weekends.csv
+19/01/2018 Fri 00:57:47:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-06.csv
+19/01/2018 Fri 00:57:47:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-06.csv
+19/01/2018 Fri 00:57:49:Cells consolidation to file: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/cells-ChicagoTaxi-Weekends.csv OK
+19/01/2018 Fri 00:57:49:Points consolidation to file: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/points-ChicagoTaxi-Weekends.csv OK
+19/01/2018 Fri 00:57:49:getCluster
+19/01/2018 Fri 00:57:49:   Epsilon..: 50
+19/01/2018 Fri 00:57:49:   Min Force: 0.0
+19/01/2018 Fri 00:57:49:   Min Cells: 3
+19/01/2018 Fri 00:57:49:   Input....: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/cells-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:49:   Output...: ../data/ChicagoTaxi-Weekends/central/3.getClusterOutput/gCluster-result-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:50:mapCluster 
+19/01/2018 Fri 00:57:50:   Epsilon............: 50
+19/01/2018 Fri 00:57:50:   Input Cell.........: ../data/ChicagoTaxi-Weekends/central/3.getClusterOutput/gCluster-result-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:50:   Input Point........: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/points-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:50:   Labeled Cells .....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:50:   Labeled Points ....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-points-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:50:   Expanded Points....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/expanded-points-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:51:Choose not run validation process
+19/01/2018 Fri 00:57:51:drawCluster 
+19/01/2018 Fri 00:57:51:   Epsilon.......: 50
+19/01/2018 Fri 00:57:51:   Input Cell....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:51:   Input Point...: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-points-ChicagoTaxi-Weekends.csv
+19/01/2018 Fri 00:57:51:   Output SVG....: ../data/ChicagoTaxi-Weekends/central/5.drawOutput/graph-ChicagoTaxi-Weekends.svg
+19/01/2018 Fri 00:57:51:    Draw Numbers..: No
+19/01/2018 Fri 00:58:02:Comment: 5 Clusters
+10/04/2018 Tue 07:29:15:/------ Begin of Script ------
+10/04/2018 Tue 07:29:15:Directory: ../data/ChicagoTaxi-Weekends
+10/04/2018 Tue 07:29:15:   Config File: ../data/ChicagoTaxi-Weekends/config/config-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:15:   Epsilon..: 50
+10/04/2018 Tue 07:29:15:   sumData
+10/04/2018 Tue 07:29:15:   File Input:......../data/ChicagoTaxi-Weekends/devices/455b6b-Weekends.csv
+10/04/2018 Tue 07:29:15:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-01.csv
+10/04/2018 Tue 07:29:15:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-01.csv
+10/04/2018 Tue 07:29:20:   File Input:......../data/ChicagoTaxi-Weekends/devices/4c8b67-Weekends.csv
+10/04/2018 Tue 07:29:20:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-02.csv
+10/04/2018 Tue 07:29:20:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-02.csv
+10/04/2018 Tue 07:29:23:   File Input:......../data/ChicagoTaxi-Weekends/devices/5f1b23-Weekends.csv
+10/04/2018 Tue 07:29:23:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-03.csv
+10/04/2018 Tue 07:29:23:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-03.csv
+10/04/2018 Tue 07:29:26:   File Input:......../data/ChicagoTaxi-Weekends/devices/7c51c6-Weekends.csv
+10/04/2018 Tue 07:29:26:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-04.csv
+10/04/2018 Tue 07:29:26:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-04.csv
+10/04/2018 Tue 07:29:28:   File Input:......../data/ChicagoTaxi-Weekends/devices/b50eb9-Weekends.csv
+10/04/2018 Tue 07:29:28:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-05.csv
+10/04/2018 Tue 07:29:28:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-05.csv
+10/04/2018 Tue 07:29:30:   File Input:......../data/ChicagoTaxi-Weekends/devices/d1b852-Weekends.csv
+10/04/2018 Tue 07:29:30:   File Cell Output.:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/cell-ChicagoTaxi-Weekends-06.csv
+10/04/2018 Tue 07:29:30:   File Point Output:../data/ChicagoTaxi-Weekends/central/1.sumDataOutput/point-ChicagoTaxi-Weekends-06.csv
+10/04/2018 Tue 07:29:33:Cells consolidation to file: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/cells-ChicagoTaxi-Weekends.csv OK
+10/04/2018 Tue 07:29:34:Points consolidation to file: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/points-ChicagoTaxi-Weekends.csv OK
+10/04/2018 Tue 07:29:34:getCluster
+10/04/2018 Tue 07:29:34:   Epsilon..: 50
+10/04/2018 Tue 07:29:34:   Min Force: 0.0
+10/04/2018 Tue 07:29:34:   Min Cells: 1
+10/04/2018 Tue 07:29:34:   Input....: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/cells-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:34:   Output...: ../data/ChicagoTaxi-Weekends/central/3.getClusterOutput/gCluster-result-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:35:mapCluster 
+10/04/2018 Tue 07:29:35:   Epsilon............: 50
+10/04/2018 Tue 07:29:35:   Input Cell.........: ../data/ChicagoTaxi-Weekends/central/3.getClusterOutput/gCluster-result-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:35:   Input Point........: ../data/ChicagoTaxi-Weekends/central/2.deviceConsolidation/points-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:35:   Labeled Cells .....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:35:   Labeled Points ....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-points-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:35:   Expanded Points....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/expanded-points-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:37:Choose not run validation process
+10/04/2018 Tue 07:29:37:drawCluster 
+10/04/2018 Tue 07:29:37:   Epsilon.......: 50
+10/04/2018 Tue 07:29:37:   Input Cell....: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-cells-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:37:   Input Point...: ../data/ChicagoTaxi-Weekends/central/4.mapClusterOutput/labeled-points-ChicagoTaxi-Weekends.csv
+10/04/2018 Tue 07:29:37:   Output SVG....: ../data/ChicagoTaxi-Weekends/central/5.drawOutput/graph-ChicagoTaxi-Weekends.svg
+10/04/2018 Tue 07:29:37:    Draw Numbers..: No

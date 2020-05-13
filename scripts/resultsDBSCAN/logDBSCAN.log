@@ -18,3 +18,18 @@
 15/11/2017 Wed 11:49:47:   Output File: DBSCAN-cell.csv
 15/11/2017 Wed 11:49:47:   Clusters...: 6
 15/11/2017 Wed 11:50:03:   FM.........: 0.9977136458643967
+17/11/2017 Fri 16:53:31:epsilon: 0.2 minPts: 28
+17/11/2017 Fri 16:53:31:   Input File.: ../data/cluto-t4.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t4.8k.csv
+17/11/2017 Fri 16:53:31:   Output File: DBSCAN-cell.csv
+17/11/2017 Fri 16:53:31:   Clusters...: 9
+17/11/2017 Fri 16:53:49:   FM.........: 0.7901022485673698
+17/11/2017 Fri 16:55:29:epsilon: 0.09 minPts: 16
+17/11/2017 Fri 16:55:29:   Input File.: ../data/cluto-t4.8k/central/2.deviceConsolidation/points-cluto-t4.8k.csv
+17/11/2017 Fri 16:55:29:   Output File: valid-DBSCAN.csv
+17/11/2017 Fri 16:55:30:   Clusters...: 6
+17/11/2017 Fri 16:55:46:   FM.........: 0.7902599220867456
+17/11/2017 Fri 16:58:04:epsilon: 0.09 minPts: 16
+17/11/2017 Fri 16:58:04:   Input File.: ../data/cluto-t4.8k/devices/cluto-t4-8k.csv
+17/11/2017 Fri 16:58:04:   Output File: valid-DBSCAN.csv
+17/11/2017 Fri 16:58:04:   Clusters...: 6
+17/11/2017 Fri 16:58:28:   FM.........: 0.7902599220867456

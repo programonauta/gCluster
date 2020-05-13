@@ -48,7 +48,7 @@
 #define resultgC_posGCLabel() dimension + 3
 #define resultgC_posAdjacent() dimension + 4
 
-/* Program: statCluster
+/* Program: mapCluster
  * ===================
  *
  * File output (default name): map-cell-gC.csv

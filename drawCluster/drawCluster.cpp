@@ -516,20 +516,19 @@ int main(int argc, char* argv[])
     vector<string> colors;
     colors.push_back("#FF7F00");
     colors.push_back("#bf870f");
+    colors.push_back("#5f397a");
     colors.push_back("#7F0000");
     colors.push_back("#2d60ad");
-    colors.push_back("#44ef0b");
-    colors.push_back("#0000FF");
     colors.push_back("#007F00");
-    colors.push_back("#7F007F");
     colors.push_back("#ef5d09");
     colors.push_back("#FF0000");
+    colors.push_back("#7F007F");
     colors.push_back("#000077");
+    colors.push_back("#44ef0b");
     colors.push_back("#007F7F");
     colors.push_back("#6eb4ea");
     colors.push_back("#7F7F00");
     colors.push_back("#00007F");
-    colors.push_back("#5f397a");
     colors.push_back("#000000");
     colors.push_back("#007777");
     colors.push_back("#ffbf00");
@@ -615,15 +614,15 @@ int main(int argc, char* argv[])
             int labelGT = p.classGT;
             string colorPoint = "none";
             string opacity = "1.0";
-            string width = "0.03";
-            double radio = (drawNumbers?0.004:0.002);
+            string width = "0.05";
+            double radius = (drawNumbers?0.006:0.004);
 
             if (labelGT >= 0)
             {
                 colorPoint = colors[(labelGT)%colors.size()];
                 opacity = "0.4";
                 width = "0.05";
-                radio = 0.006;
+                radius = 0.008;
             }
 
             double xCirc = (double)(p.rawData.coord[0]*graphMult)+graphMult*.1;
@@ -634,13 +633,13 @@ int main(int argc, char* argv[])
                     << " stroke-width=\""<< width << "cm\" "
                     << " cx=\"" << xCirc  << "cm\" "
                     << " cy=\"" << yCirc  << "cm\" "
-                    << " r=\"" << graphMult * radio << "cm\""
+                    << " r=\"" << graphMult * radius << "cm\""
                     << " />" << endl;
             if (drawNumbers)
             {
                 svgFile << "<text "
-                        << "x=\"" << xCirc - ( 0.4 * graphMult * radio) << "cm\" "
-                        << "y=\"" << yCirc + ( 0.4 * graphMult * radio) << "cm\" "
+                        << "x=\"" << xCirc - ( 0.4 * graphMult * radius) << "cm\" "
+                        << "y=\"" << yCirc + ( 0.4 * graphMult * radius) << "cm\" "
                         << "font-style=\"normal\" "
                         << "font-family=\"Times New Roman\" "
                         << "font-size=\"" << graphMult * 0.005 <<"cm\" "

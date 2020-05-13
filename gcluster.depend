@@ -81,3 +81,12 @@
 	"csv-reader.h"
 	"graphs.h"
 
+1508693315 source:d:\googledrive\mestrado\repos\grid-clustering\point\point.cpp
+	"point.h"
+	<iostream>
+
+1497454353 d:\googledrive\mestrado\repos\grid-clustering\point\point.h
+	<math.h>
+	<vector>
+	<iostream>
+

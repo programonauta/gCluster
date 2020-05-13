@@ -118,6 +118,7 @@ int main(int argc, char* argv[])
             break;
         case '1':
             outputPoint = optarg;
+            break;
         case '2':
             outputCell = optarg;
             break;

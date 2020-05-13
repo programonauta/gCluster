@@ -1,0 +1,2489 @@
+17/11/2017 Fri 23:02:44:/------ Begin of Script
+17/11/2017 Fri 23:02:44:epsilon: 0.09 minPts: 10
+17/11/2017 Fri 23:02:44:   Type.......: Point
+17/11/2017 Fri 23:02:44:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:02:44:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:02:44:   Clusters...: 16
+17/11/2017 Fri 23:03:06:/------ Begin of Script
+17/11/2017 Fri 23:03:06:epsilon: 0.09 minPts: 6
+17/11/2017 Fri 23:03:06:   Type.......: Point
+17/11/2017 Fri 23:03:06:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:06:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:06:   Clusters...: 28
+17/11/2017 Fri 23:03:16:/------ Begin of Script
+17/11/2017 Fri 23:03:16:epsilon: 0.09 minPts: 14
+17/11/2017 Fri 23:03:16:   Type.......: Point
+17/11/2017 Fri 23:03:16:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:16:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:16:   Clusters...: 15
+17/11/2017 Fri 23:03:25:/------ Begin of Script
+17/11/2017 Fri 23:03:25:epsilon: 0.1 minPts: 14
+17/11/2017 Fri 23:03:25:   Type.......: Point
+17/11/2017 Fri 23:03:25:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:25:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:25:   Clusters...: 15
+17/11/2017 Fri 23:03:33:/------ Begin of Script
+17/11/2017 Fri 23:03:33:epsilon: 0.1 minPts: 30
+17/11/2017 Fri 23:03:33:   Type.......: Point
+17/11/2017 Fri 23:03:33:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:33:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:33:   Clusters...: 32
+17/11/2017 Fri 23:03:46:/------ Begin of Script
+17/11/2017 Fri 23:03:46:epsilon: 0.2 minPts: 14
+17/11/2017 Fri 23:03:46:   Type.......: Point
+17/11/2017 Fri 23:03:46:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:46:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:03:48:   Clusters...: 17
+17/11/2017 Fri 23:04:01:/------ Begin of Script
+17/11/2017 Fri 23:04:01:epsilon: 0.04 minPts: 14
+17/11/2017 Fri 23:04:01:   Type.......: Point
+17/11/2017 Fri 23:04:01:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:01:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:01:   Clusters...: 77
+17/11/2017 Fri 23:04:12:/------ Begin of Script
+17/11/2017 Fri 23:04:12:epsilon: 0.5 minPts: 14
+17/11/2017 Fri 23:04:12:   Type.......: Point
+17/11/2017 Fri 23:04:12:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:12:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:12:   Clusters...: 6
+17/11/2017 Fri 23:04:28:/------ Begin of Script
+17/11/2017 Fri 23:04:28:epsilon: 0.05 minPts: 14
+17/11/2017 Fri 23:04:28:   Type.......: Point
+17/11/2017 Fri 23:04:28:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:28:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:29:   Clusters...: 128
+17/11/2017 Fri 23:04:35:/------ Begin of Script
+17/11/2017 Fri 23:04:35:epsilon: 0.05 minPts: 2
+17/11/2017 Fri 23:04:35:   Type.......: Point
+17/11/2017 Fri 23:04:35:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:35:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:35:   Clusters...: 172
+17/11/2017 Fri 23:04:45:/------ Begin of Script
+17/11/2017 Fri 23:04:45:epsilon: 0.05 minPts: 10
+17/11/2017 Fri 23:04:45:   Type.......: Point
+17/11/2017 Fri 23:04:45:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:45:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:04:46:   Clusters...: 55
+17/11/2017 Fri 23:05:03:/------ Begin of Script
+17/11/2017 Fri 23:05:03:epsilon: 0.09 minPts: 10
+17/11/2017 Fri 23:05:03:   Type.......: Point
+17/11/2017 Fri 23:05:03:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:05:03:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:05:03:   Clusters...: 16
+17/11/2017 Fri 23:05:17:/------ Begin of Script
+17/11/2017 Fri 23:05:17:epsilon: 0.12 minPts: 10
+17/11/2017 Fri 23:05:17:   Type.......: Point
+17/11/2017 Fri 23:05:17:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:05:17:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:05:17:   Clusters...: 16
+17/11/2017 Fri 23:05:26:/------ Begin of Script
+17/11/2017 Fri 23:05:26:epsilon: 0.12 minPts: 25
+17/11/2017 Fri 23:05:26:   Type.......: Point
+17/11/2017 Fri 23:05:26:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+17/11/2017 Fri 23:05:26:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+17/11/2017 Fri 23:05:27:   Clusters...: 15
+18/11/2017 Sat 14:27:31:/------ Begin of Script
+18/11/2017 Sat 14:27:31:epsilon: 0.12 minPts: 25
+18/11/2017 Sat 14:27:31:   Type.......: Point
+18/11/2017 Sat 14:27:31:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+18/11/2017 Sat 14:27:31:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+18/11/2017 Sat 14:27:31:   Clusters...: 15
+18/11/2017 Sat 14:27:58:   FM.........: 0.999231720004043
+18/11/2017 Sat 14:27:58:End of Script ------/
+18/11/2017 Sat 16:17:02:/------ Begin of Script
+18/11/2017 Sat 16:17:02:epsilon: 0.01 minPts: 14
+18/11/2017 Sat 16:17:02:   Type.......: Point
+18/11/2017 Sat 16:17:02:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+18/11/2017 Sat 16:17:02:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+18/11/2017 Sat 16:17:03:   Clusters...: 0
+18/11/2017 Sat 16:17:31:/------ Begin of Script
+18/11/2017 Sat 16:17:31:epsilon: 0.1 minPts: 14
+18/11/2017 Sat 16:17:31:   Type.......: Point
+18/11/2017 Sat 16:17:31:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+18/11/2017 Sat 16:17:31:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+18/11/2017 Sat 16:17:33:   Clusters...: 15
+18/11/2017 Sat 16:17:51:   FM.........: 1.0
+18/11/2017 Sat 16:17:51:End of Script ------/
+18/11/2017 Sat 16:23:59:/------ Begin of Script
+18/11/2017 Sat 16:23:59:epsilon: 0.1 minPts: 14
+18/11/2017 Sat 16:23:59:   Type.......: Point
+18/11/2017 Sat 16:23:59:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+18/11/2017 Sat 16:23:59:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+18/11/2017 Sat 16:24:00:   Clusters...: 15
+18/11/2017 Sat 16:24:15:   FM.........: 0.9688534627575496
+18/11/2017 Sat 16:24:15:End of Script ------/
+19/11/2017 Sun 16:11:55:/------ Begin of Script
+19/11/2017 Sun 16:11:55:epsilon: 0.1 minPts: 14
+19/11/2017 Sun 16:11:55:   Type.......: Point
+19/11/2017 Sun 16:11:55:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+19/11/2017 Sun 16:11:55:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:11:55:   Clusters...: 15
+19/11/2017 Sun 16:12:17:   FM.........: 0.9688534627575496
+19/11/2017 Sun 16:12:17:End of Script ------/
+19/11/2017 Sun 16:12:24:/------ Begin of Script
+19/11/2017 Sun 16:12:24:epsilon: 0.1 minPts: 14
+19/11/2017 Sun 16:12:24:   Type.......: Cell
+19/11/2017 Sun 16:12:24:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:12:24:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:12:25:   Clusters...: 212
+19/11/2017 Sun 16:12:50:   FM.........: 0.949501104273689
+19/11/2017 Sun 16:12:50:End of Script ------/
+19/11/2017 Sun 16:13:13:/------ Begin of Script
+19/11/2017 Sun 16:13:13:epsilon: 0.2 minPts: 30
+19/11/2017 Sun 16:13:13:   Type.......: Cell
+19/11/2017 Sun 16:13:13:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:13:13:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:13:13:   Clusters...: 27
+19/11/2017 Sun 16:13:36:   FM.........: 0.9795004795201495
+19/11/2017 Sun 16:13:36:End of Script ------/
+19/11/2017 Sun 16:13:59:/------ Begin of Script
+19/11/2017 Sun 16:13:59:epsilon: 0.15 minPts: 30
+19/11/2017 Sun 16:13:59:   Type.......: Cell
+19/11/2017 Sun 16:13:59:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:13:59:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:13:59:   Clusters...: 94
+19/11/2017 Sun 16:14:21:   FM.........: 0.8289454626060898
+19/11/2017 Sun 16:14:21:End of Script ------/
+19/11/2017 Sun 16:14:44:/------ Begin of Script
+19/11/2017 Sun 16:14:44:epsilon: 0.1 minPts: 30
+19/11/2017 Sun 16:14:44:   Type.......: Cell
+19/11/2017 Sun 16:14:44:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:14:44:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:14:45:   Clusters...: 126
+19/11/2017 Sun 16:15:01:/------ Begin of Script
+19/11/2017 Sun 16:15:01:epsilon: 0.15 minPts: 14
+19/11/2017 Sun 16:15:01:   Type.......: Cell
+19/11/2017 Sun 16:15:01:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:15:01:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:15:02:   Clusters...: 131
+19/11/2017 Sun 16:15:23:   FM.........: 0.9783913801520691
+19/11/2017 Sun 16:15:23:End of Script ------/
+19/11/2017 Sun 16:17:43:/------ Begin of Script
+19/11/2017 Sun 16:17:43:epsilon: 0.1 minPts: 14
+19/11/2017 Sun 16:17:43:   Type.......: Cell
+19/11/2017 Sun 16:17:43:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:17:43:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:17:46:   Clusters...: 212
+19/11/2017 Sun 16:18:09:   FM.........: 0.949501104273689
+19/11/2017 Sun 16:18:09:End of Script ------/
+19/11/2017 Sun 16:18:17:/------ Begin of Script
+19/11/2017 Sun 16:18:17:epsilon: 0.1 minPts: 14
+19/11/2017 Sun 16:18:17:   Type.......: Point
+19/11/2017 Sun 16:18:17:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+19/11/2017 Sun 16:18:17:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:18:17:   Clusters...: 15
+19/11/2017 Sun 16:18:33:   FM.........: 0.9688534627575496
+19/11/2017 Sun 16:18:33:End of Script ------/
+19/11/2017 Sun 16:33:03:/------ Begin of Script
+19/11/2017 Sun 16:33:03:epsilon: 0.3 minPts: 40
+19/11/2017 Sun 16:33:03:   Type.......: Cell
+19/11/2017 Sun 16:33:03:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:33:03:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:33:04:   Clusters...: 9
+19/11/2017 Sun 16:33:29:   FM.........: 0.9842632460042909
+19/11/2017 Sun 16:33:29:End of Script ------/
+19/11/2017 Sun 16:33:51:/------ Begin of Script
+19/11/2017 Sun 16:33:51:epsilon: 0.3 minPts: 45
+19/11/2017 Sun 16:33:51:   Type.......: Cell
+19/11/2017 Sun 16:33:51:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:33:51:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:33:51:   Clusters...: 8
+19/11/2017 Sun 16:34:22:   FM.........: 0.9873190169275413
+19/11/2017 Sun 16:34:22:End of Script ------/
+19/11/2017 Sun 16:34:34:/------ Begin of Script
+19/11/2017 Sun 16:34:34:epsilon: 0.35 minPts: 45
+19/11/2017 Sun 16:34:34:   Type.......: Cell
+19/11/2017 Sun 16:34:34:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:34:34:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:34:34:   Clusters...: 9
+19/11/2017 Sun 16:34:55:   FM.........: 0.9795515078662841
+19/11/2017 Sun 16:34:55:End of Script ------/
+19/11/2017 Sun 16:35:07:/------ Begin of Script
+19/11/2017 Sun 16:35:07:epsilon: 0.3 minPts: 50
+19/11/2017 Sun 16:35:07:   Type.......: Cell
+19/11/2017 Sun 16:35:07:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:35:07:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:35:07:   Clusters...: 8
+19/11/2017 Sun 16:35:28:   FM.........: 0.9873190169275413
+19/11/2017 Sun 16:35:28:End of Script ------/
+19/11/2017 Sun 16:41:32:/------ Begin of Script
+19/11/2017 Sun 16:41:32:epsilon: 0.3 minPts: 50
+19/11/2017 Sun 16:41:32:   Type.......: Cell
+19/11/2017 Sun 16:41:32:   Input File.: ../data/cluto-t5.8k/central/4.statClusterOutput/map-cell-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:41:32:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:41:32:   Clusters...: 8
+19/11/2017 Sun 16:43:06:   FM.........: 0.9873190169275413
+19/11/2017 Sun 16:43:06:End of Script ------/
+19/11/2017 Sun 16:43:20:/------ Begin of Script
+19/11/2017 Sun 16:43:20:epsilon: 0.1 minPts: 14
+19/11/2017 Sun 16:43:20:   Type.......: Point
+19/11/2017 Sun 16:43:20:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+19/11/2017 Sun 16:43:20:   Output File: ../data/cluto-t5.8k/resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+19/11/2017 Sun 16:43:21:   Clusters...: 15
+19/11/2017 Sun 16:48:15:   FM.........: 0.9688534627575496
+19/11/2017 Sun 16:48:15:End of Script ------/
+20/11/2017 Mon 16:08:15:/------ Begin of Script
+20/11/2017 Mon 16:08:15:epsilon: 0.1 minPts: 14
+20/11/2017 Mon 16:08:15:   Type.......: Point
+20/11/2017 Mon 16:08:15:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:08:15:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:08:15:   Map Matrix
+20/11/2017 Mon 16:08:15:   0, 4
+20/11/2017 Mon 16:08:16:   Clusters...: 1
+20/11/2017 Mon 16:08:37:   FM.........: 0.37832614174576895
+20/11/2017 Mon 16:08:37:End of Script ------/
+20/11/2017 Mon 16:08:47:/------ Begin of Script
+20/11/2017 Mon 16:08:47:epsilon: 0.05 minPts: 14
+20/11/2017 Mon 16:08:47:   Type.......: Point
+20/11/2017 Mon 16:08:47:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:08:47:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:08:47:   Map Matrix
+20/11/2017 Mon 16:08:47:   0, 4
+20/11/2017 Mon 16:08:47:   1, 1
+20/11/2017 Mon 16:08:47:   2, 2
+20/11/2017 Mon 16:08:47:   3, 3
+20/11/2017 Mon 16:08:47:   -1, -1
+20/11/2017 Mon 16:08:47:   Clusters...: 4
+20/11/2017 Mon 16:09:03:   FM.........: 0.37096089650405456
+20/11/2017 Mon 16:09:03:End of Script ------/
+20/11/2017 Mon 16:09:10:/------ Begin of Script
+20/11/2017 Mon 16:09:10:epsilon: 0.03 minPts: 14
+20/11/2017 Mon 16:09:10:   Type.......: Point
+20/11/2017 Mon 16:09:10:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:09:10:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:09:10:   Map Matrix
+20/11/2017 Mon 16:09:10:   0, 4
+20/11/2017 Mon 16:09:10:   -1, -1
+20/11/2017 Mon 16:09:10:   Clusters...: 1
+20/11/2017 Mon 16:09:26:   FM.........: 0.37290265943584505
+20/11/2017 Mon 16:09:26:End of Script ------/
+20/11/2017 Mon 16:09:32:/------ Begin of Script
+20/11/2017 Mon 16:09:32:epsilon: 0.025 minPts: 14
+20/11/2017 Mon 16:09:32:   Type.......: Point
+20/11/2017 Mon 16:09:32:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:09:32:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:09:32:   Map Matrix
+20/11/2017 Mon 16:09:32:   0, 4
+20/11/2017 Mon 16:09:32:   -1, -1
+20/11/2017 Mon 16:09:32:   Clusters...: 1
+20/11/2017 Mon 16:09:50:   FM.........: 0.3759808161341331
+20/11/2017 Mon 16:09:50:End of Script ------/
+20/11/2017 Mon 16:09:57:/------ Begin of Script
+20/11/2017 Mon 16:09:57:epsilon: 0.02 minPts: 20
+20/11/2017 Mon 16:09:57:   Type.......: Point
+20/11/2017 Mon 16:09:57:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:09:57:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:09:57:   Map Matrix
+20/11/2017 Mon 16:09:57:   0, 0
+20/11/2017 Mon 16:09:57:   1, 2
+20/11/2017 Mon 16:09:57:   2, 1
+20/11/2017 Mon 16:09:57:   3, 3
+20/11/2017 Mon 16:09:57:   4, 4
+20/11/2017 Mon 16:09:57:   5, 0
+20/11/2017 Mon 16:09:57:   -1, -1
+20/11/2017 Mon 16:09:58:   Clusters...: 6
+20/11/2017 Mon 16:10:22:   FM.........: 0.4311149697687532
+20/11/2017 Mon 16:10:22:End of Script ------/
+20/11/2017 Mon 16:10:29:/------ Begin of Script
+20/11/2017 Mon 16:10:29:epsilon: 0.025 minPts: 25
+20/11/2017 Mon 16:10:29:   Type.......: Point
+20/11/2017 Mon 16:10:29:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:10:29:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:10:29:   Map Matrix
+20/11/2017 Mon 16:10:29:   0, 4
+20/11/2017 Mon 16:10:29:   -1, -1
+20/11/2017 Mon 16:10:30:   Clusters...: 1
+20/11/2017 Mon 16:10:46:   FM.........: 0.37760911075859666
+20/11/2017 Mon 16:10:46:End of Script ------/
+20/11/2017 Mon 16:10:55:/------ Begin of Script
+20/11/2017 Mon 16:10:55:epsilon: 0.0225 minPts: 25
+20/11/2017 Mon 16:10:55:   Type.......: Point
+20/11/2017 Mon 16:10:55:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:10:55:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:10:55:   Map Matrix
+20/11/2017 Mon 16:10:55:   0, 0
+20/11/2017 Mon 16:10:55:   1, 1
+20/11/2017 Mon 16:10:55:   2, 2
+20/11/2017 Mon 16:10:55:   3, 1
+20/11/2017 Mon 16:10:55:   4, 1
+20/11/2017 Mon 16:10:55:   5, 3
+20/11/2017 Mon 16:10:55:   6, 4
+20/11/2017 Mon 16:10:55:   -1, -1
+20/11/2017 Mon 16:10:55:   Clusters...: 7
+20/11/2017 Mon 16:11:17:   FM.........: 0.5161285031270484
+20/11/2017 Mon 16:11:17:End of Script ------/
+20/11/2017 Mon 16:11:25:/------ Begin of Script
+20/11/2017 Mon 16:11:25:epsilon: 0.025 minPts: 50
+20/11/2017 Mon 16:11:25:   Type.......: Point
+20/11/2017 Mon 16:11:25:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:11:25:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:11:25:   Map Matrix
+20/11/2017 Mon 16:11:25:   0, 0
+20/11/2017 Mon 16:11:25:   1, 2
+20/11/2017 Mon 16:11:25:   2, 5
+20/11/2017 Mon 16:11:25:   3, 0
+20/11/2017 Mon 16:11:25:   4, 3
+20/11/2017 Mon 16:11:25:   5, 2
+20/11/2017 Mon 16:11:25:   6, 0
+20/11/2017 Mon 16:11:25:   7, 1
+20/11/2017 Mon 16:11:25:   8, 4
+20/11/2017 Mon 16:11:25:   9, 2
+20/11/2017 Mon 16:11:25:   10, 1
+20/11/2017 Mon 16:11:25:   11, 3
+20/11/2017 Mon 16:11:25:   12, 4
+20/11/2017 Mon 16:11:25:   13, 5
+20/11/2017 Mon 16:11:25:   14, 2
+20/11/2017 Mon 16:11:25:   15, 3
+20/11/2017 Mon 16:11:25:   16, 5
+20/11/2017 Mon 16:11:25:   17, 0
+20/11/2017 Mon 16:11:25:   18, 2
+20/11/2017 Mon 16:11:25:   19, 1
+20/11/2017 Mon 16:11:25:   20, 4
+20/11/2017 Mon 16:11:25:   21, 0
+20/11/2017 Mon 16:11:25:   22, 2
+20/11/2017 Mon 16:11:25:   23, 3
+20/11/2017 Mon 16:11:25:   24, 0
+20/11/2017 Mon 16:11:25:   25, 0
+20/11/2017 Mon 16:11:25:   26, 3
+20/11/2017 Mon 16:11:25:   -1, -1
+20/11/2017 Mon 16:11:25:   Clusters...: 27
+20/11/2017 Mon 16:11:41:   FM.........: 0.531670503177879
+20/11/2017 Mon 16:11:41:End of Script ------/
+20/11/2017 Mon 16:11:45:/------ Begin of Script
+20/11/2017 Mon 16:11:45:epsilon: 0.025 minPts: 30
+20/11/2017 Mon 16:11:45:   Type.......: Point
+20/11/2017 Mon 16:11:45:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:11:45:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:11:46:   Map Matrix
+20/11/2017 Mon 16:11:46:   0, 0
+20/11/2017 Mon 16:11:46:   1, 1
+20/11/2017 Mon 16:11:46:   2, 4
+20/11/2017 Mon 16:11:46:   3, 1
+20/11/2017 Mon 16:11:46:   4, 1
+20/11/2017 Mon 16:11:46:   -1, -1
+20/11/2017 Mon 16:11:46:   Clusters...: 5
+20/11/2017 Mon 16:12:06:   FM.........: 0.5173201029356874
+20/11/2017 Mon 16:12:06:End of Script ------/
+20/11/2017 Mon 16:12:13:/------ Begin of Script
+20/11/2017 Mon 16:12:13:epsilon: 0.03 minPts: 35
+20/11/2017 Mon 16:12:13:   Type.......: Point
+20/11/2017 Mon 16:12:13:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:12:13:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:12:14:   Map Matrix
+20/11/2017 Mon 16:12:14:   0, 0
+20/11/2017 Mon 16:12:14:   1, 4
+20/11/2017 Mon 16:12:14:   -1, -1
+20/11/2017 Mon 16:12:14:   Clusters...: 2
+20/11/2017 Mon 16:12:30:   FM.........: 0.4351943169055996
+20/11/2017 Mon 16:12:30:End of Script ------/
+20/11/2017 Mon 16:12:41:/------ Begin of Script
+20/11/2017 Mon 16:12:41:epsilon: 0.035 minPts: 40
+20/11/2017 Mon 16:12:41:   Type.......: Point
+20/11/2017 Mon 16:12:41:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:12:41:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:12:41:   Map Matrix
+20/11/2017 Mon 16:12:41:   0, 4
+20/11/2017 Mon 16:12:41:   -1, -1
+20/11/2017 Mon 16:12:42:   Clusters...: 1
+20/11/2017 Mon 16:12:51:/------ Begin of Script
+20/11/2017 Mon 16:12:51:epsilon: 0.035 minPts: 50
+20/11/2017 Mon 16:12:51:   Type.......: Point
+20/11/2017 Mon 16:12:51:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:12:51:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:12:51:   Map Matrix
+20/11/2017 Mon 16:12:51:   0, 0
+20/11/2017 Mon 16:12:51:   1, 1
+20/11/2017 Mon 16:12:51:   2, 2
+20/11/2017 Mon 16:12:51:   3, 1
+20/11/2017 Mon 16:12:51:   4, 3
+20/11/2017 Mon 16:12:51:   5, 4
+20/11/2017 Mon 16:12:51:   6, 5
+20/11/2017 Mon 16:12:51:   -1, -1
+20/11/2017 Mon 16:12:51:   Clusters...: 7
+20/11/2017 Mon 16:13:10:   FM.........: 0.4935730073404475
+20/11/2017 Mon 16:13:10:End of Script ------/
+20/11/2017 Mon 16:13:16:/------ Begin of Script
+20/11/2017 Mon 16:13:16:epsilon: 0.035 minPts: 45
+20/11/2017 Mon 16:13:16:   Type.......: Point
+20/11/2017 Mon 16:13:16:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:13:16:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:13:16:   Map Matrix
+20/11/2017 Mon 16:13:16:   0, 4
+20/11/2017 Mon 16:13:16:   1, 0
+20/11/2017 Mon 16:13:16:   -1, -1
+20/11/2017 Mon 16:13:17:   Clusters...: 2
+20/11/2017 Mon 16:13:28:/------ Begin of Script
+20/11/2017 Mon 16:13:28:epsilon: 0.04 minPts: 50
+20/11/2017 Mon 16:13:28:   Type.......: Point
+20/11/2017 Mon 16:13:28:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:13:28:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:13:28:   Map Matrix
+20/11/2017 Mon 16:13:28:   0, 4
+20/11/2017 Mon 16:13:28:   -1, -1
+20/11/2017 Mon 16:13:29:   Clusters...: 1
+20/11/2017 Mon 16:13:41:/------ Begin of Script
+20/11/2017 Mon 16:13:41:epsilon: 0.04 minPts: 60
+20/11/2017 Mon 16:13:41:   Type.......: Point
+20/11/2017 Mon 16:13:41:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:13:41:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:13:41:   Map Matrix
+20/11/2017 Mon 16:13:41:   0, 2
+20/11/2017 Mon 16:13:41:   1, 1
+20/11/2017 Mon 16:13:41:   2, 3
+20/11/2017 Mon 16:13:41:   3, 4
+20/11/2017 Mon 16:13:41:   4, 5
+20/11/2017 Mon 16:13:41:   -1, -1
+20/11/2017 Mon 16:13:42:   Clusters...: 5
+20/11/2017 Mon 16:14:07:   FM.........: 0.33588775916747626
+20/11/2017 Mon 16:14:07:End of Script ------/
+20/11/2017 Mon 16:14:16:/------ Begin of Script
+20/11/2017 Mon 16:14:16:epsilon: 0.05 minPts: 60
+20/11/2017 Mon 16:14:16:   Type.......: Point
+20/11/2017 Mon 16:14:16:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:16:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:16:   Map Matrix
+20/11/2017 Mon 16:14:16:   0, 4
+20/11/2017 Mon 16:14:16:   -1, -1
+20/11/2017 Mon 16:14:16:   Clusters...: 1
+20/11/2017 Mon 16:14:25:/------ Begin of Script
+20/11/2017 Mon 16:14:25:epsilon: 0.045 minPts: 60
+20/11/2017 Mon 16:14:25:   Type.......: Point
+20/11/2017 Mon 16:14:25:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:25:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:25:   Map Matrix
+20/11/2017 Mon 16:14:25:   0, 4
+20/11/2017 Mon 16:14:25:   -1, -1
+20/11/2017 Mon 16:14:25:   Clusters...: 1
+20/11/2017 Mon 16:14:35:/------ Begin of Script
+20/11/2017 Mon 16:14:35:epsilon: 0.045 minPts: 70
+20/11/2017 Mon 16:14:35:   Type.......: Point
+20/11/2017 Mon 16:14:35:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:35:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:35:   Map Matrix
+20/11/2017 Mon 16:14:35:   0, 2
+20/11/2017 Mon 16:14:35:   1, 1
+20/11/2017 Mon 16:14:35:   2, 1
+20/11/2017 Mon 16:14:35:   3, 3
+20/11/2017 Mon 16:14:35:   4, 4
+20/11/2017 Mon 16:14:35:   5, 5
+20/11/2017 Mon 16:14:35:   -1, -1
+20/11/2017 Mon 16:14:35:   Clusters...: 6
+20/11/2017 Mon 16:14:44:/------ Begin of Script
+20/11/2017 Mon 16:14:44:epsilon: 0.045 minPts: 65
+20/11/2017 Mon 16:14:44:   Type.......: Point
+20/11/2017 Mon 16:14:44:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:44:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:14:44:   Map Matrix
+20/11/2017 Mon 16:14:44:   0, 4
+20/11/2017 Mon 16:14:44:   1, 1
+20/11/2017 Mon 16:14:44:   2, 3
+20/11/2017 Mon 16:14:44:   3, 5
+20/11/2017 Mon 16:14:44:   -1, -1
+20/11/2017 Mon 16:14:44:   Clusters...: 4
+20/11/2017 Mon 16:15:02:   FM.........: 0.349054210498809
+20/11/2017 Mon 16:15:02:End of Script ------/
+20/11/2017 Mon 16:15:26:/------ Begin of Script
+20/11/2017 Mon 16:15:26:epsilon: 0.025 minPts: 50
+20/11/2017 Mon 16:15:26:   Type.......: Point
+20/11/2017 Mon 16:15:26:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:15:26:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:15:26:   Map Matrix
+20/11/2017 Mon 16:15:26:   0, 0
+20/11/2017 Mon 16:15:26:   1, 2
+20/11/2017 Mon 16:15:26:   2, 5
+20/11/2017 Mon 16:15:26:   3, 0
+20/11/2017 Mon 16:15:26:   4, 3
+20/11/2017 Mon 16:15:26:   5, 2
+20/11/2017 Mon 16:15:26:   6, 0
+20/11/2017 Mon 16:15:26:   7, 1
+20/11/2017 Mon 16:15:26:   8, 4
+20/11/2017 Mon 16:15:26:   9, 2
+20/11/2017 Mon 16:15:26:   10, 1
+20/11/2017 Mon 16:15:26:   11, 3
+20/11/2017 Mon 16:15:26:   12, 4
+20/11/2017 Mon 16:15:26:   13, 5
+20/11/2017 Mon 16:15:26:   14, 2
+20/11/2017 Mon 16:15:26:   15, 3
+20/11/2017 Mon 16:15:26:   16, 5
+20/11/2017 Mon 16:15:26:   17, 0
+20/11/2017 Mon 16:15:26:   18, 2
+20/11/2017 Mon 16:15:26:   19, 1
+20/11/2017 Mon 16:15:26:   20, 4
+20/11/2017 Mon 16:15:26:   21, 0
+20/11/2017 Mon 16:15:26:   22, 2
+20/11/2017 Mon 16:15:26:   23, 3
+20/11/2017 Mon 16:15:26:   24, 0
+20/11/2017 Mon 16:15:26:   25, 0
+20/11/2017 Mon 16:15:26:   26, 3
+20/11/2017 Mon 16:15:26:   -1, -1
+20/11/2017 Mon 16:15:27:   Clusters...: 27
+20/11/2017 Mon 16:15:45:/------ Begin of Script
+20/11/2017 Mon 16:15:45:epsilon: 0.025 minPts: 30
+20/11/2017 Mon 16:15:45:   Type.......: Point
+20/11/2017 Mon 16:15:45:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:15:45:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:15:45:   Map Matrix
+20/11/2017 Mon 16:15:45:   0, 0
+20/11/2017 Mon 16:15:45:   1, 1
+20/11/2017 Mon 16:15:45:   2, 4
+20/11/2017 Mon 16:15:45:   3, 1
+20/11/2017 Mon 16:15:45:   4, 1
+20/11/2017 Mon 16:15:45:   -1, -1
+20/11/2017 Mon 16:15:45:   Clusters...: 5
+20/11/2017 Mon 16:16:07:   FM.........: 0.5173201029356874
+20/11/2017 Mon 16:16:07:End of Script ------/
+20/11/2017 Mon 16:16:22:/------ Begin of Script
+20/11/2017 Mon 16:16:22:epsilon: 0.025 minPts: 20
+20/11/2017 Mon 16:16:22:   Type.......: Point
+20/11/2017 Mon 16:16:22:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:22:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:22:   Map Matrix
+20/11/2017 Mon 16:16:22:   0, 4
+20/11/2017 Mon 16:16:22:   -1, -1
+20/11/2017 Mon 16:16:23:   Clusters...: 1
+20/11/2017 Mon 16:16:36:/------ Begin of Script
+20/11/2017 Mon 16:16:36:epsilon: 0.025 minPts: 25
+20/11/2017 Mon 16:16:36:   Type.......: Point
+20/11/2017 Mon 16:16:36:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:36:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:36:   Map Matrix
+20/11/2017 Mon 16:16:36:   0, 4
+20/11/2017 Mon 16:16:36:   -1, -1
+20/11/2017 Mon 16:16:36:   Clusters...: 1
+20/11/2017 Mon 16:16:43:/------ Begin of Script
+20/11/2017 Mon 16:16:43:epsilon: 0.025 minPts: 28
+20/11/2017 Mon 16:16:43:   Type.......: Point
+20/11/2017 Mon 16:16:43:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:43:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:43:   Map Matrix
+20/11/2017 Mon 16:16:43:   0, 0
+20/11/2017 Mon 16:16:43:   1, 4
+20/11/2017 Mon 16:16:43:   -1, -1
+20/11/2017 Mon 16:16:44:   Clusters...: 2
+20/11/2017 Mon 16:16:52:/------ Begin of Script
+20/11/2017 Mon 16:16:52:epsilon: 0.025 minPts: 29
+20/11/2017 Mon 16:16:52:   Type.......: Point
+20/11/2017 Mon 16:16:52:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:52:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:16:52:   Map Matrix
+20/11/2017 Mon 16:16:52:   0, 0
+20/11/2017 Mon 16:16:52:   1, 1
+20/11/2017 Mon 16:16:52:   2, 4
+20/11/2017 Mon 16:16:52:   3, 1
+20/11/2017 Mon 16:16:52:   -1, -1
+20/11/2017 Mon 16:16:53:   Clusters...: 4
+20/11/2017 Mon 16:17:09:   FM.........: 0.5173551589223544
+20/11/2017 Mon 16:17:09:End of Script ------/
+20/11/2017 Mon 16:17:35:/------ Begin of Script
+20/11/2017 Mon 16:17:35:epsilon: 0.025 minPts: 29
+20/11/2017 Mon 16:17:35:   Type.......: Cell
+20/11/2017 Mon 16:17:35:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:17:35:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:17:35:   Map Matrix
+20/11/2017 Mon 16:17:35:   0, 0
+20/11/2017 Mon 16:17:35:   1, 1
+20/11/2017 Mon 16:17:35:   2, 0
+20/11/2017 Mon 16:17:35:   3, 0
+20/11/2017 Mon 16:17:35:   4, 2
+20/11/2017 Mon 16:17:35:   5, 3
+20/11/2017 Mon 16:17:35:   6, 3
+20/11/2017 Mon 16:17:35:   7, 4
+20/11/2017 Mon 16:17:35:   8, 5
+20/11/2017 Mon 16:17:35:   9, 2
+20/11/2017 Mon 16:17:35:   10, 1
+20/11/2017 Mon 16:17:35:   11, 1
+20/11/2017 Mon 16:17:35:   12, 1
+20/11/2017 Mon 16:17:35:   13, 0
+20/11/2017 Mon 16:17:35:   14, 0
+20/11/2017 Mon 16:17:35:   15, 1
+20/11/2017 Mon 16:17:35:   16, 3
+20/11/2017 Mon 16:17:35:   17, 2
+20/11/2017 Mon 16:17:35:   18, 0
+20/11/2017 Mon 16:17:35:   19, 2
+20/11/2017 Mon 16:17:35:   20, 0
+20/11/2017 Mon 16:17:35:   21, 2
+20/11/2017 Mon 16:17:35:   22, 4
+20/11/2017 Mon 16:17:35:   23, 2
+20/11/2017 Mon 16:17:35:   24, 2
+20/11/2017 Mon 16:17:35:   25, 3
+20/11/2017 Mon 16:17:35:   26, 4
+20/11/2017 Mon 16:17:35:   27, 1
+20/11/2017 Mon 16:17:35:   28, 3
+20/11/2017 Mon 16:17:35:   29, 2
+20/11/2017 Mon 16:17:35:   30, 1
+20/11/2017 Mon 16:17:35:   31, 2
+20/11/2017 Mon 16:17:35:   32, 3
+20/11/2017 Mon 16:17:35:   33, 5
+20/11/2017 Mon 16:17:35:   34, 2
+20/11/2017 Mon 16:17:35:   35, 0
+20/11/2017 Mon 16:17:35:   36, 3
+20/11/2017 Mon 16:17:35:   37, 3
+20/11/2017 Mon 16:17:35:   38, 4
+20/11/2017 Mon 16:17:35:   39, 3
+20/11/2017 Mon 16:17:35:   40, 4
+20/11/2017 Mon 16:17:35:   41, 4
+20/11/2017 Mon 16:17:35:   42, 4
+20/11/2017 Mon 16:17:35:   43, 5
+20/11/2017 Mon 16:17:35:   44, 5
+20/11/2017 Mon 16:17:35:   45, 2
+20/11/2017 Mon 16:17:35:   46, 4
+20/11/2017 Mon 16:17:35:   47, 3
+20/11/2017 Mon 16:17:35:   48, 0
+20/11/2017 Mon 16:17:35:   49, 2
+20/11/2017 Mon 16:17:35:   50, 0
+20/11/2017 Mon 16:17:35:   51, 4
+20/11/2017 Mon 16:17:35:   52, 5
+20/11/2017 Mon 16:17:35:   53, 3
+20/11/2017 Mon 16:17:35:   54, 4
+20/11/2017 Mon 16:17:35:   55, 2
+20/11/2017 Mon 16:17:35:   56, 5
+20/11/2017 Mon 16:17:35:   57, 2
+20/11/2017 Mon 16:17:35:   58, 0
+20/11/2017 Mon 16:17:35:   59, 5
+20/11/2017 Mon 16:17:35:   60, 5
+20/11/2017 Mon 16:17:35:   61, 4
+20/11/2017 Mon 16:17:35:   62, 2
+20/11/2017 Mon 16:17:35:   63, 3
+20/11/2017 Mon 16:17:35:   64, 1
+20/11/2017 Mon 16:17:35:   65, 2
+20/11/2017 Mon 16:17:35:   66, 0
+20/11/2017 Mon 16:17:35:   67, 4
+20/11/2017 Mon 16:17:35:   68, 3
+20/11/2017 Mon 16:17:35:   69, 1
+20/11/2017 Mon 16:17:35:   70, 1
+20/11/2017 Mon 16:17:35:   71, 4
+20/11/2017 Mon 16:17:35:   72, 5
+20/11/2017 Mon 16:17:35:   73, 0
+20/11/2017 Mon 16:17:35:   74, 0
+20/11/2017 Mon 16:17:35:   75, 2
+20/11/2017 Mon 16:17:35:   76, 4
+20/11/2017 Mon 16:17:35:   77, 2
+20/11/2017 Mon 16:17:35:   78, 5
+20/11/2017 Mon 16:17:35:   79, 4
+20/11/2017 Mon 16:17:35:   80, 2
+20/11/2017 Mon 16:17:35:   81, 2
+20/11/2017 Mon 16:17:35:   82, 1
+20/11/2017 Mon 16:17:35:   83, 1
+20/11/2017 Mon 16:17:35:   84, 4
+20/11/2017 Mon 16:17:35:   85, 0
+20/11/2017 Mon 16:17:35:   86, 3
+20/11/2017 Mon 16:17:35:   87, 87
+20/11/2017 Mon 16:17:35:   88, 1
+20/11/2017 Mon 16:17:35:   89, 0
+20/11/2017 Mon 16:17:35:   90, 1
+20/11/2017 Mon 16:17:35:   91, 4
+20/11/2017 Mon 16:17:35:   92, 0
+20/11/2017 Mon 16:17:35:   93, 4
+20/11/2017 Mon 16:17:35:   94, 1
+20/11/2017 Mon 16:17:35:   95, 2
+20/11/2017 Mon 16:17:35:   96, 4
+20/11/2017 Mon 16:17:35:   97, 0
+20/11/2017 Mon 16:17:35:   98, 4
+20/11/2017 Mon 16:17:35:   99, 3
+20/11/2017 Mon 16:17:35:   100, 5
+20/11/2017 Mon 16:17:35:   101, 3
+20/11/2017 Mon 16:17:35:   102, 0
+20/11/2017 Mon 16:17:35:   103, 0
+20/11/2017 Mon 16:17:35:   104, 1
+20/11/2017 Mon 16:17:35:   105, 0
+20/11/2017 Mon 16:17:35:   106, 3
+20/11/2017 Mon 16:17:35:   107, 3
+20/11/2017 Mon 16:17:35:   108, 0
+20/11/2017 Mon 16:17:35:   109, 3
+20/11/2017 Mon 16:17:35:   110, 3
+20/11/2017 Mon 16:17:35:   111, 111
+20/11/2017 Mon 16:17:35:   112, 1
+20/11/2017 Mon 16:17:35:   113, 5
+20/11/2017 Mon 16:17:35:   114, 1
+20/11/2017 Mon 16:17:35:   115, 2
+20/11/2017 Mon 16:17:35:   116, 0
+20/11/2017 Mon 16:17:35:   117, 0
+20/11/2017 Mon 16:17:35:   118, 4
+20/11/2017 Mon 16:17:35:   119, 0
+20/11/2017 Mon 16:17:35:   120, 1
+20/11/2017 Mon 16:17:35:   121, 2
+20/11/2017 Mon 16:17:35:   122, 5
+20/11/2017 Mon 16:17:35:   123, 123
+20/11/2017 Mon 16:17:35:   124, 4
+20/11/2017 Mon 16:17:35:   125, 5
+20/11/2017 Mon 16:17:35:   126, 1
+20/11/2017 Mon 16:17:35:   127, 3
+20/11/2017 Mon 16:17:35:   128, 5
+20/11/2017 Mon 16:17:35:   129, 3
+20/11/2017 Mon 16:17:35:   130, 3
+20/11/2017 Mon 16:17:35:   131, 3
+20/11/2017 Mon 16:17:35:   132, 0
+20/11/2017 Mon 16:17:35:   133, 133
+20/11/2017 Mon 16:17:35:   134, 2
+20/11/2017 Mon 16:17:35:   135, 4
+20/11/2017 Mon 16:17:35:   136, 5
+20/11/2017 Mon 16:17:35:   -1, -1
+20/11/2017 Mon 16:17:35:   Clusters...: 137
+20/11/2017 Mon 16:17:46:/------ Begin of Script
+20/11/2017 Mon 16:17:46:epsilon: 0.04 minPts: 40
+20/11/2017 Mon 16:17:46:   Type.......: Cell
+20/11/2017 Mon 16:17:46:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:17:46:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:17:47:   Map Matrix
+20/11/2017 Mon 16:17:47:   0, 0
+20/11/2017 Mon 16:17:47:   1, 1
+20/11/2017 Mon 16:17:47:   2, 0
+20/11/2017 Mon 16:17:47:   3, 3
+20/11/2017 Mon 16:17:47:   4, 2
+20/11/2017 Mon 16:17:47:   5, 3
+20/11/2017 Mon 16:17:47:   6, 3
+20/11/2017 Mon 16:17:47:   7, 4
+20/11/2017 Mon 16:17:47:   8, 3
+20/11/2017 Mon 16:17:47:   9, 4
+20/11/2017 Mon 16:17:47:   10, 5
+20/11/2017 Mon 16:17:47:   11, 2
+20/11/2017 Mon 16:17:47:   12, 1
+20/11/2017 Mon 16:17:47:   13, 2
+20/11/2017 Mon 16:17:47:   14, 0
+20/11/2017 Mon 16:17:47:   15, 0
+20/11/2017 Mon 16:17:47:   16, 1
+20/11/2017 Mon 16:17:47:   17, 2
+20/11/2017 Mon 16:17:47:   18, 1
+20/11/2017 Mon 16:17:47:   19, 1
+20/11/2017 Mon 16:17:47:   20, 2
+20/11/2017 Mon 16:17:47:   21, 3
+20/11/2017 Mon 16:17:47:   22, 5
+20/11/2017 Mon 16:17:47:   23, 1
+20/11/2017 Mon 16:17:47:   24, 3
+20/11/2017 Mon 16:17:47:   25, 2
+20/11/2017 Mon 16:17:47:   26, 4
+20/11/2017 Mon 16:17:47:   27, 4
+20/11/2017 Mon 16:17:47:   28, 4
+20/11/2017 Mon 16:17:47:   29, 4
+20/11/2017 Mon 16:17:47:   30, 5
+20/11/2017 Mon 16:17:47:   31, 0
+20/11/2017 Mon 16:17:47:   32, 5
+20/11/2017 Mon 16:17:47:   33, 1
+20/11/2017 Mon 16:17:47:   34, 1
+20/11/2017 Mon 16:17:47:   -1, -1
+20/11/2017 Mon 16:17:47:   Clusters...: 35
+20/11/2017 Mon 16:17:58:/------ Begin of Script
+20/11/2017 Mon 16:17:58:epsilon: 0.06 minPts: 40
+20/11/2017 Mon 16:17:58:   Type.......: Cell
+20/11/2017 Mon 16:17:58:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:17:58:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:17:59:   Map Matrix
+20/11/2017 Mon 16:17:59:   0, 4
+20/11/2017 Mon 16:17:59:   -1, -1
+20/11/2017 Mon 16:17:59:   Clusters...: 1
+20/11/2017 Mon 16:18:05:/------ Begin of Script
+20/11/2017 Mon 16:18:05:epsilon: 0.05 minPts: 40
+20/11/2017 Mon 16:18:05:   Type.......: Cell
+20/11/2017 Mon 16:18:05:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:05:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:05:   Map Matrix
+20/11/2017 Mon 16:18:05:   0, 4
+20/11/2017 Mon 16:18:05:   -1, -1
+20/11/2017 Mon 16:18:06:   Clusters...: 1
+20/11/2017 Mon 16:18:14:/------ Begin of Script
+20/11/2017 Mon 16:18:14:epsilon: 0.06 minPts: 30
+20/11/2017 Mon 16:18:14:   Type.......: Cell
+20/11/2017 Mon 16:18:14:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:14:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:15:   Map Matrix
+20/11/2017 Mon 16:18:15:   0, 4
+20/11/2017 Mon 16:18:15:   1, 1
+20/11/2017 Mon 16:18:15:   -1, -1
+20/11/2017 Mon 16:18:15:   Clusters...: 2
+20/11/2017 Mon 16:18:21:/------ Begin of Script
+20/11/2017 Mon 16:18:21:epsilon: 0.05 minPts: 30
+20/11/2017 Mon 16:18:21:   Type.......: Cell
+20/11/2017 Mon 16:18:21:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:21:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:22:   Map Matrix
+20/11/2017 Mon 16:18:22:   0, 4
+20/11/2017 Mon 16:18:22:   1, 1
+20/11/2017 Mon 16:18:22:   -1, -1
+20/11/2017 Mon 16:18:22:   Clusters...: 2
+20/11/2017 Mon 16:18:30:/------ Begin of Script
+20/11/2017 Mon 16:18:30:epsilon: 0.04 minPts: 30
+20/11/2017 Mon 16:18:30:   Type.......: Cell
+20/11/2017 Mon 16:18:30:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:30:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:18:31:   Map Matrix
+20/11/2017 Mon 16:18:31:   0, 0
+20/11/2017 Mon 16:18:31:   1, 1
+20/11/2017 Mon 16:18:31:   2, 0
+20/11/2017 Mon 16:18:31:   3, 2
+20/11/2017 Mon 16:18:31:   4, 3
+20/11/2017 Mon 16:18:31:   5, 2
+20/11/2017 Mon 16:18:31:   6, 3
+20/11/2017 Mon 16:18:31:   7, 3
+20/11/2017 Mon 16:18:31:   8, 4
+20/11/2017 Mon 16:18:31:   9, 3
+20/11/2017 Mon 16:18:31:   10, 4
+20/11/2017 Mon 16:18:31:   11, 5
+20/11/2017 Mon 16:18:31:   12, 2
+20/11/2017 Mon 16:18:31:   13, 1
+20/11/2017 Mon 16:18:31:   14, 2
+20/11/2017 Mon 16:18:31:   15, 0
+20/11/2017 Mon 16:18:31:   16, 0
+20/11/2017 Mon 16:18:31:   17, 1
+20/11/2017 Mon 16:18:31:   18, 1
+20/11/2017 Mon 16:18:31:   19, 1
+20/11/2017 Mon 16:18:31:   20, 4
+20/11/2017 Mon 16:18:31:   21, 2
+20/11/2017 Mon 16:18:31:   22, 3
+20/11/2017 Mon 16:18:31:   23, 5
+20/11/2017 Mon 16:18:31:   24, 1
+20/11/2017 Mon 16:18:31:   25, 3
+20/11/2017 Mon 16:18:31:   26, 3
+20/11/2017 Mon 16:18:31:   27, 2
+20/11/2017 Mon 16:18:31:   28, 4
+20/11/2017 Mon 16:18:31:   29, 4
+20/11/2017 Mon 16:18:31:   30, 4
+20/11/2017 Mon 16:18:31:   31, 4
+20/11/2017 Mon 16:18:31:   32, 5
+20/11/2017 Mon 16:18:31:   33, 5
+20/11/2017 Mon 16:18:31:   34, 1
+20/11/2017 Mon 16:18:31:   35, 1
+20/11/2017 Mon 16:18:31:   36, 2
+20/11/2017 Mon 16:18:31:   37, 2
+20/11/2017 Mon 16:18:31:   38, 4
+20/11/2017 Mon 16:18:31:   39, 39
+20/11/2017 Mon 16:18:31:   40, 3
+20/11/2017 Mon 16:18:31:   -1, -1
+20/11/2017 Mon 16:18:31:   Clusters...: 41
+20/11/2017 Mon 16:18:45:   FM.........: 0.876863137137742
+20/11/2017 Mon 16:18:45:End of Script ------/
+20/11/2017 Mon 16:19:22:/------ Begin of Script
+20/11/2017 Mon 16:19:22:epsilon: 0.08 minPts: 60
+20/11/2017 Mon 16:19:22:   Type.......: Cell
+20/11/2017 Mon 16:19:22:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:19:22:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:19:22:   Map Matrix
+20/11/2017 Mon 16:19:22:   0, 4
+20/11/2017 Mon 16:19:22:   -1, -1
+20/11/2017 Mon 16:19:22:   Clusters...: 1
+20/11/2017 Mon 16:19:42:/------ Begin of Script
+20/11/2017 Mon 16:19:42:epsilon: 0.03 minPts: 10
+20/11/2017 Mon 16:19:42:   Type.......: Cell
+20/11/2017 Mon 16:19:42:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:19:42:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:19:42:   Map Matrix
+20/11/2017 Mon 16:19:42:   0, 0
+20/11/2017 Mon 16:19:42:   1, 1
+20/11/2017 Mon 16:19:42:   2, 0
+20/11/2017 Mon 16:19:42:   3, 0
+20/11/2017 Mon 16:19:42:   4, 2
+20/11/2017 Mon 16:19:42:   5, 3
+20/11/2017 Mon 16:19:42:   6, 2
+20/11/2017 Mon 16:19:42:   7, 3
+20/11/2017 Mon 16:19:42:   8, 3
+20/11/2017 Mon 16:19:42:   9, 4
+20/11/2017 Mon 16:19:42:   10, 3
+20/11/2017 Mon 16:19:42:   11, 4
+20/11/2017 Mon 16:19:42:   12, 5
+20/11/2017 Mon 16:19:42:   13, 2
+20/11/2017 Mon 16:19:42:   14, 1
+20/11/2017 Mon 16:19:42:   15, 1
+20/11/2017 Mon 16:19:42:   16, 1
+20/11/2017 Mon 16:19:42:   17, 5
+20/11/2017 Mon 16:19:42:   18, 18
+20/11/2017 Mon 16:19:42:   19, 2
+20/11/2017 Mon 16:19:42:   20, 5
+20/11/2017 Mon 16:19:42:   21, 0
+20/11/2017 Mon 16:19:42:   22, 0
+20/11/2017 Mon 16:19:42:   23, 1
+20/11/2017 Mon 16:19:42:   24, 3
+20/11/2017 Mon 16:19:42:   25, 0
+20/11/2017 Mon 16:19:42:   26, 2
+20/11/2017 Mon 16:19:42:   27, 0
+20/11/2017 Mon 16:19:42:   28, 0
+20/11/2017 Mon 16:19:42:   29, 1
+20/11/2017 Mon 16:19:42:   30, 2
+20/11/2017 Mon 16:19:42:   31, 1
+20/11/2017 Mon 16:19:42:   32, 4
+20/11/2017 Mon 16:19:42:   33, 2
+20/11/2017 Mon 16:19:42:   34, 2
+20/11/2017 Mon 16:19:42:   35, 2
+20/11/2017 Mon 16:19:42:   36, 3
+20/11/2017 Mon 16:19:42:   37, 3
+20/11/2017 Mon 16:19:42:   38, 5
+20/11/2017 Mon 16:19:42:   39, 2
+20/11/2017 Mon 16:19:42:   40, 4
+20/11/2017 Mon 16:19:42:   41, 1
+20/11/2017 Mon 16:19:42:   42, 3
+20/11/2017 Mon 16:19:42:   43, 2
+20/11/2017 Mon 16:19:42:   44, 0
+20/11/2017 Mon 16:19:42:   45, 4
+20/11/2017 Mon 16:19:42:   46, 1
+20/11/2017 Mon 16:19:42:   47, 2
+20/11/2017 Mon 16:19:42:   48, 3
+20/11/2017 Mon 16:19:42:   49, 5
+20/11/2017 Mon 16:19:42:   50, 5
+20/11/2017 Mon 16:19:42:   51, 51
+20/11/2017 Mon 16:19:42:   52, 2
+20/11/2017 Mon 16:19:42:   53, 0
+20/11/2017 Mon 16:19:42:   54, 3
+20/11/2017 Mon 16:19:42:   55, 0
+20/11/2017 Mon 16:19:42:   56, 3
+20/11/2017 Mon 16:19:42:   57, 4
+20/11/2017 Mon 16:19:42:   58, 3
+20/11/2017 Mon 16:19:42:   59, 1
+20/11/2017 Mon 16:19:42:   60, 0
+20/11/2017 Mon 16:19:42:   61, 4
+20/11/2017 Mon 16:19:42:   62, 62
+20/11/2017 Mon 16:19:42:   63, 4
+20/11/2017 Mon 16:19:42:   64, 4
+20/11/2017 Mon 16:19:42:   65, 5
+20/11/2017 Mon 16:19:42:   66, 5
+20/11/2017 Mon 16:19:42:   67, 2
+20/11/2017 Mon 16:19:42:   68, 4
+20/11/2017 Mon 16:19:42:   69, 3
+20/11/2017 Mon 16:19:42:   70, 0
+20/11/2017 Mon 16:19:42:   71, 2
+20/11/2017 Mon 16:19:42:   72, 4
+20/11/2017 Mon 16:19:42:   73, 5
+20/11/2017 Mon 16:19:42:   74, 2
+20/11/2017 Mon 16:19:42:   75, 0
+20/11/2017 Mon 16:19:42:   76, 4
+20/11/2017 Mon 16:19:42:   77, 0
+20/11/2017 Mon 16:19:42:   78, 5
+20/11/2017 Mon 16:19:42:   79, 3
+20/11/2017 Mon 16:19:42:   80, 3
+20/11/2017 Mon 16:19:42:   81, 4
+20/11/2017 Mon 16:19:42:   82, 4
+20/11/2017 Mon 16:19:42:   83, 2
+20/11/2017 Mon 16:19:42:   84, 5
+20/11/2017 Mon 16:19:42:   85, 2
+20/11/2017 Mon 16:19:42:   86, 0
+20/11/2017 Mon 16:19:42:   87, 5
+20/11/2017 Mon 16:19:42:   88, 4
+20/11/2017 Mon 16:19:42:   89, 2
+20/11/2017 Mon 16:19:42:   90, 3
+20/11/2017 Mon 16:19:42:   91, 1
+20/11/2017 Mon 16:19:42:   92, 5
+20/11/2017 Mon 16:19:42:   93, 2
+20/11/2017 Mon 16:19:42:   94, 0
+20/11/2017 Mon 16:19:42:   95, 4
+20/11/2017 Mon 16:19:42:   96, 4
+20/11/2017 Mon 16:19:42:   97, 5
+20/11/2017 Mon 16:19:42:   98, 3
+20/11/2017 Mon 16:19:42:   99, 1
+20/11/2017 Mon 16:19:42:   100, 4
+20/11/2017 Mon 16:19:42:   101, 1
+20/11/2017 Mon 16:19:42:   102, 4
+20/11/2017 Mon 16:19:42:   103, 0
+20/11/2017 Mon 16:19:42:   104, 0
+20/11/2017 Mon 16:19:42:   105, 0
+20/11/2017 Mon 16:19:42:   106, 1
+20/11/2017 Mon 16:19:42:   107, 4
+20/11/2017 Mon 16:19:42:   108, 2
+20/11/2017 Mon 16:19:42:   109, 4
+20/11/2017 Mon 16:19:42:   110, 2
+20/11/2017 Mon 16:19:42:   111, 5
+20/11/2017 Mon 16:19:42:   112, 4
+20/11/2017 Mon 16:19:42:   113, 2
+20/11/2017 Mon 16:19:42:   114, 2
+20/11/2017 Mon 16:19:42:   115, 1
+20/11/2017 Mon 16:19:42:   116, 4
+20/11/2017 Mon 16:19:42:   117, 5
+20/11/2017 Mon 16:19:42:   118, 4
+20/11/2017 Mon 16:19:42:   119, 4
+20/11/2017 Mon 16:19:42:   120, 3
+20/11/2017 Mon 16:19:42:   121, 0
+20/11/2017 Mon 16:19:42:   122, 3
+20/11/2017 Mon 16:19:42:   123, 3
+20/11/2017 Mon 16:19:42:   124, 4
+20/11/2017 Mon 16:19:42:   125, 1
+20/11/2017 Mon 16:19:42:   126, 0
+20/11/2017 Mon 16:19:42:   127, 0
+20/11/2017 Mon 16:19:42:   128, 1
+20/11/2017 Mon 16:19:42:   129, 1
+20/11/2017 Mon 16:19:42:   130, 2
+20/11/2017 Mon 16:19:42:   131, 2
+20/11/2017 Mon 16:19:42:   132, 4
+20/11/2017 Mon 16:19:42:   133, 3
+20/11/2017 Mon 16:19:42:   134, 4
+20/11/2017 Mon 16:19:42:   135, 3
+20/11/2017 Mon 16:19:42:   136, 5
+20/11/2017 Mon 16:19:42:   137, 3
+20/11/2017 Mon 16:19:42:   138, 0
+20/11/2017 Mon 16:19:42:   139, 0
+20/11/2017 Mon 16:19:42:   140, 1
+20/11/2017 Mon 16:19:42:   141, 0
+20/11/2017 Mon 16:19:42:   142, 3
+20/11/2017 Mon 16:19:42:   143, 3
+20/11/2017 Mon 16:19:42:   144, 0
+20/11/2017 Mon 16:19:42:   145, 3
+20/11/2017 Mon 16:19:42:   146, 3
+20/11/2017 Mon 16:19:42:   147, 147
+20/11/2017 Mon 16:19:42:   148, 1
+20/11/2017 Mon 16:19:42:   149, 4
+20/11/2017 Mon 16:19:42:   150, 5
+20/11/2017 Mon 16:19:42:   151, 4
+20/11/2017 Mon 16:19:42:   152, 0
+20/11/2017 Mon 16:19:42:   153, 0
+20/11/2017 Mon 16:19:42:   154, 5
+20/11/2017 Mon 16:19:42:   155, 3
+20/11/2017 Mon 16:19:42:   156, 2
+20/11/2017 Mon 16:19:42:   157, 3
+20/11/2017 Mon 16:19:42:   158, 0
+20/11/2017 Mon 16:19:42:   159, 5
+20/11/2017 Mon 16:19:42:   160, 160
+20/11/2017 Mon 16:19:42:   161, 0
+20/11/2017 Mon 16:19:42:   162, 4
+20/11/2017 Mon 16:19:42:   163, 1
+20/11/2017 Mon 16:19:42:   164, 5
+20/11/2017 Mon 16:19:42:   165, 165
+20/11/2017 Mon 16:19:42:   166, 4
+20/11/2017 Mon 16:19:42:   167, 5
+20/11/2017 Mon 16:19:42:   168, 0
+20/11/2017 Mon 16:19:42:   169, 5
+20/11/2017 Mon 16:19:42:   170, 3
+20/11/2017 Mon 16:19:42:   171, 3
+20/11/2017 Mon 16:19:42:   172, 5
+20/11/2017 Mon 16:19:42:   173, 3
+20/11/2017 Mon 16:19:42:   174, 5
+20/11/2017 Mon 16:19:42:   175, 5
+20/11/2017 Mon 16:19:42:   176, 0
+20/11/2017 Mon 16:19:42:   177, 5
+20/11/2017 Mon 16:19:42:   178, 3
+20/11/2017 Mon 16:19:42:   179, 179
+20/11/2017 Mon 16:19:42:   180, 4
+20/11/2017 Mon 16:19:42:   181, 2
+20/11/2017 Mon 16:19:42:   182, 4
+20/11/2017 Mon 16:19:42:   183, 4
+20/11/2017 Mon 16:19:42:   184, 5
+20/11/2017 Mon 16:19:42:   185, 1
+20/11/2017 Mon 16:19:42:   -1, -1
+20/11/2017 Mon 16:19:42:   Clusters...: 186
+20/11/2017 Mon 16:20:00:/------ Begin of Script
+20/11/2017 Mon 16:20:00:epsilon: 0.03 minPts: 20
+20/11/2017 Mon 16:20:00:   Type.......: Cell
+20/11/2017 Mon 16:20:00:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:00:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:00:   Map Matrix
+20/11/2017 Mon 16:20:00:   0, 0
+20/11/2017 Mon 16:20:00:   1, 1
+20/11/2017 Mon 16:20:00:   2, 0
+20/11/2017 Mon 16:20:00:   3, 0
+20/11/2017 Mon 16:20:00:   4, 2
+20/11/2017 Mon 16:20:00:   5, 3
+20/11/2017 Mon 16:20:00:   6, 2
+20/11/2017 Mon 16:20:00:   7, 3
+20/11/2017 Mon 16:20:00:   8, 3
+20/11/2017 Mon 16:20:00:   9, 4
+20/11/2017 Mon 16:20:00:   10, 3
+20/11/2017 Mon 16:20:00:   11, 4
+20/11/2017 Mon 16:20:00:   12, 5
+20/11/2017 Mon 16:20:00:   13, 2
+20/11/2017 Mon 16:20:00:   14, 1
+20/11/2017 Mon 16:20:00:   15, 1
+20/11/2017 Mon 16:20:00:   16, 1
+20/11/2017 Mon 16:20:00:   17, 5
+20/11/2017 Mon 16:20:00:   18, 18
+20/11/2017 Mon 16:20:00:   19, 2
+20/11/2017 Mon 16:20:00:   20, 5
+20/11/2017 Mon 16:20:00:   21, 0
+20/11/2017 Mon 16:20:00:   22, 0
+20/11/2017 Mon 16:20:00:   23, 1
+20/11/2017 Mon 16:20:00:   24, 3
+20/11/2017 Mon 16:20:00:   25, 0
+20/11/2017 Mon 16:20:00:   26, 2
+20/11/2017 Mon 16:20:00:   27, 0
+20/11/2017 Mon 16:20:00:   28, 1
+20/11/2017 Mon 16:20:00:   29, 2
+20/11/2017 Mon 16:20:00:   30, 1
+20/11/2017 Mon 16:20:00:   31, 4
+20/11/2017 Mon 16:20:00:   32, 2
+20/11/2017 Mon 16:20:00:   33, 2
+20/11/2017 Mon 16:20:00:   34, 2
+20/11/2017 Mon 16:20:00:   35, 3
+20/11/2017 Mon 16:20:00:   36, 3
+20/11/2017 Mon 16:20:00:   37, 5
+20/11/2017 Mon 16:20:00:   38, 2
+20/11/2017 Mon 16:20:00:   39, 4
+20/11/2017 Mon 16:20:00:   40, 1
+20/11/2017 Mon 16:20:00:   41, 3
+20/11/2017 Mon 16:20:00:   42, 2
+20/11/2017 Mon 16:20:00:   43, 0
+20/11/2017 Mon 16:20:00:   44, 4
+20/11/2017 Mon 16:20:00:   45, 1
+20/11/2017 Mon 16:20:00:   46, 2
+20/11/2017 Mon 16:20:00:   47, 3
+20/11/2017 Mon 16:20:00:   48, 5
+20/11/2017 Mon 16:20:00:   49, 5
+20/11/2017 Mon 16:20:00:   50, 50
+20/11/2017 Mon 16:20:00:   51, 2
+20/11/2017 Mon 16:20:00:   52, 0
+20/11/2017 Mon 16:20:00:   53, 3
+20/11/2017 Mon 16:20:00:   54, 0
+20/11/2017 Mon 16:20:00:   55, 3
+20/11/2017 Mon 16:20:00:   56, 4
+20/11/2017 Mon 16:20:00:   57, 3
+20/11/2017 Mon 16:20:00:   58, 1
+20/11/2017 Mon 16:20:00:   59, 0
+20/11/2017 Mon 16:20:00:   60, 4
+20/11/2017 Mon 16:20:00:   61, 61
+20/11/2017 Mon 16:20:00:   62, 4
+20/11/2017 Mon 16:20:00:   63, 4
+20/11/2017 Mon 16:20:00:   64, 5
+20/11/2017 Mon 16:20:00:   65, 5
+20/11/2017 Mon 16:20:00:   66, 2
+20/11/2017 Mon 16:20:00:   67, 4
+20/11/2017 Mon 16:20:00:   68, 3
+20/11/2017 Mon 16:20:00:   69, 0
+20/11/2017 Mon 16:20:00:   70, 2
+20/11/2017 Mon 16:20:00:   71, 4
+20/11/2017 Mon 16:20:00:   72, 5
+20/11/2017 Mon 16:20:00:   73, 2
+20/11/2017 Mon 16:20:00:   74, 0
+20/11/2017 Mon 16:20:00:   75, 4
+20/11/2017 Mon 16:20:00:   76, 5
+20/11/2017 Mon 16:20:00:   77, 3
+20/11/2017 Mon 16:20:00:   78, 4
+20/11/2017 Mon 16:20:00:   79, 4
+20/11/2017 Mon 16:20:00:   80, 2
+20/11/2017 Mon 16:20:00:   81, 5
+20/11/2017 Mon 16:20:00:   82, 2
+20/11/2017 Mon 16:20:00:   83, 0
+20/11/2017 Mon 16:20:00:   84, 5
+20/11/2017 Mon 16:20:00:   85, 4
+20/11/2017 Mon 16:20:00:   86, 2
+20/11/2017 Mon 16:20:00:   87, 3
+20/11/2017 Mon 16:20:00:   88, 1
+20/11/2017 Mon 16:20:00:   89, 5
+20/11/2017 Mon 16:20:00:   90, 2
+20/11/2017 Mon 16:20:00:   91, 0
+20/11/2017 Mon 16:20:00:   92, 4
+20/11/2017 Mon 16:20:00:   93, 4
+20/11/2017 Mon 16:20:00:   94, 5
+20/11/2017 Mon 16:20:00:   95, 3
+20/11/2017 Mon 16:20:00:   96, 1
+20/11/2017 Mon 16:20:00:   97, 1
+20/11/2017 Mon 16:20:00:   98, 4
+20/11/2017 Mon 16:20:00:   99, 0
+20/11/2017 Mon 16:20:00:   100, 0
+20/11/2017 Mon 16:20:00:   101, 1
+20/11/2017 Mon 16:20:00:   102, 4
+20/11/2017 Mon 16:20:00:   103, 2
+20/11/2017 Mon 16:20:00:   104, 4
+20/11/2017 Mon 16:20:00:   105, 2
+20/11/2017 Mon 16:20:00:   106, 5
+20/11/2017 Mon 16:20:00:   107, 4
+20/11/2017 Mon 16:20:00:   108, 2
+20/11/2017 Mon 16:20:00:   109, 2
+20/11/2017 Mon 16:20:00:   110, 1
+20/11/2017 Mon 16:20:00:   111, 4
+20/11/2017 Mon 16:20:00:   112, 5
+20/11/2017 Mon 16:20:00:   113, 4
+20/11/2017 Mon 16:20:00:   114, 4
+20/11/2017 Mon 16:20:00:   115, 3
+20/11/2017 Mon 16:20:00:   116, 0
+20/11/2017 Mon 16:20:00:   117, 3
+20/11/2017 Mon 16:20:00:   118, 3
+20/11/2017 Mon 16:20:00:   119, 4
+20/11/2017 Mon 16:20:00:   120, 1
+20/11/2017 Mon 16:20:00:   121, 0
+20/11/2017 Mon 16:20:00:   122, 0
+20/11/2017 Mon 16:20:00:   123, 1
+20/11/2017 Mon 16:20:00:   124, 1
+20/11/2017 Mon 16:20:00:   125, 2
+20/11/2017 Mon 16:20:00:   126, 2
+20/11/2017 Mon 16:20:00:   127, 4
+20/11/2017 Mon 16:20:00:   128, 3
+20/11/2017 Mon 16:20:00:   129, 4
+20/11/2017 Mon 16:20:00:   130, 3
+20/11/2017 Mon 16:20:00:   131, 5
+20/11/2017 Mon 16:20:00:   132, 3
+20/11/2017 Mon 16:20:00:   133, 0
+20/11/2017 Mon 16:20:00:   134, 0
+20/11/2017 Mon 16:20:00:   135, 1
+20/11/2017 Mon 16:20:00:   136, 0
+20/11/2017 Mon 16:20:00:   137, 3
+20/11/2017 Mon 16:20:00:   138, 3
+20/11/2017 Mon 16:20:00:   139, 0
+20/11/2017 Mon 16:20:00:   140, 3
+20/11/2017 Mon 16:20:00:   141, 3
+20/11/2017 Mon 16:20:00:   142, 142
+20/11/2017 Mon 16:20:00:   143, 1
+20/11/2017 Mon 16:20:00:   144, 4
+20/11/2017 Mon 16:20:00:   145, 5
+20/11/2017 Mon 16:20:00:   146, 4
+20/11/2017 Mon 16:20:00:   147, 0
+20/11/2017 Mon 16:20:00:   148, 0
+20/11/2017 Mon 16:20:00:   149, 5
+20/11/2017 Mon 16:20:00:   150, 3
+20/11/2017 Mon 16:20:00:   151, 2
+20/11/2017 Mon 16:20:00:   152, 3
+20/11/2017 Mon 16:20:00:   153, 0
+20/11/2017 Mon 16:20:00:   154, 5
+20/11/2017 Mon 16:20:00:   155, 155
+20/11/2017 Mon 16:20:00:   156, 0
+20/11/2017 Mon 16:20:00:   157, 4
+20/11/2017 Mon 16:20:00:   158, 1
+20/11/2017 Mon 16:20:00:   159, 5
+20/11/2017 Mon 16:20:00:   160, 160
+20/11/2017 Mon 16:20:00:   161, 4
+20/11/2017 Mon 16:20:00:   162, 5
+20/11/2017 Mon 16:20:00:   163, 0
+20/11/2017 Mon 16:20:00:   164, 5
+20/11/2017 Mon 16:20:00:   165, 3
+20/11/2017 Mon 16:20:00:   166, 3
+20/11/2017 Mon 16:20:00:   167, 5
+20/11/2017 Mon 16:20:00:   168, 3
+20/11/2017 Mon 16:20:00:   169, 5
+20/11/2017 Mon 16:20:00:   170, 5
+20/11/2017 Mon 16:20:00:   171, 0
+20/11/2017 Mon 16:20:00:   172, 3
+20/11/2017 Mon 16:20:00:   173, 173
+20/11/2017 Mon 16:20:00:   174, 2
+20/11/2017 Mon 16:20:00:   175, 4
+20/11/2017 Mon 16:20:00:   176, 4
+20/11/2017 Mon 16:20:00:   177, 5
+20/11/2017 Mon 16:20:00:   178, 1
+20/11/2017 Mon 16:20:00:   -1, -1
+20/11/2017 Mon 16:20:00:   Clusters...: 179
+20/11/2017 Mon 16:20:10:/------ Begin of Script
+20/11/2017 Mon 16:20:10:epsilon: 0.04 minPts: 20
+20/11/2017 Mon 16:20:10:   Type.......: Cell
+20/11/2017 Mon 16:20:10:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:10:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:10:   Map Matrix
+20/11/2017 Mon 16:20:10:   0, 0
+20/11/2017 Mon 16:20:10:   1, 1
+20/11/2017 Mon 16:20:10:   2, 0
+20/11/2017 Mon 16:20:10:   3, 2
+20/11/2017 Mon 16:20:10:   4, 3
+20/11/2017 Mon 16:20:10:   5, 2
+20/11/2017 Mon 16:20:10:   6, 3
+20/11/2017 Mon 16:20:10:   7, 3
+20/11/2017 Mon 16:20:10:   8, 4
+20/11/2017 Mon 16:20:10:   9, 3
+20/11/2017 Mon 16:20:10:   10, 4
+20/11/2017 Mon 16:20:10:   11, 5
+20/11/2017 Mon 16:20:10:   12, 2
+20/11/2017 Mon 16:20:10:   13, 1
+20/11/2017 Mon 16:20:10:   14, 2
+20/11/2017 Mon 16:20:10:   15, 0
+20/11/2017 Mon 16:20:10:   16, 0
+20/11/2017 Mon 16:20:10:   17, 1
+20/11/2017 Mon 16:20:10:   18, 1
+20/11/2017 Mon 16:20:10:   19, 1
+20/11/2017 Mon 16:20:10:   20, 4
+20/11/2017 Mon 16:20:10:   21, 2
+20/11/2017 Mon 16:20:10:   22, 3
+20/11/2017 Mon 16:20:10:   23, 5
+20/11/2017 Mon 16:20:10:   24, 1
+20/11/2017 Mon 16:20:10:   25, 3
+20/11/2017 Mon 16:20:10:   26, 3
+20/11/2017 Mon 16:20:10:   27, 2
+20/11/2017 Mon 16:20:10:   28, 4
+20/11/2017 Mon 16:20:10:   29, 1
+20/11/2017 Mon 16:20:10:   30, 30
+20/11/2017 Mon 16:20:10:   31, 4
+20/11/2017 Mon 16:20:10:   32, 4
+20/11/2017 Mon 16:20:10:   33, 4
+20/11/2017 Mon 16:20:10:   34, 5
+20/11/2017 Mon 16:20:10:   35, 5
+20/11/2017 Mon 16:20:10:   36, 1
+20/11/2017 Mon 16:20:10:   37, 2
+20/11/2017 Mon 16:20:10:   38, 2
+20/11/2017 Mon 16:20:10:   39, 3
+20/11/2017 Mon 16:20:10:   40, 4
+20/11/2017 Mon 16:20:10:   41, 41
+20/11/2017 Mon 16:20:10:   -1, -1
+20/11/2017 Mon 16:20:10:   Clusters...: 42
+20/11/2017 Mon 16:20:17:/------ Begin of Script
+20/11/2017 Mon 16:20:17:epsilon: 0.05 minPts: 20
+20/11/2017 Mon 16:20:17:   Type.......: Cell
+20/11/2017 Mon 16:20:17:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:17:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:18:   Map Matrix
+20/11/2017 Mon 16:20:18:   0, 4
+20/11/2017 Mon 16:20:18:   1, 1
+20/11/2017 Mon 16:20:18:   2, 2
+20/11/2017 Mon 16:20:18:   3, 3
+20/11/2017 Mon 16:20:18:   -1, -1
+20/11/2017 Mon 16:20:18:   Clusters...: 4
+20/11/2017 Mon 16:20:24:/------ Begin of Script
+20/11/2017 Mon 16:20:24:epsilon: 0.05 minPts: 10
+20/11/2017 Mon 16:20:24:   Type.......: Cell
+20/11/2017 Mon 16:20:24:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:24:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:24:   Map Matrix
+20/11/2017 Mon 16:20:24:   0, 4
+20/11/2017 Mon 16:20:24:   1, 1
+20/11/2017 Mon 16:20:24:   2, 2
+20/11/2017 Mon 16:20:24:   3, 3
+20/11/2017 Mon 16:20:24:   4, 4
+20/11/2017 Mon 16:20:24:   5, 5
+20/11/2017 Mon 16:20:24:   -1, -1
+20/11/2017 Mon 16:20:24:   Clusters...: 6
+20/11/2017 Mon 16:20:31:/------ Begin of Script
+20/11/2017 Mon 16:20:31:epsilon: 0.045 minPts: 20
+20/11/2017 Mon 16:20:31:   Type.......: Cell
+20/11/2017 Mon 16:20:31:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:31:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:31:   Map Matrix
+20/11/2017 Mon 16:20:31:   0, 4
+20/11/2017 Mon 16:20:31:   1, 1
+20/11/2017 Mon 16:20:31:   2, 2
+20/11/2017 Mon 16:20:31:   -1, -1
+20/11/2017 Mon 16:20:31:   Clusters...: 3
+20/11/2017 Mon 16:20:38:/------ Begin of Script
+20/11/2017 Mon 16:20:38:epsilon: 0.04 minPts: 20
+20/11/2017 Mon 16:20:38:   Type.......: Cell
+20/11/2017 Mon 16:20:38:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:38:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:38:   Map Matrix
+20/11/2017 Mon 16:20:38:   0, 0
+20/11/2017 Mon 16:20:38:   1, 1
+20/11/2017 Mon 16:20:38:   2, 0
+20/11/2017 Mon 16:20:38:   3, 2
+20/11/2017 Mon 16:20:38:   4, 3
+20/11/2017 Mon 16:20:38:   5, 2
+20/11/2017 Mon 16:20:38:   6, 3
+20/11/2017 Mon 16:20:38:   7, 3
+20/11/2017 Mon 16:20:38:   8, 4
+20/11/2017 Mon 16:20:38:   9, 3
+20/11/2017 Mon 16:20:38:   10, 4
+20/11/2017 Mon 16:20:38:   11, 5
+20/11/2017 Mon 16:20:38:   12, 2
+20/11/2017 Mon 16:20:38:   13, 1
+20/11/2017 Mon 16:20:38:   14, 2
+20/11/2017 Mon 16:20:38:   15, 0
+20/11/2017 Mon 16:20:38:   16, 0
+20/11/2017 Mon 16:20:38:   17, 1
+20/11/2017 Mon 16:20:38:   18, 1
+20/11/2017 Mon 16:20:38:   19, 1
+20/11/2017 Mon 16:20:38:   20, 4
+20/11/2017 Mon 16:20:38:   21, 2
+20/11/2017 Mon 16:20:38:   22, 3
+20/11/2017 Mon 16:20:38:   23, 5
+20/11/2017 Mon 16:20:38:   24, 1
+20/11/2017 Mon 16:20:38:   25, 3
+20/11/2017 Mon 16:20:38:   26, 3
+20/11/2017 Mon 16:20:38:   27, 2
+20/11/2017 Mon 16:20:38:   28, 4
+20/11/2017 Mon 16:20:38:   29, 1
+20/11/2017 Mon 16:20:38:   30, 30
+20/11/2017 Mon 16:20:38:   31, 4
+20/11/2017 Mon 16:20:38:   32, 4
+20/11/2017 Mon 16:20:38:   33, 4
+20/11/2017 Mon 16:20:38:   34, 5
+20/11/2017 Mon 16:20:38:   35, 5
+20/11/2017 Mon 16:20:38:   36, 1
+20/11/2017 Mon 16:20:38:   37, 2
+20/11/2017 Mon 16:20:38:   38, 2
+20/11/2017 Mon 16:20:38:   39, 3
+20/11/2017 Mon 16:20:38:   40, 4
+20/11/2017 Mon 16:20:38:   41, 41
+20/11/2017 Mon 16:20:38:   -1, -1
+20/11/2017 Mon 16:20:38:   Clusters...: 42
+20/11/2017 Mon 16:20:48:/------ Begin of Script
+20/11/2017 Mon 16:20:48:epsilon: 0.0425 minPts: 20
+20/11/2017 Mon 16:20:48:   Type.......: Cell
+20/11/2017 Mon 16:20:48:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:48:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:20:48:   Map Matrix
+20/11/2017 Mon 16:20:48:   0, 0
+20/11/2017 Mon 16:20:48:   1, 2
+20/11/2017 Mon 16:20:48:   2, 0
+20/11/2017 Mon 16:20:48:   3, 2
+20/11/2017 Mon 16:20:48:   4, 4
+20/11/2017 Mon 16:20:48:   5, 3
+20/11/2017 Mon 16:20:48:   6, 4
+20/11/2017 Mon 16:20:48:   7, 5
+20/11/2017 Mon 16:20:48:   8, 1
+20/11/2017 Mon 16:20:48:   9, 0
+20/11/2017 Mon 16:20:48:   10, 1
+20/11/2017 Mon 16:20:48:   11, 1
+20/11/2017 Mon 16:20:48:   12, 4
+20/11/2017 Mon 16:20:48:   13, 3
+20/11/2017 Mon 16:20:48:   14, 2
+20/11/2017 Mon 16:20:48:   15, 4
+20/11/2017 Mon 16:20:48:   16, 4
+20/11/2017 Mon 16:20:48:   17, 17
+20/11/2017 Mon 16:20:48:   -1, -1
+20/11/2017 Mon 16:20:49:   Clusters...: 18
+20/11/2017 Mon 16:21:01:/------ Begin of Script
+20/11/2017 Mon 16:21:01:epsilon: 0.043 minPts: 20
+20/11/2017 Mon 16:21:01:   Type.......: Cell
+20/11/2017 Mon 16:21:01:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:21:01:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:21:01:   Map Matrix
+20/11/2017 Mon 16:21:01:   0, 0
+20/11/2017 Mon 16:21:01:   1, 2
+20/11/2017 Mon 16:21:01:   2, 4
+20/11/2017 Mon 16:21:01:   3, 3
+20/11/2017 Mon 16:21:01:   4, 4
+20/11/2017 Mon 16:21:01:   5, 5
+20/11/2017 Mon 16:21:01:   6, 1
+20/11/2017 Mon 16:21:01:   7, 0
+20/11/2017 Mon 16:21:01:   8, 1
+20/11/2017 Mon 16:21:01:   9, 1
+20/11/2017 Mon 16:21:01:   10, 3
+20/11/2017 Mon 16:21:01:   11, 4
+20/11/2017 Mon 16:21:01:   12, 12
+20/11/2017 Mon 16:21:01:   -1, -1
+20/11/2017 Mon 16:21:01:   Clusters...: 13
+20/11/2017 Mon 16:21:18:   FM.........: 0.5398360466069726
+20/11/2017 Mon 16:21:18:End of Script ------/
+20/11/2017 Mon 16:21:34:/------ Begin of Script
+20/11/2017 Mon 16:21:34:epsilon: 0.0435 minPts: 20
+20/11/2017 Mon 16:21:34:   Type.......: Cell
+20/11/2017 Mon 16:21:34:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:21:34:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:21:34:   Map Matrix
+20/11/2017 Mon 16:21:34:   0, 0
+20/11/2017 Mon 16:21:34:   1, 2
+20/11/2017 Mon 16:21:34:   2, 5
+20/11/2017 Mon 16:21:34:   3, 1
+20/11/2017 Mon 16:21:34:   4, 3
+20/11/2017 Mon 16:21:34:   5, 4
+20/11/2017 Mon 16:21:34:   6, 6
+20/11/2017 Mon 16:21:34:   -1, -1
+20/11/2017 Mon 16:21:34:   Clusters...: 7
+20/11/2017 Mon 16:21:51:   FM.........: 0.46084532944859957
+20/11/2017 Mon 16:21:51:End of Script ------/
+20/11/2017 Mon 16:22:22:/------ Begin of Script
+20/11/2017 Mon 16:22:22:epsilon: 0.044 minPts: 20
+20/11/2017 Mon 16:22:22:   Type.......: Cell
+20/11/2017 Mon 16:22:22:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:22:22:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:22:22:   Map Matrix
+20/11/2017 Mon 16:22:22:   0, 0
+20/11/2017 Mon 16:22:22:   1, 2
+20/11/2017 Mon 16:22:22:   2, 5
+20/11/2017 Mon 16:22:22:   3, 1
+20/11/2017 Mon 16:22:22:   4, 3
+20/11/2017 Mon 16:22:22:   5, 4
+20/11/2017 Mon 16:22:22:   6, 6
+20/11/2017 Mon 16:22:22:   -1, -1
+20/11/2017 Mon 16:22:22:   Clusters...: 7
+20/11/2017 Mon 16:22:46:   FM.........: 0.4603209327279123
+20/11/2017 Mon 16:22:46:End of Script ------/
+20/11/2017 Mon 16:22:51:/------ Begin of Script
+20/11/2017 Mon 16:22:51:epsilon: 0.0445 minPts: 20
+20/11/2017 Mon 16:22:51:   Type.......: Cell
+20/11/2017 Mon 16:22:51:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:22:51:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:22:51:   Map Matrix
+20/11/2017 Mon 16:22:51:   0, 0
+20/11/2017 Mon 16:22:51:   1, 4
+20/11/2017 Mon 16:22:51:   2, 1
+20/11/2017 Mon 16:22:51:   3, 3
+20/11/2017 Mon 16:22:51:   -1, -1
+20/11/2017 Mon 16:22:51:   Clusters...: 4
+20/11/2017 Mon 16:23:06:   FM.........: 0.4094956176833147
+20/11/2017 Mon 16:23:06:End of Script ------/
+20/11/2017 Mon 16:23:18:/------ Begin of Script
+20/11/2017 Mon 16:23:18:epsilon: 0.0445 minPts: 10
+20/11/2017 Mon 16:23:18:   Type.......: Cell
+20/11/2017 Mon 16:23:18:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+20/11/2017 Mon 16:23:18:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+20/11/2017 Mon 16:23:18:   Map Matrix
+20/11/2017 Mon 16:23:18:   0, 0
+20/11/2017 Mon 16:23:18:   1, 4
+20/11/2017 Mon 16:23:18:   2, 1
+20/11/2017 Mon 16:23:18:   3, 3
+20/11/2017 Mon 16:23:18:   4, 4
+20/11/2017 Mon 16:23:18:   5, 5
+20/11/2017 Mon 16:23:18:   6, 6
+20/11/2017 Mon 16:23:18:   7, 7
+20/11/2017 Mon 16:23:18:   8, 8
+20/11/2017 Mon 16:23:18:   9, 9
+20/11/2017 Mon 16:23:18:   10, 10
+20/11/2017 Mon 16:23:18:   11, 11
+20/11/2017 Mon 16:23:18:   12, 12
+20/11/2017 Mon 16:23:18:   13, 13
+20/11/2017 Mon 16:23:18:   14, 14
+20/11/2017 Mon 16:23:18:   15, 15
+20/11/2017 Mon 16:23:18:   16, 16
+20/11/2017 Mon 16:23:18:   17, 17
+20/11/2017 Mon 16:23:18:   -1, -1
+20/11/2017 Mon 16:23:18:   Clusters...: 18
+20/11/2017 Mon 16:23:35:   FM.........: 0.4013070760963513
+20/11/2017 Mon 16:23:35:End of Script ------/
+21/11/2017 Tue 00:21:06:/------ Begin of Script
+21/11/2017 Tue 00:21:06:epsilon: 0.04 minPts: 30
+21/11/2017 Tue 00:21:06:   Type.......: Point
+21/11/2017 Tue 00:21:06:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:21:06:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:21:06:   Map Matrix
+21/11/2017 Tue 00:21:06:   -1, -1, 387
+21/11/2017 Tue 00:21:06:   0, 4, 1206
+21/11/2017 Tue 00:21:06:   Clusters...: 1
+21/11/2017 Tue 00:21:24:   FM.........: 0.3713424154132265
+21/11/2017 Tue 00:21:24:End of Script ------/
+21/11/2017 Tue 00:21:54:/------ Begin of Script
+21/11/2017 Tue 00:21:54:epsilon: 0.04 minPts: 20
+21/11/2017 Tue 00:21:54:   Type.......: Point
+21/11/2017 Tue 00:21:54:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:21:54:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:21:54:   Map Matrix
+21/11/2017 Tue 00:21:54:   -1, -1, 354
+21/11/2017 Tue 00:21:54:   0, 4, 1206
+21/11/2017 Tue 00:21:54:   Clusters...: 1
+21/11/2017 Tue 00:22:09:   FM.........: 0.3709948007626465
+21/11/2017 Tue 00:22:09:End of Script ------/
+21/11/2017 Tue 00:22:17:/------ Begin of Script
+21/11/2017 Tue 00:22:17:epsilon: 0.02 minPts: 20
+21/11/2017 Tue 00:22:17:   Type.......: Point
+21/11/2017 Tue 00:22:17:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:22:17:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:22:17:   Map Matrix
+21/11/2017 Tue 00:22:17:   -1, -1, 684
+21/11/2017 Tue 00:22:17:   0, 0, 1152
+21/11/2017 Tue 00:22:17:   2, 1, 346
+21/11/2017 Tue 00:22:17:   1, 2, 1192
+21/11/2017 Tue 00:22:17:   3, 3, 416
+21/11/2017 Tue 00:22:17:   4, 4, 431
+21/11/2017 Tue 00:22:17:   5, 5, 18
+21/11/2017 Tue 00:22:17:   Clusters...: 6
+21/11/2017 Tue 00:22:38:   FM.........: 0.42879939178453885
+21/11/2017 Tue 00:22:38:End of Script ------/
+21/11/2017 Tue 00:22:48:/------ Begin of Script
+21/11/2017 Tue 00:22:48:epsilon: 0.02 minPts: 50
+21/11/2017 Tue 00:22:48:   Type.......: Point
+21/11/2017 Tue 00:22:48:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:22:48:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:22:48:   Map Matrix
+21/11/2017 Tue 00:22:48:   -1, -1, 1173
+21/11/2017 Tue 00:22:48:   6, 1, 65
+21/11/2017 Tue 00:22:48:   1, 1, 55
+21/11/2017 Tue 00:22:48:   7, 2, 68
+21/11/2017 Tue 00:22:48:   2, 2, 66
+21/11/2017 Tue 00:22:48:   3, 3, 76
+21/11/2017 Tue 00:22:48:   0, 4, 134
+21/11/2017 Tue 00:22:48:   4, 4, 51
+21/11/2017 Tue 00:22:48:   5, 5, 61
+21/11/2017 Tue 00:22:48:   8, 8, 50
+21/11/2017 Tue 00:22:48:   Clusters...: 9
+21/11/2017 Tue 00:23:03:   FM.........: 0.3521938443778067
+21/11/2017 Tue 00:23:03:End of Script ------/
+21/11/2017 Tue 00:23:09:/------ Begin of Script
+21/11/2017 Tue 00:23:09:epsilon: 0.02 minPts: 30
+21/11/2017 Tue 00:23:09:   Type.......: Point
+21/11/2017 Tue 00:23:09:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:09:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:09:   Map Matrix
+21/11/2017 Tue 00:23:09:   -1, -1, 877
+21/11/2017 Tue 00:23:09:   2, 0, 353
+21/11/2017 Tue 00:23:09:   0, 0, 220
+21/11/2017 Tue 00:23:09:   11, 1, 342
+21/11/2017 Tue 00:23:09:   1, 1, 290
+21/11/2017 Tue 00:23:09:   3, 2, 433
+21/11/2017 Tue 00:23:09:   13, 3, 385
+21/11/2017 Tue 00:23:09:   15, 4, 401
+21/11/2017 Tue 00:23:09:   4, 4, 325
+21/11/2017 Tue 00:23:09:   5, 5, 311
+21/11/2017 Tue 00:23:09:   6, 6, 291
+21/11/2017 Tue 00:23:09:   7, 7, 68
+21/11/2017 Tue 00:23:09:   8, 8, 45
+21/11/2017 Tue 00:23:09:   9, 9, 126
+21/11/2017 Tue 00:23:09:   10, 10, 281
+21/11/2017 Tue 00:23:09:   12, 12, 306
+21/11/2017 Tue 00:23:09:   14, 14, 56
+21/11/2017 Tue 00:23:09:   16, 16, 271
+21/11/2017 Tue 00:23:09:   17, 17, 77
+21/11/2017 Tue 00:23:09:   18, 18, 42
+21/11/2017 Tue 00:23:09:   19, 19, 281
+21/11/2017 Tue 00:23:09:   20, 20, 66
+21/11/2017 Tue 00:23:09:   21, 21, 298
+21/11/2017 Tue 00:23:09:   22, 22, 54
+21/11/2017 Tue 00:23:09:   23, 23, 94
+21/11/2017 Tue 00:23:09:   24, 24, 293
+21/11/2017 Tue 00:23:09:   25, 25, 80
+21/11/2017 Tue 00:23:09:   26, 26, 66
+21/11/2017 Tue 00:23:09:   27, 27, 41
+21/11/2017 Tue 00:23:09:   28, 28, 60
+21/11/2017 Tue 00:23:09:   29, 29, 40
+21/11/2017 Tue 00:23:09:   30, 30, 39
+21/11/2017 Tue 00:23:09:   31, 31, 70
+21/11/2017 Tue 00:23:09:   32, 32, 22
+21/11/2017 Tue 00:23:09:   33, 33, 27
+21/11/2017 Tue 00:23:09:   34, 34, 15
+21/11/2017 Tue 00:23:09:   35, 35, 33
+21/11/2017 Tue 00:23:09:   36, 36, 29
+21/11/2017 Tue 00:23:09:   Clusters...: 37
+21/11/2017 Tue 00:23:19:/------ Begin of Script
+21/11/2017 Tue 00:23:19:epsilon: 0.02 minPts: 25
+21/11/2017 Tue 00:23:19:   Type.......: Point
+21/11/2017 Tue 00:23:19:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:19:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:19:   Map Matrix
+21/11/2017 Tue 00:23:19:   -1, -1, 738
+21/11/2017 Tue 00:23:19:   0, 0, 1141
+21/11/2017 Tue 00:23:19:   1, 1, 352
+21/11/2017 Tue 00:23:19:   2, 2, 1185
+21/11/2017 Tue 00:23:19:   3, 3, 455
+21/11/2017 Tue 00:23:19:   5, 4, 488
+21/11/2017 Tue 00:23:19:   4, 5, 719
+21/11/2017 Tue 00:23:19:   6, 6, 348
+21/11/2017 Tue 00:23:19:   7, 7, 34
+21/11/2017 Tue 00:23:19:   8, 8, 420
+21/11/2017 Tue 00:23:19:   9, 9, 296
+21/11/2017 Tue 00:23:19:   10, 10, 158
+21/11/2017 Tue 00:23:19:   11, 11, 77
+21/11/2017 Tue 00:23:19:   12, 12, 414
+21/11/2017 Tue 00:23:19:   13, 13, 333
+21/11/2017 Tue 00:23:19:   14, 14, 39
+21/11/2017 Tue 00:23:19:   15, 15, 40
+21/11/2017 Tue 00:23:19:   16, 16, 94
+21/11/2017 Tue 00:23:19:   17, 17, 24
+21/11/2017 Tue 00:23:19:   Clusters...: 18
+21/11/2017 Tue 00:23:36:   FM.........: 0.6813712046236932
+21/11/2017 Tue 00:23:36:End of Script ------/
+21/11/2017 Tue 00:23:44:/------ Begin of Script
+21/11/2017 Tue 00:23:44:epsilon: 0.02 minPts: 18
+21/11/2017 Tue 00:23:44:   Type.......: Point
+21/11/2017 Tue 00:23:44:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:44:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:44:   Map Matrix
+21/11/2017 Tue 00:23:44:   -1, -1, 675
+21/11/2017 Tue 00:23:44:   2, 0, 18
+21/11/2017 Tue 00:23:44:   1, 1, 346
+21/11/2017 Tue 00:23:44:   0, 4, 1205
+21/11/2017 Tue 00:23:44:   Clusters...: 3
+21/11/2017 Tue 00:23:53:/------ Begin of Script
+21/11/2017 Tue 00:23:53:epsilon: 0.02 minPts: 23
+21/11/2017 Tue 00:23:53:   Type.......: Point
+21/11/2017 Tue 00:23:53:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:53:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:23:53:   Map Matrix
+21/11/2017 Tue 00:23:53:   -1, -1, 708
+21/11/2017 Tue 00:23:53:   0, 0, 1146
+21/11/2017 Tue 00:23:53:   1, 1, 413
+21/11/2017 Tue 00:23:53:   3, 2, 1185
+21/11/2017 Tue 00:23:53:   4, 3, 555
+21/11/2017 Tue 00:23:53:   9, 4, 429
+21/11/2017 Tue 00:23:53:   2, 5, 726
+21/11/2017 Tue 00:23:53:   5, 5, 346
+21/11/2017 Tue 00:23:53:   6, 6, 294
+21/11/2017 Tue 00:23:53:   7, 7, 418
+21/11/2017 Tue 00:23:53:   8, 8, 77
+21/11/2017 Tue 00:23:53:   10, 10, 327
+21/11/2017 Tue 00:23:55:   Clusters...: 11
+21/11/2017 Tue 00:24:10:   FM.........: 0.5947758032621744
+21/11/2017 Tue 00:24:10:End of Script ------/
+21/11/2017 Tue 00:24:16:/------ Begin of Script
+21/11/2017 Tue 00:24:16:epsilon: 0.022 minPts: 23
+21/11/2017 Tue 00:24:16:   Type.......: Point
+21/11/2017 Tue 00:24:16:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:24:16:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:24:16:   Map Matrix
+21/11/2017 Tue 00:24:16:   -1, -1, 655
+21/11/2017 Tue 00:24:16:   0, 0, 1152
+21/11/2017 Tue 00:24:16:   2, 3, 419
+21/11/2017 Tue 00:24:16:   1, 4, 1205
+21/11/2017 Tue 00:24:16:   Clusters...: 3
+21/11/2017 Tue 00:24:30:/------ Begin of Script
+21/11/2017 Tue 00:24:30:epsilon: 0.021 minPts: 23
+21/11/2017 Tue 00:24:30:   Type.......: Point
+21/11/2017 Tue 00:24:30:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:24:30:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:24:30:   Map Matrix
+21/11/2017 Tue 00:24:30:   -1, -1, 674
+21/11/2017 Tue 00:24:30:   0, 0, 1152
+21/11/2017 Tue 00:24:30:   1, 1, 413
+21/11/2017 Tue 00:24:30:   2, 2, 1194
+21/11/2017 Tue 00:24:30:   6, 3, 418
+21/11/2017 Tue 00:24:30:   8, 4, 425
+21/11/2017 Tue 00:24:30:   4, 4, 346
+21/11/2017 Tue 00:24:30:   3, 5, 1054
+21/11/2017 Tue 00:24:30:   5, 5, 294
+21/11/2017 Tue 00:24:30:   7, 7, 75
+21/11/2017 Tue 00:24:30:   Clusters...: 9
+21/11/2017 Tue 00:24:50:   FM.........: 0.5487045514140585
+21/11/2017 Tue 00:24:50:End of Script ------/
+21/11/2017 Tue 00:25:15:/------ Begin of Script
+21/11/2017 Tue 00:25:15:epsilon: 0.0215 minPts: 25
+21/11/2017 Tue 00:25:15:   Type.......: Point
+21/11/2017 Tue 00:25:15:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:25:15:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:25:15:   Map Matrix
+21/11/2017 Tue 00:25:15:   -1, -1, 679
+21/11/2017 Tue 00:25:15:   0, 0, 1145
+21/11/2017 Tue 00:25:15:   1, 1, 413
+21/11/2017 Tue 00:25:15:   2, 2, 1191
+21/11/2017 Tue 00:25:15:   5, 3, 418
+21/11/2017 Tue 00:25:15:   3, 3, 346
+21/11/2017 Tue 00:25:15:   7, 4, 425
+21/11/2017 Tue 00:25:15:   4, 4, 294
+21/11/2017 Tue 00:25:15:   8, 5, 330
+21/11/2017 Tue 00:25:15:   6, 6, 75
+21/11/2017 Tue 00:25:15:   Clusters...: 9
+21/11/2017 Tue 00:25:31:   FM.........: 0.45772905574350875
+21/11/2017 Tue 00:25:31:End of Script ------/
+21/11/2017 Tue 00:25:49:/------ Begin of Script
+21/11/2017 Tue 00:25:49:epsilon: 0.022 minPts: 25
+21/11/2017 Tue 00:25:49:   Type.......: Point
+21/11/2017 Tue 00:25:49:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:25:49:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:25:49:   Map Matrix
+21/11/2017 Tue 00:25:49:   -1, -1, 667
+21/11/2017 Tue 00:25:49:   0, 0, 1147
+21/11/2017 Tue 00:25:49:   1, 1, 413
+21/11/2017 Tue 00:25:49:   2, 2, 1193
+21/11/2017 Tue 00:25:49:   5, 3, 418
+21/11/2017 Tue 00:25:49:   3, 3, 346
+21/11/2017 Tue 00:25:49:   7, 4, 429
+21/11/2017 Tue 00:25:49:   4, 4, 294
+21/11/2017 Tue 00:25:49:   8, 5, 330
+21/11/2017 Tue 00:25:49:   6, 6, 75
+21/11/2017 Tue 00:25:49:   Clusters...: 9
+21/11/2017 Tue 00:26:07:   FM.........: 0.45728038951919814
+21/11/2017 Tue 00:26:07:End of Script ------/
+21/11/2017 Tue 00:26:22:/------ Begin of Script
+21/11/2017 Tue 00:26:22:epsilon: 0.02 minPts: 25
+21/11/2017 Tue 00:26:22:   Type.......: Point
+21/11/2017 Tue 00:26:22:   Input File.: ../data/cluto-t5.8k/central/2.deviceConsolidation/points-cluto-t5.8k.csv
+21/11/2017 Tue 00:26:22:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-points-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:26:22:   Map Matrix
+21/11/2017 Tue 00:26:22:   -1, -1, 738
+21/11/2017 Tue 00:26:22:   0, 0, 1141
+21/11/2017 Tue 00:26:22:   1, 1, 352
+21/11/2017 Tue 00:26:22:   2, 2, 1185
+21/11/2017 Tue 00:26:22:   3, 3, 455
+21/11/2017 Tue 00:26:22:   5, 4, 488
+21/11/2017 Tue 00:26:22:   4, 5, 719
+21/11/2017 Tue 00:26:22:   6, 6, 348
+21/11/2017 Tue 00:26:22:   7, 7, 34
+21/11/2017 Tue 00:26:22:   8, 8, 420
+21/11/2017 Tue 00:26:22:   9, 9, 296
+21/11/2017 Tue 00:26:22:   10, 10, 158
+21/11/2017 Tue 00:26:22:   11, 11, 77
+21/11/2017 Tue 00:26:22:   12, 12, 414
+21/11/2017 Tue 00:26:22:   13, 13, 333
+21/11/2017 Tue 00:26:22:   14, 14, 39
+21/11/2017 Tue 00:26:22:   15, 15, 40
+21/11/2017 Tue 00:26:22:   16, 16, 94
+21/11/2017 Tue 00:26:22:   17, 17, 24
+21/11/2017 Tue 00:26:22:   Clusters...: 18
+21/11/2017 Tue 00:26:58:   FM.........: 0.6813712046236932
+21/11/2017 Tue 00:26:58:End of Script ------/
+21/11/2017 Tue 00:27:36:/------ Begin of Script
+21/11/2017 Tue 00:27:36:epsilon: 0.02 minPts: 25
+21/11/2017 Tue 00:27:36:   Type.......: Cell
+21/11/2017 Tue 00:27:36:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:27:36:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:27:36:   Map Matrix
+21/11/2017 Tue 00:27:36:   -1, -1, 871
+21/11/2017 Tue 00:27:36:   2, 0, 50
+21/11/2017 Tue 00:27:36:   0, 0, 37
+21/11/2017 Tue 00:27:36:   138, 1, 54
+21/11/2017 Tue 00:27:36:   1, 1, 41
+21/11/2017 Tue 00:27:36:   37, 2, 56
+21/11/2017 Tue 00:27:36:   80, 3, 53
+21/11/2017 Tue 00:27:36:   3, 3, 26
+21/11/2017 Tue 00:27:36:   7, 4, 61
+21/11/2017 Tue 00:27:36:   4, 4, 45
+21/11/2017 Tue 00:27:36:   66, 5, 54
+21/11/2017 Tue 00:27:36:   5, 5, 32
+21/11/2017 Tue 00:27:36:   6, 6, 34
+21/11/2017 Tue 00:27:36:   8, 8, 28
+21/11/2017 Tue 00:27:36:   9, 9, 48
+21/11/2017 Tue 00:27:36:   10, 10, 44
+21/11/2017 Tue 00:27:36:   11, 11, 28
+21/11/2017 Tue 00:27:36:   12, 12, 33
+21/11/2017 Tue 00:27:36:   13, 13, 48
+21/11/2017 Tue 00:27:36:   14, 14, 26
+21/11/2017 Tue 00:27:36:   15, 15, 38
+21/11/2017 Tue 00:27:36:   16, 16, 30
+21/11/2017 Tue 00:27:36:   17, 17, 36
+21/11/2017 Tue 00:27:36:   18, 18, 39
+21/11/2017 Tue 00:27:36:   19, 19, 33
+21/11/2017 Tue 00:27:36:   20, 20, 45
+21/11/2017 Tue 00:27:36:   21, 21, 39
+21/11/2017 Tue 00:27:36:   22, 22, 29
+21/11/2017 Tue 00:27:36:   23, 23, 28
+21/11/2017 Tue 00:27:36:   24, 24, 42
+21/11/2017 Tue 00:27:36:   25, 25, 25
+21/11/2017 Tue 00:27:36:   26, 26, 32
+21/11/2017 Tue 00:27:36:   27, 27, 42
+21/11/2017 Tue 00:27:36:   28, 28, 28
+21/11/2017 Tue 00:27:36:   29, 29, 30
+21/11/2017 Tue 00:27:36:   30, 30, 34
+21/11/2017 Tue 00:27:36:   31, 31, 47
+21/11/2017 Tue 00:27:36:   32, 32, 31
+21/11/2017 Tue 00:27:36:   33, 33, 48
+21/11/2017 Tue 00:27:36:   34, 34, 28
+21/11/2017 Tue 00:27:36:   35, 35, 18
+21/11/2017 Tue 00:27:36:   36, 36, 42
+21/11/2017 Tue 00:27:36:   38, 38, 36
+21/11/2017 Tue 00:27:36:   39, 39, 43
+21/11/2017 Tue 00:27:36:   40, 40, 25
+21/11/2017 Tue 00:27:36:   41, 41, 17
+21/11/2017 Tue 00:27:36:   42, 42, 21
+21/11/2017 Tue 00:27:36:   43, 43, 47
+21/11/2017 Tue 00:27:36:   44, 44, 48
+21/11/2017 Tue 00:27:36:   45, 45, 30
+21/11/2017 Tue 00:27:36:   46, 46, 30
+21/11/2017 Tue 00:27:36:   47, 47, 24
+21/11/2017 Tue 00:27:36:   48, 48, 28
+21/11/2017 Tue 00:27:36:   49, 49, 32
+21/11/2017 Tue 00:27:36:   50, 50, 27
+21/11/2017 Tue 00:27:36:   51, 51, 34
+21/11/2017 Tue 00:27:36:   52, 52, 36
+21/11/2017 Tue 00:27:36:   53, 53, 27
+21/11/2017 Tue 00:27:36:   54, 54, 45
+21/11/2017 Tue 00:27:36:   55, 55, 42
+21/11/2017 Tue 00:27:36:   56, 56, 36
+21/11/2017 Tue 00:27:36:   57, 57, 40
+21/11/2017 Tue 00:27:36:   58, 58, 29
+21/11/2017 Tue 00:27:36:   59, 59, 45
+21/11/2017 Tue 00:27:36:   60, 60, 28
+21/11/2017 Tue 00:27:36:   61, 61, 30
+21/11/2017 Tue 00:27:36:   62, 62, 32
+21/11/2017 Tue 00:27:36:   63, 63, 35
+21/11/2017 Tue 00:27:36:   64, 64, 52
+21/11/2017 Tue 00:27:36:   65, 65, 40
+21/11/2017 Tue 00:27:36:   67, 67, 39
+21/11/2017 Tue 00:27:36:   68, 68, 22
+21/11/2017 Tue 00:27:36:   69, 69, 21
+21/11/2017 Tue 00:27:36:   70, 70, 30
+21/11/2017 Tue 00:27:36:   71, 71, 31
+21/11/2017 Tue 00:27:36:   72, 72, 36
+21/11/2017 Tue 00:27:36:   73, 73, 48
+21/11/2017 Tue 00:27:36:   74, 74, 42
+21/11/2017 Tue 00:27:36:   75, 75, 27
+21/11/2017 Tue 00:27:36:   76, 76, 43
+21/11/2017 Tue 00:27:36:   77, 77, 28
+21/11/2017 Tue 00:27:36:   78, 78, 31
+21/11/2017 Tue 00:27:36:   79, 79, 24
+21/11/2017 Tue 00:27:36:   81, 81, 50
+21/11/2017 Tue 00:27:36:   82, 82, 44
+21/11/2017 Tue 00:27:36:   83, 83, 31
+21/11/2017 Tue 00:27:36:   84, 84, 48
+21/11/2017 Tue 00:27:36:   85, 85, 46
+21/11/2017 Tue 00:27:36:   86, 86, 28
+21/11/2017 Tue 00:27:36:   87, 87, 34
+21/11/2017 Tue 00:27:36:   88, 88, 24
+21/11/2017 Tue 00:27:36:   89, 89, 33
+21/11/2017 Tue 00:27:36:   90, 90, 35
+21/11/2017 Tue 00:27:36:   91, 91, 43
+21/11/2017 Tue 00:27:36:   92, 92, 34
+21/11/2017 Tue 00:27:36:   93, 93, 59
+21/11/2017 Tue 00:27:36:   94, 94, 37
+21/11/2017 Tue 00:27:36:   95, 95, 34
+21/11/2017 Tue 00:27:36:   96, 96, 48
+21/11/2017 Tue 00:27:36:   97, 97, 32
+21/11/2017 Tue 00:27:36:   98, 98, 28
+21/11/2017 Tue 00:27:36:   99, 99, 25
+21/11/2017 Tue 00:27:36:   100, 100, 26
+21/11/2017 Tue 00:27:36:   101, 101, 30
+21/11/2017 Tue 00:27:36:   102, 102, 23
+21/11/2017 Tue 00:27:36:   103, 103, 23
+21/11/2017 Tue 00:27:36:   104, 104, 42
+21/11/2017 Tue 00:27:36:   105, 105, 26
+21/11/2017 Tue 00:27:36:   106, 106, 18
+21/11/2017 Tue 00:27:36:   107, 107, 27
+21/11/2017 Tue 00:27:36:   108, 108, 50
+21/11/2017 Tue 00:27:36:   109, 109, 38
+21/11/2017 Tue 00:27:36:   110, 110, 36
+21/11/2017 Tue 00:27:36:   111, 111, 45
+21/11/2017 Tue 00:27:36:   112, 112, 34
+21/11/2017 Tue 00:27:36:   113, 113, 36
+21/11/2017 Tue 00:27:36:   114, 114, 33
+21/11/2017 Tue 00:27:36:   115, 115, 45
+21/11/2017 Tue 00:27:36:   116, 116, 24
+21/11/2017 Tue 00:27:36:   117, 117, 25
+21/11/2017 Tue 00:27:36:   118, 118, 29
+21/11/2017 Tue 00:27:36:   119, 119, 24
+21/11/2017 Tue 00:27:36:   120, 120, 41
+21/11/2017 Tue 00:27:36:   121, 121, 54
+21/11/2017 Tue 00:27:36:   122, 122, 37
+21/11/2017 Tue 00:27:36:   123, 123, 28
+21/11/2017 Tue 00:27:36:   124, 124, 34
+21/11/2017 Tue 00:27:36:   125, 125, 29
+21/11/2017 Tue 00:27:36:   126, 126, 44
+21/11/2017 Tue 00:27:36:   127, 127, 43
+21/11/2017 Tue 00:27:36:   128, 128, 34
+21/11/2017 Tue 00:27:36:   129, 129, 31
+21/11/2017 Tue 00:27:36:   130, 130, 25
+21/11/2017 Tue 00:27:36:   131, 131, 33
+21/11/2017 Tue 00:27:36:   132, 132, 32
+21/11/2017 Tue 00:27:36:   133, 133, 30
+21/11/2017 Tue 00:27:36:   134, 134, 36
+21/11/2017 Tue 00:27:36:   135, 135, 27
+21/11/2017 Tue 00:27:36:   136, 136, 17
+21/11/2017 Tue 00:27:36:   137, 137, 29
+21/11/2017 Tue 00:27:36:   139, 139, 24
+21/11/2017 Tue 00:27:36:   140, 140, 30
+21/11/2017 Tue 00:27:36:   141, 141, 24
+21/11/2017 Tue 00:27:36:   142, 142, 34
+21/11/2017 Tue 00:27:36:   143, 143, 31
+21/11/2017 Tue 00:27:36:   144, 144, 29
+21/11/2017 Tue 00:27:36:   145, 145, 29
+21/11/2017 Tue 00:27:36:   146, 146, 31
+21/11/2017 Tue 00:27:36:   147, 147, 25
+21/11/2017 Tue 00:27:36:   148, 148, 29
+21/11/2017 Tue 00:27:36:   149, 149, 17
+21/11/2017 Tue 00:27:36:   150, 150, 35
+21/11/2017 Tue 00:27:36:   151, 151, 47
+21/11/2017 Tue 00:27:36:   152, 152, 31
+21/11/2017 Tue 00:27:36:   153, 153, 31
+21/11/2017 Tue 00:27:36:   154, 154, 30
+21/11/2017 Tue 00:27:36:   155, 155, 30
+21/11/2017 Tue 00:27:36:   156, 156, 28
+21/11/2017 Tue 00:27:36:   157, 157, 28
+21/11/2017 Tue 00:27:36:   158, 158, 33
+21/11/2017 Tue 00:27:36:   159, 159, 25
+21/11/2017 Tue 00:27:36:   160, 160, 25
+21/11/2017 Tue 00:27:36:   161, 161, 33
+21/11/2017 Tue 00:27:36:   162, 162, 25
+21/11/2017 Tue 00:27:36:   163, 163, 32
+21/11/2017 Tue 00:27:37:   Clusters...: 164
+21/11/2017 Tue 00:27:53:   FM.........: 0.18862540970736574
+21/11/2017 Tue 00:27:53:End of Script ------/
+21/11/2017 Tue 00:28:01:/------ Begin of Script
+21/11/2017 Tue 00:28:01:epsilon: 0.03 minPts: 25
+21/11/2017 Tue 00:28:01:   Type.......: Cell
+21/11/2017 Tue 00:28:01:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:01:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:01:   Map Matrix
+21/11/2017 Tue 00:28:01:   -1, -1, 737
+21/11/2017 Tue 00:28:01:   48, 0, 76
+21/11/2017 Tue 00:28:01:   0, 0, 49
+21/11/2017 Tue 00:28:01:   12, 1, 95
+21/11/2017 Tue 00:28:01:   1, 1, 54
+21/11/2017 Tue 00:28:01:   36, 2, 84
+21/11/2017 Tue 00:28:01:   2, 2, 41
+21/11/2017 Tue 00:28:01:   77, 3, 78
+21/11/2017 Tue 00:28:01:   3, 3, 50
+21/11/2017 Tue 00:28:01:   92, 4, 68
+21/11/2017 Tue 00:28:01:   4, 4, 26
+21/11/2017 Tue 00:28:01:   74, 5, 106
+21/11/2017 Tue 00:28:01:   5, 5, 56
+21/11/2017 Tue 00:28:01:   6, 6, 68
+21/11/2017 Tue 00:28:01:   7, 7, 34
+21/11/2017 Tue 00:28:01:   8, 8, 61
+21/11/2017 Tue 00:28:01:   9, 9, 37
+21/11/2017 Tue 00:28:01:   10, 10, 84
+21/11/2017 Tue 00:28:01:   11, 11, 59
+21/11/2017 Tue 00:28:01:   13, 13, 33
+21/11/2017 Tue 00:28:01:   14, 14, 48
+21/11/2017 Tue 00:28:01:   15, 15, 47
+21/11/2017 Tue 00:28:01:   16, 16, 41
+21/11/2017 Tue 00:28:01:   17, 17, 47
+21/11/2017 Tue 00:28:01:   18, 18, 38
+21/11/2017 Tue 00:28:01:   19, 19, 34
+21/11/2017 Tue 00:28:01:   20, 20, 36
+21/11/2017 Tue 00:28:01:   21, 21, 39
+21/11/2017 Tue 00:28:01:   22, 22, 52
+21/11/2017 Tue 00:28:01:   23, 23, 39
+21/11/2017 Tue 00:28:01:   24, 24, 29
+21/11/2017 Tue 00:28:01:   25, 25, 28
+21/11/2017 Tue 00:28:01:   26, 26, 42
+21/11/2017 Tue 00:28:01:   27, 27, 25
+21/11/2017 Tue 00:28:01:   28, 28, 32
+21/11/2017 Tue 00:28:01:   29, 29, 25
+21/11/2017 Tue 00:28:01:   30, 30, 42
+21/11/2017 Tue 00:28:01:   31, 31, 28
+21/11/2017 Tue 00:28:01:   32, 32, 30
+21/11/2017 Tue 00:28:01:   33, 33, 34
+21/11/2017 Tue 00:28:01:   34, 34, 83
+21/11/2017 Tue 00:28:01:   35, 35, 35
+21/11/2017 Tue 00:28:01:   37, 37, 28
+21/11/2017 Tue 00:28:01:   38, 38, 18
+21/11/2017 Tue 00:28:01:   39, 39, 42
+21/11/2017 Tue 00:28:01:   40, 40, 68
+21/11/2017 Tue 00:28:01:   41, 41, 36
+21/11/2017 Tue 00:28:01:   42, 42, 61
+21/11/2017 Tue 00:28:01:   43, 43, 25
+21/11/2017 Tue 00:28:01:   44, 44, 22
+21/11/2017 Tue 00:28:01:   45, 45, 67
+21/11/2017 Tue 00:28:01:   46, 46, 75
+21/11/2017 Tue 00:28:01:   47, 47, 48
+21/11/2017 Tue 00:28:01:   49, 49, 62
+21/11/2017 Tue 00:28:01:   50, 50, 27
+21/11/2017 Tue 00:28:01:   51, 51, 30
+21/11/2017 Tue 00:28:01:   52, 52, 24
+21/11/2017 Tue 00:28:01:   53, 53, 32
+21/11/2017 Tue 00:28:01:   54, 54, 27
+21/11/2017 Tue 00:28:01:   55, 55, 34
+21/11/2017 Tue 00:28:01:   56, 56, 36
+21/11/2017 Tue 00:28:01:   57, 57, 27
+21/11/2017 Tue 00:28:01:   58, 58, 45
+21/11/2017 Tue 00:28:01:   59, 59, 42
+21/11/2017 Tue 00:28:01:   60, 60, 36
+21/11/2017 Tue 00:28:01:   61, 61, 40
+21/11/2017 Tue 00:28:01:   62, 62, 29
+21/11/2017 Tue 00:28:01:   63, 63, 58
+21/11/2017 Tue 00:28:01:   64, 64, 27
+21/11/2017 Tue 00:28:01:   65, 65, 57
+21/11/2017 Tue 00:28:01:   66, 66, 30
+21/11/2017 Tue 00:28:01:   67, 67, 32
+21/11/2017 Tue 00:28:01:   68, 68, 35
+21/11/2017 Tue 00:28:01:   69, 69, 52
+21/11/2017 Tue 00:28:01:   70, 70, 40
+21/11/2017 Tue 00:28:01:   71, 71, 54
+21/11/2017 Tue 00:28:01:   72, 72, 44
+21/11/2017 Tue 00:28:01:   73, 73, 27
+21/11/2017 Tue 00:28:01:   75, 75, 53
+21/11/2017 Tue 00:28:01:   76, 76, 57
+21/11/2017 Tue 00:28:01:   78, 78, 42
+21/11/2017 Tue 00:28:01:   79, 79, 27
+21/11/2017 Tue 00:28:01:   80, 80, 43
+21/11/2017 Tue 00:28:01:   81, 81, 28
+21/11/2017 Tue 00:28:01:   82, 82, 31
+21/11/2017 Tue 00:28:01:   83, 83, 28
+21/11/2017 Tue 00:28:01:   84, 84, 38
+21/11/2017 Tue 00:28:01:   85, 85, 53
+21/11/2017 Tue 00:28:01:   86, 86, 62
+21/11/2017 Tue 00:28:01:   87, 87, 44
+21/11/2017 Tue 00:28:01:   88, 88, 31
+21/11/2017 Tue 00:28:01:   89, 89, 46
+21/11/2017 Tue 00:28:01:   90, 90, 34
+21/11/2017 Tue 00:28:01:   91, 91, 78
+21/11/2017 Tue 00:28:01:   93, 93, 33
+21/11/2017 Tue 00:28:01:   94, 94, 35
+21/11/2017 Tue 00:28:01:   95, 95, 43
+21/11/2017 Tue 00:28:01:   96, 96, 34
+21/11/2017 Tue 00:28:01:   97, 97, 59
+21/11/2017 Tue 00:28:01:   98, 98, 43
+21/11/2017 Tue 00:28:01:   99, 99, 34
+21/11/2017 Tue 00:28:01:   100, 100, 80
+21/11/2017 Tue 00:28:01:   101, 101, 28
+21/11/2017 Tue 00:28:01:   102, 102, 36
+21/11/2017 Tue 00:28:01:   103, 103, 30
+21/11/2017 Tue 00:28:01:   104, 104, 67
+21/11/2017 Tue 00:28:01:   105, 105, 26
+21/11/2017 Tue 00:28:01:   106, 106, 30
+21/11/2017 Tue 00:28:01:   107, 107, 42
+21/11/2017 Tue 00:28:01:   108, 108, 26
+21/11/2017 Tue 00:28:01:   109, 109, 27
+21/11/2017 Tue 00:28:01:   110, 110, 66
+21/11/2017 Tue 00:28:01:   111, 111, 38
+21/11/2017 Tue 00:28:01:   112, 112, 34
+21/11/2017 Tue 00:28:01:   113, 113, 45
+21/11/2017 Tue 00:28:01:   114, 114, 25
+21/11/2017 Tue 00:28:01:   115, 115, 37
+21/11/2017 Tue 00:28:01:   116, 116, 34
+21/11/2017 Tue 00:28:01:   117, 117, 29
+21/11/2017 Tue 00:28:01:   118, 118, 24
+21/11/2017 Tue 00:28:01:   119, 119, 54
+21/11/2017 Tue 00:28:01:   120, 120, 37
+21/11/2017 Tue 00:28:01:   121, 121, 28
+21/11/2017 Tue 00:28:01:   122, 122, 34
+21/11/2017 Tue 00:28:01:   123, 123, 30
+21/11/2017 Tue 00:28:01:   124, 124, 44
+21/11/2017 Tue 00:28:01:   125, 125, 43
+21/11/2017 Tue 00:28:01:   126, 126, 34
+21/11/2017 Tue 00:28:01:   127, 127, 31
+21/11/2017 Tue 00:28:01:   128, 128, 25
+21/11/2017 Tue 00:28:01:   129, 129, 33
+21/11/2017 Tue 00:28:01:   130, 130, 32
+21/11/2017 Tue 00:28:01:   131, 131, 30
+21/11/2017 Tue 00:28:01:   132, 132, 36
+21/11/2017 Tue 00:28:01:   133, 133, 27
+21/11/2017 Tue 00:28:01:   134, 134, 17
+21/11/2017 Tue 00:28:01:   135, 135, 45
+21/11/2017 Tue 00:28:01:   136, 136, 29
+21/11/2017 Tue 00:28:01:   137, 137, 27
+21/11/2017 Tue 00:28:01:   138, 138, 24
+21/11/2017 Tue 00:28:01:   139, 139, 30
+21/11/2017 Tue 00:28:01:   140, 140, 24
+21/11/2017 Tue 00:28:01:   141, 141, 34
+21/11/2017 Tue 00:28:01:   142, 142, 31
+21/11/2017 Tue 00:28:01:   143, 143, 29
+21/11/2017 Tue 00:28:01:   144, 144, 30
+21/11/2017 Tue 00:28:01:   145, 145, 17
+21/11/2017 Tue 00:28:01:   146, 146, 35
+21/11/2017 Tue 00:28:01:   147, 147, 47
+21/11/2017 Tue 00:28:01:   148, 148, 31
+21/11/2017 Tue 00:28:01:   149, 149, 31
+21/11/2017 Tue 00:28:01:   150, 150, 28
+21/11/2017 Tue 00:28:01:   151, 151, 28
+21/11/2017 Tue 00:28:01:   152, 152, 36
+21/11/2017 Tue 00:28:01:   153, 153, 33
+21/11/2017 Tue 00:28:01:   154, 154, 25
+21/11/2017 Tue 00:28:01:   155, 155, 25
+21/11/2017 Tue 00:28:01:   156, 156, 29
+21/11/2017 Tue 00:28:01:   157, 157, 33
+21/11/2017 Tue 00:28:01:   158, 158, 32
+21/11/2017 Tue 00:28:01:   Clusters...: 159
+21/11/2017 Tue 00:28:09:/------ Begin of Script
+21/11/2017 Tue 00:28:09:epsilon: 0.04 minPts: 25
+21/11/2017 Tue 00:28:09:   Type.......: Cell
+21/11/2017 Tue 00:28:09:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:09:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:09:   Map Matrix
+21/11/2017 Tue 00:28:09:   -1, -1, 520
+21/11/2017 Tue 00:28:09:   16, 0, 453
+21/11/2017 Tue 00:28:09:   0, 0, 76
+21/11/2017 Tue 00:28:09:   18, 1, 352
+21/11/2017 Tue 00:28:09:   1, 1, 217
+21/11/2017 Tue 00:28:09:   3, 2, 397
+21/11/2017 Tue 00:28:09:   2, 2, 370
+21/11/2017 Tue 00:28:09:   6, 3, 450
+21/11/2017 Tue 00:28:09:   32, 4, 427
+21/11/2017 Tue 00:28:09:   4, 4, 115
+21/11/2017 Tue 00:28:09:   11, 5, 345
+21/11/2017 Tue 00:28:09:   5, 5, 114
+21/11/2017 Tue 00:28:09:   7, 7, 68
+21/11/2017 Tue 00:28:09:   8, 8, 377
+21/11/2017 Tue 00:28:09:   9, 9, 90
+21/11/2017 Tue 00:28:09:   10, 10, 69
+21/11/2017 Tue 00:28:09:   12, 12, 246
+21/11/2017 Tue 00:28:09:   13, 13, 95
+21/11/2017 Tue 00:28:09:   14, 14, 183
+21/11/2017 Tue 00:28:09:   15, 15, 274
+21/11/2017 Tue 00:28:09:   17, 17, 80
+21/11/2017 Tue 00:28:09:   19, 19, 50
+21/11/2017 Tue 00:28:09:   20, 20, 32
+21/11/2017 Tue 00:28:09:   21, 21, 124
+21/11/2017 Tue 00:28:09:   22, 22, 61
+21/11/2017 Tue 00:28:09:   23, 23, 287
+21/11/2017 Tue 00:28:09:   24, 24, 83
+21/11/2017 Tue 00:28:09:   25, 25, 316
+21/11/2017 Tue 00:28:09:   26, 26, 36
+21/11/2017 Tue 00:28:09:   27, 27, 67
+21/11/2017 Tue 00:28:09:   28, 28, 130
+21/11/2017 Tue 00:28:09:   29, 29, 111
+21/11/2017 Tue 00:28:09:   30, 30, 27
+21/11/2017 Tue 00:28:09:   31, 31, 75
+21/11/2017 Tue 00:28:09:   33, 33, 67
+21/11/2017 Tue 00:28:09:   34, 34, 333
+21/11/2017 Tue 00:28:09:   35, 35, 89
+21/11/2017 Tue 00:28:09:   36, 36, 62
+21/11/2017 Tue 00:28:09:   37, 37, 33
+21/11/2017 Tue 00:28:09:   38, 38, 34
+21/11/2017 Tue 00:28:09:   39, 39, 26
+21/11/2017 Tue 00:28:09:   40, 40, 29
+21/11/2017 Tue 00:28:09:   41, 41, 30
+21/11/2017 Tue 00:28:10:   Clusters...: 42
+21/11/2017 Tue 00:28:26:   FM.........: 0.4422320718489746
+21/11/2017 Tue 00:28:26:End of Script ------/
+21/11/2017 Tue 00:28:36:/------ Begin of Script
+21/11/2017 Tue 00:28:36:epsilon: 0.05 minPts: 40
+21/11/2017 Tue 00:28:36:   Type.......: Cell
+21/11/2017 Tue 00:28:36:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:36:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:37:   Map Matrix
+21/11/2017 Tue 00:28:37:   -1, -1, 365
+21/11/2017 Tue 00:28:37:   0, 4, 1206
+21/11/2017 Tue 00:28:37:   Clusters...: 1
+21/11/2017 Tue 00:28:47:/------ Begin of Script
+21/11/2017 Tue 00:28:47:epsilon: 0.04 minPts: 30
+21/11/2017 Tue 00:28:47:   Type.......: Cell
+21/11/2017 Tue 00:28:47:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:47:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:28:47:   Map Matrix
+21/11/2017 Tue 00:28:47:   -1, -1, 551
+21/11/2017 Tue 00:28:47:   16, 0, 453
+21/11/2017 Tue 00:28:47:   0, 0, 76
+21/11/2017 Tue 00:28:47:   18, 1, 352
+21/11/2017 Tue 00:28:47:   1, 1, 217
+21/11/2017 Tue 00:28:47:   3, 2, 397
+21/11/2017 Tue 00:28:47:   2, 2, 370
+21/11/2017 Tue 00:28:47:   6, 3, 450
+21/11/2017 Tue 00:28:47:   30, 4, 427
+21/11/2017 Tue 00:28:47:   4, 4, 115
+21/11/2017 Tue 00:28:47:   11, 5, 345
+21/11/2017 Tue 00:28:47:   5, 5, 114
+21/11/2017 Tue 00:28:47:   7, 7, 68
+21/11/2017 Tue 00:28:47:   8, 8, 377
+21/11/2017 Tue 00:28:47:   9, 9, 90
+21/11/2017 Tue 00:28:47:   10, 10, 69
+21/11/2017 Tue 00:28:47:   12, 12, 246
+21/11/2017 Tue 00:28:47:   13, 13, 95
+21/11/2017 Tue 00:28:47:   14, 14, 183
+21/11/2017 Tue 00:28:47:   15, 15, 274
+21/11/2017 Tue 00:28:47:   17, 17, 80
+21/11/2017 Tue 00:28:47:   19, 19, 50
+21/11/2017 Tue 00:28:47:   20, 20, 32
+21/11/2017 Tue 00:28:47:   21, 21, 124
+21/11/2017 Tue 00:28:47:   22, 22, 61
+21/11/2017 Tue 00:28:47:   23, 23, 287
+21/11/2017 Tue 00:28:47:   24, 24, 83
+21/11/2017 Tue 00:28:47:   25, 25, 316
+21/11/2017 Tue 00:28:47:   26, 26, 36
+21/11/2017 Tue 00:28:47:   27, 27, 67
+21/11/2017 Tue 00:28:47:   28, 28, 130
+21/11/2017 Tue 00:28:47:   29, 29, 75
+21/11/2017 Tue 00:28:47:   31, 31, 67
+21/11/2017 Tue 00:28:47:   32, 32, 333
+21/11/2017 Tue 00:28:47:   33, 33, 89
+21/11/2017 Tue 00:28:47:   34, 34, 111
+21/11/2017 Tue 00:28:47:   35, 35, 62
+21/11/2017 Tue 00:28:47:   36, 36, 33
+21/11/2017 Tue 00:28:47:   37, 37, 34
+21/11/2017 Tue 00:28:47:   38, 38, 29
+21/11/2017 Tue 00:28:47:   39, 39, 30
+21/11/2017 Tue 00:28:47:   40, 40, 26
+21/11/2017 Tue 00:28:47:   Clusters...: 41
+21/11/2017 Tue 00:29:02:   FM.........: 0.4462977435848869
+21/11/2017 Tue 00:29:02:End of Script ------/
+21/11/2017 Tue 00:29:13:/------ Begin of Script
+21/11/2017 Tue 00:29:13:epsilon: 0.04 minPts: 35
+21/11/2017 Tue 00:29:13:   Type.......: Cell
+21/11/2017 Tue 00:29:13:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:29:13:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:29:14:   Map Matrix
+21/11/2017 Tue 00:29:14:   -1, -1, 598
+21/11/2017 Tue 00:29:14:   15, 0, 453
+21/11/2017 Tue 00:29:14:   0, 0, 76
+21/11/2017 Tue 00:29:14:   18, 1, 352
+21/11/2017 Tue 00:29:14:   1, 1, 217
+21/11/2017 Tue 00:29:14:   17, 2, 397
+21/11/2017 Tue 00:29:14:   2, 2, 370
+21/11/2017 Tue 00:29:14:   5, 3, 450
+21/11/2017 Tue 00:29:14:   3, 3, 115
+21/11/2017 Tue 00:29:14:   29, 4, 427
+21/11/2017 Tue 00:29:14:   4, 4, 114
+21/11/2017 Tue 00:29:14:   10, 5, 345
+21/11/2017 Tue 00:29:14:   6, 6, 68
+21/11/2017 Tue 00:29:14:   7, 7, 377
+21/11/2017 Tue 00:29:14:   8, 8, 90
+21/11/2017 Tue 00:29:14:   9, 9, 69
+21/11/2017 Tue 00:29:14:   11, 11, 246
+21/11/2017 Tue 00:29:14:   12, 12, 95
+21/11/2017 Tue 00:29:14:   13, 13, 183
+21/11/2017 Tue 00:29:14:   14, 14, 130
+21/11/2017 Tue 00:29:14:   16, 16, 80
+21/11/2017 Tue 00:29:14:   19, 19, 50
+21/11/2017 Tue 00:29:14:   20, 20, 124
+21/11/2017 Tue 00:29:14:   21, 21, 61
+21/11/2017 Tue 00:29:14:   22, 22, 287
+21/11/2017 Tue 00:29:14:   23, 23, 83
+21/11/2017 Tue 00:29:14:   24, 24, 316
+21/11/2017 Tue 00:29:14:   25, 25, 36
+21/11/2017 Tue 00:29:14:   26, 26, 67
+21/11/2017 Tue 00:29:14:   27, 27, 130
+21/11/2017 Tue 00:29:14:   28, 28, 75
+21/11/2017 Tue 00:29:14:   30, 30, 67
+21/11/2017 Tue 00:29:14:   31, 31, 333
+21/11/2017 Tue 00:29:14:   32, 32, 144
+21/11/2017 Tue 00:29:14:   33, 33, 89
+21/11/2017 Tue 00:29:14:   34, 34, 111
+21/11/2017 Tue 00:29:14:   35, 35, 62
+21/11/2017 Tue 00:29:14:   36, 36, 34
+21/11/2017 Tue 00:29:14:   Clusters...: 37
+21/11/2017 Tue 00:29:29:   FM.........: 0.4557905526928344
+21/11/2017 Tue 00:29:29:End of Script ------/
+21/11/2017 Tue 00:29:39:/------ Begin of Script
+21/11/2017 Tue 00:29:39:epsilon: 0.04 minPts: 40
+21/11/2017 Tue 00:29:39:   Type.......: Cell
+21/11/2017 Tue 00:29:39:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:29:39:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:29:39:   Map Matrix
+21/11/2017 Tue 00:29:39:   -1, -1, 627
+21/11/2017 Tue 00:29:39:   15, 0, 453
+21/11/2017 Tue 00:29:39:   0, 0, 76
+21/11/2017 Tue 00:29:39:   18, 1, 352
+21/11/2017 Tue 00:29:39:   1, 1, 217
+21/11/2017 Tue 00:29:39:   17, 2, 397
+21/11/2017 Tue 00:29:39:   2, 2, 370
+21/11/2017 Tue 00:29:39:   5, 3, 450
+21/11/2017 Tue 00:29:39:   3, 3, 115
+21/11/2017 Tue 00:29:39:   28, 4, 427
+21/11/2017 Tue 00:29:39:   4, 4, 114
+21/11/2017 Tue 00:29:39:   10, 5, 345
+21/11/2017 Tue 00:29:39:   6, 6, 68
+21/11/2017 Tue 00:29:39:   7, 7, 363
+21/11/2017 Tue 00:29:39:   8, 8, 90
+21/11/2017 Tue 00:29:39:   9, 9, 69
+21/11/2017 Tue 00:29:39:   11, 11, 246
+21/11/2017 Tue 00:29:39:   12, 12, 95
+21/11/2017 Tue 00:29:39:   13, 13, 183
+21/11/2017 Tue 00:29:39:   14, 14, 102
+21/11/2017 Tue 00:29:39:   16, 16, 80
+21/11/2017 Tue 00:29:39:   19, 19, 50
+21/11/2017 Tue 00:29:39:   20, 20, 124
+21/11/2017 Tue 00:29:39:   21, 21, 61
+21/11/2017 Tue 00:29:39:   22, 22, 287
+21/11/2017 Tue 00:29:39:   23, 23, 83
+21/11/2017 Tue 00:29:39:   24, 24, 316
+21/11/2017 Tue 00:29:39:   25, 25, 67
+21/11/2017 Tue 00:29:39:   26, 26, 130
+21/11/2017 Tue 00:29:39:   27, 27, 75
+21/11/2017 Tue 00:29:39:   29, 29, 67
+21/11/2017 Tue 00:29:39:   30, 30, 333
+21/11/2017 Tue 00:29:39:   31, 31, 144
+21/11/2017 Tue 00:29:39:   32, 32, 59
+21/11/2017 Tue 00:29:39:   33, 33, 111
+21/11/2017 Tue 00:29:39:   34, 34, 62
+21/11/2017 Tue 00:29:39:   Clusters...: 35
+21/11/2017 Tue 00:29:53:   FM.........: 0.4450588386518361
+21/11/2017 Tue 00:29:53:End of Script ------/
+21/11/2017 Tue 00:30:04:/------ Begin of Script
+21/11/2017 Tue 00:30:04:epsilon: 0.04 minPts: 37
+21/11/2017 Tue 00:30:04:   Type.......: Cell
+21/11/2017 Tue 00:30:04:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:30:04:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:30:04:   Map Matrix
+21/11/2017 Tue 00:30:04:   -1, -1, 614
+21/11/2017 Tue 00:30:04:   15, 0, 453
+21/11/2017 Tue 00:30:04:   0, 0, 76
+21/11/2017 Tue 00:30:04:   18, 1, 352
+21/11/2017 Tue 00:30:04:   1, 1, 217
+21/11/2017 Tue 00:30:04:   17, 2, 397
+21/11/2017 Tue 00:30:04:   2, 2, 370
+21/11/2017 Tue 00:30:04:   5, 3, 450
+21/11/2017 Tue 00:30:04:   3, 3, 115
+21/11/2017 Tue 00:30:04:   29, 4, 427
+21/11/2017 Tue 00:30:04:   4, 4, 114
+21/11/2017 Tue 00:30:04:   10, 5, 345
+21/11/2017 Tue 00:30:04:   6, 6, 68
+21/11/2017 Tue 00:30:04:   7, 7, 363
+21/11/2017 Tue 00:30:04:   8, 8, 90
+21/11/2017 Tue 00:30:04:   9, 9, 69
+21/11/2017 Tue 00:30:04:   11, 11, 246
+21/11/2017 Tue 00:30:04:   12, 12, 95
+21/11/2017 Tue 00:30:04:   13, 13, 183
+21/11/2017 Tue 00:30:04:   14, 14, 102
+21/11/2017 Tue 00:30:04:   16, 16, 80
+21/11/2017 Tue 00:30:04:   19, 19, 50
+21/11/2017 Tue 00:30:04:   20, 20, 124
+21/11/2017 Tue 00:30:04:   21, 21, 61
+21/11/2017 Tue 00:30:04:   22, 22, 287
+21/11/2017 Tue 00:30:04:   23, 23, 83
+21/11/2017 Tue 00:30:04:   24, 24, 316
+21/11/2017 Tue 00:30:04:   25, 25, 36
+21/11/2017 Tue 00:30:04:   26, 26, 67
+21/11/2017 Tue 00:30:04:   27, 27, 130
+21/11/2017 Tue 00:30:04:   28, 28, 75
+21/11/2017 Tue 00:30:04:   30, 30, 67
+21/11/2017 Tue 00:30:04:   31, 31, 333
+21/11/2017 Tue 00:30:04:   32, 32, 144
+21/11/2017 Tue 00:30:04:   33, 33, 89
+21/11/2017 Tue 00:30:04:   34, 34, 111
+21/11/2017 Tue 00:30:04:   35, 35, 62
+21/11/2017 Tue 00:30:05:   Clusters...: 36
+21/11/2017 Tue 00:30:21:   FM.........: 0.449980025010222
+21/11/2017 Tue 00:30:21:End of Script ------/
+21/11/2017 Tue 00:30:33:/------ Begin of Script
+21/11/2017 Tue 00:30:33:epsilon: 0.041 minPts: 37
+21/11/2017 Tue 00:30:33:   Type.......: Cell
+21/11/2017 Tue 00:30:33:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:30:33:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:30:33:   Map Matrix
+21/11/2017 Tue 00:30:33:   -1, -1, 568
+21/11/2017 Tue 00:30:33:   14, 0, 453
+21/11/2017 Tue 00:30:33:   0, 0, 76
+21/11/2017 Tue 00:30:33:   16, 1, 353
+21/11/2017 Tue 00:30:33:   1, 1, 246
+21/11/2017 Tue 00:30:33:   5, 2, 421
+21/11/2017 Tue 00:30:33:   2, 2, 370
+21/11/2017 Tue 00:30:33:   6, 3, 451
+21/11/2017 Tue 00:30:33:   3, 3, 397
+21/11/2017 Tue 00:30:33:   24, 4, 441
+21/11/2017 Tue 00:30:33:   4, 4, 115
+21/11/2017 Tue 00:30:33:   11, 5, 345
+21/11/2017 Tue 00:30:33:   7, 7, 68
+21/11/2017 Tue 00:30:33:   8, 8, 363
+21/11/2017 Tue 00:30:33:   9, 9, 90
+21/11/2017 Tue 00:30:33:   10, 10, 98
+21/11/2017 Tue 00:30:33:   12, 12, 352
+21/11/2017 Tue 00:30:33:   13, 13, 274
+21/11/2017 Tue 00:30:33:   15, 15, 80
+21/11/2017 Tue 00:30:33:   17, 17, 50
+21/11/2017 Tue 00:30:33:   18, 18, 97
+21/11/2017 Tue 00:30:33:   19, 19, 287
+21/11/2017 Tue 00:30:33:   20, 20, 316
+21/11/2017 Tue 00:30:33:   21, 21, 67
+21/11/2017 Tue 00:30:33:   22, 22, 130
+21/11/2017 Tue 00:30:33:   23, 23, 75
+21/11/2017 Tue 00:30:33:   25, 25, 67
+21/11/2017 Tue 00:30:33:   26, 26, 333
+21/11/2017 Tue 00:30:33:   27, 27, 89
+21/11/2017 Tue 00:30:33:   Clusters...: 28
+21/11/2017 Tue 00:30:48:   FM.........: 0.42537178356812017
+21/11/2017 Tue 00:30:48:End of Script ------/
+21/11/2017 Tue 00:31:08:/------ Begin of Script
+21/11/2017 Tue 00:31:08:epsilon: 0.042 minPts: 37
+21/11/2017 Tue 00:31:08:   Type.......: Cell
+21/11/2017 Tue 00:31:08:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:31:08:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:31:09:   Map Matrix
+21/11/2017 Tue 00:31:09:   -1, -1, 543
+21/11/2017 Tue 00:31:09:   13, 0, 453
+21/11/2017 Tue 00:31:09:   0, 0, 76
+21/11/2017 Tue 00:31:09:   14, 1, 354
+21/11/2017 Tue 00:31:09:   1, 2, 667
+21/11/2017 Tue 00:31:09:   2, 2, 370
+21/11/2017 Tue 00:31:09:   5, 3, 451
+21/11/2017 Tue 00:31:09:   3, 3, 430
+21/11/2017 Tue 00:31:09:   7, 4, 804
+21/11/2017 Tue 00:31:09:   4, 4, 115
+21/11/2017 Tue 00:31:09:   10, 5, 721
+21/11/2017 Tue 00:31:09:   6, 6, 68
+21/11/2017 Tue 00:31:09:   8, 8, 90
+21/11/2017 Tue 00:31:09:   9, 9, 98
+21/11/2017 Tue 00:31:09:   11, 11, 352
+21/11/2017 Tue 00:31:09:   12, 12, 274
+21/11/2017 Tue 00:31:09:   15, 15, 50
+21/11/2017 Tue 00:31:09:   16, 16, 413
+21/11/2017 Tue 00:31:09:   17, 17, 67
+21/11/2017 Tue 00:31:09:   18, 18, 130
+21/11/2017 Tue 00:31:09:   19, 19, 75
+21/11/2017 Tue 00:31:09:   20, 20, 67
+21/11/2017 Tue 00:31:09:   21, 21, 333
+21/11/2017 Tue 00:31:09:   Clusters...: 22
+21/11/2017 Tue 00:31:24:   FM.........: 0.469777284612997
+21/11/2017 Tue 00:31:24:End of Script ------/
+21/11/2017 Tue 00:31:35:/------ Begin of Script
+21/11/2017 Tue 00:31:35:epsilon: 0.044 minPts: 37
+21/11/2017 Tue 00:31:35:   Type.......: Cell
+21/11/2017 Tue 00:31:35:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:31:35:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:31:35:   Map Matrix
+21/11/2017 Tue 00:31:35:   -1, -1, 492
+21/11/2017 Tue 00:31:35:   0, 0, 1173
+21/11/2017 Tue 00:31:35:   5, 1, 354
+21/11/2017 Tue 00:31:35:   1, 2, 1198
+21/11/2017 Tue 00:31:35:   2, 3, 750
+21/11/2017 Tue 00:31:35:   3, 4, 1131
+21/11/2017 Tue 00:31:35:   4, 5, 721
+21/11/2017 Tue 00:31:35:   6, 6, 413
+21/11/2017 Tue 00:31:35:   7, 7, 75
+21/11/2017 Tue 00:31:35:   8, 8, 333
+21/11/2017 Tue 00:31:35:   Clusters...: 9
+21/11/2017 Tue 00:31:52:   FM.........: 0.6806614015428589
+21/11/2017 Tue 00:31:52:End of Script ------/
+21/11/2017 Tue 00:32:02:/------ Begin of Script
+21/11/2017 Tue 00:32:02:epsilon: 0.045 minPts: 37
+21/11/2017 Tue 00:32:02:   Type.......: Cell
+21/11/2017 Tue 00:32:02:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:32:02:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:32:02:   Map Matrix
+21/11/2017 Tue 00:32:02:   -1, -1, 428
+21/11/2017 Tue 00:32:02:   0, 0, 1173
+21/11/2017 Tue 00:32:02:   2, 1, 354
+21/11/2017 Tue 00:32:02:   1, 4, 1206
+21/11/2017 Tue 00:32:02:   Clusters...: 3
+21/11/2017 Tue 00:32:12:/------ Begin of Script
+21/11/2017 Tue 00:32:12:epsilon: 0.0445 minPts: 37
+21/11/2017 Tue 00:32:12:   Type.......: Cell
+21/11/2017 Tue 00:32:12:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:32:12:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:32:13:   Map Matrix
+21/11/2017 Tue 00:32:13:   -1, -1, 444
+21/11/2017 Tue 00:32:13:   0, 0, 1173
+21/11/2017 Tue 00:32:13:   3, 1, 354
+21/11/2017 Tue 00:32:13:   2, 3, 750
+21/11/2017 Tue 00:32:13:   1, 4, 1206
+21/11/2017 Tue 00:32:13:   4, 4, 413
+21/11/2017 Tue 00:32:13:   5, 5, 333
+21/11/2017 Tue 00:32:13:   Clusters...: 6
+21/11/2017 Tue 00:32:28:   FM.........: 0.49050930398833664
+21/11/2017 Tue 00:32:28:End of Script ------/
+21/11/2017 Tue 00:32:47:/------ Begin of Script
+21/11/2017 Tue 00:32:47:epsilon: 0.044 minPts: 37
+21/11/2017 Tue 00:32:47:   Type.......: Cell
+21/11/2017 Tue 00:32:47:   Input File.: ../data/cluto-t5.8k/central/4.mapClusterOutput/expanded-points-cluto-t5.8k.csv
+21/11/2017 Tue 00:32:47:   Output File: ../data/cluto-t5.8k/central/6.resultsDBSCAN/output-cells-DBSCAN-cluto-t5.8k.csv
+21/11/2017 Tue 00:32:47:   Map Matrix
+21/11/2017 Tue 00:32:47:   -1, -1, 492
+21/11/2017 Tue 00:32:47:   0, 0, 1173
+21/11/2017 Tue 00:32:47:   5, 1, 354
+21/11/2017 Tue 00:32:47:   1, 2, 1198
+21/11/2017 Tue 00:32:47:   2, 3, 750
+21/11/2017 Tue 00:32:47:   3, 4, 1131
+21/11/2017 Tue 00:32:47:   4, 5, 721
+21/11/2017 Tue 00:32:47:   6, 6, 413
+21/11/2017 Tue 00:32:47:   7, 7, 75
+21/11/2017 Tue 00:32:47:   8, 8, 333
+21/11/2017 Tue 00:32:47:   Clusters...: 9
+21/11/2017 Tue 00:33:26:   FM.........: 0.6806614015428589
+21/11/2017 Tue 00:33:26:End of Script ------/

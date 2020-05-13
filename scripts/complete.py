@@ -47,6 +47,16 @@ def writeLog(msgLog):
     fLog.write(time.strftime('%d/%m/%Y %a %H:%M:%S') + ":" + msgLog)
     return;
 
+def writeResultsHeader():
+    fRes.write("time-stamp,epsilon,minForce,minCells,FM-points,FM-cells,notes" + "\n")
+
+def writeResults(epsilon, force, cells, fmP, rand, jac, obs):
+    fRes.write(time.strftime('%d/%m/%Y %a %H:%M:%S'))
+    msg = ",%03d,%6.4f,%03d,%07.5f,%07.5f,%07.5f,%s\n" % (epsilon, force, cells, fmP, rand, jac, obs)
+    fRes.write(msg)
+    return;
+
+
 def showHeader():
     print("gCluster algorithm - Script to all phases")
     print("Developed by Ricardo Brandao: https://github.com/programonauta/grid-clustering")
@@ -60,10 +70,9 @@ def showHelp():
     print("\t-e <epsilon>\tValue of epsilon: default = 10")
     print("\t-m <cells>\tMinimum Cells (default: 3)")
     print("\t-f <force>\tMinimum Force (default: 150)")
-    print("\t-r\t\tDon't draw rectangles")
-    print("\t-g\t\tDon't draw edges")
-    print("\t-p\t\tDraw points")
-    print("\t-b\t\tDraw numbers")
+    print("\t-p Run with points")
+    print("\t-n Draw Numbers")
+    print("\t-x\t\tDon't validate")
     return
 
 
@@ -96,6 +105,13 @@ hasHelp, opt = parseOpt("-h", False)
 if (hasHelp > 0):
     showHelp()
     exit(1)
+
+hasNumbers, opt = parseOpt("-n", False)
+
+if hasNumbers:
+    optNumbers = "-b"
+else:
+    optNumbers = ""
 
 # verify if directory is defined
 hasDir, nameDir = parseOpt("-d", True)
@@ -148,15 +164,11 @@ else:
     if not isfloat(force):
         showError("Force " + force + " is not a valid value")
     force = float(force)
-    if force <= 0:
+    if force < 0:
         showError("Invalid value for force:" + str(force))
 
-# Verify if don't draw rectangle
-optRect, opt = parseOpt("-r", False)
-if optRect:
-    optRect = "-r"
-else:
-    optRect = ""
+# Verify if validate
+hasNotValid, opt = parseOpt("-x", False)
 
 # Verify if don't draw edge
 optEdge, opt = parseOpt("-g", False)
@@ -174,12 +186,6 @@ else:
 
 #hasTimeStamp, opt = parseOpt("-t", False)
 
-optNumber, opt = parseOpt("-b", False)
-if optNumber:
-    optNumber = "-b"
-else:
-    optNumber = ""
-
 # Starting process
 #
 # First, let's verify if output directories are created and create them is not exist
@@ -190,16 +196,17 @@ nameSingleDir = nameDirAux[len(nameDirAux) - 1]
 dirSumDataOutput = nameDir + "/central/1.sumDataOutput"
 dirConsolidateOutput = nameDir + "/central/2.deviceConsolidation"
 dirGetClusterOutput = nameDir + "/central/3.getClusterOutput"
-dirStatClusterOutput = nameDir + "/central/4.statClusterOutput"
-dirValidClusterInput = "validClusterInput"
+dirMapClusterOutput = nameDir + "/central/4.mapClusterOutput"
+dirDrawOuput = nameDir + "/central/5.drawOutput"
 
 logFile = nameDir + "/" + nameSingleDir + ".log"
+logResults = nameDir + "/" + nameSingleDir + "-results.csv"
 
 cleanDirectory(dirSumDataOutput)
 cleanDirectory(dirConsolidateOutput)
 cleanDirectory(dirGetClusterOutput)
-cleanDirectory(dirStatClusterOutput)
-cleanDirectory(dirValidClusterInput)
+cleanDirectory(dirMapClusterOutput)
+cleanDirectory(dirDrawOuput)
 
 configFile = nameDir + "/config/config-" + nameSingleDir + ".csv"
 mapDirectory = nameDir + "/config"
@@ -208,16 +215,23 @@ qtyFiles = 0
 listCellsFiles = []
 listPointFiles = []
 
-fLog = open(logFile, "a")
+hasFile = os.path.isfile(logResults)
 
+fLog = open(logFile, "a")
+fRes = open(logResults, "a")
+
+if not hasFile:
+    writeResultsHeader()
+
+writeLog("/------ Begin of Script ------" + "\n")
 writeLog("Directory: " + nameDir + "\n")
-writeLog("   Config File: " + configFile  + "\n")
-writeLog("   Epsilon..: " + str(epsilon)  + "\n")
-writeLog("   sumData"  + "\n")
+writeLog("   Config File: " + configFile + "\n")
+writeLog("   Epsilon..: " + str(epsilon) + "\n")
+writeLog("   sumData" + "\n")
 
 for file in os.listdir(dirInput):
     if file.endswith(".csv"):
-        qtyFiles += 1;
+        qtyFiles += 1
         completeFileName = dirInput + file
         strN = "%02d" % qtyFiles
         # Deal Cell files
@@ -313,59 +327,87 @@ result = call(["../getCluster/bin/getCluster",
                "-i", cellConsOutput,
                "-o", fileGetClusterOutput, ])
 
-fileStatOutputCell = dirStatClusterOutput + "/map-cell-" + nameSingleDir + ".csv"
-fileStatOutputPoint = dirStatClusterOutput + "/map-point-" + nameSingleDir + ".csv"
-fileStatOutputDBSCAN = dirStatClusterOutput + "/map-cell-DBSCAN-" + nameSingleDir + ".csv"
-
-fileValidOutputCell = dirValidClusterInput + "/valid-cell-" + nameSingleDir + ".csv"
-fileValidOutputPoint = dirValidClusterInput + "/valid-point-" + nameSingleDir + ".csv"
-
-optPointOut = ""
-
 if (optPoint == "-p"):
 
-    writeLog("statCluster \n")
+    fileOutputLabeledCells = dirMapClusterOutput + "/labeled-cells-" + nameSingleDir + ".csv"
+    fileOutputLabeledPoints = dirMapClusterOutput + "/labeled-points-" + nameSingleDir + ".csv"
+    fileOutputExpandedPoints = dirMapClusterOutput + "/expanded-points-" + nameSingleDir + ".csv"
+
+    writeLog("mapCluster \n")
     writeLog("   Epsilon............: " + str(epsilon) + "\n")
     writeLog("   Input Cell.........: " + fileGetClusterOutput + "\n")
-    writeLog("   Map Cell gCluster..: " + fileStatOutputCell + "\n")
     writeLog("   Input Point........: " + pointConsOutput + "\n")
-    writeLog("   Map Point gCluster.: " + fileStatOutputPoint + "\n")
-    writeLog("   Map DBSCAN.........: " + fileStatOutputDBSCAN + "\n")
-    writeLog("   Valid Cell.........: " + fileValidOutputCell + "\n")
-    writeLog("   Valid Point........: " + fileValidOutputPoint + "\n")
+    writeLog("   Labeled Cells .....: " + fileOutputLabeledCells + "\n")
+    writeLog("   Labeled Points ....: " + fileOutputLabeledPoints + "\n")
+    writeLog("   Expanded Points....: " + fileOutputExpandedPoints + "\n")
 
-
-    result = call(["../statCluster/bin/statCluster",
-                   "-p", pointConsOutput,
+    result = call(["../mapCluster/bin/mapCluster",
                    "-e", str(epsilon),
+                   "-p", pointConsOutput,
                    "-c", fileGetClusterOutput,
-                   "-1", fileStatOutputPoint,
-                   "-v", fileValidOutputPoint,
-                   "-w", fileValidOutputCell,
-                   "-3", fileStatOutputDBSCAN])
+                   "-m", fileOutputLabeledCells,
+                   "-v", fileOutputLabeledPoints,
+                   "-x", fileOutputExpandedPoints])
 
     if result > 0:
-        showError("Error on statCluster. Input file" + cellConsOutput)
+        showError("Error on mapCluster. Input file:", cellConsOutput)
 
-    print("Validating Points")
+    if not hasNotValid:
+        print("Validating Points. Input File: " + fileOutputLabeledPoints)
+        writeLog("Results-------\n")
+        writeLog("   Input File" + fileOutputLabeledPoints + "\n")
 
-    r, response = validation.validation(fileValidOutputPoint);
-    if r:
-        writeLog("-----\n")
-        writeLog("   FM for gCluster Points: " + str(response) + "\n")
+        r, FMPoints, RandPoints, JacPoints = validation.validation(fileOutputLabeledPoints);
+        if r:
+            writeLog("   FM for gCluster Points..: " + str(FMPoints) + "\n")
+            writeLog("   Rand for gCluster Points..: " + str(RandPoints) + "\n")
+            writeLog("   Jac for gCluster Points..: " + str(JacPoints) + "\n")
+        else:
+            writeLog("Some problem on validation process\n")
+
+        strPoints = " FM Points: %07.5f" % FMPoints
+
     else:
-        writeLog("Some problem on validation process\n")
+        writeLog("Choose not run validation process\n")
+        strPoints = ""
 
-    print("Validating Cells")
+    fileSVGOutput = dirDrawOuput + "/graph-" + nameSingleDir + ".svg"
 
-    r, response = validation.validation(fileStatOutputDBSCAN);  # Actually this file has all points
-    if r:
-        writeLog("   FM for gCluster Cells.: " + str(response) + "\n")
+    writeLog("drawCluster \n")
+    writeLog("   Epsilon.......: " + str(epsilon) + "\n")
+    writeLog("   Input Cell....: " + fileOutputLabeledCells + "\n")
+    writeLog("   Input Point...: " + fileOutputLabeledPoints + "\n")
+    writeLog("   Output SVG....: " + fileSVGOutput + "\n")
+    if (hasNumbers):
+        writeLog("    Draw Numbers..: Yes\n")
     else:
-        writeLog("Some problem on validation process\n")
+        writeLog("    Draw Numbers..: No\n")
 
 
+    titleSVG = "MinForce: " + str(force) + " minCells: " + str(minCell) + strPoints
+
+    result = call(["../drawCluster/bin/drawCluster",
+                   "-e", str(epsilon),
+                   "-p", fileOutputLabeledPoints,
+                   "-c", fileOutputLabeledCells,
+                   "-s", fileSVGOutput,
+                   optNumbers,
+                   "-t", titleSVG])
 
 else:
-    writeLog("statCluster: didn't execute. Don't have -p option")
+    writeLog("mapCluster and drawCluster: didn't execute. Don't have -p option")
 
+comment = input("Enter a comment about this experiment: ")
+
+if comment != "":
+    writeLog("Comment: " + comment+"\n")
+
+if optPoint == "-p":
+    writeResults(epsilon,force,minCell,FMPoints,RandPoints, JacPoints, comment)
+else:
+    writeResults(epsilon,force,minCell,0,comment)
+
+writeLog("------ End of Script ------/" + "\n")
+
+fLog.close()
+fRes.close()

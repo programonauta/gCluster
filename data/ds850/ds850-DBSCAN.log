@@ -1,0 +1,48 @@
+19/11/2017 Sun 14:32:18:/------ Begin of Script
+19/11/2017 Sun 14:32:18:epsilon: 0.3 minPts: 10
+19/11/2017 Sun 14:32:18:   Type.......: Point
+19/11/2017 Sun 14:32:18:   Input File.: ../data/ds850/central/2.deviceConsolidation/points-ds850.csv
+19/11/2017 Sun 14:32:18:   Output File: ../data/ds850/resultsDBSCAN/output-points-DBSCAN-ds850.csv
+19/11/2017 Sun 14:32:19:   Clusters...: 5
+19/11/2017 Sun 14:32:24:   FM.........: 0.9924011745330763
+19/11/2017 Sun 14:32:24:End of Script ------/
+19/11/2017 Sun 14:33:08:/------ Begin of Script
+19/11/2017 Sun 14:33:08:epsilon: 0.3 minPts: 10
+19/11/2017 Sun 14:33:08:   Type.......: Cell
+19/11/2017 Sun 14:33:08:   Input File.: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:08:   Output File: ../data/ds850/resultsDBSCAN/output-cells-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:09:   Clusters...: 19
+19/11/2017 Sun 14:33:13:   FM.........: 0.9821913108264718
+19/11/2017 Sun 14:33:13:End of Script ------/
+19/11/2017 Sun 14:33:26:/------ Begin of Script
+19/11/2017 Sun 14:33:26:epsilon: 0.1 minPts: 1
+19/11/2017 Sun 14:33:26:   Type.......: Cell
+19/11/2017 Sun 14:33:26:   Input File.: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:26:   Output File: ../data/ds850/resultsDBSCAN/output-cells-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:26:   Clusters...: 105
+19/11/2017 Sun 14:33:31:   FM.........: 1.0
+19/11/2017 Sun 14:33:31:End of Script ------/
+19/11/2017 Sun 14:33:42:/------ Begin of Script
+19/11/2017 Sun 14:33:42:epsilon: 0.3 minPts: 1
+19/11/2017 Sun 14:33:42:   Type.......: Cell
+19/11/2017 Sun 14:33:42:   Input File.: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:42:   Output File: ../data/ds850/resultsDBSCAN/output-cells-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:42:   Clusters...: 21
+19/11/2017 Sun 14:33:45:   FM.........: 1.0
+19/11/2017 Sun 14:33:45:End of Script ------/
+19/11/2017 Sun 14:33:52:/------ Begin of Script
+19/11/2017 Sun 14:33:52:epsilon: 0.3 minPts: 10
+19/11/2017 Sun 14:33:52:   Type.......: Cell
+19/11/2017 Sun 14:33:52:   Input File.: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:52:   Output File: ../data/ds850/resultsDBSCAN/output-cells-DBSCAN-ds850.csv
+19/11/2017 Sun 14:33:52:   Clusters...: 19
+19/11/2017 Sun 14:34:05:   FM.........: 0.9821913108264718
+19/11/2017 Sun 14:34:05:End of Script ------/
+19/11/2017 Sun 14:34:19:/------ Begin of Script
+19/11/2017 Sun 14:34:19:epsilon: 0.5 minPts: 10
+19/11/2017 Sun 14:34:19:   Type.......: Cell
+19/11/2017 Sun 14:34:19:   Input File.: ../data/ds850/central/4.statClusterOutput/map-cell-DBSCAN-ds850.csv
+19/11/2017 Sun 14:34:19:   Output File: ../data/ds850/resultsDBSCAN/output-cells-DBSCAN-ds850.csv
+19/11/2017 Sun 14:34:19:   Clusters...: 5
+19/11/2017 Sun 14:34:23:   FM.........: 1.0
+19/11/2017 Sun 14:34:23:End of Script ------/
